@@ -43,9 +43,7 @@ for a in data.get("aircraft", []):
         continue
 
     count_now += 1
-
     old = store["aircraft"].get(hex_id, {})
-
     flight = (a.get("flight") or old.get("flight") or "").strip()
 
     store["aircraft"][hex_id] = {
@@ -91,10 +89,11 @@ for hex_id, a in aircraft_list[:50]:
     track = a.get("track") or "-"
     lat = a.get("lat")
     lon = a.get("lon")
+
     if a.get("last_seen"):
-    last_seen = datetime.fromisoformat(a["last_seen"]).strftime("%d.%m.%Y %H:%M")
-else:
-    last_seen = "-"
+        last_seen = datetime.fromisoformat(a["last_seen"]).strftime("%d.%m.%Y %H:%M")
+    else:
+        last_seen = "-"
 
     rows += f"""
     <tr>
@@ -108,6 +107,8 @@ else:
         <td>{last_seen}</td>
     </tr>
     """
+
+last_update = datetime.fromisoformat(store["summary"]["updated"]).strftime("%d.%m.%Y %H:%M")
 
 # --- HTML ---
 html = f"""<!DOCTYPE html>
@@ -230,7 +231,7 @@ footer {{
         </div>
 
         <div class="card">
-            <div class="value">{datetime.fromisoformat(store["summary"]["updated"]).strftime("%d.%m.%Y %H:%M")}</div>
+            <div class="value">{last_update}</div>
             <div class="label">Last update UTC</div>
         </div>
     </div>
