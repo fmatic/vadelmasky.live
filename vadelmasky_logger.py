@@ -107,6 +107,8 @@ for hex_id, a in aircraft_list[:50]:
         <td>{last_seen}</td>
     </tr>
     """
+
+# --- Build map markers ---
 markers = []
 
 for hex_id, a in aircraft_list[:50]:
@@ -122,8 +124,6 @@ for hex_id, a in aircraft_list[:50]:
         })
 
 markers_json = json.dumps(markers, ensure_ascii=False)
-
-
 last_update = datetime.fromisoformat(store["summary"]["updated"]).strftime("%d.%m.%Y %H:%M")
 
 # --- HTML ---
@@ -133,6 +133,7 @@ html = f"""<!DOCTYPE html>
 <meta charset="utf-8">
 <title>VadelmaSky.live</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
@@ -167,8 +168,6 @@ main {{
     padding: 1.5rem;
 }}
 
-
-
 .cards {{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
@@ -200,6 +199,15 @@ section {{
     border-radius: 14px;
     padding: 1rem;
     overflow-x: auto;
+    margin-bottom: 1.5rem;
+}}
+
+#map {{
+    height: 520px;
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid #2b363d;
+    margin-top: 1rem;
 }}
 
 table {{
@@ -232,35 +240,6 @@ footer {{
 </style>
 </head>
 
-<script>
-const aircraft = {markers_json};
-
-const map = L.map('map').setView([62.24, 25.75], 7);
-
-L.tileLayer('https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
-    maxZoom: 18,
-    attribution: '&copy; OpenStreetMap contributors'
-}}).addTo(map);
-
-L.circle([62.24, 25.75], {{
-    radius: 5000,
-    color: '#41ff41',
-    fillColor: '#41ff41',
-    fillOpacity: 0.15
-}}).addTo(map).bindPopup('VadelmaSky receiver');
-
-aircraft.forEach(a => {{
-    L.marker([a.lat, a.lon]).addTo(map)
-        .bindPopup(`
-            <b>${{a.flight}}</b><br>
-            ICAO: ${{a.hex}}<br>
-            Alt: ${{a.alt}} ft<br>
-            Speed: ${{a.speed}} kt<br>
-            Last seen: ${{a.last_seen}}
-        `);
-}});
-</script>
-
 <body>
 <header>
     <h1>VadelmaSky ✈️</h1>
@@ -268,11 +247,11 @@ aircraft.forEach(a => {{
 </header>
 
 <main>
+    <section>
+        <h2>Map</h2>
+        <div id="map"></div>
+    </section>
 
-<section>
-    <h2>Map</h2>
-    <div id="map"></div>
-</section>
     <div class="cards">
         <div class="card">
             <div class="value">{store["summary"]["total_unique_aircraft"]}</div>
@@ -315,6 +294,35 @@ aircraft.forEach(a => {{
 <footer>
     VadelmaSky.live · Powered by local SDR receivers · Data updates automatically
 </footer>
+
+<script>
+const aircraft = {markers_json};
+
+const map = L.map('map').setView([62.24, 25.75], 7);
+
+L.tileLayer('https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
+    maxZoom: 18,
+    attribution: '&copy; OpenStreetMap contributors'
+}}).addTo(map);
+
+L.circle([62.24, 25.75], {{
+    radius: 5000,
+    color: '#41ff41',
+    fillColor: '#41ff41',
+    fillOpacity: 0.15
+}}).addTo(map).bindPopup('VadelmaSky receiver');
+
+aircraft.forEach(a => {{
+    L.marker([a.lat, a.lon]).addTo(map)
+        .bindPopup(`
+            <b>${{a.flight}}</b><br>
+            ICAO: ${{a.hex}}<br>
+            Alt: ${{a.alt}} ft<br>
+            Speed: ${{a.speed}} kt<br>
+            Last seen: ${{a.last_seen}}
+        `);
+}});
+</script>
 </body>
 </html>
 """
