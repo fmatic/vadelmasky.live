@@ -91,7 +91,10 @@ for hex_id, a in aircraft_list[:50]:
     track = a.get("track") or "-"
     lat = a.get("lat")
     lon = a.get("lon")
-    last_seen = a.get("last_seen", "-").replace("T", " ")[:19]
+    if a.get("last_seen"):
+    last_seen = datetime.fromisoformat(a["last_seen"]).strftime("%d.%m.%Y %H:%M")
+else:
+    last_seen = "-"
 
     rows += f"""
     <tr>
@@ -227,7 +230,7 @@ footer {{
         </div>
 
         <div class="card">
-            <div class="value">{store["summary"]["updated"].replace("T", " ")[:19]}</div>
+            <div class="value">{datetime.fromisoformat(store["summary"]["updated"]).strftime("%d.%m.%Y %H:%M")}</div>
             <div class="label">Last update UTC</div>
         </div>
     </div>
