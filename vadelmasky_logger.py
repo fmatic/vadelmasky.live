@@ -18,7 +18,7 @@ HOME_LAT = 62.24
 HOME_LON = 25.75
 
 BASE = Path.home() / "vadelmasky"
-SITE = BASE / "site"
+SITE = BASE / "docs"
 DATA = SITE / "data"
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
