@@ -10,27 +10,31 @@ SOURCE = Path("/run/adsb-feeder-ultrafeeder/readsb/aircraft.json")
 
 DOCS = BASE / "docs"
 DATA = DOCS / "data"
-TODAY = DOCS / "today.json"
+TODAY_FILE = DOCS / "today.json"
 INDEX = DOCS / "index.html"
 
 DOCS.mkdir(exist_ok=True)
 DATA.mkdir(exist_ok=True)
 
-# --- Lue nykyinen data ---
-if TODAY.exists():
-    with open(TODAY) as f:
+# --- Load existing daily store ---
+if TODAY_FILE.exists():
+    with open(TODAY_FILE, "r", encoding="utf-8") as f:
         store = json.load(f)
 else:
-    store = {"aircraft": {}}
+    store = {"aircraft": {}, "summary": {}}
 
-# --- Lue aircraft.json ---
+if "aircraft" not in store:
+    store["aircraft"] = {}
+
+# --- Read live aircraft.json ---
 if not SOURCE.exists():
-    print("No aircraft.json")
-    exit()
+    print(f"Missing source: {SOURCE}")
+    raise SystemExit(1)
 
-with open(SOURCE) as f:
+with open(SOURCE, "r", encoding="utf-8") as f:
     data = json.load(f)
 
+now = datetime.utcnow().isoformat()
 count_now = 0
 
 for a in data.get("aircraft", []):
@@ -40,58 +44,235 @@ for a in data.get("aircraft", []):
 
     count_now += 1
 
+    old = store["aircraft"].get(hex_id, {})
+
+    flight = (a.get("flight") or old.get("flight") or "").strip()
+
     store["aircraft"][hex_id] = {
-        "flight": a.get("flight", "").strip(),
-        "lat": a.get("lat"),
-        "lon": a.get("lon"),
-        "alt": a.get("alt_baro"),
-        "last_seen": datetime.utcnow().isoformat()
+        "hex": hex_id,
+        "flight": flight,
+        "lat": a.get("lat", old.get("lat")),
+        "lon": a.get("lon", old.get("lon")),
+        "alt": a.get("alt_baro", old.get("alt")),
+        "speed": a.get("gs", old.get("speed")),
+        "track": a.get("track", old.get("track")),
+        "seen_first": old.get("seen_first", now),
+        "last_seen": now,
     }
 
 # --- Summary ---
 store["summary"] = {
     "total_unique_aircraft": len(store["aircraft"]),
     "last_seen_live": count_now,
-    "updated": datetime.utcnow().isoformat()
+    "updated": now,
 }
 
-# --- Tallenna JSON ---
-with open(TODAY, "w") as f:
-    json.dump(store, f, indent=2)
+# --- Save JSON ---
+with open(TODAY_FILE, "w", encoding="utf-8") as f:
+    json.dump(store, f, indent=2, ensure_ascii=False)
+
+date_name = datetime.utcnow().strftime("%Y-%m-%d")
+with open(DATA / f"{date_name}.json", "w", encoding="utf-8") as f:
+    json.dump(store, f, indent=2, ensure_ascii=False)
+
+# --- Build aircraft table ---
+aircraft_list = sorted(
+    store["aircraft"].items(),
+    key=lambda x: x[1].get("last_seen", ""),
+    reverse=True
+)
+
+rows = ""
+
+for hex_id, a in aircraft_list[:50]:
+    flight = a.get("flight") or "-"
+    alt = a.get("alt") or "-"
+    speed = a.get("speed") or "-"
+    track = a.get("track") or "-"
+    lat = a.get("lat")
+    lon = a.get("lon")
+    last_seen = a.get("last_seen", "-").replace("T", " ")[:19]
+
+    rows += f"""
+    <tr>
+        <td>{flight}</td>
+        <td>{hex_id.upper()}</td>
+        <td>{alt}</td>
+        <td>{speed}</td>
+        <td>{track}</td>
+        <td>{lat if lat is not None else "-"}</td>
+        <td>{lon if lon is not None else "-"}</td>
+        <td>{last_seen}</td>
+    </tr>
+    """
 
 # --- HTML ---
-html = f"""
-<!DOCTYPE html>
-<html>
+html = f"""<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>VadelmaSky</title>
+<title>VadelmaSky.live</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-body {{ background:#111; color:#eee; font-family:Arial; }}
-h1 {{ color:#0f0; }}
+body {{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0f1418;
+    color: #e8edf2;
+}}
+
+header {{
+    padding: 2rem;
+    background: linear-gradient(135deg, #07110c, #132019);
+    border-bottom: 1px solid #243225;
+}}
+
+h1 {{
+    margin: 0;
+    font-size: 2.4rem;
+    color: #41ff41;
+}}
+
+.subtitle {{
+    color: #a8b3bd;
+    margin-top: .4rem;
+}}
+
+main {{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}}
+
+.cards {{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}}
+
+.card {{
+    background: #171d22;
+    border: 1px solid #2b363d;
+    border-radius: 14px;
+    padding: 1rem;
+}}
+
+.card .value {{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #7dd3fc;
+}}
+
+.card .label {{
+    color: #a8b3bd;
+    margin-top: .25rem;
+}}
+
+section {{
+    background: #171d22;
+    border: 1px solid #2b363d;
+    border-radius: 14px;
+    padding: 1rem;
+    overflow-x: auto;
+}}
+
+table {{
+    width: 100%;
+    border-collapse: collapse;
+}}
+
+th, td {{
+    text-align: left;
+    padding: .65rem;
+    border-bottom: 1px solid #2b363d;
+    white-space: nowrap;
+}}
+
+th {{
+    color: #93c5fd;
+    font-weight: 600;
+}}
+
+tr:hover {{
+    background: #1f2933;
+}}
+
+footer {{
+    color: #6b7280;
+    padding: 2rem;
+    text-align: center;
+    font-size: .9rem;
+}}
 </style>
 </head>
+
 <body>
-<h1>VadelmaSky ✈️</h1>
-<p>Unique aircraft today: {store["summary"]["total_unique_aircraft"]}</p>
-<p>Aircraft right now: {store["summary"]["last_seen_live"]}</p>
-<p>Last update: {store["summary"]["updated"]}</p>
+<header>
+    <h1>VadelmaSky ✈️</h1>
+    <div class="subtitle">Local ADS-B aviation log from Jyväskylä, Finland</div>
+</header>
+
+<main>
+    <div class="cards">
+        <div class="card">
+            <div class="value">{store["summary"]["total_unique_aircraft"]}</div>
+            <div class="label">Unique aircraft today</div>
+        </div>
+
+        <div class="card">
+            <div class="value">{store["summary"]["last_seen_live"]}</div>
+            <div class="label">Aircraft currently visible</div>
+        </div>
+
+        <div class="card">
+            <div class="value">{store["summary"]["updated"].replace("T", " ")[:19]}</div>
+            <div class="label">Last update UTC</div>
+        </div>
+    </div>
+
+    <section>
+        <h2>Latest aircraft</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Flight</th>
+                    <th>ICAO</th>
+                    <th>Altitude ft</th>
+                    <th>Speed kt</th>
+                    <th>Track</th>
+                    <th>Lat</th>
+                    <th>Lon</th>
+                    <th>Last seen UTC</th>
+                </tr>
+            </thead>
+            <tbody>
+                {rows}
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    VadelmaSky.live · Powered by local SDR receivers · Data updates automatically
+</footer>
 </body>
 </html>
 """
 
-with open(INDEX, "w") as f:
+with open(INDEX, "w", encoding="utf-8") as f:
     f.write(html)
 
-# --- GIT ---
+# --- Git publish ---
 os.chdir(BASE)
 
-os.system("git add docs")
+os.system("git add docs vadelmasky_logger.py")
 
-# commit vain jos muutoksia
 if os.system("git diff --cached --quiet") != 0:
     msg = f"Update flights {datetime.now().strftime('%Y-%m-%d %H:%M')}"
     os.system(f'git commit -m "{msg}"')
+    os.system("git pull --rebase origin main")
     os.system("git push")
 else:
     print("No changes, skipping commit")
