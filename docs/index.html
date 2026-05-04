@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <title>VadelmaSky.live</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <style>
 body {
@@ -35,6 +37,8 @@ main {
     margin: 0 auto;
     padding: 1.5rem;
 }
+
+
 
 .cards {
     display: grid;
@@ -99,6 +103,35 @@ footer {
 </style>
 </head>
 
+<script>
+const aircraft = [{"hex": "4601FB", "flight": "FIN5WR", "lat": 61.465945, "lon": 25.370483, "alt": 17000, "speed": 248.3, "last_seen": "04.05.2026 19:40"}];
+
+const map = L.map('map').setView([62.24, 25.75], 7);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+L.circle([62.24, 25.75], {
+    radius: 5000,
+    color: '#41ff41',
+    fillColor: '#41ff41',
+    fillOpacity: 0.15
+}).addTo(map).bindPopup('VadelmaSky receiver');
+
+aircraft.forEach(a => {
+    L.marker([a.lat, a.lon]).addTo(map)
+        .bindPopup(`
+            <b>${a.flight}</b><br>
+            ICAO: ${a.hex}<br>
+            Alt: ${a.alt} ft<br>
+            Speed: ${a.speed} kt<br>
+            Last seen: ${a.last_seen}
+        `);
+});
+</script>
+
 <body>
 <header>
     <h1>VadelmaSky ✈️</h1>
@@ -106,6 +139,11 @@ footer {
 </header>
 
 <main>
+
+<section>
+    <h2>Map</h2>
+    <div id="map"></div>
+</section>
     <div class="cards">
         <div class="card">
             <div class="value">3</div>
@@ -118,7 +156,7 @@ footer {
         </div>
 
         <div class="card">
-            <div class="value">04.05.2026 19:46</div>
+            <div class="value">04.05.2026 19:51</div>
             <div class="label">Last update UTC</div>
         </div>
     </div>

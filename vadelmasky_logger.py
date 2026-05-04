@@ -237,7 +237,7 @@ const aircraft = {markers_json};
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {{
+L.tileLayer('https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
     maxZoom: 18,
     attribution: '&copy; OpenStreetMap contributors'
 }}).addTo(map);
