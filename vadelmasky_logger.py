@@ -91,7 +91,7 @@ for hex_id, a in aircraft_list[:50]:
     lon = a.get("lon")
 
     if a.get("last_seen"):
-        last_seen = datetime.fromisoformat(a["last_seen"]).strftime("%d.%m.%Y %H:%M")
+        last_seen = datetime.fromisoformat(a["last_seen"]).strftime("%d.%m.%Y %H:%M") + " UTC"
     else:
         last_seen = "-"
 
@@ -319,7 +319,7 @@ aircraft.forEach(a => {{
             ICAO: ${{a.hex}}<br>
             Alt: ${{a.alt}} ft<br>
             Speed: ${{a.speed}} kt<br>
-            Last seen: ${{a.last_seen}}
+            Last seen: ${{a.last_seen}} UTC
         `);
 }});
 </script>
