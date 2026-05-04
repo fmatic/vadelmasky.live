@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>VadelmaSky.live</title>
+<title>VadelmaSky history 2026-05-04</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -124,30 +124,24 @@ footer {
 <main>
 
 <section>
-    <h2>Map</h2>
-    <div id="map"></div>
-    <p class="note">Map shows aircraft with known position captured today.</p>
+    <h2>2026-05-04</h2>
+    <p><a href="/history/">← Back to history</a></p>
 </section>
 
 <div class="cards">
     <div class="card">
         <div class="value">3</div>
-        <div class="label">Unique aircraft today</div>
+        <div class="label">Unique aircraft</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
-        <div class="label">Aircraft currently visible</div>
-    </div>
-
-    <div class="card">
-        <div class="value">04.05.2026 20:08 UTC</div>
-        <div class="label">Last update</div>
+        <div class="value">2026-05-04T20:08:48.069246</div>
+        <div class="label">Raw update timestamp</div>
     </div>
 </div>
 
 <section>
-    <h2>Latest aircraft</h2>
+    <h2>Aircraft for this day</h2>
     <table>
         <thead>
             <tr>
@@ -199,35 +193,6 @@ footer {
         </tbody>
     </table>
 </section>
-
-<script>
-const aircraft = [{"hex": "4601FB", "flight": "FIN5WR", "lat": 61.465945, "lon": 25.370483, "alt": 17000, "speed": 248.3, "last_seen": "04.05.2026 19:40 UTC"}];
-
-const map = L.map('map').setView([62.24, 25.75], 7);
-
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-    attribution: '&copy; OpenStreetMap contributors'
-}).addTo(map);
-
-L.circle([62.24, 25.75], {
-    radius: 5000,
-    color: '#41ff41',
-    fillColor: '#41ff41',
-    fillOpacity: 0.15
-}).addTo(map).bindPopup('VadelmaSky receiver');
-
-aircraft.forEach(a => {
-    L.marker([a.lat, a.lon]).addTo(map)
-        .bindPopup(`
-            <b>${a.flight}</b><br>
-            ICAO: ${a.hex}<br>
-            Alt: ${a.alt} ft<br>
-            Speed: ${a.speed} kt<br>
-            Last seen: ${a.last_seen}
-        `);
-});
-</script>
 
 </main>
 

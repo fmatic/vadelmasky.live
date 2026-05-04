@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import html
 import json
 import os
 from datetime import datetime
@@ -10,133 +11,36 @@ SOURCE = Path("/run/adsb-feeder-ultrafeeder/readsb/aircraft.json")
 
 DOCS = BASE / "docs"
 DATA = DOCS / "data"
+HISTORY = DOCS / "history"
+
 TODAY_FILE = DOCS / "today.json"
 INDEX = DOCS / "index.html"
+HISTORY_INDEX = HISTORY / "index.html"
+
+HOME_LAT = 62.24
+HOME_LON = 25.75
 
 DOCS.mkdir(exist_ok=True)
 DATA.mkdir(exist_ok=True)
+HISTORY.mkdir(exist_ok=True)
 
-# --- Load existing daily store ---
-if TODAY_FILE.exists():
-    with open(TODAY_FILE, "r", encoding="utf-8") as f:
-        store = json.load(f)
-else:
-    store = {"aircraft": {}, "summary": {}}
+def fmt_time(value):
+    if not value:
+        return "-"
+    return datetime.fromisoformat(value).strftime("%d.%m.%Y %H:%M") + " UTC"
 
-if "aircraft" not in store:
-    store["aircraft"] = {}
+def esc(value):
+    return html.escape(str(value)) if value is not None else "-"
 
-# --- Read live aircraft.json ---
-if not SOURCE.exists():
-    print(f"Missing source: {SOURCE}")
-    raise SystemExit(1)
-
-with open(SOURCE, "r", encoding="utf-8") as f:
-    data = json.load(f)
-
-now = datetime.utcnow().isoformat()
-count_now = 0
-
-for a in data.get("aircraft", []):
-    hex_id = a.get("hex")
-    if not hex_id:
-        continue
-
-    count_now += 1
-    old = store["aircraft"].get(hex_id, {})
-    flight = (a.get("flight") or old.get("flight") or "").strip()
-
-    store["aircraft"][hex_id] = {
-        "hex": hex_id,
-        "flight": flight,
-        "lat": a.get("lat", old.get("lat")),
-        "lon": a.get("lon", old.get("lon")),
-        "alt": a.get("alt_baro", old.get("alt")),
-        "speed": a.get("gs", old.get("speed")),
-        "track": a.get("track", old.get("track")),
-        "seen_first": old.get("seen_first", now),
-        "last_seen": now,
-    }
-
-# --- Summary ---
-store["summary"] = {
-    "total_unique_aircraft": len(store["aircraft"]),
-    "last_seen_live": count_now,
-    "updated": now,
-}
-
-# --- Save JSON ---
-with open(TODAY_FILE, "w", encoding="utf-8") as f:
-    json.dump(store, f, indent=2, ensure_ascii=False)
-
-date_name = datetime.utcnow().strftime("%Y-%m-%d")
-with open(DATA / f"{date_name}.json", "w", encoding="utf-8") as f:
-    json.dump(store, f, indent=2, ensure_ascii=False)
-
-# --- Build aircraft table ---
-aircraft_list = sorted(
-    store["aircraft"].items(),
-    key=lambda x: x[1].get("last_seen", ""),
-    reverse=True
-)
-
-rows = ""
-
-for hex_id, a in aircraft_list[:50]:
-    flight = a.get("flight") or "-"
-    alt = a.get("alt") or "-"
-    speed = a.get("speed") or "-"
-    track = a.get("track") or "-"
-    lat = a.get("lat")
-    lon = a.get("lon")
-
-    if a.get("last_seen"):
-        last_seen = datetime.fromisoformat(a["last_seen"]).strftime("%d.%m.%Y %H:%M") + " UTC"
-    else:
-        last_seen = "-"
-
-    rows += f"""
-    <tr>
-        <td>{flight}</td>
-        <td>{hex_id.upper()}</td>
-        <td>{alt}</td>
-        <td>{speed}</td>
-        <td>{track}</td>
-        <td>{lat if lat is not None else "-"}</td>
-        <td>{lon if lon is not None else "-"}</td>
-        <td>{last_seen}</td>
-    </tr>
-    """
-
-# --- Build map markers ---
-markers = []
-
-for hex_id, a in aircraft_list[:50]:
-    if a.get("lat") is not None and a.get("lon") is not None:
-        markers.append({
-            "hex": hex_id.upper(),
-            "flight": a.get("flight") or "-",
-            "lat": a.get("lat"),
-            "lon": a.get("lon"),
-            "alt": a.get("alt") or "-",
-            "speed": a.get("speed") or "-",
-            "last_seen": datetime.fromisoformat(a["last_seen"]).strftime("%d.%m.%Y %H:%M") if a.get("last_seen") else "-"
-        })
-
-markers_json = json.dumps(markers, ensure_ascii=False)
-last_update = datetime.fromisoformat(store["summary"]["updated"]).strftime("%d.%m.%Y %H:%M") + " UTC"
-
-# --- HTML ---
-html = f"""<!DOCTYPE html>
+def page_template(title, body):
+    return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>VadelmaSky.live</title>
+<title>{esc(title)}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
 <style>
 body {{
     margin: 0;
@@ -144,55 +48,59 @@ body {{
     background: #0f1418;
     color: #e8edf2;
 }}
-
 header {{
     padding: 2rem;
     background: linear-gradient(135deg, #07110c, #132019);
     border-bottom: 1px solid #243225;
 }}
-
 h1 {{
     margin: 0;
     font-size: 2.4rem;
     color: #41ff41;
 }}
-
+a {{
+    color: #7dd3fc;
+    text-decoration: none;
+}}
+a:hover {{
+    text-decoration: underline;
+}}
 .subtitle {{
     color: #a8b3bd;
     margin-top: .4rem;
 }}
-
+nav {{
+    margin-top: 1rem;
+}}
+nav a {{
+    margin-right: 1rem;
+}}
 main {{
     max-width: 1150px;
     margin: 0 auto;
     padding: 1.5rem;
 }}
-
 .cards {{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
     gap: 1rem;
     margin-bottom: 1.5rem;
 }}
-
 .card {{
     background: #171d22;
     border: 1px solid #2b363d;
     border-radius: 14px;
     padding: 1rem;
 }}
-
 .card .value {{
     font-size: 2rem;
     font-weight: 700;
     color: #7dd3fc;
 }}
-
 .card .label {{
     color: #a8b3bd;
     margin-top: .25rem;
 }}
-
 section {{
     background: #171d22;
     border: 1px solid #2b363d;
@@ -201,7 +109,6 @@ section {{
     overflow-x: auto;
     margin-bottom: 1.5rem;
 }}
-
 #map {{
     height: 520px;
     width: 100%;
@@ -209,28 +116,27 @@ section {{
     border: 1px solid #2b363d;
     margin-top: 1rem;
 }}
-
 table {{
     width: 100%;
     border-collapse: collapse;
 }}
-
 th, td {{
     text-align: left;
     padding: .65rem;
     border-bottom: 1px solid #2b363d;
     white-space: nowrap;
 }}
-
 th {{
     color: #93c5fd;
     font-weight: 600;
 }}
-
 tr:hover {{
     background: #1f2933;
 }}
-
+.note {{
+    color: #a8b3bd;
+    font-size: .95rem;
+}}
 footer {{
     color: #6b7280;
     padding: 2rem;
@@ -239,73 +145,141 @@ footer {{
 }}
 </style>
 </head>
-
 <body>
 <header>
     <h1>VadelmaSky ✈️</h1>
     <div class="subtitle">Local ADS-B aviation log from Jyväskylä, Finland</div>
+    <nav>
+        <a href="/">Live</a>
+        <a href="/history/">History</a>
+        <a href="/today.json">Today JSON</a>
+    </nav>
 </header>
 
 <main>
-    <section>
-        <h2>Map</h2>
-        <div id="map"></div>
-    </section>
-
-    <div class="cards">
-        <div class="card">
-            <div class="value">{store["summary"]["total_unique_aircraft"]}</div>
-            <div class="label">Unique aircraft today</div>
-        </div>
-
-        <div class="card">
-            <div class="value">{store["summary"]["last_seen_live"]}</div>
-            <div class="label">Aircraft currently visible</div>
-        </div>
-
-        <div class="card">
-            <div class="value">{last_update}</div>
-            <div class="label">Last update UTC</div>
-        </div>
-    </div>
-
-    <section>
-        <h2>Latest aircraft</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Flight</th>
-                    <th>ICAO</th>
-                    <th>Altitude ft</th>
-                    <th>Speed kt</th>
-                    <th>Track</th>
-                    <th>Lat</th>
-                    <th>Lon</th>
-                    <th>Last seen UTC</th>
-                </tr>
-            </thead>
-            <tbody>
-                {rows}
-            </tbody>
-        </table>
-    </section>
+{body}
 </main>
 
 <footer>
     VadelmaSky.live · Powered by local SDR receivers · Data updates automatically
 </footer>
+</body>
+</html>
+"""
+
+def load_store():
+    if TODAY_FILE.exists():
+        with open(TODAY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"aircraft": {}, "summary": {}}
+
+def save_json(path, payload):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+def build_rows(aircraft_items, limit=None):
+    rows = ""
+    items = aircraft_items[:limit] if limit else aircraft_items
+
+    for hex_id, a in items:
+        rows += f"""
+        <tr>
+            <td>{esc(a.get("flight") or "-")}</td>
+            <td>{esc(hex_id.upper())}</td>
+            <td>{esc(a.get("alt") or "-")}</td>
+            <td>{esc(a.get("speed") or "-")}</td>
+            <td>{esc(a.get("track") or "-")}</td>
+            <td>{esc(a.get("lat") if a.get("lat") is not None else "-")}</td>
+            <td>{esc(a.get("lon") if a.get("lon") is not None else "-")}</td>
+            <td>{esc(fmt_time(a.get("last_seen")))}</td>
+        </tr>
+        """
+    return rows
+
+def build_markers(aircraft_items, limit=50):
+    markers = []
+
+    for hex_id, a in aircraft_items[:limit]:
+        if a.get("lat") is not None and a.get("lon") is not None:
+            markers.append({
+                "hex": hex_id.upper(),
+                "flight": a.get("flight") or "-",
+                "lat": a.get("lat"),
+                "lon": a.get("lon"),
+                "alt": a.get("alt") or "-",
+                "speed": a.get("speed") or "-",
+                "last_seen": fmt_time(a.get("last_seen")),
+            })
+
+    return json.dumps(markers, ensure_ascii=False)
+
+def build_live_page(store):
+    aircraft_list = sorted(
+        store["aircraft"].items(),
+        key=lambda x: x[1].get("last_seen", ""),
+        reverse=True
+    )
+
+    rows = build_rows(aircraft_list, limit=50)
+    markers_json = build_markers(aircraft_list, limit=50)
+    last_update = fmt_time(store["summary"].get("updated"))
+
+    body = f"""
+<section>
+    <h2>Map</h2>
+    <div id="map"></div>
+    <p class="note">Map shows aircraft with known position captured today.</p>
+</section>
+
+<div class="cards">
+    <div class="card">
+        <div class="value">{store["summary"]["total_unique_aircraft"]}</div>
+        <div class="label">Unique aircraft today</div>
+    </div>
+
+    <div class="card">
+        <div class="value">{store["summary"]["last_seen_live"]}</div>
+        <div class="label">Aircraft currently visible</div>
+    </div>
+
+    <div class="card">
+        <div class="value">{last_update}</div>
+        <div class="label">Last update</div>
+    </div>
+</div>
+
+<section>
+    <h2>Latest aircraft</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Flight</th>
+                <th>ICAO</th>
+                <th>Altitude ft</th>
+                <th>Speed kt</th>
+                <th>Track</th>
+                <th>Lat</th>
+                <th>Lon</th>
+                <th>Last seen</th>
+            </tr>
+        </thead>
+        <tbody>
+            {rows}
+        </tbody>
+    </table>
+</section>
 
 <script>
 const aircraft = {markers_json};
 
-const map = L.map('map').setView([62.24, 25.75], 7);
+const map = L.map('map').setView([{HOME_LAT}, {HOME_LON}], 7);
 
 L.tileLayer('https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
     maxZoom: 18,
     attribution: '&copy; OpenStreetMap contributors'
 }}).addTo(map);
 
-L.circle([62.24, 25.75], {{
+L.circle([{HOME_LAT}, {HOME_LON}], {{
     radius: 5000,
     color: '#41ff41',
     fillColor: '#41ff41',
@@ -319,26 +293,177 @@ aircraft.forEach(a => {{
             ICAO: ${{a.hex}}<br>
             Alt: ${{a.alt}} ft<br>
             Speed: ${{a.speed}} kt<br>
-            Last seen: ${{a.last_seen}} UTC
+            Last seen: ${{a.last_seen}}
         `);
 }});
 </script>
-</body>
-</html>
 """
+    INDEX.write_text(page_template("VadelmaSky.live", body), encoding="utf-8")
 
-with open(INDEX, "w", encoding="utf-8") as f:
-    f.write(html)
+def build_day_page(date_name, payload):
+    aircraft = payload.get("aircraft", {})
+    summary = payload.get("summary", {})
 
-# --- Git publish ---
-os.chdir(BASE)
+    aircraft_list = sorted(
+        aircraft.items(),
+        key=lambda x: x[1].get("last_seen", ""),
+        reverse=True
+    )
 
-os.system("git add docs vadelmasky_logger.py")
+    rows = build_rows(aircraft_list)
 
-if os.system("git diff --cached --quiet") != 0:
-    msg = f"Update flights {datetime.now().strftime('%Y-%m-%d %H:%M')}"
-    os.system(f'git commit -m "{msg}"')
-    os.system("git pull --rebase origin main")
-    os.system("git push")
-else:
-    print("No changes, skipping commit")
+    body = f"""
+<section>
+    <h2>{esc(date_name)}</h2>
+    <p><a href="/history/">← Back to history</a></p>
+</section>
+
+<div class="cards">
+    <div class="card">
+        <div class="value">{esc(summary.get("total_unique_aircraft", len(aircraft)))}</div>
+        <div class="label">Unique aircraft</div>
+    </div>
+
+    <div class="card">
+        <div class="value">{esc(summary.get("updated", "-"))}</div>
+        <div class="label">Raw update timestamp</div>
+    </div>
+</div>
+
+<section>
+    <h2>Aircraft for this day</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Flight</th>
+                <th>ICAO</th>
+                <th>Altitude ft</th>
+                <th>Speed kt</th>
+                <th>Track</th>
+                <th>Lat</th>
+                <th>Lon</th>
+                <th>Last seen</th>
+            </tr>
+        </thead>
+        <tbody>
+            {rows}
+        </tbody>
+    </table>
+</section>
+"""
+    (HISTORY / f"{date_name}.html").write_text(
+        page_template(f"VadelmaSky history {date_name}", body),
+        encoding="utf-8"
+    )
+
+def build_history_pages():
+    history_rows = ""
+
+    files = sorted(DATA.glob("*.json"), reverse=True)
+
+    for file in files:
+        date_name = file.stem
+
+        try:
+            payload = json.loads(file.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        aircraft_count = len(payload.get("aircraft", {}))
+        updated = fmt_time(payload.get("summary", {}).get("updated"))
+
+        build_day_page(date_name, payload)
+
+        history_rows += f"""
+        <tr>
+            <td><a href="/history/{esc(date_name)}.html">{esc(date_name)}</a></td>
+            <td>{aircraft_count}</td>
+            <td>{esc(updated)}</td>
+            <td><a href="/data/{esc(date_name)}.json">JSON</a></td>
+        </tr>
+        """
+
+    body = f"""
+<section>
+    <h2>History</h2>
+    <p class="note">Daily aircraft logs generated from local ADS-B reception.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Unique aircraft</th>
+                <th>Last update</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            {history_rows}
+        </tbody>
+    </table>
+</section>
+"""
+    HISTORY_INDEX.write_text(page_template("VadelmaSky history", body), encoding="utf-8")
+
+def git_publish():
+    os.chdir(BASE)
+    os.system("git add docs vadelmasky_logger.py")
+
+    if os.system("git diff --cached --quiet") != 0:
+        msg = f"Update flights {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+        os.system(f'git commit -m "{msg}"')
+        os.system("git pull --rebase origin main")
+        os.system("git push")
+    else:
+        print("No changes, skipping commit")
+
+def main():
+    store = load_store()
+
+    if not SOURCE.exists():
+        print(f"Missing source: {SOURCE}")
+        raise SystemExit(1)
+
+    with open(SOURCE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    now = datetime.utcnow().isoformat()
+    count_now = 0
+
+    for a in data.get("aircraft", []):
+        hex_id = a.get("hex")
+        if not hex_id:
+            continue
+
+        count_now += 1
+        old = store["aircraft"].get(hex_id, {})
+        flight = (a.get("flight") or old.get("flight") or "").strip()
+
+        store["aircraft"][hex_id] = {
+            "hex": hex_id,
+            "flight": flight,
+            "lat": a.get("lat", old.get("lat")),
+            "lon": a.get("lon", old.get("lon")),
+            "alt": a.get("alt_baro", old.get("alt")),
+            "speed": a.get("gs", old.get("speed")),
+            "track": a.get("track", old.get("track")),
+            "seen_first": old.get("seen_first", now),
+            "last_seen": now,
+        }
+
+    store["summary"] = {
+        "total_unique_aircraft": len(store["aircraft"]),
+        "last_seen_live": count_now,
+        "updated": now,
+    }
+
+    date_name = datetime.utcnow().strftime("%Y-%m-%d")
+
+    save_json(TODAY_FILE, store)
+    save_json(DATA / f"{date_name}.json", store)
+
+    build_live_page(store)
+    build_history_pages()
+    git_publish()
+
+if __name__ == "__main__":
+    main()
