@@ -124,7 +124,7 @@ for hex_id, a in aircraft_list[:50]:
         })
 
 markers_json = json.dumps(markers, ensure_ascii=False)
-last_update = datetime.fromisoformat(store["summary"]["updated"]).strftime("%d.%m.%Y %H:%M")
+last_update = datetime.fromisoformat(store["summary"]["updated"]).strftime("%d.%m.%Y %H:%M") + " UTC"
 
 # --- HTML ---
 html = f"""<!DOCTYPE html>
