@@ -12,10 +12,14 @@ SOURCE = Path("/run/adsb-feeder-ultrafeeder/readsb/aircraft.json")
 DOCS = BASE / "docs"
 DATA = DOCS / "data"
 HISTORY = DOCS / "history"
+MESSAGES = BASE / "messages"
 
 TODAY_FILE = DOCS / "today.json"
 INDEX = DOCS / "index.html"
 HISTORY_INDEX = HISTORY / "index.html"
+
+ACARS_FILE = MESSAGES / "acars_latest.json"
+VDL2_FILE = MESSAGES / "vdl2_latest.json"
 
 HOME_LAT = 62.24
 HOME_LON = 25.75
@@ -23,14 +27,57 @@ HOME_LON = 25.75
 DOCS.mkdir(exist_ok=True)
 DATA.mkdir(exist_ok=True)
 HISTORY.mkdir(exist_ok=True)
+MESSAGES.mkdir(exist_ok=True)
+
 
 def fmt_time(value):
     if not value:
         return "-"
     return datetime.fromisoformat(value).strftime("%d.%m.%Y %H:%M") + " UTC"
 
+
 def esc(value):
     return html.escape(str(value)) if value is not None else "-"
+
+
+def daily_stats(payload):
+    aircraft = payload.get("aircraft", {})
+    vals = list(aircraft.values())
+
+    with_position = sum(
+        1 for a in vals
+        if a.get("lat") is not None and a.get("lon") is not None
+    )
+
+    highest_alt = max(
+        [a.get("alt") or 0 for a in vals if isinstance(a.get("alt"), int)] or [0]
+    )
+
+    max_speed = max(
+        [a.get("speed") or 0 for a in vals if isinstance(a.get("speed"), (int, float))] or [0]
+    )
+
+    return {
+        "unique": len(aircraft),
+        "with_position": with_position,
+        "highest_alt": highest_alt,
+        "max_speed": round(max_speed, 1),
+    }
+
+
+def load_messages(path, label):
+    if not path.exists():
+        return []
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        items = data if isinstance(data, list) else data.get("messages", [])
+        for item in items:
+            item["source"] = label
+        return items[-10:]
+    except Exception:
+        return []
+
 
 def page_template(title, body):
     return f"""<!DOCTYPE html>
@@ -137,6 +184,29 @@ tr:hover {{
     color: #a8b3bd;
     font-size: .95rem;
 }}
+.receiver-icon {{
+    background: #41ff41;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 18px #41ff41;
+}}
+.message {{
+    background: #101820;
+    border: 1px solid #2b363d;
+    border-radius: 10px;
+    padding: .75rem;
+    margin-bottom: .6rem;
+}}
+.message-source {{
+    color: #7dd3fc;
+    font-weight: 700;
+}}
+.message-time {{
+    color: #a8b3bd;
+    font-size: .9rem;
+}}
 footer {{
     color: #6b7280;
     padding: 2rem;
@@ -167,15 +237,18 @@ footer {{
 </html>
 """
 
+
 def load_store():
     if TODAY_FILE.exists():
         with open(TODAY_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     return {"aircraft": {}, "summary": {}}
 
+
 def save_json(path, payload):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
+
 
 def build_rows(aircraft_items, limit=None):
     rows = ""
@@ -196,6 +269,7 @@ def build_rows(aircraft_items, limit=None):
         """
     return rows
 
+
 def build_markers(aircraft_items, limit=50):
     markers = []
 
@@ -213,6 +287,7 @@ def build_markers(aircraft_items, limit=50):
 
     return json.dumps(markers, ensure_ascii=False)
 
+
 def build_live_page(store):
     aircraft_list = sorted(
         store["aircraft"].items(),
@@ -222,7 +297,24 @@ def build_live_page(store):
 
     rows = build_rows(aircraft_list, limit=50)
     markers_json = build_markers(aircraft_list, limit=50)
+    stats = daily_stats(store)
     last_update = fmt_time(store["summary"].get("updated"))
+
+    messages = load_messages(ACARS_FILE, "ACARS") + load_messages(VDL2_FILE, "VDL2")
+    messages = messages[-12:]
+
+    message_rows = ""
+    if messages:
+        for m in reversed(messages):
+            message_rows += f"""
+            <div class="message">
+                <div><span class="message-source">{esc(m.get("source", "-"))}</span></div>
+                <div class="message-time">{esc(m.get("time", "-"))}</div>
+                <div>{esc(m.get("text", m.get("message", "-")))}</div>
+            </div>
+            """
+    else:
+        message_rows = '<p class="note">No ACARS / VDL2 messages logged yet.</p>'
 
     body = f"""
 <section>
@@ -233,13 +325,28 @@ def build_live_page(store):
 
 <div class="cards">
     <div class="card">
-        <div class="value">{store["summary"]["total_unique_aircraft"]}</div>
+        <div class="value">{stats["unique"]}</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
         <div class="value">{store["summary"]["last_seen_live"]}</div>
         <div class="label">Aircraft currently visible</div>
+    </div>
+
+    <div class="card">
+        <div class="value">{stats["with_position"]}</div>
+        <div class="label">With position today</div>
+    </div>
+
+    <div class="card">
+        <div class="value">{stats["highest_alt"]} ft</div>
+        <div class="label">Highest altitude today</div>
+    </div>
+
+    <div class="card">
+        <div class="value">{stats["max_speed"]} kt</div>
+        <div class="label">Max speed today</div>
     </div>
 
     <div class="card">
@@ -269,6 +376,11 @@ def build_live_page(store):
     </table>
 </section>
 
+<section>
+    <h2>Latest ACARS / VDL2 messages</h2>
+    {message_rows}
+</section>
+
 <script>
 const aircraft = {markers_json};
 
@@ -279,15 +391,33 @@ L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
 }}).addTo(map);
 
-L.circle([{HOME_LAT}, {HOME_LON}], {{
-    radius: 5000,
-    color: '#41ff41',
-    fillColor: '#41ff41',
-    fillOpacity: 0.15
-}}).addTo(map).bindPopup('VadelmaSky receiver');
+const receiverIcon = L.divIcon({{
+    className: 'receiver-icon',
+    iconSize: [18, 18]
+}});
+
+L.marker([{HOME_LAT}, {HOME_LON}], {{ icon: receiverIcon }})
+    .addTo(map)
+    .bindPopup('<b>VadelmaSky receiver</b><br>Jyväskylä, Finland');
+
+function altitudeColor(alt) {{
+    if (!alt || alt === '-') return '#9ca3af';
+    if (alt < 10000) return '#41ff41';
+    if (alt < 25000) return '#facc15';
+    if (alt < 35000) return '#fb923c';
+    return '#f87171';
+}}
 
 aircraft.forEach(a => {{
-    L.marker([a.lat, a.lon]).addTo(map)
+    const color = altitudeColor(Number(a.alt));
+
+    L.circleMarker([a.lat, a.lon], {{
+        radius: 7,
+        color: color,
+        fillColor: color,
+        fillOpacity: 0.85,
+        weight: 2
+    }}).addTo(map)
         .bindPopup(`
             <b>${{a.flight}}</b><br>
             ICAO: ${{a.hex}}<br>
@@ -300,9 +430,10 @@ aircraft.forEach(a => {{
 """
     INDEX.write_text(page_template("VadelmaSky.live", body), encoding="utf-8")
 
+
 def build_day_page(date_name, payload):
     aircraft = payload.get("aircraft", {})
-    summary = payload.get("summary", {})
+    stats = daily_stats(payload)
 
     aircraft_list = sorted(
         aircraft.items(),
@@ -320,13 +451,23 @@ def build_day_page(date_name, payload):
 
 <div class="cards">
     <div class="card">
-        <div class="value">{esc(summary.get("total_unique_aircraft", len(aircraft)))}</div>
+        <div class="value">{stats["unique"]}</div>
         <div class="label">Unique aircraft</div>
     </div>
 
     <div class="card">
-        <div class="value">{esc(summary.get("updated", "-"))}</div>
-        <div class="label">Raw update timestamp</div>
+        <div class="value">{stats["with_position"]}</div>
+        <div class="label">With position</div>
+    </div>
+
+    <div class="card">
+        <div class="value">{stats["highest_alt"]} ft</div>
+        <div class="label">Highest altitude</div>
+    </div>
+
+    <div class="card">
+        <div class="value">{stats["max_speed"]} kt</div>
+        <div class="label">Max speed</div>
     </div>
 </div>
 
@@ -356,6 +497,7 @@ def build_day_page(date_name, payload):
         encoding="utf-8"
     )
 
+
 def build_history_pages():
     history_rows = ""
 
@@ -369,7 +511,7 @@ def build_history_pages():
         except Exception:
             continue
 
-        aircraft_count = len(payload.get("aircraft", {}))
+        stats = daily_stats(payload)
         updated = fmt_time(payload.get("summary", {}).get("updated"))
 
         build_day_page(date_name, payload)
@@ -377,7 +519,10 @@ def build_history_pages():
         history_rows += f"""
         <tr>
             <td><a href="/history/{esc(date_name)}.html">{esc(date_name)}</a></td>
-            <td>{aircraft_count}</td>
+            <td>{stats["unique"]}</td>
+            <td>{stats["with_position"]}</td>
+            <td>{stats["highest_alt"]} ft</td>
+            <td>{stats["max_speed"]} kt</td>
             <td>{esc(updated)}</td>
             <td><a href="/data/{esc(date_name)}.json">JSON</a></td>
         </tr>
@@ -392,6 +537,9 @@ def build_history_pages():
             <tr>
                 <th>Date</th>
                 <th>Unique aircraft</th>
+                <th>With position</th>
+                <th>Highest altitude</th>
+                <th>Max speed</th>
                 <th>Last update</th>
                 <th>Data</th>
             </tr>
@@ -404,6 +552,7 @@ def build_history_pages():
 """
     HISTORY_INDEX.write_text(page_template("VadelmaSky history", body), encoding="utf-8")
 
+
 def git_publish():
     os.chdir(BASE)
     os.system("git add docs vadelmasky_logger.py")
@@ -415,6 +564,7 @@ def git_publish():
         os.system("git push")
     else:
         print("No changes, skipping commit")
+
 
 def main():
     store = load_store()
@@ -464,6 +614,7 @@ def main():
     build_live_page(store)
     build_history_pages()
     git_publish()
+
 
 if __name__ == "__main__":
     main()

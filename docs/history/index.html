@@ -102,6 +102,29 @@ tr:hover {
     color: #a8b3bd;
     font-size: .95rem;
 }
+.receiver-icon {
+    background: #41ff41;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 18px #41ff41;
+}
+.message {
+    background: #101820;
+    border: 1px solid #2b363d;
+    border-radius: 10px;
+    padding: .75rem;
+    margin-bottom: .6rem;
+}
+.message-source {
+    color: #7dd3fc;
+    font-weight: 700;
+}
+.message-time {
+    color: #a8b3bd;
+    font-size: .9rem;
+}
 footer {
     color: #6b7280;
     padding: 2rem;
@@ -131,6 +154,9 @@ footer {
             <tr>
                 <th>Date</th>
                 <th>Unique aircraft</th>
+                <th>With position</th>
+                <th>Highest altitude</th>
+                <th>Max speed</th>
                 <th>Last update</th>
                 <th>Data</th>
             </tr>
@@ -140,6 +166,9 @@ footer {
         <tr>
             <td><a href="/history/2026-05-04.html">2026-05-04</a></td>
             <td>3</td>
+            <td>1</td>
+            <td>23925 ft</td>
+            <td>366.0 kt</td>
             <td>04.05.2026 20:22 UTC</td>
             <td><a href="/data/2026-05-04.json">JSON</a></td>
         </tr>

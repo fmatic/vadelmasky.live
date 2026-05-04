@@ -102,6 +102,29 @@ tr:hover {
     color: #a8b3bd;
     font-size: .95rem;
 }
+.receiver-icon {
+    background: #41ff41;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 18px #41ff41;
+}
+.message {
+    background: #101820;
+    border: 1px solid #2b363d;
+    border-radius: 10px;
+    padding: .75rem;
+    margin-bottom: .6rem;
+}
+.message-source {
+    color: #7dd3fc;
+    font-weight: 700;
+}
+.message-time {
+    color: #a8b3bd;
+    font-size: .9rem;
+}
 footer {
     color: #6b7280;
     padding: 2rem;
@@ -138,6 +161,21 @@ footer {
     <div class="card">
         <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
+    </div>
+
+    <div class="card">
+        <div class="value">1</div>
+        <div class="label">With position today</div>
+    </div>
+
+    <div class="card">
+        <div class="value">23925 ft</div>
+        <div class="label">Highest altitude today</div>
+    </div>
+
+    <div class="card">
+        <div class="value">366.0 kt</div>
+        <div class="label">Max speed today</div>
     </div>
 
     <div class="card">
@@ -200,6 +238,11 @@ footer {
     </table>
 </section>
 
+<section>
+    <h2>Latest ACARS / VDL2 messages</h2>
+    <p class="note">No ACARS / VDL2 messages logged yet.</p>
+</section>
+
 <script>
 const aircraft = [{"hex": "4601FB", "flight": "FIN5WR", "lat": 61.465945, "lon": 25.370483, "alt": 17000, "speed": 248.3, "last_seen": "04.05.2026 19:40 UTC"}];
 
@@ -210,15 +253,33 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
 }).addTo(map);
 
-L.circle([62.24, 25.75], {
-    radius: 5000,
-    color: '#41ff41',
-    fillColor: '#41ff41',
-    fillOpacity: 0.15
-}).addTo(map).bindPopup('VadelmaSky receiver');
+const receiverIcon = L.divIcon({
+    className: 'receiver-icon',
+    iconSize: [18, 18]
+});
+
+L.marker([62.24, 25.75], { icon: receiverIcon })
+    .addTo(map)
+    .bindPopup('<b>VadelmaSky receiver</b><br>Jyväskylä, Finland');
+
+function altitudeColor(alt) {
+    if (!alt || alt === '-') return '#9ca3af';
+    if (alt < 10000) return '#41ff41';
+    if (alt < 25000) return '#facc15';
+    if (alt < 35000) return '#fb923c';
+    return '#f87171';
+}
 
 aircraft.forEach(a => {
-    L.marker([a.lat, a.lon]).addTo(map)
+    const color = altitudeColor(Number(a.alt));
+
+    L.circleMarker([a.lat, a.lon], {
+        radius: 7,
+        color: color,
+        fillColor: color,
+        fillOpacity: 0.85,
+        weight: 2
+    }).addTo(map)
         .bindPopup(`
             <b>${a.flight}</b><br>
             ICAO: ${a.hex}<br>
