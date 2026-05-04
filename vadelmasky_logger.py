@@ -274,9 +274,9 @@ const aircraft = {markers_json};
 
 const map = L.map('map').setView([{HOME_LAT}, {HOME_LON}], 7);
 
-L.tileLayer('https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
-    maxZoom: 18,
-    attribution: '&copy; OpenStreetMap contributors'
+L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png', {{
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
 }}).addTo(map);
 
 L.circle([{HOME_LAT}, {HOME_LON}], {{
