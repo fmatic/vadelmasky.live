@@ -107,6 +107,22 @@ for hex_id, a in aircraft_list[:50]:
         <td>{last_seen}</td>
     </tr>
     """
+markers = []
+
+for hex_id, a in aircraft_list[:50]:
+    if a.get("lat") is not None and a.get("lon") is not None:
+        markers.append({
+            "hex": hex_id.upper(),
+            "flight": a.get("flight") or "-",
+            "lat": a.get("lat"),
+            "lon": a.get("lon"),
+            "alt": a.get("alt") or "-",
+            "speed": a.get("speed") or "-",
+            "last_seen": datetime.fromisoformat(a["last_seen"]).strftime("%d.%m.%Y %H:%M") if a.get("last_seen") else "-"
+        })
+
+markers_json = json.dumps(markers, ensure_ascii=False)
+
 
 last_update = datetime.fromisoformat(store["summary"]["updated"]).strftime("%d.%m.%Y %H:%M")
 
@@ -117,6 +133,8 @@ html = f"""<!DOCTYPE html>
 <meta charset="utf-8">
 <title>VadelmaSky.live</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <style>
 body {{
@@ -148,6 +166,8 @@ main {{
     margin: 0 auto;
     padding: 1.5rem;
 }}
+
+
 
 .cards {{
     display: grid;
@@ -212,6 +232,35 @@ footer {{
 </style>
 </head>
 
+<script>
+const aircraft = {markers_json};
+
+const map = L.map('map').setView([62.24, 25.75], 7);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {{
+    maxZoom: 18,
+    attribution: '&copy; OpenStreetMap contributors'
+}}).addTo(map);
+
+L.circle([62.24, 25.75], {{
+    radius: 5000,
+    color: '#41ff41',
+    fillColor: '#41ff41',
+    fillOpacity: 0.15
+}}).addTo(map).bindPopup('VadelmaSky receiver');
+
+aircraft.forEach(a => {{
+    L.marker([a.lat, a.lon]).addTo(map)
+        .bindPopup(`
+            <b>${{a.flight}}</b><br>
+            ICAO: ${{a.hex}}<br>
+            Alt: ${{a.alt}} ft<br>
+            Speed: ${{a.speed}} kt<br>
+            Last seen: ${{a.last_seen}}
+        `);
+}});
+</script>
+
 <body>
 <header>
     <h1>VadelmaSky ✈️</h1>
@@ -219,6 +268,11 @@ footer {{
 </header>
 
 <main>
+
+<section>
+    <h2>Map</h2>
+    <div id="map"></div>
+</section>
     <div class="cards">
         <div class="card">
             <div class="value">{store["summary"]["total_unique_aircraft"]}</div>
