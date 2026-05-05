@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>VadelmaSky.live</title>
+<title>VadelmaSky history 2026-05-05</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -147,45 +147,34 @@ footer {
 <main>
 
 <section>
-    <h2>Map</h2>
-    <div id="map"></div>
-    <p class="note">Map shows aircraft with known position captured today.</p>
+    <h2>2026-05-05</h2>
+    <p><a href="/history/">← Back to history</a></p>
 </section>
 
 <div class="cards">
     <div class="card">
         <div class="value">5</div>
-        <div class="label">Unique aircraft today</div>
-    </div>
-
-    <div class="card">
-        <div class="value">0</div>
-        <div class="label">Aircraft currently visible</div>
+        <div class="label">Unique aircraft</div>
     </div>
 
     <div class="card">
         <div class="value">2</div>
-        <div class="label">With position today</div>
+        <div class="label">With position</div>
     </div>
 
     <div class="card">
         <div class="value">23925 ft</div>
-        <div class="label">Highest altitude today</div>
+        <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
         <div class="value">366.0 kt</div>
-        <div class="label">Max speed today</div>
-    </div>
-
-    <div class="card">
-        <div class="value">05.05.2026 00:00 UTC</div>
-        <div class="label">Last update</div>
+        <div class="label">Max speed</div>
     </div>
 </div>
 
 <section>
-    <h2>Latest aircraft</h2>
+    <h2>Aircraft for this day</h2>
     <table>
         <thead>
             <tr>
@@ -259,58 +248,6 @@ footer {
         </tbody>
     </table>
 </section>
-
-<section>
-    <h2>Latest ACARS / VDL2 messages</h2>
-    <p class="note">No ACARS / VDL2 messages logged yet.</p>
-</section>
-
-<script>
-const aircraft = [{"hex": "4601FC", "flight": "FIN1T", "lat": 62.324415, "lon": 25.846182, "alt": 2825, "speed": 148.5, "last_seen": "04.05.2026 21:22 UTC"}, {"hex": "4601FB", "flight": "FIN5WR", "lat": 61.465945, "lon": 25.370483, "alt": 17000, "speed": 248.3, "last_seen": "04.05.2026 19:40 UTC"}];
-
-const map = L.map('map').setView([62.24, 25.75], 7);
-
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
-}).addTo(map);
-
-const receiverIcon = L.divIcon({
-    className: 'receiver-icon',
-    iconSize: [18, 18]
-});
-
-L.marker([62.24, 25.75], { icon: receiverIcon })
-    .addTo(map)
-    .bindPopup('<b>VadelmaSky receiver</b><br>Jyväskylä, Finland');
-
-function altitudeColor(alt) {
-    if (!alt || alt === '-') return '#9ca3af';
-    if (alt < 10000) return '#41ff41';
-    if (alt < 25000) return '#facc15';
-    if (alt < 35000) return '#fb923c';
-    return '#f87171';
-}
-
-aircraft.forEach(a => {
-    const color = altitudeColor(Number(a.alt));
-
-    L.circleMarker([a.lat, a.lon], {
-        radius: 7,
-        color: color,
-        fillColor: color,
-        fillOpacity: 0.85,
-        weight: 2
-    }).addTo(map)
-        .bindPopup(`
-            <b>${a.flight}</b><br>
-            ICAO: ${a.hex}<br>
-            Alt: ${a.alt} ft<br>
-            Speed: ${a.speed} kt<br>
-            Last seen: ${a.last_seen}
-        `);
-});
-</script>
 
 </main>
 
