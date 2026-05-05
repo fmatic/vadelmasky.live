@@ -420,8 +420,10 @@ def build_aircraft_cards(aircraft_items, limit=50):
     for hex_id, a in aircraft_items[:limit]:
         flight_raw = a.get("flight") or "Unknown"
         flight = esc(flight_raw)
+
         icao_raw = hex_id.upper()
         icao = esc(icao_raw)
+
         reg_raw = a.get("reg")
         aircraft_type_raw = a.get("type")
 
@@ -441,15 +443,13 @@ def build_aircraft_cards(aircraft_items, limit=50):
             if isinstance(lat, (int, float)) and isinstance(lon, (int, float))
             else "No position"
         )
-    reg_raw = a.get("reg")
-icao_raw = hex_id.upper()
 
-if reg_raw:
-    photo_url = f"https://www.jetphotos.com/photo/keyword/{reg_raw}"
-    photo_label = "Search aircraft photo"
-else:
-    photo_url = f"https://globe.adsbexchange.com/?icao={icao_raw.lower()}"
-    photo_label = "View aircraft info"
+        if reg_raw:
+            photo_url = f"https://www.jetphotos.com/photo/keyword/{esc(reg_raw)}"
+            photo_label = "Search aircraft photo"
+        else:
+            photo_url = f"https://globe.adsbexchange.com/?icao={icao_raw.lower()}"
+            photo_label = "View aircraft info"
 
         cards += f"""
         <article class="aircraft-card">
@@ -472,8 +472,8 @@ else:
             </div>
 
             <a class="photo-link" href="{photo_url}" target="_blank" rel="noopener">
-    {photo_label}
-</a>
+                {photo_label}
+            </a>
         </article>
         """
 
