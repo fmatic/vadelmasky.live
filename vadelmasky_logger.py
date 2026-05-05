@@ -441,9 +441,15 @@ def build_aircraft_cards(aircraft_items, limit=50):
             if isinstance(lat, (int, float)) and isinstance(lon, (int, float))
             else "No position"
         )
+    reg_raw = a.get("reg")
+icao_raw = hex_id.upper()
 
-        photo_query = reg_raw or flight_raw or icao_raw
-        photo_url = f"https://www.jetphotos.com/photo/keyword/{esc(photo_query)}"
+if reg_raw:
+    photo_url = f"https://www.jetphotos.com/photo/keyword/{reg_raw}"
+    photo_label = "Search aircraft photo"
+else:
+    photo_url = f"https://globe.adsbexchange.com/?icao={icao_raw.lower()}"
+    photo_label = "View aircraft info"
 
         cards += f"""
         <article class="aircraft-card">
@@ -466,8 +472,8 @@ def build_aircraft_cards(aircraft_items, limit=50):
             </div>
 
             <a class="photo-link" href="{photo_url}" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
+    {photo_label}
+</a>
         </article>
         """
 
