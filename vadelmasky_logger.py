@@ -771,7 +771,7 @@ def main():
 
     build_live_page(store)
     build_history_pages()
-    git_publish()
+    
 
 
 if __name__ == "__main__":
