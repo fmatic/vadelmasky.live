@@ -749,6 +749,8 @@ def main():
         store["aircraft"][hex_id] = {
             "hex": hex_id,
             "flight": flight,
+	    "reg": a.get("r", old.get("reg")),        # ⭐ LISÄTTY
+	    "type": a.get("t", old.get("type")),      # ⭐ LISÄTTY
             "lat": a.get("lat", old.get("lat")),
             "lon": a.get("lon", old.get("lon")),
             "alt": a.get("alt_baro", old.get("alt")),
