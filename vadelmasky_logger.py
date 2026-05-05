@@ -2,6 +2,8 @@
 
 import html
 import json
+import csv
+import gzip
 import os
 from datetime import datetime
 from pathlib import Path
@@ -9,6 +11,7 @@ from pathlib import Path
 BASE = Path("/home/dietpi/vadelmasky")
 SOURCE = Path("/run/adsb-feeder-ultrafeeder/readsb/aircraft.json")
 
+AIRCRAFT_DB = Path("/usr/local/share/tar1090/aircraft.csv.gz")
 DOCS = BASE / "docs"
 DATA = DOCS / "data"
 HISTORY = DOCS / "history"
@@ -28,6 +31,47 @@ DATA.mkdir(exist_ok=True)
 HISTORY.mkdir(exist_ok=True)
 MESSAGES.mkdir(exist_ok=True)
 
+def load_aircraft_db():
+    db = {}
+
+    if not AIRCRAFT_DB.exists():
+        return db
+
+    try:
+        with gzip.open(AIRCRAFT_DB, "rt", encoding="utf-8", errors="replace") as f:
+            reader = csv.DictReader(f)
+
+            for row in reader:
+                hex_id = (
+                    row.get("icao24")
+                    or row.get("icao")
+                    or row.get("hex")
+                    or row.get("mode_s")
+                    or ""
+                ).strip().lower()
+
+                if not hex_id:
+                    continue
+
+                db[hex_id] = {
+                    "reg": (
+                        row.get("registration")
+                        or row.get("reg")
+                        or row.get("r")
+                        or ""
+                    ).strip(),
+                    "type": (
+                        row.get("typecode")
+                        or row.get("type")
+                        or row.get("t")
+                        or ""
+                    ).strip(),
+                }
+
+    except Exception as e:
+        print(f"Aircraft DB load failed: {e}")
+
+    return db
 
 def fmt_time(value):
     if not value:
@@ -721,6 +765,7 @@ def build_history_pages():
 
 def main():
     store = load_store()
+    aircraft_db = load_aircraft_db()
 
     if not SOURCE.exists():
         print(f"Missing source: {SOURCE}")
@@ -740,12 +785,13 @@ def main():
         count_now += 1
         old = store["aircraft"].get(hex_id, {})
         flight = (a.get("flight") or old.get("flight") or "").strip()
+        db_info = aircraft_db.get(hex_id.lower(), {})
 
         store["aircraft"][hex_id] = {
             "hex": hex_id,
             "flight": flight,
-            "reg": a.get("r", old.get("reg")),
-            "type": a.get("t", old.get("type")),
+            "reg": a.get("r") or db_info.get("reg") or old.get("reg"),
+	    "type": a.get("t") or db_info.get("type") or old.get("type"),
             "lat": a.get("lat", old.get("lat")),
             "lon": a.get("lon", old.get("lon")),
             "alt": a.get("alt_baro", old.get("alt")),
