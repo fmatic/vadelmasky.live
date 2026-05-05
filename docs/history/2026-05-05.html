@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VadelmaSky history 2026-05-05</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0f1418;
+    color: #e8edf2;
+}
+header {
+    padding: 2rem;
+    background: linear-gradient(135deg, #07110c, #132019);
+    border-bottom: 1px solid #243225;
+}
+h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    color: #41ff41;
+}
+a {
+    color: #7dd3fc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.subtitle {
+    color: #a8b3bd;
+    margin-top: .4rem;
+}
+nav {
+    margin-top: 1rem;
+}
+nav a {
+    margin-right: 1rem;
+}
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.card {
+    background: #171d22;
+    border: 1px solid #2b363d;
+    border-radius: 14px;
+    padding: 1rem;
+}
+.card .value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #7dd3fc;
+}
+.card .label {
+    color: #a8b3bd;
+    margin-top: .25rem;
+}
+section {
+    background: #171d22;
+    border: 1px solid #2b363d;
+    border-radius: 14px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+#map {
+    height: 520px;
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid #2b363d;
+    margin-top: 1rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: .65rem;
+    border-bottom: 1px solid #2b363d;
+    white-space: nowrap;
+}
+th {
+    color: #93c5fd;
+    font-weight: 600;
+}
+tr:hover {
+    background: #1f2933;
+}
+.note {
+    color: #a8b3bd;
+    font-size: .95rem;
+}
+.receiver-icon {
+    background: #41ff41;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 18px #41ff41;
+}
+.message {
+    background: #101820;
+    border: 1px solid #2b363d;
+    border-radius: 10px;
+    padding: .75rem;
+    margin-bottom: .6rem;
+}
+.message-source {
+    color: #7dd3fc;
+    font-weight: 700;
+}
+.message-time {
+    color: #a8b3bd;
+    font-size: .9rem;
+}
+footer {
+    color: #6b7280;
+    padding: 2rem;
+    text-align: center;
+    font-size: .9rem;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>VadelmaSky ✈️</h1>
+    <div class="subtitle">Local ADS-B aviation log from Jyväskylä, Finland</div>
+    <nav>
+        <a href="/">Live</a>
+        <a href="/history/">History</a>
+        <a href="/today.json">Today JSON</a>
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h2>2026-05-05</h2>
+    <p><a href="/history/">← Back to history</a></p>
+</section>
+
+<div class="cards">
+    <div class="card">
+        <div class="value">31</div>
+        <div class="label">Unique aircraft</div>
+    </div>
+
+    <div class="card">
+        <div class="value">18</div>
+        <div class="label">With position</div>
+    </div>
+
+    <div class="card">
+        <div class="value">37000 ft</div>
+        <div class="label">Highest altitude</div>
+    </div>
+
+    <div class="card">
+        <div class="value">539.1 kt</div>
+        <div class="label">Max speed</div>
+    </div>
+</div>
+
+<section>
+    <h2>Aircraft for this day</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Flight</th>
+                <th>ICAO</th>
+                <th>Altitude ft</th>
+                <th>Speed kt</th>
+                <th>Track</th>
+                <th>Lat</th>
+                <th>Lon</th>
+                <th>Last seen</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr>
+            <td>-</td>
+            <td>781783</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 14:22 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN42T</td>
+            <td>4601F2</td>
+            <td>14975</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 14:00 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>CAO3144</td>
+            <td>780450</td>
+            <td>35000</td>
+            <td>538.0</td>
+            <td>63.98</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 13:59 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>OHDAC</td>
+            <td>4607EE</td>
+            <td>10000</td>
+            <td>164.0</td>
+            <td>101.43</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 13:50 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>CAO3120</td>
+            <td>78044F</td>
+            <td>37000</td>
+            <td>528.0</td>
+            <td>63.81</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 13:37 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>CHH752</td>
+            <td>7813A1</td>
+            <td>35000</td>
+            <td>536.0</td>
+            <td>83.14</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 13:35 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>CHH754</td>
+            <td>7812A4</td>
+            <td>37000</td>
+            <td>538.0</td>
+            <td>75.41</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 13:33 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN440</td>
+            <td>461E1F</td>
+            <td>25250</td>
+            <td>360.0</td>
+            <td>180.64</td>
+            <td>61.29994</td>
+            <td>25.289205</td>
+            <td>05.05.2026 13:31 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>CHH770</td>
+            <td>7812A3</td>
+            <td>35000</td>
+            <td>529.9</td>
+            <td>83.06</td>
+            <td>62.478643</td>
+            <td>26.394125</td>
+            <td>05.05.2026 13:01 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FNF263</td>
+            <td>467895</td>
+            <td>16650</td>
+            <td>343.8</td>
+            <td>53.4</td>
+            <td>62.436401</td>
+            <td>26.745707</td>
+            <td>05.05.2026 12:33 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>-</td>
+            <td>46789F</td>
+            <td>1425</td>
+            <td>-</td>
+            <td>-</td>
+            <td>62.101244</td>
+            <td>25.700378</td>
+            <td>05.05.2026 12:18 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>T02</td>
+            <td>467891</td>
+            <td>9975</td>
+            <td>155.9</td>
+            <td>214.81</td>
+            <td>62.253842</td>
+            <td>25.530853</td>
+            <td>05.05.2026 12:01 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>CAO3040</td>
+            <td>780005</td>
+            <td>37000</td>
+            <td>539.1</td>
+            <td>65.1</td>
+            <td>61.985422</td>
+            <td>28.04189</td>
+            <td>05.05.2026 11:58 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN5KR</td>
+            <td>461E1B</td>
+            <td>24500</td>
+            <td>336.1</td>
+            <td>181.36</td>
+            <td>61.678969</td>
+            <td>25.298157</td>
+            <td>05.05.2026 11:56 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN2PD</td>
+            <td>461F36</td>
+            <td>23025</td>
+            <td>349.0</td>
+            <td>179.84</td>
+            <td>61.317581</td>
+            <td>25.291803</td>
+            <td>05.05.2026 11:53 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN26B</td>
+            <td>4601F3</td>
+            <td>18000</td>
+            <td>190.3</td>
+            <td>212.77</td>
+            <td>61.785278</td>
+            <td>26.364049</td>
+            <td>05.05.2026 11:27 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN2KK</td>
+            <td>4601F5</td>
+            <td>23000</td>
+            <td>207.1</td>
+            <td>181.38</td>
+            <td>61.780127</td>
+            <td>25.302124</td>
+            <td>05.05.2026 11:24 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN286</td>
+            <td>4601F9</td>
+            <td>18000</td>
+            <td>197.7</td>
+            <td>207.08</td>
+            <td>61.729935</td>
+            <td>25.41069</td>
+            <td>05.05.2026 11:18 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>K05</td>
+            <td>4678B1</td>
+            <td>1425</td>
+            <td>124.0</td>
+            <td>340.69</td>
+            <td>62.287406</td>
+            <td>25.774031</td>
+            <td>05.05.2026 08:38 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>K06</td>
+            <td>4678A7</td>
+            <td>1600</td>
+            <td>113.6</td>
+            <td>323.23</td>
+            <td>62.287949</td>
+            <td>25.756226</td>
+            <td>05.05.2026 08:35 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN5ET</td>
+            <td>4601F6</td>
+            <td>16025</td>
+            <td>214.7</td>
+            <td>207.16</td>
+            <td>61.894412</td>
+            <td>26.418864</td>
+            <td>05.05.2026 06:04 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN14J</td>
+            <td>461E1C</td>
+            <td>30725</td>
+            <td>396.1</td>
+            <td>185.94</td>
+            <td>61.61752</td>
+            <td>25.077616</td>
+            <td>05.05.2026 05:37 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>-</td>
+            <td>461F6D</td>
+            <td>-</td>
+            <td>364.7</td>
+            <td>183.46</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 05:19 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN7AZ</td>
+            <td>461F6A</td>
+            <td>27975</td>
+            <td>388.0</td>
+            <td>188.44</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 04:55 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>BPS69PS</td>
+            <td>472609</td>
+            <td>20000</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 03:29 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN8MC</td>
+            <td>461E1A</td>
+            <td>25500</td>
+            <td>410.0</td>
+            <td>180.35</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 03:20 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN4MP</td>
+            <td>461E1D</td>
+            <td>25125</td>
+            <td>386.0</td>
+            <td>185.8</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 03:19 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN8KH</td>
+            <td>4601FC</td>
+            <td>18000</td>
+            <td>222.4</td>
+            <td>199.98</td>
+            <td>61.63777</td>
+            <td>25.461629</td>
+            <td>05.05.2026 03:09 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN4QA</td>
+            <td>4601FA</td>
+            <td>14000</td>
+            <td>224.3</td>
+            <td>209.08</td>
+            <td>61.097903</td>
+            <td>25.533142</td>
+            <td>05.05.2026 03:04 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN5WR</td>
+            <td>4601FB</td>
+            <td>17000</td>
+            <td>248.3</td>
+            <td>185.78</td>
+            <td>61.465945</td>
+            <td>25.370483</td>
+            <td>04.05.2026 19:40 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>-</td>
+            <td>4601F7</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>04.05.2026 18:17 UTC</td>
+        </tr>
+        
+        </tbody>
+    </table>
+</section>
+
+</main>
+
+<footer>
+    VadelmaSky.live · Powered by local SDR receivers · Data updates automatically
+</footer>
+</body>
+</html>
