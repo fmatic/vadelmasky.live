@@ -110,21 +110,112 @@ tr:hover {
     border: 3px solid #ffffff;
     box-shadow: 0 0 18px #41ff41;
 }
-.message {
+
+.aircraft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+.aircraft-card {
     background: #101820;
     border: 1px solid #2b363d;
-    border-radius: 10px;
-    padding: .75rem;
-    margin-bottom: .6rem;
+    border-radius: 14px;
+    padding: 1rem;
 }
-.message-source {
-    color: #7dd3fc;
-    font-weight: 700;
+.aircraft-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
 }
-.message-time {
-    color: #a8b3bd;
+.flight {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.meta {
+    color: #7b8794;
     font-size: .9rem;
 }
+.alt-badge {
+    padding: .25rem .65rem;
+    border-radius: 999px;
+    font-weight: 800;
+    font-size: .85rem;
+    white-space: nowrap;
+}
+.alt-badge.low { background: rgba(65,255,65,.15); color: #41ff41; }
+.alt-badge.mid { background: rgba(250,204,21,.15); color: #facc15; }
+.alt-badge.high { background: rgba(248,113,113,.15); color: #f87171; }
+.alt-badge.unknown { background: rgba(156,163,175,.15); color: #9ca3af; }
+.aircraft-body {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.aircraft-silhouette {
+    width: 72px;
+    height: 72px;
+    border-radius: 12px;
+    background: #17212b;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    color: #41ff41;
+}
+.aircraft-data {
+    flex: 1;
+    display: grid;
+    gap: .35rem;
+}
+.aircraft-data div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #26313a;
+    padding-bottom: .25rem;
+}
+.aircraft-data span {
+    color: #7b8794;
+}
+.aircraft-data b {
+    text-align: right;
+}
+.photo-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.acars-grid {
+    display: grid;
+    gap: .75rem;
+}
+.acars-card {
+    background: #101820;
+    border: 1px solid #2b363d;
+    border-radius: 12px;
+    padding: .9rem;
+}
+.acars-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.acars-flight {
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+.acars-meta {
+    color: #7b8794;
+    font-size: .9rem;
+}
+.acars-text {
+    margin-top: .75rem;
+    padding: .75rem;
+    background: #0b1117;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
 footer {
     color: #6b7280;
     padding: 2rem;
@@ -179,465 +270,981 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">05.05.2026 19:41 UTC</div>
+        <div class="value">05.05.2026 19:42 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
 
 <section>
     <h2>Latest aircraft</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Flight</th>
-                <th>ICAO</th>
-                <th>Altitude ft</th>
-                <th>Speed kt</th>
-                <th>Track</th>
-                <th>Lat</th>
-                <th>Lon</th>
-                <th>Last seen</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-        <tr>
-            <td>CK0206</td>
-            <td>7805DD</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>62.1</td>
-            <td>3.251667</td>
-            <td>05.05.2026 19:41 UTC</td>
-        </tr>
+    <div class="aircraft-grid">
         
-        <tr>
-            <td>CA3068</td>
-            <td>78026E</td>
-            <td>37000</td>
-            <td>520.0</td>
-            <td>59.94</td>
-            <td>61.442</td>
-            <td>26.213</td>
-            <td>05.05.2026 19:41 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CK0206</div>
+                    <div class="meta">ICAO 7805DD</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>62.1000, 3.2517</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 19:42 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CK0206" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN446</td>
-            <td>461F64</td>
-            <td>20050</td>
-            <td>336.0</td>
-            <td>179.3</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 19:31 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CA3068</div>
+                    <div class="meta">ICAO 78026E</div>
+                </div>
+                <div class="alt-badge high">37000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>520.0 kt</b></div>
+                    <div><span>Track</span><b>59.94°</b></div>
+                    <div><span>Position</span><b>61.4420, 26.2130</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 19:42 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CA3068" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN594</td>
-            <td>4601F8</td>
-            <td>22375</td>
-            <td>243.1</td>
-            <td>178.82</td>
-            <td>61.711881</td>
-            <td>25.229594</td>
-            <td>05.05.2026 19:08 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN446</div>
+                    <div class="meta">ICAO 461F64</div>
+                </div>
+                <div class="alt-badge mid">20050 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>336.0 kt</b></div>
+                    <div><span>Track</span><b>179.3°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 19:31 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN446" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN7BT</td>
-            <td>4601F9</td>
-            <td>16000</td>
-            <td>246.0</td>
-            <td>192.68</td>
-            <td>61.491394</td>
-            <td>25.677992</td>
-            <td>05.05.2026 16:56 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN594</div>
+                    <div class="meta">ICAO 4601F8</div>
+                </div>
+                <div class="alt-badge mid">22375 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>243.1 kt</b></div>
+                    <div><span>Track</span><b>178.82°</b></div>
+                    <div><span>Position</span><b>61.7119, 25.2296</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 19:08 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN594" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>OHDAC</td>
-            <td>4607EE</td>
-            <td>3100</td>
-            <td>94.0</td>
-            <td>313.77</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 16:54 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7BT</div>
+                    <div class="meta">ICAO 4601F9</div>
+                </div>
+                <div class="alt-badge mid">16000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>246.0 kt</b></div>
+                    <div><span>Track</span><b>192.68°</b></div>
+                    <div><span>Position</span><b>61.4914, 25.6780</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 16:56 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN7BT" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN8DP</td>
-            <td>461F9A</td>
-            <td>18225</td>
-            <td>324.0</td>
-            <td>180.88</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 16:08 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHDAC</div>
+                    <div class="meta">ICAO 4607EE</div>
+                </div>
+                <div class="alt-badge low">3100 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>94.0 kt</b></div>
+                    <div><span>Track</span><b>313.77°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 16:54 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OHDAC" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN9XG</td>
-            <td>461E1C</td>
-            <td>26800</td>
-            <td>372.0</td>
-            <td>180.92</td>
-            <td>61.521063</td>
-            <td>25.308329</td>
-            <td>05.05.2026 15:41 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8DP</div>
+                    <div class="meta">ICAO 461F9A</div>
+                </div>
+                <div class="alt-badge mid">18225 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>324.0 kt</b></div>
+                    <div><span>Track</span><b>180.88°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 16:08 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN8DP" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN5YR</td>
-            <td>461E1A</td>
-            <td>24900</td>
-            <td>343.0</td>
-            <td>180.0</td>
-            <td>61.505905</td>
-            <td>25.267966</td>
-            <td>05.05.2026 15:20 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN9XG</div>
+                    <div class="meta">ICAO 461E1C</div>
+                </div>
+                <div class="alt-badge high">26800 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>372.0 kt</b></div>
+                    <div><span>Track</span><b>180.92°</b></div>
+                    <div><span>Position</span><b>61.5211, 25.3083</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 15:41 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN9XG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN6YP</td>
-            <td>4601F2</td>
-            <td>15975</td>
-            <td>224.9</td>
-            <td>203.03</td>
-            <td>61.906128</td>
-            <td>26.509617</td>
-            <td>05.05.2026 15:16 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5YR</div>
+                    <div class="meta">ICAO 461E1A</div>
+                </div>
+                <div class="alt-badge mid">24900 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>343.0 kt</b></div>
+                    <div><span>Track</span><b>180.0°</b></div>
+                    <div><span>Position</span><b>61.5059, 25.2680</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 15:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN5YR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>-</td>
-            <td>781783</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 14:22 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN6YP</div>
+                    <div class="meta">ICAO 4601F2</div>
+                </div>
+                <div class="alt-badge mid">15975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>224.9 kt</b></div>
+                    <div><span>Track</span><b>203.03°</b></div>
+                    <div><span>Position</span><b>61.9061, 26.5096</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 15:16 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN6YP" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>CAO3144</td>
-            <td>780450</td>
-            <td>35000</td>
-            <td>538.0</td>
-            <td>63.98</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 13:59 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 781783</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 14:22 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/781783" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>CAO3120</td>
-            <td>78044F</td>
-            <td>37000</td>
-            <td>528.0</td>
-            <td>63.81</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 13:37 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CAO3144</div>
+                    <div class="meta">ICAO 780450</div>
+                </div>
+                <div class="alt-badge high">35000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>538.0 kt</b></div>
+                    <div><span>Track</span><b>63.98°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 13:59 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CAO3144" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>CHH752</td>
-            <td>7813A1</td>
-            <td>35000</td>
-            <td>536.0</td>
-            <td>83.14</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 13:35 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CAO3120</div>
+                    <div class="meta">ICAO 78044F</div>
+                </div>
+                <div class="alt-badge high">37000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>528.0 kt</b></div>
+                    <div><span>Track</span><b>63.81°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 13:37 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CAO3120" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>CHH754</td>
-            <td>7812A4</td>
-            <td>37000</td>
-            <td>538.0</td>
-            <td>75.41</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 13:33 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CHH752</div>
+                    <div class="meta">ICAO 7813A1</div>
+                </div>
+                <div class="alt-badge high">35000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>536.0 kt</b></div>
+                    <div><span>Track</span><b>83.14°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 13:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CHH752" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN440</td>
-            <td>461E1F</td>
-            <td>25250</td>
-            <td>360.0</td>
-            <td>180.64</td>
-            <td>61.29994</td>
-            <td>25.289205</td>
-            <td>05.05.2026 13:31 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CHH754</div>
+                    <div class="meta">ICAO 7812A4</div>
+                </div>
+                <div class="alt-badge high">37000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>538.0 kt</b></div>
+                    <div><span>Track</span><b>75.41°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 13:33 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CHH754" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>CHH770</td>
-            <td>7812A3</td>
-            <td>35000</td>
-            <td>529.9</td>
-            <td>83.06</td>
-            <td>62.478643</td>
-            <td>26.394125</td>
-            <td>05.05.2026 13:01 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN440</div>
+                    <div class="meta">ICAO 461E1F</div>
+                </div>
+                <div class="alt-badge high">25250 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>360.0 kt</b></div>
+                    <div><span>Track</span><b>180.64°</b></div>
+                    <div><span>Position</span><b>61.2999, 25.2892</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 13:31 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN440" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FNF263</td>
-            <td>467895</td>
-            <td>16650</td>
-            <td>343.8</td>
-            <td>53.4</td>
-            <td>62.436401</td>
-            <td>26.745707</td>
-            <td>05.05.2026 12:33 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CHH770</div>
+                    <div class="meta">ICAO 7812A3</div>
+                </div>
+                <div class="alt-badge high">35000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>529.9 kt</b></div>
+                    <div><span>Track</span><b>83.06°</b></div>
+                    <div><span>Position</span><b>62.4786, 26.3941</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 13:01 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CHH770" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>-</td>
-            <td>46789F</td>
-            <td>1425</td>
-            <td>-</td>
-            <td>-</td>
-            <td>62.101244</td>
-            <td>25.700378</td>
-            <td>05.05.2026 12:18 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FNF263</div>
+                    <div class="meta">ICAO 467895</div>
+                </div>
+                <div class="alt-badge mid">16650 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>343.8 kt</b></div>
+                    <div><span>Track</span><b>53.4°</b></div>
+                    <div><span>Position</span><b>62.4364, 26.7457</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 12:33 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FNF263" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>T02</td>
-            <td>467891</td>
-            <td>9975</td>
-            <td>155.9</td>
-            <td>214.81</td>
-            <td>62.253842</td>
-            <td>25.530853</td>
-            <td>05.05.2026 12:01 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 46789F</div>
+                </div>
+                <div class="alt-badge low">1425 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>62.1012, 25.7004</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 12:18 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/46789F" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>CAO3040</td>
-            <td>780005</td>
-            <td>37000</td>
-            <td>539.1</td>
-            <td>65.1</td>
-            <td>61.985422</td>
-            <td>28.04189</td>
-            <td>05.05.2026 11:58 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T02</div>
+                    <div class="meta">ICAO 467891</div>
+                </div>
+                <div class="alt-badge low">9975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>155.9 kt</b></div>
+                    <div><span>Track</span><b>214.81°</b></div>
+                    <div><span>Position</span><b>62.2538, 25.5309</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 12:01 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/T02" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN5KR</td>
-            <td>461E1B</td>
-            <td>24500</td>
-            <td>336.1</td>
-            <td>181.36</td>
-            <td>61.678969</td>
-            <td>25.298157</td>
-            <td>05.05.2026 11:56 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CAO3040</div>
+                    <div class="meta">ICAO 780005</div>
+                </div>
+                <div class="alt-badge high">37000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>539.1 kt</b></div>
+                    <div><span>Track</span><b>65.1°</b></div>
+                    <div><span>Position</span><b>61.9854, 28.0419</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 11:58 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CAO3040" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN2PD</td>
-            <td>461F36</td>
-            <td>23025</td>
-            <td>349.0</td>
-            <td>179.84</td>
-            <td>61.317581</td>
-            <td>25.291803</td>
-            <td>05.05.2026 11:53 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5KR</div>
+                    <div class="meta">ICAO 461E1B</div>
+                </div>
+                <div class="alt-badge mid">24500 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>336.1 kt</b></div>
+                    <div><span>Track</span><b>181.36°</b></div>
+                    <div><span>Position</span><b>61.6790, 25.2982</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 11:56 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN5KR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN26B</td>
-            <td>4601F3</td>
-            <td>18000</td>
-            <td>190.3</td>
-            <td>212.77</td>
-            <td>61.785278</td>
-            <td>26.364049</td>
-            <td>05.05.2026 11:27 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN2PD</div>
+                    <div class="meta">ICAO 461F36</div>
+                </div>
+                <div class="alt-badge mid">23025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>349.0 kt</b></div>
+                    <div><span>Track</span><b>179.84°</b></div>
+                    <div><span>Position</span><b>61.3176, 25.2918</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 11:53 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN2PD" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN2KK</td>
-            <td>4601F5</td>
-            <td>23000</td>
-            <td>207.1</td>
-            <td>181.38</td>
-            <td>61.780127</td>
-            <td>25.302124</td>
-            <td>05.05.2026 11:24 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN26B</div>
+                    <div class="meta">ICAO 4601F3</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>190.3 kt</b></div>
+                    <div><span>Track</span><b>212.77°</b></div>
+                    <div><span>Position</span><b>61.7853, 26.3640</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 11:27 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN26B" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>K05</td>
-            <td>4678B1</td>
-            <td>1425</td>
-            <td>124.0</td>
-            <td>340.69</td>
-            <td>62.287406</td>
-            <td>25.774031</td>
-            <td>05.05.2026 08:38 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN2KK</div>
+                    <div class="meta">ICAO 4601F5</div>
+                </div>
+                <div class="alt-badge mid">23000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>207.1 kt</b></div>
+                    <div><span>Track</span><b>181.38°</b></div>
+                    <div><span>Position</span><b>61.7801, 25.3021</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 11:24 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN2KK" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>K06</td>
-            <td>4678A7</td>
-            <td>1600</td>
-            <td>113.6</td>
-            <td>323.23</td>
-            <td>62.287949</td>
-            <td>25.756226</td>
-            <td>05.05.2026 08:35 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K05</div>
+                    <div class="meta">ICAO 4678B1</div>
+                </div>
+                <div class="alt-badge low">1425 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>124.0 kt</b></div>
+                    <div><span>Track</span><b>340.69°</b></div>
+                    <div><span>Position</span><b>62.2874, 25.7740</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 08:38 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/K05" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN5ET</td>
-            <td>4601F6</td>
-            <td>16025</td>
-            <td>214.7</td>
-            <td>207.16</td>
-            <td>61.894412</td>
-            <td>26.418864</td>
-            <td>05.05.2026 06:04 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K06</div>
+                    <div class="meta">ICAO 4678A7</div>
+                </div>
+                <div class="alt-badge low">1600 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>113.6 kt</b></div>
+                    <div><span>Track</span><b>323.23°</b></div>
+                    <div><span>Position</span><b>62.2879, 25.7562</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 08:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/K06" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>-</td>
-            <td>461F6D</td>
-            <td>-</td>
-            <td>364.7</td>
-            <td>183.46</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 05:19 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5ET</div>
+                    <div class="meta">ICAO 4601F6</div>
+                </div>
+                <div class="alt-badge mid">16025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>214.7 kt</b></div>
+                    <div><span>Track</span><b>207.16°</b></div>
+                    <div><span>Position</span><b>61.8944, 26.4189</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 06:04 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN5ET" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN7AZ</td>
-            <td>461F6A</td>
-            <td>27975</td>
-            <td>388.0</td>
-            <td>188.44</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 04:55 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 461F6D</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>364.7 kt</b></div>
+                    <div><span>Track</span><b>183.46°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 05:19 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/461F6D" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>BPS69PS</td>
-            <td>472609</td>
-            <td>20000</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 03:29 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7AZ</div>
+                    <div class="meta">ICAO 461F6A</div>
+                </div>
+                <div class="alt-badge high">27975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>388.0 kt</b></div>
+                    <div><span>Track</span><b>188.44°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 04:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN7AZ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN4MP</td>
-            <td>461E1D</td>
-            <td>25125</td>
-            <td>386.0</td>
-            <td>185.8</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 03:19 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">BPS69PS</div>
+                    <div class="meta">ICAO 472609</div>
+                </div>
+                <div class="alt-badge mid">20000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 03:29 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/BPS69PS" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN8KH</td>
-            <td>4601FC</td>
-            <td>18000</td>
-            <td>222.4</td>
-            <td>199.98</td>
-            <td>61.63777</td>
-            <td>25.461629</td>
-            <td>05.05.2026 03:09 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4MP</div>
+                    <div class="meta">ICAO 461E1D</div>
+                </div>
+                <div class="alt-badge high">25125 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>386.0 kt</b></div>
+                    <div><span>Track</span><b>185.8°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 03:19 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN4MP" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN4QA</td>
-            <td>4601FA</td>
-            <td>14000</td>
-            <td>224.3</td>
-            <td>209.08</td>
-            <td>61.097903</td>
-            <td>25.533142</td>
-            <td>05.05.2026 03:04 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601FC</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>222.4 kt</b></div>
+                    <div><span>Track</span><b>199.98°</b></div>
+                    <div><span>Position</span><b>61.6378, 25.4616</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 03:09 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN8KH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN5WR</td>
-            <td>4601FB</td>
-            <td>17000</td>
-            <td>248.3</td>
-            <td>185.78</td>
-            <td>61.465945</td>
-            <td>25.370483</td>
-            <td>04.05.2026 19:40 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4QA</div>
+                    <div class="meta">ICAO 4601FA</div>
+                </div>
+                <div class="alt-badge mid">14000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>224.3 kt</b></div>
+                    <div><span>Track</span><b>209.08°</b></div>
+                    <div><span>Position</span><b>61.0979, 25.5331</b></div>
+                    <div><span>Last seen</span><b>05.05.2026 03:04 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN4QA" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>-</td>
-            <td>4601F7</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>04.05.2026 18:17 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5WR</div>
+                    <div class="meta">ICAO 4601FB</div>
+                </div>
+                <div class="alt-badge mid">17000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>248.3 kt</b></div>
+                    <div><span>Track</span><b>185.78°</b></div>
+                    <div><span>Position</span><b>61.4659, 25.3705</b></div>
+                    <div><span>Last seen</span><b>04.05.2026 19:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/FIN5WR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        </tbody>
-    </table>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601F7</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>04.05.2026 18:17 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/4601F7" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+    </div>
 </section>
 
 <section>
-    <h2>Latest ACARS / VDL2 messages</h2>
-    
-            <div class="message">
-                <div><span class="message-source">ACARS</span></div>
-                <div class="message-time">05.05.2026 19:27 UTC</div>
-                <div>.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+    <h2>Latest ACARS messages</h2>
+    <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA3068</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6070 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">05.05.2026 19:27 UTC</div>
             </div>
-            
-            <div class="message">
-                <div><span class="message-source">ACARS</span></div>
-                <div class="message-time">05.05.2026 19:27 UTC</div>
-                <div>.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+
+            <div class="acars-meta">
+                Label H1 · Msg C21A · Level -31.0 dB
             </div>
-            
-            <div class="message">
-                <div><span class="message-source">ACARS</span></div>
-                <div class="message-time">05.05.2026 19:27 UTC</div>
-                <div>.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+
+            <div class="acars-text">.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA3068</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6070 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">05.05.2026 19:27 UTC</div>
             </div>
-            
-            <div class="message">
-                <div><span class="message-source">ACARS</span></div>
-                <div class="message-time">05.05.2026 19:27 UTC</div>
-                <div>.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+
+            <div class="acars-meta">
+                Label H1 · Msg C21A · Level -31.0 dB
             </div>
-            
-            <div class="message">
-                <div><span class="message-source">ACARS</span></div>
-                <div class="message-time">05.05.2026 19:27 UTC</div>
-                <div>.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+
+            <div class="acars-text">.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA3068</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6070 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">05.05.2026 19:27 UTC</div>
             </div>
-            
+
+            <div class="acars-meta">
+                Label H1 · Msg C21A · Level -31.0 dB
+            </div>
+
+            <div class="acars-text">.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA3068</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6070 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">05.05.2026 19:27 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg C21A · Level -31.0 dB
+            </div>
+
+            <div class="acars-text">.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA3068</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6070 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">05.05.2026 19:27 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg C21A · Level -31.0 dB
+            </div>
+
+            <div class="acars-text">.1/WRN/WN2605051927  345801006NAV GPS 2 FAULT</div>
+        </article>
+        
+    </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "7805DD", "flight": "CK0206", "lat": 62.1, "lon": 3.251667, "alt": "-", "speed": "-", "last_seen": "05.05.2026 19:41 UTC"}, {"hex": "78026E", "flight": "CA3068", "lat": 61.442, "lon": 26.213, "alt": 37000, "speed": 520.0, "last_seen": "05.05.2026 19:41 UTC"}, {"hex": "4601F8", "flight": "FIN594", "lat": 61.711881, "lon": 25.229594, "alt": 22375, "speed": 243.1, "last_seen": "05.05.2026 19:08 UTC"}, {"hex": "4601F9", "flight": "FIN7BT", "lat": 61.491394, "lon": 25.677992, "alt": 16000, "speed": 246.0, "last_seen": "05.05.2026 16:56 UTC"}, {"hex": "461E1C", "flight": "FIN9XG", "lat": 61.521063, "lon": 25.308329, "alt": 26800, "speed": 372.0, "last_seen": "05.05.2026 15:41 UTC"}, {"hex": "461E1A", "flight": "FIN5YR", "lat": 61.505905, "lon": 25.267966, "alt": 24900, "speed": 343.0, "last_seen": "05.05.2026 15:20 UTC"}, {"hex": "4601F2", "flight": "FIN6YP", "lat": 61.906128, "lon": 26.509617, "alt": 15975, "speed": 224.9, "last_seen": "05.05.2026 15:16 UTC"}, {"hex": "461E1F", "flight": "FIN440", "lat": 61.29994, "lon": 25.289205, "alt": 25250, "speed": 360.0, "last_seen": "05.05.2026 13:31 UTC"}, {"hex": "7812A3", "flight": "CHH770", "lat": 62.478643, "lon": 26.394125, "alt": 35000, "speed": 529.9, "last_seen": "05.05.2026 13:01 UTC"}, {"hex": "467895", "flight": "FNF263", "lat": 62.436401, "lon": 26.745707, "alt": 16650, "speed": 343.8, "last_seen": "05.05.2026 12:33 UTC"}, {"hex": "46789F", "flight": "-", "lat": 62.101244, "lon": 25.700378, "alt": 1425, "speed": "-", "last_seen": "05.05.2026 12:18 UTC"}, {"hex": "467891", "flight": "T02", "lat": 62.253842, "lon": 25.530853, "alt": 9975, "speed": 155.9, "last_seen": "05.05.2026 12:01 UTC"}, {"hex": "780005", "flight": "CAO3040", "lat": 61.985422, "lon": 28.04189, "alt": 37000, "speed": 539.1, "last_seen": "05.05.2026 11:58 UTC"}, {"hex": "461E1B", "flight": "FIN5KR", "lat": 61.678969, "lon": 25.298157, "alt": 24500, "speed": 336.1, "last_seen": "05.05.2026 11:56 UTC"}, {"hex": "461F36", "flight": "FIN2PD", "lat": 61.317581, "lon": 25.291803, "alt": 23025, "speed": 349.0, "last_seen": "05.05.2026 11:53 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.785278, "lon": 26.364049, "alt": 18000, "speed": 190.3, "last_seen": "05.05.2026 11:27 UTC"}, {"hex": "4601F5", "flight": "FIN2KK", "lat": 61.780127, "lon": 25.302124, "alt": 23000, "speed": 207.1, "last_seen": "05.05.2026 11:24 UTC"}, {"hex": "4678B1", "flight": "K05", "lat": 62.287406, "lon": 25.774031, "alt": 1425, "speed": 124.0, "last_seen": "05.05.2026 08:38 UTC"}, {"hex": "4678A7", "flight": "K06", "lat": 62.287949, "lon": 25.756226, "alt": 1600, "speed": 113.6, "last_seen": "05.05.2026 08:35 UTC"}, {"hex": "4601F6", "flight": "FIN5ET", "lat": 61.894412, "lon": 26.418864, "alt": 16025, "speed": 214.7, "last_seen": "05.05.2026 06:04 UTC"}, {"hex": "4601FC", "flight": "FIN8KH", "lat": 61.63777, "lon": 25.461629, "alt": 18000, "speed": 222.4, "last_seen": "05.05.2026 03:09 UTC"}, {"hex": "4601FA", "flight": "FIN4QA", "lat": 61.097903, "lon": 25.533142, "alt": 14000, "speed": 224.3, "last_seen": "05.05.2026 03:04 UTC"}, {"hex": "4601FB", "flight": "FIN5WR", "lat": 61.465945, "lon": 25.370483, "alt": 17000, "speed": 248.3, "last_seen": "04.05.2026 19:40 UTC"}];
+const aircraft = [{"hex": "7805DD", "flight": "CK0206", "lat": 62.1, "lon": 3.251667, "alt": "-", "speed": "-", "last_seen": "05.05.2026 19:42 UTC"}, {"hex": "78026E", "flight": "CA3068", "lat": 61.442, "lon": 26.213, "alt": 37000, "speed": 520.0, "last_seen": "05.05.2026 19:42 UTC"}, {"hex": "4601F8", "flight": "FIN594", "lat": 61.711881, "lon": 25.229594, "alt": 22375, "speed": 243.1, "last_seen": "05.05.2026 19:08 UTC"}, {"hex": "4601F9", "flight": "FIN7BT", "lat": 61.491394, "lon": 25.677992, "alt": 16000, "speed": 246.0, "last_seen": "05.05.2026 16:56 UTC"}, {"hex": "461E1C", "flight": "FIN9XG", "lat": 61.521063, "lon": 25.308329, "alt": 26800, "speed": 372.0, "last_seen": "05.05.2026 15:41 UTC"}, {"hex": "461E1A", "flight": "FIN5YR", "lat": 61.505905, "lon": 25.267966, "alt": 24900, "speed": 343.0, "last_seen": "05.05.2026 15:20 UTC"}, {"hex": "4601F2", "flight": "FIN6YP", "lat": 61.906128, "lon": 26.509617, "alt": 15975, "speed": 224.9, "last_seen": "05.05.2026 15:16 UTC"}, {"hex": "461E1F", "flight": "FIN440", "lat": 61.29994, "lon": 25.289205, "alt": 25250, "speed": 360.0, "last_seen": "05.05.2026 13:31 UTC"}, {"hex": "7812A3", "flight": "CHH770", "lat": 62.478643, "lon": 26.394125, "alt": 35000, "speed": 529.9, "last_seen": "05.05.2026 13:01 UTC"}, {"hex": "467895", "flight": "FNF263", "lat": 62.436401, "lon": 26.745707, "alt": 16650, "speed": 343.8, "last_seen": "05.05.2026 12:33 UTC"}, {"hex": "46789F", "flight": "-", "lat": 62.101244, "lon": 25.700378, "alt": 1425, "speed": "-", "last_seen": "05.05.2026 12:18 UTC"}, {"hex": "467891", "flight": "T02", "lat": 62.253842, "lon": 25.530853, "alt": 9975, "speed": 155.9, "last_seen": "05.05.2026 12:01 UTC"}, {"hex": "780005", "flight": "CAO3040", "lat": 61.985422, "lon": 28.04189, "alt": 37000, "speed": 539.1, "last_seen": "05.05.2026 11:58 UTC"}, {"hex": "461E1B", "flight": "FIN5KR", "lat": 61.678969, "lon": 25.298157, "alt": 24500, "speed": 336.1, "last_seen": "05.05.2026 11:56 UTC"}, {"hex": "461F36", "flight": "FIN2PD", "lat": 61.317581, "lon": 25.291803, "alt": 23025, "speed": 349.0, "last_seen": "05.05.2026 11:53 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.785278, "lon": 26.364049, "alt": 18000, "speed": 190.3, "last_seen": "05.05.2026 11:27 UTC"}, {"hex": "4601F5", "flight": "FIN2KK", "lat": 61.780127, "lon": 25.302124, "alt": 23000, "speed": 207.1, "last_seen": "05.05.2026 11:24 UTC"}, {"hex": "4678B1", "flight": "K05", "lat": 62.287406, "lon": 25.774031, "alt": 1425, "speed": 124.0, "last_seen": "05.05.2026 08:38 UTC"}, {"hex": "4678A7", "flight": "K06", "lat": 62.287949, "lon": 25.756226, "alt": 1600, "speed": 113.6, "last_seen": "05.05.2026 08:35 UTC"}, {"hex": "4601F6", "flight": "FIN5ET", "lat": 61.894412, "lon": 26.418864, "alt": 16025, "speed": 214.7, "last_seen": "05.05.2026 06:04 UTC"}, {"hex": "4601FC", "flight": "FIN8KH", "lat": 61.63777, "lon": 25.461629, "alt": 18000, "speed": 222.4, "last_seen": "05.05.2026 03:09 UTC"}, {"hex": "4601FA", "flight": "FIN4QA", "lat": 61.097903, "lon": 25.533142, "alt": 14000, "speed": 224.3, "last_seen": "05.05.2026 03:04 UTC"}, {"hex": "4601FB", "flight": "FIN5WR", "lat": 61.465945, "lon": 25.370483, "alt": 17000, "speed": 248.3, "last_seen": "04.05.2026 19:40 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 

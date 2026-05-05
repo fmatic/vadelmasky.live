@@ -19,7 +19,6 @@ INDEX = DOCS / "index.html"
 HISTORY_INDEX = HISTORY / "index.html"
 
 ACARS_FILE = MESSAGES / "acars_latest.json"
-VDL2_FILE = MESSAGES / "vdl2_latest.json"
 
 HOME_LAT = 62.24
 HOME_LON = 25.75
@@ -74,9 +73,19 @@ def load_messages(path, label):
         items = data if isinstance(data, list) else data.get("messages", [])
         for item in items:
             item["source"] = label
-        return items[-10:]
+        return items[-12:]
     except Exception:
         return []
+
+
+def alt_class(alt):
+    if not isinstance(alt, int):
+        return "unknown"
+    if alt < 10000:
+        return "low"
+    if alt < 25000:
+        return "mid"
+    return "high"
 
 
 def page_template(title, body):
@@ -192,21 +201,112 @@ tr:hover {{
     border: 3px solid #ffffff;
     box-shadow: 0 0 18px #41ff41;
 }}
-.message {{
+
+.aircraft-grid {{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}}
+.aircraft-card {{
     background: #101820;
     border: 1px solid #2b363d;
-    border-radius: 10px;
-    padding: .75rem;
-    margin-bottom: .6rem;
+    border-radius: 14px;
+    padding: 1rem;
 }}
-.message-source {{
-    color: #7dd3fc;
-    font-weight: 700;
+.aircraft-top {{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
 }}
-.message-time {{
-    color: #a8b3bd;
+.flight {{
+    font-size: 1.25rem;
+    font-weight: 800;
+}}
+.meta {{
+    color: #7b8794;
     font-size: .9rem;
 }}
+.alt-badge {{
+    padding: .25rem .65rem;
+    border-radius: 999px;
+    font-weight: 800;
+    font-size: .85rem;
+    white-space: nowrap;
+}}
+.alt-badge.low {{ background: rgba(65,255,65,.15); color: #41ff41; }}
+.alt-badge.mid {{ background: rgba(250,204,21,.15); color: #facc15; }}
+.alt-badge.high {{ background: rgba(248,113,113,.15); color: #f87171; }}
+.alt-badge.unknown {{ background: rgba(156,163,175,.15); color: #9ca3af; }}
+.aircraft-body {{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}}
+.aircraft-silhouette {{
+    width: 72px;
+    height: 72px;
+    border-radius: 12px;
+    background: #17212b;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    color: #41ff41;
+}}
+.aircraft-data {{
+    flex: 1;
+    display: grid;
+    gap: .35rem;
+}}
+.aircraft-data div {{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #26313a;
+    padding-bottom: .25rem;
+}}
+.aircraft-data span {{
+    color: #7b8794;
+}}
+.aircraft-data b {{
+    text-align: right;
+}}
+.photo-link {{
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 700;
+}}
+
+.acars-grid {{
+    display: grid;
+    gap: .75rem;
+}}
+.acars-card {{
+    background: #101820;
+    border: 1px solid #2b363d;
+    border-radius: 12px;
+    padding: .9rem;
+}}
+.acars-head {{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}}
+.acars-flight {{
+    font-size: 1.1rem;
+    font-weight: 800;
+}}
+.acars-meta {{
+    color: #7b8794;
+    font-size: .9rem;
+}}
+.acars-text {{
+    margin-top: .75rem;
+    padding: .75rem;
+    background: #0b1117;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}}
+
 footer {{
     color: #6b7280;
     padding: 2rem;
@@ -270,6 +370,58 @@ def build_rows(aircraft_items, limit=None):
     return rows
 
 
+def build_aircraft_cards(aircraft_items, limit=50):
+    cards = ""
+
+    for hex_id, a in aircraft_items[:limit]:
+        flight = esc(a.get("flight") or "Unknown")
+        icao = esc(hex_id.upper())
+        alt = a.get("alt")
+        speed = esc(a.get("speed") or "-")
+        track = esc(a.get("track") or "-")
+        lat = a.get("lat")
+        lon = a.get("lon")
+        last_seen = esc(fmt_time(a.get("last_seen")))
+
+        alt_text = f"{alt} ft" if alt else "-"
+        pos_text = (
+            f"{lat:.4f}, {lon:.4f}"
+            if isinstance(lat, (int, float)) and isinstance(lon, (int, float))
+            else "No position"
+        )
+
+        photo_query = a.get("flight") or hex_id.upper()
+        photo_url = f"https://www.jetphotos.com/photo/keyword/{photo_query}"
+
+        cards += f"""
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">{flight}</div>
+                    <div class="meta">ICAO {icao}</div>
+                </div>
+                <div class="alt-badge {alt_class(alt)}">{esc(alt_text)}</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>{speed} kt</b></div>
+                    <div><span>Track</span><b>{track}°</b></div>
+                    <div><span>Position</span><b>{esc(pos_text)}</b></div>
+                    <div><span>Last seen</span><b>{last_seen}</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="{photo_url}" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        """
+
+    return cards
+
+
 def build_markers(aircraft_items, limit=50):
     markers = []
 
@@ -288,6 +440,39 @@ def build_markers(aircraft_items, limit=50):
     return json.dumps(markers, ensure_ascii=False)
 
 
+def build_acars_cards():
+    messages = load_messages(ACARS_FILE, "ACARS")
+    messages = messages[-12:]
+
+    if not messages:
+        return '<p class="note">No ACARS messages logged yet.</p>'
+
+    cards = ""
+
+    for m in reversed(messages):
+        cards += f"""
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">{esc(m.get("flight", "-"))}</div>
+                    <div class="acars-meta">
+                        ACARS · Tail {esc(m.get("tail", "-"))} · {esc(m.get("freq", "-"))} MHz
+                    </div>
+                </div>
+                <div class="acars-meta">{esc(m.get("time", "-"))}</div>
+            </div>
+
+            <div class="acars-meta">
+                Label {esc(m.get("label", "-"))} · Msg {esc(m.get("msgno", "-"))} · Level {esc(m.get("level", "-"))} dB
+            </div>
+
+            <div class="acars-text">{esc(m.get("text", "No text"))}</div>
+        </article>
+        """
+
+    return cards
+
+
 def build_live_page(store):
     aircraft_list = sorted(
         store["aircraft"].items(),
@@ -295,26 +480,11 @@ def build_live_page(store):
         reverse=True
     )
 
-    rows = build_rows(aircraft_list, limit=50)
+    aircraft_cards = build_aircraft_cards(aircraft_list, limit=50)
     markers_json = build_markers(aircraft_list, limit=50)
     stats = daily_stats(store)
     last_update = fmt_time(store["summary"].get("updated"))
-
-    messages = load_messages(ACARS_FILE, "ACARS") + load_messages(VDL2_FILE, "VDL2")
-    messages = messages[-12:]
-
-    message_rows = ""
-    if messages:
-        for m in reversed(messages):
-            message_rows += f"""
-            <div class="message">
-                <div><span class="message-source">{esc(m.get("source", "-"))}</span></div>
-                <div class="message-time">{esc(m.get("time", "-"))}</div>
-                <div>{esc(m.get("text", m.get("message", "-")))}</div>
-            </div>
-            """
-    else:
-        message_rows = '<p class="note">No ACARS / VDL2 messages logged yet.</p>'
+    acars_cards = build_acars_cards()
 
     body = f"""
 <section>
@@ -357,28 +527,16 @@ def build_live_page(store):
 
 <section>
     <h2>Latest aircraft</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Flight</th>
-                <th>ICAO</th>
-                <th>Altitude ft</th>
-                <th>Speed kt</th>
-                <th>Track</th>
-                <th>Lat</th>
-                <th>Lon</th>
-                <th>Last seen</th>
-            </tr>
-        </thead>
-        <tbody>
-            {rows}
-        </tbody>
-    </table>
+    <div class="aircraft-grid">
+        {aircraft_cards}
+    </div>
 </section>
 
 <section>
-    <h2>Latest ACARS / VDL2 messages</h2>
-    {message_rows}
+    <h2>Latest ACARS messages</h2>
+    <div class="acars-grid">
+        {acars_cards}
+    </div>
 </section>
 
 <script>
