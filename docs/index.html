@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VadelmaSky.live</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0f1418;
+    color: #e8edf2;
+}
+header {
+    padding: 2rem;
+    background: linear-gradient(135deg, #07110c, #132019);
+    border-bottom: 1px solid #243225;
+}
+h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    color: #41ff41;
+}
+a {
+    color: #7dd3fc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.subtitle {
+    color: #a8b3bd;
+    margin-top: .4rem;
+}
+nav {
+    margin-top: 1rem;
+}
+nav a {
+    margin-right: 1rem;
+}
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.card {
+    background: #171d22;
+    border: 1px solid #2b363d;
+    border-radius: 14px;
+    padding: 1rem;
+}
+.card .value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #7dd3fc;
+}
+.card .label {
+    color: #a8b3bd;
+    margin-top: .25rem;
+}
+section {
+    background: #171d22;
+    border: 1px solid #2b363d;
+    border-radius: 14px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+#map {
+    height: 520px;
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid #2b363d;
+    margin-top: 1rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: .65rem;
+    border-bottom: 1px solid #2b363d;
+    white-space: nowrap;
+}
+th {
+    color: #93c5fd;
+    font-weight: 600;
+}
+tr:hover {
+    background: #1f2933;
+}
+.note {
+    color: #a8b3bd;
+    font-size: .95rem;
+}
+.receiver-icon {
+    background: #41ff41;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 18px #41ff41;
+}
+.message {
+    background: #101820;
+    border: 1px solid #2b363d;
+    border-radius: 10px;
+    padding: .75rem;
+    margin-bottom: .6rem;
+}
+.message-source {
+    color: #7dd3fc;
+    font-weight: 700;
+}
+.message-time {
+    color: #a8b3bd;
+    font-size: .9rem;
+}
+footer {
+    color: #6b7280;
+    padding: 2rem;
+    text-align: center;
+    font-size: .9rem;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>VadelmaSky ✈️</h1>
+    <div class="subtitle">Local ADS-B aviation log from Jyväskylä, Finland</div>
+    <nav>
+        <a href="/">Live</a>
+        <a href="/history/">History</a>
+        <a href="/today.json">Today JSON</a>
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h2>Map</h2>
+    <div id="map"></div>
+    <p class="note">Map shows aircraft with known position captured today.</p>
+</section>
+
+<div class="cards">
+    <div class="card">
+        <div class="value">10</div>
+        <div class="label">Unique aircraft today</div>
+    </div>
+
+    <div class="card">
+        <div class="value">1</div>
+        <div class="label">Aircraft currently visible</div>
+    </div>
+
+    <div class="card">
+        <div class="value">3</div>
+        <div class="label">With position today</div>
+    </div>
+
+    <div class="card">
+        <div class="value">26000 ft</div>
+        <div class="label">Highest altitude today</div>
+    </div>
+
+    <div class="card">
+        <div class="value">410.0 kt</div>
+        <div class="label">Max speed today</div>
+    </div>
+
+    <div class="card">
+        <div class="value">05.05.2026 04:41 UTC</div>
+        <div class="label">Last update</div>
+    </div>
+</div>
+
+<section>
+    <h2>Latest aircraft</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Flight</th>
+                <th>ICAO</th>
+                <th>Altitude ft</th>
+                <th>Speed kt</th>
+                <th>Track</th>
+                <th>Lat</th>
+                <th>Lon</th>
+                <th>Last seen</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr>
+            <td>FIN3PJ</td>
+            <td>4601F6</td>
+            <td>19025</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 04:41 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FNF263</td>
+            <td>467895</td>
+            <td>26000</td>
+            <td>156.0</td>
+            <td>238.89</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 04:27 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>BPS69PS</td>
+            <td>472609</td>
+            <td>20000</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 03:29 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN8MC</td>
+            <td>461E1A</td>
+            <td>25500</td>
+            <td>410.0</td>
+            <td>180.35</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 03:20 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN4MP</td>
+            <td>461E1D</td>
+            <td>25125</td>
+            <td>386.0</td>
+            <td>185.8</td>
+            <td>-</td>
+            <td>-</td>
+            <td>05.05.2026 03:19 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN8KH</td>
+            <td>4601FC</td>
+            <td>18000</td>
+            <td>222.4</td>
+            <td>199.98</td>
+            <td>61.63777</td>
+            <td>25.461629</td>
+            <td>05.05.2026 03:09 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN4QA</td>
+            <td>4601FA</td>
+            <td>14000</td>
+            <td>224.3</td>
+            <td>209.08</td>
+            <td>61.097903</td>
+            <td>25.533142</td>
+            <td>05.05.2026 03:04 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN446</td>
+            <td>461F6A</td>
+            <td>23925</td>
+            <td>366.0</td>
+            <td>181.41</td>
+            <td>-</td>
+            <td>-</td>
+            <td>04.05.2026 19:43 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>FIN5WR</td>
+            <td>4601FB</td>
+            <td>17000</td>
+            <td>248.3</td>
+            <td>185.78</td>
+            <td>61.465945</td>
+            <td>25.370483</td>
+            <td>04.05.2026 19:40 UTC</td>
+        </tr>
+        
+        <tr>
+            <td>-</td>
+            <td>4601F7</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>04.05.2026 18:17 UTC</td>
+        </tr>
+        
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Latest ACARS / VDL2 messages</h2>
+    <p class="note">No ACARS / VDL2 messages logged yet.</p>
+</section>
+
+<script>
+const aircraft = [{"hex": "4601FC", "flight": "FIN8KH", "lat": 61.63777, "lon": 25.461629, "alt": 18000, "speed": 222.4, "last_seen": "05.05.2026 03:09 UTC"}, {"hex": "4601FA", "flight": "FIN4QA", "lat": 61.097903, "lon": 25.533142, "alt": 14000, "speed": 224.3, "last_seen": "05.05.2026 03:04 UTC"}, {"hex": "4601FB", "flight": "FIN5WR", "lat": 61.465945, "lon": 25.370483, "alt": 17000, "speed": 248.3, "last_seen": "04.05.2026 19:40 UTC"}];
+
+const map = L.map('map').setView([62.24, 25.75], 7);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+}).addTo(map);
+
+const receiverIcon = L.divIcon({
+    className: 'receiver-icon',
+    iconSize: [18, 18]
+});
+
+L.marker([62.24, 25.75], { icon: receiverIcon })
+    .addTo(map)
+    .bindPopup('<b>VadelmaSky receiver</b><br>Jyväskylä, Finland');
+
+function altitudeColor(alt) {
+    if (!alt || alt === '-') return '#9ca3af';
+    if (alt < 10000) return '#41ff41';
+    if (alt < 25000) return '#facc15';
+    if (alt < 35000) return '#fb923c';
+    return '#f87171';
+}
+
+aircraft.forEach(a => {
+    const color = altitudeColor(Number(a.alt));
+
+    L.circleMarker([a.lat, a.lon], {
+        radius: 7,
+        color: color,
+        fillColor: color,
+        fillOpacity: 0.85,
+        weight: 2
+    }).addTo(map)
+        .bindPopup(`
+            <b>${a.flight}</b><br>
+            ICAO: ${a.hex}<br>
+            Alt: ${a.alt} ft<br>
+            Speed: ${a.speed} kt<br>
+            Last seen: ${a.last_seen}
+        `);
+});
+</script>
+
+</main>
+
+<footer>
+    VadelmaSky.live · Powered by local SDR receivers · Data updates automatically
+</footer>
+</body>
+</html>
