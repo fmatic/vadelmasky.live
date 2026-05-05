@@ -374,8 +374,16 @@ def build_aircraft_cards(aircraft_items, limit=50):
     cards = ""
 
     for hex_id, a in aircraft_items[:limit]:
-        flight = esc(a.get("flight") or "Unknown")
-        icao = esc(hex_id.upper())
+        flight_raw = a.get("flight") or "Unknown"
+        flight = esc(flight_raw)
+        icao_raw = hex_id.upper()
+        icao = esc(icao_raw)
+        reg_raw = a.get("reg")
+        aircraft_type_raw = a.get("type")
+
+        reg = esc(reg_raw or "-")
+        aircraft_type = esc(aircraft_type_raw or "-")
+
         alt = a.get("alt")
         speed = esc(a.get("speed") or "-")
         track = esc(a.get("track") or "-")
@@ -390,15 +398,15 @@ def build_aircraft_cards(aircraft_items, limit=50):
             else "No position"
         )
 
-        photo_query = a.get("flight") or hex_id.upper()
-        photo_url = f"https://www.jetphotos.com/photo/keyword/{photo_query}"
+        photo_query = reg_raw or flight_raw or icao_raw
+        photo_url = f"https://www.jetphotos.com/photo/keyword/{esc(photo_query)}"
 
         cards += f"""
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
                     <div class="flight">{flight}</div>
-                    <div class="meta">ICAO {icao}</div>
+                    <div class="meta">ICAO {icao} · REG {reg} · TYPE {aircraft_type}</div>
                 </div>
                 <div class="alt-badge {alt_class(alt)}">{esc(alt_text)}</div>
             </div>
@@ -711,19 +719,6 @@ def build_history_pages():
     HISTORY_INDEX.write_text(page_template("VadelmaSky history", body), encoding="utf-8")
 
 
-def git_publish():
-    os.chdir(BASE)
-    os.system("git add docs vadelmasky_logger.py")
-
-    if os.system("git diff --cached --quiet") != 0:
-        msg = f"Update flights {datetime.now().strftime('%Y-%m-%d %H:%M')}"
-        os.system(f'git commit -m "{msg}"')
-        os.system("git pull --rebase origin main")
-        os.system("git push")
-    else:
-        print("No changes, skipping commit")
-
-
 def main():
     store = load_store()
 
@@ -749,8 +744,8 @@ def main():
         store["aircraft"][hex_id] = {
             "hex": hex_id,
             "flight": flight,
-	    "reg": a.get("r", old.get("reg")),        # ⭐ LISÄTTY
-	    "type": a.get("t", old.get("type")),      # ⭐ LISÄTTY
+            "reg": a.get("r", old.get("reg")),
+            "type": a.get("t", old.get("type")),
             "lat": a.get("lat", old.get("lat")),
             "lon": a.get("lon", old.get("lon")),
             "alt": a.get("alt_baro", old.get("alt")),
@@ -773,7 +768,6 @@ def main():
 
     build_live_page(store)
     build_history_pages()
-    
 
 
 if __name__ == "__main__":
