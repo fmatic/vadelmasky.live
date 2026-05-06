@@ -246,32 +246,32 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">14</div>
+        <div class="value">13</div>
         <div class="label">Aircraft in live window</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">12</div>
+        <div class="value">11</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">35000 ft</div>
+        <div class="value">37000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">562.0 kt</div>
+        <div class="value">562.5 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">06.05.2026 12:45 UTC</div>
+        <div class="value">06.05.2026 12:50 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DKH1662</div>
+                    <div class="meta">ICAO 782158 · REG B-226M · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">37000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>562.5 kt</b></div>
+                    <div><span>Track</span><b>65.53°</b></div>
+                    <div><span>Position</span><b>61.6324, 25.9542</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 12:50 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-226M" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -568,54 +592,6 @@ footer {
             </a>
         </article>
         
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">K25</div>
-                    <div class="meta">ICAO 46789D · REG GO-7 · TYPE G115</div>
-                </div>
-                <div class="alt-badge low">2375 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>85.6 kt</b></div>
-                    <div><span>Track</span><b>312.63°</b></div>
-                    <div><span>Position</span><b>62.3133, 25.8734</b></div>
-                    <div><span>Last seen</span><b>06.05.2026 10:49 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-7" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">K24</div>
-                    <div class="meta">ICAO 46789C · REG GO-6 · TYPE G115</div>
-                </div>
-                <div class="alt-badge low">2350 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>86.3 kt</b></div>
-                    <div><span>Track</span><b>313.12°</b></div>
-                    <div><span>Position</span><b>62.3302, 25.8332</b></div>
-                    <div><span>Last seen</span><b>06.05.2026 10:46 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-6" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
     </div>
 </section>
 
@@ -847,7 +823,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "78158A", "flight": "DKH1660", "lat": 61.606906, "lon": 25.837301, "alt": 34975, "speed": 562.0, "last_seen": "06.05.2026 12:41 UTC"}, {"hex": "4678B1", "flight": "K38", "lat": 62.308823, "lon": 25.760295, "alt": 1675, "speed": 121.9, "last_seen": "06.05.2026 12:29 UTC"}, {"hex": "461F6C", "flight": "FIN2PD", "lat": 61.675431, "lon": 25.298157, "alt": 24800, "speed": 367.1, "last_seen": "06.05.2026 11:52 UTC"}, {"hex": "461F31", "flight": "FIN5KR", "lat": 61.559981, "lon": 25.292562, "alt": 23050, "speed": 366.1, "last_seen": "06.05.2026 11:51 UTC"}, {"hex": "467897", "flight": "K32", "lat": 62.229495, "lon": 25.840689, "alt": 1050, "speed": 118.7, "last_seen": "06.05.2026 11:48 UTC"}, {"hex": "7800EB", "flight": "CSG2518", "lat": 61.744328, "lon": 26.377462, "alt": 35000, "speed": 550.0, "last_seen": "06.05.2026 11:30 UTC"}, {"hex": "4601F3", "flight": "FIN286", "lat": 61.281738, "lon": 25.461894, "alt": 16000, "speed": 279.6, "last_seen": "06.05.2026 11:24 UTC"}, {"hex": "4601F5", "flight": "FIN2KK", "lat": 61.85051, "lon": 25.305241, "alt": 19025, "speed": 268.0, "last_seen": "06.05.2026 11:23 UTC"}, {"hex": "4601F2", "flight": "FIN26B", "lat": 61.208496, "lon": 25.651703, "alt": 16025, "speed": 261.8, "last_seen": "06.05.2026 11:00 UTC"}, {"hex": "467899", "flight": "K22", "lat": 62.310636, "lon": 25.876394, "alt": 2425, "speed": 88.1, "last_seen": "06.05.2026 10:54 UTC"}, {"hex": "46789D", "flight": "K25", "lat": 62.313289, "lon": 25.873437, "alt": 2375, "speed": 85.6, "last_seen": "06.05.2026 10:49 UTC"}, {"hex": "46789C", "flight": "K24", "lat": 62.330246, "lon": 25.833232, "alt": 2350, "speed": 86.3, "last_seen": "06.05.2026 10:46 UTC"}];
+const aircraft = [{"hex": "782158", "flight": "DKH1662", "lat": 61.632416, "lon": 25.954183, "alt": 37000, "speed": 562.5, "last_seen": "06.05.2026 12:50 UTC"}, {"hex": "78158A", "flight": "DKH1660", "lat": 61.606906, "lon": 25.837301, "alt": 34975, "speed": 562.0, "last_seen": "06.05.2026 12:41 UTC"}, {"hex": "4678B1", "flight": "K38", "lat": 62.308823, "lon": 25.760295, "alt": 1675, "speed": 121.9, "last_seen": "06.05.2026 12:29 UTC"}, {"hex": "461F6C", "flight": "FIN2PD", "lat": 61.675431, "lon": 25.298157, "alt": 24800, "speed": 367.1, "last_seen": "06.05.2026 11:52 UTC"}, {"hex": "461F31", "flight": "FIN5KR", "lat": 61.559981, "lon": 25.292562, "alt": 23050, "speed": 366.1, "last_seen": "06.05.2026 11:51 UTC"}, {"hex": "467897", "flight": "K32", "lat": 62.229495, "lon": 25.840689, "alt": 1050, "speed": 118.7, "last_seen": "06.05.2026 11:48 UTC"}, {"hex": "7800EB", "flight": "CSG2518", "lat": 61.744328, "lon": 26.377462, "alt": 35000, "speed": 550.0, "last_seen": "06.05.2026 11:30 UTC"}, {"hex": "4601F3", "flight": "FIN286", "lat": 61.281738, "lon": 25.461894, "alt": 16000, "speed": 279.6, "last_seen": "06.05.2026 11:24 UTC"}, {"hex": "4601F5", "flight": "FIN2KK", "lat": 61.85051, "lon": 25.305241, "alt": 19025, "speed": 268.0, "last_seen": "06.05.2026 11:23 UTC"}, {"hex": "4601F2", "flight": "FIN26B", "lat": 61.208496, "lon": 25.651703, "alt": 16025, "speed": 261.8, "last_seen": "06.05.2026 11:00 UTC"}, {"hex": "467899", "flight": "K22", "lat": 62.310636, "lon": 25.876394, "alt": 2425, "speed": 88.1, "last_seen": "06.05.2026 10:54 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
