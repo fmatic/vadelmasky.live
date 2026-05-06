@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.05.2026 03:38 UTC",
-      "source": "ACARS",
-      "flight": "CA3032",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -36.6,
-      "label": "10",
-      "msgno": "M25A",
-      "text": "ETA061144,LEMD,ZSPD, 621"
-    },
-    {
-      "time": "06.05.2026 03:41 UTC",
-      "source": "ACARS",
-      "flight": "CA3032",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "H1",
-      "msgno": "C01A",
-      "text": "RTE 1 06MAY26 0340 CAB-2091 CAO3032 LEMD/ZSPD 311B-BCG-00W-19 L 2343 12MAY26\r\nFDE 34503142 A 0338 06MAY26\r\nMSG 3453302 A 0338 06MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 0338 06MAY26 ER H"
-    },
-    {
-      "time": "06.05.2026 03:41 UTC",
-      "source": "ACARS",
-      "flight": "CA3032",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "H1",
-      "msgno": "C01B",
-      "text": " PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503141 I 0338 06MAY26\r\nMSG 3453301 I 0338 06MAY26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 0338 06MAY26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEO"
-    },
-    {
       "time": "06.05.2026 03:41 UTC",
       "source": "ACARS",
       "flight": "CA3032",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S39A",
       "text": "No text"
+    },
+    {
+      "time": "06.05.2026 14:50 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "SA",
+      "msgno": "S41A",
+      "text": "0LH145047VS"
+    },
+    {
+      "time": "06.05.2026 14:51 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "SA",
+      "msgno": "S42A",
+      "text": "0LS145118V"
+    },
+    {
+      "time": "06.05.2026 14:52 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "SA",
+      "msgno": "S45A",
+      "text": "0LS145228V"
     }
   ]
 }
