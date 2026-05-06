@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -266,12 +266,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">551.0 kt</div>
+        <div class="value">420.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">06.05.2026 15:10 UTC</div>
+        <div class="value">06.05.2026 15:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -292,14 +292,38 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>257.5 kt</b></div>
-                    <div><span>Track</span><b>212.15°</b></div>
-                    <div><span>Position</span><b>61.8264, 26.3970</b></div>
-                    <div><span>Last seen</span><b>06.05.2026 15:10 UTC</b></div>
+                    <div><span>Speed</span><b>256.3 kt</b></div>
+                    <div><span>Track</span><b>205.67°</b></div>
+                    <div><span>Position</span><b>61.6152, 26.1668</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 15:15 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5YR</div>
+                    <div class="meta">ICAO 461F36 · REG OH-LVI · TYPE A319</div>
+                </div>
+                <div class="alt-badge high">28325 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>359.1 kt</b></div>
+                    <div><span>Track</span><b>181.28°</b></div>
+                    <div><span>Position</span><b>61.6319, 25.2966</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 15:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVI" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -372,30 +396,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-7973" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CAO3154</div>
-                    <div class="meta">ICAO 781FC3 · REG B-223T · TYPE B77L</div>
-                </div>
-                <div class="alt-badge high">37000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>551.0 kt</b></div>
-                    <div><span>Track</span><b>76.14°</b></div>
-                    <div><span>Position</span><b>62.2141, 26.6728</b></div>
-                    <div><span>Last seen</span><b>06.05.2026 13:13 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-223T" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -627,7 +627,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F6", "flight": "FIN6YP", "lat": 61.826353, "lon": 26.396993, "alt": 16000, "speed": 257.5, "last_seen": "06.05.2026 15:10 UTC"}, {"hex": "461F6E", "flight": "FIN440", "lat": 61.31479, "lon": 25.298767, "alt": 24975, "speed": 385.0, "last_seen": "06.05.2026 14:05 UTC"}, {"hex": "781FC3", "flight": "CAO3154", "lat": 62.214133, "lon": 26.672798, "alt": 37000, "speed": 551.0, "last_seen": "06.05.2026 13:13 UTC"}];
+const aircraft = [{"hex": "4601F6", "flight": "FIN6YP", "lat": 61.615239, "lon": 26.166789, "alt": 16000, "speed": 256.3, "last_seen": "06.05.2026 15:15 UTC"}, {"hex": "461F36", "flight": "FIN5YR", "lat": 61.631904, "lon": 25.296631, "alt": 28325, "speed": 359.1, "last_seen": "06.05.2026 15:15 UTC"}, {"hex": "461F6E", "flight": "FIN440", "lat": 61.31479, "lon": 25.298767, "alt": 24975, "speed": 385.0, "last_seen": "06.05.2026 14:05 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
