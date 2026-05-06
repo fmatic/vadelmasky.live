@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total_unique_aircraft": 9,
-    "last_seen_live": 0,
-    "updated": "2026-05-06T11:05:01.329312"
+    "total_unique_aircraft": 10,
+    "last_seen_live": 1,
+    "updated": "2026-05-06T11:10:01.504935"
   },
   "aircraft": {
     "4601f2": {
@@ -59,16 +59,16 @@
     },
     "4601f3": {
       "hex": "4601f3",
-      "flight": "FIN6LE",
+      "flight": "FIN286",
       "reg": "OH-ATF",
       "type": "AT75",
-      "lat": 62.31855,
-      "lon": 25.816075,
-      "alt": 2400,
-      "speed": 182.0,
-      "track": 354.01,
+      "lat": 62.131503,
+      "lon": 25.697225,
+      "alt": 13050,
+      "speed": 180.6,
+      "track": 191.5,
       "seen_first": "2026-05-06T10:20:01.508572",
-      "last_seen": "2026-05-06T10:30:01.856918"
+      "last_seen": "2026-05-06T11:10:01.504935"
     },
     "4678a9": {
       "hex": "4678a9",
@@ -121,6 +121,19 @@
       "track": 181.05,
       "seen_first": "2026-05-06T10:57:01.431816",
       "last_seen": "2026-05-06T10:58:01.740512"
+    },
+    "4601fb": {
+      "hex": "4601fb",
+      "flight": "",
+      "reg": "OH-ATN",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 23975,
+      "speed": 231.1,
+      "track": 178.51,
+      "seen_first": "2026-05-06T11:07:01.445879",
+      "last_seen": "2026-05-06T11:09:02.141886"
     }
   }
 }
