@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft in live window</div>
     </div>
 
@@ -256,22 +256,22 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">2400 ft</div>
+        <div class="value">0 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">167.1 kt</div>
+        <div class="value">0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">06.05.2026 23:05 UTC</div>
+        <div class="value">06.05.2026 23:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,30 +279,6 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN1T</div>
-                    <div class="meta">ICAO 4601FC · REG OH-ATO · TYPE AT75</div>
-                </div>
-                <div class="alt-badge low">2400 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>167.1 kt</b></div>
-                    <div><span>Track</span><b>1.71°</b></div>
-                    <div><span>Position</span><b>62.3096, 25.8320</b></div>
-                    <div><span>Last seen</span><b>06.05.2026 21:09 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATO" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
         
     </div>
 </section>
@@ -531,7 +507,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FC", "flight": "FIN1T", "lat": 62.309601, "lon": 25.832011, "alt": 2400, "speed": 167.1, "last_seen": "06.05.2026 21:09 UTC"}];
+const aircraft = [];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
