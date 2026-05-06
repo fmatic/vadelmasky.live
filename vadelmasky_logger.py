@@ -381,11 +381,27 @@ footer {{
 </html>
 """
 
-
 def load_store():
+    today_utc = datetime.utcnow().strftime("%Y-%m-%d")
+
     if TODAY_FILE.exists():
-        with open(TODAY_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(TODAY_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            updated = (
+                data.get("summary", {})
+                .get("updated", "")
+            )
+
+            if updated.startswith(today_utc):
+                return data
+
+            print("New UTC day detected -> resetting today store")
+
+        except Exception as e:
+            print(f"Failed loading today.json: {e}")
+
     return {"aircraft": {}, "summary": {}}
 
 
