@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">Aircraft in live window</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">06.05.2026 10:15 UTC</div>
+        <div class="value">06.05.2026 10:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN6LE</div>
+                    <div class="meta">ICAO 4601F3 · REG OH-ATF · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">19425 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>311.8 kt</b></div>
+                    <div><span>Track</span><b>18.9°</b></div>
+                    <div><span>Position</span><b>61.6804, 25.5044</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 10:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -579,7 +603,7 @@ MSG 3453013 A 0338 06MAY26 ER H</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "467897", "flight": "K21", "lat": 62.320179, "lon": 25.854633, "alt": 2375, "speed": 84.9, "last_seen": "06.05.2026 10:14 UTC"}, {"hex": "467899", "flight": "K22", "lat": 62.327534, "lon": 25.838893, "alt": 2350, "speed": 71.1, "last_seen": "06.05.2026 10:11 UTC"}, {"hex": "467891", "flight": "T12", "lat": 62.322646, "lon": 25.849774, "alt": 2525, "speed": 145.8, "last_seen": "06.05.2026 10:08 UTC"}, {"hex": "461F9B", "flight": "FIN7TP", "lat": 61.489408, "lon": 25.264587, "alt": 23350, "speed": 451.0, "last_seen": "06.05.2026 08:44 UTC"}];
+const aircraft = [{"hex": "4601F3", "flight": "FIN6LE", "lat": 61.680412, "lon": 25.504354, "alt": 19425, "speed": 311.8, "last_seen": "06.05.2026 10:20 UTC"}, {"hex": "467897", "flight": "K21", "lat": 62.320179, "lon": 25.854633, "alt": 2375, "speed": 84.9, "last_seen": "06.05.2026 10:14 UTC"}, {"hex": "467899", "flight": "K22", "lat": 62.327534, "lon": 25.838893, "alt": 2350, "speed": 71.1, "last_seen": "06.05.2026 10:11 UTC"}, {"hex": "467891", "flight": "T12", "lat": 62.322646, "lon": 25.849774, "alt": 2525, "speed": 145.8, "last_seen": "06.05.2026 10:08 UTC"}, {"hex": "461F9B", "flight": "FIN7TP", "lat": 61.489408, "lon": 25.264587, "alt": 23350, "speed": 451.0, "last_seen": "06.05.2026 08:44 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
