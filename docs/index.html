@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">8</div>
         <div class="label">Aircraft in live window</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">7</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">06.05.2026 13:30 UTC</div>
+        <div class="value">06.05.2026 13:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -292,10 +292,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Speed</span><b>388.0 kt</b></div>
+                    <div><span>Track</span><b>264.2°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>06.05.2026 13:30 UTC</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 13:35 UTC</b></div>
                 </div>
             </div>
 
@@ -468,30 +468,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-1" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CSG2518</div>
-                    <div class="meta">ICAO 7800EB · REG B-2010 · TYPE B77L</div>
-                </div>
-                <div class="alt-badge high">35000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>550.0 kt</b></div>
-                    <div><span>Track</span><b>86.84°</b></div>
-                    <div><span>Position</span><b>61.7443, 26.3775</b></div>
-                    <div><span>Last seen</span><b>06.05.2026 11:30 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2010" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -727,7 +703,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "781FC3", "flight": "CAO3154", "lat": 62.214133, "lon": 26.672798, "alt": 37000, "speed": 551.0, "last_seen": "06.05.2026 13:13 UTC"}, {"hex": "782158", "flight": "DKH1662", "lat": 61.632416, "lon": 25.954183, "alt": 37000, "speed": 564.0, "last_seen": "06.05.2026 13:03 UTC"}, {"hex": "78158A", "flight": "DKH1660", "lat": 61.606906, "lon": 25.837301, "alt": 34975, "speed": 562.0, "last_seen": "06.05.2026 12:41 UTC"}, {"hex": "4678B1", "flight": "K38", "lat": 62.308823, "lon": 25.760295, "alt": 1675, "speed": 121.9, "last_seen": "06.05.2026 12:29 UTC"}, {"hex": "461F6C", "flight": "FIN2PD", "lat": 61.675431, "lon": 25.298157, "alt": 24800, "speed": 367.1, "last_seen": "06.05.2026 11:52 UTC"}, {"hex": "461F31", "flight": "FIN5KR", "lat": 61.559981, "lon": 25.292562, "alt": 23050, "speed": 366.1, "last_seen": "06.05.2026 11:51 UTC"}, {"hex": "467897", "flight": "K32", "lat": 62.229495, "lon": 25.840689, "alt": 1050, "speed": 118.7, "last_seen": "06.05.2026 11:48 UTC"}, {"hex": "7800EB", "flight": "CSG2518", "lat": 61.744328, "lon": 26.377462, "alt": 35000, "speed": 550.0, "last_seen": "06.05.2026 11:30 UTC"}];
+const aircraft = [{"hex": "781FC3", "flight": "CAO3154", "lat": 62.214133, "lon": 26.672798, "alt": 37000, "speed": 551.0, "last_seen": "06.05.2026 13:13 UTC"}, {"hex": "782158", "flight": "DKH1662", "lat": 61.632416, "lon": 25.954183, "alt": 37000, "speed": 564.0, "last_seen": "06.05.2026 13:03 UTC"}, {"hex": "78158A", "flight": "DKH1660", "lat": 61.606906, "lon": 25.837301, "alt": 34975, "speed": 562.0, "last_seen": "06.05.2026 12:41 UTC"}, {"hex": "4678B1", "flight": "K38", "lat": 62.308823, "lon": 25.760295, "alt": 1675, "speed": 121.9, "last_seen": "06.05.2026 12:29 UTC"}, {"hex": "461F6C", "flight": "FIN2PD", "lat": 61.675431, "lon": 25.298157, "alt": 24800, "speed": 367.1, "last_seen": "06.05.2026 11:52 UTC"}, {"hex": "461F31", "flight": "FIN5KR", "lat": 61.559981, "lon": 25.292562, "alt": 23050, "speed": 366.1, "last_seen": "06.05.2026 11:51 UTC"}, {"hex": "467897", "flight": "K32", "lat": 62.229495, "lon": 25.840689, "alt": 1050, "speed": 118.7, "last_seen": "06.05.2026 11:48 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
