@@ -825,9 +825,9 @@ def main():
 
 # Remove stale aircraft older than 2 hours
 
-stale = []
+    stale = []
 
-for hex_id, aircraft in store["aircraft"].items():
+    for hex_id, aircraft in store["aircraft"].items():
     try:
         last_seen = datetime.fromisoformat(aircraft["last_seen"])
         age = (datetime.utcnow() - last_seen).total_seconds()
@@ -838,7 +838,7 @@ for hex_id, aircraft in store["aircraft"].items():
     except Exception:
         stale.append(hex_id)
 
-for hex_id in stale:
+    for hex_id in stale:
     del store["aircraft"][hex_id]
 
     store["summary"] = {
