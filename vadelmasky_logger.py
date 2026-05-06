@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 
-import html
-import json
 import csv
 import gzip
-import os
+import html
+import json
 from datetime import datetime
 from pathlib import Path
 
 BASE = Path("/home/dietpi/vadelmasky")
 SOURCE = Path("/run/adsb-feeder-ultrafeeder/readsb/aircraft.json")
-
 AIRCRAFT_DB = Path("/usr/local/share/tar1090/aircraft.csv.gz")
+
 DOCS = BASE / "docs"
 DATA = DOCS / "data"
 HISTORY = DOCS / "history"
@@ -20,16 +19,30 @@ MESSAGES = BASE / "messages"
 TODAY_FILE = DOCS / "today.json"
 INDEX = DOCS / "index.html"
 HISTORY_INDEX = HISTORY / "index.html"
-
 ACARS_FILE = MESSAGES / "acars_latest.json"
 
 HOME_LAT = 62.24
 HOME_LON = 25.75
+STALE_SECONDS = 7200
 
 DOCS.mkdir(exist_ok=True)
 DATA.mkdir(exist_ok=True)
 HISTORY.mkdir(exist_ok=True)
 MESSAGES.mkdir(exist_ok=True)
+
+
+def esc(value):
+    return html.escape(str(value)) if value is not None else "-"
+
+
+def fmt_time(value):
+    if not value:
+        return "-"
+    try:
+        return datetime.fromisoformat(value).strftime("%d.%m.%Y %H:%M") + " UTC"
+    except Exception:
+        return "-"
+
 
 def load_aircraft_db():
     db = {}
@@ -73,14 +86,31 @@ def load_aircraft_db():
 
     return db
 
-def fmt_time(value):
-    if not value:
-        return "-"
-    return datetime.fromisoformat(value).strftime("%d.%m.%Y %H:%M") + " UTC"
+
+def load_store():
+    today_utc = datetime.utcnow().strftime("%Y-%m-%d")
+
+    if TODAY_FILE.exists():
+        try:
+            data = json.loads(TODAY_FILE.read_text(encoding="utf-8"))
+            updated = data.get("summary", {}).get("updated", "")
+
+            if updated.startswith(today_utc):
+                return data
+
+            print("New UTC day detected -> resetting today store")
+
+        except Exception as e:
+            print(f"Failed loading today.json: {e}")
+
+    return {"aircraft": {}, "summary": {}}
 
 
-def esc(value):
-    return html.escape(str(value)) if value is not None else "-"
+def save_json(path, payload):
+    path.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False),
+        encoding="utf-8"
+    )
 
 
 def daily_stats(payload):
@@ -281,6 +311,7 @@ tr:hover {{
 .alt-badge.mid {{ background: rgba(250,204,21,.15); color: #facc15; }}
 .alt-badge.high {{ background: rgba(248,113,113,.15); color: #f87171; }}
 .alt-badge.unknown {{ background: rgba(156,163,175,.15); color: #9ca3af; }}
+
 .aircraft-body {{
     display: flex;
     gap: 1rem;
@@ -381,34 +412,6 @@ footer {{
 </html>
 """
 
-def load_store():
-    today_utc = datetime.utcnow().strftime("%Y-%m-%d")
-
-    if TODAY_FILE.exists():
-        try:
-            with open(TODAY_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-
-            updated = (
-                data.get("summary", {})
-                .get("updated", "")
-            )
-
-            if updated.startswith(today_utc):
-                return data
-
-            print("New UTC day detected -> resetting today store")
-
-        except Exception as e:
-            print(f"Failed loading today.json: {e}")
-
-    return {"aircraft": {}, "summary": {}}
-
-
-def save_json(path, payload):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(payload, f, indent=2, ensure_ascii=False)
-
 
 def build_rows(aircraft_items, limit=None):
     rows = ""
@@ -432,8 +435,9 @@ def build_rows(aircraft_items, limit=None):
 
 def build_aircraft_cards(aircraft_items, limit=50):
     cards = ""
+    items = aircraft_items[:limit] if limit else aircraft_items
 
-    for hex_id, a in aircraft_items[:limit]:
+    for hex_id, a in items:
         flight_raw = a.get("flight") or "Unknown"
         flight = esc(flight_raw)
 
@@ -564,33 +568,33 @@ def build_live_page(store):
 <section>
     <h2>Map</h2>
     <div id="map"></div>
-    <p class="note">Map shows aircraft with known position captured today.</p>
+    <p class="note">Map shows aircraft with known position captured recently.</p>
 </section>
 
 <div class="cards">
     <div class="card">
         <div class="value">{stats["unique"]}</div>
-        <div class="label">Unique aircraft today</div>
+        <div class="label">Aircraft in live window</div>
     </div>
 
     <div class="card">
-        <div class="value">{store["summary"]["last_seen_live"]}</div>
+        <div class="value">{store["summary"].get("last_seen_live", 0)}</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
         <div class="value">{stats["with_position"]}</div>
-        <div class="label">With position today</div>
+        <div class="label">With position</div>
     </div>
 
     <div class="card">
         <div class="value">{stats["highest_alt"]} ft</div>
-        <div class="label">Highest altitude today</div>
+        <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
         <div class="value">{stats["max_speed"]} kt</div>
-        <div class="label">Max speed today</div>
+        <div class="label">Max speed</div>
     </div>
 
     <div class="card">
@@ -673,7 +677,7 @@ def build_day_page(date_name, payload):
         reverse=True
     )
 
-    rows = build_rows(aircraft_list)
+    aircraft_cards = build_aircraft_cards(aircraft_list, limit=None)
 
     body = f"""
 <section>
@@ -705,23 +709,9 @@ def build_day_page(date_name, payload):
 
 <section>
     <h2>Aircraft for this day</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Flight</th>
-                <th>ICAO</th>
-                <th>Altitude ft</th>
-                <th>Speed kt</th>
-                <th>Track</th>
-                <th>Lat</th>
-                <th>Lon</th>
-                <th>Last seen</th>
-            </tr>
-        </thead>
-        <tbody>
-            {rows}
-        </tbody>
-    </table>
+    <div class="aircraft-grid">
+        {aircraft_cards}
+    </div>
 </section>
 """
     (HISTORY / f"{date_name}.html").write_text(
@@ -793,8 +783,7 @@ def main():
         print(f"Missing source: {SOURCE}")
         raise SystemExit(1)
 
-    with open(SOURCE, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    data = json.loads(SOURCE.read_text(encoding="utf-8"))
 
     now = datetime.utcnow().isoformat()
     count_now = 0
@@ -813,7 +802,7 @@ def main():
             "hex": hex_id,
             "flight": flight,
             "reg": a.get("r") or db_info.get("reg") or old.get("reg"),
-	    "type": a.get("t") or db_info.get("type") or old.get("type"),
+            "type": a.get("t") or db_info.get("type") or old.get("type"),
             "lat": a.get("lat", old.get("lat")),
             "lon": a.get("lon", old.get("lon")),
             "alt": a.get("alt_baro", old.get("alt")),
@@ -823,23 +812,22 @@ def main():
             "last_seen": now,
         }
 
-# Remove stale aircraft older than 2 hours
-
+    # Remove stale aircraft older than 2 hours
     stale = []
 
     for hex_id, aircraft in store["aircraft"].items():
-    try:
-        last_seen = datetime.fromisoformat(aircraft["last_seen"])
-        age = (datetime.utcnow() - last_seen).total_seconds()
+        try:
+            last_seen = datetime.fromisoformat(aircraft["last_seen"])
+            age = (datetime.utcnow() - last_seen).total_seconds()
 
-        if age > 7200:
+            if age > STALE_SECONDS:
+                stale.append(hex_id)
+
+        except Exception:
             stale.append(hex_id)
 
-    except Exception:
-        stale.append(hex_id)
-
     for hex_id in stale:
-    del store["aircraft"][hex_id]
+        del store["aircraft"][hex_id]
 
     store["summary"] = {
         "total_unique_aircraft": len(store["aircraft"]),

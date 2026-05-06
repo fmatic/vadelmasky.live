@@ -146,6 +146,7 @@ tr:hover {
 .alt-badge.mid { background: rgba(250,204,21,.15); color: #facc15; }
 .alt-badge.high { background: rgba(248,113,113,.15); color: #f87171; }
 .alt-badge.unknown { background: rgba(156,163,175,.15); color: #9ca3af; }
+
 .aircraft-body {
     display: flex;
     gap: 1rem;
@@ -244,617 +245,223 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">52</div>
+        <div class="value">8</div>
         <div class="label">Unique aircraft</div>
     </div>
 
     <div class="card">
-        <div class="value">30</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">39000 ft</div>
+        <div class="value">32000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">562.0 kt</div>
+        <div class="value">406.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 </div>
 
 <section>
     <h2>Aircraft for this day</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Flight</th>
-                <th>ICAO</th>
-                <th>Altitude ft</th>
-                <th>Speed kt</th>
-                <th>Track</th>
-                <th>Lat</th>
-                <th>Lon</th>
-                <th>Last seen</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-        <tr>
-            <td>W31</td>
-            <td>46788B</td>
-            <td>17975</td>
-            <td>160.7</td>
-            <td>28.64</td>
-            <td>62.334595</td>
-            <td>25.762431</td>
-            <td>06.05.2026 06:52 UTC</td>
-        </tr>
+    <div class="aircraft-grid">
         
-        <tr>
-            <td>K07</td>
-            <td>46789F</td>
-            <td>2425</td>
-            <td>103.2</td>
-            <td>315.0</td>
-            <td>62.325626</td>
-            <td>25.842062</td>
-            <td>06.05.2026 06:48 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">W31</div>
+                    <div class="meta">ICAO 46788B · REG LJ-3 · TYPE LJ35</div>
+                </div>
+                <div class="alt-badge mid">17975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>160.7 kt</b></div>
+                    <div><span>Track</span><b>28.64°</b></div>
+                    <div><span>Position</span><b>62.3346, 25.7624</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 06:52 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LJ-3" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>K02</td>
-            <td>467897</td>
-            <td>2375</td>
-            <td>84.9</td>
-            <td>313.09</td>
-            <td>62.311288</td>
-            <td>25.875444</td>
-            <td>06.05.2026 06:45 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K07</div>
+                    <div class="meta">ICAO 46789F · REG GO-9 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2425 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>103.2 kt</b></div>
+                    <div><span>Track</span><b>315.0°</b></div>
+                    <div><span>Position</span><b>62.3256, 25.8421</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 06:48 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-9" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>K03</td>
-            <td>4678A9</td>
-            <td>2375</td>
-            <td>78.5</td>
-            <td>313.45</td>
-            <td>62.329285</td>
-            <td>25.834656</td>
-            <td>06.05.2026 06:42 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K02</div>
+                    <div class="meta">ICAO 467897 · REG GO-1 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2375 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>84.9 kt</b></div>
+                    <div><span>Track</span><b>313.09°</b></div>
+                    <div><span>Position</span><b>62.3113, 25.8754</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 06:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-1" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>K04</td>
-            <td>46789C</td>
-            <td>1375</td>
-            <td>115.6</td>
-            <td>336.54</td>
-            <td>62.271206</td>
-            <td>26.00654</td>
-            <td>06.05.2026 06:38 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K03</div>
+                    <div class="meta">ICAO 4678A9 · REG GO-19 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2375 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>78.5 kt</b></div>
+                    <div><span>Track</span><b>313.45°</b></div>
+                    <div><span>Position</span><b>62.3293, 25.8347</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 06:42 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-19" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN5ET</td>
-            <td>4601FD</td>
-            <td>18000</td>
-            <td>266.4</td>
-            <td>203.68</td>
-            <td>61.996734</td>
-            <td>26.593424</td>
-            <td>06.05.2026 05:55 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K04</div>
+                    <div class="meta">ICAO 46789C · REG GO-6 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">1375 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>115.6 kt</b></div>
+                    <div><span>Track</span><b>336.54°</b></div>
+                    <div><span>Position</span><b>62.2712, 26.0065</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 06:38 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-6" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN14J</td>
-            <td>461E1E</td>
-            <td>25425</td>
-            <td>356.0</td>
-            <td>182.46</td>
-            <td>-</td>
-            <td>-</td>
-            <td>06.05.2026 05:50 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5ET</div>
+                    <div class="meta">ICAO 4601FD · REG OH-ATP · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>266.4 kt</b></div>
+                    <div><span>Track</span><b>203.68°</b></div>
+                    <div><span>Position</span><b>61.9967, 26.5934</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 05:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATP" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>CAO3153</td>
-            <td>781FC3</td>
-            <td>32000</td>
-            <td>406.0</td>
-            <td>251.37</td>
-            <td>-</td>
-            <td>-</td>
-            <td>06.05.2026 05:46 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN14J</div>
+                    <div class="meta">ICAO 461E1E · REG OH-LKO · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">25425 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>356.0 kt</b></div>
+                    <div><span>Track</span><b>182.46°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 05:50 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKO" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>T46</td>
-            <td>467895</td>
-            <td>2600</td>
-            <td>223.7</td>
-            <td>15.03</td>
-            <td>62.278793</td>
-            <td>25.660807</td>
-            <td>06.05.2026 05:06 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CAO3153</div>
+                    <div class="meta">ICAO 781FC3 · REG B-223T · TYPE B77L</div>
+                </div>
+                <div class="alt-badge high">32000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>406.0 kt</b></div>
+                    <div><span>Track</span><b>251.37°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 05:46 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-223T" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN448</td>
-            <td>461F36</td>
-            <td>29000</td>
-            <td>388.0</td>
-            <td>180.35</td>
-            <td>61.317581</td>
-            <td>25.291803</td>
-            <td>06.05.2026 05:06 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN7AZ</td>
-            <td>461F9B</td>
-            <td>24625</td>
-            <td>360.0</td>
-            <td>179.82</td>
-            <td>-</td>
-            <td>-</td>
-            <td>06.05.2026 04:55 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CAO3032</td>
-            <td>780C5B</td>
-            <td>37000</td>
-            <td>540.0</td>
-            <td>61.88</td>
-            <td>61.37</td>
-            <td>25.63</td>
-            <td>06.05.2026 04:12 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN4MP</td>
-            <td>461E18</td>
-            <td>28100</td>
-            <td>398.0</td>
-            <td>182.81</td>
-            <td>-</td>
-            <td>-</td>
-            <td>06.05.2026 03:26 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN8KH</td>
-            <td>4601FA</td>
-            <td>18000</td>
-            <td>215.4</td>
-            <td>183.46</td>
-            <td>61.738541</td>
-            <td>25.523006</td>
-            <td>06.05.2026 03:19 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN5WR</td>
-            <td>4601FB</td>
-            <td>17000</td>
-            <td>248.3</td>
-            <td>185.78</td>
-            <td>61.465945</td>
-            <td>25.370483</td>
-            <td>06.05.2026 03:14 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN8MC</td>
-            <td>461E1C</td>
-            <td>26800</td>
-            <td>402.0</td>
-            <td>182.64</td>
-            <td>61.521063</td>
-            <td>25.308329</td>
-            <td>06.05.2026 03:10 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>DKH1661</td>
-            <td>782158</td>
-            <td>38000</td>
-            <td>432.0</td>
-            <td>244.16</td>
-            <td>61.238584</td>
-            <td>25.316874</td>
-            <td>06.05.2026 02:57 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN74</td>
-            <td>461F49</td>
-            <td>23575</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>06.05.2026 01:58 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN62</td>
-            <td>461F50</td>
-            <td>22550</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>06.05.2026 01:26 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN68</td>
-            <td>461F4C</td>
-            <td>23400</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>06.05.2026 01:20 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CAO1154</td>
-            <td>78037B</td>
-            <td>39000</td>
-            <td>522.0</td>
-            <td>78.4</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 22:00 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CAO1006</td>
-            <td>780C5D</td>
-            <td>33000</td>
-            <td>562.0</td>
-            <td>61.35</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 20:27 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CK0206</td>
-            <td>7805DD</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>62.1</td>
-            <td>3.251667</td>
-            <td>05.05.2026 19:51 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CA3068</td>
-            <td>78026E</td>
-            <td>37000</td>
-            <td>520.0</td>
-            <td>59.94</td>
-            <td>61.442</td>
-            <td>26.213</td>
-            <td>05.05.2026 19:51 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN446</td>
-            <td>461F64</td>
-            <td>20050</td>
-            <td>336.0</td>
-            <td>179.3</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 19:31 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN594</td>
-            <td>4601F8</td>
-            <td>22375</td>
-            <td>243.1</td>
-            <td>178.82</td>
-            <td>61.711881</td>
-            <td>25.229594</td>
-            <td>05.05.2026 19:08 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN7BT</td>
-            <td>4601F9</td>
-            <td>16000</td>
-            <td>246.0</td>
-            <td>192.68</td>
-            <td>61.491394</td>
-            <td>25.677992</td>
-            <td>05.05.2026 16:56 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>OHDAC</td>
-            <td>4607EE</td>
-            <td>3100</td>
-            <td>94.0</td>
-            <td>313.77</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 16:54 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN8DP</td>
-            <td>461F9A</td>
-            <td>18225</td>
-            <td>324.0</td>
-            <td>180.88</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 16:08 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN5YR</td>
-            <td>461E1A</td>
-            <td>24900</td>
-            <td>343.0</td>
-            <td>180.0</td>
-            <td>61.505905</td>
-            <td>25.267966</td>
-            <td>05.05.2026 15:20 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN6YP</td>
-            <td>4601F2</td>
-            <td>15975</td>
-            <td>224.9</td>
-            <td>203.03</td>
-            <td>61.906128</td>
-            <td>26.509617</td>
-            <td>05.05.2026 15:16 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>-</td>
-            <td>781783</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 14:22 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CAO3144</td>
-            <td>780450</td>
-            <td>35000</td>
-            <td>538.0</td>
-            <td>63.98</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 13:59 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CAO3120</td>
-            <td>78044F</td>
-            <td>37000</td>
-            <td>528.0</td>
-            <td>63.81</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 13:37 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CHH752</td>
-            <td>7813A1</td>
-            <td>35000</td>
-            <td>536.0</td>
-            <td>83.14</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 13:35 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CHH754</td>
-            <td>7812A4</td>
-            <td>37000</td>
-            <td>538.0</td>
-            <td>75.41</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 13:33 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN440</td>
-            <td>461E1F</td>
-            <td>25250</td>
-            <td>360.0</td>
-            <td>180.64</td>
-            <td>61.29994</td>
-            <td>25.289205</td>
-            <td>05.05.2026 13:31 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CHH770</td>
-            <td>7812A3</td>
-            <td>35000</td>
-            <td>529.9</td>
-            <td>83.06</td>
-            <td>62.478643</td>
-            <td>26.394125</td>
-            <td>05.05.2026 13:01 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>T02</td>
-            <td>467891</td>
-            <td>9975</td>
-            <td>155.9</td>
-            <td>214.81</td>
-            <td>62.253842</td>
-            <td>25.530853</td>
-            <td>05.05.2026 12:01 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>CAO3040</td>
-            <td>780005</td>
-            <td>37000</td>
-            <td>539.1</td>
-            <td>65.1</td>
-            <td>61.985422</td>
-            <td>28.04189</td>
-            <td>05.05.2026 11:58 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN5KR</td>
-            <td>461E1B</td>
-            <td>24500</td>
-            <td>336.1</td>
-            <td>181.36</td>
-            <td>61.678969</td>
-            <td>25.298157</td>
-            <td>05.05.2026 11:56 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN26B</td>
-            <td>4601F3</td>
-            <td>18000</td>
-            <td>190.3</td>
-            <td>212.77</td>
-            <td>61.785278</td>
-            <td>26.364049</td>
-            <td>05.05.2026 11:27 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN2KK</td>
-            <td>4601F5</td>
-            <td>23000</td>
-            <td>207.1</td>
-            <td>181.38</td>
-            <td>61.780127</td>
-            <td>25.302124</td>
-            <td>05.05.2026 11:24 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>K05</td>
-            <td>4678B1</td>
-            <td>1425</td>
-            <td>124.0</td>
-            <td>340.69</td>
-            <td>62.287406</td>
-            <td>25.774031</td>
-            <td>05.05.2026 08:38 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>K06</td>
-            <td>4678A7</td>
-            <td>1600</td>
-            <td>113.6</td>
-            <td>323.23</td>
-            <td>62.287949</td>
-            <td>25.756226</td>
-            <td>05.05.2026 08:35 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN5ET</td>
-            <td>4601F6</td>
-            <td>16025</td>
-            <td>214.7</td>
-            <td>207.16</td>
-            <td>61.894412</td>
-            <td>26.418864</td>
-            <td>05.05.2026 06:04 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>-</td>
-            <td>461F6D</td>
-            <td>-</td>
-            <td>364.7</td>
-            <td>183.46</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 05:19 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN7AZ</td>
-            <td>461F6A</td>
-            <td>27975</td>
-            <td>388.0</td>
-            <td>188.44</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 04:55 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>BPS69PS</td>
-            <td>472609</td>
-            <td>20000</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 03:29 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN4MP</td>
-            <td>461E1D</td>
-            <td>25125</td>
-            <td>386.0</td>
-            <td>185.8</td>
-            <td>-</td>
-            <td>-</td>
-            <td>05.05.2026 03:19 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>FIN8KH</td>
-            <td>4601FC</td>
-            <td>18000</td>
-            <td>222.4</td>
-            <td>199.98</td>
-            <td>61.63777</td>
-            <td>25.461629</td>
-            <td>05.05.2026 03:09 UTC</td>
-        </tr>
-        
-        <tr>
-            <td>-</td>
-            <td>4601F7</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>04.05.2026 18:17 UTC</td>
-        </tr>
-        
-        </tbody>
-    </table>
+    </div>
 </section>
 
 </main>

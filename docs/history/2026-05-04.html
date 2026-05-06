@@ -146,6 +146,7 @@ tr:hover {
 .alt-badge.mid { background: rgba(250,204,21,.15); color: #facc15; }
 .alt-badge.high { background: rgba(248,113,113,.15); color: #f87171; }
 .alt-badge.unknown { background: rgba(156,163,175,.15); color: #9ca3af; }
+
 .aircraft-body {
     display: flex;
     gap: 1rem;
@@ -266,78 +267,129 @@ footer {
 
 <section>
     <h2>Aircraft for this day</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Flight</th>
-                <th>ICAO</th>
-                <th>Altitude ft</th>
-                <th>Speed kt</th>
-                <th>Track</th>
-                <th>Lat</th>
-                <th>Lon</th>
-                <th>Last seen</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-        <tr>
-            <td>-</td>
-            <td>4601FA</td>
-            <td>19000</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>04.05.2026 21:43 UTC</td>
-        </tr>
+    <div class="aircraft-grid">
         
-        <tr>
-            <td>FIN1T</td>
-            <td>4601FC</td>
-            <td>2825</td>
-            <td>148.5</td>
-            <td>313.91</td>
-            <td>62.324415</td>
-            <td>25.846182</td>
-            <td>04.05.2026 21:22 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601FA · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge mid">19000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>04.05.2026 21:43 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=4601fa" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN446</td>
-            <td>461F6A</td>
-            <td>23925</td>
-            <td>366.0</td>
-            <td>181.41</td>
-            <td>-</td>
-            <td>-</td>
-            <td>04.05.2026 19:43 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN1T</div>
+                    <div class="meta">ICAO 4601FC · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge low">2825 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>148.5 kt</b></div>
+                    <div><span>Track</span><b>313.91°</b></div>
+                    <div><span>Position</span><b>62.3244, 25.8462</b></div>
+                    <div><span>Last seen</span><b>04.05.2026 21:22 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=4601fc" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
         
-        <tr>
-            <td>FIN5WR</td>
-            <td>4601FB</td>
-            <td>17000</td>
-            <td>248.3</td>
-            <td>185.78</td>
-            <td>61.465945</td>
-            <td>25.370483</td>
-            <td>04.05.2026 19:40 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN446</div>
+                    <div class="meta">ICAO 461F6A · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge mid">23925 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>366.0 kt</b></div>
+                    <div><span>Track</span><b>181.41°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>04.05.2026 19:43 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=461f6a" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
         
-        <tr>
-            <td>-</td>
-            <td>4601F7</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>04.05.2026 18:17 UTC</td>
-        </tr>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5WR</div>
+                    <div class="meta">ICAO 4601FB · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge mid">17000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>248.3 kt</b></div>
+                    <div><span>Track</span><b>185.78°</b></div>
+                    <div><span>Position</span><b>61.4659, 25.3705</b></div>
+                    <div><span>Last seen</span><b>04.05.2026 19:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=4601fb" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
         
-        </tbody>
-    </table>
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601F7 · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>04.05.2026 18:17 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=4601f7" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
+        
+    </div>
 </section>
 
 </main>
