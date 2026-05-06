@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">Aircraft in live window</div>
     </div>
 
@@ -256,22 +256,22 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">17975 ft</div>
+        <div class="value">23350 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">160.7 kt</div>
+        <div class="value">451.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">06.05.2026 08:40 UTC</div>
+        <div class="value">06.05.2026 08:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7TP</div>
+                    <div class="meta">ICAO 461F9B · REG OH-LZF · TYPE A321</div>
+                </div>
+                <div class="alt-badge mid">23350 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>451.0 kt</b></div>
+                    <div><span>Track</span><b>180.13°</b></div>
+                    <div><span>Position</span><b>61.4894, 25.2646</b></div>
+                    <div><span>Last seen</span><b>06.05.2026 08:44 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LZF" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -555,7 +579,7 @@ MSG 3453013 A 0338 06MAY26 ER H</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4678A9", "flight": "K14", "lat": 62.211823, "lon": 25.783793, "alt": 1050, "speed": 115.4, "last_seen": "06.05.2026 07:50 UTC"}, {"hex": "46788B", "flight": "W31", "lat": 62.334595, "lon": 25.762431, "alt": 17975, "speed": 160.7, "last_seen": "06.05.2026 06:52 UTC"}, {"hex": "46789F", "flight": "K07", "lat": 62.325626, "lon": 25.842062, "alt": 2425, "speed": 103.2, "last_seen": "06.05.2026 06:48 UTC"}, {"hex": "467897", "flight": "K02", "lat": 62.311288, "lon": 25.875444, "alt": 2375, "speed": 84.9, "last_seen": "06.05.2026 06:45 UTC"}];
+const aircraft = [{"hex": "461F9B", "flight": "FIN7TP", "lat": 61.489408, "lon": 25.264587, "alt": 23350, "speed": 451.0, "last_seen": "06.05.2026 08:44 UTC"}, {"hex": "4678A9", "flight": "K14", "lat": 62.211823, "lon": 25.783793, "alt": 1050, "speed": 115.4, "last_seen": "06.05.2026 07:50 UTC"}, {"hex": "46788B", "flight": "W31", "lat": 62.334595, "lon": 25.762431, "alt": 17975, "speed": 160.7, "last_seen": "06.05.2026 06:52 UTC"}, {"hex": "46789F", "flight": "K07", "lat": 62.325626, "lon": 25.842062, "alt": 2425, "speed": 103.2, "last_seen": "06.05.2026 06:48 UTC"}, {"hex": "467897", "flight": "K02", "lat": 62.311288, "lon": 25.875444, "alt": 2375, "speed": 84.9, "last_seen": "06.05.2026 06:45 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
