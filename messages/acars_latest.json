@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.05.2026 03:35 UTC",
-      "source": "ACARS",
-      "flight": "CA3032",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "10",
-      "msgno": "M24A",
-      "text": "POS130335, N 6137,E 2563,836,271,25106,  54,37001, 624,-158,-471,7"
-    },
-    {
       "time": "06.05.2026 03:38 UTC",
       "source": "ACARS",
       "flight": "CA3032",
@@ -328,6 +317,17 @@
       "level": -37.4,
       "label": "Q0",
       "msgno": "S87A",
+      "text": "No text"
+    },
+    {
+      "time": "06.05.2026 14:47 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "Q0",
+      "msgno": "S39A",
       "text": "No text"
     }
   ]
