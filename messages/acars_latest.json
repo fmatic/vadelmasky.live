@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.05.2026 20:24 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "H1",
-      "msgno": "O47A",
-      "text": "SB0122BA_B-2093  LEMDZSPD460\r\n 61509 0265762023 32999-50025108301005Z012014"
-    },
-    {
-      "time": "05.05.2026 20:25 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "_d",
-      "msgno": "S52A",
-      "text": "No text"
-    },
-    {
       "time": "05.05.2026 20:25 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "D04D",
       "text": "A25/ATR7250025,1,1/A1PW127M,ENGINE,CYCLES,REPORT/B1DATE,GMT/B2MAY06,1055/C1TOTAL,LIFE,COUNT/C2ENGINE,1,S.N/C3ESN1,ED2133/C4LP,IMPELLER,04118/C5HP,IMPELLER,04118/C6HP,FRONT,COVER,04732/C7HP,DISK,04115/C8HP,REAR,COVER,04115/C9AIR,SEAL,05145/D0LP,DISK,04113/D11ST,PT,DISK,04115/D22ND,PT,DISK,04115/E1TOTAL,LIFE,COUNT/E2ENGINE,2,S.N/E3ESN2,ED1991/E4LP,IMPELLER,03732/E5HP,IMPELLER,12917/E6HP,FRONT,COVER,04288/E7HP,DISK,12908/E8HP,REAR,COVER,12908/E9AIR,SEAL,04663/F0LP,DISK,12895/F11ST,PT,DISK,12905/F22ND,PT,DISK,12905/H1REMAINING,LIFE/H2ESN1,ESN2/H3ED2133,ED1991/H410882,LP,IMP,11268/H510882,HP,IMP,02083/H610268,HP,FRONT,10712/H710885,HP,DISK,02092/H810885,HP,REAR,02092/H909855,AIR,SEAL,10337/I010887,LP,DISK,02105/I125885,1ST,PT,17095/I225885,2ND,PT,17095/**.,EOT,...,/"
+    },
+    {
+      "time": "06.05.2026 11:10 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "_d",
+      "msgno": "S31A",
+      "text": "No text"
+    },
+    {
+      "time": "06.05.2026 11:10 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -41.9,
+      "label": "_d",
+      "msgno": "S33A",
+      "text": "No text"
     }
   ]
 }
