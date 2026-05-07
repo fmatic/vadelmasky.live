@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft in live window</div>
     </div>
 
@@ -256,22 +256,22 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">20000 ft</div>
+        <div class="value">17025 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">304.4 kt</div>
+        <div class="value">0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">07.05.2026 19:15 UTC</div>
+        <div class="value">07.05.2026 19:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -300,30 +300,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN7BT</div>
-                    <div class="meta">ICAO 4601F9 · REG OH-ATL · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">20000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>304.4 kt</b></div>
-                    <div><span>Track</span><b>21.59°</b></div>
-                    <div><span>Position</span><b>62.5427, 26.5330</b></div>
-                    <div><span>Last seen</span><b>07.05.2026 17:19 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATL" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -556,7 +532,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F9", "flight": "FIN7BT", "lat": 62.542699, "lon": 26.533039, "alt": 20000, "speed": 304.4, "last_seen": "07.05.2026 17:19 UTC"}];
+const aircraft = [];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
