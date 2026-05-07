@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">07.05.2026 10:20 UTC</div>
+        <div class="value">07.05.2026 10:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,16 +286,16 @@ footer {
                     <div class="flight">FIN6LE</div>
                     <div class="meta">ICAO 4601F3 · REG OH-ATF · TYPE AT75</div>
                 </div>
-                <div class="alt-badge low">2900 ft</div>
+                <div class="alt-badge low">2200 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>199.7 kt</b></div>
-                    <div><span>Track</span><b>20.52°</b></div>
-                    <div><span>Position</span><b>62.2904, 25.7742</b></div>
-                    <div><span>Last seen</span><b>07.05.2026 10:20 UTC</b></div>
+                    <div><span>Speed</span><b>174.0 kt</b></div>
+                    <div><span>Track</span><b>10.6°</b></div>
+                    <div><span>Position</span><b>62.3233, 25.7940</b></div>
+                    <div><span>Last seen</span><b>07.05.2026 10:21 UTC</b></div>
                 </div>
             </div>
 
@@ -406,6 +406,24 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70285</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATF · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">07.05.2026 10:22 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg S99A · Level -40.5 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -605,29 +623,11 @@ footer {
             <div class="acars-text">A25/ATR7250025,1,1/A1PW127M,ENGINE,CYCLES,REPORT/B1DATE,GMT/B2MAY06,1055/C1TOTAL,LIFE,COUNT/C2ENGINE,1,S.N/C3ESN1,ED2133/C4LP,IMPELLER,04118/C5HP,IMPELLER,04118/C6HP,FRONT,COVER,04732/C7HP,DISK,04115/C8HP,R</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70286</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATF · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">06.05.2026 11:07 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg D02A · Level -27.8 dB
-            </div>
-
-            <div class="acars-text">A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2MAY06,1030,0285/C1/C210.25.17,MC/C310.25.17,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F3", "flight": "FIN6LE", "lat": 62.290421, "lon": 25.774231, "alt": 2900, "speed": 199.7, "last_seen": "07.05.2026 10:20 UTC"}, {"hex": "4607F9", "flight": "OHDAN", "lat": 62.049617, "lon": 25.583293, "alt": 8825, "speed": 171.1, "last_seen": "07.05.2026 09:52 UTC"}, {"hex": "4601FB", "flight": "FIN3KC", "lat": 62.207802, "lon": 27.203099, "alt": 21025, "speed": 309.6, "last_seen": "07.05.2026 09:44 UTC"}, {"hex": "4601F8", "flight": "FIN9B", "lat": 62.218602, "lon": 26.700263, "alt": 16975, "speed": 302.7, "last_seen": "07.05.2026 09:30 UTC"}];
+const aircraft = [{"hex": "4601F3", "flight": "FIN6LE", "lat": 62.323334, "lon": 25.793966, "alt": 2200, "speed": 174.0, "last_seen": "07.05.2026 10:21 UTC"}, {"hex": "4607F9", "flight": "OHDAN", "lat": 62.049617, "lon": 25.583293, "alt": 8825, "speed": 171.1, "last_seen": "07.05.2026 09:52 UTC"}, {"hex": "4601FB", "flight": "FIN3KC", "lat": 62.207802, "lon": 27.203099, "alt": 21025, "speed": 309.6, "last_seen": "07.05.2026 09:44 UTC"}, {"hex": "4601F8", "flight": "FIN9B", "lat": 62.218602, "lon": 26.700263, "alt": 16975, "speed": 302.7, "last_seen": "07.05.2026 09:30 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
