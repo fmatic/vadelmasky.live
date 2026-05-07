@@ -1,18 +1,5 @@
 {
   "aircraft": {
-    "4607f9": {
-      "hex": "4607f9",
-      "flight": "OHDAN",
-      "reg": "OH-DAN",
-      "type": "DA42",
-      "lat": 62.049617,
-      "lon": 25.583293,
-      "alt": 8825,
-      "speed": 171.1,
-      "track": 225.95,
-      "seen_first": "2026-05-07T07:37:02.076836",
-      "last_seen": "2026-05-07T09:52:02.176872"
-    },
     "4601f3": {
       "hex": "4601f3",
       "flight": "FIN286",
@@ -51,11 +38,24 @@
       "track": null,
       "seen_first": "2026-05-07T10:52:01.593935",
       "last_seen": "2026-05-07T10:55:01.652856"
+    },
+    "461f6c": {
+      "hex": "461f6c",
+      "flight": "FIN2PD",
+      "reg": "OH-LXK",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": 23750,
+      "speed": 360.0,
+      "track": 181.41,
+      "seen_first": "2026-05-07T11:52:02.177083",
+      "last_seen": "2026-05-07T11:55:02.100353"
     }
   },
   "summary": {
     "total_unique_aircraft": 4,
-    "last_seen_live": 0,
-    "updated": "2026-05-07T11:50:01.836436"
+    "last_seen_live": 1,
+    "updated": "2026-05-07T11:55:02.100353"
   }
 }
