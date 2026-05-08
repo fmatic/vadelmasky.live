@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <title>VadelmaSky.live</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 <style>
 body {
     margin: 0;
@@ -13,208 +12,82 @@ body {
     background: #0f1418;
     color: #e8edf2;
 }
+
 header {
     padding: 2rem;
     background: linear-gradient(135deg, #07110c, #132019);
     border-bottom: 1px solid #243225;
 }
+
 h1 {
     margin: 0;
     font-size: 2.4rem;
     color: #41ff41;
 }
-a {
-    color: #7dd3fc;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
+
 .subtitle {
     color: #a8b3bd;
     margin-top: .4rem;
 }
-nav {
-    margin-top: 1rem;
-}
-nav a {
-    margin-right: 1rem;
-}
+
 main {
     max-width: 1150px;
     margin: 0 auto;
     padding: 1.5rem;
 }
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
     gap: 1rem;
     margin-bottom: 1.5rem;
 }
+
 .card {
     background: #171d22;
     border: 1px solid #2b363d;
     border-radius: 14px;
     padding: 1rem;
 }
+
 .card .value {
     font-size: 2rem;
     font-weight: 700;
     color: #7dd3fc;
 }
+
 .card .label {
     color: #a8b3bd;
     margin-top: .25rem;
 }
+
 section {
     background: #171d22;
     border: 1px solid #2b363d;
     border-radius: 14px;
     padding: 1rem;
     overflow-x: auto;
-    margin-bottom: 1.5rem;
 }
-#map {
-    height: 520px;
-    width: 100%;
-    border-radius: 14px;
-    border: 1px solid #2b363d;
-    margin-top: 1rem;
-}
+
 table {
     width: 100%;
     border-collapse: collapse;
 }
+
 th, td {
     text-align: left;
     padding: .65rem;
     border-bottom: 1px solid #2b363d;
     white-space: nowrap;
 }
+
 th {
     color: #93c5fd;
     font-weight: 600;
 }
+
 tr:hover {
     background: #1f2933;
-}
-.note {
-    color: #a8b3bd;
-    font-size: .95rem;
-}
-.receiver-icon {
-    background: #41ff41;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    border: 3px solid #ffffff;
-    box-shadow: 0 0 18px #41ff41;
-}
-
-.aircraft-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1rem;
-}
-.aircraft-card {
-    background: #101820;
-    border: 1px solid #2b363d;
-    border-radius: 14px;
-    padding: 1rem;
-}
-.aircraft-top {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-}
-.flight {
-    font-size: 1.25rem;
-    font-weight: 800;
-}
-.meta {
-    color: #7b8794;
-    font-size: .9rem;
-}
-.alt-badge {
-    padding: .25rem .65rem;
-    border-radius: 999px;
-    font-weight: 800;
-    font-size: .85rem;
-    white-space: nowrap;
-}
-.alt-badge.low { background: rgba(65,255,65,.15); color: #41ff41; }
-.alt-badge.mid { background: rgba(250,204,21,.15); color: #facc15; }
-.alt-badge.high { background: rgba(248,113,113,.15); color: #f87171; }
-.alt-badge.unknown { background: rgba(156,163,175,.15); color: #9ca3af; }
-
-.aircraft-body {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-.aircraft-silhouette {
-    width: 72px;
-    height: 72px;
-    border-radius: 12px;
-    background: #17212b;
-    display: grid;
-    place-items: center;
-    font-size: 2rem;
-    color: #41ff41;
-}
-.aircraft-data {
-    flex: 1;
-    display: grid;
-    gap: .35rem;
-}
-.aircraft-data div {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #26313a;
-    padding-bottom: .25rem;
-}
-.aircraft-data span {
-    color: #7b8794;
-}
-.aircraft-data b {
-    text-align: right;
-}
-.photo-link {
-    display: inline-block;
-    margin-top: 1rem;
-    font-weight: 700;
-}
-
-.acars-grid {
-    display: grid;
-    gap: .75rem;
-}
-.acars-card {
-    background: #101820;
-    border: 1px solid #2b363d;
-    border-radius: 12px;
-    padding: .9rem;
-}
-.acars-head {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-}
-.acars-flight {
-    font-size: 1.1rem;
-    font-weight: 800;
-}
-.acars-meta {
-    color: #7b8794;
-    font-size: .9rem;
-}
-.acars-text {
-    margin-top: .75rem;
-    padding: .75rem;
-    background: #0b1117;
-    border-radius: 10px;
-    white-space: pre-wrap;
-    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
 footer {
@@ -225,455 +98,100 @@ footer {
 }
 </style>
 </head>
+
 <body>
 <header>
     <h1>VadelmaSky ✈️</h1>
     <div class="subtitle">Local ADS-B aviation log from Jyväskylä, Finland</div>
-    <nav>
-        <a href="/">Live</a>
-        <a href="/history/">History</a>
-        <a href="/today.json">Today JSON</a>
-    </nav>
 </header>
 
 <main>
+    <div class="cards">
+        <div class="card">
+            <div class="value">4</div>
+            <div class="label">Aircraft in live window</div>
+        </div>
 
-<section>
-    <h2>Map</h2>
-    <div id="map"></div>
-    <p class="note">Map shows aircraft with known position captured recently.</p>
-</section>
+        <div class="card">
+            <div class="value">0</div>
+            <div class="label">Aircraft currently visible</div>
+        </div>
 
-<div class="cards">
-    <div class="card">
-        <div class="value">5</div>
-        <div class="label">Aircraft in live window</div>
+        <div class="card">
+            <div class="value">5</div>
+            <div class="label">Unique aircraft today</div>
+        </div>
+
+        <div class="card">
+            <div class="value">08.05.2026 12:45 UTC</div>
+            <div class="label">Last update</div>
+        </div>
     </div>
 
-    <div class="card">
-        <div class="value">1</div>
-        <div class="label">Aircraft currently visible</div>
-    </div>
-
-    <div class="card">
-        <div class="value">1</div>
-        <div class="label">With position</div>
-    </div>
-
-    <div class="card">
-        <div class="value">24000 ft</div>
-        <div class="label">Highest altitude</div>
-    </div>
-
-    <div class="card">
-        <div class="value">284.3 kt</div>
-        <div class="label">Max speed</div>
-    </div>
-
-    <div class="card">
-        <div class="value">08.05.2026 11:39 UTC</div>
-        <div class="label">Last update</div>
-    </div>
-</div>
-
-<section>
-    <h2>Latest aircraft</h2>
-    <div class="aircraft-grid">
+    <section>
+        <h2>Latest aircraft</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Flight</th>
+                    <th>ICAO</th>
+                    <th>Altitude ft</th>
+                    <th>Speed kt</th>
+                    <th>Track</th>
+                    <th>Lat</th>
+                    <th>Lon</th>
+                    <th>Last seen</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td>FIN5NB</td>
+            <td>4601F8</td>
+            <td>23000</td>
+            <td>284.3</td>
+            <td>197.61</td>
+            <td>-</td>
+            <td>-</td>
+            <td>08.05.2026 11:40 UTC</td>
+        </tr>
         
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN5NB</div>
-                    <div class="meta">ICAO 4601F8 · REG OH-ATK · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">23000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>284.3 kt</b></div>
-                    <div><span>Track</span><b>197.61°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>08.05.2026 11:40 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATK" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
+        <tr>
+            <td>FIN286</td>
+            <td>4601FB</td>
+            <td>18000</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>08.05.2026 11:27 UTC</td>
+        </tr>
         
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN286</div>
-                    <div class="meta">ICAO 4601FB · REG OH-ATN · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">18000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>08.05.2026 11:27 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
+        <tr>
+            <td>-</td>
+            <td>4601F9</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>08.05.2026 11:25 UTC</td>
+        </tr>
         
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 4601F9 · REG OH-ATL · TYPE AT75</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>08.05.2026 11:25 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATL" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
+        <tr>
+            <td>FIN26B</td>
+            <td>4601FA</td>
+            <td>16000</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>08.05.2026 11:05 UTC</td>
+        </tr>
         
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN26B</div>
-                    <div class="meta">ICAO 4601FA · REG OH-ATM · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">16000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>08.05.2026 11:05 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATM" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN9LG</div>
-                    <div class="meta">ICAO 4601F6 · REG OH-ATI · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">24000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>277.6 kt</b></div>
-                    <div><span>Track</span><b>202.22°</b></div>
-                    <div><span>Position</span><b>62.2514, 26.3940</b></div>
-                    <div><span>Last seen</span><b>08.05.2026 09:45 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-    </div>
-</section>
-
-<section>
-    <h2>Latest ACARS messages</h2>
-    <div class="acars-grid">
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70289</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATK · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 21:44 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label Q0 · Msg S18A · Level -34.7 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1154</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6092 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 20:32 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C07A · Level -30.6 dB
-            </div>
-
-            <div class="acars-text">.1/FLR/FR2605072032  34361606MMR1   1,IR2,MMR2,IR1,IR3,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1154</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6092 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 20:32 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C06A · Level -26.8 dB
-            </div>
-
-            <div class="acars-text">.1/WRN/WN2605072032  345801006NAV GPS 2 FAULT</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1154</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6092 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 20:32 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C05A · Level -26.1 dB
-            </div>
-
-            <div class="acars-text">.1/WRN/WN2605072032  345800506NAV GPS 1 FAULT</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1154</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6092 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 20:31 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C05A · Level -23.6 dB
-            </div>
-
-            <div class="acars-text">.1/WRN/WN2605072032  345800506NAV GPS 1 FAULT</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70520</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATI · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 18:13 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 5V · Msg S86A · Level -42.1 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70520</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATI · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 18:08 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S85A · Level -38.5 dB
-            </div>
-
-            <div class="acars-text">0EV180839V</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70416</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATL · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 17:12 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 5V · Msg S99A · Level -36.7 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70416</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATL · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 17:11 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S98A · Level -38.7 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70416</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATL · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 17:11 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 80 · Msg M52A · Level -32.8 dB
-            </div>
-
-            <div class="acars-text">3701 INRANG 0416/07 EFKI/EFHK .OH-ATL
-/ETA 1740/ERT     </div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70416</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATL · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 17:10 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S97A · Level -29.5 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70416</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATL · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.05.2026 17:10 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S96A · Level -27.8 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-    </div>
-</section>
-
-<script>
-const aircraft = [{"hex": "4601F6", "flight": "FIN9LG", "lat": 62.251421, "lon": 26.394019, "alt": 24000, "speed": 277.6, "last_seen": "08.05.2026 09:45 UTC"}];
-
-const map = L.map('map').setView([62.24, 25.75], 7);
-
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
-}).addTo(map);
-
-const receiverIcon = L.divIcon({
-    className: 'receiver-icon',
-    iconSize: [18, 18]
-});
-
-L.marker([62.24, 25.75], { icon: receiverIcon })
-    .addTo(map)
-    .bindPopup('<b>VadelmaSky receiver</b><br>Jyväskylä, Finland');
-
-function altitudeColor(alt) {
-    if (!alt || alt === '-') return '#9ca3af';
-    if (alt < 10000) return '#41ff41';
-    if (alt < 25000) return '#facc15';
-    if (alt < 35000) return '#fb923c';
-    return '#f87171';
-}
-
-aircraft.forEach(a => {
-    const color = altitudeColor(Number(a.alt));
-
-    L.circleMarker([a.lat, a.lon], {
-        radius: 7,
-        color: color,
-        fillColor: color,
-        fillOpacity: 0.85,
-        weight: 2
-    }).addTo(map)
-        .bindPopup(`
-            <b>${a.flight}</b><br>
-            ICAO: ${a.hex}<br>
-            Alt: ${a.alt} ft<br>
-            Speed: ${a.speed} kt<br>
-            Last seen: ${a.last_seen}
-        `);
-});
-</script>
-
+            </tbody>
+        </table>
+    </section>
 </main>
 
 <footer>
