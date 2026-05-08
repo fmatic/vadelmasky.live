@@ -555,16 +555,15 @@ def build_acars_cards():
 
 
 def build_live_page(store):
-    live_items = live_aircraft_items(store)
+    aircraft_list = sorted(
+    store["aircraft"].items(),
+    key=lambda x: x[1].get("last_seen", ""),
+    reverse=True
+)
 
-    live_store = {
-        "aircraft": dict(live_items),
-        "summary": store.get("summary", {})
-    }
-
-    stats = daily_stats(live_store)
-    aircraft_cards = build_aircraft_cards(live_items, limit=50)
-    markers_json = build_markers(live_items, limit=50)
+stats = daily_stats(store)
+aircraft_cards = build_aircraft_cards(aircraft_list, limit=50)
+markers_json = build_markers(aircraft_list, limit=50)
     last_update = fmt_time(store["summary"].get("updated"))
     acars_cards = build_acars_cards()
 
@@ -578,7 +577,7 @@ def build_live_page(store):
 <div class="cards">
     <div class="card">
         <div class="value">{stats["unique"]}</div>
-        <div class="label">Aircraft in live window</div>
+        <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
