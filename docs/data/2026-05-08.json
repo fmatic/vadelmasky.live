@@ -5,13 +5,13 @@
       "flight": "FIN4QA",
       "reg": "OH-ATP",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 20000,
-      "speed": null,
-      "track": null,
+      "lat": 60.767615,
+      "lon": 25.131029,
+      "alt": 20025,
+      "speed": 265.8,
+      "track": 208.78,
       "seen_first": "2026-05-08T02:44:01.365946",
-      "last_seen": "2026-05-08T03:00:01.713702"
+      "last_seen": "2026-05-08T03:05:01.743061"
     },
     "78158a": {
       "hex": "78158a",
@@ -31,18 +31,31 @@
       "flight": "FIN8KH",
       "reg": "OH-ATK",
       "type": "AT75",
-      "lat": 62.213714,
-      "lon": 25.688676,
-      "alt": 7650,
-      "speed": 198.9,
-      "track": 185.48,
+      "lat": 61.968842,
+      "lon": 25.64827,
+      "alt": 16075,
+      "speed": 228.3,
+      "track": 182.76,
       "seen_first": "2026-05-08T02:59:01.379422",
-      "last_seen": "2026-05-08T03:00:01.713702"
+      "last_seen": "2026-05-08T03:05:01.743061"
+    },
+    "461f6c": {
+      "hex": "461f6c",
+      "flight": "",
+      "reg": "OH-LXK",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": 28700,
+      "speed": 432.0,
+      "track": 187.03,
+      "seen_first": "2026-05-08T03:03:02.064536",
+      "last_seen": "2026-05-08T03:03:02.064536"
     }
   },
   "summary": {
-    "total_unique_aircraft": 3,
+    "total_unique_aircraft": 4,
     "last_seen_live": 2,
-    "updated": "2026-05-08T03:00:01.713702"
+    "updated": "2026-05-08T03:05:01.743061"
   }
 }
