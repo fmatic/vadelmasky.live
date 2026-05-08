@@ -556,22 +556,34 @@ def build_acars_cards():
 
 def build_live_page(store):
     aircraft_list = sorted(
-    store["aircraft"].items(),
-    key=lambda x: x[1].get("last_seen", ""),
-    reverse=True
-)
+        store["aircraft"].items(),
+        key=lambda x: x[1].get("last_seen", ""),
+        reverse=True
+    )
 
-stats = daily_stats(store)
-aircraft_cards = build_aircraft_cards(aircraft_list, limit=50)
-markers_json = build_markers(aircraft_list, limit=50)
-    last_update = fmt_time(store["summary"].get("updated"))
+    stats = daily_stats(store)
+
+    aircraft_cards = build_aircraft_cards(
+        aircraft_list,
+        limit=50
+    )
+
+    markers_json = build_markers(
+        aircraft_list,
+        limit=50
+    )
+
+    last_update = fmt_time(
+        store["summary"].get("updated")
+    )
+
     acars_cards = build_acars_cards()
 
     body = f"""
 <section>
     <h2>Map</h2>
     <div id="map"></div>
-    <p class="note">Map shows aircraft with known position captured recently.</p>
+    <p class="note">Map shows aircraft with known position captured today.</p>
 </section>
 
 <div class="cards">
