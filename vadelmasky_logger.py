@@ -812,28 +812,7 @@ def main():
             "last_seen": now,
         }
 
-    # Remove stale aircraft older than 2 hours
-    stale = []
-
-    for hex_id, aircraft in store["aircraft"].items():
-        try:
-            last_seen = datetime.fromisoformat(aircraft["last_seen"])
-            age = (datetime.utcnow() - last_seen).total_seconds()
-
-            if age > STALE_SECONDS:
-                stale.append(hex_id)
-
-        except Exception:
-            stale.append(hex_id)
-
-    for hex_id in stale:
-        del store["aircraft"][hex_id]
-
-    store["summary"] = {
-        "total_unique_aircraft": len(store["aircraft"]),
-        "last_seen_live": count_now,
-        "updated": now,
-    }
+  
 
     date_name = datetime.utcnow().strftime("%Y-%m-%d")
 
