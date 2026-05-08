@@ -552,11 +552,25 @@ def build_acars_cards():
 
 
 def build_live_page(store):
-    aircraft_list = sorted(
-        store["aircraft"].items(),
-        key=lambda x: x[1].get("last_seen", ""),
-        reverse=True
-    )
+  now = datetime.utcnow()
+
+live_items = []
+
+for hex_id, aircraft in store["aircraft"].items():
+    try:
+        last_seen = datetime.fromisoformat(aircraft.get("last_seen", ""))
+        age = (now - last_seen).total_seconds()
+
+        if age <= STALE_SECONDS:
+            live_items.append((hex_id, aircraft))
+    except Exception:
+        pass
+
+aircraft_list = sorted(
+    live_items,
+    key=lambda x: x[1].get("last_seen", ""),
+    reverse=True
+)
 
     aircraft_cards = build_aircraft_cards(aircraft_list, limit=50)
     markers_json = build_markers(aircraft_list, limit=50)
