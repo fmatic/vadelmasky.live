@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.05.2026 17:08 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -22.5,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
-      "time": "07.05.2026 17:09 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -20.9,
-      "label": "B9",
-      "msgno": "L31A",
-      "text": "/EETN.TI2/024EETNAAC38"
-    },
-    {
       "time": "07.05.2026 17:10 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +307,28 @@
       "label": "18",
       "msgno": "M12A",
       "text": "POX,CSG2515   ,09MAY26,120023,ZGGG,EGPK,N061.35,E0026.88,339, 308,830,-118.3,-112.0,044,-59.4,143723, 28480,"
+    },
+    {
+      "time": "09.05.2026 12:03 UTC",
+      "source": "ACARS",
+      "flight": "CZ2515",
+      "tail": "B-2072",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "5U",
+      "msgno": "M13A",
+      "text": "FS EGPK,EGSS,EKCH"
+    },
+    {
+      "time": "09.05.2026 12:04 UTC",
+      "source": "ACARS",
+      "flight": "CZ2515",
+      "tail": "B-2072",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "_d",
+      "msgno": "S95A",
+      "text": "No text"
     }
   ]
 }
