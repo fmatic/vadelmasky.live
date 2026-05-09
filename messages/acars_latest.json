@@ -6,17 +6,6 @@
       "flight": "N70416",
       "tail": "OH-ATL",
       "freq": 131.825,
-      "level": -21.1,
-      "label": "B9",
-      "msgno": "L30A",
-      "text": "/EETN.TI2/024EETNAAC38"
-    },
-    {
-      "time": "07.05.2026 17:08 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
       "level": -22.5,
       "label": "_d",
       "msgno": "S94A",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M47A",
       "text": "POSA1N61674E 27877,REKDO  ,104852,330,KOKAT  ,112955,-57, 47, 652,819"
+    },
+    {
+      "time": "09.05.2026 12:00 UTC",
+      "source": "ACARS",
+      "flight": "CZ2515",
+      "tail": "B-2072",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "18",
+      "msgno": "M12A",
+      "text": "POX,CSG2515   ,09MAY26,120023,ZGGG,EGPK,N061.35,E0026.88,339, 308,830,-118.3,-112.0,044,-59.4,143723, 28480,"
     }
   ]
 }
