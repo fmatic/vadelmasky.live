@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.05.2026 18:08 UTC",
-      "source": "ACARS",
-      "flight": "N70520",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "SA",
-      "msgno": "S85A",
-      "text": "0EV180839V"
-    },
-    {
-      "time": "07.05.2026 18:13 UTC",
-      "source": "ACARS",
-      "flight": "N70520",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -42.1,
-      "label": "5V",
-      "msgno": "S86A",
-      "text": "No text"
-    },
-    {
       "time": "07.05.2026 20:31 UTC",
       "source": "ACARS",
       "flight": "CA1154",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S02A",
       "text": "No text"
+    },
+    {
+      "time": "09.05.2026 14:55 UTC",
+      "source": "ACARS",
+      "flight": "CK0214",
+      "tail": "B-227K",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "16",
+      "msgno": "M15A",
+      "text": "POSA1N61996E 27549,DODAM  ,142350,330,KOKAT  ,150905,-58, 45, 669,829"
+    },
+    {
+      "time": "09.05.2026 14:56 UTC",
+      "source": "ACARS",
+      "flight": "CK0214",
+      "tail": "B-227K",
+      "freq": 131.825,
+      "level": -40.2,
+      "label": "H1",
+      "msgno": "O38B",
+      "text": "\n      ) 0 02N    )16.)\r\n231245145702\r\n111111111111\r\n111111111111"
     }
   ]
 }
