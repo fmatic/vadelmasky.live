@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.05.2026 12:05 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ2",
-      "freq": 131.725,
-      "level": -33.3,
-      "label": "B9",
-      "msgno": "M25A",
-      "text": "/EFJY.TI2/024EFJYAF562"
-    },
-    {
       "time": "07.05.2026 12:06 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S80A",
       "text": "No text"
+    },
+    {
+      "time": "09.05.2026 10:23 UTC",
+      "source": "ACARS",
+      "flight": "CK0203",
+      "tail": "B-220E",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "H1",
+      "msgno": "O10A",
+      "text": "SB0122BA_B-220E  ZSPDLFPG333\r\n 61530 0262931028 34002-600252040010/9W010011"
     }
   ]
 }
