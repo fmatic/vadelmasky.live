@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.05.2026 17:10 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -26.9,
-      "label": "B9",
-      "msgno": "L32A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "07.05.2026 17:10 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -27.8,
-      "label": "_d",
-      "msgno": "S96A",
-      "text": "No text"
-    },
-    {
-      "time": "07.05.2026 17:10 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -29.5,
-      "label": "_d",
-      "msgno": "S97A",
-      "text": "No text"
-    },
-    {
-      "time": "07.05.2026 17:11 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "80",
-      "msgno": "M52A",
-      "text": "3701 INRANG 0416/07 EFKI/EFHK .OH-ATL\r\n/ETA 1740/ERT     "
-    },
-    {
-      "time": "07.05.2026 17:11 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "_d",
-      "msgno": "S98A",
-      "text": "No text"
-    },
-    {
       "time": "07.05.2026 17:12 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +274,61 @@
       "label": "16",
       "msgno": "M01A",
       "text": "POSA1N61754E 26910,AGIVU  ,121131,339,NISIX  ,125900,-59, 45, 231,830"
+    },
+    {
+      "time": "09.05.2026 13:51 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "Q0",
+      "msgno": "S97A",
+      "text": "No text"
+    },
+    {
+      "time": "09.05.2026 13:51 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -30.8,
+      "label": "SA",
+      "msgno": "M35A",
+      "text": "0EV135156V"
+    },
+    {
+      "time": "09.05.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "B9",
+      "msgno": "L26A",
+      "text": "/EFKU.TI2/024EFKUA873F"
+    },
+    {
+      "time": "09.05.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "_d",
+      "msgno": "S98A",
+      "text": "No text"
+    },
+    {
+      "time": "09.05.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "_d",
+      "msgno": "S99A",
+      "text": "No text"
     }
   ]
 }
