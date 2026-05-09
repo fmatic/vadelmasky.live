@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.05.2026 20:32 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "H1",
-      "msgno": "C07A",
-      "text": ".1/FLR/FR2605072032  34361606MMR1   1,IR2,MMR2,IR1,IR3,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "07.05.2026 21:44 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "Q0",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
-      "time": "08.05.2026 12:53 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32GY",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "14",
-      "msgno": "M63A",
-      "text": "POS\r\n08MAY,1253,256,38000,N 61.882,E 26.811,27864,  52,169"
-    },
-    {
       "time": "08.05.2026 13:05 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +296,39 @@
       "label": "16",
       "msgno": "M49A",
       "text": "POSA1N61612E 27813,ALAMI  ,180628,310,KOKAT  ,185211,-53, 40, 745,831"
+    },
+    {
+      "time": "09.05.2026 19:04 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2072",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "H1",
+      "msgno": "C02B",
+      "text": " PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503100 A 1903 09MAY26\r\nMSG 3453302 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG "
+    },
+    {
+      "time": "09.05.2026 19:04 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2072",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "H1",
+      "msgno": "C02C",
+      "text": "3453301 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503141 A 1903 09MAY26\r\nMSG 3453301 A 1903 09MAY26 ER H PL\r\nDB MULTI-MO"
+    },
+    {
+      "time": "09.05.2026 19:04 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2072",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "H1",
+      "msgno": "C02D",
+      "text": "DE RECEIVER (LEFT)\r\nMSG 3453011 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
     }
   ]
 }
