@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.05.2026 20:31 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -23.6,
-      "label": "H1",
-      "msgno": "C05A",
-      "text": ".1/WRN/WN2605072032  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "07.05.2026 20:32 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -26.1,
-      "label": "H1",
-      "msgno": "C05A",
-      "text": ".1/WRN/WN2605072032  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "07.05.2026 20:32 UTC",
       "source": "ACARS",
       "flight": "CA1154",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O38B",
       "text": "\n      ) 0 02N    )16.)\r\n231245145702\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "09.05.2026 17:53 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-220E",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "H1",
+      "msgno": "O60A",
+      "text": "SS0340F_ 74\r\nB-220E  CKK204LFPGZSPD020526175345ER\r\n30731001826-2362163043168BSM79967A21\r\n6306101 54 2701090526 175342\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  31002\r\n      ) 0 02N    )16.)\r"
+    },
+    {
+      "time": "09.05.2026 17:53 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-220E",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "H1",
+      "msgno": "O60B",
+      "text": "SS0340F_ 74\r\nB-220E  CKK204LFPGZSPD020526175345ER\r\n30731001826-2362163043168BSM79967A21\r\n6306101 54 2701090526 175342\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  31002\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n020526175345\r\n111111111111\r\n111111111111"
     }
   ]
 }
