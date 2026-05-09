@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.05.2026 13:05 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32GY",
-      "freq": 131.825,
-      "level": -41.0,
-      "label": "SA",
-      "msgno": "S61A",
-      "text": "0LH130507VS"
-    },
-    {
       "time": "08.05.2026 13:31 UTC",
       "source": "ACARS",
       "flight": "CA0939",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C02D",
       "text": "DE RECEIVER (LEFT)\r\nMSG 3453011 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "09.05.2026 20:58 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -32.9,
+      "label": "H1",
+      "msgno": "O83A",
+      "text": "SB0122BA_B-2095  ZBAAEGPK798\r\n 61822 0265852058 32000-530301023010GMY012017"
     }
   ]
 }
