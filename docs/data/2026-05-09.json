@@ -132,16 +132,16 @@
     },
     "4601f9": {
       "hex": "4601f9",
-      "flight": "FIN3KC",
+      "flight": "FIN26B",
       "reg": "OH-ATL",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 20975,
-      "speed": null,
-      "track": null,
+      "lat": 61.875549,
+      "lon": 26.487547,
+      "alt": 16000,
+      "speed": 279.6,
+      "track": 213.18,
       "seen_first": "2026-05-09T09:38:02.252280",
-      "last_seen": "2026-05-09T09:43:01.632121"
+      "last_seen": "2026-05-09T10:54:01.657015"
     },
     "781a1f": {
       "hex": "781a1f",
@@ -155,11 +155,24 @@
       "track": 234.67,
       "seen_first": "2026-05-09T10:18:01.916564",
       "last_seen": "2026-05-09T10:28:01.479669"
+    },
+    "4601f3": {
+      "hex": "4601f3",
+      "flight": "",
+      "reg": "OH-ATF",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-05-09T10:55:02.015184",
+      "last_seen": "2026-05-09T10:55:02.015184"
     }
   },
   "summary": {
-    "total_unique_aircraft": 12,
-    "last_seen_live": 0,
-    "updated": "2026-05-09T10:50:01.686836"
+    "total_unique_aircraft": 13,
+    "last_seen_live": 1,
+    "updated": "2026-05-09T10:55:02.015184"
   }
 }
