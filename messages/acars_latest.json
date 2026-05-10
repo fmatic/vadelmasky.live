@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.05.2026 10:23 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-220E",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "H1",
-      "msgno": "O10A",
-      "text": "SB0122BA_B-220E  ZSPDLFPG333\r\n 61530 0262931028 34002-600252040010/9W010011"
-    },
-    {
       "time": "09.05.2026 11:09 UTC",
       "source": "ACARS",
       "flight": "CK0602",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S46A",
       "text": "0LS182334V"
+    },
+    {
+      "time": "10.05.2026 18:34 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -41.2,
+      "label": "Q0",
+      "msgno": "S54A",
+      "text": "No text"
     }
   ]
 }
