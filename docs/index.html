@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">10.05.2026 17:05 UTC</div>
+        <div class="value">10.05.2026 17:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7BT</div>
+                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">19025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>224.2 kt</b></div>
+                    <div><span>Track</span><b>202.56°</b></div>
+                    <div><span>Position</span><b>62.4029, 26.4502</b></div>
+                    <div><span>Last seen</span><b>10.05.2026 17:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -300,30 +324,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2010" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN5CE</div>
-                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">18000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>289.4 kt</b></div>
-                    <div><span>Track</span><b>18.12°</b></div>
-                    <div><span>Position</span><b>62.1870, 26.5119</b></div>
-                    <div><span>Last seen</span><b>10.05.2026 15:40 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1077,7 +1077,7 @@ B-220E  CKK204LFPGZSPD020526175345ER
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F7", "flight": "FIN5CE", "lat": 62.18704, "lon": 26.511911, "alt": 18000, "speed": 289.4, "last_seen": "10.05.2026 15:40 UTC"}, {"hex": "461F64", "flight": "FIN5YR", "lat": 61.713324, "lon": 25.262858, "alt": 25775, "speed": 348.0, "last_seen": "10.05.2026 15:16 UTC"}, {"hex": "4601FA", "flight": "FIN286", "lat": 61.943897, "lon": 25.575867, "alt": 17425, "speed": 203.0, "last_seen": "10.05.2026 09:38 UTC"}, {"hex": "78037B", "flight": "CAO3159", "lat": 61.683, "lon": 27.245, "alt": 36000, "speed": "-", "last_seen": "10.05.2026 05:06 UTC"}];
+const aircraft = [{"hex": "4601F7", "flight": "FIN7BT", "lat": 62.402902, "lon": 26.450219, "alt": 19025, "speed": 224.2, "last_seen": "10.05.2026 17:10 UTC"}, {"hex": "461F64", "flight": "FIN5YR", "lat": 61.713324, "lon": 25.262858, "alt": 25775, "speed": 348.0, "last_seen": "10.05.2026 15:16 UTC"}, {"hex": "4601FA", "flight": "FIN286", "lat": 61.943897, "lon": 25.575867, "alt": 17425, "speed": 203.0, "last_seen": "10.05.2026 09:38 UTC"}, {"hex": "78037B", "flight": "CAO3159", "lat": 61.683, "lon": 27.245, "alt": 36000, "speed": "-", "last_seen": "10.05.2026 05:06 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
