@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.05.2026 12:00 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2072",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "18",
-      "msgno": "M12A",
-      "text": "POX,CSG2515   ,09MAY26,120023,ZGGG,EGPK,N061.35,E0026.88,339, 308,830,-118.3,-112.0,044,-59.4,143723, 28480,"
-    },
-    {
-      "time": "09.05.2026 12:03 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2072",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "5U",
-      "msgno": "M13A",
-      "text": "FS EGPK,EGSS,EKCH"
-    },
-    {
       "time": "09.05.2026 12:04 UTC",
       "source": "ACARS",
       "flight": "CZ2515",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S56A",
       "text": "No text"
+    },
+    {
+      "time": "10.05.2026 23:49 UTC",
+      "source": "ACARS",
+      "flight": "CZ2520",
+      "tail": "B-2010",
+      "freq": 131.825,
+      "level": -38.4,
+      "label": "H1",
+      "msgno": "C12B",
+      "text": " PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503100 A 2347 10MAY26\r\nMSG 3453302 A 2346 10MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453301 A 2346 10MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3"
+    },
+    {
+      "time": "10.05.2026 23:49 UTC",
+      "source": "ACARS",
+      "flight": "CZ2520",
+      "tail": "B-2010",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "H1",
+      "msgno": "C12C",
+      "text": "453013 A 2346 10MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453011 A 2346 10MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503141 A 2346 10MAY26\r\nMSG 3453301 A 2346 10MAY26 ER H PL\r\nDB MULTI-MO"
     }
   ]
 }
