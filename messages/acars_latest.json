@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.05.2026 11:09 UTC",
-      "source": "ACARS",
-      "flight": "CK0602",
-      "tail": "B-222H",
-      "freq": 131.825,
-      "level": -43.3,
-      "label": "_d",
-      "msgno": "S64A",
-      "text": "No text"
-    },
-    {
-      "time": "09.05.2026 11:12 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-222Z",
-      "freq": 131.825,
-      "level": -38.9,
-      "label": "16",
-      "msgno": "M81A",
-      "text": "POSA1N61428E 26198,AGAMO  ,104835,340,SALLO  ,123102,-60, 42, 252,832"
-    },
-    {
-      "time": "09.05.2026 11:16 UTC",
-      "source": "ACARS",
-      "flight": "CK0602",
-      "tail": "B-222H",
-      "freq": 131.825,
-      "level": -40.2,
-      "label": "16",
-      "msgno": "M47A",
-      "text": "POSA1N61674E 27877,REKDO  ,104852,330,KOKAT  ,112955,-57, 47, 652,819"
-    },
-    {
       "time": "09.05.2026 12:00 UTC",
       "source": "ACARS",
       "flight": "CZ2515",
@@ -329,6 +296,39 @@
       "label": "14",
       "msgno": "M68A",
       "text": "POS\r\n10MAY,1837,257,38002,N 61.897,E 23.940,23601,  37,162"
+    },
+    {
+      "time": "10.05.2026 21:43 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "Q0",
+      "msgno": "S56A",
+      "text": "No text"
+    },
+    {
+      "time": "10.05.2026 21:43 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "Q0",
+      "msgno": "S56A",
+      "text": "No text"
+    },
+    {
+      "time": "10.05.2026 21:44 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -41.8,
+      "label": "Q0",
+      "msgno": "S56A",
+      "text": "No text"
     }
   ]
 }
