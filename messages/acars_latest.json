@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.05.2026 13:40 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-7952",
-      "freq": 131.825,
-      "level": -40.1,
-      "label": "10",
-      "msgno": "M62A",
-      "text": "POS081341, N 6105,E 2659,---,290,28580,  61,34000, 342,-264,-564,7"
-    },
-    {
       "time": "08.05.2026 13:58 UTC",
       "source": "ACARS",
       "flight": "CK0215",
@@ -327,6 +316,17 @@
       "freq": 131.825,
       "level": -40.3,
       "label": "Q0",
+      "msgno": "S30A",
+      "text": "No text"
+    },
+    {
+      "time": "10.05.2026 17:14 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -22.6,
+      "label": "5V",
       "msgno": "S30A",
       "text": "No text"
     }
