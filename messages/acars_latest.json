@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.05.2026 13:58 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -42.1,
-      "label": "H1",
-      "msgno": "O64A",
-      "text": "SB0122BA_B-228C  ZSPDEDDF250\r\n 61814 0287971358 34005-52028708501020;013020"
-    },
-    {
-      "time": "09.05.2026 10:19 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-220E",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "Q0",
-      "msgno": "S80A",
-      "text": "No text"
-    },
-    {
       "time": "09.05.2026 10:23 UTC",
       "source": "ACARS",
       "flight": "CK0203",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S30A",
       "text": "No text"
+    },
+    {
+      "time": "10.05.2026 18:22 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "14",
+      "msgno": "M67A",
+      "text": "POS\r\n10MAY,1823,258,38002,N 61.876,E 27.519,23355,  40,176"
+    },
+    {
+      "time": "10.05.2026 18:23 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "SA",
+      "msgno": "S46A",
+      "text": "0LS182334V"
     }
   ]
 }
