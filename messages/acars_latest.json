@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.05.2026 02:58 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -31.0,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
-      "time": "11.05.2026 02:59 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -38.4,
-      "label": "R5",
-      "msgno": "P0qA",
-      "text": "No text"
-    },
-    {
-      "time": "11.05.2026 02:59 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -24.3,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
-      "time": "11.05.2026 03:00 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -28.6,
-      "label": "Q0",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
-      "time": "11.05.2026 03:00 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -35.7,
-      "label": "Q0",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
       "time": "11.05.2026 03:01 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +274,61 @@
       "label": "80",
       "msgno": "M18A",
       "text": "1101 OFFRP  0286/11 EFJY/EFHK .OH-ATJ\r\n/OUT 1056/OFF 1102/FOB 0016/ETA 1142"
+    },
+    {
+      "time": "11.05.2026 13:21 UTC",
+      "source": "ACARS",
+      "flight": "CA3061",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -35.3,
+      "label": "B9",
+      "msgno": "M45A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "11.05.2026 13:21 UTC",
+      "source": "ACARS",
+      "flight": "CA3061",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -35.3,
+      "label": "_d",
+      "msgno": "S64A",
+      "text": "No text"
+    },
+    {
+      "time": "11.05.2026 13:22 UTC",
+      "source": "ACARS",
+      "flight": "CA3061",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -30.6,
+      "label": "B9",
+      "msgno": "M46A",
+      "text": "/EBLG.TI2/040EBLGA0ACB"
+    },
+    {
+      "time": "11.05.2026 13:22 UTC",
+      "source": "ACARS",
+      "flight": "CA3061",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -33.1,
+      "label": "_d",
+      "msgno": "S65A",
+      "text": "No text"
+    },
+    {
+      "time": "11.05.2026 13:22 UTC",
+      "source": "ACARS",
+      "flight": "CA3061",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -33.9,
+      "label": "_d",
+      "msgno": "S66A",
+      "text": "No text"
     }
   ]
 }
