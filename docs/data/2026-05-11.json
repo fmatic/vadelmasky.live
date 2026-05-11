@@ -314,16 +314,16 @@
     },
     "467891": {
       "hex": "467891",
-      "flight": "",
+      "flight": "T41",
       "reg": "PI-02",
       "type": "PC12",
-      "lat": null,
-      "lon": null,
-      "alt": null,
-      "speed": 177.1,
-      "track": 79.26,
+      "lat": 62.358724,
+      "lon": 26.228168,
+      "alt": 16000,
+      "speed": 180.7,
+      "track": 228.81,
       "seen_first": "2026-05-11T09:27:01.289562",
-      "last_seen": "2026-05-11T09:28:01.652698"
+      "last_seen": "2026-05-11T10:45:02.241223"
     },
     "4601fd": {
       "hex": "4601fd",
@@ -337,11 +337,24 @@
       "track": null,
       "seen_first": "2026-05-11T09:49:01.723045",
       "last_seen": "2026-05-11T09:52:01.520220"
+    },
+    "4678ab": {
+      "hex": "4678ab",
+      "flight": "K22",
+      "reg": "GO-21",
+      "type": "G115",
+      "lat": 62.109856,
+      "lon": 25.705261,
+      "alt": 1150,
+      "speed": 111.2,
+      "track": 56.74,
+      "seen_first": "2026-05-11T10:44:01.869285",
+      "last_seen": "2026-05-11T10:45:02.241223"
     }
   },
   "summary": {
-    "total_unique_aircraft": 26,
-    "last_seen_live": 0,
-    "updated": "2026-05-11T10:40:01.597170"
+    "total_unique_aircraft": 27,
+    "last_seen_live": 2,
+    "updated": "2026-05-11T10:45:02.241223"
   }
 }
