@@ -1,94 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.05.2026 19:04 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2072",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "H1",
-      "msgno": "C02B",
-      "text": " PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503100 A 1903 09MAY26\r\nMSG 3453302 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG "
-    },
-    {
-      "time": "09.05.2026 19:04 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2072",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "H1",
-      "msgno": "C02C",
-      "text": "3453301 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503141 A 1903 09MAY26\r\nMSG 3453301 A 1903 09MAY26 ER H PL\r\nDB MULTI-MO"
-    },
-    {
-      "time": "09.05.2026 19:04 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2072",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "H1",
-      "msgno": "C02D",
-      "text": "DE RECEIVER (LEFT)\r\nMSG 3453011 A 1903 09MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
-      "time": "09.05.2026 20:58 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "H1",
-      "msgno": "O83A",
-      "text": "SB0122BA_B-2095  ZBAAEGPK798\r\n 61822 0265852058 32000-530301023010GMY012017"
-    },
-    {
-      "time": "10.05.2026 04:29 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -32.7,
-      "label": "SA",
-      "msgno": "S52A",
-      "text": "0LS042915V"
-    },
-    {
-      "time": "10.05.2026 04:29 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -31.9,
-      "label": "10",
-      "msgno": "M46A",
-      "text": "POS100430,N 61.683,E 27.245,0656,425750,,,35998,44480"
-    },
-    {
-      "time": "10.05.2026 11:20 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -40.3,
-      "label": "Q0",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
-      "time": "10.05.2026 17:14 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -22.6,
-      "label": "5V",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
       "time": "10.05.2026 18:22 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +241,94 @@
       "label": "5V",
       "msgno": "S09A",
       "text": "No text"
+    },
+    {
+      "time": "11.05.2026 05:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -40.8,
+      "label": "H1",
+      "msgno": "O64A",
+      "text": "SS0340C_ 86\r\nB-2095  CAO315ZBAAEGPK110526055337ER\r\n28933996829-222534169316DBSM79962A\r\n815610402 260110526 054853\r\n65)6))14) 5))\r\n59)6))92) 5))\r\n10000001000001111\r\n  33996\r\n  3399(12 07(3276(16.(\r\n  3399(12"
+    },
+    {
+      "time": "11.05.2026 05:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -37.9,
+      "label": "H1",
+      "msgno": "O64B",
+      "text": "SS0340C_ 86\r\nB-2095  CAO315ZBAAEGPK110526055337ER\r\n28933996829-222534169316DBSM79962A\r\n815610402 260110526 054853\r\n65)6))14) 5))\r\n59)6))92) 5))\r\n10000001000001111\r\n  33996\r\n  3399(12 07(3276(16.(\r\n  3399(12 07(3276(16.(\r\n110526055337\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "11.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "_d",
+      "msgno": "S55A",
+      "text": "No text"
+    },
+    {
+      "time": "11.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "H1",
+      "msgno": "E85B",
+      "text": ",,0,,1447,,98,,1445,,0,,1444,,56,,1456,,0,,1447,,57,,1451,,0,,1444,,84,,1454,,0,,1447,,84,,1445,,0,,1444,,38,,1461,,0,,1447,,38,,1447,,0,,1444,,42,,1461,,0,,1447,,41,,1447,,0,,1444,,12,,1449,,0,,1447,,12,,1"
+    },
+    {
+      "time": "11.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -34.1,
+      "label": "10",
+      "msgno": "M58A",
+      "text": "POS110554, N 6179,E 2629,831,290,23889,  42,34004, 302,-220,-525,7"
+    },
+    {
+      "time": "11.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "E85C",
+      "text": "451,,0,,1444,,28,,1447,,0,,1447,,28,,1444,,0,,1444,,0,,1449,,0,,1447,,0,,1451,,0,,1444,,5,,1447,,0,,1447,,7,,1444,,0,,1444,,0,,1447,,0,,1447,,0,,1444,,0,,1444,,,11,MAY,26,05,54,03,15.1,0.0,15.1,,0.826,0.814"
+    },
+    {
+      "time": "11.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "H1",
+      "msgno": "E85D",
+      "text": ",0.826,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,0,,1308,,,,103293,,,,,,,,,,"
+    },
+    {
+      "time": "11.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "E85E",
+      "text": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,MAY,26,05,54,03,1,1,1,0,0,0,+2.7,0.0,38985,38985,,,,11,MAY,26,05,54,03"
     }
   ]
 }
