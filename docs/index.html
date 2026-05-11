@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">22</div>
+        <div class="value">23</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">11.05.2026 08:00 UTC</div>
+        <div class="value">11.05.2026 08:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CA3159</div>
+                    <div class="meta">ICAO 780005 · REG B-6091 · TYPE A332</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>61.7630, 27.6260</b></div>
+                    <div><span>Last seen</span><b>11.05.2026 08:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6091" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -818,6 +842,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CA3159</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6091 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">11.05.2026 08:03 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 10 · Msg M44A · Level -40.3 dB
+            </div>
+
+            <div class="acars-text">POS110804,N 61.763,E 27.626,1032,423750,,,35999,47200</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">CA1153</div>
                     <div class="acars-meta">
                         ACARS · Tail B-6090 · 131.825 MHz
@@ -1034,29 +1076,11 @@ B-2095  CAO315ZBAAEGPK110526055337ER
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70290</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATO · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">11.05.2026 03:02 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S02A · Level -38.8 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "46788C", "flight": "W21", "lat": 62.071171, "lon": 25.444234, "alt": 19950, "speed": 354.0, "last_seen": "11.05.2026 07:56 UTC"}, {"hex": "780BB6", "flight": "CAO3153", "lat": 61.79, "lon": 26.29, "alt": 34000, "speed": 442.0, "last_seen": "11.05.2026 06:26 UTC"}, {"hex": "467895", "flight": "T26", "lat": 62.100313, "lon": 25.620422, "alt": 21000, "speed": 252.0, "last_seen": "11.05.2026 03:37 UTC"}, {"hex": "4601FC", "flight": "FIN8KH", "lat": 61.742233, "lon": 25.629883, "alt": 18000, "speed": 201.2, "last_seen": "11.05.2026 03:25 UTC"}, {"hex": "4601F5", "flight": "FIN418", "lat": 61.418183, "lon": 25.558167, "alt": 19000, "speed": 246.5, "last_seen": "11.05.2026 03:02 UTC"}];
+const aircraft = [{"hex": "780005", "flight": "CA3159", "lat": 61.763, "lon": 27.626, "alt": "-", "speed": "-", "last_seen": "11.05.2026 08:05 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.071171, "lon": 25.444234, "alt": 19950, "speed": 354.0, "last_seen": "11.05.2026 07:56 UTC"}, {"hex": "780BB6", "flight": "CAO3153", "lat": 61.79, "lon": 26.29, "alt": 34000, "speed": 442.0, "last_seen": "11.05.2026 06:26 UTC"}, {"hex": "467895", "flight": "T26", "lat": 62.100313, "lon": 25.620422, "alt": 21000, "speed": 252.0, "last_seen": "11.05.2026 03:37 UTC"}, {"hex": "4601FC", "flight": "FIN8KH", "lat": 61.742233, "lon": 25.629883, "alt": 18000, "speed": 201.2, "last_seen": "11.05.2026 03:25 UTC"}, {"hex": "4601F5", "flight": "FIN418", "lat": 61.418183, "lon": 25.558167, "alt": 19000, "speed": 246.5, "last_seen": "11.05.2026 03:02 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
