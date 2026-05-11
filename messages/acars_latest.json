@@ -6,17 +6,6 @@
       "flight": "N70290",
       "tail": "OH-ATO",
       "freq": 131.825,
-      "level": -33.7,
-      "label": "Q0",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
-      "time": "11.05.2026 03:01 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATO",
-      "freq": 131.825,
       "level": -35.7,
       "label": "Q0",
       "msgno": "S01A",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S66A",
       "text": "No text"
+    },
+    {
+      "time": "11.05.2026 13:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3061",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -36.1,
+      "label": "10",
+      "msgno": "M47A",
+      "text": "POS111328,N 61.515,E 26.474,1422,407750,,,36000,29640"
     }
   ]
 }
