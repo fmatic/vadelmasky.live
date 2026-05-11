@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.05.2026 12:24 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "16",
-      "msgno": "M01A",
-      "text": "POSA1N61754E 26910,AGIVU  ,121131,339,NISIX  ,125900,-59, 45, 231,830"
-    },
-    {
-      "time": "09.05.2026 13:51 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATP",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "Q0",
-      "msgno": "S97A",
-      "text": "No text"
-    },
-    {
-      "time": "09.05.2026 13:51 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATP",
-      "freq": 131.825,
-      "level": -30.8,
-      "label": "SA",
-      "msgno": "M35A",
-      "text": "0EV135156V"
-    },
-    {
       "time": "09.05.2026 13:52 UTC",
       "source": "ACARS",
       "flight": "N70369",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S13A",
       "text": "0LS023214V"
+    },
+    {
+      "time": "11.05.2026 02:58 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "11.05.2026 02:59 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -38.4,
+      "label": "R5",
+      "msgno": "P0qA",
+      "text": "No text"
+    },
+    {
+      "time": "11.05.2026 02:59 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -24.3,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
     }
   ]
 }
