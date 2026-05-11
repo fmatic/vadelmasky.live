@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.05.2026 15:18 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "H1",
-      "msgno": "F94A",
-      "text": "POSN61365E028004,KOMEK,152311,360,KOSKA,155951,BIKRU,M55,24970,53782F9"
-    },
-    {
-      "time": "11.05.2026 15:18 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "H1",
-      "msgno": "517A",
-      "text": "/ILNGE7X.S47002HO B-209R1DKH1667   260511152318ZHCCLIMC+025070295831274000013000022447M85P04B205B2050406040B2122M32P08      2462M81P05  2462M82P05  -11909249+06160066+027980830826610013-0241+360040841-05490"
-    },
-    {
-      "time": "11.05.2026 15:18 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "H1",
-      "msgno": "517B",
-      "text": "032+054618428+4812+0329014690487804882+0679040-026-038-026-035+000+015-027-039-062-054-082-041-065-019-040-040-049-027+000-042-015+000+000-018-011-049-031-027-039-028-037+001+015-054-025-037-048-090-081-032"
-    },
-    {
-      "time": "11.05.2026 15:18 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "H1",
-      "msgno": "517C",
-      "text": "-020-060-048-044-032+000-005-035+000+000-018-012-043-029-019-054-030-028-012+034-034-063-031-030-077-028-047-014-041-044-060-046+000-005-037+000+000-012-020-015-035-009-055-049-029-012+034-030-047-026-035-0"
-    },
-    {
-      "time": "11.05.2026 15:18 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "83",
-      "msgno": "M63A",
-      "text": "ZHCC,LIMC,111523, 61.57,  27.86,36000,282,-129.5, 23900, 24309, 24311"
-    },
-    {
       "time": "11.05.2026 15:19 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "D48C",
       "text": "ACM01ACM301ESB-2071  CSG2516 EGPKZGGG110526  78ER184334 9039311ACSN11F11\r\n 79A1C0A1C0 37001-270831 -569  6260    70   1851\r\n0030121010\r\n144 39 38190 66 8250100\r\n144 39 38189 70 8250100\r\n 36999829 217 -555  6269  21111\r\n -141391832107105 -16153 41 35 19\r\n -141391582 92 91 -16147 53 46 15\r\n1091055085212 -14 5100 290XX  4\r\n1091055085212 -13 5100 290XX  4\r\n 12323 3105012039   556\r\n102222 250361 -1778\r\n120321\r\n21 4 4  50011\r\n 811 4 100002\r\n130001\r\n11 230231\r\n150021\r\n2011 )  50011\r\n 9 5 4  20082"
+    },
+    {
+      "time": "11.05.2026 20:41 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2071",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "H1",
+      "msgno": "C09A",
+      "text": "RTE 1 11MAY26 2042 CZB-2071 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 R 1816 11MAY26\r\nFDE 34503142 A 2040 11MAY26\r\nMSG 3453302 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2040 11MAY26 ER H"
+    },
+    {
+      "time": "11.05.2026 20:41 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2071",
+      "freq": 131.825,
+      "level": -29.3,
+      "label": "H1",
+      "msgno": "C09B",
+      "text": "RTE 1 11MAY26 2042 CZB-2071 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 R 1816 11MAY26\r\nFDE 34503142 A 2040 11MAY26\r\nMSG 3453302 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "11.05.2026 20:44 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2071",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "H1",
+      "msgno": "C10A",
+      "text": "RTE 1 11MAY26 2045 CZB-2071 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 R 1816 11MAY26\r\nFDE 34503141 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H "
+    },
+    {
+      "time": "11.05.2026 20:44 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2071",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "C10B",
+      "text": "PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453"
+    },
+    {
+      "time": "11.05.2026 20:44 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2071",
+      "freq": 131.825,
+      "level": -32.9,
+      "label": "H1",
+      "msgno": "C10C",
+      "text": "RTE 1 11MAY26 2045 CZB-2071 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 R 1816 11MAY26\r\nFDE 34503141 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
     }
   ]
 }
