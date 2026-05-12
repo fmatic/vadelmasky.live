@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.05.2026 15:19 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "H1",
-      "msgno": "517D",
-      "text": "31-040-042-014-034-049-043-051+000-024-039+000+000-012-018-015-03800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-    },
-    {
-      "time": "11.05.2026 15:19 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "H1",
-      "msgno": "517E",
-      "text": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-    },
-    {
-      "time": "11.05.2026 15:19 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "H1",
-      "msgno": "517F",
-      "text": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000999000100000000000000000"
-    },
-    {
-      "time": "11.05.2026 15:19 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "H1",
-      "msgno": "517G",
-      "text": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000320006000000000000000000000000100000000000000000000000000000000000999000100000000000000000000000000000000000000000000"
-    },
-    {
-      "time": "11.05.2026 15:19 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "5V",
-      "msgno": "S19A",
-      "text": "No text"
-    },
-    {
-      "time": "11.05.2026 15:20 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-209R",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "Q0",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
       "time": "11.05.2026 15:20 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +263,72 @@
       "label": "H1",
       "msgno": "C10C",
       "text": "RTE 1 11MAY26 2045 CZB-2071 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 R 1816 11MAY26\r\nFDE 34503141 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "12.05.2026 08:50 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "Q0",
+      "msgno": "S59A",
+      "text": "No text"
+    },
+    {
+      "time": "12.05.2026 08:50 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -29.1,
+      "label": "SA",
+      "msgno": "S60A",
+      "text": "0EV085106V"
+    },
+    {
+      "time": "12.05.2026 08:50 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -28.3,
+      "label": "B9",
+      "msgno": "L09A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "12.05.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -28.6,
+      "label": "_d",
+      "msgno": "S61A",
+      "text": "No text"
+    },
+    {
+      "time": "12.05.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "_d",
+      "msgno": "S62A",
+      "text": "No text"
+    },
+    {
+      "time": "12.05.2026 08:55 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "_d",
+      "msgno": "S63A",
+      "text": "No text"
     }
   ]
 }
