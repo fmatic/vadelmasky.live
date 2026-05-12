@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.05.2026 20:41 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2071",
-      "freq": 131.825,
-      "level": -29.3,
-      "label": "H1",
-      "msgno": "C09B",
-      "text": "RTE 1 11MAY26 2042 CZB-2071 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 R 1816 11MAY26\r\nFDE 34503142 A 2040 11MAY26\r\nMSG 3453302 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "11.05.2026 20:44 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2071",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "H1",
-      "msgno": "C10A",
-      "text": "RTE 1 11MAY26 2045 CZB-2071 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 R 1816 11MAY26\r\nFDE 34503141 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H "
-    },
-    {
       "time": "11.05.2026 20:44 UTC",
       "source": "ACARS",
       "flight": "CZ2516",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O09A",
       "text": "SB0022BA_462JA743J  JAL4TA 491110526 230849RJTTEFHK316DBSM7996210782120\r\n 275 542604 432\r\n 143 491586 466\r\nTA   12 3) 207 206110526 230856OCOCCRR\r\nDC36851272-255-556120526 114816OCOCCRO"
+    },
+    {
+      "time": "12.05.2026 13:57 UTC",
+      "source": "ACARS",
+      "flight": "CK0214",
+      "tail": "B-222H",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "Q0",
+      "msgno": "S17A",
+      "text": "No text"
+    },
+    {
+      "time": "12.05.2026 13:59 UTC",
+      "source": "ACARS",
+      "flight": "CK0214",
+      "tail": "B-222H",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "16",
+      "msgno": "M04A",
+      "text": "POSA1N62014E 27641,DODAM  ,132839,310,KOKAT  ,141300,-51, 40, 723,829"
     }
   ]
 }
