@@ -6,28 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATE",
       "freq": 131.825,
-      "level": -43.6,
-      "label": "B9",
-      "msgno": "L16A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "12.05.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -41.8,
-      "label": "_d",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
-      "time": "12.05.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
       "level": -39.9,
       "label": "_d",
       "msgno": "S21A",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S64A",
       "text": "No text"
+    },
+    {
+      "time": "13.05.2026 23:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2080",
+      "freq": 131.825,
+      "level": -39.6,
+      "label": "18",
+      "msgno": "M73A",
+      "text": "POX,CSG2517   ,13MAY26,232915,ZGGG,EGPK,N061.65,E0028.98,340, 299,829,-120.6, 150.1,032,-57.0,015515, 28640,"
+    },
+    {
+      "time": "13.05.2026 23:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2080",
+      "freq": 131.825,
+      "level": -39.2,
+      "label": "SA",
+      "msgno": "S21A",
+      "text": "0LS232917V"
     }
   ]
 }
