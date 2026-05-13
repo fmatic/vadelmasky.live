@@ -246,12 +246,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">33</div>
+        <div class="value">34</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">13.05.2026 23:30 UTC</div>
+        <div class="value">13.05.2026 23:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -294,12 +294,36 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>61.0097, 2.1407</b></div>
-                    <div><span>Last seen</span><b>13.05.2026 23:30 UTC</b></div>
+                    <div><span>Position</span><b>61.0070, 2.1228</b></div>
+                    <div><span>Last seen</span><b>13.05.2026 23:35 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2080" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 781E95 · REG B-222S · TYPE B77L</div>
+                </div>
+                <div class="alt-badge high">35000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>466.0 kt</b></div>
+                    <div><span>Track</span><b>62.58°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>13.05.2026 23:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-222S" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1087,6 +1111,24 @@ footer {
                         ACARS · Tail B-2080 · 131.825 MHz
                     </div>
                 </div>
+                <div class="acars-meta">13.05.2026 23:30 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 18 · Msg M76A · Level -37.5 dB
+            </div>
+
+            <div class="acars-text">POX,CSG2517   ,13MAY26,233515,ZGGG,EGPK,N061.42,E0027.37,340, 293,828,-122.7, 148.7,042,-57.1,015515, 28640,</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CZ2517</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-2080 · 131.825 MHz
+                    </div>
+                </div>
                 <div class="acars-meta">13.05.2026 23:26 UTC</div>
             </div>
 
@@ -1309,36 +1351,11 @@ MSG 3453013 A 1634 13MAY26 ER H PL
 DB MULTI-MOD</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1040</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2092 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">13.05.2026 16:36 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C42B · Level -32.7 dB
-            </div>
-
-            <div class="acars-text"> PL
-DB MULTI-MODE RECEIVER (RIGHT)
-FDE 34503141 A 1633 13MAY26
-MSG 3453301 A 1634 13MAY26 ER H PL
-DB MULTI-MODE RECEIVER (LEFT)
-MSG 3453011 A 1634 13MAY26 ER H PL
-DB MULTI-MODE RECEIVER (LEFT)
-FDE 34</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "7807BB", "flight": "CZ2517", "lat": 61.009667, "lon": 2.140667, "alt": "-", "speed": "-", "last_seen": "13.05.2026 23:30 UTC"}, {"hex": "4601F6", "flight": "FIN3PT", "lat": 61.517898, "lon": 26.141663, "alt": 19000, "speed": 268.0, "last_seen": "13.05.2026 21:42 UTC"}, {"hex": "4601F5", "flight": "FIN1T", "lat": 62.341733, "lon": 25.80699, "alt": 2350, "speed": 197.3, "last_seen": "13.05.2026 21:35 UTC"}, {"hex": "467895", "flight": "-", "lat": 62.234802, "lon": 25.496724, "alt": 9875, "speed": 174.5, "last_seen": "13.05.2026 20:58 UTC"}, {"hex": "4601FD", "flight": "FIN7BT", "lat": 61.562216, "lon": 25.69163, "alt": 14025, "speed": 256.2, "last_seen": "13.05.2026 17:16 UTC"}, {"hex": "465A69", "flight": "OH665", "lat": 62.294266, "lon": 25.923055, "alt": 1975, "speed": 111.2, "last_seen": "13.05.2026 15:49 UTC"}, {"hex": "4601FB", "flight": "FIN6YP", "lat": 61.954376, "lon": 26.572396, "alt": 16000, "speed": 250.2, "last_seen": "13.05.2026 15:14 UTC"}, {"hex": "461F6D", "flight": "FIN2PD", "lat": 61.822117, "lon": 25.304159, "alt": 25150, "speed": 370.0, "last_seen": "13.05.2026 12:03 UTC"}, {"hex": "4601FC", "flight": "FIN286", "lat": 61.549484, "lon": 25.467093, "alt": 14000, "speed": 248.3, "last_seen": "13.05.2026 11:30 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.996948, "lon": 25.595202, "alt": 18000, "speed": 192.8, "last_seen": "13.05.2026 11:05 UTC"}, {"hex": "46789F", "flight": "-", "lat": 62.280563, "lon": 25.728607, "alt": 1225, "speed": 121.8, "last_seen": "13.05.2026 06:34 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.634278, "lon": 25.114237, "alt": 25325, "speed": 382.0, "last_seen": "13.05.2026 03:04 UTC"}];
+const aircraft = [{"hex": "7807BB", "flight": "CZ2517", "lat": 61.007, "lon": 2.122833, "alt": "-", "speed": "-", "last_seen": "13.05.2026 23:35 UTC"}, {"hex": "4601F6", "flight": "FIN3PT", "lat": 61.517898, "lon": 26.141663, "alt": 19000, "speed": 268.0, "last_seen": "13.05.2026 21:42 UTC"}, {"hex": "4601F5", "flight": "FIN1T", "lat": 62.341733, "lon": 25.80699, "alt": 2350, "speed": 197.3, "last_seen": "13.05.2026 21:35 UTC"}, {"hex": "467895", "flight": "-", "lat": 62.234802, "lon": 25.496724, "alt": 9875, "speed": 174.5, "last_seen": "13.05.2026 20:58 UTC"}, {"hex": "4601FD", "flight": "FIN7BT", "lat": 61.562216, "lon": 25.69163, "alt": 14025, "speed": 256.2, "last_seen": "13.05.2026 17:16 UTC"}, {"hex": "465A69", "flight": "OH665", "lat": 62.294266, "lon": 25.923055, "alt": 1975, "speed": 111.2, "last_seen": "13.05.2026 15:49 UTC"}, {"hex": "4601FB", "flight": "FIN6YP", "lat": 61.954376, "lon": 26.572396, "alt": 16000, "speed": 250.2, "last_seen": "13.05.2026 15:14 UTC"}, {"hex": "461F6D", "flight": "FIN2PD", "lat": 61.822117, "lon": 25.304159, "alt": 25150, "speed": 370.0, "last_seen": "13.05.2026 12:03 UTC"}, {"hex": "4601FC", "flight": "FIN286", "lat": 61.549484, "lon": 25.467093, "alt": 14000, "speed": 248.3, "last_seen": "13.05.2026 11:30 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.996948, "lon": 25.595202, "alt": 18000, "speed": 192.8, "last_seen": "13.05.2026 11:05 UTC"}, {"hex": "46789F", "flight": "-", "lat": 62.280563, "lon": 25.728607, "alt": 1225, "speed": 121.8, "last_seen": "13.05.2026 06:34 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.634278, "lon": 25.114237, "alt": 25325, "speed": 382.0, "last_seen": "13.05.2026 03:04 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
