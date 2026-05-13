@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">13.05.2026 09:40 UTC</div>
+        <div class="value">13.05.2026 09:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN3KC</div>
+                    <div class="meta">ICAO 4601F3 · REG OH-ATF · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">17025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>192.8 kt</b></div>
+                    <div><span>Track</span><b>187.75°</b></div>
+                    <div><span>Position</span><b>61.9969, 25.5952</b></div>
+                    <div><span>Last seen</span><b>13.05.2026 09:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -468,30 +492,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATL" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN8KH</div>
-                    <div class="meta">ICAO 4601F3 · REG OH-ATF · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">18025 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>192.8 kt</b></div>
-                    <div><span>Track</span><b>187.75°</b></div>
-                    <div><span>Position</span><b>61.9969, 25.5952</b></div>
-                    <div><span>Last seen</span><b>13.05.2026 03:19 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -901,7 +901,7 @@ DC36851272-255-556120526 114816OCOCCRO</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "46789F", "flight": "-", "lat": 62.280563, "lon": 25.728607, "alt": 1225, "speed": 121.8, "last_seen": "13.05.2026 06:34 UTC"}, {"hex": "4601FD", "flight": "FIN5ET", "lat": 60.991113, "lon": 25.56136, "alt": 22050, "speed": 250.9, "last_seen": "13.05.2026 05:44 UTC"}, {"hex": "4601F3", "flight": "FIN8KH", "lat": 61.996948, "lon": 25.595202, "alt": 18025, "speed": 192.8, "last_seen": "13.05.2026 03:19 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.634278, "lon": 25.114237, "alt": 25325, "speed": 382.0, "last_seen": "13.05.2026 03:04 UTC"}];
+const aircraft = [{"hex": "4601F3", "flight": "FIN3KC", "lat": 61.996948, "lon": 25.595202, "alt": 17025, "speed": 192.8, "last_seen": "13.05.2026 09:45 UTC"}, {"hex": "46789F", "flight": "-", "lat": 62.280563, "lon": 25.728607, "alt": 1225, "speed": 121.8, "last_seen": "13.05.2026 06:34 UTC"}, {"hex": "4601FD", "flight": "FIN5ET", "lat": 60.991113, "lon": 25.56136, "alt": 22050, "speed": 250.9, "last_seen": "13.05.2026 05:44 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.634278, "lon": 25.114237, "alt": 25325, "speed": 382.0, "last_seen": "13.05.2026 03:04 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
