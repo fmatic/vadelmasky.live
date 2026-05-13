@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.05.2026 08:50 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -29.1,
-      "label": "SA",
-      "msgno": "S60A",
-      "text": "0EV085106V"
-    },
-    {
-      "time": "12.05.2026 08:50 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -28.3,
-      "label": "B9",
-      "msgno": "L09A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "12.05.2026 08:51 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -28.6,
-      "label": "_d",
-      "msgno": "S61A",
-      "text": "No text"
-    },
-    {
       "time": "12.05.2026 08:51 UTC",
       "source": "ACARS",
       "flight": "N70490",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "E58B",
       "text": "LGB,R,0,,202,201,1,L,,0.0,0.0,,,0.1,0.0,,,222,225,,,231,222,,,0.0,0.0,,,,0.1,0.0,,,211,220,,,220,218,,,0.0,0.0,,,0.0,0.0,,,209,208,,,215,211,,0.0,,0.0,,LOCKED,LOCKED,,,48,48,48,48,48,ANTISKID,13,MAY,26,02,39,22"
+    },
+    {
+      "time": "13.05.2026 02:40 UTC",
+      "source": "ACARS",
+      "flight": "CA3032",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -35.3,
+      "label": "H1",
+      "msgno": "C68D",
+      "text": " RECEIVER (RIGHT)\r\nMSG 3453013 A 0238 13MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "13.05.2026 02:42 UTC",
+      "source": "ACARS",
+      "flight": "CA3032",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -28.5,
+      "label": "H1",
+      "msgno": "O24A",
+      "text": "SS0340C_112\r\nB-2095  CAO303LEMDZSPD130526024256ER\r\n29232995819-255022791316DBSM79962A\r\n671610705 260130526 024252\r\n36)6))73) 2))\r\n36)6))73) 2))\r\n10000000000001111\r\n  32995\r\n  3299(12 07(3276(16.(\r\n  3299(12"
+    },
+    {
+      "time": "13.05.2026 02:42 UTC",
+      "source": "ACARS",
+      "flight": "CA3032",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -28.1,
+      "label": "H1",
+      "msgno": "O24B",
+      "text": "SS0340C_112\r\nB-2095  CAO303LEMDZSPD130526024256ER\r\n29232995819-255022791316DBSM79962A\r\n671610705 260130526 024252\r\n36)6))73) 2))\r\n36)6))73) 2))\r\n10000000000001111\r\n  32995\r\n  3299(12 07(3276(16.(\r\n  3299(12 07(3276(16.(\r\n130526024256\r\n111111111111\r\n111111111111"
     }
   ]
 }
