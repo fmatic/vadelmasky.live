@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.05.2026 08:55 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "_d",
-      "msgno": "S70A",
-      "text": "No text"
-    },
-    {
-      "time": "12.05.2026 08:55 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "_d",
-      "msgno": "S71A",
-      "text": "No text"
-    },
-    {
-      "time": "12.05.2026 08:55 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "_d",
-      "msgno": "S72A",
-      "text": "No text"
-    },
-    {
-      "time": "12.05.2026 08:56 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "_d",
-      "msgno": "S73A",
-      "text": "No text"
-    },
-    {
-      "time": "12.05.2026 08:56 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "_d",
-      "msgno": "S74A",
-      "text": "No text"
-    },
-    {
-      "time": "12.05.2026 08:56 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "5V",
-      "msgno": "S75A",
-      "text": "No text"
-    },
-    {
       "time": "12.05.2026 11:10 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +263,72 @@
       "label": "5V",
       "msgno": "S35A",
       "text": "No text"
+    },
+    {
+      "time": "13.05.2026 16:36 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "H1",
+      "msgno": "C42B",
+      "text": " PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503141 A 1633 13MAY26\r\nMSG 3453301 A 1634 13MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1634 13MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34"
+    },
+    {
+      "time": "13.05.2026 16:36 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "H1",
+      "msgno": "C42C",
+      "text": "503100 A 1633 13MAY26\r\nMSG 3453302 A 1634 13MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453301 A 1634 13MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453013 A 1634 13MAY26 ER H PL\r\nDB MULTI-MOD"
+    },
+    {
+      "time": "13.05.2026 16:37 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "H1",
+      "msgno": "C42D",
+      "text": "E RECEIVER (RIGHT)\r\nMSG 3453011 A 1634 13MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "13.05.2026 16:37 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "H1",
+      "msgno": "O30A",
+      "text": "SS0340C_253\r\nB-2092  CAO104EHAMZSPD130526163754ER\r\n31030998834-187516692316DBSM79962A\r\n788610240 270130526 163752\r\n52)6))26) 2))\r\n51)6))25) 2))\r\n10000000000001111\r\n  30999\r\n  3100(12 07(3276(16.(\r\n  3100(12"
+    },
+    {
+      "time": "13.05.2026 16:37 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "H1",
+      "msgno": "O30B",
+      "text": "SS0340C_253\r\nB-2092  CAO104EHAMZSPD130526163754ER\r\n31030998834-187516692316DBSM79962A\r\n788610240 270130526 163752\r\n52)6))26) 2))\r\n51)6))25) 2))\r\n10000000000001111\r\n  30999\r\n  3100(12 07(3276(16.(\r\n  3100(12 07(3276(16.(\r\n130526163754\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "13.05.2026 16:38 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "H1",
+      "msgno": "O31A",
+      "text": "SB0122BA_B-2092  EHAMZSPD133\r\n 61813 0273471638 30998-490199039010W/X011013"
     }
   ]
 }
