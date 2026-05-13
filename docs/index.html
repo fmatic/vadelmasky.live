@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">13.05.2026 15:45 UTC</div>
+        <div class="value">13.05.2026 15:50 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OH665</div>
+                    <div class="meta">ICAO 465A69 · REG OH-665 · TYPE G109</div>
+                </div>
+                <div class="alt-badge low">1975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>111.2 kt</b></div>
+                    <div><span>Track</span><b>307.69°</b></div>
+                    <div><span>Position</span><b>62.2943, 25.9231</b></div>
+                    <div><span>Last seen</span><b>13.05.2026 15:49 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-665" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -295,7 +319,7 @@ footer {
                     <div><span>Speed</span><b>392.0 kt</b></div>
                     <div><span>Track</span><b>182.81°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>13.05.2026 15:45 UTC</b></div>
+                    <div><span>Last seen</span><b>13.05.2026 15:46 UTC</b></div>
                 </div>
             </div>
 
@@ -324,30 +348,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATP" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">OH665</div>
-                    <div class="meta">ICAO 465A69 · REG OH-665 · TYPE G109</div>
-                </div>
-                <div class="alt-badge low">2175 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>70.8 kt</b></div>
-                    <div><span>Track</span><b>126.38°</b></div>
-                    <div><span>Position</span><b>62.2165, 26.0729</b></div>
-                    <div><span>Last seen</span><b>13.05.2026 15:18 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-665" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1202,7 +1202,7 @@ EOR
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FD", "flight": "FIN5CE", "lat": 62.48584, "lon": 26.220398, "alt": 18025, "speed": 291.4, "last_seen": "13.05.2026 15:32 UTC"}, {"hex": "465A69", "flight": "OH665", "lat": 62.216492, "lon": 26.072896, "alt": 2175, "speed": 70.8, "last_seen": "13.05.2026 15:18 UTC"}, {"hex": "4601FB", "flight": "FIN6YP", "lat": 61.954376, "lon": 26.572396, "alt": 16000, "speed": 250.2, "last_seen": "13.05.2026 15:14 UTC"}, {"hex": "461F6D", "flight": "FIN2PD", "lat": 61.822117, "lon": 25.304159, "alt": 25150, "speed": 370.0, "last_seen": "13.05.2026 12:03 UTC"}, {"hex": "4601FC", "flight": "FIN286", "lat": 61.549484, "lon": 25.467093, "alt": 14000, "speed": 248.3, "last_seen": "13.05.2026 11:30 UTC"}, {"hex": "467895", "flight": "-", "lat": 62.294482, "lon": 25.696493, "alt": 2275, "speed": 196.9, "last_seen": "13.05.2026 11:14 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.996948, "lon": 25.595202, "alt": 18000, "speed": 192.8, "last_seen": "13.05.2026 11:05 UTC"}, {"hex": "46789F", "flight": "-", "lat": 62.280563, "lon": 25.728607, "alt": 1225, "speed": 121.8, "last_seen": "13.05.2026 06:34 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.634278, "lon": 25.114237, "alt": 25325, "speed": 382.0, "last_seen": "13.05.2026 03:04 UTC"}];
+const aircraft = [{"hex": "465A69", "flight": "OH665", "lat": 62.294266, "lon": 25.923055, "alt": 1975, "speed": 111.2, "last_seen": "13.05.2026 15:49 UTC"}, {"hex": "4601FD", "flight": "FIN5CE", "lat": 62.48584, "lon": 26.220398, "alt": 18025, "speed": 291.4, "last_seen": "13.05.2026 15:32 UTC"}, {"hex": "4601FB", "flight": "FIN6YP", "lat": 61.954376, "lon": 26.572396, "alt": 16000, "speed": 250.2, "last_seen": "13.05.2026 15:14 UTC"}, {"hex": "461F6D", "flight": "FIN2PD", "lat": 61.822117, "lon": 25.304159, "alt": 25150, "speed": 370.0, "last_seen": "13.05.2026 12:03 UTC"}, {"hex": "4601FC", "flight": "FIN286", "lat": 61.549484, "lon": 25.467093, "alt": 14000, "speed": 248.3, "last_seen": "13.05.2026 11:30 UTC"}, {"hex": "467895", "flight": "-", "lat": 62.294482, "lon": 25.696493, "alt": 2275, "speed": 196.9, "last_seen": "13.05.2026 11:14 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.996948, "lon": 25.595202, "alt": 18000, "speed": 192.8, "last_seen": "13.05.2026 11:05 UTC"}, {"hex": "46789F", "flight": "-", "lat": 62.280563, "lon": 25.728607, "alt": 1225, "speed": 121.8, "last_seen": "13.05.2026 06:34 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.634278, "lon": 25.114237, "alt": 25325, "speed": 382.0, "last_seen": "13.05.2026 03:04 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
