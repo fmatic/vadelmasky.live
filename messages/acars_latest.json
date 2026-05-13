@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.05.2026 20:44 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2071",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "H1",
-      "msgno": "C10B",
-      "text": "PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453"
-    },
-    {
-      "time": "11.05.2026 20:44 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2071",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "H1",
-      "msgno": "C10C",
-      "text": "RTE 1 11MAY26 2045 CZB-2071 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 R 1816 11MAY26\r\nFDE 34503141 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2043 11MAY26\r\nMSG 3453011 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453301 A 2043 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2040 11MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "12.05.2026 08:50 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -29.4,
-      "label": "Q0",
-      "msgno": "S59A",
-      "text": "No text"
-    },
-    {
       "time": "12.05.2026 08:50 UTC",
       "source": "ACARS",
       "flight": "N70490",
@@ -329,6 +296,39 @@
       "label": "16",
       "msgno": "M04A",
       "text": "POSA1N62014E 27641,DODAM  ,132839,310,KOKAT  ,141300,-51, 40, 723,829"
+    },
+    {
+      "time": "13.05.2026 02:39 UTC",
+      "source": "ACARS",
+      "flight": "CA3032",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "_d",
+      "msgno": "S84A",
+      "text": "No text"
+    },
+    {
+      "time": "13.05.2026 02:39 UTC",
+      "source": "ACARS",
+      "flight": "CA3032",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -34.4,
+      "label": "H1",
+      "msgno": "E58A",
+      "text": "LGB,R,0,,202,201,1,L,,0.0,0.0,,,0.1,0.0,,,222,225,,,231,222,,,0.0,0.0,,,,0.1,0.0,,,211,220,,,220,218,,,0.0,0.0,,,0.0,0.0,,,209,208,,,215,211,,0.0,,0.0,,LOCKED,LOCKED,,,48,48,48,48,48,ANTISKID,13,MAY,26,02,3"
+    },
+    {
+      "time": "13.05.2026 02:39 UTC",
+      "source": "ACARS",
+      "flight": "CA3032",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "H1",
+      "msgno": "E58B",
+      "text": "LGB,R,0,,202,201,1,L,,0.0,0.0,,,0.1,0.0,,,222,225,,,231,222,,,0.0,0.0,,,,0.1,0.0,,,211,220,,,220,218,,,0.0,0.0,,,0.0,0.0,,,209,208,,,215,211,,0.0,,0.0,,LOCKED,LOCKED,,,48,48,48,48,48,ANTISKID,13,MAY,26,02,39,22"
     }
   ]
 }
