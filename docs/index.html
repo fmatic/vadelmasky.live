@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -261,17 +261,17 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">27450 ft</div>
+        <div class="value">35000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">391.7 kt</div>
+        <div class="value">466.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">14.05.2026 06:15 UTC</div>
+        <div class="value">14.05.2026 06:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CSG2518</div>
+                    <div class="meta">ICAO 7807BB · REG B-2080 · TYPE B77L</div>
+                </div>
+                <div class="alt-badge high">35000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>466.0 kt</b></div>
+                    <div><span>Track</span><b>85.78°</b></div>
+                    <div><span>Position</span><b>61.0070, 2.1228</b></div>
+                    <div><span>Last seen</span><b>14.05.2026 06:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2080" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -516,30 +540,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-222S" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CZ2517</div>
-                    <div class="meta">ICAO 7807BB · REG B-2080 · TYPE B77L</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>61.0070, 2.1228</b></div>
-                    <div><span>Last seen</span><b>14.05.2026 00:07 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2080" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -793,7 +793,7 @@ B-222S  CAO844LEMDZSPD130526233917ER
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F9", "flight": "FIN5ET", "lat": 61.333191, "lon": 25.764117, "alt": 19650, "speed": 241.1, "last_seen": "14.05.2026 06:12 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.660022, "lon": 25.626221, "alt": 18000, "speed": 234.5, "last_seen": "14.05.2026 03:22 UTC"}, {"hex": "461E1E", "flight": "FIN4MP", "lat": 61.525719, "lon": 25.307007, "alt": 27450, "speed": 391.7, "last_seen": "14.05.2026 03:08 UTC"}, {"hex": "4601F6", "flight": "FIN4QA", "lat": 61.047999, "lon": 25.496815, "alt": 16000, "speed": 273.4, "last_seen": "14.05.2026 03:07 UTC"}, {"hex": "781E95", "flight": "CA8440", "lat": 61.64, "lon": 26.56, "alt": "-", "speed": "-", "last_seen": "14.05.2026 00:14 UTC"}, {"hex": "7807BB", "flight": "CZ2517", "lat": 61.007, "lon": 2.122833, "alt": "-", "speed": "-", "last_seen": "14.05.2026 00:07 UTC"}];
+const aircraft = [{"hex": "7807BB", "flight": "CSG2518", "lat": 61.007, "lon": 2.122833, "alt": 35000, "speed": 466.0, "last_seen": "14.05.2026 06:20 UTC"}, {"hex": "4601F9", "flight": "FIN5ET", "lat": 61.333191, "lon": 25.764117, "alt": 19650, "speed": 241.1, "last_seen": "14.05.2026 06:12 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.660022, "lon": 25.626221, "alt": 18000, "speed": 234.5, "last_seen": "14.05.2026 03:22 UTC"}, {"hex": "461E1E", "flight": "FIN4MP", "lat": 61.525719, "lon": 25.307007, "alt": 27450, "speed": 391.7, "last_seen": "14.05.2026 03:08 UTC"}, {"hex": "4601F6", "flight": "FIN4QA", "lat": 61.047999, "lon": 25.496815, "alt": 16000, "speed": 273.4, "last_seen": "14.05.2026 03:07 UTC"}, {"hex": "781E95", "flight": "CA8440", "lat": 61.64, "lon": 26.56, "alt": "-", "speed": "-", "last_seen": "14.05.2026 00:14 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
