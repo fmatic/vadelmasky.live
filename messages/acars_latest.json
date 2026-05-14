@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.05.2026 06:21 UTC",
-      "source": "ACARS",
-      "flight": "CZ2518",
-      "tail": "B-2080",
-      "freq": 131.825,
-      "level": -29.3,
-      "label": "18",
-      "msgno": "M33A",
-      "text": "POX,CSG2518   ,14MAY26,062137,EGPK,ZGGG,N061.73,E0026.18,350, 678,831,  81.4, 161.8,041,-52.6,152137, 28720,"
-    },
-    {
-      "time": "14.05.2026 06:25 UTC",
-      "source": "ACARS",
-      "flight": "CZ2518",
-      "tail": "B-2080",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "18",
-      "msgno": "M35A",
-      "text": "POX,CSG2518   ,14MAY26,062537,EGPK,ZGGG,N061.76,E0027.27,350, 673,828,  81.7, 172.0,037,-53.8,152137, 28840,"
-    },
-    {
       "time": "14.05.2026 09:50 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -328,6 +306,28 @@
       "level": -35.0,
       "label": "Q0",
       "msgno": "S19A",
+      "text": "No text"
+    },
+    {
+      "time": "14.05.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "N70612",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "80",
+      "msgno": "M37A",
+      "text": "3701 INRANG 0612/14 EFIV/EFHK .OH-ATM\r\n/ETA 1136/ERT     "
+    },
+    {
+      "time": "14.05.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "N70612",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -40.5,
+      "label": "_d",
+      "msgno": "S54A",
       "text": "No text"
     }
   ]
