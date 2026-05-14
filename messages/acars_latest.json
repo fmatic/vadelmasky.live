@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.05.2026 11:16 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "Q0",
-      "msgno": "S34A",
-      "text": "No text"
-    },
-    {
       "time": "13.05.2026 11:17 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S07A",
       "text": "No text"
+    },
+    {
+      "time": "14.05.2026 06:21 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2080",
+      "freq": 131.825,
+      "level": -29.3,
+      "label": "18",
+      "msgno": "M33A",
+      "text": "POX,CSG2518   ,14MAY26,062137,EGPK,ZGGG,N061.73,E0026.18,350, 678,831,  81.4, 161.8,041,-52.6,152137, 28720,"
     }
   ]
 }
