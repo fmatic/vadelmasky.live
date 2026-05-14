@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.05.2026 09:50 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "49",
-      "msgno": "M29A",
-      "text": "01ERDC   DKH1607/140950ZSPDEFHK\r\n+38000267.1- 26.0"
-    },
-    {
-      "time": "14.05.2026 09:50 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "H1",
-      "msgno": "C12A",
-      "text": "PLF 1 14MAY26 0950 HO B-226N DKH1607 ZSPD/EFHK BCG4F-45LD-0077 C L 0104 14MAY26\r\nFDE 34211500 I 0903 14MAY26\r\nMSG 3420113 I 0822 14MAY26 ER I 11 PL\r\nDB LEFT AHRU SENSOR\r\nFRC 35322  \r\nMSG 3420124 I 0821 14MA"
-    },
-    {
-      "time": "14.05.2026 09:50 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "H1",
-      "msgno": "C12B",
-      "text": "Y26 ER I 13 PL\r\nDB RIGHT AHRU SENSOR\r\nFRC 35323  \r\nMSG 3440121 I 0821 14MAY26 ER I 1 PL\r\nDB LEFT INR RECEIVER\r\nFRC 2114  \r\nMSG 3420122 I 0821 14MAY26 ER I 13 PL\r\nDB RIGHT IRU SENSOR\r\nFRC 35323  \r\nMSG 342011"
-    },
-    {
-      "time": "14.05.2026 09:51 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "H1",
-      "msgno": "C12C",
-      "text": "1 I 0821 14MAY26 ER I 13 PL\r\nDB LEFT IRU SENSOR\r\nFRC 35322  \r\nFDE 34410900 I 0810 14MAY26\r\nMSG 3462021 I 0812 14MAY26 ER I 7 PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6073  \r\nMSG 3462022 I 0812 1"
-    },
-    {
       "time": "14.05.2026 09:51 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -328,6 +284,50 @@
       "level": -35.2,
       "label": "Q0",
       "msgno": "S47A",
+      "text": "No text"
+    },
+    {
+      "time": "14.05.2026 13:58 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -26.3,
+      "label": "14",
+      "msgno": "M60A",
+      "text": "POS\r\n14MAY,1358,258,37999,N 61.884,E 26.399,15393,  51,162"
+    },
+    {
+      "time": "14.05.2026 13:59 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "81",
+      "msgno": "M61A",
+      "text": "FREE\r\nFL380EXIT EDTOETA 1520ZLDG FUEL 10.9T"
+    },
+    {
+      "time": "14.05.2026 13:59 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -28.0,
+      "label": "_d",
+      "msgno": "S51A",
+      "text": "No text"
+    },
+    {
+      "time": "14.05.2026 13:59 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "_d",
+      "msgno": "S52A",
       "text": "No text"
     }
   ]
