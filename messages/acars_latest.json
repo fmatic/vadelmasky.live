@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.05.2026 09:51 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "H1",
-      "msgno": "C12I",
-      "text": "R)\r\nFRC 14921 MC 2262 2265 \r\nMSG 2212632 I 0123 14MAY26 IC M PL\r\nDB 27 FCM OPS (RIGHT)\r\nDB 27 FCM OPS (LEFT)\r\n"
-    },
-    {
-      "time": "14.05.2026 09:51 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "5V",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "14.05.2026 09:52 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "Q0",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
-      "time": "14.05.2026 09:52 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "_d",
-      "msgno": "S24A",
-      "text": "No text"
-    },
-    {
       "time": "14.05.2026 09:54 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +285,50 @@
       "label": "SA",
       "msgno": "S59A",
       "text": "0LS140536VH"
+    },
+    {
+      "time": "14.05.2026 14:17 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -41.5,
+      "label": "Q0",
+      "msgno": "S52A",
+      "text": "No text"
+    },
+    {
+      "time": "14.05.2026 14:18 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -41.8,
+      "label": "5V",
+      "msgno": "S54A",
+      "text": "No text"
+    },
+    {
+      "time": "14.05.2026 14:19 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "SA",
+      "msgno": "S57A",
+      "text": "0EV142000VSH/"
+    },
+    {
+      "time": "14.05.2026 14:19 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "5V",
+      "msgno": "S58A",
+      "text": "No text"
     }
   ]
 }
