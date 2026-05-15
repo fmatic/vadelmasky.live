@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">14</div>
+        <div class="value">15</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">15.05.2026 12:35 UTC</div>
+        <div class="value">15.05.2026 12:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DKH1660</div>
+                    <div class="meta">ICAO 7815A9 · REG B-208A · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">35000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>498.7 kt</b></div>
+                    <div><span>Track</span><b>64.21°</b></div>
+                    <div><span>Position</span><b>61.4855, 25.4818</b></div>
+                    <div><span>Last seen</span><b>15.05.2026 12:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-208A" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">HUF827</div>
+                    <div class="meta">ICAO 477F85 · REG 610 · TYPE E390</div>
+                </div>
+                <div class="alt-badge high">36000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>344.0 kt</b></div>
+                    <div><span>Track</span><b>196.38°</b></div>
+                    <div><span>Position</span><b>62.0816, 26.5494</b></div>
+                    <div><span>Last seen</span><b>15.05.2026 12:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/610" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -540,30 +588,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">HUF827</div>
-                    <div class="meta">ICAO 477F85 · REG 610 · TYPE E390</div>
-                </div>
-                <div class="alt-badge high">34650 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>450.4 kt</b></div>
-                    <div><span>Track</span><b>13.48°</b></div>
-                    <div><span>Position</span><b>62.5306, 26.9842</b></div>
-                    <div><span>Last seen</span><b>15.05.2026 10:28 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/610" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -880,30 +904,6 @@ footer {
             </a>
         </article>
         
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">DKH1659</div>
-                    <div class="meta">ICAO 7815A9 · REG B-208A · TYPE B789</div>
-                </div>
-                <div class="alt-badge high">38000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>15.05.2026 02:33 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-208A" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
     </div>
 </section>
 
@@ -1132,7 +1132,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "461E1C", "flight": "FIN5KR", "lat": 61.251526, "lon": 25.288086, "alt": 27700, "speed": 339.2, "last_seen": "15.05.2026 12:09 UTC"}, {"hex": "781E2A", "flight": "CK0215", "lat": 61.866667, "lon": 3.073333, "alt": "-", "speed": "-", "last_seen": "15.05.2026 12:02 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.304956, "lon": 25.793152, "alt": 1925, "speed": 196.6, "last_seen": "15.05.2026 11:42 UTC"}, {"hex": "4601F6", "flight": "FIN286", "lat": 61.582947, "lon": 25.294549, "alt": 16025, "speed": 257.2, "last_seen": "15.05.2026 11:14 UTC"}, {"hex": "467890", "flight": "T21", "lat": 62.271579, "lon": 25.583883, "alt": 7900, "speed": 164.9, "last_seen": "15.05.2026 11:06 UTC"}, {"hex": "48D8E0", "flight": "PLF251", "lat": 60.969885, "lon": 25.303083, "alt": 22000, "speed": 266.8, "last_seen": "15.05.2026 11:05 UTC"}, {"hex": "4601FB", "flight": "FIN26B", "lat": 61.965498, "lon": 26.613464, "alt": 16000, "speed": 246.9, "last_seen": "15.05.2026 10:51 UTC"}, {"hex": "477F85", "flight": "HUF827", "lat": 62.530595, "lon": 26.984218, "alt": 34650, "speed": 450.4, "last_seen": "15.05.2026 10:28 UTC"}, {"hex": "48E87F", "flight": "ENT512", "lat": 61.78743, "lon": 25.269045, "alt": 31975, "speed": 509.1, "last_seen": "15.05.2026 10:02 UTC"}, {"hex": "4601FC", "flight": "FIN5NB", "lat": 61.524628, "lon": 25.651801, "alt": 19025, "speed": 246.1, "last_seen": "15.05.2026 09:38 UTC"}, {"hex": "4601F3", "flight": "FIN9LG", "lat": 61.426655, "lon": 25.492452, "alt": 17025, "speed": 249.0, "last_seen": "15.05.2026 09:33 UTC"}, {"hex": "4691C5", "flight": "AEE4319", "lat": 59.67897, "lon": 29.332855, "alt": 28750, "speed": 382.0, "last_seen": "15.05.2026 08:30 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.529582, "lon": 25.566203, "alt": 18000, "speed": 238.5, "last_seen": "15.05.2026 04:18 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.197106, "lon": 25.08311, "alt": 36925, "speed": 345.7, "last_seen": "15.05.2026 04:04 UTC"}];
+const aircraft = [{"hex": "7815A9", "flight": "DKH1660", "lat": 61.485497, "lon": 25.481771, "alt": 35000, "speed": 498.7, "last_seen": "15.05.2026 12:40 UTC"}, {"hex": "477F85", "flight": "HUF827", "lat": 62.081635, "lon": 26.549443, "alt": 36000, "speed": 344.0, "last_seen": "15.05.2026 12:40 UTC"}, {"hex": "461E1C", "flight": "FIN5KR", "lat": 61.251526, "lon": 25.288086, "alt": 27700, "speed": 339.2, "last_seen": "15.05.2026 12:09 UTC"}, {"hex": "781E2A", "flight": "CK0215", "lat": 61.866667, "lon": 3.073333, "alt": "-", "speed": "-", "last_seen": "15.05.2026 12:02 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.304956, "lon": 25.793152, "alt": 1925, "speed": 196.6, "last_seen": "15.05.2026 11:42 UTC"}, {"hex": "4601F6", "flight": "FIN286", "lat": 61.582947, "lon": 25.294549, "alt": 16025, "speed": 257.2, "last_seen": "15.05.2026 11:14 UTC"}, {"hex": "467890", "flight": "T21", "lat": 62.271579, "lon": 25.583883, "alt": 7900, "speed": 164.9, "last_seen": "15.05.2026 11:06 UTC"}, {"hex": "48D8E0", "flight": "PLF251", "lat": 60.969885, "lon": 25.303083, "alt": 22000, "speed": 266.8, "last_seen": "15.05.2026 11:05 UTC"}, {"hex": "4601FB", "flight": "FIN26B", "lat": 61.965498, "lon": 26.613464, "alt": 16000, "speed": 246.9, "last_seen": "15.05.2026 10:51 UTC"}, {"hex": "48E87F", "flight": "ENT512", "lat": 61.78743, "lon": 25.269045, "alt": 31975, "speed": 509.1, "last_seen": "15.05.2026 10:02 UTC"}, {"hex": "4601FC", "flight": "FIN5NB", "lat": 61.524628, "lon": 25.651801, "alt": 19025, "speed": 246.1, "last_seen": "15.05.2026 09:38 UTC"}, {"hex": "4601F3", "flight": "FIN9LG", "lat": 61.426655, "lon": 25.492452, "alt": 17025, "speed": 249.0, "last_seen": "15.05.2026 09:33 UTC"}, {"hex": "4691C5", "flight": "AEE4319", "lat": 59.67897, "lon": 29.332855, "alt": 28750, "speed": 382.0, "last_seen": "15.05.2026 08:30 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.529582, "lon": 25.566203, "alt": 18000, "speed": 238.5, "last_seen": "15.05.2026 04:18 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.197106, "lon": 25.08311, "alt": 36925, "speed": 345.7, "last_seen": "15.05.2026 04:04 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
