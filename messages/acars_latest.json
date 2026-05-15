@@ -3,28 +3,6 @@
     {
       "time": "15.05.2026 15:04 UTC",
       "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "Q0",
-      "msgno": "S34A",
-      "text": "No text"
-    },
-    {
-      "time": "15.05.2026 15:04 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "SA",
-      "msgno": "S35A",
-      "text": "0EV150440VS/"
-    },
-    {
-      "time": "15.05.2026 15:04 UTC",
-      "source": "ACARS",
       "flight": "N70370",
       "tail": "OH-ATH",
       "freq": 131.825,
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C11B",
       "text": "PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453"
+    },
+    {
+      "time": "15.05.2026 23:15 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "H1",
+      "msgno": "C11C",
+      "text": "302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2312 15MAY26\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE"
+    },
+    {
+      "time": "15.05.2026 23:15 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "H1",
+      "msgno": "C11D",
+      "text": "RTE 1 15MAY26 2314 CZB-2075 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 L 2042 15MAY26\r\nFDE 34503141 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2312 15MAY26\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
     }
   ]
 }
