@@ -1,94 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.05.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -36.3,
-      "label": "H1",
-      "msgno": "E22A",
-      "text": "RPT19;PG1;REAL;SW030M2G\r\n1  0;0;0;0;0;0;0;0\r\n2  RELEASE;195;195\r\n3  NOT SET\r\n4  ;0.0;0.1;;;0.0;0.0;\r\n5  ;;237;244;;;;;241;240;;\r\n6  ;;;;;;;;;;;\r\n7  ;;;\r\n8  ;0.0;0.0;;;0.0;0.0;\r\n9  ;;245;242;;;;;241;243;;\r\n1"
-    },
-    {
-      "time": "14.05.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "H1",
-      "msgno": "E22B",
-      "text": "RPT19;PG1;REAL;SW030M2G\r\n1  0;0;0;0;0;0;0;0\r\n2  RELEASE;195;195\r\n3  NOT SET\r\n4  ;0.0;0.1;;;0.0;0.0;\r\n5  ;;237;244;;;;;241;240;;\r\n6  ;;;;;;;;;;;\r\n7  ;;;\r\n8  ;0.0;0.0;;;0.0;0.0;\r\n9  ;;245;242;;;;;241;243;;\r\n10 ;;;;;;;;;;;\r\n11 ;;;\r\n12 ;14;MAY;26;14:23:18\r\n"
-    },
-    {
-      "time": "14.05.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "H1",
-      "msgno": "C24A",
-      "text": "RTE 1 14MAY26 1423 HO B-226N DKH1608 EFHK/ZSPD BCG4F-45LD-0077 C L 1351 14MAY26\r\nFDE 34410900 I 1422 14MAY26\r\nMSG 3462021 A 1423 14MAY26 CL H PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6071 6070  "
-    },
-    {
-      "time": "14.05.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "H1",
-      "msgno": "C24B",
-      "text": "RTE 1 14MAY26 1423 HO B-226N DKH1608 EFHK/ZSPD BCG4F-45LD-0077 C L 1351 14MAY26\r\nFDE 34410900 I 1422 14MAY26\r\nMSG 3462021 A 1423 14MAY26 CL H PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6071 6070  \r\nEOR\r\n"
-    },
-    {
-      "time": "14.05.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "Q0",
-      "msgno": "S69A",
-      "text": "No text"
-    },
-    {
-      "time": "14.05.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "SA",
-      "msgno": "S70A",
-      "text": "0EV142515VSH/"
-    },
-    {
-      "time": "14.05.2026 14:26 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "Q0",
-      "msgno": "S73A",
-      "text": "No text"
-    },
-    {
-      "time": "14.05.2026 14:26 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "SA",
-      "msgno": "S74A",
-      "text": "0EV142657VSH/"
-    },
-    {
       "time": "14.05.2026 14:27 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -328,6 +240,94 @@
       "level": -31.5,
       "label": "5V",
       "msgno": "S01A",
+      "text": "No text"
+    },
+    {
+      "time": "15.05.2026 04:16 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -29.6,
+      "label": "Q0",
+      "msgno": "S26A",
+      "text": "No text"
+    },
+    {
+      "time": "15.05.2026 04:16 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -27.2,
+      "label": "SA",
+      "msgno": "M05A",
+      "text": "0EV041619V"
+    },
+    {
+      "time": "15.05.2026 04:16 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -26.5,
+      "label": "B9",
+      "msgno": "L04A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "15.05.2026 04:17 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -26.3,
+      "label": "_d",
+      "msgno": "S27A",
+      "text": "No text"
+    },
+    {
+      "time": "15.05.2026 04:17 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "_d",
+      "msgno": "S28A",
+      "text": "No text"
+    },
+    {
+      "time": "15.05.2026 04:18 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -26.0,
+      "label": "_d",
+      "msgno": "S29A",
+      "text": "No text"
+    },
+    {
+      "time": "15.05.2026 04:19 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -25.0,
+      "label": "_d",
+      "msgno": "S30A",
+      "text": "No text"
+    },
+    {
+      "time": "15.05.2026 04:19 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -26.5,
+      "label": "_d",
+      "msgno": "S31A",
       "text": "No text"
     }
   ]
