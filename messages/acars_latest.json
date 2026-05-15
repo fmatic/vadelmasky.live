@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.05.2026 14:58 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "Q0",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
       "time": "15.05.2026 15:00 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S29A",
       "text": "No text"
+    },
+    {
+      "time": "15.05.2026 23:07 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "18",
+      "msgno": "M86A",
+      "text": "POX,CSG2516   ,15MAY26,230701,EGPK,ZGGG,N061.73,E0025.87,370, 685,816,  81.1, 157.8,038,-52.4,082501, 37920,"
     }
   ]
 }
