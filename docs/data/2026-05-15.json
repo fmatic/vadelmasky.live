@@ -171,16 +171,16 @@
     },
     "461f6e": {
       "hex": "461f6e",
-      "flight": "FIN7TP",
+      "flight": "FIN2PD",
       "reg": "OH-LXM",
       "type": "A320",
       "lat": null,
       "lon": null,
-      "alt": 35650,
-      "speed": 390.0,
-      "track": 188.09,
+      "alt": 37000,
+      "speed": 384.0,
+      "track": 181.05,
       "seen_first": "2026-05-15T08:48:01.845329",
-      "last_seen": "2026-05-15T08:52:01.981141"
+      "last_seen": "2026-05-15T12:10:02.128094"
     },
     "467891": {
       "hex": "467891",
@@ -304,18 +304,31 @@
       "flight": "FIN5KR",
       "reg": "OH-LKM",
       "type": "E190",
-      "lat": 61.621197,
-      "lon": 25.317688,
-      "alt": 34350,
-      "speed": 375.3,
-      "track": 182.29,
+      "lat": 61.251526,
+      "lon": 25.288086,
+      "alt": 27700,
+      "speed": 339.2,
+      "track": 182.2,
       "seen_first": "2026-05-15T12:02:02.021725",
-      "last_seen": "2026-05-15T12:05:01.361043"
+      "last_seen": "2026-05-15T12:09:01.709884"
+    },
+    "04022c": {
+      "hex": "04022c",
+      "flight": "",
+      "reg": "ET-BAC",
+      "type": "B77L",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-05-15T12:09:01.709884",
+      "last_seen": "2026-05-15T12:10:02.128094"
     }
   },
   "summary": {
-    "total_unique_aircraft": 24,
-    "last_seen_live": 1,
-    "updated": "2026-05-15T12:05:01.361043"
+    "total_unique_aircraft": 25,
+    "last_seen_live": 2,
+    "updated": "2026-05-15T12:10:02.128094"
   }
 }
