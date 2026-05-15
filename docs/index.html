@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">15.05.2026 03:50 UTC</div>
+        <div class="value">15.05.2026 03:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">FIN8KH</div>
                     <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
                 </div>
-                <div class="alt-badge unknown">-</div>
+                <div class="alt-badge mid">11725 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>146.7 kt</b></div>
-                    <div><span>Track</span><b>188.63°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>15.05.2026 03:50 UTC</b></div>
+                    <div><span>Speed</span><b>174.1 kt</b></div>
+                    <div><span>Track</span><b>181.65°</b></div>
+                    <div><span>Position</span><b>62.1209, 25.6711</b></div>
+                    <div><span>Last seen</span><b>15.05.2026 03:55 UTC</b></div>
                 </div>
             </div>
 
@@ -382,6 +382,43 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATH · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">15.05.2026 03:51 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 5V · Msg S01A · Level -31.5 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATH · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">15.05.2026 03:51 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 80 · Msg M00A · Level -29.0 dB
+            </div>
+
+            <div class="acars-text">1001 OUTRP  0290/15 EFJY/EFHK .OH-ATH
+/OUT 0346/FOB 0014/BRD       /UNT LITERS  /TYP A </div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -563,48 +600,11 @@ footer {
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70370</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATE · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">14.05.2026 15:26 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 80 · Msg M10A · Level -33.3 dB
-            </div>
-
-            <div class="acars-text">3701 INRANG 0370/14 EFKU/EFHK .OH-ATE
-/ETA 1553/ERT     </div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70370</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATE · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">14.05.2026 15:25 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S37A · Level -32.3 dB
-            </div>
-
-            <div class="acars-text">0EV152556V</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "4601F5", "flight": "FIN8KH", "lat": 62.120911, "lon": 25.671125, "alt": 11725, "speed": 174.1, "last_seen": "15.05.2026 03:55 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 

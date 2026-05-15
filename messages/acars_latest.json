@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.05.2026 14:22 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "_d",
-      "msgno": "S65A",
-      "text": "No text"
-    },
-    {
-      "time": "14.05.2026 14:22 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "SA",
-      "msgno": "S66A",
-      "text": "0EV142315VSH/"
-    },
-    {
       "time": "14.05.2026 14:23 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -328,6 +306,28 @@
       "level": -32.3,
       "label": "Q0",
       "msgno": "S12A",
+      "text": "No text"
+    },
+    {
+      "time": "15.05.2026 03:51 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/15 EFJY/EFHK .OH-ATH\r\n/OUT 0346/FOB 0014/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "15.05.2026 03:51 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "5V",
+      "msgno": "S01A",
       "text": "No text"
     }
   ]
