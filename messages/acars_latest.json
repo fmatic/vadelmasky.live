@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.05.2026 14:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "SA",
-      "msgno": "S82A",
-      "text": "0EV143044VSH/"
-    },
-    {
-      "time": "14.05.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -30.8,
-      "label": "Q0",
-      "msgno": "S36A",
-      "text": "No text"
-    },
-    {
       "time": "14.05.2026 15:25 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S24A",
       "text": "No text"
+    },
+    {
+      "time": "15.05.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "10",
+      "msgno": "M63A",
+      "text": "POS151352, N 6165,E 2669,831,284,16306,  58,35001, 674,-235,-538,7"
+    },
+    {
+      "time": "15.05.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "H1",
+      "msgno": "O58A",
+      "text": "SB0122BA_B-2094  LEMDZSPD560\r\n 61588 0264951351 34996-53016805601020;012016"
     }
   ]
 }
