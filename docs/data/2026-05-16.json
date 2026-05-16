@@ -31,13 +31,13 @@
       "flight": "FIN26B",
       "reg": "OH-ATO",
       "type": "AT75",
-      "lat": 61.726359,
-      "lon": 26.28479,
+      "lat": 61.503699,
+      "lon": 25.98409,
       "alt": 16025,
-      "speed": 261.0,
-      "track": 212.96,
+      "speed": 261.1,
+      "track": 212.17,
       "seen_first": "2026-05-16T02:53:01.614151",
-      "last_seen": "2026-05-16T11:00:02.081329"
+      "last_seen": "2026-05-16T11:04:02.000861"
     },
     "4601f9": {
       "hex": "4601f9",
@@ -122,18 +122,31 @@
       "flight": "OHCAZ",
       "reg": "OH-CAZ",
       "type": "C172",
-      "lat": 62.317712,
-      "lon": 25.860232,
-      "alt": 2650,
-      "speed": 84.2,
-      "track": 315.48,
+      "lat": 62.25603,
+      "lon": 25.98573,
+      "alt": 3250,
+      "speed": 100.3,
+      "track": 110.42,
       "seen_first": "2026-05-16T10:19:01.695660",
-      "last_seen": "2026-05-16T10:37:01.645759"
+      "last_seen": "2026-05-16T11:05:01.405583"
+    },
+    "4601f3": {
+      "hex": "4601f3",
+      "flight": "",
+      "reg": "OH-ATF",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 14975,
+      "speed": 264.2,
+      "track": 182.39,
+      "seen_first": "2026-05-16T11:04:02.000861",
+      "last_seen": "2026-05-16T11:05:01.405583"
     }
   },
   "summary": {
-    "total_unique_aircraft": 10,
-    "last_seen_live": 1,
-    "updated": "2026-05-16T11:00:02.081329"
+    "total_unique_aircraft": 11,
+    "last_seen_live": 2,
+    "updated": "2026-05-16T11:05:01.405583"
   }
 }
