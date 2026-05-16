@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">16.05.2026 08:15 UTC</div>
+        <div class="value">16.05.2026 08:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7TP</div>
+                    <div class="meta">ICAO 461E17 · REG OH-LKH · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">31600 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>404.0 kt</b></div>
+                    <div><span>Track</span><b>180.57°</b></div>
+                    <div><span>Position</span><b>61.6762, 25.2783</b></div>
+                    <div><span>Last seen</span><b>16.05.2026 08:19 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -300,30 +324,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKP" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN7AZ</div>
-                    <div class="meta">ICAO 461E17 · REG OH-LKH · TYPE E190</div>
-                </div>
-                <div class="alt-badge high">31175 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>396.0 kt</b></div>
-                    <div><span>Track</span><b>182.81°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>16.05.2026 04:42 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKH" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -777,7 +777,7 @@ MSG 3453011 A 2312 15MAY26 ER H </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FC", "flight": "FIN8KH", "lat": 61.722029, "lon": 25.498454, "alt": 18025, "speed": 258.9, "last_seen": "16.05.2026 03:17 UTC"}];
+const aircraft = [{"hex": "461E17", "flight": "FIN7TP", "lat": 61.676193, "lon": 25.278266, "alt": 31600, "speed": 404.0, "last_seen": "16.05.2026 08:19 UTC"}, {"hex": "4601FC", "flight": "FIN8KH", "lat": 61.722029, "lon": 25.498454, "alt": 18025, "speed": 258.9, "last_seen": "16.05.2026 03:17 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
