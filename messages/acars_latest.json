@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.05.2026 15:08 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "H1",
-      "msgno": "F89A",
-      "text": "POSN60589E025526,KOMEK,150904,380,KOSKA,153324,BIKRU,M52,17244,5383776"
-    },
-    {
       "time": "15.05.2026 15:09 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S75A",
       "text": "No text"
+    },
+    {
+      "time": "16.05.2026 11:37 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "H1",
+      "msgno": "O09A",
+      "text": "SB0122BA_B-2077  ZSPDEHAM133\r\n 61483 0261331142 34003-5001570310109B,010014"
     }
   ]
 }
