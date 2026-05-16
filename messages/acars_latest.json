@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.05.2026 15:04 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "Q0",
-      "msgno": "M08A",
-      "text": "No text"
-    },
-    {
-      "time": "15.05.2026 15:04 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "SA",
-      "msgno": "S53A",
-      "text": "0EV150511V"
-    },
-    {
-      "time": "15.05.2026 15:04 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "80",
-      "msgno": "M09A",
-      "text": "3701 INRANG 0370/15 EFKU/EFHK .OH-ATH\r\n/ETA 1530/ERT     \r\nF/AY1173/2.7"
-    },
-    {
-      "time": "15.05.2026 15:04 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "_d",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
       "time": "15.05.2026 15:05 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "C11D",
       "text": "RTE 1 15MAY26 2314 CZB-2075 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 L 2042 15MAY26\r\nFDE 34503141 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2312 15MAY26\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "16.05.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -38.8,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "16.05.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -39.7,
+      "label": "SA",
+      "msgno": "M00A",
+      "text": "0EV025657V"
+    },
+    {
+      "time": "16.05.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1001 OUTRP  0290/16 EFJY/EFHK .OH-ATO\r\n/OUT 0247/FOB 0015/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "16.05.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -38.8,
+      "label": "80",
+      "msgno": "M02A",
+      "text": "1101 OFFRP  0290/16 EFJY/EFHK .OH-ATO\r\n/OUT 0247/OFF 0250/FOB 0014/ETA 0330"
     }
   ]
 }
