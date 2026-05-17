@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">17.05.2026 07:15 UTC</div>
+        <div class="value">17.05.2026 07:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,30 +279,6 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">HAPPY1</div>
-                    <div class="meta">ICAO 46788D · REG LJ-1 · TYPE LJ35</div>
-                </div>
-                <div class="alt-badge high">26000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>352.0 kt</b></div>
-                    <div><span>Track</span><b>232.03°</b></div>
-                    <div><span>Position</span><b>62.2270, 25.8790</b></div>
-                    <div><span>Last seen</span><b>17.05.2026 07:15 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LJ-1" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -316,14 +292,38 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>238.7 kt</b></div>
-                    <div><span>Track</span><b>200.87°</b></div>
+                    <div><span>Speed</span><b>238.1 kt</b></div>
+                    <div><span>Track</span><b>181.2°</b></div>
                     <div><span>Position</span><b>61.8640, 25.4850</b></div>
-                    <div><span>Last seen</span><b>17.05.2026 07:13 UTC</b></div>
+                    <div><span>Last seen</span><b>17.05.2026 07:17 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">HAPPY1</div>
+                    <div class="meta">ICAO 46788D · REG LJ-1 · TYPE LJ35</div>
+                </div>
+                <div class="alt-badge high">26000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>354.0 kt</b></div>
+                    <div><span>Track</span><b>232.03°</b></div>
+                    <div><span>Position</span><b>62.2270, 25.8790</b></div>
+                    <div><span>Last seen</span><b>17.05.2026 07:16 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LJ-1" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -679,7 +679,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "46788D", "flight": "HAPPY1", "lat": 62.226981, "lon": 25.879035, "alt": 26000, "speed": 352.0, "last_seen": "17.05.2026 07:15 UTC"}, {"hex": "4601F3", "flight": "FIN5NB", "lat": 61.863967, "lon": 25.485026, "alt": 18025, "speed": 238.7, "last_seen": "17.05.2026 07:13 UTC"}];
+const aircraft = [{"hex": "4601F3", "flight": "FIN5NB", "lat": 61.863967, "lon": 25.485026, "alt": 18025, "speed": 238.1, "last_seen": "17.05.2026 07:17 UTC"}, {"hex": "46788D", "flight": "HAPPY1", "lat": 62.226981, "lon": 25.879035, "alt": 26000, "speed": 354.0, "last_seen": "17.05.2026 07:16 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
