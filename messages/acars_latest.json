@@ -6,28 +6,6 @@
       "flight": "N70290",
       "tail": "OH-ATO",
       "freq": 131.825,
-      "level": -39.7,
-      "label": "SA",
-      "msgno": "M00A",
-      "text": "0EV025657V"
-    },
-    {
-      "time": "16.05.2026 02:57 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1001 OUTRP  0290/16 EFJY/EFHK .OH-ATO\r\n/OUT 0247/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "16.05.2026 02:57 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATO",
-      "freq": 131.825,
       "level": -38.8,
       "label": "80",
       "msgno": "M02A",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S84A",
       "text": "No text"
+    },
+    {
+      "time": "17.05.2026 12:26 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "10",
+      "msgno": "M48A",
+      "text": "POS171226, N 6159,E 2632,820,266,21319,  44,37001, 648,-201,-500,7"
+    },
+    {
+      "time": "17.05.2026 12:29 UTC",
+      "source": "ACARS",
+      "flight": "CZ2519",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "81",
+      "msgno": "M97A",
+      "text": "/CANUOCZ.EST EXIT EDTO AT 1245Z\r\nFL340\r\n32.0T\r\nETA 1505Z\r\nREQ DEST AND ALTN WX\r\n"
     }
   ]
 }

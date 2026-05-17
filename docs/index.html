@@ -251,27 +251,27 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">37975 ft</div>
+        <div class="value">39000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">512.0 kt</div>
+        <div class="value">522.2 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">17.05.2026 12:25 UTC</div>
+        <div class="value">17.05.2026 12:30 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DKH1660</div>
+                    <div class="meta">ICAO 782158 · REG B-226M · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">39000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>522.2 kt</b></div>
+                    <div><span>Track</span><b>65.45°</b></div>
+                    <div><span>Position</span><b>61.6069, 25.8373</b></div>
+                    <div><span>Last seen</span><b>17.05.2026 12:30 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-226M" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -295,7 +319,7 @@ footer {
                     <div><span>Speed</span><b>512.0 kt</b></div>
                     <div><span>Track</span><b>62.93°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>17.05.2026 12:25 UTC</b></div>
+                    <div><span>Last seen</span><b>17.05.2026 12:30 UTC</b></div>
                 </div>
             </div>
 
@@ -640,36 +664,53 @@ footer {
             </a>
         </article>
         
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">DKH1659</div>
-                    <div class="meta">ICAO 782158 · REG B-226M · TYPE B789</div>
-                </div>
-                <div class="alt-badge high">37975 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>466.0 kt</b></div>
-                    <div><span>Track</span><b>240.64°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>17.05.2026 02:29 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-226M" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
     </div>
 </section>
 
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CZ2519</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-2042 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">17.05.2026 12:29 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 81 · Msg M97A · Level -37.4 dB
+            </div>
+
+            <div class="acars-text">/CANUOCZ.EST EXIT EDTO AT 1245Z
+FL340
+32.0T
+ETA 1505Z
+REQ DEST AND ALTN WX
+</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA1006</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-2091 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">17.05.2026 12:26 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 10 · Msg M48A · Level -35.7 dB
+            </div>
+
+            <div class="acars-text">POS171226, N 6159,E 2632,820,266,21319,  44,37001, 648,-201,-500,7</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -870,67 +911,11 @@ B 0 0 177 124   494 0    0     -01  901
             <div class="acars-text">/EDDF.TI2/046EDDFA3A23</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CK0215</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-228C · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">17.05.2026 11:02 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg O47B · Level -34.2 dB
-            </div>
-
-            <div class="acars-text">SS0340F_625
-B-228C  CKK215ZSPDEDDF170526110230ER
-28733997823-2575514403168BSM79967A21
-7146101 41 2701170526 110220
-  0 000  0  000)
-  0 000  0  000)
-10110111111111111
-  33995
-      ) 0 02N    )16.)
-      ) 0 02N    )16.)
-170526110230
-111111111111
-111111111111</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CK0215</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-228C · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">17.05.2026 11:02 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg O47A · Level -33.8 dB
-            </div>
-
-            <div class="acars-text">SS0340F_625
-B-228C  CKK215ZSPDEDDF170526110230ER
-28733997823-2575514403168BSM79967A21
-7146101 41 2701170526 110220
-  0 000  0  000)
-  0 000  0  000)
-10110111111111111
-  33995
-      ) 0 02N    )16.)</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "461F31", "flight": "FIN2PD", "lat": 61.53191, "lon": 25.29185, "alt": 24325, "speed": 342.0, "last_seen": "17.05.2026 12:09 UTC"}, {"hex": "461F36", "flight": "FIN5KR", "lat": 61.686557, "lon": 25.3243, "alt": 28650, "speed": 319.2, "last_seen": "17.05.2026 12:06 UTC"}, {"hex": "782377", "flight": "CK0215", "lat": 61.815, "lon": 3.06, "alt": 34000, "speed": "-", "last_seen": "17.05.2026 11:42 UTC"}, {"hex": "4601F7", "flight": "FIN2KK", "lat": 61.785141, "lon": 25.301219, "alt": 17000, "speed": 233.1, "last_seen": "17.05.2026 11:19 UTC"}, {"hex": "4601F6", "flight": "FIN3KC", "lat": 62.138031, "lon": 26.700948, "alt": 14000, "speed": 317.5, "last_seen": "17.05.2026 10:58 UTC"}, {"hex": "4601F5", "flight": "FIN592", "lat": 61.818299, "lon": 25.304362, "alt": 17000, "speed": 229.1, "last_seen": "17.05.2026 09:57 UTC"}, {"hex": "4601F4", "flight": "FIN286", "lat": 61.768158, "lon": 25.47445, "alt": 16000, "speed": 232.4, "last_seen": "17.05.2026 09:55 UTC"}, {"hex": "4601F3", "flight": "FIN5NB", "lat": 61.863967, "lon": 25.485026, "alt": 18025, "speed": 238.1, "last_seen": "17.05.2026 07:17 UTC"}, {"hex": "46788D", "flight": "HAPPY1", "lat": 62.226981, "lon": 25.879035, "alt": 26000, "speed": 354.0, "last_seen": "17.05.2026 07:16 UTC"}];
+const aircraft = [{"hex": "782158", "flight": "DKH1660", "lat": 61.606859, "lon": 25.837301, "alt": 39000, "speed": 522.2, "last_seen": "17.05.2026 12:30 UTC"}, {"hex": "461F31", "flight": "FIN2PD", "lat": 61.53191, "lon": 25.29185, "alt": 24325, "speed": 342.0, "last_seen": "17.05.2026 12:09 UTC"}, {"hex": "461F36", "flight": "FIN5KR", "lat": 61.686557, "lon": 25.3243, "alt": 28650, "speed": 319.2, "last_seen": "17.05.2026 12:06 UTC"}, {"hex": "782377", "flight": "CK0215", "lat": 61.815, "lon": 3.06, "alt": 34000, "speed": "-", "last_seen": "17.05.2026 11:42 UTC"}, {"hex": "4601F7", "flight": "FIN2KK", "lat": 61.785141, "lon": 25.301219, "alt": 17000, "speed": 233.1, "last_seen": "17.05.2026 11:19 UTC"}, {"hex": "4601F6", "flight": "FIN3KC", "lat": 62.138031, "lon": 26.700948, "alt": 14000, "speed": 317.5, "last_seen": "17.05.2026 10:58 UTC"}, {"hex": "4601F5", "flight": "FIN592", "lat": 61.818299, "lon": 25.304362, "alt": 17000, "speed": 229.1, "last_seen": "17.05.2026 09:57 UTC"}, {"hex": "4601F4", "flight": "FIN286", "lat": 61.768158, "lon": 25.47445, "alt": 16000, "speed": 232.4, "last_seen": "17.05.2026 09:55 UTC"}, {"hex": "4601F3", "flight": "FIN5NB", "lat": 61.863967, "lon": 25.485026, "alt": 18025, "speed": 238.1, "last_seen": "17.05.2026 07:17 UTC"}, {"hex": "46788D", "flight": "HAPPY1", "lat": 62.226981, "lon": 25.879035, "alt": 26000, "speed": 354.0, "last_seen": "17.05.2026 07:16 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
