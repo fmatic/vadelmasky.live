@@ -6,17 +6,6 @@
       "flight": "CZ2516",
       "tail": "B-2075",
       "freq": 131.825,
-      "level": -32.6,
-      "label": "H1",
-      "msgno": "C00C",
-      "text": "302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2312 15MAY26\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE"
-    },
-    {
-      "time": "15.05.2026 23:14 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
       "level": -33.4,
       "label": "H1",
       "msgno": "C00D",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S20A",
       "text": "No text"
+    },
+    {
+      "time": "17.05.2026 11:05 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -34.4,
+      "label": "16",
+      "msgno": "M86A",
+      "text": "POSA1N61489E 26360,AGAMO  ,104030,340,SALLO  ,122927,-54, 65, 262,813"
     }
   ]
 }
