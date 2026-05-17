@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">24</div>
+        <div class="value">25</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">14</div>
+        <div class="value">15</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">17.05.2026 15:30 UTC</div>
+        <div class="value">17.05.2026 15:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN9XG</div>
+                    <div class="meta">ICAO 461E18 · REG OH-LKI · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">28525 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>389.2 kt</b></div>
+                    <div><span>Track</span><b>184.42°</b></div>
+                    <div><span>Position</span><b>61.5673, 25.2170</b></div>
+                    <div><span>Last seen</span><b>17.05.2026 15:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -1089,7 +1113,7 @@ REQ DEST AND ALTN WX
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F2", "flight": "FIN6YP", "lat": 61.957306, "lon": 26.590151, "alt": 16000, "speed": 234.8, "last_seen": "17.05.2026 14:46 UTC"}, {"hex": "781555", "flight": "CHH754", "lat": 62.175029, "lon": 26.308875, "alt": 35000, "speed": 502.0, "last_seen": "17.05.2026 14:25 UTC"}, {"hex": "4601FB", "flight": "FIN8TV", "lat": 62.414246, "lon": 25.683797, "alt": 20025, "speed": 320.0, "last_seen": "17.05.2026 14:24 UTC"}, {"hex": "4601F5", "flight": "FIN592", "lat": 61.818299, "lon": 25.304362, "alt": 17000, "speed": 230.1, "last_seen": "17.05.2026 14:10 UTC"}, {"hex": "4ACA8A", "flight": "NSZ7RP", "lat": 61.683251, "lon": 25.161235, "alt": 28000, "speed": 289.6, "last_seen": "17.05.2026 14:02 UTC"}, {"hex": "782158", "flight": "DKH1660", "lat": 61.606859, "lon": 25.837301, "alt": 39000, "speed": 522.2, "last_seen": "17.05.2026 12:33 UTC"}, {"hex": "461F31", "flight": "FIN2PD", "lat": 61.53191, "lon": 25.29185, "alt": 24325, "speed": 342.0, "last_seen": "17.05.2026 12:09 UTC"}, {"hex": "461F36", "flight": "FIN5KR", "lat": 61.686557, "lon": 25.3243, "alt": 28650, "speed": 319.2, "last_seen": "17.05.2026 12:06 UTC"}, {"hex": "782377", "flight": "CK0215", "lat": 61.815, "lon": 3.06, "alt": 34000, "speed": "-", "last_seen": "17.05.2026 11:42 UTC"}, {"hex": "4601F7", "flight": "FIN2KK", "lat": 61.785141, "lon": 25.301219, "alt": 17000, "speed": 233.1, "last_seen": "17.05.2026 11:19 UTC"}, {"hex": "4601F6", "flight": "FIN3KC", "lat": 62.138031, "lon": 26.700948, "alt": 14000, "speed": 317.5, "last_seen": "17.05.2026 10:58 UTC"}, {"hex": "4601F4", "flight": "FIN286", "lat": 61.768158, "lon": 25.47445, "alt": 16000, "speed": 232.4, "last_seen": "17.05.2026 09:55 UTC"}, {"hex": "4601F3", "flight": "FIN5NB", "lat": 61.863967, "lon": 25.485026, "alt": 18025, "speed": 238.1, "last_seen": "17.05.2026 07:17 UTC"}, {"hex": "46788D", "flight": "HAPPY1", "lat": 62.226981, "lon": 25.879035, "alt": 26000, "speed": 354.0, "last_seen": "17.05.2026 07:16 UTC"}];
+const aircraft = [{"hex": "461E18", "flight": "FIN9XG", "lat": 61.56729, "lon": 25.21698, "alt": 28525, "speed": 389.2, "last_seen": "17.05.2026 15:35 UTC"}, {"hex": "4601F2", "flight": "FIN6YP", "lat": 61.957306, "lon": 26.590151, "alt": 16000, "speed": 234.8, "last_seen": "17.05.2026 14:46 UTC"}, {"hex": "781555", "flight": "CHH754", "lat": 62.175029, "lon": 26.308875, "alt": 35000, "speed": 502.0, "last_seen": "17.05.2026 14:25 UTC"}, {"hex": "4601FB", "flight": "FIN8TV", "lat": 62.414246, "lon": 25.683797, "alt": 20025, "speed": 320.0, "last_seen": "17.05.2026 14:24 UTC"}, {"hex": "4601F5", "flight": "FIN592", "lat": 61.818299, "lon": 25.304362, "alt": 17000, "speed": 230.1, "last_seen": "17.05.2026 14:10 UTC"}, {"hex": "4ACA8A", "flight": "NSZ7RP", "lat": 61.683251, "lon": 25.161235, "alt": 28000, "speed": 289.6, "last_seen": "17.05.2026 14:02 UTC"}, {"hex": "782158", "flight": "DKH1660", "lat": 61.606859, "lon": 25.837301, "alt": 39000, "speed": 522.2, "last_seen": "17.05.2026 12:33 UTC"}, {"hex": "461F31", "flight": "FIN2PD", "lat": 61.53191, "lon": 25.29185, "alt": 24325, "speed": 342.0, "last_seen": "17.05.2026 12:09 UTC"}, {"hex": "461F36", "flight": "FIN5KR", "lat": 61.686557, "lon": 25.3243, "alt": 28650, "speed": 319.2, "last_seen": "17.05.2026 12:06 UTC"}, {"hex": "782377", "flight": "CK0215", "lat": 61.815, "lon": 3.06, "alt": 34000, "speed": "-", "last_seen": "17.05.2026 11:42 UTC"}, {"hex": "4601F7", "flight": "FIN2KK", "lat": 61.785141, "lon": 25.301219, "alt": 17000, "speed": 233.1, "last_seen": "17.05.2026 11:19 UTC"}, {"hex": "4601F6", "flight": "FIN3KC", "lat": 62.138031, "lon": 26.700948, "alt": 14000, "speed": 317.5, "last_seen": "17.05.2026 10:58 UTC"}, {"hex": "4601F4", "flight": "FIN286", "lat": 61.768158, "lon": 25.47445, "alt": 16000, "speed": 232.4, "last_seen": "17.05.2026 09:55 UTC"}, {"hex": "4601F3", "flight": "FIN5NB", "lat": 61.863967, "lon": 25.485026, "alt": 18025, "speed": 238.1, "last_seen": "17.05.2026 07:17 UTC"}, {"hex": "46788D", "flight": "HAPPY1", "lat": 62.226981, "lon": 25.879035, "alt": 26000, "speed": 354.0, "last_seen": "17.05.2026 07:16 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
