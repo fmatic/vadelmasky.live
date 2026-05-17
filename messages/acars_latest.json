@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.05.2026 15:13 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -41.6,
-      "label": "Q0",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
-      "time": "15.05.2026 15:51 UTC",
-      "source": "ACARS",
-      "flight": "N70346",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -39.5,
-      "label": "5V",
-      "msgno": "S86A",
-      "text": "No text"
-    },
-    {
-      "time": "15.05.2026 15:56 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -41.8,
-      "label": "Q0",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "15.05.2026 23:07 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "18",
-      "msgno": "M86A",
-      "text": "POX,CSG2516   ,15MAY26,230701,EGPK,ZGGG,N061.73,E0025.87,370, 685,816,  81.1, 157.8,038,-52.4,082501, 37920,"
-    },
-    {
-      "time": "15.05.2026 23:14 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "H1",
-      "msgno": "C00A",
-      "text": "RTE 1 15MAY26 2314 CZB-2075 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 L 2042 15MAY26\r\nFDE 34503141 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H "
-    },
-    {
-      "time": "15.05.2026 23:14 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "H1",
-      "msgno": "C00B",
-      "text": "PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453"
-    },
-    {
       "time": "15.05.2026 23:14 UTC",
       "source": "ACARS",
       "flight": "CZ2516",
@@ -328,6 +262,72 @@
       "level": -37.4,
       "label": "Q0",
       "msgno": "S26A",
+      "text": "No text"
+    },
+    {
+      "time": "17.05.2026 11:01 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "H1",
+      "msgno": "O46A",
+      "text": "SB0122BA_B-228C  ZSPDEDDF681\r\n 61729 0270831102 33997-550217068010W/X008011"
+    },
+    {
+      "time": "17.05.2026 11:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -33.8,
+      "label": "H1",
+      "msgno": "O47A",
+      "text": "SS0340F_625\r\nB-228C  CKK215ZSPDEDDF170526110230ER\r\n28733997823-2575514403168BSM79967A21\r\n7146101 41 2701170526 110220\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33995\r\n      ) 0 02N    )16.)\r"
+    },
+    {
+      "time": "17.05.2026 11:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "H1",
+      "msgno": "O47B",
+      "text": "SS0340F_625\r\nB-228C  CKK215ZSPDEDDF170526110230ER\r\n28733997823-2575514403168BSM79967A21\r\n7146101 41 2701170526 110220\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33995\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n170526110230\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "17.05.2026 11:03 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "B9",
+      "msgno": "L33A",
+      "text": "/EDDF.TI2/046EDDFA3A23"
+    },
+    {
+      "time": "17.05.2026 11:03 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -33.0,
+      "label": "_d",
+      "msgno": "S19A",
+      "text": "No text"
+    },
+    {
+      "time": "17.05.2026 11:03 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -32.2,
+      "label": "_d",
+      "msgno": "S20A",
       "text": "No text"
     }
   ]
