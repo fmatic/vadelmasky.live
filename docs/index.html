@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">12</div>
+        <div class="value">13</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">17.05.2026 14:20 UTC</div>
+        <div class="value">17.05.2026 14:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CHH754</div>
+                    <div class="meta">ICAO 781555 · REG B-303C · TYPE A333</div>
+                </div>
+                <div class="alt-badge high">35000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>502.0 kt</b></div>
+                    <div><span>Track</span><b>76.29°</b></div>
+                    <div><span>Position</span><b>62.1750, 26.3089</b></div>
+                    <div><span>Last seen</span><b>17.05.2026 14:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-303C" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -292,10 +316,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>310.4 kt</b></div>
-                    <div><span>Track</span><b>5.36°</b></div>
-                    <div><span>Position</span><b>62.1276, 25.6250</b></div>
-                    <div><span>Last seen</span><b>17.05.2026 14:20 UTC</b></div>
+                    <div><span>Speed</span><b>320.0 kt</b></div>
+                    <div><span>Track</span><b>5.45°</b></div>
+                    <div><span>Position</span><b>62.4142, 25.6838</b></div>
+                    <div><span>Last seen</span><b>17.05.2026 14:24 UTC</b></div>
                 </div>
             </div>
 
@@ -808,30 +832,6 @@ footer {
             </a>
         </article>
         
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 781555 · REG B-303C · TYPE A333</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>17.05.2026 02:54 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-303C" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
     </div>
 </section>
 
@@ -1083,7 +1083,7 @@ B 0 0 177 124   494 0    0     -01  901
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FB", "flight": "FIN8TV", "lat": 62.127639, "lon": 25.625, "alt": 20025, "speed": 310.4, "last_seen": "17.05.2026 14:20 UTC"}, {"hex": "4601F5", "flight": "FIN592", "lat": 61.818299, "lon": 25.304362, "alt": 17000, "speed": 230.1, "last_seen": "17.05.2026 14:10 UTC"}, {"hex": "4ACA8A", "flight": "NSZ7RP", "lat": 61.683251, "lon": 25.161235, "alt": 28000, "speed": 289.6, "last_seen": "17.05.2026 14:02 UTC"}, {"hex": "782158", "flight": "DKH1660", "lat": 61.606859, "lon": 25.837301, "alt": 39000, "speed": 522.2, "last_seen": "17.05.2026 12:33 UTC"}, {"hex": "461F31", "flight": "FIN2PD", "lat": 61.53191, "lon": 25.29185, "alt": 24325, "speed": 342.0, "last_seen": "17.05.2026 12:09 UTC"}, {"hex": "461F36", "flight": "FIN5KR", "lat": 61.686557, "lon": 25.3243, "alt": 28650, "speed": 319.2, "last_seen": "17.05.2026 12:06 UTC"}, {"hex": "782377", "flight": "CK0215", "lat": 61.815, "lon": 3.06, "alt": 34000, "speed": "-", "last_seen": "17.05.2026 11:42 UTC"}, {"hex": "4601F7", "flight": "FIN2KK", "lat": 61.785141, "lon": 25.301219, "alt": 17000, "speed": 233.1, "last_seen": "17.05.2026 11:19 UTC"}, {"hex": "4601F6", "flight": "FIN3KC", "lat": 62.138031, "lon": 26.700948, "alt": 14000, "speed": 317.5, "last_seen": "17.05.2026 10:58 UTC"}, {"hex": "4601F4", "flight": "FIN286", "lat": 61.768158, "lon": 25.47445, "alt": 16000, "speed": 232.4, "last_seen": "17.05.2026 09:55 UTC"}, {"hex": "4601F3", "flight": "FIN5NB", "lat": 61.863967, "lon": 25.485026, "alt": 18025, "speed": 238.1, "last_seen": "17.05.2026 07:17 UTC"}, {"hex": "46788D", "flight": "HAPPY1", "lat": 62.226981, "lon": 25.879035, "alt": 26000, "speed": 354.0, "last_seen": "17.05.2026 07:16 UTC"}];
+const aircraft = [{"hex": "781555", "flight": "CHH754", "lat": 62.175029, "lon": 26.308875, "alt": 35000, "speed": 502.0, "last_seen": "17.05.2026 14:25 UTC"}, {"hex": "4601FB", "flight": "FIN8TV", "lat": 62.414246, "lon": 25.683797, "alt": 20025, "speed": 320.0, "last_seen": "17.05.2026 14:24 UTC"}, {"hex": "4601F5", "flight": "FIN592", "lat": 61.818299, "lon": 25.304362, "alt": 17000, "speed": 230.1, "last_seen": "17.05.2026 14:10 UTC"}, {"hex": "4ACA8A", "flight": "NSZ7RP", "lat": 61.683251, "lon": 25.161235, "alt": 28000, "speed": 289.6, "last_seen": "17.05.2026 14:02 UTC"}, {"hex": "782158", "flight": "DKH1660", "lat": 61.606859, "lon": 25.837301, "alt": 39000, "speed": 522.2, "last_seen": "17.05.2026 12:33 UTC"}, {"hex": "461F31", "flight": "FIN2PD", "lat": 61.53191, "lon": 25.29185, "alt": 24325, "speed": 342.0, "last_seen": "17.05.2026 12:09 UTC"}, {"hex": "461F36", "flight": "FIN5KR", "lat": 61.686557, "lon": 25.3243, "alt": 28650, "speed": 319.2, "last_seen": "17.05.2026 12:06 UTC"}, {"hex": "782377", "flight": "CK0215", "lat": 61.815, "lon": 3.06, "alt": 34000, "speed": "-", "last_seen": "17.05.2026 11:42 UTC"}, {"hex": "4601F7", "flight": "FIN2KK", "lat": 61.785141, "lon": 25.301219, "alt": 17000, "speed": 233.1, "last_seen": "17.05.2026 11:19 UTC"}, {"hex": "4601F6", "flight": "FIN3KC", "lat": 62.138031, "lon": 26.700948, "alt": 14000, "speed": 317.5, "last_seen": "17.05.2026 10:58 UTC"}, {"hex": "4601F4", "flight": "FIN286", "lat": 61.768158, "lon": 25.47445, "alt": 16000, "speed": 232.4, "last_seen": "17.05.2026 09:55 UTC"}, {"hex": "4601F3", "flight": "FIN5NB", "lat": 61.863967, "lon": 25.485026, "alt": 18025, "speed": 238.1, "last_seen": "17.05.2026 07:17 UTC"}, {"hex": "46788D", "flight": "HAPPY1", "lat": 62.226981, "lon": 25.879035, "alt": 26000, "speed": 354.0, "last_seen": "17.05.2026 07:16 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
