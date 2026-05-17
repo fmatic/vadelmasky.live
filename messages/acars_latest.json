@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.05.2026 23:14 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "H1",
-      "msgno": "C00D",
-      "text": "RTE 1 15MAY26 2314 CZB-2075 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 L 2042 15MAY26\r\nFDE 34503141 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2312 15MAY26\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "15.05.2026 23:14 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "H1",
-      "msgno": "C11A",
-      "text": "RTE 1 15MAY26 2314 CZB-2075 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 L 2042 15MAY26\r\nFDE 34503141 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H "
-    },
-    {
-      "time": "15.05.2026 23:14 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "H1",
-      "msgno": "C11B",
-      "text": "PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453"
-    },
-    {
-      "time": "15.05.2026 23:15 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "H1",
-      "msgno": "C11C",
-      "text": "302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2312 15MAY26\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE"
-    },
-    {
-      "time": "15.05.2026 23:15 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "H1",
-      "msgno": "C11D",
-      "text": "RTE 1 15MAY26 2314 CZB-2075 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 L 2042 15MAY26\r\nFDE 34503141 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2312 15MAY26\r\nMSG 3453301 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2312 15MAY26\r\nMSG 3453302 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2312 15MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "16.05.2026 02:57 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -38.8,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
       "time": "16.05.2026 02:57 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +263,72 @@
       "label": "16",
       "msgno": "M86A",
       "text": "POSA1N61489E 26360,AGAMO  ,104030,340,SALLO  ,122927,-54, 65, 262,813"
+    },
+    {
+      "time": "17.05.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -35.5,
+      "label": "H1",
+      "msgno": "D61B",
+      "text": "961 9611126  9290 25428  378 24 25\r\n 961 961 9611133  9246 24863  378 26 24\r\n  9129 1  9290   2010\r\n  9087 1  9246   2010\r\n10184 000)42816  186 891  624100000000\r\n10186 000)42795  185 902  616600000000\r\n0  "
+    },
+    {
+      "time": "17.05.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -35.5,
+      "label": "H1",
+      "msgno": "D61D",
+      "text": "0 0 177 159   484 0    0     -03  892\r\nB 0 0 177 124   494 0    0     -01  901\r\n 983 983 9831118  9152 20832  378 27 28\r\n 983 983 9831123  9104 20730  378 29 28\r\n  8994 1  9153\r\n  8946 1  9106\r\n 6750 000)35"
+    },
+    {
+      "time": "17.05.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -34.4,
+      "label": "H1",
+      "msgno": "O12B",
+      "text": ".. 314\r\n  58  70 323  550  590    0    0000000000FA8\r\n  59  67 443  550  610    0    0000000000FA8\r\n 95109102"
+    },
+    {
+      "time": "17.05.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -34.8,
+      "label": "H1",
+      "msgno": "O13A",
+      "text": "SB0022BA_196JA741J  JAL4TA 227160526 231224RJTTEFHK316DBSM79962 8263120\r\n 115 407607 442\r\n 143 612591 695\r\nTA   90 36 224 221160526 231231OCOCCRR\r\nDC36516277-164-480170526 114833OCOCCRR"
+    },
+    {
+      "time": "17.05.2026 11:49 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -38.0,
+      "label": "_d",
+      "msgno": "S83A",
+      "text": "No text"
+    },
+    {
+      "time": "17.05.2026 11:49 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -34.5,
+      "label": "_d",
+      "msgno": "S84A",
+      "text": "No text"
     }
   ]
 }
