@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.05.2026 19:39 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -30.8,
-      "label": "18",
-      "msgno": "M36A",
-      "text": "POX,CSG2520   ,17MAY26,194028,EGPK,ZGGG,N061.70,E0026.40,370, 659,829,  77.6,-137.1,025,-53.1,044528, 34480,"
-    },
-    {
-      "time": "17.05.2026 21:32 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -42.6,
-      "label": "Q0",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
-      "time": "18.05.2026 03:11 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "SA",
-      "msgno": "M06A",
-      "text": "0EV031141V"
-    },
-    {
       "time": "18.05.2026 03:15 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +296,39 @@
       "label": "5V",
       "msgno": "S52A",
       "text": "No text"
+    },
+    {
+      "time": "18.05.2026 15:16 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -40.2,
+      "label": "Q0",
+      "msgno": "S63A",
+      "text": "No text"
+    },
+    {
+      "time": "18.05.2026 15:18 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "Q0",
+      "msgno": "S68A",
+      "text": "No text"
+    },
+    {
+      "time": "18.05.2026 15:18 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -39.0,
+      "label": "SA",
+      "msgno": "S69A",
+      "text": "0EV152337VS/"
     }
   ]
 }
