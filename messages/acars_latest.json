@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.05.2026 09:46 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ2",
-      "freq": 131.725,
-      "level": -23.5,
-      "label": "20",
-      "msgno": "M11A",
-      "text": "POSN62107E025444,,094433,027,IPLUV    ,000049,,P8 ,0287,36,257"
-    },
-    {
-      "time": "18.05.2026 09:46 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ2",
-      "freq": 131.725,
-      "level": -16.8,
-      "label": "SA",
-      "msgno": "M12A",
-      "text": "0EV094622V//312R15PMSMMHO."
-    },
-    {
-      "time": "18.05.2026 09:46 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ2",
-      "freq": 131.925,
-      "level": -38.4,
-      "label": "SA",
-      "msgno": "M12A",
-      "text": "0EV094622V//312R15PMSMMHO."
-    },
-    {
       "time": "18.05.2026 11:23 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S43A",
       "text": "No text"
+    },
+    {
+      "time": "18.05.2026 21:45 UTC",
+      "source": "ACARS",
+      "flight": "N70379",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "Q0",
+      "msgno": "M02A",
+      "text": "No text"
+    },
+    {
+      "time": "18.05.2026 21:45 UTC",
+      "source": "ACARS",
+      "flight": "N70379",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "SA",
+      "msgno": "S48A",
+      "text": "0EV214622V"
+    },
+    {
+      "time": "18.05.2026 21:48 UTC",
+      "source": "ACARS",
+      "flight": "CA1048",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -40.2,
+      "label": "10",
+      "msgno": "M06A",
+      "text": "POS182149, N 6155,E 2643,820,304,19641,  48,30998, 766,-160,-462,7"
     }
   ]
 }
