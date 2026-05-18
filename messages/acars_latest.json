@@ -6,39 +6,6 @@
       "flight": "N70290",
       "tail": "OH-ATL",
       "freq": 131.825,
-      "level": -33.4,
-      "label": "_d",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
-      "time": "18.05.2026 03:15 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "_d",
-      "msgno": "S07A",
-      "text": "No text"
-    },
-    {
-      "time": "18.05.2026 03:15 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "_d",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
-      "time": "18.05.2026 03:15 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATL",
-      "freq": 131.825,
       "level": -35.5,
       "label": "_d",
       "msgno": "S09A",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S69A",
       "text": "0EV152337VS/"
+    },
+    {
+      "time": "18.05.2026 15:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -25.1,
+      "label": "H1",
+      "msgno": "C24A",
+      "text": ".1/WRN/WN2605181546  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "18.05.2026 15:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -25.5,
+      "label": "H1",
+      "msgno": "C25A",
+      "text": ".1/WRN/WN2605181546  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "18.05.2026 15:47 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -28.3,
+      "label": "H1",
+      "msgno": "C26A",
+      "text": ".1/FLR/FR2605181546  34361606MMR1   1,IR1,MMR2,IR3,IR2,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
