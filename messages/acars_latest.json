@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.05.2026 11:48 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA741J",
-      "freq": 131.725,
-      "level": -34.8,
-      "label": "H1",
-      "msgno": "O13A",
-      "text": "SB0022BA_196JA741J  JAL4TA 227160526 231224RJTTEFHK316DBSM79962 8263120\r\n 115 407607 442\r\n 143 612591 695\r\nTA   90 36 224 221160526 231231OCOCCRR\r\nDC36516277-164-480170526 114833OCOCCRR"
-    },
-    {
       "time": "17.05.2026 11:49 UTC",
       "source": "ACARS",
       "flight": "JL0047",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S20A",
       "text": "No text"
+    },
+    {
+      "time": "18.05.2026 03:11 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "SA",
+      "msgno": "M06A",
+      "text": "0EV031141V"
     }
   ]
 }

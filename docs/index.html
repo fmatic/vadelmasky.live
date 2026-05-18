@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">18.05.2026 03:10 UTC</div>
+        <div class="value">18.05.2026 03:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -295,7 +295,7 @@ footer {
                     <div><span>Speed</span><b>193.1 kt</b></div>
                     <div><span>Track</span><b>178.52°</b></div>
                     <div><span>Position</span><b>61.7463, 25.7580</b></div>
-                    <div><span>Last seen</span><b>18.05.2026 03:10 UTC</b></div>
+                    <div><span>Last seen</span><b>18.05.2026 03:15 UTC</b></div>
                 </div>
             </div>
 
@@ -310,16 +310,16 @@ footer {
                     <div class="flight">FIN8MC</div>
                     <div class="meta">ICAO 461F36 · REG OH-LVI · TYPE A319</div>
                 </div>
-                <div class="alt-badge high">34500 ft</div>
+                <div class="alt-badge high">25900 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>358.0 kt</b></div>
+                    <div><span>Speed</span><b>360.0 kt</b></div>
                     <div><span>Track</span><b>181.23°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>18.05.2026 03:10 UTC</b></div>
+                    <div><span>Last seen</span><b>18.05.2026 03:15 UTC</b></div>
                 </div>
             </div>
 
@@ -454,6 +454,24 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATL · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">18.05.2026 03:11 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg M06A · Level -30.6 dB
+            </div>
+
+            <div class="acars-text">0EV031141V</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -653,29 +671,11 @@ footer {
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1160</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6092 · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">17.05.2026 15:46 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S91A · Level -24.0 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F9", "flight": "FIN8KH", "lat": 61.746283, "lon": 25.757955, "alt": 18025, "speed": 193.1, "last_seen": "18.05.2026 03:10 UTC"}, {"hex": "4601F4", "flight": "FIN418", "lat": 61.370281, "lon": 25.746969, "alt": 15025, "speed": 237.6, "last_seen": "18.05.2026 03:09 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.112288, "lon": 25.455424, "alt": 16975, "speed": 242.9, "last_seen": "18.05.2026 03:06 UTC"}];
+const aircraft = [{"hex": "4601F9", "flight": "FIN8KH", "lat": 61.746283, "lon": 25.757955, "alt": 18025, "speed": 193.1, "last_seen": "18.05.2026 03:15 UTC"}, {"hex": "4601F4", "flight": "FIN418", "lat": 61.370281, "lon": 25.746969, "alt": 15025, "speed": 237.6, "last_seen": "18.05.2026 03:09 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.112288, "lon": 25.455424, "alt": 16975, "speed": 242.9, "last_seen": "18.05.2026 03:06 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
