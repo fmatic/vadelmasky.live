@@ -96,13 +96,13 @@
       "flight": "FIN7DC",
       "reg": "OH-ATH",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
+      "lat": 61.853943,
+      "lon": 25.30632,
       "alt": 17000,
-      "speed": null,
-      "track": null,
+      "speed": 255.1,
+      "track": 181.35,
       "seen_first": "2026-05-18T03:27:01.929609",
-      "last_seen": "2026-05-18T03:28:01.287772"
+      "last_seen": "2026-05-18T11:09:02.140900"
     },
     "472609": {
       "hex": "472609",
@@ -453,12 +453,25 @@
       "speed": 245.5,
       "track": 213.37,
       "seen_first": "2026-05-18T10:49:01.440937",
-      "last_seen": "2026-05-18T11:05:01.425289"
+      "last_seen": "2026-05-18T11:09:02.140900"
+    },
+    "460561": {
+      "hex": "460561",
+      "flight": "",
+      "reg": "OH-CAZ",
+      "type": "C172",
+      "lat": 62.287174,
+      "lon": 25.700402,
+      "alt": 2775,
+      "speed": 93.7,
+      "track": 173.25,
+      "seen_first": "2026-05-18T11:10:01.640130",
+      "last_seen": "2026-05-18T11:10:01.640130"
     }
   },
   "summary": {
-    "total_unique_aircraft": 35,
+    "total_unique_aircraft": 36,
     "last_seen_live": 1,
-    "updated": "2026-05-18T11:05:01.425289"
+    "updated": "2026-05-18T11:10:01.640130"
   }
 }
