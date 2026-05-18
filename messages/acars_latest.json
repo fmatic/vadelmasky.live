@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.05.2026 14:42 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "80",
-      "msgno": "M20A",
-      "text": "3701 INRANG 0370/17 EFKU/EFHK .OH-ATE\r\n/ETA 1514/ERT     "
-    },
-    {
-      "time": "17.05.2026 14:43 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "_d",
-      "msgno": "S17A",
-      "text": "No text"
-    },
-    {
       "time": "17.05.2026 14:43 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "M12A",
       "text": "0EV094622V//312R15PMSMMHO."
+    },
+    {
+      "time": "18.05.2026 11:23 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ3",
+      "freq": 131.725,
+      "level": -37.0,
+      "label": "20",
+      "msgno": "M21A",
+      "text": "POSN62212E025483,,112249,015,RW30     ,000123,,P13,0533,16,166"
+    },
+    {
+      "time": "18.05.2026 11:23 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ3",
+      "freq": 131.725,
+      "level": -28.1,
+      "label": "20",
+      "msgno": "M21A",
+      "text": "POSN62212E025483,,112249,015,RW30     ,000123,,P13,0533,16,166"
     }
   ]
 }
