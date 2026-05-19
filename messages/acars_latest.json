@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.05.2026 15:09 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -36.3,
-      "label": "Q0",
-      "msgno": "S42A",
-      "text": "No text"
-    },
-    {
-      "time": "18.05.2026 15:09 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "SA",
-      "msgno": "S43A",
-      "text": "0EV151423VS/"
-    },
-    {
-      "time": "18.05.2026 15:10 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "5V",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
-      "time": "18.05.2026 15:11 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "Q0",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
       "time": "18.05.2026 15:11 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "C24D",
       "text": "E RECEIVER (RIGHT)\r\nMSG 3453011 A 2339 18MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "19.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "Q0",
+      "msgno": "S47A",
+      "text": "No text"
+    },
+    {
+      "time": "19.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "SA",
+      "msgno": "S48A",
+      "text": "0EV054952V"
+    },
+    {
+      "time": "19.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "B9",
+      "msgno": "L06A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "19.05.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -30.4,
+      "label": "B9",
+      "msgno": "L06A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
     }
   ]
 }
