@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.05.2026 21:45 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "Q0",
-      "msgno": "M02A",
-      "text": "No text"
-    },
-    {
-      "time": "18.05.2026 21:45 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "SA",
-      "msgno": "S48A",
-      "text": "0EV214622V"
-    },
-    {
-      "time": "18.05.2026 21:48 UTC",
-      "source": "ACARS",
-      "flight": "CA1048",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -40.2,
-      "label": "10",
-      "msgno": "M06A",
-      "text": "POS182149, N 6155,E 2643,820,304,19641,  48,30998, 766,-160,-462,7"
-    },
-    {
-      "time": "18.05.2026 21:50 UTC",
-      "source": "ACARS",
-      "flight": "CA1048",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "H1",
-      "msgno": "O96A",
-      "text": "SS0340C_ 18\r\nB-2091  CAO104EDDFZSPD180526215110ER\r\n30431000819-160015849316DBSM79962A\r\n673610921 260180526 215109\r\n39)6))24) 2))\r\n39)6))25) 2))\r\n10000000000001111\r\n  30999\r\n  3099)12 06N3276)16.)\r\n  3099)12"
-    },
-    {
-      "time": "18.05.2026 21:50 UTC",
-      "source": "ACARS",
-      "flight": "CA1048",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "H1",
-      "msgno": "O96B",
-      "text": "SS0340C_ 18\r\nB-2091  CAO104EDDFZSPD180526215110ER\r\n30431000819-160015849316DBSM79962A\r\n673610921 260180526 215109\r\n39)6))24) 2))\r\n39)6))25) 2))\r\n10000000000001111\r\n  30999\r\n  3099)12 06N3276)16.)\r\n  3099)12 06N3276)16.)\r\n180526215110\r\n180526215111\r\n180526215111"
-    },
-    {
-      "time": "18.05.2026 21:51 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "5V",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
       "time": "18.05.2026 21:51 UTC",
       "source": "ACARS",
       "flight": "CA1048",
@@ -328,6 +262,72 @@
       "level": -32.7,
       "label": "5V",
       "msgno": "S58A",
+      "text": "No text"
+    },
+    {
+      "time": "19.05.2026 08:32 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -27.5,
+      "label": "Q0",
+      "msgno": "M31A",
+      "text": "No text"
+    },
+    {
+      "time": "19.05.2026 08:33 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATH",
+      "freq": 131.725,
+      "level": -40.9,
+      "label": "SA",
+      "msgno": "S70A",
+      "text": "0EV083319V"
+    },
+    {
+      "time": "19.05.2026 08:33 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -23.2,
+      "label": "SA",
+      "msgno": "S70A",
+      "text": "0EV083319V"
+    },
+    {
+      "time": "19.05.2026 08:33 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -19.7,
+      "label": "80",
+      "msgno": "M32A",
+      "text": "3701 INRANG 0490/19 EFKS/EFHK .OH-ATH\r\n/ETA 0909/ERT     \r\nF/AY285/2.2"
+    },
+    {
+      "time": "19.05.2026 08:33 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -19.5,
+      "label": "_d",
+      "msgno": "S71A",
+      "text": "No text"
+    },
+    {
+      "time": "19.05.2026 08:33 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -19.7,
+      "label": "_d",
+      "msgno": "S72A",
       "text": "No text"
     }
   ]
