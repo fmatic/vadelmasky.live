@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.05.2026 23:33 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -39.5,
-      "label": "Q0",
-      "msgno": "S43A",
-      "text": "No text"
-    },
-    {
-      "time": "18.05.2026 23:33 UTC",
-      "source": "ACARS",
-      "flight": "CA3062",
-      "tail": "B-6115",
-      "freq": 131.725,
-      "level": -31.9,
-      "label": "H1",
-      "msgno": "C18A",
-      "text": ".1/FLR/FR2605182332  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
       "time": "18.05.2026 23:35 UTC",
       "source": "ACARS",
       "flight": "CA3062",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C10A",
       "text": ".1/FLR/FR2605191056  34361606MMR1   1,IR2,MMR2,IR1,IR3,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "19.05.2026 11:05 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "SA",
+      "msgno": "S63A",
+      "text": "0LS110538VH"
+    },
+    {
+      "time": "19.05.2026 11:05 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -38.2,
+      "label": "SA",
+      "msgno": "S63A",
+      "text": "0LS110538VH"
     }
   ]
 }
