@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">19.05.2026 08:25 UTC</div>
+        <div class="value">19.05.2026 08:30 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN489</div>
+                    <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">21000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>286.8 kt</b></div>
+                    <div><span>Track</span><b>17.87°</b></div>
+                    <div><span>Position</span><b>62.5564, 26.4951</b></div>
+                    <div><span>Last seen</span><b>19.05.2026 08:30 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -492,30 +516,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXD" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN489</div>
-                    <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">21000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>286.8 kt</b></div>
-                    <div><span>Track</span><b>17.87°</b></div>
-                    <div><span>Position</span><b>62.5564, 26.4951</b></div>
-                    <div><span>Last seen</span><b>19.05.2026 06:15 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -915,7 +915,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "46789F", "flight": "K07", "lat": 62.326603, "lon": 25.841217, "alt": 2125, "speed": 125.2, "last_seen": "19.05.2026 07:45 UTC"}, {"hex": "4632AF", "flight": "OHTFB", "lat": 62.319992, "lon": 25.854492, "alt": 22750, "speed": 190.0, "last_seen": "19.05.2026 07:44 UTC"}, {"hex": "4678AF", "flight": "K06", "lat": 62.325998, "lon": 25.841534, "alt": 2100, "speed": 122.3, "last_seen": "19.05.2026 07:42 UTC"}, {"hex": "4678A7", "flight": "-", "lat": 62.323903, "lon": 25.846393, "alt": 1425, "speed": 131.0, "last_seen": "19.05.2026 07:38 UTC"}, {"hex": "4678A1", "flight": "K05", "lat": 62.316362, "lon": 25.898578, "alt": 2350, "speed": 124.7, "last_seen": "19.05.2026 07:34 UTC"}, {"hex": "4678A0", "flight": "K03", "lat": 62.324615, "lon": 25.842183, "alt": 2150, "speed": 115.4, "last_seen": "19.05.2026 07:32 UTC"}, {"hex": "467897", "flight": "K01", "lat": 62.196442, "lon": 25.671692, "alt": 2000, "speed": 124.7, "last_seen": "19.05.2026 07:28 UTC"}, {"hex": "461F65", "flight": "FIN14J", "lat": 61.42079, "lon": 25.297953, "alt": 23700, "speed": 410.0, "last_seen": "19.05.2026 07:10 UTC"}, {"hex": "4601F5", "flight": "FIN489", "lat": 62.556432, "lon": 26.495115, "alt": 21000, "speed": 286.8, "last_seen": "19.05.2026 06:15 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.321343, "lon": 25.743185, "alt": 1625, "speed": 211.5, "last_seen": "19.05.2026 05:52 UTC"}, {"hex": "461E1F", "flight": "FIN4MP", "lat": 59.653519, "lon": 29.354004, "alt": 23425, "speed": 358.0, "last_seen": "19.05.2026 03:17 UTC"}, {"hex": "4601F9", "flight": "FIN8KH", "lat": 61.425156, "lon": 25.407846, "alt": 17975, "speed": 251.9, "last_seen": "19.05.2026 03:10 UTC"}, {"hex": "780AEC", "flight": "-", "lat": 61.0125, "lon": 2.112833, "alt": "-", "speed": "-", "last_seen": "19.05.2026 00:14 UTC"}];
+const aircraft = [{"hex": "4601F5", "flight": "FIN489", "lat": 62.556432, "lon": 26.495115, "alt": 21000, "speed": 286.8, "last_seen": "19.05.2026 08:30 UTC"}, {"hex": "46789F", "flight": "K07", "lat": 62.326603, "lon": 25.841217, "alt": 2125, "speed": 125.2, "last_seen": "19.05.2026 07:45 UTC"}, {"hex": "4632AF", "flight": "OHTFB", "lat": 62.319992, "lon": 25.854492, "alt": 22750, "speed": 190.0, "last_seen": "19.05.2026 07:44 UTC"}, {"hex": "4678AF", "flight": "K06", "lat": 62.325998, "lon": 25.841534, "alt": 2100, "speed": 122.3, "last_seen": "19.05.2026 07:42 UTC"}, {"hex": "4678A7", "flight": "-", "lat": 62.323903, "lon": 25.846393, "alt": 1425, "speed": 131.0, "last_seen": "19.05.2026 07:38 UTC"}, {"hex": "4678A1", "flight": "K05", "lat": 62.316362, "lon": 25.898578, "alt": 2350, "speed": 124.7, "last_seen": "19.05.2026 07:34 UTC"}, {"hex": "4678A0", "flight": "K03", "lat": 62.324615, "lon": 25.842183, "alt": 2150, "speed": 115.4, "last_seen": "19.05.2026 07:32 UTC"}, {"hex": "467897", "flight": "K01", "lat": 62.196442, "lon": 25.671692, "alt": 2000, "speed": 124.7, "last_seen": "19.05.2026 07:28 UTC"}, {"hex": "461F65", "flight": "FIN14J", "lat": 61.42079, "lon": 25.297953, "alt": 23700, "speed": 410.0, "last_seen": "19.05.2026 07:10 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.321343, "lon": 25.743185, "alt": 1625, "speed": 211.5, "last_seen": "19.05.2026 05:52 UTC"}, {"hex": "461E1F", "flight": "FIN4MP", "lat": 59.653519, "lon": 29.354004, "alt": 23425, "speed": 358.0, "last_seen": "19.05.2026 03:17 UTC"}, {"hex": "4601F9", "flight": "FIN8KH", "lat": 61.425156, "lon": 25.407846, "alt": 17975, "speed": 251.9, "last_seen": "19.05.2026 03:10 UTC"}, {"hex": "780AEC", "flight": "-", "lat": 61.0125, "lon": 2.112833, "alt": "-", "speed": "-", "last_seen": "19.05.2026 00:14 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
