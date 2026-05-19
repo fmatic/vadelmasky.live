@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.05.2026 05:49 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "19.05.2026 05:49 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
       "time": "19.05.2026 05:50 UTC",
       "source": "ACARS",
       "flight": "N70362",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C23A",
       "text": ".1/FLR/FR2605191338  34361606MMR2   1,IR3,IR2,IR1,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "19.05.2026 13:42 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -26.7,
+      "label": "10",
+      "msgno": "M75A",
+      "text": "POS191342,N 61.795,E 27.145,2108,498125,,,37006,104240"
+    },
+    {
+      "time": "19.05.2026 13:44 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -31.0,
+      "label": "SA",
+      "msgno": "S25A",
+      "text": "0LS134431V"
     }
   ]
 }
