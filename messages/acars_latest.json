@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.05.2026 05:53 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -30.8,
-      "label": "H1",
-      "msgno": "D07A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20362,190526,0553,09/D1ENGINE,S.N/D2ESN1,ED2129/D3ESN2,ED2139/E1IAS,ALT,TAT/E2202,.18002,-008/F1TORQ,NP,N"
-    },
-    {
-      "time": "19.05.2026 05:53 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "H1",
-      "msgno": "D07B",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20362,190526,0553,09/D1ENGINE,S.N/D2ESN1,ED2129/D3ESN2,ED2139/E1IAS,ALT,TAT/E2202,.18002,-008/F1TORQ,NP,NL/F2071.6,082.0,094.5/F3071.6,082.0,094.5/G1NH,ITT,FF,IG/G2096.3,0672.7,350,0096/G3095.6,0652.1,346,0097/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I220.22/**.,EOT,...,/"
-    },
-    {
-      "time": "19.05.2026 05:54 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "5V",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 08:32 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -27.5,
-      "label": "Q0",
-      "msgno": "M31A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 08:33 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATH",
-      "freq": 131.725,
-      "level": -40.9,
-      "label": "SA",
-      "msgno": "S70A",
-      "text": "0EV083319V"
-    },
-    {
       "time": "19.05.2026 08:33 UTC",
       "source": "ACARS",
       "flight": "N70490",
@@ -329,6 +274,61 @@
       "label": "Q0",
       "msgno": "S55A",
       "text": "No text"
+    },
+    {
+      "time": "19.05.2026 18:29 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "H1",
+      "msgno": "C73B",
+      "text": "L\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 1827 26MAY26\r\nMSG 3453301 A 1827 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1827 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 34533"
+    },
+    {
+      "time": "19.05.2026 18:29 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "H1",
+      "msgno": "C73C",
+      "text": "02 A 1826 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1826 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 1826 26MAY26\r\nMSG 3453302 A 1826 26MAY26 ER H PL\r\nDB MULTI-MODE "
+    },
+    {
+      "time": "19.05.2026 18:29 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -38.4,
+      "label": "H1",
+      "msgno": "C73D",
+      "text": "RECEIVER (RIGHT)\r\nMSG 3453013 A 1826 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "19.05.2026 18:29 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -38.3,
+      "label": "H1",
+      "msgno": "O51A",
+      "text": "SS0340F_103\r\nB-2077  CKK206EHAMZSPD260526183012ER\r\n29532998829-1775141693168BSM79967A21\r\n2576101816 2601260526 183010\r\n2516100784 2600(\r\n2396100719 2600(\r\n10110111111111111\r\n  32999\r\n  3299(11 07(3276(16.(\r"
+    },
+    {
+      "time": "19.05.2026 18:30 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "O51B",
+      "text": "SS0340F_103\r\nB-2077  CKK206EHAMZSPD260526183012ER\r\n29532998829-1775141693168BSM79967A21\r\n2576101816 2601260526 183010\r\n2516100784 2600(\r\n2396100719 2600(\r\n10110111111111111\r\n  32999\r\n  3299(11 07(3276(16.(\r\n  3300(11 07(3276(16.(\r\n260526183012\r\n111111111111\r\n111111111111"
     }
   ]
 }
