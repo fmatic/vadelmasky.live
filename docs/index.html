@@ -251,27 +251,27 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">37950 ft</div>
+        <div class="value">29400 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">392.0 kt</div>
+        <div class="value">376.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">19.05.2026 03:10 UTC</div>
+        <div class="value">19.05.2026 03:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4MP</div>
+                    <div class="meta">ICAO 461E1F · REG OH-LKP · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">29400 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>376.0 kt</b></div>
+                    <div><span>Track</span><b>181.93°</b></div>
+                    <div><span>Position</span><b>59.6535, 29.3540</b></div>
+                    <div><span>Last seen</span><b>19.05.2026 03:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKP" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -300,30 +324,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATL" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN4MP</div>
-                    <div class="meta">ICAO 461E1F · REG OH-LKP · TYPE E190</div>
-                </div>
-                <div class="alt-badge high">37950 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>392.0 kt</b></div>
-                    <div><span>Track</span><b>182.11°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>19.05.2026 03:10 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKP" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -629,7 +629,7 @@ B-2091  CAO104EDDFZSPD180526215110ER
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F9", "flight": "FIN8KH", "lat": 61.425156, "lon": 25.407846, "alt": 17975, "speed": 251.9, "last_seen": "19.05.2026 03:10 UTC"}, {"hex": "780AEC", "flight": "-", "lat": 61.0125, "lon": 2.112833, "alt": "-", "speed": "-", "last_seen": "19.05.2026 00:14 UTC"}];
+const aircraft = [{"hex": "461E1F", "flight": "FIN4MP", "lat": 59.653519, "lon": 29.354004, "alt": 29400, "speed": 376.0, "last_seen": "19.05.2026 03:15 UTC"}, {"hex": "4601F9", "flight": "FIN8KH", "lat": 61.425156, "lon": 25.407846, "alt": 17975, "speed": 251.9, "last_seen": "19.05.2026 03:10 UTC"}, {"hex": "780AEC", "flight": "-", "lat": 61.0125, "lon": 2.112833, "alt": "-", "speed": "-", "last_seen": "19.05.2026 00:14 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
