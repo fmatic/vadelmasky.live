@@ -6,28 +6,6 @@
       "flight": "N70362",
       "tail": "OH-ATJ",
       "freq": 131.825,
-      "level": -32.7,
-      "label": "Q0",
-      "msgno": "S47A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 05:49 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "SA",
-      "msgno": "S48A",
-      "text": "0EV054952V"
-    },
-    {
-      "time": "19.05.2026 05:49 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
       "level": -31.3,
       "label": "B9",
       "msgno": "L06A",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S25A",
       "text": "0EV112327V"
+    },
+    {
+      "time": "19.05.2026 13:36 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/WRN/WN2605191337  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "19.05.2026 13:39 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -34.1,
+      "label": "H1",
+      "msgno": "C23A",
+      "text": ".1/FLR/FR2605191338  34361606MMR2   1,IR3,IR2,IR1,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
