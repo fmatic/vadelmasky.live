@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.05.2026 05:50 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -27.9,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "19.05.2026 05:50 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -26.7,
-      "label": "_d",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 05:50 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "_d",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 05:50 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "_d",
-      "msgno": "S51A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 05:51 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "_d",
-      "msgno": "S52A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 05:51 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "_d",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
       "time": "19.05.2026 05:51 UTC",
       "source": "ACARS",
       "flight": "N70362",
@@ -329,6 +263,72 @@
       "label": "SA",
       "msgno": "S25A",
       "text": "0LS134431V"
+    },
+    {
+      "time": "19.05.2026 13:51 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "H1",
+      "msgno": "C19A",
+      "text": ".1/WRN/WN2605191352  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "19.05.2026 13:51 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/WRN/WN2605191352  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "19.05.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/FLR/FR2605191352  34361606MMR2   1,IR1,MMR1,IR3,IR2,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "19.05.2026 13:53 UTC",
+      "source": "ACARS",
+      "flight": "CK0218",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "_d",
+      "msgno": "S68A",
+      "text": "No text"
+    },
+    {
+      "time": "19.05.2026 13:54 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "10",
+      "msgno": "M83A",
+      "text": "POS191354,N 61.657,E 26.556,2118,506125,,,37005,98720"
+    },
+    {
+      "time": "19.05.2026 13:54 UTC",
+      "source": "ACARS",
+      "flight": "CK0218",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "H1",
+      "msgno": "O04B",
+      "text": "\n      ) 0 02N    )16.)\r\n190526135459\r\n111111111111\r\n111111111111"
     }
   ]
 }
