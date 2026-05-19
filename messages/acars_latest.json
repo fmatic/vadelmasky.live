@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.05.2026 23:35 UTC",
-      "source": "ACARS",
-      "flight": "CA3062",
-      "tail": "B-6115",
-      "freq": 131.725,
-      "level": -36.9,
-      "label": "SA",
-      "msgno": "S25A",
-      "text": "0LS233527VH"
-    },
-    {
-      "time": "18.05.2026 23:36 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "18",
-      "msgno": "M83A",
-      "text": "POX,CSG2516   ,18MAY26,233628,EGPK,ZGGG,N061.75,E0026.77,349, 657,831,  83.9,-150.5,065,-57.1,082828, 36240,"
-    },
-    {
-      "time": "18.05.2026 23:42 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -41.8,
-      "label": "H1",
-      "msgno": "C24D",
-      "text": "E RECEIVER (RIGHT)\r\nMSG 3453011 A 2339 18MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
       "time": "19.05.2026 05:49 UTC",
       "source": "ACARS",
       "flight": "N70362",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S63A",
       "text": "0LS110538VH"
+    },
+    {
+      "time": "19.05.2026 11:22 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "Q0",
+      "msgno": "S24A",
+      "text": "No text"
+    },
+    {
+      "time": "19.05.2026 11:22 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "Q0",
+      "msgno": "S24A",
+      "text": "No text"
+    },
+    {
+      "time": "19.05.2026 11:23 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "SA",
+      "msgno": "S25A",
+      "text": "0EV112327V"
     }
   ]
 }
