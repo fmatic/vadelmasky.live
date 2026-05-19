@@ -6,17 +6,6 @@
       "flight": "N70362",
       "tail": "OH-ATJ",
       "freq": 131.825,
-      "level": -32.6,
-      "label": "_d",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 05:51 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
       "level": -27.8,
       "label": "_d",
       "msgno": "S55A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O04B",
       "text": "\n      ) 0 02N    )16.)\r\n190526135459\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "19.05.2026 14:04 UTC",
+      "source": "ACARS",
+      "flight": "CK0214",
+      "tail": "B-220F",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "16",
+      "msgno": "M16A",
+      "text": "POSA1N61935E 27237,DODAM  ,133408,329,KOKAT  ,141858,-48, 51, 664,826"
     }
   ]
 }
