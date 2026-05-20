@@ -291,13 +291,13 @@
       "flight": "FIN286",
       "reg": "OH-ATF",
       "type": "AT75",
-      "lat": 62.142582,
-      "lon": 25.668288,
-      "alt": 9125,
-      "speed": 154.6,
-      "track": 185.19,
+      "lat": 62.015402,
+      "lon": 25.643514,
+      "alt": 14025,
+      "speed": 170.8,
+      "track": 185.38,
       "seen_first": "2026-05-20T10:25:01.780059",
-      "last_seen": "2026-05-20T11:20:01.670915"
+      "last_seen": "2026-05-20T11:25:01.928764"
     },
     "4601fd": {
       "hex": "4601fd",
@@ -311,11 +311,24 @@
       "track": null,
       "seen_first": "2026-05-20T10:51:01.462312",
       "last_seen": "2026-05-20T11:07:01.833193"
+    },
+    "4601fa": {
+      "hex": "4601fa",
+      "flight": "",
+      "reg": "OH-ATM",
+      "type": "AT75",
+      "lat": 61.710717,
+      "lon": 25.303548,
+      "alt": 21000,
+      "speed": 231.7,
+      "track": 184.46,
+      "seen_first": "2026-05-20T11:23:02.003215",
+      "last_seen": "2026-05-20T11:25:01.928764"
     }
   },
   "summary": {
-    "total_unique_aircraft": 24,
-    "last_seen_live": 1,
-    "updated": "2026-05-20T11:20:01.670915"
+    "total_unique_aircraft": 25,
+    "last_seen_live": 2,
+    "updated": "2026-05-20T11:25:01.928764"
   }
 }
