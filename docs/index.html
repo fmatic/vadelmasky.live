@@ -246,12 +246,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">14</div>
+        <div class="value">15</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.05.2026 06:05 UTC</div>
+        <div class="value">20.05.2026 06:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 461404 · REG OH-HPC · TYPE R44</div>
+                </div>
+                <div class="alt-badge low">700 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>80.4 kt</b></div>
+                    <div><span>Track</span><b>196.63°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>20.05.2026 06:08 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HPC" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -295,7 +319,7 @@ footer {
                     <div><span>Speed</span><b>490.0 kt</b></div>
                     <div><span>Track</span><b>63.11°</b></div>
                     <div><span>Position</span><b>61.8000, 27.2300</b></div>
-                    <div><span>Last seen</span><b>20.05.2026 06:05 UTC</b></div>
+                    <div><span>Last seen</span><b>20.05.2026 06:06 UTC</b></div>
                 </div>
             </div>
 
@@ -886,7 +910,7 @@ COPY
 </section>
 
 <script>
-const aircraft = [{"hex": "780C5D", "flight": "CA3032", "lat": 61.8, "lon": 27.23, "alt": 37000, "speed": 490.0, "last_seen": "20.05.2026 06:05 UTC"}, {"hex": "4678AB", "flight": "-", "lat": 62.253935, "lon": 25.690155, "alt": 975, "speed": 114.9, "last_seen": "20.05.2026 06:05 UTC"}, {"hex": "7BC007", "flight": "GI4385", "lat": 61.448, "lon": 27.376, "alt": "-", "speed": "-", "last_seen": "20.05.2026 05:00 UTC"}, {"hex": "4601FB", "flight": "FIN8KH", "lat": 61.963682, "lon": 25.594584, "alt": 16000, "speed": 176.1, "last_seen": "20.05.2026 03:16 UTC"}, {"hex": "4601F2", "flight": "FIN4QA", "lat": 61.506306, "lon": 26.133931, "alt": 18000, "speed": 238.8, "last_seen": "20.05.2026 03:12 UTC"}, {"hex": "782144", "flight": "CZ2517", "lat": 61.009667, "lon": 2.141167, "alt": "-", "speed": "-", "last_seen": "20.05.2026 01:25 UTC"}];
+const aircraft = [{"hex": "780C5D", "flight": "CA3032", "lat": 61.8, "lon": 27.23, "alt": 37000, "speed": 490.0, "last_seen": "20.05.2026 06:06 UTC"}, {"hex": "4678AB", "flight": "-", "lat": 62.253935, "lon": 25.690155, "alt": 975, "speed": 114.9, "last_seen": "20.05.2026 06:05 UTC"}, {"hex": "7BC007", "flight": "GI4385", "lat": 61.448, "lon": 27.376, "alt": "-", "speed": "-", "last_seen": "20.05.2026 05:00 UTC"}, {"hex": "4601FB", "flight": "FIN8KH", "lat": 61.963682, "lon": 25.594584, "alt": 16000, "speed": 176.1, "last_seen": "20.05.2026 03:16 UTC"}, {"hex": "4601F2", "flight": "FIN4QA", "lat": 61.506306, "lon": 26.133931, "alt": 18000, "speed": 238.8, "last_seen": "20.05.2026 03:12 UTC"}, {"hex": "782144", "flight": "CZ2517", "lat": 61.009667, "lon": 2.141167, "alt": "-", "speed": "-", "last_seen": "20.05.2026 01:25 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
