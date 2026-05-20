@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.05.2026 12:57 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -29.1,
-      "label": "Q0",
-      "msgno": "S33A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 12:57 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "SA",
-      "msgno": "S34A",
-      "text": "0EV125735VS/"
-    },
-    {
-      "time": "20.05.2026 12:57 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "5V",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
       "time": "20.05.2026 12:58 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C31D",
       "text": "RTE 1 20MAY26 2324 CAB-2095 CAO8440 LEMD/ZSPD 311B-BCG-00W-19 L 1926 20MAY26\r\nFDE 34503141 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2322 20MAY26\r\nMSG 3453302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "20.05.2026 23:25 UTC",
+      "source": "ACARS",
+      "flight": "CA8440",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "10",
+      "msgno": "M73A",
+      "text": "POS202325, N 6168,E 2689,829,283,19372,  52,34999, 669,-260,-559,7"
+    },
+    {
+      "time": "20.05.2026 23:25 UTC",
+      "source": "ACARS",
+      "flight": "CA8440",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "H1",
+      "msgno": "O26A",
+      "text": "SS0340C_153\r\nB-2095  CAO844LEMDZSPD200526232533ER\r\n28335001830-260024397316DBSM79962A\r\n685610919 260200526 232530\r\n37)6)) 6) 2))\r\n36)6)) 2) 2))\r\n10000000000001111\r\n  35001\r\n  3500(12 07(3276(16.(\r\n  3500(12"
+    },
+    {
+      "time": "20.05.2026 23:25 UTC",
+      "source": "ACARS",
+      "flight": "CA8440",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "H1",
+      "msgno": "O26B",
+      "text": "SS0340C_153\r\nB-2095  CAO844LEMDZSPD200526232533ER\r\n28335001830-260024397316DBSM79962A\r\n685610919 260200526 232530\r\n37)6)) 6) 2))\r\n36)6)) 2) 2))\r\n10000000000001111\r\n  35001\r\n  3500(12 07(3276(16.(\r\n  3500(12 07(3276(16.(\r\n200526232533\r\n111111111111\r\n111111111111"
     }
   ]
 }
