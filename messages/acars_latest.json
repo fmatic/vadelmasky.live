@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.05.2026 16:37 UTC",
-      "source": "ACARS",
-      "flight": "I99899",
-      "tail": "B-2082",
-      "freq": 131.825,
-      "level": -41.8,
-      "label": "_d",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 17:40 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32FE",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "Q0",
-      "msgno": "S55A",
-      "text": "No text"
-    },
-    {
-      "time": "19.05.2026 18:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "H1",
-      "msgno": "C73B",
-      "text": "L\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 1827 26MAY26\r\nMSG 3453301 A 1827 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1827 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 34533"
-    },
-    {
-      "time": "19.05.2026 18:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "H1",
-      "msgno": "C73C",
-      "text": "02 A 1826 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1826 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 1826 26MAY26\r\nMSG 3453302 A 1826 26MAY26 ER H PL\r\nDB MULTI-MODE "
-    },
-    {
-      "time": "19.05.2026 18:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -38.4,
-      "label": "H1",
-      "msgno": "C73D",
-      "text": "RECEIVER (RIGHT)\r\nMSG 3453013 A 1826 26MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "19.05.2026 18:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "H1",
-      "msgno": "O51A",
-      "text": "SS0340F_103\r\nB-2077  CKK206EHAMZSPD260526183012ER\r\n29532998829-1775141693168BSM79967A21\r\n2576101816 2601260526 183010\r\n2516100784 2600(\r\n2396100719 2600(\r\n10110111111111111\r\n  32999\r\n  3299(11 07(3276(16.(\r"
-    },
-    {
       "time": "19.05.2026 18:30 UTC",
       "source": "ACARS",
       "flight": "CK0206",
@@ -329,6 +263,72 @@
       "label": "5V",
       "msgno": "S76A",
       "text": "No text"
+    },
+    {
+      "time": "20.05.2026 02:45 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "Q0",
+      "msgno": "S78A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 02:45 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "SA",
+      "msgno": "S79A",
+      "text": "0EV025023VS/"
+    },
+    {
+      "time": "20.05.2026 02:47 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "SA",
+      "msgno": "S84A",
+      "text": "0EV025210VS/"
+    },
+    {
+      "time": "20.05.2026 02:48 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "5V",
+      "msgno": "S85A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 02:49 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "Q0",
+      "msgno": "S87A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 02:49 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -28.1,
+      "label": "SA",
+      "msgno": "S88A",
+      "text": "0EV025402VS/"
     }
   ]
 }
