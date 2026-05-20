@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.05.2026 12:54 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -37.7,
-      "label": "Q0",
-      "msgno": "S28A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 12:54 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "SA",
-      "msgno": "S29A",
-      "text": "0EV125503VS/"
-    },
-    {
-      "time": "20.05.2026 12:54 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "H1",
-      "msgno": "F59A",
-      "text": "POSN61302E025337,RIK01,125504,350,KOKAT,131607,LULOR,M55,18544,11218FA8"
-    },
-    {
-      "time": "20.05.2026 12:55 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "5V",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 12:56 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "Q0",
-      "msgno": "S32A",
-      "text": "No text"
-    },
-    {
       "time": "20.05.2026 12:57 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "E67B",
       "text": "PER,R,301.4,-47.0,311,-15.6,515.3,0.833,31000,99.7,99.7,85.8,85.8,--,0.29,--,0.64,85.8,85.8,0.30,--,0.56,--,709,708,0.40,--,0.96,--,102.9,103.0,0.45,--,1.03,--,4.555,4.509,202,202,0.00,0.00,67,71,76,77,17,16,50,50,,20,MAY,26,14,33,29"
+    },
+    {
+      "time": "20.05.2026 23:20 UTC",
+      "source": "ACARS",
+      "flight": "CA8440",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "H1",
+      "msgno": "E10B",
+      "text": ",22"
+    },
+    {
+      "time": "20.05.2026 23:24 UTC",
+      "source": "ACARS",
+      "flight": "CA8440",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "H1",
+      "msgno": "C31A",
+      "text": "RTE 1 20MAY26 2324 CAB-2095 CAO8440 LEMD/ZSPD 311B-BCG-00W-19 L 1926 20MAY26\r\nFDE 34503141 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H "
+    },
+    {
+      "time": "20.05.2026 23:24 UTC",
+      "source": "ACARS",
+      "flight": "CA8440",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "H1",
+      "msgno": "C31B",
+      "text": "PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453"
+    },
+    {
+      "time": "20.05.2026 23:24 UTC",
+      "source": "ACARS",
+      "flight": "CA8440",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "H1",
+      "msgno": "C31C",
+      "text": "302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2322 20MAY26\r\nMSG 3453302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE"
+    },
+    {
+      "time": "20.05.2026 23:24 UTC",
+      "source": "ACARS",
+      "flight": "CA8440",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.4,
+      "label": "H1",
+      "msgno": "C31D",
+      "text": "RTE 1 20MAY26 2324 CAB-2095 CAO8440 LEMD/ZSPD 311B-BCG-00W-19 L 1926 20MAY26\r\nFDE 34503141 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2322 20MAY26\r\nMSG 3453302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
     }
   ]
 }
