@@ -1,116 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.05.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "5V",
-      "msgno": "S02A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -27.7,
-      "label": "5V",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "Q0",
-      "msgno": "S04A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 04:19 UTC",
-      "source": "ACARS",
-      "flight": "GI4385",
-      "tail": "B-2473",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "H1",
-      "msgno": "D85A",
-      "text": "ADSB-24734385ZHCCEBLG200526041902\r\n29759ER 567LHAA1810\r\nPN61405E 2820004190234071-52159 36 889004860++++"
-    },
-    {
-      "time": "20.05.2026 04:19 UTC",
-      "source": "ACARS",
-      "flight": "GI4385",
-      "tail": "B-2473",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "H1",
-      "msgno": "D85A",
-      "text": "ADSB-24734385ZHCCEBLG200526041902\r\n29759ER 567LHAA1810\r\nPN61405E 2820004190234071-52159 36 889004860++++"
-    },
-    {
-      "time": "20.05.2026 04:19 UTC",
-      "source": "ACARS",
-      "flight": "GI4385",
-      "tail": "B-2473",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "H1",
-      "msgno": "D85A",
-      "text": "ADSB-24734385ZHCCEBLG200526041902\r\n29759ER 567LHAA1810\r\nPN61405E 2820004190234071-52159 36 889004860++++"
-    },
-    {
-      "time": "20.05.2026 04:20 UTC",
-      "source": "ACARS",
-      "flight": "GI4385",
-      "tail": "B-2473",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "16",
-      "msgno": "M95A",
-      "text": "POSGI4385/200420,ALT 34001,ETA ,FOB 400,N 61.612 E 27.901,WS   36,WD 15499,CAS ,HED ------"
-    },
-    {
-      "time": "20.05.2026 04:23 UTC",
-      "source": "ACARS",
-      "flight": "GI4385",
-      "tail": "B-2473",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "16",
-      "msgno": "M96A",
-      "text": "POSGI4385/200423,ALT 33997,ETA ,FOB 396,N 61.448 E 27.376,WS   28,WD 15569,CAS ,HED ------"
-    },
-    {
-      "time": "20.05.2026 04:23 UTC",
-      "source": "ACARS",
-      "flight": "GI4385",
-      "tail": "B-2473",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "_d",
-      "msgno": "S14A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 04:28 UTC",
-      "source": "ACARS",
-      "flight": "GI4385",
-      "tail": "B-2473",
-      "freq": 131.825,
-      "level": -41.8,
-      "label": "_d",
-      "msgno": "S16A",
-      "text": "No text"
-    },
-    {
       "time": "20.05.2026 04:29 UTC",
       "source": "ACARS",
       "flight": "GI4385",
@@ -329,6 +219,116 @@
       "label": "H1",
       "msgno": "F59A",
       "text": "POSN61302E025337,RIK01,125504,350,KOKAT,131607,LULOR,M55,18544,11218FA8"
+    },
+    {
+      "time": "20.05.2026 12:55 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "5V",
+      "msgno": "S30A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 12:56 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "Q0",
+      "msgno": "S32A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 12:57 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -29.1,
+      "label": "Q0",
+      "msgno": "S33A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 12:57 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "SA",
+      "msgno": "S34A",
+      "text": "0EV125735VS/"
+    },
+    {
+      "time": "20.05.2026 12:57 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "5V",
+      "msgno": "S35A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 12:58 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "Q0",
+      "msgno": "S37A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 12:59 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -28.2,
+      "label": "SA",
+      "msgno": "S38A",
+      "text": "0EV125925VS/"
+    },
+    {
+      "time": "20.05.2026 12:59 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -27.7,
+      "label": "H1",
+      "msgno": "C43A",
+      "text": "RTE 1 20MAY26 1258 HO B-1115 DKH1660 EBBR/ZSPD BCG4F-45LD-0077 C L 1046 20MAY26\r\nFDE 34410900 I 1257 20MAY26\r\nMSG 3462022 A 1258 20MAY26 ER H PL\r\nDB RIGHT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6071 6070 "
+    },
+    {
+      "time": "20.05.2026 12:59 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "H1",
+      "msgno": "C43B",
+      "text": "RTE 1 20MAY26 1258 HO B-1115 DKH1660 EBBR/ZSPD BCG4F-45LD-0077 C L 1046 20MAY26\r\nFDE 34410900 I 1257 20MAY26\r\nMSG 3462022 A 1258 20MAY26 ER H PL\r\nDB RIGHT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6071 6070 6049  \r\nMSG 3462021 A 1258 20MAY26 ER H PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6071 6070  \r\nEOR\r\n"
+    },
+    {
+      "time": "20.05.2026 12:59 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "5V",
+      "msgno": "S39A",
+      "text": "No text"
     }
   ]
 }
