@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.05.2026 00:45 UTC</div>
+        <div class="value">20.05.2026 00:50 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -280,12 +280,54 @@ footer {
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
         
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CZ2517</div>
+                    <div class="meta">ICAO 782144 · REG B-226C · TYPE B77L</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>61.0097, 2.1412</b></div>
+                    <div><span>Last seen</span><b>20.05.2026 00:50 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-226C" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
     </div>
 </section>
 
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CZ2517</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-226C · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">20.05.2026 00:48 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 18 · Msg M54A · Level -38.1 dB
+            </div>
+
+            <div class="acars-text">POX,CSG2517   ,20MAY26,004851,ZGGG,EGPK,N061.58,E0028.47,340, 330,831,-121.9, 166.1,040,-52.9,031851, 35320,</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -522,29 +564,11 @@ C4,-26</div>
             <div class="acars-text">0LS183926V</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CK0216</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-227K · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">19.05.2026 18:36 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S11A · Level -41.5 dB
-            </div>
-
-            <div class="acars-text">0LS183709V</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "782144", "flight": "CZ2517", "lat": 61.009667, "lon": 2.141167, "alt": "-", "speed": "-", "last_seen": "20.05.2026 00:50 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 

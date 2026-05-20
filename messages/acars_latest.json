@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.05.2026 13:42 UTC",
-      "source": "ACARS",
-      "flight": "CA3120",
-      "tail": "B-6092",
-      "freq": 131.725,
-      "level": -26.7,
-      "label": "10",
-      "msgno": "M75A",
-      "text": "POS191342,N 61.795,E 27.145,2108,498125,,,37006,104240"
-    },
-    {
       "time": "19.05.2026 13:44 UTC",
       "source": "ACARS",
       "flight": "CA3120",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C31A",
       "text": ".1/FLR/FR2605192236  34361606MMR2   1,IR2,IR1,IR3,FWS,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "20.05.2026 00:48 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-226C",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "18",
+      "msgno": "M54A",
+      "text": "POX,CSG2517   ,20MAY26,004851,ZGGG,EGPK,N061.58,E0028.47,340, 330,831,-121.9, 166.1,040,-52.9,031851, 35320,"
     }
   ]
 }
