@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.05.2026 11:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "Q0",
-      "msgno": "S90A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 11:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "Q0",
-      "msgno": "M18A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 11:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "SA",
-      "msgno": "S91A",
-      "text": "0EV112256V"
-    },
-    {
-      "time": "20.05.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -37.7,
-      "label": "_d",
-      "msgno": "S93A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
       "time": "20.05.2026 12:54 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "E65A",
       "text": "LGB,R,1,R,201,200,1,L,,0.0,0.0,,,0.0,0.0,,,213,221,,,217,222,,,0.0,0.0,,,,0.0,0.0,,,211,217,,,216,219,,,0.0,0.0,,,0.0,0.0,,,211,208,,,218,212,,0.0,,0.0,,LOCKED,LOCKED,,,64,0,64,64,64,ANTISKID,20,MAY,26,14,3"
+    },
+    {
+      "time": "20.05.2026 14:32 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "_d",
+      "msgno": "S75A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 14:32 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -33.0,
+      "label": "H1",
+      "msgno": "E66A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,202,200,53,52,50,50,158,161,64,72,86,86,OPEN,CLOSED,OPEN,CLOSED,CRUISE,4000,0,0,AUTO,8.5,0.14,0.25,L,,,,20,MAY,26,14,33,22"
+    },
+    {
+      "time": "20.05.2026 14:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "_d",
+      "msgno": "S76A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 14:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "H1",
+      "msgno": "E67A",
+      "text": "PER,R,301.4,-47.0,311,-15.6,515.3,0.833,31000,99.7,99.7,85.8,85.8,--,0.29,--,0.64,85.8,85.8,0.30,--,0.56,--,709,708,0.40,--,0.96,--,102.9,103.0,0.45,--,1.03,--,4.555,4.509,202,202,0.00,0.00,67,71,76,77,17,1"
+    },
+    {
+      "time": "20.05.2026 14:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "H1",
+      "msgno": "E67B",
+      "text": "PER,R,301.4,-47.0,311,-15.6,515.3,0.833,31000,99.7,99.7,85.8,85.8,--,0.29,--,0.64,85.8,85.8,0.30,--,0.56,--,709,708,0.40,--,0.96,--,102.9,103.0,0.45,--,1.03,--,4.555,4.509,202,202,0.00,0.00,67,71,76,77,17,16,50,50,,20,MAY,26,14,33,29"
     }
   ]
 }
