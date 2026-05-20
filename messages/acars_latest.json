@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.05.2026 00:48 UTC",
-      "source": "ACARS",
-      "flight": "CZ2517",
-      "tail": "B-226C",
-      "freq": 131.825,
-      "level": -38.1,
-      "label": "18",
-      "msgno": "M54A",
-      "text": "POX,CSG2517   ,20MAY26,004851,ZGGG,EGPK,N061.58,E0028.47,340, 330,831,-121.9, 166.1,040,-52.9,031851, 35320,"
-    },
-    {
-      "time": "20.05.2026 01:52 UTC",
-      "source": "ACARS",
-      "flight": "I98821",
-      "tail": "B-227H",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "Q0",
-      "msgno": "S19A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 02:17 UTC",
-      "source": "ACARS",
-      "flight": "MU5013",
-      "tail": "B-5949",
-      "freq": 131.825,
-      "level": -41.0,
-      "label": "_d",
-      "msgno": "S98A",
-      "text": "No text"
-    },
-    {
       "time": "20.05.2026 02:44 UTC",
       "source": "ACARS",
       "flight": "HO1659",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "D85A",
       "text": "ADSB-24734385ZHCCEBLG200526041902\r\n29759ER 567LHAA1810\r\nPN61405E 2820004190234071-52159 36 889004860++++"
+    },
+    {
+      "time": "20.05.2026 04:20 UTC",
+      "source": "ACARS",
+      "flight": "GI4385",
+      "tail": "B-2473",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "16",
+      "msgno": "M95A",
+      "text": "POSGI4385/200420,ALT 34001,ETA ,FOB 400,N 61.612 E 27.901,WS   36,WD 15499,CAS ,HED ------"
+    },
+    {
+      "time": "20.05.2026 04:23 UTC",
+      "source": "ACARS",
+      "flight": "GI4385",
+      "tail": "B-2473",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "16",
+      "msgno": "M96A",
+      "text": "POSGI4385/200423,ALT 33997,ETA ,FOB 396,N 61.448 E 27.376,WS   28,WD 15569,CAS ,HED ------"
+    },
+    {
+      "time": "20.05.2026 04:23 UTC",
+      "source": "ACARS",
+      "flight": "GI4385",
+      "tail": "B-2473",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "_d",
+      "msgno": "S14A",
+      "text": "No text"
     }
   ]
 }
