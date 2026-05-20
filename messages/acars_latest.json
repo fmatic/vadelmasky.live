@@ -6,17 +6,6 @@
       "flight": "HO1659",
       "tail": "B-1115",
       "freq": 131.825,
-      "level": -29.9,
-      "label": "Q0",
-      "msgno": "S87A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 02:49 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-1115",
-      "freq": 131.825,
       "level": -28.1,
       "label": "SA",
       "msgno": "S88A",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M37A",
       "text": "POS200529, N 6180,E 2723,834,272,17147,  32,37000, 652,-250,-554,7"
+    },
+    {
+      "time": "20.05.2026 08:19 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-226C",
+      "freq": 131.825,
+      "level": -37.9,
+      "label": "18",
+      "msgno": "M91A",
+      "text": "POX,CSG2518   ,20MAY26,081949,EGPK,ZGGG,N061.73,E0025.89,369, 658,834,  80.8,-170.4,036,-57.6,174149, 33720,"
     }
   ]
 }
