@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.05.2026 02:53 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -25.4,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
-      "time": "20.05.2026 02:53 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -31.2,
-      "label": "80",
-      "msgno": "M00A",
-      "text": "1001 OUTRP  0290/20 EFJY/EFHK .OH-ATN\r\n/OUT 0249/FOB 0019/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "20.05.2026 02:53 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -29.5,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1101 OFFRP  0290/20 EFJY/EFHK .OH-ATN\r\n/OUT 0249/OFF 0251/FOB 0018/ETA 0326"
-    },
-    {
       "time": "20.05.2026 02:54 UTC",
       "source": "ACARS",
       "flight": "HO1659",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S94A",
       "text": "No text"
+    },
+    {
+      "time": "20.05.2026 12:54 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "Q0",
+      "msgno": "S28A",
+      "text": "No text"
+    },
+    {
+      "time": "20.05.2026 12:54 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "SA",
+      "msgno": "S29A",
+      "text": "0EV125503VS/"
+    },
+    {
+      "time": "20.05.2026 12:54 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "H1",
+      "msgno": "F59A",
+      "text": "POSN61302E025337,RIK01,125504,350,KOKAT,131607,LULOR,M55,18544,11218FA8"
     }
   ]
 }
