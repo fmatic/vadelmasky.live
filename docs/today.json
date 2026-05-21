@@ -408,13 +408,13 @@
       "flight": "FIN440",
       "reg": "OH-LXL",
       "type": "A320",
-      "lat": 61.720772,
-      "lon": 25.269063,
-      "alt": 33050,
-      "speed": 396.0,
-      "track": 180.29,
+      "lat": 61.481494,
+      "lon": 25.266724,
+      "alt": 25300,
+      "speed": 402.0,
+      "track": 180.14,
       "seen_first": "2026-05-21T13:34:01.455602",
-      "last_seen": "2026-05-21T13:35:01.930520"
+      "last_seen": "2026-05-21T13:38:01.786829"
     },
     "781318": {
       "hex": "781318",
@@ -424,15 +424,41 @@
       "lat": null,
       "lon": null,
       "alt": 35000,
-      "speed": 488.0,
-      "track": 75.76,
+      "speed": 484.0,
+      "track": 76.29,
       "seen_first": "2026-05-21T13:35:01.930520",
-      "last_seen": "2026-05-21T13:35:01.930520"
+      "last_seen": "2026-05-21T13:38:01.786829"
+    },
+    "781fda": {
+      "hex": "781fda",
+      "flight": "CBJ677",
+      "reg": "B-32FE",
+      "type": "A333",
+      "lat": null,
+      "lon": null,
+      "alt": 38000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-05-21T13:38:01.786829",
+      "last_seen": "2026-05-21T13:39:01.288006"
+    },
+    "7812a4": {
+      "hex": "7812a4",
+      "flight": "CHH752",
+      "reg": "B-1020",
+      "type": "A333",
+      "lat": null,
+      "lon": null,
+      "alt": 37000,
+      "speed": 488.0,
+      "track": 82.97,
+      "seen_first": "2026-05-21T13:38:01.786829",
+      "last_seen": "2026-05-21T13:40:01.858899"
     }
   },
   "summary": {
-    "total_unique_aircraft": 33,
-    "last_seen_live": 2,
-    "updated": "2026-05-21T13:35:01.930520"
+    "total_unique_aircraft": 35,
+    "last_seen_live": 1,
+    "updated": "2026-05-21T13:40:01.858899"
   }
 }
