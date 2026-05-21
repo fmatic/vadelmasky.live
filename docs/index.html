@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">9</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">21.05.2026 08:15 UTC</div>
+        <div class="value">21.05.2026 08:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">V51</div>
                     <div class="meta">ICAO 46789D · REG GO-7 · TYPE G115</div>
                 </div>
-                <div class="alt-badge unknown">-</div>
+                <div class="alt-badge low">2075 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>125.9 kt</b></div>
-                    <div><span>Track</span><b>247.1°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>21.05.2026 08:15 UTC</b></div>
+                    <div><span>Speed</span><b>100.4 kt</b></div>
+                    <div><span>Track</span><b>314.19°</b></div>
+                    <div><span>Position</span><b>62.3256, 25.8423</b></div>
+                    <div><span>Last seen</span><b>21.05.2026 08:19 UTC</b></div>
                 </div>
             </div>
 
@@ -794,6 +794,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">K49715</div>
+                    <div class="acars-meta">
+                        ACARS · Tail N715CK · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">21.05.2026 08:17 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label _d · Msg S21A · Level -42.4 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">CA8440</div>
                     <div class="acars-meta">
                         ACARS · Tail B-2095 · 131.825 MHz
@@ -1048,29 +1066,11 @@ MSG 3453011 A 2322 20MAY26 ER H </div>
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1040</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2096 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">20.05.2026 14:32 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg E66A · Level -33.0 dB
-            </div>
-
-            <div class="acars-text">AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,202,200,53,52,50,50,158,161,64,72,86,86,OPEN,CLOSED,OPEN,CLOSED,CRUISE,4000,0,0,AUTO,8.5,0.14,0.25,L,,,,20,MAY,26,14,33,22</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "46789C", "flight": "V52", "lat": 62.326324, "lon": 25.841006, "alt": 2100, "speed": 99.7, "last_seen": "21.05.2026 08:10 UTC"}, {"hex": "4601F5", "flight": "FIN9B", "lat": 62.462265, "lon": 26.134033, "alt": 21000, "speed": 296.5, "last_seen": "21.05.2026 07:55 UTC"}, {"hex": "4601FB", "flight": "FIN489", "lat": 62.536275, "lon": 26.660332, "alt": 17025, "speed": 303.9, "last_seen": "21.05.2026 06:19 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.3199, "lon": 25.708219, "alt": 2625, "speed": 213.9, "last_seen": "21.05.2026 06:19 UTC"}, {"hex": "461F63", "flight": "FIN448", "lat": 59.679886, "lon": 29.331665, "alt": 26475, "speed": 350.0, "last_seen": "21.05.2026 05:34 UTC"}, {"hex": "4601FA", "flight": "FIN8KH", "lat": 61.548436, "lon": 25.476379, "alt": 16000, "speed": 236.3, "last_seen": "21.05.2026 03:05 UTC"}, {"hex": "4601F3", "flight": "FIN4QA", "lat": 61.580511, "lon": 26.144409, "alt": 18025, "speed": 237.9, "last_seen": "21.05.2026 03:04 UTC"}, {"hex": "780BB6", "flight": "-", "lat": 61.68, "lon": 26.89, "alt": "-", "speed": "-", "last_seen": "21.05.2026 00:02 UTC"}];
+const aircraft = [{"hex": "46789D", "flight": "V51", "lat": 62.325626, "lon": 25.842273, "alt": 2075, "speed": 100.4, "last_seen": "21.05.2026 08:19 UTC"}, {"hex": "46789C", "flight": "V52", "lat": 62.326324, "lon": 25.841006, "alt": 2100, "speed": 99.7, "last_seen": "21.05.2026 08:10 UTC"}, {"hex": "4601F5", "flight": "FIN9B", "lat": 62.462265, "lon": 26.134033, "alt": 21000, "speed": 296.5, "last_seen": "21.05.2026 07:55 UTC"}, {"hex": "4601FB", "flight": "FIN489", "lat": 62.536275, "lon": 26.660332, "alt": 17025, "speed": 303.9, "last_seen": "21.05.2026 06:19 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.3199, "lon": 25.708219, "alt": 2625, "speed": 213.9, "last_seen": "21.05.2026 06:19 UTC"}, {"hex": "461F63", "flight": "FIN448", "lat": 59.679886, "lon": 29.331665, "alt": 26475, "speed": 350.0, "last_seen": "21.05.2026 05:34 UTC"}, {"hex": "4601FA", "flight": "FIN8KH", "lat": 61.548436, "lon": 25.476379, "alt": 16000, "speed": 236.3, "last_seen": "21.05.2026 03:05 UTC"}, {"hex": "4601F3", "flight": "FIN4QA", "lat": 61.580511, "lon": 26.144409, "alt": 18025, "speed": 237.9, "last_seen": "21.05.2026 03:04 UTC"}, {"hex": "780BB6", "flight": "-", "lat": 61.68, "lon": 26.89, "alt": "-", "speed": "-", "last_seen": "21.05.2026 00:02 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
