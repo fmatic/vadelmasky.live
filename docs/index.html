@@ -246,22 +246,22 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">11</div>
+        <div class="value">12</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">28250 ft</div>
+        <div class="value">28425 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">21.05.2026 05:15 UTC</div>
+        <div class="value">21.05.2026 05:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN448</div>
+                    <div class="meta">ICAO 461F63 · REG OH-LXB · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">28425 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>364.0 kt</b></div>
+                    <div><span>Track</span><b>188.96°</b></div>
+                    <div><span>Position</span><b>59.6799, 29.3317</b></div>
+                    <div><span>Last seen</span><b>21.05.2026 05:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXB" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -830,7 +854,7 @@ MSG 3453011 A 2322 20MAY26 ER H </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FA", "flight": "FIN8KH", "lat": 61.548436, "lon": 25.476379, "alt": 16000, "speed": 236.3, "last_seen": "21.05.2026 03:05 UTC"}, {"hex": "4601F3", "flight": "FIN4QA", "lat": 61.580511, "lon": 26.144409, "alt": 18025, "speed": 237.9, "last_seen": "21.05.2026 03:04 UTC"}, {"hex": "780BB6", "flight": "-", "lat": 61.68, "lon": 26.89, "alt": "-", "speed": "-", "last_seen": "21.05.2026 00:02 UTC"}];
+const aircraft = [{"hex": "461F63", "flight": "FIN448", "lat": 59.679886, "lon": 29.331665, "alt": 28425, "speed": 364.0, "last_seen": "21.05.2026 05:20 UTC"}, {"hex": "4601FA", "flight": "FIN8KH", "lat": 61.548436, "lon": 25.476379, "alt": 16000, "speed": 236.3, "last_seen": "21.05.2026 03:05 UTC"}, {"hex": "4601F3", "flight": "FIN4QA", "lat": 61.580511, "lon": 26.144409, "alt": 18025, "speed": 237.9, "last_seen": "21.05.2026 03:04 UTC"}, {"hex": "780BB6", "flight": "-", "lat": 61.68, "lon": 26.89, "alt": "-", "speed": "-", "last_seen": "21.05.2026 00:02 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
