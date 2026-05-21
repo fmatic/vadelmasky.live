@@ -330,13 +330,13 @@
       "flight": "K53",
       "reg": "GO-16",
       "type": "G115",
-      "lat": 62.327682,
-      "lon": 25.839233,
-      "alt": 2100,
-      "speed": 106.1,
-      "track": 315.0,
+      "lat": 62.275223,
+      "lon": 25.656331,
+      "alt": 3825,
+      "speed": 110.8,
+      "track": 169.6,
       "seen_first": "2026-05-21T11:20:02.199363",
-      "last_seen": "2026-05-21T14:30:01.701444"
+      "last_seen": "2026-05-21T14:40:02.263083"
     },
     "4678a9": {
       "hex": "4678a9",
@@ -467,11 +467,24 @@
       "track": 315.83,
       "seen_first": "2026-05-21T13:41:01.430645",
       "last_seen": "2026-05-21T14:24:01.916700"
+    },
+    "511177": {
+      "hex": "511177",
+      "flight": "ESVAR",
+      "reg": "ES-VAR",
+      "type": "M600",
+      "lat": null,
+      "lon": null,
+      "alt": 27175,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-05-21T14:37:01.798696",
+      "last_seen": "2026-05-21T14:40:02.263083"
     }
   },
   "summary": {
-    "total_unique_aircraft": 36,
-    "last_seen_live": 0,
-    "updated": "2026-05-21T14:35:01.617655"
+    "total_unique_aircraft": 37,
+    "last_seen_live": 2,
+    "updated": "2026-05-21T14:40:02.263083"
   }
 }
