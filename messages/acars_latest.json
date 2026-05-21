@@ -6,17 +6,6 @@
       "flight": "HO1660",
       "tail": "B-1115",
       "freq": 131.825,
-      "level": -30.6,
-      "label": "H1",
-      "msgno": "C43B",
-      "text": "RTE 1 20MAY26 1258 HO B-1115 DKH1660 EBBR/ZSPD BCG4F-45LD-0077 C L 1046 20MAY26\r\nFDE 34410900 I 1257 20MAY26\r\nMSG 3462022 A 1258 20MAY26 ER H PL\r\nDB RIGHT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6071 6070 6049  \r\nMSG 3462021 A 1258 20MAY26 ER H PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6071 6070  \r\nEOR\r\n"
-    },
-    {
-      "time": "20.05.2026 12:59 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
       "level": -31.2,
       "label": "5V",
       "msgno": "S39A",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S38A",
       "text": "No text"
+    },
+    {
+      "time": "21.05.2026 18:19 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -39.6,
+      "label": "16",
+      "msgno": "M44A",
+      "text": "POSA1N61047E 25809,ALAMI  ,174846,309,KOKAT  ,184105,-47, 49, 738,828"
     }
   ]
 }
