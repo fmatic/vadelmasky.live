@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.05.2026 13:02 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "SA",
-      "msgno": "S47A",
-      "text": "0EV130317VS/"
-    },
-    {
-      "time": "20.05.2026 13:03 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -40.4,
-      "label": "5V",
-      "msgno": "S48A",
-      "text": "No text"
-    },
-    {
       "time": "20.05.2026 14:25 UTC",
       "source": "ACARS",
       "flight": "CA1040",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O70A",
       "text": "SS0340C_ 61\r\nJA736J  JAL47 RJTTEFHK220526114241DC\r\n29327276734-177563673316DBSM79962A\r\n 36620 24 250220526 114228\r\n 46620987 240\r\n 46620987 240\r\n10000000000000100\r\n  27280\r\n  2738715103N   96 0.0\r\n  2740014"
+    },
+    {
+      "time": "22.05.2026 15:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -38.0,
+      "label": "H1",
+      "msgno": "C14A",
+      "text": ".1/WRN/WN2605221533  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "22.05.2026 15:34 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -35.1,
+      "label": "H1",
+      "msgno": "C15A",
+      "text": ".1/FLR/FR2605221533  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
     }
   ]
 }
