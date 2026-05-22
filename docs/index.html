@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">22.05.2026 05:55 UTC</div>
+        <div class="value">22.05.2026 06:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5ET</div>
+                    <div class="meta">ICAO 4601F4 · REG OH-ATG · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>22.05.2026 06:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -348,30 +372,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKI" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 4601F4 · REG OH-ATG · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">21000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>22.05.2026 04:50 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATG" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -626,6 +626,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">N70362</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATG · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">22.05.2026 05:59 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 5V · Msg S86A · Level -37.0 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">CA1154</div>
                     <div class="acars-meta">
                         ACARS · Tail B-6090 · 131.825 MHz
@@ -861,30 +879,6 @@ MSG 3453013 A 2322 20MAY26 ER H PL
 DB MULTI-MODE RECEIVER (RIGHT)
 EOR
 </div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA8440</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2095 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">20.05.2026 23:24 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C31C · Level -34.7 dB
-            </div>
-
-            <div class="acars-text">302 A 2322 20MAY26 ER H PL
-DB MULTI-MODE RECEIVER (RIGHT)
-MSG 3453013 A 2322 20MAY26 ER H PL
-DB MULTI-MODE RECEIVER (RIGHT)
-FDE 34503142 A 2322 20MAY26
-MSG 3453302 A 2322 20MAY26 ER H PL
-DB MULTI-MODE</div>
         </article>
         
     </div>
