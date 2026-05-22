@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">22.05.2026 04:10 UTC</div>
+        <div class="value">22.05.2026 04:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DEISB</div>
+                    <div class="meta">ICAO 3D1B9D · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge low">6800 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>182.4 kt</b></div>
+                    <div><span>Track</span><b>21.22°</b></div>
+                    <div><span>Position</span><b>61.9383, 25.6893</b></div>
+                    <div><span>Last seen</span><b>22.05.2026 04:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=3d1b9d" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -373,30 +397,6 @@ footer {
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-20D1" target="_blank" rel="noopener">
                 Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">DEISB</div>
-                    <div class="meta">ICAO 3D1B9D · REG - · TYPE -</div>
-                </div>
-                <div class="alt-badge mid">10000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>182.9 kt</b></div>
-                    <div><span>Track</span><b>185.65°</b></div>
-                    <div><span>Position</span><b>61.6459, 25.5027</b></div>
-                    <div><span>Last seen</span><b>22.05.2026 02:23 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=3d1b9d" target="_blank" rel="noopener">
-                View aircraft info
             </a>
         </article>
         
@@ -771,7 +771,7 @@ DB MULTI-MODE</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "3D1B9D", "flight": "DEISB", "lat": 61.645935, "lon": 25.502701, "alt": 10000, "speed": 182.9, "last_seen": "22.05.2026 02:23 UTC"}, {"hex": "7817FB", "flight": "DKH1659", "lat": 61.759504, "lon": 25.30304, "alt": 38000, "speed": 472.0, "last_seen": "22.05.2026 02:23 UTC"}];
+const aircraft = [{"hex": "3D1B9D", "flight": "DEISB", "lat": 61.938263, "lon": 25.689272, "alt": 6800, "speed": 182.4, "last_seen": "22.05.2026 04:15 UTC"}, {"hex": "7817FB", "flight": "DKH1659", "lat": 61.759504, "lon": 25.30304, "alt": 38000, "speed": 472.0, "last_seen": "22.05.2026 02:23 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
