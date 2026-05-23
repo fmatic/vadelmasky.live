@@ -246,12 +246,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">14</div>
+        <div class="value">15</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.05.2026 08:20 UTC</div>
+        <div class="value">23.05.2026 08:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHACN</div>
+                    <div class="meta">ICAO 460041 · REG OH-ACN · TYPE AC90</div>
+                </div>
+                <div class="alt-badge mid">13100 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>23.05.2026 08:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ACN" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7TP</div>
+                    <div class="meta">ICAO 461E18 · REG OH-LKI · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">30200 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>475.0 kt</b></div>
+                    <div><span>Track</span><b>180.0°</b></div>
+                    <div><span>Position</span><b>61.6471, 25.2622</b></div>
+                    <div><span>Last seen</span><b>23.05.2026 08:23 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -348,30 +396,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKG" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN7AZ</div>
-                    <div class="meta">ICAO 461E18 · REG OH-LKI · TYPE E190</div>
-                </div>
-                <div class="alt-badge high">28200 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>460.2 kt</b></div>
-                    <div><span>Track</span><b>181.87°</b></div>
-                    <div><span>Position</span><b>61.6967, 25.2800</b></div>
-                    <div><span>Last seen</span><b>23.05.2026 04:56 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKI" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -855,7 +879,7 @@ JA736J  JAL47 RJTTEFHK220526114241DC
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FB", "flight": "FIN5X", "lat": 61.704391, "lon": 25.228043, "alt": 25025, "speed": 303.1, "last_seen": "23.05.2026 07:54 UTC"}, {"hex": "781D6D", "flight": "CKK213", "lat": 62.013679, "lon": 25.384928, "alt": 34000, "speed": 478.1, "last_seen": "23.05.2026 06:36 UTC"}, {"hex": "461E16", "flight": "FIN14J", "lat": 61.551229, "lon": 25.33193, "alt": 27175, "speed": 456.7, "last_seen": "23.05.2026 06:33 UTC"}, {"hex": "461E18", "flight": "FIN7AZ", "lat": 61.696658, "lon": 25.28005, "alt": 28200, "speed": 460.2, "last_seen": "23.05.2026 04:56 UTC"}, {"hex": "461F69", "flight": "FIN8MC", "lat": 61.520784, "lon": 25.256042, "alt": 23000, "speed": 444.0, "last_seen": "23.05.2026 03:08 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.591264, "lon": 25.665487, "alt": 18000, "speed": 274.1, "last_seen": "23.05.2026 03:07 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.679108, "lon": 25.33549, "alt": 24325, "speed": 434.0, "last_seen": "23.05.2026 03:07 UTC"}];
+const aircraft = [{"hex": "461E18", "flight": "FIN7TP", "lat": 61.647127, "lon": 25.262248, "alt": 30200, "speed": 475.0, "last_seen": "23.05.2026 08:23 UTC"}, {"hex": "4601FB", "flight": "FIN5X", "lat": 61.704391, "lon": 25.228043, "alt": 25025, "speed": 303.1, "last_seen": "23.05.2026 07:54 UTC"}, {"hex": "781D6D", "flight": "CKK213", "lat": 62.013679, "lon": 25.384928, "alt": 34000, "speed": 478.1, "last_seen": "23.05.2026 06:36 UTC"}, {"hex": "461E16", "flight": "FIN14J", "lat": 61.551229, "lon": 25.33193, "alt": 27175, "speed": 456.7, "last_seen": "23.05.2026 06:33 UTC"}, {"hex": "461F69", "flight": "FIN8MC", "lat": 61.520784, "lon": 25.256042, "alt": 23000, "speed": 444.0, "last_seen": "23.05.2026 03:08 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.591264, "lon": 25.665487, "alt": 18000, "speed": 274.1, "last_seen": "23.05.2026 03:07 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.679108, "lon": 25.33549, "alt": 24325, "speed": 434.0, "last_seen": "23.05.2026 03:07 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
