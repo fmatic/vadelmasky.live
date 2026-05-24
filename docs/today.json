@@ -148,13 +148,13 @@
       "flight": "",
       "reg": "OH-ATH",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 23000,
-      "speed": 267.1,
-      "track": 178.5,
+      "lat": 61.840622,
+      "lon": 25.305045,
+      "alt": 19000,
+      "speed": 292.1,
+      "track": 181.18,
       "seen_first": "2026-05-24T09:52:01.938042",
-      "last_seen": "2026-05-24T09:53:01.428004"
+      "last_seen": "2026-05-24T13:55:02.201327"
     },
     "4601f4": {
       "hex": "4601f4",
@@ -272,11 +272,24 @@
       "track": 76.64,
       "seen_first": "2026-05-24T13:42:01.980600",
       "last_seen": "2026-05-24T13:46:01.947912"
+    },
+    "4601fb": {
+      "hex": "4601fb",
+      "flight": "FIN42T",
+      "reg": "OH-ATN",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 21000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-05-24T13:51:01.241631",
+      "last_seen": "2026-05-24T13:53:01.235338"
     }
   },
   "summary": {
-    "total_unique_aircraft": 21,
-    "last_seen_live": 0,
-    "updated": "2026-05-24T13:50:02.022400"
+    "total_unique_aircraft": 22,
+    "last_seen_live": 1,
+    "updated": "2026-05-24T13:55:02.201327"
   }
 }
