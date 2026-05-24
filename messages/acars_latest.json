@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.05.2026 15:33 UTC",
-      "source": "ACARS",
-      "flight": "CA1160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -38.0,
-      "label": "H1",
-      "msgno": "C14A",
-      "text": ".1/WRN/WN2605221533  345204006NAV ADS-B RPTG 1 FAULT"
-    },
-    {
       "time": "22.05.2026 15:34 UTC",
       "source": "ACARS",
       "flight": "CA1160",
@@ -329,6 +318,17 @@
       "label": "14",
       "msgno": "M54A",
       "text": "POS\r\n24MAY,1211,269,36002,N 61.517,E 25.539,30822,  34,163"
+    },
+    {
+      "time": "24.05.2026 12:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -29.4,
+      "label": "10",
+      "msgno": "M83A",
+      "text": "POS211219,N 61.513,E 26.463,1309,460375,,,37994,29280"
     }
   ]
 }
