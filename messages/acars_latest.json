@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.05.2026 23:24 UTC",
-      "source": "ACARS",
-      "flight": "CA8440",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "H1",
-      "msgno": "C31A",
-      "text": "RTE 1 20MAY26 2324 CAB-2095 CAO8440 LEMD/ZSPD 311B-BCG-00W-19 L 1926 20MAY26\r\nFDE 34503141 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H "
-    },
-    {
-      "time": "20.05.2026 23:24 UTC",
-      "source": "ACARS",
-      "flight": "CA8440",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "H1",
-      "msgno": "C31B",
-      "text": "PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453"
-    },
-    {
-      "time": "20.05.2026 23:24 UTC",
-      "source": "ACARS",
-      "flight": "CA8440",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "H1",
-      "msgno": "C31C",
-      "text": "302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2322 20MAY26\r\nMSG 3453302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE"
-    },
-    {
-      "time": "20.05.2026 23:24 UTC",
-      "source": "ACARS",
-      "flight": "CA8440",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -31.4,
-      "label": "H1",
-      "msgno": "C31D",
-      "text": "RTE 1 20MAY26 2324 CAB-2095 CAO8440 LEMD/ZSPD 311B-BCG-00W-19 L 1926 20MAY26\r\nFDE 34503141 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 2322 20MAY26\r\nMSG 3453301 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 2322 20MAY26\r\nMSG 3453302 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 2322 20MAY26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "20.05.2026 23:25 UTC",
-      "source": "ACARS",
-      "flight": "CA8440",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -30.5,
-      "label": "10",
-      "msgno": "M73A",
-      "text": "POS202325, N 6168,E 2689,829,283,19372,  52,34999, 669,-260,-559,7"
-    },
-    {
       "time": "20.05.2026 23:25 UTC",
       "source": "ACARS",
       "flight": "CA8440",
@@ -329,6 +274,61 @@
       "label": "SA",
       "msgno": "S99A",
       "text": "0EV023412VSH/"
+    },
+    {
+      "time": "24.05.2026 02:35 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "Q0",
+      "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "24.05.2026 02:35 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -25.4,
+      "label": "SA",
+      "msgno": "S04A",
+      "text": "0EV023526VSH/"
+    },
+    {
+      "time": "24.05.2026 02:36 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "Q0",
+      "msgno": "S07A",
+      "text": "No text"
+    },
+    {
+      "time": "24.05.2026 02:36 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "SA",
+      "msgno": "S08A",
+      "text": "0EV023640VSH/"
+    },
+    {
+      "time": "24.05.2026 02:37 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "5V",
+      "msgno": "S09A",
+      "text": "No text"
     }
   ]
 }
