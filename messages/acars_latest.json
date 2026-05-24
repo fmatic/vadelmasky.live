@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.05.2026 08:51 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "_d",
-      "msgno": "S38A",
-      "text": "No text"
-    },
-    {
       "time": "21.05.2026 18:19 UTC",
       "source": "ACARS",
       "flight": "CK0206",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S37A",
       "text": "No text"
+    },
+    {
+      "time": "24.05.2026 11:19 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-222V",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "H1",
+      "msgno": "O16A",
+      "text": "SB0122BA_B-222V  ZSPDEDDF448\r\n 61898 0275361118 34000-42027802401005Z011013"
     }
   ]
 }
