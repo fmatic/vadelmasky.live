@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.05.2026 05:59 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "5V",
-      "msgno": "S86A",
-      "text": "No text"
-    },
-    {
-      "time": "22.05.2026 11:39 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA736J",
-      "freq": 131.725,
-      "level": -39.1,
-      "label": "H1",
-      "msgno": "O68B",
-      "text": ".. 314\r\n  57  67 363  550  610    0    0000000000FA8\r\n  64  70 423  590  650    0    0000000000FA8\r\n102105 97"
-    },
-    {
-      "time": "22.05.2026 11:42 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA736J",
-      "freq": 131.725,
-      "level": -36.7,
-      "label": "H1",
-      "msgno": "O70A",
-      "text": "SS0340C_ 61\r\nJA736J  JAL47 RJTTEFHK220526114241DC\r\n29327276734-177563673316DBSM79962A\r\n 36620 24 250220526 114228\r\n 46620987 240\r\n 46620987 240\r\n10000000000000100\r\n  27280\r\n  2738715103N   96 0.0\r\n  2740014"
-    },
-    {
       "time": "22.05.2026 15:33 UTC",
       "source": "ACARS",
       "flight": "CA1160",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S24A",
       "text": "No text"
+    },
+    {
+      "time": "24.05.2026 12:10 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "_d",
+      "msgno": "S25A",
+      "text": "No text"
+    },
+    {
+      "time": "24.05.2026 12:11 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -29.3,
+      "label": "SA",
+      "msgno": "S26A",
+      "text": "0LS121106V"
+    },
+    {
+      "time": "24.05.2026 12:11 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "14",
+      "msgno": "M54A",
+      "text": "POS\r\n24MAY,1211,269,36002,N 61.517,E 25.539,30822,  34,163"
     }
   ]
 }
