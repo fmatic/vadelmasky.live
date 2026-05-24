@@ -6,17 +6,6 @@
       "flight": "N70285",
       "tail": "OH-ATE",
       "freq": 131.825,
-      "level": -24.8,
-      "label": "Q0",
-      "msgno": "S37A",
-      "text": "No text"
-    },
-    {
-      "time": "24.05.2026 08:50 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
       "level": -31.4,
       "label": "Q0",
       "msgno": "S37A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "E07B",
       "text": "9,34"
+    },
+    {
+      "time": "24.05.2026 16:15 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -35.3,
+      "label": "10",
+      "msgno": "M67A",
+      "text": "POS241615, N 6182,E 2729,824,307,31128,  42,31002, 791,-132,-444,7"
     }
   ]
 }
