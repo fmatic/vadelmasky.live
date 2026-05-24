@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.05.2026 15:34 UTC",
-      "source": "ACARS",
-      "flight": "CA1160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -35.1,
-      "label": "H1",
-      "msgno": "C15A",
-      "text": ".1/FLR/FR2605221533  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
-    },
-    {
-      "time": "23.05.2026 11:36 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "5V",
-      "msgno": "S64A",
-      "text": "No text"
-    },
-    {
-      "time": "23.05.2026 16:57 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "Q0",
-      "msgno": "S32A",
-      "text": "No text"
-    },
-    {
       "time": "23.05.2026 21:28 UTC",
       "source": "ACARS",
       "flight": "CZ2516",
@@ -329,6 +296,39 @@
       "label": "10",
       "msgno": "M83A",
       "text": "POS211219,N 61.513,E 26.463,1309,460375,,,37994,29280"
+    },
+    {
+      "time": "24.05.2026 12:33 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -37.8,
+      "label": "Q0",
+      "msgno": "S95A",
+      "text": "No text"
+    },
+    {
+      "time": "24.05.2026 12:34 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "SA",
+      "msgno": "S97A",
+      "text": "0EV123418VS/"
+    },
+    {
+      "time": "24.05.2026 12:34 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "5V",
+      "msgno": "S98A",
+      "text": "No text"
     }
   ]
 }
