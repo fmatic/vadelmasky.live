@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.05.2026 12:35 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -28.2,
-      "label": "5V",
-      "msgno": "S03A",
-      "text": "No text"
-    },
-    {
       "time": "24.05.2026 12:36 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S45A",
       "text": "No text"
+    },
+    {
+      "time": "25.05.2026 14:44 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -31.1,
+      "label": "11",
+      "msgno": "M94A",
+      "text": "POS\r\nCAS 258,LAT N 62.053,LON E 26.919,ALT 37999,FOB 41120,UTC 144455,PD ----.--,WD 308,WS   49,TAT - 11"
     }
   ]
 }
