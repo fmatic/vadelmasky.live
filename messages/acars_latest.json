@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.05.2026 12:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -29.4,
-      "label": "10",
-      "msgno": "M83A",
-      "text": "POS211219,N 61.513,E 26.463,1309,460375,,,37994,29280"
-    },
-    {
       "time": "24.05.2026 12:33 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S92A",
       "text": "No text"
+    },
+    {
+      "time": "25.05.2026 13:25 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-7869",
+      "freq": 131.825,
+      "level": -40.0,
+      "label": "10",
+      "msgno": "M59A",
+      "text": "POS251330, N 6079,E 2584,---,287,29981,  91,33998, 337,-135,-445,7"
     }
   ]
 }
