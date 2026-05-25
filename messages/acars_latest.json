@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.05.2026 12:41 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "5V",
-      "msgno": "S15A",
-      "text": "No text"
-    },
-    {
       "time": "24.05.2026 12:42 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "D16B",
       "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20415,250526,1651,09/D1ENGINE,S.N/D2ESN1,ED2140/D3ESN2,EB0268/E1IAS,ALT,TAT/E2201,.19009,-019/F1TORQ,NP,NL/F2073.3,081.9,093.6/F3073.4,081.9,095.4/G1NH,ITT,FF,IG/G2095.0,0659.5,336,0106/G3094.4,0670.5,350,0096/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I222.19/**.,EOT,...,/"
+    },
+    {
+      "time": "25.05.2026 17:01 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -26.1,
+      "label": "5V",
+      "msgno": "S09A",
+      "text": "No text"
     }
   ]
 }
