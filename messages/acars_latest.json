@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.05.2026 12:05 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32FE",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "_d",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
-      "time": "24.05.2026 12:09 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32FE",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "B9",
-      "msgno": "J09A",
-      "text": "/ENGM.TI2/000ENGMA9B05"
-    },
-    {
-      "time": "24.05.2026 12:09 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32FE",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "_d",
-      "msgno": "S24A",
-      "text": "No text"
-    },
-    {
       "time": "24.05.2026 12:10 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "E06A",
       "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,143,144,38,38,35,35,159,158,63,61,85,85,OPEN,CLOSED,OPEN,CLOSED,CRUISE,6300,0,0,AUTO,8.5,0.11,0.24,L,,,,25,MAY,26,00,44,10"
+    },
+    {
+      "time": "25.05.2026 07:00 UTC",
+      "source": "ACARS",
+      "flight": "CA3124",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "_d",
+      "msgno": "S31A",
+      "text": "No text"
+    },
+    {
+      "time": "25.05.2026 07:00 UTC",
+      "source": "ACARS",
+      "flight": "CA3124",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "H1",
+      "msgno": "E01B",
+      "text": "0,22"
+    },
+    {
+      "time": "25.05.2026 07:00 UTC",
+      "source": "ACARS",
+      "flight": "CA3124",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "H1",
+      "msgno": "O24B",
+      "text": " 06N3276)16.)\r\n250526070032\r\n250526070032\r\n250526070032"
     }
   ]
 }
