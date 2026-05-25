@@ -6,17 +6,6 @@
       "flight": "HO1660",
       "tail": "B-20EQ",
       "freq": 131.825,
-      "level": -33.8,
-      "label": "Q0",
-      "msgno": "S09A",
-      "text": "No text"
-    },
-    {
-      "time": "24.05.2026 12:39 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20EQ",
-      "freq": 131.825,
       "level": -33.0,
       "label": "SA",
       "msgno": "S10A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C22A",
       "text": ".1/WRN/WN2605251449  341440006NAV FM/GPS POS DISAGREE"
+    },
+    {
+      "time": "25.05.2026 15:44 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -36.6,
+      "label": "H1",
+      "msgno": "C23A",
+      "text": ".1/FLR/FR2605251543  34363106IR1    1,IR3,IR2,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
