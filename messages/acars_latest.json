@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.05.2026 08:50 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.4,
-      "label": "Q0",
-      "msgno": "S37A",
-      "text": "No text"
-    },
-    {
-      "time": "24.05.2026 08:50 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -39.0,
-      "label": "Q0",
-      "msgno": "S37A",
-      "text": "No text"
-    },
-    {
-      "time": "24.05.2026 11:19 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "H1",
-      "msgno": "O16A",
-      "text": "SB0122BA_B-222V  ZSPDEDDF448\r\n 61898 0275361118 34000-42027802401005Z011013"
-    },
-    {
-      "time": "24.05.2026 12:05 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32FE",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "B9",
-      "msgno": "J08A",
-      "text": "/ENGM.TI2/000ENGMA9B05"
-    },
-    {
       "time": "24.05.2026 12:05 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +285,50 @@
       "label": "10",
       "msgno": "M67A",
       "text": "POS241615, N 6182,E 2729,824,307,31128,  42,31002, 791,-132,-444,7"
+    },
+    {
+      "time": "25.05.2026 00:37 UTC",
+      "source": "ACARS",
+      "flight": "CA3122",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "H1",
+      "msgno": "O53A",
+      "text": "SB0122BA_B-2091  LEMDZSPD536\r\n 61737 0269620041 36989-4103140460109B,014018"
+    },
+    {
+      "time": "25.05.2026 00:39 UTC",
+      "source": "ACARS",
+      "flight": "CA3122",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "_d",
+      "msgno": "S21A",
+      "text": "No text"
+    },
+    {
+      "time": "25.05.2026 00:39 UTC",
+      "source": "ACARS",
+      "flight": "CA3122",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "H1",
+      "msgno": "E05B",
+      "text": ",15,34,35,ENG IDLE DISAGREE,25,MAY,26,00,43,56"
+    },
+    {
+      "time": "25.05.2026 00:39 UTC",
+      "source": "ACARS",
+      "flight": "CA3122",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "H1",
+      "msgno": "E06A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,143,144,38,38,35,35,159,158,63,61,85,85,OPEN,CLOSED,OPEN,CLOSED,CRUISE,6300,0,0,AUTO,8.5,0.11,0.24,L,,,,25,MAY,26,00,44,10"
     }
   ]
 }
