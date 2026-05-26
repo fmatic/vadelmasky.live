@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.05.2026 16:09 UTC",
-      "source": "ACARS",
-      "flight": "CA1040",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "H1",
-      "msgno": "E07B",
-      "text": "9,34"
-    },
-    {
-      "time": "24.05.2026 16:15 UTC",
-      "source": "ACARS",
-      "flight": "CA1040",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "10",
-      "msgno": "M67A",
-      "text": "POS241615, N 6182,E 2729,824,307,31128,  42,31002, 791,-132,-444,7"
-    },
-    {
-      "time": "25.05.2026 00:37 UTC",
-      "source": "ACARS",
-      "flight": "CA3122",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "H1",
-      "msgno": "O53A",
-      "text": "SB0122BA_B-2091  LEMDZSPD536\r\n 61737 0269620041 36989-4103140460109B,014018"
-    },
-    {
-      "time": "25.05.2026 00:39 UTC",
-      "source": "ACARS",
-      "flight": "CA3122",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "_d",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "25.05.2026 00:39 UTC",
-      "source": "ACARS",
-      "flight": "CA3122",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "H1",
-      "msgno": "E05B",
-      "text": ",15,34,35,ENG IDLE DISAGREE,25,MAY,26,00,43,56"
-    },
-    {
       "time": "25.05.2026 00:39 UTC",
       "source": "ACARS",
       "flight": "CA3122",
@@ -329,6 +274,61 @@
       "label": "10",
       "msgno": "M20A",
       "text": "POS260904, N 6158,E 2685,836,291,30752,  47,34006, 300, -92,-414,7"
+    },
+    {
+      "time": "26.05.2026 11:01 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "Q0",
+      "msgno": "S15A",
+      "text": "No text"
+    },
+    {
+      "time": "26.05.2026 11:01 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "SA",
+      "msgno": "S16A",
+      "text": "0EV110126V"
+    },
+    {
+      "time": "26.05.2026 11:01 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "80",
+      "msgno": "M28A",
+      "text": "3701 INRANG 0366/26 EFKU/EFHK .OH-ATG\r\n/ETA 1133/ERT     "
+    },
+    {
+      "time": "26.05.2026 11:02 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "_d",
+      "msgno": "S18A",
+      "text": "No text"
+    },
+    {
+      "time": "26.05.2026 11:02 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -35.3,
+      "label": "_d",
+      "msgno": "S19A",
+      "text": "No text"
     }
   ]
 }
