@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.05.2026 13:25 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-7869",
-      "freq": 131.825,
-      "level": -40.0,
-      "label": "10",
-      "msgno": "M59A",
-      "text": "POS251330, N 6079,E 2584,---,287,29981,  91,33998, 337,-135,-445,7"
-    },
-    {
-      "time": "25.05.2026 14:29 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -39.8,
-      "label": "SA",
-      "msgno": "S36A",
-      "text": "0EV142953VS/"
-    },
-    {
       "time": "25.05.2026 14:33 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S11A",
       "text": "0LS140714V"
+    },
+    {
+      "time": "26.05.2026 17:26 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -27.0,
+      "label": "14",
+      "msgno": "M53A",
+      "text": "POS\r\n26MAY,1726,257,38002,N 61.882,E 26.540,31175,  23,167"
+    },
+    {
+      "time": "26.05.2026 17:28 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -32.2,
+      "label": "SA",
+      "msgno": "S34A",
+      "text": "0LH172850VS"
     }
   ]
 }
