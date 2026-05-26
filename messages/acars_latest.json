@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.05.2026 07:00 UTC",
-      "source": "ACARS",
-      "flight": "CA3124",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "_d",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
-      "time": "25.05.2026 07:00 UTC",
-      "source": "ACARS",
-      "flight": "CA3124",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "H1",
-      "msgno": "E01B",
-      "text": "0,22"
-    },
-    {
-      "time": "25.05.2026 07:00 UTC",
-      "source": "ACARS",
-      "flight": "CA3124",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "H1",
-      "msgno": "O24B",
-      "text": " 06N3276)16.)\r\n250526070032\r\n250526070032\r\n250526070032"
-    },
-    {
-      "time": "25.05.2026 09:58 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -42.7,
-      "label": "5V",
-      "msgno": "S37A",
-      "text": "No text"
-    },
-    {
       "time": "25.05.2026 10:01 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +285,50 @@
       "label": "10",
       "msgno": "M90A",
       "text": "POS241206,N 61.456,E 26.211,1256,458000,,,38002,25640"
+    },
+    {
+      "time": "26.05.2026 14:02 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "Q0",
+      "msgno": "S73A",
+      "text": "No text"
+    },
+    {
+      "time": "26.05.2026 14:02 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "SA",
+      "msgno": "S74A",
+      "text": "0EV140218V"
+    },
+    {
+      "time": "26.05.2026 14:02 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "HX",
+      "msgno": "S72A",
+      "text": "/HELATXA.A9 CRC /HELATXA.TI2/EFKU ARR ATIS G\r\n1350Z RWY 33 IN USE\r\nRUNWAY 33 CONDITION\r\n REPORT AT 1321 UTC\r\n RUNWAY CONDITION CODES\r\n 6 , 6 , 6 CONTAMINANTS\r\n ALL PA"
+    },
+    {
+      "time": "26.05.2026 14:02 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "Q0",
+      "msgno": "M26A",
+      "text": "No text"
     }
   ]
 }
