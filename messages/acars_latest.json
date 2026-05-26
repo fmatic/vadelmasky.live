@@ -6,17 +6,6 @@
       "flight": "CA1040",
       "tail": "B-2097",
       "freq": 131.825,
-      "level": -38.2,
-      "label": "_d",
-      "msgno": "S98A",
-      "text": "No text"
-    },
-    {
-      "time": "24.05.2026 16:09 UTC",
-      "source": "ACARS",
-      "flight": "CA1040",
-      "tail": "B-2097",
-      "freq": 131.825,
       "level": -36.1,
       "label": "H1",
       "msgno": "E07B",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S10A",
       "text": "0EV030827V"
+    },
+    {
+      "time": "26.05.2026 09:00 UTC",
+      "source": "ACARS",
+      "flight": "CA1021",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -39.3,
+      "label": "10",
+      "msgno": "M20A",
+      "text": "POS260904, N 6158,E 2685,836,291,30752,  47,34006, 300, -92,-414,7"
     }
   ]
 }
