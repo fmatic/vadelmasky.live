@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.05.2026 00:39 UTC",
-      "source": "ACARS",
-      "flight": "CA3122",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "H1",
-      "msgno": "E06A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,143,144,38,38,35,35,159,158,63,61,85,85,OPEN,CLOSED,OPEN,CLOSED,CRUISE,6300,0,0,AUTO,8.5,0.11,0.24,L,,,,25,MAY,26,00,44,10"
-    },
-    {
       "time": "25.05.2026 07:00 UTC",
       "source": "ACARS",
       "flight": "CA3124",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S19A",
       "text": "No text"
+    },
+    {
+      "time": "26.05.2026 12:06 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -36.8,
+      "label": "10",
+      "msgno": "M90A",
+      "text": "POS241206,N 61.456,E 26.211,1256,458000,,,38002,25640"
     }
   ]
 }

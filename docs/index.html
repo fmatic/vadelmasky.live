@@ -246,22 +246,22 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">26</div>
+        <div class="value">28</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">15</div>
+        <div class="value">17</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">34006 ft</div>
+        <div class="value">38000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">26.05.2026 12:05 UTC</div>
+        <div class="value">26.05.2026 12:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CAO1153</div>
+                    <div class="meta">ICAO 780019 · REG B-6092 · TYPE A332</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>447.8 kt</b></div>
+                    <div><span>Track</span><b>245.04°</b></div>
+                    <div><span>Position</span><b>61.2457, 25.3444</b></div>
+                    <div><span>Last seen</span><b>26.05.2026 12:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6092" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5KR</div>
+                    <div class="meta">ICAO 461E21 · REG OH-LKR · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">27100 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>425.1 kt</b></div>
+                    <div><span>Track</span><b>181.35°</b></div>
+                    <div><span>Position</span><b>61.6651, 25.2972</b></div>
+                    <div><span>Last seen</span><b>26.05.2026 12:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -914,6 +962,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CA1153</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6092 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">26.05.2026 12:06 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 10 · Msg M90A · Level -36.8 dB
+            </div>
+
+            <div class="acars-text">POS241206,N 61.456,E 26.211,1256,458000,,,38002,25640</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">N70366</div>
                     <div class="acars-meta">
                         ACARS · Tail OH-ATG · 131.825 MHz
@@ -1110,29 +1176,11 @@ footer {
             <div class="acars-text">A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20415,250526,1651,09/D1ENGINE,S.N/D2ESN1,ED2140/D3ESN2,EB0268/E1IAS,ALT,TAT/E2201,.19009,-019/F1TORQ,NP,N</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70415</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATM · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">25.05.2026 16:56 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S08A · Level -28.9 dB
-            </div>
-
-            <div class="acars-text">0EV165605V</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "467899", "flight": "K31", "lat": 62.326263, "lon": 25.840861, "alt": 2500, "speed": 113.1, "last_seen": "26.05.2026 12:05 UTC"}, {"hex": "4601F9", "flight": "FIN286", "lat": 61.724776, "lon": 25.405273, "alt": 17725, "speed": 220.0, "last_seen": "26.05.2026 12:04 UTC"}, {"hex": "4601FB", "flight": "FIN2KK", "lat": 61.800004, "lon": 25.303853, "alt": 21000, "speed": 293.2, "last_seen": "26.05.2026 12:01 UTC"}, {"hex": "4678A6", "flight": "K33", "lat": 62.326277, "lon": 25.84164, "alt": 2550, "speed": 78.5, "last_seen": "26.05.2026 11:57 UTC"}, {"hex": "461F6C", "flight": "FIN2PD", "lat": 61.676514, "lon": 25.298375, "alt": 23275, "speed": 405.1, "last_seen": "26.05.2026 11:55 UTC"}, {"hex": "467898", "flight": "K34", "lat": 62.32576, "lon": 25.842285, "alt": 2525, "speed": 76.4, "last_seen": "26.05.2026 11:53 UTC"}, {"hex": "4678A8", "flight": "K32", "lat": 62.322553, "lon": 25.847767, "alt": 2475, "speed": 74.3, "last_seen": "26.05.2026 11:45 UTC"}, {"hex": "4601F4", "flight": "FIN26B", "lat": 61.052444, "lon": 25.373121, "alt": 20000, "speed": 276.2, "last_seen": "26.05.2026 11:16 UTC"}, {"hex": "467895", "flight": "ATLAS06", "lat": 62.32246, "lon": 25.839844, "alt": 2700, "speed": 147.9, "last_seen": "26.05.2026 10:25 UTC"}, {"hex": "780C5C", "flight": "CA1021", "lat": 61.58, "lon": 26.85, "alt": 34006, "speed": 462.1, "last_seen": "26.05.2026 09:37 UTC"}, {"hex": "46788B", "flight": "HAPPY1", "lat": 62.424316, "lon": 26.524251, "alt": 16975, "speed": 366.4, "last_seen": "26.05.2026 09:21 UTC"}, {"hex": "467894", "flight": "T05", "lat": 62.325533, "lon": 25.842379, "alt": 2475, "speed": 141.4, "last_seen": "26.05.2026 08:21 UTC"}, {"hex": "461FA1", "flight": "FIN7TP", "lat": 61.666725, "lon": 25.297953, "alt": 20500, "speed": 387.1, "last_seen": "26.05.2026 08:17 UTC"}, {"hex": "4678AF", "flight": "K05", "lat": 62.325905, "lon": 25.842273, "alt": 2375, "speed": 74.3, "last_seen": "26.05.2026 06:49 UTC"}, {"hex": "4601FC", "flight": "FIN5ET", "lat": 60.854901, "lon": 25.594025, "alt": 20025, "speed": 319.4, "last_seen": "26.05.2026 05:57 UTC"}];
+const aircraft = [{"hex": "780019", "flight": "CAO1153", "lat": 61.245707, "lon": 25.344442, "alt": 38000, "speed": 447.8, "last_seen": "26.05.2026 12:10 UTC"}, {"hex": "461E21", "flight": "FIN5KR", "lat": 61.665143, "lon": 25.297241, "alt": 27100, "speed": 425.1, "last_seen": "26.05.2026 12:10 UTC"}, {"hex": "467899", "flight": "K31", "lat": 62.326263, "lon": 25.840861, "alt": 2500, "speed": 113.1, "last_seen": "26.05.2026 12:05 UTC"}, {"hex": "4601F9", "flight": "FIN286", "lat": 61.724776, "lon": 25.405273, "alt": 17725, "speed": 220.0, "last_seen": "26.05.2026 12:04 UTC"}, {"hex": "4601FB", "flight": "FIN2KK", "lat": 61.800004, "lon": 25.303853, "alt": 21000, "speed": 293.2, "last_seen": "26.05.2026 12:01 UTC"}, {"hex": "4678A6", "flight": "K33", "lat": 62.326277, "lon": 25.84164, "alt": 2550, "speed": 78.5, "last_seen": "26.05.2026 11:57 UTC"}, {"hex": "461F6C", "flight": "FIN2PD", "lat": 61.676514, "lon": 25.298375, "alt": 23275, "speed": 405.1, "last_seen": "26.05.2026 11:55 UTC"}, {"hex": "467898", "flight": "K34", "lat": 62.32576, "lon": 25.842285, "alt": 2525, "speed": 76.4, "last_seen": "26.05.2026 11:53 UTC"}, {"hex": "4678A8", "flight": "K32", "lat": 62.322553, "lon": 25.847767, "alt": 2475, "speed": 74.3, "last_seen": "26.05.2026 11:45 UTC"}, {"hex": "4601F4", "flight": "FIN26B", "lat": 61.052444, "lon": 25.373121, "alt": 20000, "speed": 276.2, "last_seen": "26.05.2026 11:16 UTC"}, {"hex": "467895", "flight": "ATLAS06", "lat": 62.32246, "lon": 25.839844, "alt": 2700, "speed": 147.9, "last_seen": "26.05.2026 10:25 UTC"}, {"hex": "780C5C", "flight": "CA1021", "lat": 61.58, "lon": 26.85, "alt": 34006, "speed": 462.1, "last_seen": "26.05.2026 09:37 UTC"}, {"hex": "46788B", "flight": "HAPPY1", "lat": 62.424316, "lon": 26.524251, "alt": 16975, "speed": 366.4, "last_seen": "26.05.2026 09:21 UTC"}, {"hex": "467894", "flight": "T05", "lat": 62.325533, "lon": 25.842379, "alt": 2475, "speed": 141.4, "last_seen": "26.05.2026 08:21 UTC"}, {"hex": "461FA1", "flight": "FIN7TP", "lat": 61.666725, "lon": 25.297953, "alt": 20500, "speed": 387.1, "last_seen": "26.05.2026 08:17 UTC"}, {"hex": "4678AF", "flight": "K05", "lat": 62.325905, "lon": 25.842273, "alt": 2375, "speed": 74.3, "last_seen": "26.05.2026 06:49 UTC"}, {"hex": "4601FC", "flight": "FIN5ET", "lat": 60.854901, "lon": 25.594025, "alt": 20025, "speed": 319.4, "last_seen": "26.05.2026 05:57 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
