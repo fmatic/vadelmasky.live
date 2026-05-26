@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.05.2026 14:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -39.1,
-      "label": "Q0",
-      "msgno": "S39A",
-      "text": "No text"
-    },
-    {
-      "time": "25.05.2026 14:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "5V",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
-      "time": "25.05.2026 14:35 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "SA",
-      "msgno": "S44A",
-      "text": "0EV143501VS/"
-    },
-    {
       "time": "25.05.2026 14:36 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S34A",
       "text": "0LH172850VS"
+    },
+    {
+      "time": "26.05.2026 21:30 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2010",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "Q0",
+      "msgno": "S80A",
+      "text": "No text"
+    },
+    {
+      "time": "26.05.2026 21:33 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2010",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "H1",
+      "msgno": "C13D",
+      "text": "I-MODE RECEIVER (RIGHT)\r\nMSG 3453013 I 2130 26MAY26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "26.05.2026 21:33 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2010",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "18",
+      "msgno": "M10A",
+      "text": "POX,CSG2516   ,26MAY26,213325,EGPK,ZGGG,N061.78,E0028.11,350, 677,832,  76.2, -23.1,015,-37.9,063025, 37520,"
     }
   ]
 }
