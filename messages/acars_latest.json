@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.05.2026 15:44 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6092",
-      "freq": 131.725,
-      "level": -36.6,
-      "label": "H1",
-      "msgno": "C23A",
-      "text": ".1/FLR/FR2605251543  34363106IR1    1,IR3,IR2,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "25.05.2026 16:56 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -27.6,
-      "label": "Q0",
-      "msgno": "S07A",
-      "text": "No text"
-    },
-    {
       "time": "25.05.2026 16:56 UTC",
       "source": "ACARS",
       "flight": "N70415",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S56A",
       "text": "No text"
+    },
+    {
+      "time": "27.05.2026 07:40 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "10",
+      "msgno": "M53A",
+      "text": "POS030745, N 6167,E 2723,825,288,34676,  14,34003, 265, -82,-400,7"
+    },
+    {
+      "time": "27.05.2026 07:44 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -38.8,
+      "label": "H1",
+      "msgno": "O06A",
+      "text": "SB0122BA_B-2093  ZSPDEHAM915\r\n 61455 0262870749 33999-390350013010/9W011013"
     }
   ]
 }
