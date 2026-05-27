@@ -6,28 +6,6 @@
       "flight": "N70415",
       "tail": "OH-ATM",
       "freq": 131.825,
-      "level": -28.9,
-      "label": "SA",
-      "msgno": "S08A",
-      "text": "0EV165605V"
-    },
-    {
-      "time": "25.05.2026 16:56 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -28.0,
-      "label": "H1",
-      "msgno": "D16A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20415,250526,1651,09/D1ENGINE,S.N/D2ESN1,ED2140/D3ESN2,EB0268/E1IAS,ALT,TAT/E2201,.19009,-019/F1TORQ,NP,N"
-    },
-    {
-      "time": "25.05.2026 16:56 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATM",
-      "freq": 131.825,
       "level": -28.3,
       "label": "H1",
       "msgno": "D16B",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O06A",
       "text": "SB0122BA_B-2093  ZSPDEHAM915\r\n 61455 0262870749 33999-390350013010/9W011013"
+    },
+    {
+      "time": "27.05.2026 07:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -39.6,
+      "label": "H1",
+      "msgno": "E99A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,170,171,45,45,42,43,157,159,66,61,86,86,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,0,AUTO,8.5,0.12,0.23,L,,,,03,JUN,26,07,50,52"
+    },
+    {
+      "time": "27.05.2026 07:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -37.9,
+      "label": "H1",
+      "msgno": "E01A",
+      "text": "PER,R,266.7,-39.3,288,-7.4,494.4,0.825,34000,101.5,101.5,86.5,86.6,--,0.54,--,0.57,86.5,86.5,0.54,--,0.21,--,734,729,0.41,--,0.67,--,104.1,104.2,0.53,--,0.69,--,3.834,3.833,171,173,0.00,0.00,69,71,75,74,16,"
     }
   ]
 }
