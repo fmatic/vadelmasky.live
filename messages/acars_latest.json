@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.05.2026 14:07 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2010",
-      "freq": 131.825,
-      "level": -40.1,
-      "label": "SA",
-      "msgno": "S11A",
-      "text": "0LS140714V"
-    },
-    {
-      "time": "26.05.2026 17:26 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32FE",
-      "freq": 131.825,
-      "level": -27.0,
-      "label": "14",
-      "msgno": "M53A",
-      "text": "POS\r\n26MAY,1726,257,38002,N 61.882,E 26.540,31175,  23,167"
-    },
-    {
       "time": "26.05.2026 17:28 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "E63B",
       "text": "HYD,R,3010,3120,3000,3010,3130,3080,3010,16,17,22,28,ON,ON,ON,ON,YES,YES,OPEN,OPEN,60,40,10,50,-6,-8,-11,0,AUTO,AUTO,AUTO,AUTO,NO,NO,NO,NO,80,,STOWED,0.95,,1.09,,0.95,,NORM,NORM,NORM,0,8,9,NORM,NORM,NORM,NORM,NORM,NORM,NORM,NORM,,27,MAY,26,12,52,21"
+    },
+    {
+      "time": "27.05.2026 18:35 UTC",
+      "source": "ACARS",
+      "flight": "N70520",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "_d",
+      "msgno": "S05A",
+      "text": "No text"
+    },
+    {
+      "time": "27.05.2026 18:35 UTC",
+      "source": "ACARS",
+      "flight": "N70520",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -42.8,
+      "label": "_d",
+      "msgno": "S06A",
+      "text": "No text"
     }
   ]
 }
