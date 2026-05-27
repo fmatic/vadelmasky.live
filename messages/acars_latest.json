@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.05.2026 11:01 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -30.5,
-      "label": "SA",
-      "msgno": "S16A",
-      "text": "0EV110126V"
-    },
-    {
-      "time": "26.05.2026 11:01 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "80",
-      "msgno": "M28A",
-      "text": "3701 INRANG 0366/26 EFKU/EFHK .OH-ATG\r\n/ETA 1133/ERT     "
-    },
-    {
-      "time": "26.05.2026 11:02 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -32.5,
-      "label": "_d",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
-      "time": "26.05.2026 11:02 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "_d",
-      "msgno": "S19A",
-      "text": "No text"
-    },
-    {
-      "time": "26.05.2026 12:06 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6092",
-      "freq": 131.725,
-      "level": -36.8,
-      "label": "10",
-      "msgno": "M90A",
-      "text": "POS241206,N 61.456,E 26.211,1256,458000,,,38002,25640"
-    },
-    {
       "time": "26.05.2026 14:02 UTC",
       "source": "ACARS",
       "flight": "N70369",
@@ -328,6 +273,61 @@
       "level": -29.7,
       "label": "Q0",
       "msgno": "S07A",
+      "text": "No text"
+    },
+    {
+      "time": "27.05.2026 12:03 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "80",
+      "msgno": "M15A",
+      "text": "3501 SUMMRY 0285/27 EFHK/EFJY .OH-ATE\r\n/OUT 0949/FOB 0018\r\n/OFF 1010/FOB 0017\r\n/ON  1050/FOB 0011\r\n/IN  1052/FOB 0012\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
+    },
+    {
+      "time": "27.05.2026 12:03 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -23.7,
+      "label": "80",
+      "msgno": "M16A",
+      "text": "1201 ONRP   0285/27 EFHK/EFJY .OH-ATE\r\n/ON  1050/FOB 0011"
+    },
+    {
+      "time": "27.05.2026 12:03 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -23.7,
+      "label": "80",
+      "msgno": "M16A",
+      "text": "1201 ONRP   0285/27 EFHK/EFJY .OH-ATE\r\n/ON  1050/FOB 0011"
+    },
+    {
+      "time": "27.05.2026 12:03 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "80",
+      "msgno": "M17A",
+      "text": "1301 INRP   0285/27 EFHK/EFJY .OH-ATE\r\n/ON  1050/IN  1052/FOB 0012"
+    },
+    {
+      "time": "27.05.2026 12:04 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -30.4,
+      "label": "5V",
+      "msgno": "S10A",
       "text": "No text"
     }
   ]
