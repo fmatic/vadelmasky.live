@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.05.2026 10:45 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.725,
-      "level": -32.8,
-      "label": "Q0",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
-      "time": "27.05.2026 10:45 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -14.9,
-      "label": "Q0",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
-      "time": "27.05.2026 10:45 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -12.3,
-      "label": "Q0",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
-      "time": "27.05.2026 10:46 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -26.7,
-      "label": "Q0",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
       "time": "27.05.2026 10:47 UTC",
       "source": "ACARS",
       "flight": "N70285",
@@ -329,6 +285,50 @@
       "label": "10",
       "msgno": "M62A",
       "text": "POS281323, N 6167,E 2727,827,289,1077 ,  17,34000, 255, -96,-414,7"
+    },
+    {
+      "time": "28.05.2026 13:22 UTC",
+      "source": "ACARS",
+      "flight": "CA1043",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -36.2,
+      "label": "H1",
+      "msgno": "O52A",
+      "text": "SB0122BA_B-2095  ZSPDEHAM 16\r\n 61493 0263731326 33995-410006021010/9W012014"
+    },
+    {
+      "time": "28.05.2026 13:23 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "B9",
+      "msgno": "J08A",
+      "text": "/ENGM.TI2/000ENGMA9B05"
+    },
+    {
+      "time": "28.05.2026 13:23 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "_d",
+      "msgno": "S47A",
+      "text": "No text"
+    },
+    {
+      "time": "28.05.2026 13:24 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -37.9,
+      "label": "H1",
+      "msgno": "C18A",
+      "text": ".1/FLR/FR2605281323  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
