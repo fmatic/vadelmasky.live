@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.05.2026 21:33 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2010",
-      "freq": 131.825,
-      "level": -38.6,
-      "label": "H1",
-      "msgno": "C13D",
-      "text": "I-MODE RECEIVER (RIGHT)\r\nMSG 3453013 I 2130 26MAY26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "26.05.2026 21:33 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2010",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "18",
-      "msgno": "M10A",
-      "text": "POX,CSG2516   ,26MAY26,213325,EGPK,ZGGG,N061.78,E0028.11,350, 677,832,  76.2, -23.1,015,-37.9,063025, 37520,"
-    },
-    {
-      "time": "26.05.2026 21:39 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "Q0",
-      "msgno": "S56A",
-      "text": "No text"
-    },
-    {
-      "time": "26.05.2026 21:39 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "Q0",
-      "msgno": "S56A",
-      "text": "No text"
-    },
-    {
       "time": "26.05.2026 21:39 UTC",
       "source": "ACARS",
       "flight": "N70289",
@@ -328,6 +284,50 @@
       "level": -33.2,
       "label": "Q0",
       "msgno": "S52A",
+      "text": "No text"
+    },
+    {
+      "time": "28.05.2026 02:59 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -25.2,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/28 EFJY/EFHK .OH-ATF\r\n/OUT 0253/FOB 0015/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "28.05.2026 02:59 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/28 EFJY/EFHK .OH-ATF\r\n/OUT 0253/FOB 0015/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "28.05.2026 02:59 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/28 EFJY/EFHK .OH-ATF\r\n/OUT 0253/OFF 0256/FOB 0015/ETA 0334"
+    },
+    {
+      "time": "28.05.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "_d",
+      "msgno": "S01A",
       "text": "No text"
     }
   ]
