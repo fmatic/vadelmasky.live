@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">29.05.2026 02:55 UTC</div>
+        <div class="value">29.05.2026 03:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601FA · REG OH-ATM · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">12025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>245.6 kt</b></div>
+                    <div><span>Track</span><b>183.97°</b></div>
+                    <div><span>Position</span><b>62.0285, 25.6420</b></div>
+                    <div><span>Last seen</span><b>29.05.2026 03:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATM" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -310,6 +334,79 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATM · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">29.05.2026 02:58 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 5V · Msg S02A · Level -27.5 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATM · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">29.05.2026 02:57 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 80 · Msg M01A · Level -25.6 dB
+            </div>
+
+            <div class="acars-text">1101 OFFRP  0290/29 EFJY/EFHK .OH-ATM
+/OUT 0251/OFF 0253/FOB 0014/ETA 0328</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATM · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">29.05.2026 02:57 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S01A · Level -30.2 dB
+            </div>
+
+            <div class="acars-text">0EV025651V</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATM · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">29.05.2026 02:56 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg S00A · Level -24.7 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -369,7 +466,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "4601FA", "flight": "FIN8KH", "lat": 62.028483, "lon": 25.641988, "alt": 12025, "speed": 245.6, "last_seen": "29.05.2026 03:00 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
