@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.05.2026 19:18 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -38.4,
-      "label": "SA",
-      "msgno": "S16A",
-      "text": "0LS191815V"
-    },
-    {
-      "time": "30.05.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "CA3039",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "SA",
-      "msgno": "S14A",
-      "text": "0LS025502V"
-    },
-    {
-      "time": "30.05.2026 06:07 UTC",
-      "source": "ACARS",
-      "flight": "CK0213",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -29.5,
-      "label": "H1",
-      "msgno": "O19A",
-      "text": "SB0122BA_B-2077  ZGSZEGSS 59\r\n 62204 0261830607 34001-5003480150107GX008010"
-    },
-    {
       "time": "30.05.2026 06:14 UTC",
       "source": "ACARS",
       "flight": "CA3143",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "M65A",
       "text": "No text"
+    },
+    {
+      "time": "30.05.2026 20:27 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5926",
+      "freq": 131.725,
+      "level": -34.9,
+      "label": "H1",
+      "msgno": "C13A",
+      "text": ".1/WRN/WN2605302028  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "30.05.2026 20:29 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5926",
+      "freq": 131.725,
+      "level": -34.4,
+      "label": "SA",
+      "msgno": "S29A",
+      "text": "0LS202943V"
+    },
+    {
+      "time": "30.05.2026 20:29 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5926",
+      "freq": 131.725,
+      "level": -33.7,
+      "label": "11",
+      "msgno": "M16A",
+      "text": "POS\r\nCAS 275,LAT N 61.474,LON E 27.010,ALT 35002,FOB 122840,UTC 203011,PD ----.--,WD 353,WS   21,TAT - 24"
     }
   ]
 }
