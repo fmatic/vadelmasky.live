@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">30.05.2026 10:10 UTC</div>
+        <div class="value">30.05.2026 10:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHACN</div>
+                    <div class="meta">ICAO 460041 · REG OH-ACN · TYPE AC90</div>
+                </div>
+                <div class="alt-badge low">3000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>30.05.2026 10:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ACN" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -295,35 +319,11 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>61.5250, 26.5210</b></div>
-                    <div><span>Last seen</span><b>30.05.2026 10:10 UTC</b></div>
+                    <div><span>Last seen</span><b>30.05.2026 10:15 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6093" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">OHACN</div>
-                    <div class="meta">ICAO 460041 · REG OH-ACN · TYPE AC90</div>
-                </div>
-                <div class="alt-badge mid">23400 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>30.05.2026 09:56 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ACN" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1013,7 +1013,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "78037B", "flight": "CA3067", "lat": 61.525, "lon": 26.521, "alt": "-", "speed": "-", "last_seen": "30.05.2026 10:10 UTC"}, {"hex": "461F31", "flight": "FIN8MC", "lat": 61.758362, "lon": 25.307693, "alt": 33850, "speed": 437.2, "last_seen": "30.05.2026 09:41 UTC"}, {"hex": "4601F5", "flight": "FIN489", "lat": 62.504014, "lon": 26.43057, "alt": 22000, "speed": 258.7, "last_seen": "30.05.2026 09:07 UTC"}, {"hex": "4609DB", "flight": "OHDTB", "lat": 62.321686, "lon": 25.851034, "alt": 2750, "speed": 84.9, "last_seen": "30.05.2026 08:22 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.166464, "lon": 26.160032, "alt": 3050, "speed": 109.0, "last_seen": "30.05.2026 08:22 UTC"}, {"hex": "461F36", "flight": "FIN7TP", "lat": 61.499039, "lon": 25.288958, "alt": 22250, "speed": 401.1, "last_seen": "30.05.2026 08:14 UTC"}, {"hex": "4601F7", "flight": "FIN7KL", "lat": 61.902652, "lon": 25.372213, "alt": 20025, "speed": 239.3, "last_seen": "30.05.2026 05:46 UTC"}, {"hex": "460E85", "flight": "OHFMZ", "lat": 62.326538, "lon": 25.842896, "alt": 2400, "speed": 137.3, "last_seen": "30.05.2026 05:27 UTC"}, {"hex": "4601FD", "flight": "FIN4QA", "lat": 61.183513, "lon": 25.553284, "alt": 18025, "speed": 289.7, "last_seen": "30.05.2026 03:06 UTC"}, {"hex": "78044F", "flight": "CAO3039", "lat": 61.243379, "lon": 25.342, "alt": 36000, "speed": 457.6, "last_seen": "30.05.2026 03:01 UTC"}];
+const aircraft = [{"hex": "78037B", "flight": "CA3067", "lat": 61.525, "lon": 26.521, "alt": "-", "speed": "-", "last_seen": "30.05.2026 10:15 UTC"}, {"hex": "461F31", "flight": "FIN8MC", "lat": 61.758362, "lon": 25.307693, "alt": 33850, "speed": 437.2, "last_seen": "30.05.2026 09:41 UTC"}, {"hex": "4601F5", "flight": "FIN489", "lat": 62.504014, "lon": 26.43057, "alt": 22000, "speed": 258.7, "last_seen": "30.05.2026 09:07 UTC"}, {"hex": "4609DB", "flight": "OHDTB", "lat": 62.321686, "lon": 25.851034, "alt": 2750, "speed": 84.9, "last_seen": "30.05.2026 08:22 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.166464, "lon": 26.160032, "alt": 3050, "speed": 109.0, "last_seen": "30.05.2026 08:22 UTC"}, {"hex": "461F36", "flight": "FIN7TP", "lat": 61.499039, "lon": 25.288958, "alt": 22250, "speed": 401.1, "last_seen": "30.05.2026 08:14 UTC"}, {"hex": "4601F7", "flight": "FIN7KL", "lat": 61.902652, "lon": 25.372213, "alt": 20025, "speed": 239.3, "last_seen": "30.05.2026 05:46 UTC"}, {"hex": "460E85", "flight": "OHFMZ", "lat": 62.326538, "lon": 25.842896, "alt": 2400, "speed": 137.3, "last_seen": "30.05.2026 05:27 UTC"}, {"hex": "4601FD", "flight": "FIN4QA", "lat": 61.183513, "lon": 25.553284, "alt": 18025, "speed": 289.7, "last_seen": "30.05.2026 03:06 UTC"}, {"hex": "78044F", "flight": "CAO3039", "lat": 61.243379, "lon": 25.342, "alt": 36000, "speed": 457.6, "last_seen": "30.05.2026 03:01 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
