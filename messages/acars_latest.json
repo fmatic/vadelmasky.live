@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.05.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "Q0",
-      "msgno": "M51A",
-      "text": "No text"
-    },
-    {
-      "time": "29.05.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -33.2,
-      "label": "SA",
-      "msgno": "M52A",
-      "text": "0EV110743V"
-    },
-    {
-      "time": "29.05.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "80",
-      "msgno": "M53A",
-      "text": "3701 INRANG 0366/29 EFKU/EFHK .OH-ATO\r\n/ETA 1138/ERT     "
-    },
-    {
-      "time": "29.05.2026 11:13 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "5V",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
-      "time": "29.05.2026 15:12 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "H1",
-      "msgno": "D00B",
-      "text": "L/F2068.9,081.9,094.5/F3068.9,082.0,093.6/G1NH,ITT,FF,IG/G2096.3,0661.0,326,0094/G3095.4,0649.0,312,0075/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.17/**.,EOT,...,/"
-    },
-    {
       "time": "29.05.2026 19:08 UTC",
       "source": "ACARS",
       "flight": "CZ2516",
@@ -328,6 +273,61 @@
       "level": -32.0,
       "label": "5V",
       "msgno": "S18A",
+      "text": "No text"
+    },
+    {
+      "time": "30.05.2026 19:20 UTC",
+      "source": "ACARS",
+      "flight": "N70538",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "_d",
+      "msgno": "S17A",
+      "text": "No text"
+    },
+    {
+      "time": "30.05.2026 19:20 UTC",
+      "source": "ACARS",
+      "flight": "N70614",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "SA",
+      "msgno": "M63A",
+      "text": "0EV192037V"
+    },
+    {
+      "time": "30.05.2026 19:20 UTC",
+      "source": "ACARS",
+      "flight": "N70538",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "_d",
+      "msgno": "S18A",
+      "text": "No text"
+    },
+    {
+      "time": "30.05.2026 19:20 UTC",
+      "source": "ACARS",
+      "flight": "N70614",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "B9",
+      "msgno": "L13A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "30.05.2026 19:20 UTC",
+      "source": "ACARS",
+      "flight": "N70614",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -39.8,
+      "label": "_d",
+      "msgno": "S19A",
       "text": "No text"
     }
   ]
