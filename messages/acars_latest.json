@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.05.2026 02:57 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -25.6,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1101 OFFRP  0290/29 EFJY/EFHK .OH-ATM\r\n/OUT 0251/OFF 0253/FOB 0014/ETA 0328"
-    },
-    {
-      "time": "29.05.2026 02:58 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -27.5,
-      "label": "5V",
-      "msgno": "S02A",
-      "text": "No text"
-    },
-    {
       "time": "29.05.2026 06:06 UTC",
       "source": "ACARS",
       "flight": "N70362",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M77A",
       "text": "POS281338,N 61.535,E 26.564,1551,475625,,,38001,40360"
+    },
+    {
+      "time": "30.05.2026 14:36 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5926",
+      "freq": 131.725,
+      "level": -32.3,
+      "label": "11",
+      "msgno": "M38A",
+      "text": "POS\r\nCAS 258,LAT N 61.769,LON E 25.925,ALT 38003,FOB 35480,UTC 143700,PD ----.--,WD   9,WS   15,TAT - 26"
+    },
+    {
+      "time": "30.05.2026 14:38 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5926",
+      "freq": 131.725,
+      "level": -34.3,
+      "label": "SA",
+      "msgno": "S04A",
+      "text": "0LS143924V"
     }
   ]
 }
