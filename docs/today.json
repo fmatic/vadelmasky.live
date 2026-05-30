@@ -2,16 +2,16 @@
   "aircraft": {
     "781134": {
       "hex": "781134",
-      "flight": "CBJ621",
+      "flight": "CBJ622",
       "reg": "B-8982",
       "type": "A332",
-      "lat": null,
-      "lon": null,
-      "alt": 38000,
-      "speed": 492.0,
-      "track": 237.13,
+      "lat": 61.299335,
+      "lon": 25.890808,
+      "alt": 35000,
+      "speed": 455.2,
+      "track": 59.21,
       "seen_first": "2026-05-30T01:04:01.605907",
-      "last_seen": "2026-05-30T01:12:02.117642"
+      "last_seen": "2026-05-30T15:29:01.896803"
     },
     "06a1d0": {
       "hex": "06a1d0",
@@ -288,16 +288,16 @@
     },
     "4601fa": {
       "hex": "4601fa",
-      "flight": "",
+      "flight": "FIN5CE",
       "reg": "OH-ATM",
       "type": "AT75",
-      "lat": 61.939819,
-      "lon": 26.590053,
-      "alt": 16000,
-      "speed": 294.8,
-      "track": 210.13,
+      "lat": 61.945713,
+      "lon": 25.88857,
+      "alt": 20000,
+      "speed": 236.5,
+      "track": 13.45,
       "seen_first": "2026-05-30T10:54:01.245564",
-      "last_seen": "2026-05-30T10:59:01.255822"
+      "last_seen": "2026-05-30T15:30:01.728963"
     },
     "4601f2": {
       "hex": "4601f2",
@@ -480,11 +480,24 @@
       "track": null,
       "seen_first": "2026-05-30T15:09:02.148895",
       "last_seen": "2026-05-30T15:09:02.148895"
+    },
+    "3d1b9d": {
+      "hex": "3d1b9d",
+      "flight": "DEISB",
+      "reg": null,
+      "type": null,
+      "lat": 62.318848,
+      "lon": 25.860901,
+      "alt": 2850,
+      "speed": 159.1,
+      "track": 314.24,
+      "seen_first": "2026-05-30T15:26:01.874731",
+      "last_seen": "2026-05-30T15:30:01.728963"
     }
   },
   "summary": {
-    "total_unique_aircraft": 37,
-    "last_seen_live": 0,
-    "updated": "2026-05-30T15:25:01.361308"
+    "total_unique_aircraft": 38,
+    "last_seen_live": 2,
+    "updated": "2026-05-30T15:30:01.728963"
   }
 }
