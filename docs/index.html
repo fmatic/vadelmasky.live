@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">9</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">30.05.2026 05:20 UTC</div>
+        <div class="value">30.05.2026 05:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHFMZ</div>
+                    <div class="meta">ICAO 460E85 · REG OH-FMZ · TYPE C182</div>
+                </div>
+                <div class="alt-badge low">3400 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>123.8 kt</b></div>
+                    <div><span>Track</span><b>317.29°</b></div>
+                    <div><span>Position</span><b>62.2869, 25.9230</b></div>
+                    <div><span>Last seen</span><b>30.05.2026 05:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-FMZ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -700,7 +724,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "461F31", "flight": "FIN8MC", "lat": 61.637072, "lon": 25.297139, "alt": 24475, "speed": 420.0, "last_seen": "30.05.2026 03:08 UTC"}, {"hex": "4601FD", "flight": "FIN4QA", "lat": 61.183513, "lon": 25.553284, "alt": 18025, "speed": 289.7, "last_seen": "30.05.2026 03:06 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.743988, "lon": 25.420107, "alt": 17650, "speed": 234.8, "last_seen": "30.05.2026 03:04 UTC"}, {"hex": "78044F", "flight": "CAO3039", "lat": 61.243379, "lon": 25.342, "alt": 36000, "speed": 457.6, "last_seen": "30.05.2026 03:01 UTC"}];
+const aircraft = [{"hex": "460E85", "flight": "OHFMZ", "lat": 62.286942, "lon": 25.922953, "alt": 3400, "speed": 123.8, "last_seen": "30.05.2026 05:25 UTC"}, {"hex": "461F31", "flight": "FIN8MC", "lat": 61.637072, "lon": 25.297139, "alt": 24475, "speed": 420.0, "last_seen": "30.05.2026 03:08 UTC"}, {"hex": "4601FD", "flight": "FIN4QA", "lat": 61.183513, "lon": 25.553284, "alt": 18025, "speed": 289.7, "last_seen": "30.05.2026 03:06 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.743988, "lon": 25.420107, "alt": 17650, "speed": 234.8, "last_seen": "30.05.2026 03:04 UTC"}, {"hex": "78044F", "flight": "CAO3039", "lat": 61.243379, "lon": 25.342, "alt": 36000, "speed": 457.6, "last_seen": "30.05.2026 03:01 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
