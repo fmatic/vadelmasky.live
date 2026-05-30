@@ -150,11 +150,11 @@
       "type": "PA31",
       "lat": null,
       "lon": null,
-      "alt": 3925,
+      "alt": 3875,
       "speed": null,
       "track": null,
       "seen_first": "2026-05-30T06:09:01.444979",
-      "last_seen": "2026-05-30T08:10:01.920439"
+      "last_seen": "2026-05-30T08:15:01.547291"
     },
     "78044e": {
       "hex": "78044e",
@@ -187,18 +187,44 @@
       "flight": "FIN7TP",
       "reg": "OH-LVI",
       "type": "A319",
-      "lat": 61.559609,
-      "lon": 25.291748,
-      "alt": 30575,
-      "speed": 430.1,
-      "track": 181.2,
+      "lat": 61.499039,
+      "lon": 25.288958,
+      "alt": 22250,
+      "speed": 401.1,
+      "track": 181.29,
       "seen_first": "2026-05-30T08:08:02.280863",
-      "last_seen": "2026-05-30T08:10:01.920439"
+      "last_seen": "2026-05-30T08:14:01.696938"
+    },
+    "4609db": {
+      "hex": "4609db",
+      "flight": "OHDTB",
+      "reg": "OH-DTB",
+      "type": "DA40",
+      "lat": 62.199842,
+      "lon": 25.817026,
+      "alt": 2925,
+      "speed": 101.9,
+      "track": 42.61,
+      "seen_first": "2026-05-30T08:12:02.151441",
+      "last_seen": "2026-05-30T08:15:01.547291"
+    },
+    "460561": {
+      "hex": "460561",
+      "flight": "OHCAZ",
+      "reg": "OH-CAZ",
+      "type": "C172",
+      "lat": 62.278654,
+      "lon": 25.851147,
+      "alt": 2475,
+      "speed": 114.0,
+      "track": 132.51,
+      "seen_first": "2026-05-30T08:13:01.918568",
+      "last_seen": "2026-05-30T08:15:01.547291"
     }
   },
   "summary": {
-    "total_unique_aircraft": 15,
-    "last_seen_live": 2,
-    "updated": "2026-05-30T08:10:01.920439"
+    "total_unique_aircraft": 17,
+    "last_seen_live": 3,
+    "updated": "2026-05-30T08:15:01.547291"
   }
 }
