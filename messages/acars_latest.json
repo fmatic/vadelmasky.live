@@ -6,17 +6,6 @@
       "flight": "CA3160",
       "tail": "B-6090",
       "freq": 131.825,
-      "level": -37.2,
-      "label": "_d",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
-      "time": "31.05.2026 11:49 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6090",
-      "freq": 131.825,
       "level": -36.7,
       "label": "_d",
       "msgno": "S24A",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S86A",
       "text": "0LS193724V"
+    },
+    {
+      "time": "31.05.2026 20:39 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -27.7,
+      "label": "10",
+      "msgno": "M93A",
+      "text": "POS312040,N 61.950,E 26.016,0428,470750,,,37000,105200"
     }
   ]
 }
