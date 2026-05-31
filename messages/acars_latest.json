@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.05.2026 20:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5926",
-      "freq": 131.725,
-      "level": -34.9,
-      "label": "H1",
-      "msgno": "C13A",
-      "text": ".1/WRN/WN2605302028  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "30.05.2026 20:29 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5926",
-      "freq": 131.725,
-      "level": -34.4,
-      "label": "SA",
-      "msgno": "S29A",
-      "text": "0LS202943V"
-    },
-    {
-      "time": "30.05.2026 20:29 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5926",
-      "freq": 131.725,
-      "level": -33.7,
-      "label": "11",
-      "msgno": "M16A",
-      "text": "POS\r\nCAS 275,LAT N 61.474,LON E 27.010,ALT 35002,FOB 122840,UTC 203011,PD ----.--,WD 353,WS   21,TAT - 24"
-    },
-    {
-      "time": "31.05.2026 08:58 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "Q0",
-      "msgno": "S86A",
-      "text": "No text"
-    },
-    {
       "time": "31.05.2026 08:59 UTC",
       "source": "ACARS",
       "flight": "N70285",
@@ -329,6 +285,50 @@
       "label": "SA",
       "msgno": "S55A",
       "text": "0EV143423VS/"
+    },
+    {
+      "time": "31.05.2026 18:35 UTC",
+      "source": "ACARS",
+      "flight": "CK0236",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -40.6,
+      "label": "Q0",
+      "msgno": "S57A",
+      "text": "No text"
+    },
+    {
+      "time": "31.05.2026 18:37 UTC",
+      "source": "ACARS",
+      "flight": "CK0236",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -39.8,
+      "label": "16",
+      "msgno": "M79A",
+      "text": "POSA1N61588E 27733,ALAMI  ,180603,329,KOKAT  ,185250,-54, 14, 697,831"
+    },
+    {
+      "time": "31.05.2026 18:39 UTC",
+      "source": "ACARS",
+      "flight": "CK0236",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "H1",
+      "msgno": "O21A",
+      "text": "SS0340F_578\r\nB-227M  CKK236EDDFZUCK310526184005ER\r\n29733000831-2350214043168BSM79967A21\r\n7536101278 2801310526 184002\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33001\r\n      ) 1 12N    )16.)\r"
+    },
+    {
+      "time": "31.05.2026 18:39 UTC",
+      "source": "ACARS",
+      "flight": "CK0236",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "H1",
+      "msgno": "O21B",
+      "text": "SS0340F_578\r\nB-227M  CKK236EDDFZUCK310526184005ER\r\n29733000831-2350214043168BSM79967A21\r\n7536101278 2801310526 184002\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33001\r\n      ) 1 12N    )16.)\r\n      ) 1 12N    )16.)\r\n310526184005\r\n111111111111\r\n111111111111"
     }
   ]
 }
