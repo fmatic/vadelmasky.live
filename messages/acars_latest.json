@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.05.2026 06:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3143",
-      "tail": "B-6115",
-      "freq": 131.725,
-      "level": -33.9,
-      "label": "B9",
-      "msgno": "M40A",
-      "text": "/EDDF.TI2/024EDDFA1046"
-    },
-    {
-      "time": "30.05.2026 09:53 UTC",
-      "source": "ACARS",
-      "flight": "CA3067",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -33.2,
-      "label": "10",
-      "msgno": "M53A",
-      "text": "POS300954,N 61.525,E 26.521,1210,485125,,,38000,44360"
-    },
-    {
-      "time": "30.05.2026 13:34 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "Q0",
-      "msgno": "S16A",
-      "text": "No text"
-    },
-    {
       "time": "30.05.2026 13:34 UTC",
       "source": "ACARS",
       "flight": "N70369",
@@ -329,6 +296,39 @@
       "label": "11",
       "msgno": "M16A",
       "text": "POS\r\nCAS 275,LAT N 61.474,LON E 27.010,ALT 35002,FOB 122840,UTC 203011,PD ----.--,WD 353,WS   21,TAT - 24"
+    },
+    {
+      "time": "31.05.2026 08:58 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "Q0",
+      "msgno": "S86A",
+      "text": "No text"
+    },
+    {
+      "time": "31.05.2026 08:59 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "Q0",
+      "msgno": "S86A",
+      "text": "No text"
+    },
+    {
+      "time": "31.05.2026 08:59 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "Q0",
+      "msgno": "S86A",
+      "text": "No text"
     }
   ]
 }
