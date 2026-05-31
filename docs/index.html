@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">31.05.2026 10:00 UTC</div>
+        <div class="value">31.05.2026 10:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHDAM</div>
+                    <div class="meta">ICAO 4607F8 · REG OH-DAM · TYPE DA42</div>
+                </div>
+                <div class="alt-badge low">5050 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>125.5 kt</b></div>
+                    <div><span>Track</span><b>198.58°</b></div>
+                    <div><span>Position</span><b>62.2727, 25.6248</b></div>
+                    <div><span>Last seen</span><b>31.05.2026 10:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-DAM" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -379,30 +403,6 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">OHDAM</div>
-                    <div class="meta">ICAO 4607F8 · REG OH-DAM · TYPE DA42</div>
-                </div>
-                <div class="alt-badge low">2800 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>103.2 kt</b></div>
-                    <div><span>Track</span><b>315.0°</b></div>
-                    <div><span>Position</span><b>62.3082, 25.8815</b></div>
-                    <div><span>Last seen</span><b>31.05.2026 08:42 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-DAM" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
                     <div class="flight">OHXCH</div>
                     <div class="meta">ICAO 463CF7 · REG OH-XCH · TYPE FOX</div>
                 </div>
@@ -478,6 +478,24 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">HO1607</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-20EQ · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">31.05.2026 10:00 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 5V · Msg S35A · Level -39.1 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -678,29 +696,11 @@ CAS 275,LAT N 61.474,LON E 27.010,ALT 35002,FOB 122840,UTC 203011,PD ----.--,WD 
             <div class="acars-text">.1/WRN/WN2605302028  345801006NAV GPS 2 FAULT</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70614</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATL · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">30.05.2026 19:26 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label Q0 · Msg M65A · Level -34.8 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F9", "flight": "-", "lat": 61.745224, "lon": 25.226767, "alt": 21000, "speed": 278.1, "last_seen": "31.05.2026 09:42 UTC"}, {"hex": "4601F7", "flight": "FIN286", "lat": 61.862384, "lon": 25.550842, "alt": 14125, "speed": 219.3, "last_seen": "31.05.2026 09:35 UTC"}, {"hex": "4692D1", "flight": "AEE4579", "lat": 61.808395, "lon": 26.877463, "alt": 26650, "speed": 439.9, "last_seen": "31.05.2026 08:58 UTC"}, {"hex": "4607F8", "flight": "OHDAM", "lat": 62.308215, "lon": 25.881465, "alt": 2800, "speed": 103.2, "last_seen": "31.05.2026 08:42 UTC"}, {"hex": "463CF7", "flight": "OHXCH", "lat": 62.10466, "lon": 25.711833, "alt": 1975, "speed": 73.9, "last_seen": "31.05.2026 08:28 UTC"}];
+const aircraft = [{"hex": "4607F8", "flight": "OHDAM", "lat": 62.272742, "lon": 25.624765, "alt": 5050, "speed": 125.5, "last_seen": "31.05.2026 10:05 UTC"}, {"hex": "4601F9", "flight": "-", "lat": 61.745224, "lon": 25.226767, "alt": 21000, "speed": 278.1, "last_seen": "31.05.2026 09:42 UTC"}, {"hex": "4601F7", "flight": "FIN286", "lat": 61.862384, "lon": 25.550842, "alt": 14125, "speed": 219.3, "last_seen": "31.05.2026 09:35 UTC"}, {"hex": "4692D1", "flight": "AEE4579", "lat": 61.808395, "lon": 26.877463, "alt": 26650, "speed": 439.9, "last_seen": "31.05.2026 08:58 UTC"}, {"hex": "463CF7", "flight": "OHXCH", "lat": 62.10466, "lon": 25.711833, "alt": 1975, "speed": 73.9, "last_seen": "31.05.2026 08:28 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
