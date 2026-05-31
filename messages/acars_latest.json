@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.05.2026 09:58 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -39.3,
-      "label": "_d",
-      "msgno": "S28A",
-      "text": "No text"
-    },
-    {
-      "time": "31.05.2026 09:58 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -40.0,
-      "label": "_d",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
       "time": "31.05.2026 10:00 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S28A",
       "text": "0LS192655V"
+    },
+    {
+      "time": "31.05.2026 19:32 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -38.3,
+      "label": "H1",
+      "msgno": "O17A",
+      "text": "SB0122BA_B-2077  EDDFZSPD162\r\n 61390 0271651932 31001-47032901401005Z012015"
+    },
+    {
+      "time": "31.05.2026 19:34 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "16",
+      "msgno": "M51A",
+      "text": "POSA1N61569E 27719,ADO-10 ,193144,309,ASP-11 ,194139,-48, 12, 788,828"
     }
   ]
 }
