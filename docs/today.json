@@ -135,13 +135,13 @@
       "flight": "FIN417",
       "reg": "OH-ATM",
       "type": "AT75",
-      "lat": 61.711974,
-      "lon": 25.337931,
-      "alt": 18025,
-      "speed": 304.2,
-      "track": 178.12,
+      "lat": 62.369245,
+      "lon": 26.410816,
+      "alt": 18000,
+      "speed": 265.2,
+      "track": 21.92,
       "seen_first": "2026-05-31T11:21:01.480144",
-      "last_seen": "2026-05-31T21:20:01.318253"
+      "last_seen": "2026-05-31T21:25:01.602444"
     },
     "460e85": {
       "hex": "460e85",
@@ -376,11 +376,24 @@
       "track": 71.02,
       "seen_first": "2026-05-31T20:38:01.867227",
       "last_seen": "2026-05-31T21:16:01.390191"
+    },
+    "4601fd": {
+      "hex": "4601fd",
+      "flight": "FIN1T",
+      "reg": "OH-ATP",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 20025,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-05-31T21:23:01.489650",
+      "last_seen": "2026-05-31T21:25:01.602444"
     }
   },
   "summary": {
-    "total_unique_aircraft": 29,
-    "last_seen_live": 1,
-    "updated": "2026-05-31T21:20:01.318253"
+    "total_unique_aircraft": 30,
+    "last_seen_live": 2,
+    "updated": "2026-05-31T21:25:01.602444"
   }
 }
