@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.05.2026 14:29 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "5V",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
-      "time": "31.05.2026 14:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "Q0",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
-      "time": "31.05.2026 14:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "SA",
-      "msgno": "S47A",
-      "text": "0EV143122VS/"
-    },
-    {
       "time": "31.05.2026 14:31 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "D01A",
       "text": "A25/ATR7250025,1,1/A1PW127M,ENGINE,CYCLES,REPORT/B1DATE,GMT/B2JUN01,0249/C1TOTAL,LIFE,COUNT/C2ENGINE,1,S.N/C3ESN1,ED2003/C4LP,IMPELLER,11584/C5HP,IMPELLER,11584/C6HP,FRONT,COVER,02900/C7HP,DISK,11579/C8HP,R"
+    },
+    {
+      "time": "01.06.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -25.3,
+      "label": "H1",
+      "msgno": "D01C",
+      "text": "ISK,00530/E8HP,REAR,COVER,00530/E9AIR,SEAL,00662/F0LP,DISK,00530/F11ST,PT,DISK,13444/F22ND,PT,DISK,13444/H1REMAINING,LIFE/H2ESN1,ESN2/H3ED2003,ED1060/H403416,LP,IMP,14470/H503416,HP,IMP,14470/H612100,HP,FRO"
+    },
+    {
+      "time": "01.06.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -27.7,
+      "label": "H1",
+      "msgno": "D01D",
+      "text": "NT,14391/H703421,HP,DISK,14470/H803421,HP,REAR,14470/H911848,AIR,SEAL,14338/I003460,LP,DISK,14470/I118423,1ST,PT,16556/I218423,2ND,PT,16556/**.,EOT,...,/"
+    },
+    {
+      "time": "01.06.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -27.2,
+      "label": "5V",
+      "msgno": "S01A",
+      "text": "No text"
     }
   ]
 }
