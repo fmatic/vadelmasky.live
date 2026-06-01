@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.05.2026 19:32 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "H1",
-      "msgno": "O17A",
-      "text": "SB0122BA_B-2077  EDDFZSPD162\r\n 61390 0271651932 31001-47032901401005Z012015"
-    },
-    {
       "time": "31.05.2026 19:34 UTC",
       "source": "ACARS",
       "flight": "CK0216",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S71A",
       "text": "No text"
+    },
+    {
+      "time": "01.06.2026 13:26 UTC",
+      "source": "ACARS",
+      "flight": "CA3061",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -29.0,
+      "label": "10",
+      "msgno": "M48A",
+      "text": "POS011327,N 61.381,E 25.881,1415,437750,,,35997,25640"
     }
   ]
 }
