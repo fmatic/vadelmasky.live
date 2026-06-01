@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.05.2026 19:34 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "16",
-      "msgno": "M51A",
-      "text": "POSA1N61569E 27719,ADO-10 ,193144,309,ASP-11 ,194139,-48, 12, 788,828"
-    },
-    {
-      "time": "31.05.2026 19:36 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "H1",
-      "msgno": "O18A",
-      "text": "SS0340F_161\r\nB-2077  CKK216EDDFZSPD310526193634ER\r\n30831000829-1750240103168BSM79967A21\r\n6976101100 2801310526 193631\r\n6876100 91 2800)\r\n 116100947 3300)\r\n10000001111111111\r\n  30999\r\n  3100)12 06N3276)16.)\r"
-    },
-    {
-      "time": "31.05.2026 19:36 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -29.8,
-      "label": "H1",
-      "msgno": "O18B",
-      "text": "SS0340F_161\r\nB-2077  CKK216EDDFZSPD310526193634ER\r\n30831000829-1750240103168BSM79967A21\r\n6976101100 2801310526 193631\r\n6876100 91 2800)\r\n 116100947 3300)\r\n10000001111111111\r\n  30999\r\n  3100)12 06N3276)16.)\r\n  3100)12 06N3276)16.)\r\n310526193634\r\n310526193635\r\n310526193635"
-    },
-    {
       "time": "31.05.2026 19:36 UTC",
       "source": "ACARS",
       "flight": "CK0216",
@@ -329,6 +296,39 @@
       "label": "10",
       "msgno": "M48A",
       "text": "POS011327,N 61.381,E 25.881,1415,437750,,,35997,25640"
+    },
+    {
+      "time": "01.06.2026 21:40 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "Q0",
+      "msgno": "S44A",
+      "text": "No text"
+    },
+    {
+      "time": "01.06.2026 21:40 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -37.8,
+      "label": "Q0",
+      "msgno": "S44A",
+      "text": "No text"
+    },
+    {
+      "time": "01.06.2026 21:41 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "Q0",
+      "msgno": "S44A",
+      "text": "No text"
     }
   ]
 }
