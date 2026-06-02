@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.05.2026 19:36 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "SA",
-      "msgno": "S86A",
-      "text": "0LS193724V"
-    },
-    {
       "time": "31.05.2026 20:39 UTC",
       "source": "ACARS",
       "flight": "CA1160",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S44A",
       "text": "No text"
+    },
+    {
+      "time": "02.06.2026 02:08 UTC",
+      "source": "ACARS",
+      "flight": "CA3048",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "10",
+      "msgno": "M35A",
+      "text": "POS020208, N 6159,E 2634,832,259,27071,  18,39002, 642,-166,-479,7"
     }
   ]
 }
