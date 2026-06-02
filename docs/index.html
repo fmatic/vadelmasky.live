@@ -246,12 +246,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">02.06.2026 03:00 UTC</div>
+        <div class="value">02.06.2026 03:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -295,7 +295,7 @@ footer {
                     <div><span>Speed</span><b>241.0 kt</b></div>
                     <div><span>Track</span><b>198.13°</b></div>
                     <div><span>Position</span><b>61.7080, 26.3741</b></div>
-                    <div><span>Last seen</span><b>02.06.2026 03:00 UTC</b></div>
+                    <div><span>Last seen</span><b>02.06.2026 03:05 UTC</b></div>
                 </div>
             </div>
 
@@ -310,20 +310,44 @@ footer {
                     <div class="flight">FIN8KH</div>
                     <div class="meta">ICAO 4601F4 · REG OH-ATG · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">12725 ft</div>
+                <div class="alt-badge mid">17150 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>185.6 kt</b></div>
-                    <div><span>Track</span><b>187.43°</b></div>
-                    <div><span>Position</span><b>62.0013, 25.6233</b></div>
-                    <div><span>Last seen</span><b>02.06.2026 03:00 UTC</b></div>
+                    <div><span>Speed</span><b>205.4 kt</b></div>
+                    <div><span>Track</span><b>186.71°</b></div>
+                    <div><span>Position</span><b>61.7321, 25.5407</b></div>
+                    <div><span>Last seen</span><b>02.06.2026 03:05 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 781579 · REG B-303Z · TYPE A333</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>02.06.2026 03:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-303Z" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -599,7 +623,7 @@ MSG </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F6", "flight": "FIN4QA", "lat": 61.707971, "lon": 26.374105, "alt": 16000, "speed": 241.0, "last_seen": "02.06.2026 03:00 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 62.001251, "lon": 25.623256, "alt": 12725, "speed": 185.6, "last_seen": "02.06.2026 03:00 UTC"}, {"hex": "780D8F", "flight": "CAO3048", "lat": 61.59, "lon": 26.34, "alt": 39000, "speed": 504.0, "last_seen": "02.06.2026 02:45 UTC"}];
+const aircraft = [{"hex": "4601F6", "flight": "FIN4QA", "lat": 61.707971, "lon": 26.374105, "alt": 16000, "speed": 241.0, "last_seen": "02.06.2026 03:05 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.732086, "lon": 25.540662, "alt": 17150, "speed": 205.4, "last_seen": "02.06.2026 03:05 UTC"}, {"hex": "780D8F", "flight": "CAO3048", "lat": 61.59, "lon": 26.34, "alt": 39000, "speed": 504.0, "last_seen": "02.06.2026 02:45 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
