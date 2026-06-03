@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.06.2026 02:12 UTC",
-      "source": "ACARS",
-      "flight": "CA3048",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -32.5,
-      "label": "H1",
-      "msgno": "C31C",
-      "text": "3453301 A 0210 02JUN26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 0210 02JUN26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503141 A 0209 02JUN26\r\nMSG 3453301 A 0210 02JUN26 ER H PL\r\nDB MULTI-MO"
-    },
-    {
-      "time": "02.06.2026 02:13 UTC",
-      "source": "ACARS",
-      "flight": "CA3048",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "H1",
-      "msgno": "C31D",
-      "text": "DE RECEIVER (LEFT)\r\nMSG 3453011 A 0210 02JUN26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
       "time": "02.06.2026 02:13 UTC",
       "source": "ACARS",
       "flight": "CA3048",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S76A",
       "text": "0LS100108VH"
+    },
+    {
+      "time": "03.06.2026 10:05 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -33.3,
+      "label": "10",
+      "msgno": "M88A",
+      "text": "POS011005,N 61.384,E 25.893,1052,456875,,,38001,25240"
+    },
+    {
+      "time": "03.06.2026 10:06 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -35.5,
+      "label": "_d",
+      "msgno": "S79A",
+      "text": "No text"
     }
   ]
 }
