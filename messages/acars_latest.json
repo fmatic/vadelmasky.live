@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.06.2026 02:11 UTC",
-      "source": "ACARS",
-      "flight": "CA3048",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "H1",
-      "msgno": "O32A",
-      "text": "SB0122BA_B-2094  LEMDZSPD717\r\n 61820 0269610210 38997-48026601901020;011014"
-    },
-    {
-      "time": "02.06.2026 02:12 UTC",
-      "source": "ACARS",
-      "flight": "CA3048",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "H1",
-      "msgno": "C31B",
-      "text": " PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503100 A 0210 02JUN26\r\nMSG 3453302 A 0210 02JUN26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 0210 02JUN26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG "
-    },
-    {
       "time": "02.06.2026 02:12 UTC",
       "source": "ACARS",
       "flight": "CA3048",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S75A",
       "text": "No text"
+    },
+    {
+      "time": "03.06.2026 10:00 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -33.2,
+      "label": "SA",
+      "msgno": "S76A",
+      "text": "0LS100108VH"
+    },
+    {
+      "time": "03.06.2026 10:00 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -32.3,
+      "label": "SA",
+      "msgno": "S76A",
+      "text": "0LS100108VH"
     }
   ]
 }
