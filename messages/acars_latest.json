@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.06.2026 02:53 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
       "time": "02.06.2026 02:54 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S40A",
       "text": "No text"
+    },
+    {
+      "time": "03.06.2026 11:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "H1",
+      "msgno": "O65A",
+      "text": "SB0122BA_B-227M  ZSPDEDDF813\r\n 61930 0275681102 34002-57033704301020;011014"
     }
   ]
 }
