@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">03.06.2026 05:55 UTC</div>
+        <div class="value">03.06.2026 06:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T25</div>
+                    <div class="meta">ICAO 467894 · REG PI-05 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge low">1000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>212.0 kt</b></div>
+                    <div><span>Track</span><b>210.31°</b></div>
+                    <div><span>Position</span><b>62.2667, 25.6806</b></div>
+                    <div><span>Last seen</span><b>03.06.2026 05:57 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -324,30 +348,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2093" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">T25</div>
-                    <div class="meta">ICAO 467894 · REG PI-05 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge low">3025 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>179.0 kt</b></div>
-                    <div><span>Track</span><b>6.09°</b></div>
-                    <div><span>Position</span><b>62.3228, 25.7237</b></div>
-                    <div><span>Last seen</span><b>03.06.2026 05:19 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -750,7 +750,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "780C5D", "flight": "CAO1007", "lat": 61.864898, "lon": 26.786092, "alt": 32000, "speed": 470.0, "last_seen": "03.06.2026 05:22 UTC"}, {"hex": "467894", "flight": "T25", "lat": 62.322833, "lon": 25.723748, "alt": 3025, "speed": 179.0, "last_seen": "03.06.2026 05:19 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.96452, "lon": 25.581563, "alt": 18000, "speed": 212.6, "last_seen": "03.06.2026 03:14 UTC"}];
+const aircraft = [{"hex": "467894", "flight": "T25", "lat": 62.266737, "lon": 25.680648, "alt": 1000, "speed": 212.0, "last_seen": "03.06.2026 05:57 UTC"}, {"hex": "780C5D", "flight": "CAO1007", "lat": 61.864898, "lon": 26.786092, "alt": 32000, "speed": 470.0, "last_seen": "03.06.2026 05:22 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.96452, "lon": 25.581563, "alt": 18000, "speed": 212.6, "last_seen": "03.06.2026 03:14 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
