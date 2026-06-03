@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">16</div>
+        <div class="value">17</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">6</div>
+        <div class="value">7</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">03.06.2026 08:35 UTC</div>
+        <div class="value">03.06.2026 08:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN592</div>
+                    <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">23000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>278.1 kt</b></div>
+                    <div><span>Track</span><b>181.44°</b></div>
+                    <div><span>Position</span><b>61.8258, 25.3029</b></div>
+                    <div><span>Last seen</span><b>03.06.2026 08:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -894,7 +918,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "780BB8", "flight": "CA1039", "lat": 4.022, "lon": 3.991, "alt": "-", "speed": "-", "last_seen": "03.06.2026 08:33 UTC"}, {"hex": "4678A6", "flight": "YOUNG2", "lat": 62.280258, "lon": 25.697428, "alt": 1175, "speed": 127.1, "last_seen": "03.06.2026 08:29 UTC"}, {"hex": "46789D", "flight": "YOUNG1", "lat": 62.152544, "lon": 25.744453, "alt": 1675, "speed": 120.7, "last_seen": "03.06.2026 08:25 UTC"}, {"hex": "467894", "flight": "T25", "lat": 62.265472, "lon": 25.551046, "alt": 1150, "speed": 211.3, "last_seen": "03.06.2026 07:02 UTC"}, {"hex": "780C5D", "flight": "CAO1007", "lat": 61.864898, "lon": 26.786092, "alt": 32000, "speed": 470.0, "last_seen": "03.06.2026 05:22 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.96452, "lon": 25.581563, "alt": 18000, "speed": 212.6, "last_seen": "03.06.2026 03:14 UTC"}];
+const aircraft = [{"hex": "4601F2", "flight": "FIN592", "lat": 61.825836, "lon": 25.302887, "alt": 23000, "speed": 278.1, "last_seen": "03.06.2026 08:40 UTC"}, {"hex": "780BB8", "flight": "CA1039", "lat": 4.022, "lon": 3.991, "alt": "-", "speed": "-", "last_seen": "03.06.2026 08:33 UTC"}, {"hex": "4678A6", "flight": "YOUNG2", "lat": 62.280258, "lon": 25.697428, "alt": 1175, "speed": 127.1, "last_seen": "03.06.2026 08:29 UTC"}, {"hex": "46789D", "flight": "YOUNG1", "lat": 62.152544, "lon": 25.744453, "alt": 1675, "speed": 120.7, "last_seen": "03.06.2026 08:25 UTC"}, {"hex": "467894", "flight": "T25", "lat": 62.265472, "lon": 25.551046, "alt": 1150, "speed": 211.3, "last_seen": "03.06.2026 07:02 UTC"}, {"hex": "780C5D", "flight": "CAO1007", "lat": 61.864898, "lon": 26.786092, "alt": 32000, "speed": 470.0, "last_seen": "03.06.2026 05:22 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.96452, "lon": 25.581563, "alt": 18000, "speed": 212.6, "last_seen": "03.06.2026 03:14 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
