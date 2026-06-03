@@ -28,16 +28,16 @@
     },
     "4601fa": {
       "hex": "4601fa",
-      "flight": "FIN5ET",
+      "flight": "FIN1KH",
       "reg": "OH-ATM",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 20000,
-      "speed": null,
-      "track": null,
+      "lat": 61.783432,
+      "lon": 25.394999,
+      "alt": 21000,
+      "speed": 268.4,
+      "track": 126.06,
       "seen_first": "2026-06-03T02:47:02.080683",
-      "last_seen": "2026-06-03T05:48:01.704615"
+      "last_seen": "2026-06-03T11:25:01.701424"
     },
     "4601f7": {
       "hex": "4601f7",
@@ -324,11 +324,24 @@
       "track": 15.78,
       "seen_first": "2026-06-03T11:04:01.259213",
       "last_seen": "2026-06-03T11:19:02.198303"
+    },
+    "467895": {
+      "hex": "467895",
+      "flight": "T26",
+      "reg": "PI-06",
+      "type": "PC12",
+      "lat": null,
+      "lon": null,
+      "alt": 2800,
+      "speed": 226.0,
+      "track": 313.59,
+      "seen_first": "2026-06-03T11:21:02.045101",
+      "last_seen": "2026-06-03T11:25:01.701424"
     }
   },
   "summary": {
-    "total_unique_aircraft": 25,
-    "last_seen_live": 1,
-    "updated": "2026-06-03T11:20:02.110091"
+    "total_unique_aircraft": 26,
+    "last_seen_live": 2,
+    "updated": "2026-06-03T11:25:01.701424"
   }
 }
