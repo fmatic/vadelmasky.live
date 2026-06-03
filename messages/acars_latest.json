@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.06.2026 11:13 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -26.8,
-      "label": "80",
-      "msgno": "M17A",
-      "text": "3501 SUMMRY 0285/01 EFHK/EFJY .OH-ATI\r\n/OUT 0955/FOB 0018\r\n/OFF 1000/FOB 0018\r\n/ON  1038/FOB 0013\r\n/IN  1040/FOB 0014\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
-    },
-    {
-      "time": "01.06.2026 11:13 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -27.5,
-      "label": "80",
-      "msgno": "M17B",
-      "text": "3501 SUMMRY 0285/01 EFHK/EFJY .OH-ATI\r\n/OUT 0955/FOB 0018\r\n/OFF 1000/FOB 0018\r\n/ON  1038/FOB 0013\r\n/IN  1040/FOB 0014\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
-      "time": "01.06.2026 11:13 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "80",
-      "msgno": "M19A",
-      "text": "1301 INRP   0285/01 EFHK/EFJY .OH-ATI\r\n/ON  1038/IN  1040/FOB 0014"
-    },
-    {
-      "time": "01.06.2026 11:13 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "80",
-      "msgno": "M20A",
-      "text": "1001 OUTRP  0286/01 EFJY/EFHK .OH-ATI\r\n/OUT 1103/FOB 0014/BRD       /UNT LITERS  /TYP A "
-    },
-    {
       "time": "01.06.2026 11:14 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -328,6 +284,50 @@
       "level": -32.4,
       "label": "Q0",
       "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "03.06.2026 02:55 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.725,
+      "level": -36.2,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/03 EFJY/EFHK .OH-ATJ\r\n/OUT 0249/FOB 0017/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "03.06.2026 02:55 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -21.0,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/03 EFJY/EFHK .OH-ATJ\r\n/OUT 0249/FOB 0017/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "03.06.2026 02:55 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -22.4,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/03 EFJY/EFHK .OH-ATJ\r\n/OUT 0249/OFF 0252/FOB 0017/ETA 0332"
+    },
+    {
+      "time": "03.06.2026 02:55 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.725,
+      "level": -39.5,
+      "label": "5V",
+      "msgno": "S01A",
       "text": "No text"
     }
   ]
