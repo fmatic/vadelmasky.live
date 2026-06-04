@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.06.2026 02:51 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -26.6,
-      "label": "H1",
-      "msgno": "D01B",
-      "text": "EAR,COVER,03055/C9AIR,SEAL,03819/D0LP,DISK,03048/D11ST,PT,DISK,03054/D22ND,PT,DISK,03054/E1TOTAL,LIFE,COUNT/E2ENGINE,2,S.N/E3ESN2,ED2131/E4LP,IMPELLER,00811/E5HP,IMPELLER,00811/E6HP,FRONT,COVER,00931/E7HP,D"
-    },
-    {
-      "time": "04.06.2026 02:52 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -24.6,
-      "label": "H1",
-      "msgno": "D01C",
-      "text": "ISK,00810/E8HP,REAR,COVER,00810/E9AIR,SEAL,01013/F0LP,DISK,00806/F11ST,PT,DISK,00810/F22ND,PT,DISK,00810/H1REMAINING,LIFE/H2ESN1,ESN2/H3ED2136,ED2131/H411942,LP,IMP,14189/H511942,HP,IMP,14189/H611488,HP,FRO"
-    },
-    {
       "time": "04.06.2026 02:52 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S44A",
       "text": "No text"
+    },
+    {
+      "time": "04.06.2026 18:38 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -32.3,
+      "label": "10",
+      "msgno": "M87A",
+      "text": "POS041838,N 61.949,E 27.823,0215,474000,,,37007,105480"
+    },
+    {
+      "time": "04.06.2026 18:39 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -36.9,
+      "label": "H1",
+      "msgno": "C16A",
+      "text": ".1/WRN/WN2606041839  345800506NAV GPS 1 FAULT"
     }
   ]
 }
