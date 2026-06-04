@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.06.2026 05:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "_d",
-      "msgno": "S56A",
-      "text": "No text"
-    },
-    {
-      "time": "03.06.2026 07:32 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "Q0",
-      "msgno": "S89A",
-      "text": "No text"
-    },
-    {
-      "time": "03.06.2026 07:56 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -41.1,
-      "label": "H1",
-      "msgno": "E91A",
-      "text": "PER,R,266.0,-52.0,302,-21.8,477.3,0.827,32000,99.3,99.3,83.1,83.1,--,0.63,--,0.67,83.2,83.2,0.39,--,0.28,--,677,670,1.01,--,0.77,--,101.0,101.1,1.04,--,0.78,--,4.022,3.991,183,183,0.00,0.00,63,75,63,63,17,1"
-    },
-    {
-      "time": "03.06.2026 09:58 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6092",
-      "freq": 131.725,
-      "level": -34.1,
-      "label": "12",
-      "msgno": "M87A",
-      "text": "WXR FS EGPK,,"
-    },
-    {
       "time": "03.06.2026 09:59 UTC",
       "source": "ACARS",
       "flight": "CA1159",
@@ -328,6 +284,50 @@
       "level": -39.6,
       "label": "5V",
       "msgno": "S04A",
+      "text": "No text"
+    },
+    {
+      "time": "04.06.2026 09:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -41.5,
+      "label": "H1",
+      "msgno": "C27C",
+      "text": " 0556 04JUN26 ER I 12 PL\r\nDB 31 DCA OPS (LEFT 2)\r\nDB 31 DCA OPS (RIGHT 2)\r\nFRC 20378 20378  \r\nMSG 4201476 I 0451 04JUN26 ER I 4 PL\r\nDB 42 GPM_GENERAL OPS (RIGHT 4)\r\nDB 42 GPM_GENERAL OPS (LEFT 1)\r\nFRC 1476 "
+    },
+    {
+      "time": "04.06.2026 09:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -42.0,
+      "label": "H1",
+      "msgno": "C27D",
+      "text": "1476  \r\nMSG 2311081 I 0333 04JUN26 ER I 1 PL\r\nDB LEFT HF COMMUNICATION TRANSCEIVER\r\nFRC 35025  \r\nMSG 4259483 I 0330 04JUN26 ER I 1 PL\r\nDB CAPTAIN'S AUDIO CONTROL PANEL\r\nDB FIRST OBSERVER'S AUDIO CONTROL PAN"
+    },
+    {
+      "time": "04.06.2026 09:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -42.4,
+      "label": "H1",
+      "msgno": "C27F",
+      "text": "072 I 0117 04JUN26 IC I 2 PL\r\nDB RIGHT HF COMMUNICATION TRANSCEIVER\r\nFRC 35017  \r\nMSG 3812679 I 0101 04JUN26 ES I 1 PL\r\nDB 38 WW OPS (2)\r\nFRC 492  \r\nMSG 3812680 I 0101 04JUN26 ES I 1 PL\r\nDB 38 WW OPS (2)\r\nF"
+    },
+    {
+      "time": "04.06.2026 09:44 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -43.0,
+      "label": "5V",
+      "msgno": "S19A",
       "text": "No text"
     }
   ]
