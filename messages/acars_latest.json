@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.06.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -39.4,
-      "label": "_d",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
-      "time": "04.06.2026 18:38 UTC",
-      "source": "ACARS",
-      "flight": "CA3120",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -32.3,
-      "label": "10",
-      "msgno": "M87A",
-      "text": "POS041838,N 61.949,E 27.823,0215,474000,,,37007,105480"
-    },
-    {
-      "time": "04.06.2026 18:39 UTC",
-      "source": "ACARS",
-      "flight": "CA3120",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -36.9,
-      "label": "H1",
-      "msgno": "C16A",
-      "text": ".1/WRN/WN2606041839  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "05.06.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -29.6,
-      "label": "Q0",
-      "msgno": "S03A",
-      "text": "No text"
-    },
-    {
-      "time": "05.06.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -28.8,
-      "label": "SA",
-      "msgno": "S04A",
-      "text": "0EV025632V"
-    },
-    {
       "time": "05.06.2026 02:57 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +274,61 @@
       "label": "SA",
       "msgno": "S81A",
       "text": "0EV162928VSH/"
+    },
+    {
+      "time": "05.06.2026 16:25 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "Q0",
+      "msgno": "S84A",
+      "text": "No text"
+    },
+    {
+      "time": "05.06.2026 16:25 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "SA",
+      "msgno": "S85A",
+      "text": "0EV163040VSH/"
+    },
+    {
+      "time": "05.06.2026 16:25 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "B9",
+      "msgno": "L43A",
+      "text": "/LIMC.TI2/030LIMCA5E18"
+    },
+    {
+      "time": "05.06.2026 16:26 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -39.1,
+      "label": "_d",
+      "msgno": "S87A",
+      "text": "No text"
+    },
+    {
+      "time": "05.06.2026 16:26 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "5V",
+      "msgno": "S88A",
+      "text": "No text"
     }
   ]
 }
