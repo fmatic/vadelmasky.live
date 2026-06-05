@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.06.2026 02:52 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -24.2,
-      "label": "H1",
-      "msgno": "D01D",
-      "text": "A25/ATR7250025,1,1/A1PW127M,ENGINE,CYCLES,REPORT/B1DATE,GMT/B2JUN04,0241/C1TOTAL,LIFE,COUNT/C2ENGINE,1,S.N/C3ESN1,ED2136/C4LP,IMPELLER,03058/C5HP,IMPELLER,03058/C6HP,FRONT,COVER,03512/C7HP,DISK,03055/C8HP,REAR,COVER,03055/C9AIR,SEAL,03819/D0LP,DISK,03048/D11ST,PT,DISK,03054/D22ND,PT,DISK,03054/E1TOTAL,LIFE,COUNT/E2ENGINE,2,S.N/E3ESN2,ED2131/E4LP,IMPELLER,00811/E5HP,IMPELLER,00811/E6HP,FRONT,COVER,00931/E7HP,DISK,00810/E8HP,REAR,COVER,00810/E9AIR,SEAL,01013/F0LP,DISK,00806/F11ST,PT,DISK,00810/F22ND,PT,DISK,00810/H1REMAINING,LIFE/H2ESN1,ESN2/H3ED2136,ED2131/H411942,LP,IMP,14189/H511942,HP,IMP,14189/H611488,HP,FRONT,14069/H711945,HP,DISK,14190/H811945,HP,REAR,14190/H911181,AIR,SEAL,13987/I011952,LP,DISK,14194/I126946,1ST,PT,29190/I226946,2ND,PT,29190/**.,EOT,...,/"
-    },
-    {
-      "time": "04.06.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "B9",
-      "msgno": "L00A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "04.06.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "_d",
-      "msgno": "S03A",
-      "text": "No text"
-    },
-    {
-      "time": "04.06.2026 02:57 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -39.6,
-      "label": "5V",
-      "msgno": "S04A",
-      "text": "No text"
-    },
-    {
-      "time": "04.06.2026 09:43 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -41.5,
-      "label": "H1",
-      "msgno": "C27C",
-      "text": " 0556 04JUN26 ER I 12 PL\r\nDB 31 DCA OPS (LEFT 2)\r\nDB 31 DCA OPS (RIGHT 2)\r\nFRC 20378 20378  \r\nMSG 4201476 I 0451 04JUN26 ER I 4 PL\r\nDB 42 GPM_GENERAL OPS (RIGHT 4)\r\nDB 42 GPM_GENERAL OPS (LEFT 1)\r\nFRC 1476 "
-    },
-    {
-      "time": "04.06.2026 09:43 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -42.0,
-      "label": "H1",
-      "msgno": "C27D",
-      "text": "1476  \r\nMSG 2311081 I 0333 04JUN26 ER I 1 PL\r\nDB LEFT HF COMMUNICATION TRANSCEIVER\r\nFRC 35025  \r\nMSG 4259483 I 0330 04JUN26 ER I 1 PL\r\nDB CAPTAIN'S AUDIO CONTROL PANEL\r\nDB FIRST OBSERVER'S AUDIO CONTROL PAN"
-    },
-    {
       "time": "04.06.2026 09:43 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +263,72 @@
       "label": "H1",
       "msgno": "C16A",
       "text": ".1/WRN/WN2606041839  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "05.06.2026 02:56 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.6,
+      "label": "Q0",
+      "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "05.06.2026 02:56 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -28.8,
+      "label": "SA",
+      "msgno": "S04A",
+      "text": "0EV025632V"
+    },
+    {
+      "time": "05.06.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -25.3,
+      "label": "B9",
+      "msgno": "L02A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "05.06.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "_d",
+      "msgno": "S05A",
+      "text": "No text"
+    },
+    {
+      "time": "05.06.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "_d",
+      "msgno": "S06A",
+      "text": "No text"
+    },
+    {
+      "time": "05.06.2026 02:58 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -26.6,
+      "label": "80",
+      "msgno": "M04A",
+      "text": "3801 MTCRP  0290/05 EFJY/EFHK .OH-ATJ\r\nHUOMENTA. SAISKO IKKUNAN\r\nPESUA HELSINGISSA KONEEL\r\nLE."
     }
   ]
 }
