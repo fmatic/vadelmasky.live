@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.06.2026 14:20 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "_d",
-      "msgno": "S43A",
-      "text": "No text"
-    },
-    {
-      "time": "04.06.2026 14:21 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -35.7,
-      "label": "_d",
-      "msgno": "S48A",
-      "text": "No text"
-    },
-    {
-      "time": "04.06.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "Q0",
-      "msgno": "S52A",
-      "text": "No text"
-    },
-    {
-      "time": "04.06.2026 15:22 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "Q0",
-      "msgno": "S33A",
-      "text": "No text"
-    },
-    {
-      "time": "04.06.2026 15:22 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "SA",
-      "msgno": "S34A",
-      "text": "0EV152235V"
-    },
-    {
-      "time": "04.06.2026 15:22 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "80",
-      "msgno": "M41A",
-      "text": "3701 INRANG 0370/04 EFKU/EFHK .OH-ATG\r\n/ETA 1550/ERT     "
-    },
-    {
-      "time": "04.06.2026 15:22 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "B9",
-      "msgno": "L37A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
       "time": "04.06.2026 15:23 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +252,83 @@
       "label": "5V",
       "msgno": "S79A",
       "text": "No text"
+    },
+    {
+      "time": "05.06.2026 16:17 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -39.3,
+      "label": "5V",
+      "msgno": "S65A",
+      "text": "No text"
+    },
+    {
+      "time": "05.06.2026 16:18 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -36.7,
+      "label": "Q0",
+      "msgno": "S67A",
+      "text": "No text"
+    },
+    {
+      "time": "05.06.2026 16:18 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "SA",
+      "msgno": "S68A",
+      "text": "0EV162313VSH/"
+    },
+    {
+      "time": "05.06.2026 16:18 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "H1",
+      "msgno": "D18A",
+      "text": "<ENG>   050626 162316 COPY NO: 231\r\n 87.5 102.5  729.2    81.13  98.76 14.70  5524 0.26  0.08   0.00  0.16\r\n 87.5 102.7  726.3    80.89  95.74 13.51  5477 0.04  0.72   0.00  0.73\r\n53305.7  0.00\r\n53073.8  0."
+    },
+    {
+      "time": "05.06.2026 16:18 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "H1",
+      "msgno": "D18B",
+      "text": "<ENG>   050626 162316 COPY NO: 231\r\n 87.5 102.5  729.2    81.13  98.76 14.70  5524 0.26  0.08   0.00  0.16\r\n 87.5 102.7  726.3    80.89  95.74 13.51  5477 0.04  0.72   0.00  0.73\r\n53305.7  0.00\r\n53073.8  0.00"
+    },
+    {
+      "time": "05.06.2026 16:19 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "Q0",
+      "msgno": "S71A",
+      "text": "No text"
+    },
+    {
+      "time": "05.06.2026 16:20 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "SA",
+      "msgno": "S72A",
+      "text": "0EV162509VSH/"
     }
   ]
 }
