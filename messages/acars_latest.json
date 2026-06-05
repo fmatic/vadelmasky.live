@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.06.2026 09:43 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -42.4,
-      "label": "H1",
-      "msgno": "C27F",
-      "text": "072 I 0117 04JUN26 IC I 2 PL\r\nDB RIGHT HF COMMUNICATION TRANSCEIVER\r\nFRC 35017  \r\nMSG 3812679 I 0101 04JUN26 ES I 1 PL\r\nDB 38 WW OPS (2)\r\nFRC 492  \r\nMSG 3812680 I 0101 04JUN26 ES I 1 PL\r\nDB 38 WW OPS (2)\r\nF"
-    },
-    {
       "time": "04.06.2026 09:44 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M04A",
       "text": "3801 MTCRP  0290/05 EFJY/EFHK .OH-ATJ\r\nHUOMENTA. SAISKO IKKUNAN\r\nPESUA HELSINGISSA KONEEL\r\nLE."
+    },
+    {
+      "time": "05.06.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "80",
+      "msgno": "M05A",
+      "text": "3701 INRANG 0290/05 EFJY/EFHK .OH-ATJ\r\n/ETA 0330/ERT     "
     }
   ]
 }
