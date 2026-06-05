@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">5</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">05.06.2026 02:50 UTC</div>
+        <div class="value">05.06.2026 02:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4QA</div>
+                    <div class="meta">ICAO 4601F6 · REG OH-ATI · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>237.6 kt</b></div>
+                    <div><span>Track</span><b>208.4°</b></div>
+                    <div><span>Position</span><b>61.9863, 26.5038</b></div>
+                    <div><span>Last seen</span><b>05.06.2026 02:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
+                </div>
+                <div class="alt-badge low">8350 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>161.1 kt</b></div>
+                    <div><span>Track</span><b>189.29°</b></div>
+                    <div><span>Position</span><b>62.2378, 25.6851</b></div>
+                    <div><span>Last seen</span><b>05.06.2026 02:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -580,7 +628,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "4601F6", "flight": "FIN4QA", "lat": 61.986306, "lon": 26.503805, "alt": 18025, "speed": 237.6, "last_seen": "05.06.2026 02:55 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 62.237778, "lon": 25.68512, "alt": 8350, "speed": 161.1, "last_seen": "05.06.2026 02:55 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
