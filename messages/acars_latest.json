@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.06.2026 14:14 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -38.9,
-      "label": "Q0",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
-      "time": "04.06.2026 14:19 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "_d",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
       "time": "04.06.2026 14:19 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M74A",
       "text": "POS051304, N 6164,E 2704,829,309,21486,  24,30997, 782,-135,-449,7"
+    },
+    {
+      "time": "05.06.2026 13:05 UTC",
+      "source": "ACARS",
+      "flight": "CA1048",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "O68A",
+      "text": "SS0340C_478\r\nB-222S  CAO104EDDFZSPD050626130532ER\r\n31031000832-132517251316DBSM79962A\r\n744610445 270050626 130531\r\n31)6))47) 2))\r\n31)6))45) 2))\r\n10000000000001111\r\n  30996\r\n      ) 0 02N    )16.)\r\n      ) 0"
+    },
+    {
+      "time": "05.06.2026 13:05 UTC",
+      "source": "ACARS",
+      "flight": "CA1048",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "H1",
+      "msgno": "O68B",
+      "text": "SS0340C_478\r\nB-222S  CAO104EDDFZSPD050626130532ER\r\n31031000832-132517251316DBSM79962A\r\n744610445 270050626 130531\r\n31)6))47) 2))\r\n31)6))45) 2))\r\n10000000000001111\r\n  30996\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n050626130532\r\n111111111111\r\n111111111111"
     }
   ]
 }
