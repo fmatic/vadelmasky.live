@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.06.2026 02:58 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -26.6,
-      "label": "80",
-      "msgno": "M04A",
-      "text": "3801 MTCRP  0290/05 EFJY/EFHK .OH-ATJ\r\nHUOMENTA. SAISKO IKKUNAN\r\nPESUA HELSINGISSA KONEEL\r\nLE."
-    },
-    {
-      "time": "05.06.2026 03:00 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "80",
-      "msgno": "M05A",
-      "text": "3701 INRANG 0290/05 EFJY/EFHK .OH-ATJ\r\n/ETA 0330/ERT     "
-    },
-    {
       "time": "05.06.2026 05:50 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +307,28 @@
       "label": "B9",
       "msgno": "M48A",
       "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "06.06.2026 17:28 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -28.3,
+      "label": "10",
+      "msgno": "M49A",
+      "text": "POS061728,N 61.374,E 25.847,1816,453625,,,38003,26200"
+    },
+    {
+      "time": "06.06.2026 17:28 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "10",
+      "msgno": "M49A",
+      "text": "POS061728,N 61.374,E 25.847,1816,453625,,,38003,26200"
     }
   ]
 }
