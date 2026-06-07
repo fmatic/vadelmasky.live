@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.06.2026 16:18 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -38.1,
-      "label": "H1",
-      "msgno": "D18B",
-      "text": "<ENG>   050626 162316 COPY NO: 231\r\n 87.5 102.5  729.2    81.13  98.76 14.70  5524 0.26  0.08   0.00  0.16\r\n 87.5 102.7  726.3    80.89  95.74 13.51  5477 0.04  0.72   0.00  0.73\r\n53305.7  0.00\r\n53073.8  0.00"
-    },
-    {
-      "time": "05.06.2026 16:19 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "Q0",
-      "msgno": "S71A",
-      "text": "No text"
-    },
-    {
       "time": "05.06.2026 16:20 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S29A",
       "text": "0EV095303V"
+    },
+    {
+      "time": "07.06.2026 21:53 UTC",
+      "source": "ACARS",
+      "flight": "N70379",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "_d",
+      "msgno": "S37A",
+      "text": "No text"
+    },
+    {
+      "time": "07.06.2026 21:53 UTC",
+      "source": "ACARS",
+      "flight": "N70379",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -39.6,
+      "label": "_d",
+      "msgno": "S38A",
+      "text": "No text"
     }
   ]
 }
