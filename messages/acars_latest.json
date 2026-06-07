@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.06.2026 05:50 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "_d",
-      "msgno": "S17A",
-      "text": "No text"
-    },
-    {
-      "time": "05.06.2026 10:30 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "Q0",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "05.06.2026 13:03 UTC",
-      "source": "ACARS",
-      "flight": "CA1048",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "10",
-      "msgno": "M74A",
-      "text": "POS051304, N 6164,E 2704,829,309,21486,  24,30997, 782,-135,-449,7"
-    },
-    {
       "time": "05.06.2026 13:05 UTC",
       "source": "ACARS",
       "flight": "CA1048",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S33A",
       "text": "No text"
+    },
+    {
+      "time": "07.06.2026 09:39 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -40.5,
+      "label": "SA",
+      "msgno": "S35A",
+      "text": "0EV093944V"
+    },
+    {
+      "time": "07.06.2026 09:40 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -43.9,
+      "label": "80",
+      "msgno": "M02A",
+      "text": "3501 SUMMRY 0285/07 EFHK/EFJY .OH-ATJ\r\n/OUT 0827/FOB 0018\r\n/OFF 0835/FOB 0018\r\n/ON  0908/FOB 0013\r\n/IN  0910/FOB 0015\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
+    },
+    {
+      "time": "07.06.2026 09:40 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -39.1,
+      "label": "80",
+      "msgno": "M02B",
+      "text": "3501 SUMMRY 0285/07 EFHK/EFJY .OH-ATJ\r\n/OUT 0827/FOB 0018\r\n/OFF 0835/FOB 0018\r\n/ON  0908/FOB 0013\r\n/IN  0910/FOB 0015\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
     }
   ]
 }
