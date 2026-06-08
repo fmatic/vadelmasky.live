@@ -70,13 +70,13 @@
       "flight": "T26",
       "reg": "PI-06",
       "type": "PC12",
-      "lat": null,
-      "lon": null,
-      "alt": 20000,
-      "speed": 250.0,
-      "track": 205.49,
+      "lat": 62.343083,
+      "lon": 26.189716,
+      "alt": 15000,
+      "speed": 250.1,
+      "track": 228.73,
       "seen_first": "2026-06-08T03:09:01.760534",
-      "last_seen": "2026-06-08T04:38:01.571779"
+      "last_seen": "2026-06-08T15:10:01.329197"
     },
     "461f6e": {
       "hex": "461f6e",
@@ -324,11 +324,24 @@
       "track": null,
       "seen_first": "2026-06-08T14:03:02.105970",
       "last_seen": "2026-06-08T14:05:01.815764"
+    },
+    "7818a8": {
+      "hex": "7818a8",
+      "flight": "",
+      "reg": "B-20EC",
+      "type": "B789",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-06-08T15:09:01.600653",
+      "last_seen": "2026-06-08T15:10:01.329197"
     }
   },
   "summary": {
-    "total_unique_aircraft": 25,
-    "last_seen_live": 0,
-    "updated": "2026-06-08T15:05:02.206953"
+    "total_unique_aircraft": 26,
+    "last_seen_live": 2,
+    "updated": "2026-06-08T15:10:01.329197"
   }
 }
