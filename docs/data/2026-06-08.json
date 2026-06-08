@@ -70,13 +70,13 @@
       "flight": "T26",
       "reg": "PI-06",
       "type": "PC12",
-      "lat": 62.343083,
-      "lon": 26.189716,
+      "lat": 62.111481,
+      "lon": 25.627376,
       "alt": 15000,
       "speed": 250.1,
-      "track": 228.73,
+      "track": 228.4,
       "seen_first": "2026-06-08T03:09:01.760534",
-      "last_seen": "2026-06-08T15:10:01.329197"
+      "last_seen": "2026-06-08T15:15:02.079465"
     },
     "461f6e": {
       "hex": "461f6e",
@@ -314,16 +314,16 @@
     },
     "4601fc": {
       "hex": "4601fc",
-      "flight": "",
+      "flight": "FIN6YP",
       "reg": "OH-ATO",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": null,
-      "speed": null,
-      "track": null,
+      "lat": 62.092073,
+      "lon": 26.754557,
+      "alt": 18000,
+      "speed": 250.5,
+      "track": 213.44,
       "seen_first": "2026-06-08T14:03:02.105970",
-      "last_seen": "2026-06-08T14:05:01.815764"
+      "last_seen": "2026-06-08T15:15:02.079465"
     },
     "7818a8": {
       "hex": "7818a8",
@@ -337,11 +337,37 @@
       "track": null,
       "seen_first": "2026-06-08T15:09:01.600653",
       "last_seen": "2026-06-08T15:10:01.329197"
+    },
+    "4d03c0": {
+      "hex": "4d03c0",
+      "flight": "NATO22",
+      "reg": "LX-N90442",
+      "type": "E3TF",
+      "lat": 61.632696,
+      "lon": 25.229085,
+      "alt": 31000,
+      "speed": 380.0,
+      "track": 178.77,
+      "seen_first": "2026-06-08T15:14:01.401811",
+      "last_seen": "2026-06-08T15:15:02.079465"
+    },
+    "46788c": {
+      "hex": "46788c",
+      "flight": "",
+      "reg": "LJ-2",
+      "type": "LJ35",
+      "lat": null,
+      "lon": null,
+      "alt": 18950,
+      "speed": 411.4,
+      "track": 53.8,
+      "seen_first": "2026-06-08T15:15:02.079465",
+      "last_seen": "2026-06-08T15:15:02.079465"
     }
   },
   "summary": {
-    "total_unique_aircraft": 26,
-    "last_seen_live": 2,
-    "updated": "2026-06-08T15:10:01.329197"
+    "total_unique_aircraft": 28,
+    "last_seen_live": 4,
+    "updated": "2026-06-08T15:15:02.079465"
   }
 }
