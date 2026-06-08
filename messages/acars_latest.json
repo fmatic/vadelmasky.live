@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.06.2026 16:20 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -39.4,
-      "label": "5V",
-      "msgno": "S73A",
-      "text": "No text"
-    },
-    {
-      "time": "05.06.2026 16:21 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "Q0",
-      "msgno": "S75A",
-      "text": "No text"
-    },
-    {
-      "time": "05.06.2026 16:22 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "Q0",
-      "msgno": "S76A",
-      "text": "No text"
-    },
-    {
       "time": "05.06.2026 16:23 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -328,6 +295,39 @@
       "level": -25.4,
       "label": "5V",
       "msgno": "S12A",
+      "text": "No text"
+    },
+    {
+      "time": "08.06.2026 02:54 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "08.06.2026 02:54 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/08 EFJY/EFHK .OH-ATF\r\n/OUT 0250/FOB 0015/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "08.06.2026 02:54 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "5V",
+      "msgno": "S01A",
       "text": "No text"
     }
   ]
