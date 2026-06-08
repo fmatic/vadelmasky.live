@@ -5,17 +5,6 @@
       "source": "ACARS",
       "flight": "N70286",
       "tail": "OH-ATJ",
-      "freq": 131.725,
-      "level": -39.3,
-      "label": "80",
-      "msgno": "M06A",
-      "text": "1101 OFFRP  0286/07 EFJY/EFHK .OH-ATJ\r\n/OUT 0935/OFF 0938/FOB 0014/ETA 1018"
-    },
-    {
-      "time": "07.06.2026 09:40 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
       "freq": 131.825,
       "level": -26.0,
       "label": "80",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S42A",
       "text": "No text"
+    },
+    {
+      "time": "08.06.2026 15:33 UTC",
+      "source": "ACARS",
+      "flight": "CA3061",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -35.3,
+      "label": "10",
+      "msgno": "M54A",
+      "text": "POS081534,N 61.516,E 26.481,1625,436500,,,38002,29280"
     }
   ]
 }
