@@ -18,18 +18,44 @@
       "flight": "FIN4QA",
       "reg": "OH-ATF",
       "type": "AT75",
+      "lat": 61.832731,
+      "lon": 26.322123,
+      "alt": 20025,
+      "speed": 238.3,
+      "track": 209.69,
+      "seen_first": "2026-06-09T02:49:01.475044",
+      "last_seen": "2026-06-09T02:55:01.999097"
+    },
+    "781555": {
+      "hex": "781555",
+      "flight": "",
+      "reg": "B-303C",
+      "type": "A333",
       "lat": null,
       "lon": null,
-      "alt": 19375,
+      "alt": null,
       "speed": null,
       "track": null,
-      "seen_first": "2026-06-09T02:49:01.475044",
-      "last_seen": "2026-06-09T02:50:02.223177"
+      "seen_first": "2026-06-09T02:52:01.386599",
+      "last_seen": "2026-06-09T02:52:01.386599"
+    },
+    "4601f4": {
+      "hex": "4601f4",
+      "flight": "FIN8KH",
+      "reg": "OH-ATG",
+      "type": "AT75",
+      "lat": 62.217361,
+      "lon": 25.684001,
+      "alt": 6900,
+      "speed": 190.7,
+      "track": 184.81,
+      "seen_first": "2026-06-09T02:53:01.899595",
+      "last_seen": "2026-06-09T02:55:01.999097"
     }
   },
   "summary": {
-    "total_unique_aircraft": 2,
-    "last_seen_live": 1,
-    "updated": "2026-06-09T02:50:02.223177"
+    "total_unique_aircraft": 4,
+    "last_seen_live": 2,
+    "updated": "2026-06-09T02:55:01.999097"
   }
 }
