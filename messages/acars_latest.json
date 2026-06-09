@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.06.2026 05:51 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -41.2,
-      "label": "_d",
-      "msgno": "S98A",
-      "text": "No text"
-    },
-    {
-      "time": "08.06.2026 06:01 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "Q0",
-      "msgno": "S99A",
-      "text": "No text"
-    },
-    {
       "time": "08.06.2026 06:01 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M84A",
       "text": "POS091400,N 61.832,E 27.306,2152,465625,,,37012,102360"
+    },
+    {
+      "time": "09.06.2026 14:49 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "14",
+      "msgno": "M07A",
+      "text": "POS\r\n09JUN,1449,258,37998,N 61.724,E 27.177,21065,   9,180"
+    },
+    {
+      "time": "09.06.2026 14:49 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -34.1,
+      "label": "14",
+      "msgno": "M07A",
+      "text": "POS\r\n09JUN,1449,258,37998,N 61.724,E 27.177,21065,   9,180"
     }
   ]
 }
