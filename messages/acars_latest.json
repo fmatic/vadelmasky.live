@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.06.2026 06:01 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "10",
-      "msgno": "M42A",
-      "text": "POS080601,N 61.370,E 25.833,0649,446625,,,37998,31640"
-    },
-    {
-      "time": "08.06.2026 11:14 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -26.6,
-      "label": "Q0",
-      "msgno": "S96A",
-      "text": "No text"
-    },
-    {
-      "time": "08.06.2026 11:14 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -27.4,
-      "label": "SA",
-      "msgno": "S97A",
-      "text": "0EV111505V"
-    },
-    {
       "time": "08.06.2026 11:15 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +296,39 @@
       "label": "14",
       "msgno": "M07A",
       "text": "POS\r\n09JUN,1449,258,37998,N 61.724,E 27.177,21065,   9,180"
+    },
+    {
+      "time": "09.06.2026 14:55 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "B9",
+      "msgno": "J08A",
+      "text": "/ENGM.TI2/000ENGMA9B05"
+    },
+    {
+      "time": "09.06.2026 14:55 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -40.5,
+      "label": "_d",
+      "msgno": "S45A",
+      "text": "No text"
+    },
+    {
+      "time": "09.06.2026 14:55 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32FE",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "_d",
+      "msgno": "S46A",
+      "text": "No text"
     }
   ]
 }
