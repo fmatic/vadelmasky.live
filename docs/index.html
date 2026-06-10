@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">10.06.2026 12:15 UTC</div>
+        <div class="value">10.06.2026 12:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T43</div>
+                    <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge low">7800 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>133.7 kt</b></div>
+                    <div><span>Track</span><b>189.04°</b></div>
+                    <div><span>Position</span><b>62.2677, 25.6988</b></div>
+                    <div><span>Last seen</span><b>10.06.2026 12:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-03" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">V51</div>
+                    <div class="meta">ICAO 4678AB · REG GO-21 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2400 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>95.5 kt</b></div>
+                    <div><span>Track</span><b>314.58°</b></div>
+                    <div><span>Position</span><b>62.3221, 25.8513</b></div>
+                    <div><span>Last seen</span><b>10.06.2026 12:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-21" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -427,30 +475,6 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">T43</div>
-                    <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge low">2525 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>184.6 kt</b></div>
-                    <div><span>Track</span><b>313.46°</b></div>
-                    <div><span>Position</span><b>62.3229, 25.8498</b></div>
-                    <div><span>Last seen</span><b>10.06.2026 10:33 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-03" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
                     <div class="flight">Unknown</div>
                     <div class="meta">ICAO 4678A5 · REG GO-15 · TYPE G115</div>
                 </div>
@@ -516,30 +540,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-7" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">K17</div>
-                    <div class="meta">ICAO 4678AB · REG GO-21 · TYPE G115</div>
-                </div>
-                <div class="alt-badge low">2625 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>91.9 kt</b></div>
-                    <div><span>Track</span><b>292.38°</b></div>
-                    <div><span>Position</span><b>62.2053, 25.6961</b></div>
-                    <div><span>Last seen</span><b>10.06.2026 08:52 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-21" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1134,7 +1134,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "467890", "flight": "-", "lat": 62.271515, "lon": 25.572103, "alt": 7275, "speed": 151.5, "last_seen": "10.06.2026 12:07 UTC"}, {"hex": "4601F4", "flight": "FIN286", "lat": 61.565918, "lon": 25.488379, "alt": 18000, "speed": 230.1, "last_seen": "10.06.2026 11:17 UTC"}, {"hex": "4601FC", "flight": "FIN26B", "lat": 61.369303, "lon": 25.808716, "alt": 16000, "speed": 235.2, "last_seen": "10.06.2026 11:04 UTC"}, {"hex": "4601F3", "flight": "FIN9Y", "lat": 61.864386, "lon": 25.389303, "alt": 18000, "speed": 226.5, "last_seen": "10.06.2026 10:56 UTC"}, {"hex": "467892", "flight": "T43", "lat": 62.322879, "lon": 25.849774, "alt": 2525, "speed": 184.6, "last_seen": "10.06.2026 10:33 UTC"}, {"hex": "780C5D", "flight": "CA1039", "lat": 61.64, "lon": 27.11, "alt": 34001, "speed": "-", "last_seen": "10.06.2026 09:06 UTC"}, {"hex": "4678AB", "flight": "K17", "lat": 62.205288, "lon": 25.696071, "alt": 2625, "speed": 91.9, "last_seen": "10.06.2026 08:52 UTC"}, {"hex": "461FA8", "flight": "FIN7TP", "lat": 61.663886, "lon": 25.220235, "alt": 26975, "speed": 383.7, "last_seen": "10.06.2026 08:24 UTC"}, {"hex": "4678A0", "flight": "K05", "lat": 62.297275, "lon": 25.686246, "alt": 2675, "speed": 140.0, "last_seen": "10.06.2026 07:14 UTC"}, {"hex": "461E1E", "flight": "FIN14J", "lat": 61.598107, "lon": 25.222778, "alt": 28375, "speed": 403.6, "last_seen": "10.06.2026 06:38 UTC"}];
+const aircraft = [{"hex": "467892", "flight": "T43", "lat": 62.26767, "lon": 25.698751, "alt": 7800, "speed": 133.7, "last_seen": "10.06.2026 12:20 UTC"}, {"hex": "4678AB", "flight": "V51", "lat": 62.322052, "lon": 25.851339, "alt": 2400, "speed": 95.5, "last_seen": "10.06.2026 12:20 UTC"}, {"hex": "467890", "flight": "-", "lat": 62.271515, "lon": 25.572103, "alt": 7275, "speed": 151.5, "last_seen": "10.06.2026 12:07 UTC"}, {"hex": "4601F4", "flight": "FIN286", "lat": 61.565918, "lon": 25.488379, "alt": 18000, "speed": 230.1, "last_seen": "10.06.2026 11:17 UTC"}, {"hex": "4601FC", "flight": "FIN26B", "lat": 61.369303, "lon": 25.808716, "alt": 16000, "speed": 235.2, "last_seen": "10.06.2026 11:04 UTC"}, {"hex": "4601F3", "flight": "FIN9Y", "lat": 61.864386, "lon": 25.389303, "alt": 18000, "speed": 226.5, "last_seen": "10.06.2026 10:56 UTC"}, {"hex": "780C5D", "flight": "CA1039", "lat": 61.64, "lon": 27.11, "alt": 34001, "speed": "-", "last_seen": "10.06.2026 09:06 UTC"}, {"hex": "461FA8", "flight": "FIN7TP", "lat": 61.663886, "lon": 25.220235, "alt": 26975, "speed": 383.7, "last_seen": "10.06.2026 08:24 UTC"}, {"hex": "4678A0", "flight": "K05", "lat": 62.297275, "lon": 25.686246, "alt": 2675, "speed": 140.0, "last_seen": "10.06.2026 07:14 UTC"}, {"hex": "461E1E", "flight": "FIN14J", "lat": 61.598107, "lon": 25.222778, "alt": 28375, "speed": 403.6, "last_seen": "10.06.2026 06:38 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
