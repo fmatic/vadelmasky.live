@@ -6,17 +6,6 @@
       "flight": "N70370",
       "tail": "OH-ATO",
       "freq": 131.825,
-      "level": -33.0,
-      "label": "_d",
-      "msgno": "S38A",
-      "text": "No text"
-    },
-    {
-      "time": "08.06.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATO",
-      "freq": 131.825,
       "level": -31.9,
       "label": "_d",
       "msgno": "S39A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C79A",
       "text": ".1/FLR/FR2606092209  34363106IR1    1,,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "10.06.2026 00:17 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2073",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "81",
+      "msgno": "M56A",
+      "text": "/CANUOCZ.EST EXIT EDTO AT 0028Z\r\nFL 340\r\nEFR 30.3T\r\nETA 0238Z\r\nREQ DEST AND ALTN WX\r\n"
     }
   ]
 }
