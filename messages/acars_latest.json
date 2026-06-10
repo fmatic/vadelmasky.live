@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.06.2026 11:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "Q0",
-      "msgno": "S05A",
-      "text": "No text"
-    },
-    {
-      "time": "09.06.2026 11:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "SA",
-      "msgno": "S06A",
-      "text": "0EV112248V"
-    },
-    {
-      "time": "09.06.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "B9",
-      "msgno": "L18A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "09.06.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -38.4,
-      "label": "_d",
-      "msgno": "S07A",
-      "text": "No text"
-    },
-    {
       "time": "09.06.2026 11:23 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "O56A",
       "text": "SB0122BA_B-2093  ZSPDEHAM718\r\n 61493 0264520833 33997-53020005501020;012013"
+    },
+    {
+      "time": "10.06.2026 08:35 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -37.8,
+      "label": "_d",
+      "msgno": "S02A",
+      "text": "No text"
+    },
+    {
+      "time": "10.06.2026 08:35 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "H1",
+      "msgno": "E34A",
+      "text": "PER,R,266.6,-53.9,289,-23.8,442.1,0.828,34000,99.7,99.7,84.3,84.4,--,0.48,--,0.38,84.4,84.3,0.65,--,0.16,--,687,682,0.27,--,0.55,--,101.2,101.2,0.47,--,0.57,--,3.792,3.788,174,175,0.00,0.00,69,72,65,65,16,1"
+    },
+    {
+      "time": "10.06.2026 08:36 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -36.7,
+      "label": "H1",
+      "msgno": "E34B",
+      "text": "PER,R,266.6,-53.9,289,-23.8,442.1,0.828,34000,99.7,99.7,84.3,84.4,--,0.48,--,0.38,84.4,84.3,0.65,--,0.16,--,687,682,0.27,--,0.55,--,101.2,101.2,0.47,--,0.57,--,3.792,3.788,174,175,0.00,0.00,69,72,65,65,16,15,44,44,,10,JUN,26,08,35,55"
+    },
+    {
+      "time": "10.06.2026 08:36 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -37.8,
+      "label": "H1",
+      "msgno": "E35A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,168,168,45,45,42,43,157,159,65,57,83,83,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,0,AUTO,8.5,0.13,0.21,L,,,,10,JUN,26,08,36,37"
     }
   ]
 }
