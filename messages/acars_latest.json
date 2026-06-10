@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.06.2026 08:50 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -42.5,
-      "label": "_d",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
       "time": "09.06.2026 11:22 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M50A",
       "text": "POS100830, N 6164,E 2711,826,288,21149,  49,34001, 279,-239,-539,7"
+    },
+    {
+      "time": "10.06.2026 08:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "H1",
+      "msgno": "O56A",
+      "text": "SB0122BA_B-2093  ZSPDEHAM718\r\n 61493 0264520833 33997-53020005501020;012013"
     }
   ]
 }
