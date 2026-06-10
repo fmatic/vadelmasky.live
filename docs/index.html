@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">10.06.2026 06:55 UTC</div>
+        <div class="value">10.06.2026 07:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,16 +286,16 @@ footer {
                     <div class="flight">K05</div>
                     <div class="meta">ICAO 4678A0 · REG GO-10 · TYPE G115</div>
                 </div>
-                <div class="alt-badge low">3025 ft</div>
+                <div class="alt-badge low">3050 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>129.7 kt</b></div>
-                    <div><span>Track</span><b>341.57°</b></div>
-                    <div><span>Position</span><b>62.1705, 25.6358</b></div>
-                    <div><span>Last seen</span><b>10.06.2026 06:55 UTC</b></div>
+                    <div><span>Speed</span><b>120.0 kt</b></div>
+                    <div><span>Track</span><b>309.93°</b></div>
+                    <div><span>Position</span><b>62.1743, 25.6268</b></div>
+                    <div><span>Last seen</span><b>10.06.2026 06:56 UTC</b></div>
                 </div>
             </div>
 
@@ -921,7 +921,7 @@ REQ DEST AND ALTN WX
 </section>
 
 <script>
-const aircraft = [{"hex": "4678A0", "flight": "K05", "lat": 62.170514, "lon": 25.635752, "alt": 3025, "speed": 129.7, "last_seen": "10.06.2026 06:55 UTC"}, {"hex": "461E1E", "flight": "FIN14J", "lat": 61.598107, "lon": 25.222778, "alt": 28375, "speed": 403.6, "last_seen": "10.06.2026 06:38 UTC"}, {"hex": "467892", "flight": "T43", "lat": 61.959091, "lon": 25.611093, "alt": 20000, "speed": 236.0, "last_seen": "10.06.2026 03:54 UTC"}, {"hex": "4601F4", "flight": "FIN4QA", "lat": 61.331589, "lon": 25.805021, "alt": 16000, "speed": 253.8, "last_seen": "10.06.2026 03:15 UTC"}, {"hex": "4601F3", "flight": "FIN8KH", "lat": 61.87532, "lon": 25.552139, "alt": 13850, "speed": 203.4, "last_seen": "10.06.2026 03:00 UTC"}];
+const aircraft = [{"hex": "4678A0", "flight": "K05", "lat": 62.174286, "lon": 25.626831, "alt": 3050, "speed": 120.0, "last_seen": "10.06.2026 06:56 UTC"}, {"hex": "461E1E", "flight": "FIN14J", "lat": 61.598107, "lon": 25.222778, "alt": 28375, "speed": 403.6, "last_seen": "10.06.2026 06:38 UTC"}, {"hex": "467892", "flight": "T43", "lat": 61.959091, "lon": 25.611093, "alt": 20000, "speed": 236.0, "last_seen": "10.06.2026 03:54 UTC"}, {"hex": "4601F4", "flight": "FIN4QA", "lat": 61.331589, "lon": 25.805021, "alt": 16000, "speed": 253.8, "last_seen": "10.06.2026 03:15 UTC"}, {"hex": "4601F3", "flight": "FIN8KH", "lat": 61.87532, "lon": 25.552139, "alt": 13850, "speed": 203.4, "last_seen": "10.06.2026 03:00 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
