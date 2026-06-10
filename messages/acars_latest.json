@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.06.2026 21:54 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "SA",
-      "msgno": "S47A",
-      "text": "0EV215501V"
-    },
-    {
-      "time": "09.06.2026 21:55 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "B9",
-      "msgno": "L40A",
-      "text": "/EFKU.TI2/024EFKUA873F"
-    },
-    {
       "time": "09.06.2026 21:55 UTC",
       "source": "ACARS",
       "flight": "N70379",
@@ -328,6 +306,28 @@
       "level": -30.2,
       "label": "_d",
       "msgno": "S59A",
+      "text": "No text"
+    },
+    {
+      "time": "10.06.2026 11:07 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "80",
+      "msgno": "M34A",
+      "text": "3701 INRANG 0286/10 EFJY/EFHK .OH-ATG\r\n/ETA 1139/ERT     "
+    },
+    {
+      "time": "10.06.2026 11:08 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "_d",
+      "msgno": "S60A",
       "text": "No text"
     }
   ]
