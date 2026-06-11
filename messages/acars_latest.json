@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.06.2026 09:43 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "80",
-      "msgno": "M18A",
-      "text": "3701 INRANG 0365/11 EFHK/EFKU .OH-ATN\r\n/ETA 0959/ERT     "
-    },
-    {
       "time": "11.06.2026 09:44 UTC",
       "source": "ACARS",
       "flight": "N70365",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S51A",
       "text": "No text"
+    },
+    {
+      "time": "11.06.2026 14:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1022",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "H1",
+      "msgno": "O75A",
+      "text": "SB0122BA_B-2095  EDDFZSPD207\r\n 61651 0266281445 31002-4502030620H8/9W028048"
     }
   ]
 }
