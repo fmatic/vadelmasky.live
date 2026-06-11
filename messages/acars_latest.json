@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.06.2026 08:33 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "H1",
-      "msgno": "O56A",
-      "text": "SB0122BA_B-2093  ZSPDEHAM718\r\n 61493 0264520833 33997-53020005501020;012013"
-    },
-    {
-      "time": "10.06.2026 08:35 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "_d",
-      "msgno": "S02A",
-      "text": "No text"
-    },
-    {
       "time": "10.06.2026 08:35 UTC",
       "source": "ACARS",
       "flight": "CA1039",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S01A",
       "text": "No text"
+    },
+    {
+      "time": "11.06.2026 09:34 UTC",
+      "source": "ACARS",
+      "flight": "N70414",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "_d",
+      "msgno": "S95A",
+      "text": "No text"
+    },
+    {
+      "time": "11.06.2026 09:35 UTC",
+      "source": "ACARS",
+      "flight": "N70414",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -39.4,
+      "label": "SA",
+      "msgno": "S96A",
+      "text": "0EV093509V"
     }
   ]
 }
