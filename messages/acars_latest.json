@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.06.2026 00:17 UTC",
-      "source": "ACARS",
-      "flight": "CZ2517",
-      "tail": "B-2073",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "81",
-      "msgno": "M56A",
-      "text": "/CANUOCZ.EST EXIT EDTO AT 0028Z\r\nFL 340\r\nEFR 30.3T\r\nETA 0238Z\r\nREQ DEST AND ALTN WX\r\n"
-    },
-    {
       "time": "10.06.2026 05:30 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "D00B",
       "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20380,110626,0244,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2216,.15992,-006/F1TORQ,NP,NL/F2078.2,082.0,095.4/F3078.3,082.0,094.5/G1NH,ITT,FF,IG/G2095.7,0672.5,378,0099/G3095.3,0646.4,366,0117/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I220.27/**.,EOT,...,/"
+    },
+    {
+      "time": "11.06.2026 02:46 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "5V",
+      "msgno": "S12A",
+      "text": "No text"
     }
   ]
 }
