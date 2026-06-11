@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.06.2026 05:30 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
-      "time": "10.06.2026 05:30 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "_d",
-      "msgno": "S95A",
-      "text": "No text"
-    },
-    {
-      "time": "10.06.2026 05:31 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "H1",
-      "msgno": "O50A",
-      "text": "SB0122BA_B-2091  ZSPDEGPK565\r\n 61798 0263440536 34003-540223046010/9W012016"
-    },
-    {
-      "time": "10.06.2026 08:29 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "H1",
-      "msgno": "E33D",
-      "text": ",,+0.26,,+70,,-0.02,,-50,,+36.39,,-0.03,,-10,,,-0.02,,-180,,+35.95,,-0.02,,-150,,,+35.53,,,10,JUN,26,08,28,57,YES,YES,YES,YES,YES,YES,YES,YES,AUTO,AUTO,AUTO,AUTO,NORM,NORM,NORM,NORM,NO,NO,SLOW,NO,NO,NO,NO,N"
-    },
-    {
-      "time": "10.06.2026 08:29 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -38.1,
-      "label": "H1",
-      "msgno": "E33E",
-      "text": "O,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,10,JUN,26,08,28,57"
-    },
-    {
-      "time": "10.06.2026 08:29 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "10",
-      "msgno": "M50A",
-      "text": "POS100830, N 6164,E 2711,826,288,21149,  49,34001, 279,-239,-539,7"
-    },
-    {
       "time": "10.06.2026 08:33 UTC",
       "source": "ACARS",
       "flight": "CA1039",
@@ -328,6 +262,72 @@
       "level": -32.3,
       "label": "5V",
       "msgno": "S12A",
+      "text": "No text"
+    },
+    {
+      "time": "11.06.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "11.06.2026 02:58 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -40.6,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "11.06.2026 02:58 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "11.06.2026 02:58 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/11 EFJY/EFHK .OH-ATJ\r\n/OUT 0254/FOB 0014/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "11.06.2026 02:58 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/11 EFJY/EFHK .OH-ATJ\r\n/OUT 0254/OFF 0256/FOB 0014/ETA 0334"
+    },
+    {
+      "time": "11.06.2026 02:58 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.3,
+      "label": "5V",
+      "msgno": "S01A",
       "text": "No text"
     }
   ]
