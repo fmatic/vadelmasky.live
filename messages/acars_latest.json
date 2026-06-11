@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.06.2026 22:09 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -22.1,
-      "label": "10",
-      "msgno": "M21A",
-      "text": "POS072210,N 61.998,E 26.234,0600,464375,,,37001,112480"
-    },
-    {
-      "time": "09.06.2026 22:10 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6091",
-      "freq": 131.725,
-      "level": -39.9,
-      "label": "H1",
-      "msgno": "C79A",
-      "text": ".1/FLR/FR2606092209  34363106IR1    1,,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "09.06.2026 22:10 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -22.7,
-      "label": "H1",
-      "msgno": "C79A",
-      "text": ".1/FLR/FR2606092209  34363106IR1    1,,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
       "time": "10.06.2026 00:17 UTC",
       "source": "ACARS",
       "flight": "CZ2517",
@@ -329,6 +296,39 @@
       "label": "18",
       "msgno": "M19A",
       "text": "POX,CSG2518   ,10JUN26,185742,EGPK,ZGGG,N061.75,E0027.07,370, 646,826,  82.3,-146.0,058,-50.4,035642, 31960,"
+    },
+    {
+      "time": "11.06.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -39.9,
+      "label": "80",
+      "msgno": "M06A",
+      "text": "3701 INRANG 0380/11 EFKU/EFHK .OH-ATE\r\n/ETA 0318/ERT     "
+    },
+    {
+      "time": "11.06.2026 02:44 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "H1",
+      "msgno": "D00A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20380,110626,0244,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2216,.15992,-006/F1TORQ,NP,N"
+    },
+    {
+      "time": "11.06.2026 02:44 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "H1",
+      "msgno": "D00B",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20380,110626,0244,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2216,.15992,-006/F1TORQ,NP,NL/F2078.2,082.0,095.4/F3078.3,082.0,094.5/G1NH,ITT,FF,IG/G2095.7,0672.5,378,0099/G3095.3,0646.4,366,0117/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I220.27/**.,EOT,...,/"
     }
   ]
 }
