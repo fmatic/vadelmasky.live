@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.06.2026 11:01 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "80",
-      "msgno": "M31A",
-      "text": "1301 INRP   0285/10 EFHK/EFJY .OH-ATG\r\n/ON  1028/IN  1030/FOB 0014"
-    },
-    {
-      "time": "10.06.2026 11:01 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -32.5,
-      "label": "80",
-      "msgno": "M32A",
-      "text": "1001 OUTRP  0286/10 EFJY/EFHK .OH-ATG\r\n/OUT 1053/FOB 0014/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "10.06.2026 11:02 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -28.6,
-      "label": "5V",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
       "time": "10.06.2026 11:04 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +296,39 @@
       "label": "5V",
       "msgno": "S01A",
       "text": "No text"
+    },
+    {
+      "time": "11.06.2026 09:43 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -34.1,
+      "label": "Q0",
+      "msgno": "M17A",
+      "text": "No text"
+    },
+    {
+      "time": "11.06.2026 09:43 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "80",
+      "msgno": "M18A",
+      "text": "3701 INRANG 0365/11 EFHK/EFKU .OH-ATN\r\n/ETA 0959/ERT     "
+    },
+    {
+      "time": "11.06.2026 09:44 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "H1",
+      "msgno": "D12A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20365,110626,0945,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,EB0267/E1IAS,ALT,TAT/E2196,.19017,-009/F1TORQ,NP,N"
     }
   ]
 }
