@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.06.2026 08:35 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "H1",
-      "msgno": "E34A",
-      "text": "PER,R,266.6,-53.9,289,-23.8,442.1,0.828,34000,99.7,99.7,84.3,84.4,--,0.48,--,0.38,84.4,84.3,0.65,--,0.16,--,687,682,0.27,--,0.55,--,101.2,101.2,0.47,--,0.57,--,3.792,3.788,174,175,0.00,0.00,69,72,65,65,16,1"
-    },
-    {
-      "time": "10.06.2026 08:36 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "H1",
-      "msgno": "E34B",
-      "text": "PER,R,266.6,-53.9,289,-23.8,442.1,0.828,34000,99.7,99.7,84.3,84.4,--,0.48,--,0.38,84.4,84.3,0.65,--,0.16,--,687,682,0.27,--,0.55,--,101.2,101.2,0.47,--,0.57,--,3.792,3.788,174,175,0.00,0.00,69,72,65,65,16,15,44,44,,10,JUN,26,08,35,55"
-    },
-    {
-      "time": "10.06.2026 08:36 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "H1",
-      "msgno": "E35A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,168,168,45,45,42,43,157,159,65,57,83,83,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,0,AUTO,8.5,0.13,0.21,L,,,,10,JUN,26,08,36,37"
-    },
-    {
-      "time": "10.06.2026 11:01 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -39.2,
-      "label": "80",
-      "msgno": "M30A",
-      "text": "1201 ONRP   0285/10 EFHK/EFJY .OH-ATG\r\n/ON  1028/FOB 0012"
-    },
-    {
       "time": "10.06.2026 11:01 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +285,50 @@
       "label": "SA",
       "msgno": "S96A",
       "text": "0EV093509V"
+    },
+    {
+      "time": "11.06.2026 09:36 UTC",
+      "source": "ACARS",
+      "flight": "N70414",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "B9",
+      "msgno": "L11A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "11.06.2026 09:36 UTC",
+      "source": "ACARS",
+      "flight": "N70414",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "_d",
+      "msgno": "S98A",
+      "text": "No text"
+    },
+    {
+      "time": "11.06.2026 09:36 UTC",
+      "source": "ACARS",
+      "flight": "N70414",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "_d",
+      "msgno": "S99A",
+      "text": "No text"
+    },
+    {
+      "time": "11.06.2026 09:39 UTC",
+      "source": "ACARS",
+      "flight": "N70414",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "5V",
+      "msgno": "S01A",
+      "text": "No text"
     }
   ]
 }
