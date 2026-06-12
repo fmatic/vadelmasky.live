@@ -5,28 +5,6 @@
       "source": "ACARS",
       "flight": "N70286",
       "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -26.2,
-      "label": "80",
-      "msgno": "M20A",
-      "text": "1301 INRP   0285/11 EFHK/EFJY .OH-ATF\r\n/ON  1039/IN  1041/FOB 0016"
-    },
-    {
-      "time": "11.06.2026 11:21 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -26.1,
-      "label": "80",
-      "msgno": "M21A",
-      "text": "1001 OUTRP  0286/11 EFJY/EFHK .OH-ATF\r\n/OUT 1114/FOB 0016/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "11.06.2026 11:21 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
       "freq": 131.725,
       "level": -40.4,
       "label": "80",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "D01D",
       "text": "NT,10449/H710657,HP,DISK,01864/H810657,HP,REAR,01864/H909570,AIR,SEAL,10052/I010659,LP,DISK,01877/I125657,1ST,PT,16867/I225657,2ND,PT,16867/**.,EOT,...,/"
+    },
+    {
+      "time": "12.06.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -38.8,
+      "label": "5V",
+      "msgno": "S04A",
+      "text": "No text"
+    },
+    {
+      "time": "12.06.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATF",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "Q0",
+      "msgno": "S07A",
+      "text": "No text"
     }
   ]
 }

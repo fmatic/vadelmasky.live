@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">12.06.2026 03:00 UTC</div>
+        <div class="value">12.06.2026 03:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,16 +286,16 @@ footer {
                     <div class="flight">FIN8KH</div>
                     <div class="meta">ICAO 4601F3 · REG OH-ATF · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">12725 ft</div>
+                <div class="alt-badge mid">17375 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>163.9 kt</b></div>
-                    <div><span>Track</span><b>188.77°</b></div>
-                    <div><span>Position</span><b>62.0739, 25.6293</b></div>
-                    <div><span>Last seen</span><b>12.06.2026 03:00 UTC</b></div>
+                    <div><span>Speed</span><b>172.0 kt</b></div>
+                    <div><span>Track</span><b>188.7°</b></div>
+                    <div><span>Position</span><b>61.8439, 25.5522</b></div>
+                    <div><span>Last seen</span><b>12.06.2026 03:05 UTC</b></div>
                 </div>
             </div>
 
@@ -307,19 +307,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">FIN4QA</div>
                     <div class="meta">ICAO 4601FC · REG OH-ATO · TYPE AT75</div>
                 </div>
-                <div class="alt-badge unknown">-</div>
+                <div class="alt-badge mid">18025 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>12.06.2026 03:00 UTC</b></div>
+                    <div><span>Speed</span><b>224.1 kt</b></div>
+                    <div><span>Track</span><b>206.22°</b></div>
+                    <div><span>Position</span><b>61.9243, 26.2774</b></div>
+                    <div><span>Last seen</span><b>12.06.2026 03:05 UTC</b></div>
                 </div>
             </div>
 
@@ -406,6 +406,42 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATF · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">12.06.2026 03:02 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg S07A · Level -39.5 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATF · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">12.06.2026 03:01 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 5V · Msg S04A · Level -38.8 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -588,47 +624,11 @@ CAS 271,LAT N 61.773,LON E 28.232,ALT 35006,FOB 120600,UTC 202005,PD ----.--,WD 
             <div class="acars-text">.1/WRN/WN2606112017  345800506NAV GPS 1 FAULT</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">MU0708</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-8226 · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">11.06.2026 20:16 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S32A · Level -35.7 dB
-            </div>
-
-            <div class="acars-text">0LS201722VH</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">MU0708</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-8226 · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">11.06.2026 20:14 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S31A · Level -35.8 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F3", "flight": "FIN8KH", "lat": 62.073918, "lon": 25.629272, "alt": 12725, "speed": 163.9, "last_seen": "12.06.2026 03:00 UTC"}];
+const aircraft = [{"hex": "4601F3", "flight": "FIN8KH", "lat": 61.843903, "lon": 25.552165, "alt": 17375, "speed": 172.0, "last_seen": "12.06.2026 03:05 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.924299, "lon": 26.277364, "alt": 18025, "speed": 224.1, "last_seen": "12.06.2026 03:05 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
