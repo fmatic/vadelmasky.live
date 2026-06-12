@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.06.2026 11:21 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.725,
-      "level": -41.5,
-      "label": "H1",
-      "msgno": "D05A",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2JUN11,1039,0285/C1/C210.39.17,MC/C310.39.17,ENG/C4ENG,1,LO,PITCH/C5MFC1B.1UA1.,.,PIN,AC-05A/C6CHK,PEC,FAULT,CODES/C710.39.17,MC/C810.39.17,ENG"
-    },
-    {
-      "time": "11.06.2026 11:21 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "H1",
-      "msgno": "D05B",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2JUN11,1039,0285/C1/C210.39.17,MC/C310.39.17,ENG/C4ENG,1,LO,PITCH/C5MFC1B.1UA1.,.,PIN,AC-05A/C6CHK,PEC,FAULT,CODES/C710.39.17,MC/C810.39.17,ENG/C9ENG,2,LO,PITCH/C0MFC1B.1UA1.,.,PIN,AC-05B/D1CHK,PEC,FAULT,CODES,/"
-    },
-    {
       "time": "11.06.2026 11:22 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "E96C",
       "text": ",33,-2.39,,-2.41,,-2.40,,-2.40,,-3.11,,-3.11,,-3.10,,3024,-3.11,,-3.11,,3209,-3.11,,-3.09,,3011,-3.09,,-3.11,,-3.10,,+3.96,,+3.75,,+4.02,,+4.04,,+1860,,+1880,,+2370,,+2230,,-0.15,,-0.15,,-0.19,,-0.16,,+0.28"
+    },
+    {
+      "time": "12.06.2026 08:20 UTC",
+      "source": "ACARS",
+      "flight": "N70413",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "Q0",
+      "msgno": "S25A",
+      "text": "No text"
+    },
+    {
+      "time": "12.06.2026 08:21 UTC",
+      "source": "ACARS",
+      "flight": "N70413",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "SA",
+      "msgno": "S26A",
+      "text": "0EV082104V"
     }
   ]
 }
