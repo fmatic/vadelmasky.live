@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.06.2026 03:02 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -39.5,
-      "label": "Q0",
-      "msgno": "S07A",
-      "text": "No text"
-    },
-    {
-      "time": "12.06.2026 05:05 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "_d",
-      "msgno": "S92A",
-      "text": "No text"
-    },
-    {
       "time": "12.06.2026 05:05 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +307,28 @@
       "label": "16",
       "msgno": "M51A",
       "text": "POSA1N62226E 26352,AGAMO  ,034216,340,DETNA  ,051629,-52, 78, 281,835"
+    },
+    {
+      "time": "13.06.2026 13:38 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "10",
+      "msgno": "M78A",
+      "text": "POS061338, N 6177,E 2615,828,289,16714,  55,33999, 310,-204,-509,7"
+    },
+    {
+      "time": "13.06.2026 13:38 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "10",
+      "msgno": "M79A",
+      "text": "ETA061601,ZSPD,EGPK, 310"
     }
   ]
 }
