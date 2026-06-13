@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">12</div>
+        <div class="value">13</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">13.06.2026 07:35 UTC</div>
+        <div class="value">13.06.2026 07:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHU692</div>
+                    <div class="meta">ICAO 464AE4 · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>87.0 kt</b></div>
+                    <div><span>Track</span><b>225.47°</b></div>
+                    <div><span>Position</span><b>62.2499, 25.8534</b></div>
+                    <div><span>Last seen</span><b>13.06.2026 07:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=464ae4" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -295,7 +319,7 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>13.06.2026 07:35 UTC</b></div>
+                    <div><span>Last seen</span><b>13.06.2026 07:36 UTC</b></div>
                 </div>
             </div>
 
@@ -798,7 +822,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "7805DC", "flight": "CKK213", "lat": 62.376667, "lon": 3.058333, "alt": 34000, "speed": 434.0, "last_seen": "13.06.2026 04:38 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.774308, "lon": 25.512492, "alt": 14025, "speed": 246.8, "last_seen": "13.06.2026 03:01 UTC"}, {"hex": "781C0D", "flight": "CES249", "lat": 61.535634, "lon": 25.534261, "alt": 36000, "speed": 422.4, "last_seen": "13.06.2026 01:46 UTC"}];
+const aircraft = [{"hex": "464AE4", "flight": "OHU692", "lat": 62.249885, "lon": 25.853365, "alt": "-", "speed": 87.0, "last_seen": "13.06.2026 07:40 UTC"}, {"hex": "7805DC", "flight": "CKK213", "lat": 62.376667, "lon": 3.058333, "alt": 34000, "speed": 434.0, "last_seen": "13.06.2026 04:38 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.774308, "lon": 25.512492, "alt": 14025, "speed": 246.8, "last_seen": "13.06.2026 03:01 UTC"}, {"hex": "781C0D", "flight": "CES249", "lat": 61.535634, "lon": 25.534261, "alt": 36000, "speed": 422.4, "last_seen": "13.06.2026 01:46 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
