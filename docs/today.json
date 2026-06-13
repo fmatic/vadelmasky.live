@@ -67,16 +67,16 @@
     },
     "4601f8": {
       "hex": "4601f8",
-      "flight": "FIN4QA",
+      "flight": "FIN8PK",
       "reg": "OH-ATK",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 18000,
-      "speed": null,
-      "track": null,
+      "lat": 61.76225,
+      "lon": 25.838725,
+      "alt": 17000,
+      "speed": 286.9,
+      "track": 19.76,
       "seen_first": "2026-06-13T03:00:01.478939",
-      "last_seen": "2026-06-13T03:06:01.528753"
+      "last_seen": "2026-06-13T13:50:01.527892"
     },
     "461f6e": {
       "hex": "461f6e",
@@ -102,7 +102,7 @@
       "speed": 466.4,
       "track": 76.23,
       "seen_first": "2026-06-13T03:12:01.348319",
-      "last_seen": "2026-06-13T13:45:01.609625"
+      "last_seen": "2026-06-13T13:50:01.527892"
     },
     "461e1d": {
       "hex": "461e1d",
@@ -311,11 +311,24 @@
       "track": 250.2,
       "seen_first": "2026-06-13T13:35:01.937257",
       "last_seen": "2026-06-13T13:44:01.977934"
+    },
+    "781002": {
+      "hex": "781002",
+      "flight": "CHH752",
+      "reg": "B-7837",
+      "type": "B789",
+      "lat": 62.485579,
+      "lon": 26.581421,
+      "alt": 36975,
+      "speed": 484.4,
+      "track": 83.24,
+      "seen_first": "2026-06-13T13:47:02.163082",
+      "last_seen": "2026-06-13T13:48:01.850909"
     }
   },
   "summary": {
-    "total_unique_aircraft": 24,
-    "last_seen_live": 1,
-    "updated": "2026-06-13T13:45:01.609625"
+    "total_unique_aircraft": 25,
+    "last_seen_live": 2,
+    "updated": "2026-06-13T13:50:01.527892"
   }
 }
