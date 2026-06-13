@@ -1,8 +1,35 @@
 {
-  "aircraft": {},
+  "aircraft": {
+    "781c0d": {
+      "hex": "781c0d",
+      "flight": "CES249",
+      "reg": "B-324X",
+      "type": "A359",
+      "lat": 61.905399,
+      "lon": 26.725464,
+      "alt": 36000,
+      "speed": 419.1,
+      "track": 237.37,
+      "seen_first": "2026-06-13T01:37:01.857135",
+      "last_seen": "2026-06-13T01:39:02.059599"
+    },
+    "461f4c": {
+      "hex": "461f4c",
+      "flight": "FIN68",
+      "reg": "OH-LWE",
+      "type": "A359",
+      "lat": null,
+      "lon": null,
+      "alt": 24025,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-06-13T01:37:01.857135",
+      "last_seen": "2026-06-13T01:40:01.641777"
+    }
+  },
   "summary": {
-    "total_unique_aircraft": 0,
-    "last_seen_live": 0,
-    "updated": "2026-06-13T01:35:01.323818"
+    "total_unique_aircraft": 2,
+    "last_seen_live": 1,
+    "updated": "2026-06-13T01:40:01.641777"
   }
 }
