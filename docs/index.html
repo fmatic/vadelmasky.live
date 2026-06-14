@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -261,7 +261,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">18000 ft</div>
+        <div class="value">19775 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">14.06.2026 08:35 UTC</div>
+        <div class="value">14.06.2026 08:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN6LE</div>
+                    <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">19775 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>247.8 kt</b></div>
+                    <div><span>Track</span><b>210.29°</b></div>
+                    <div><span>Position</span><b>61.5175, 26.1289</b></div>
+                    <div><span>Last seen</span><b>14.06.2026 08:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -300,30 +324,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-SHT" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN5NB</div>
-                    <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">18000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>247.8 kt</b></div>
-                    <div><span>Track</span><b>210.29°</b></div>
-                    <div><span>Position</span><b>61.5175, 26.1289</b></div>
-                    <div><span>Last seen</span><b>14.06.2026 07:17 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -582,7 +582,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "463051", "flight": "-", "lat": 62.242251, "lon": 25.587158, "alt": 6250, "speed": 118.9, "last_seen": "14.06.2026 08:22 UTC"}, {"hex": "4601F5", "flight": "FIN5NB", "lat": 61.517487, "lon": 26.128922, "alt": 18000, "speed": 247.8, "last_seen": "14.06.2026 07:17 UTC"}];
+const aircraft = [{"hex": "4601F5", "flight": "FIN6LE", "lat": 61.517487, "lon": 26.128922, "alt": 19775, "speed": 247.8, "last_seen": "14.06.2026 08:40 UTC"}, {"hex": "463051", "flight": "-", "lat": 62.242251, "lon": 25.587158, "alt": 6250, "speed": 118.9, "last_seen": "14.06.2026 08:22 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
