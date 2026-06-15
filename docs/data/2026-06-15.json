@@ -20,11 +20,11 @@
       "type": "B789",
       "lat": null,
       "lon": null,
-      "alt": null,
+      "alt": 35000,
       "speed": null,
       "track": null,
       "seen_first": "2026-06-15T02:36:01.909026",
-      "last_seen": "2026-06-15T02:38:01.664120"
+      "last_seen": "2026-06-15T12:54:01.786328"
     },
     "781fda": {
       "hex": "781fda",
@@ -207,11 +207,24 @@
       "track": 153.43,
       "seen_first": "2026-06-15T12:18:01.446664",
       "last_seen": "2026-06-15T12:19:01.237000"
+    },
+    "4892c5": {
+      "hex": "4892c5",
+      "flight": "ENT4XA",
+      "reg": "SP-EXF",
+      "type": "B38M",
+      "lat": null,
+      "lon": null,
+      "alt": 31325,
+      "speed": 454.0,
+      "track": 221.13,
+      "seen_first": "2026-06-15T12:53:02.183745",
+      "last_seen": "2026-06-15T12:55:01.428611"
     }
   },
   "summary": {
-    "total_unique_aircraft": 16,
-    "last_seen_live": 0,
-    "updated": "2026-06-15T12:50:01.844927"
+    "total_unique_aircraft": 17,
+    "last_seen_live": 1,
+    "updated": "2026-06-15T12:55:01.428611"
   }
 }
