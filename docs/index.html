@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">13</div>
+        <div class="value">14</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">15.06.2026 09:15 UTC</div>
+        <div class="value">15.06.2026 09:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T25</div>
+                    <div class="meta">ICAO 467894 · REG PI-05 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge mid">17000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>263.3 kt</b></div>
+                    <div><span>Track</span><b>54.74°</b></div>
+                    <div><span>Position</span><b>62.1539, 25.7404</b></div>
+                    <div><span>Last seen</span><b>15.06.2026 09:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -820,7 +844,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "78216A", "flight": "CSG2520", "lat": 61.726959, "lon": 25.839059, "alt": 37000, "speed": 465.1, "last_seen": "15.06.2026 09:08 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.077083, "lon": 25.545146, "alt": 17950, "speed": 383.9, "last_seen": "15.06.2026 07:55 UTC"}, {"hex": "4678B1", "flight": "K03", "lat": 62.294575, "lon": 25.677373, "alt": 3350, "speed": 124.1, "last_seen": "15.06.2026 07:11 UTC"}, {"hex": "4601FA", "flight": "FIN8KH", "lat": 61.924578, "lon": 25.574748, "alt": 12000, "speed": 230.8, "last_seen": "15.06.2026 03:07 UTC"}, {"hex": "781602", "flight": "CES249", "lat": 61.506399, "lon": 25.434774, "alt": 36000, "speed": 494.0, "last_seen": "15.06.2026 01:42 UTC"}];
+const aircraft = [{"hex": "467894", "flight": "T25", "lat": 62.15387, "lon": 25.740356, "alt": 17000, "speed": 263.3, "last_seen": "15.06.2026 09:20 UTC"}, {"hex": "78216A", "flight": "CSG2520", "lat": 61.726959, "lon": 25.839059, "alt": 37000, "speed": 465.1, "last_seen": "15.06.2026 09:08 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.077083, "lon": 25.545146, "alt": 17950, "speed": 383.9, "last_seen": "15.06.2026 07:55 UTC"}, {"hex": "4678B1", "flight": "K03", "lat": 62.294575, "lon": 25.677373, "alt": 3350, "speed": 124.1, "last_seen": "15.06.2026 07:11 UTC"}, {"hex": "4601FA", "flight": "FIN8KH", "lat": 61.924578, "lon": 25.574748, "alt": 12000, "speed": 230.8, "last_seen": "15.06.2026 03:07 UTC"}, {"hex": "781602", "flight": "CES249", "lat": 61.506399, "lon": 25.434774, "alt": 36000, "speed": 494.0, "last_seen": "15.06.2026 01:42 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
