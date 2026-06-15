@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -261,7 +261,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">38000 ft</div>
+        <div class="value">37000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">15.06.2026 23:50 UTC</div>
+        <div class="value">15.06.2026 23:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CBJ432</div>
+                    <div class="meta">ICAO 7815D9 · REG B-305R · TYPE A333</div>
+                </div>
+                <div class="alt-badge high">35000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>452.0 kt</b></div>
+                    <div><span>Track</span><b>68.2°</b></div>
+                    <div><span>Position</span><b>62.1766, 26.1189</b></div>
+                    <div><span>Last seen</span><b>15.06.2026 23:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-305R" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -492,30 +516,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CBJ431</div>
-                    <div class="meta">ICAO 7815D9 · REG B-305R · TYPE A333</div>
-                </div>
-                <div class="alt-badge high">38000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>482.0 kt</b></div>
-                    <div><span>Track</span><b>245.21°</b></div>
-                    <div><span>Position</span><b>62.1766, 26.1189</b></div>
-                    <div><span>Last seen</span><b>15.06.2026 15:35 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-305R" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1204,7 +1204,7 @@ RNORMRUN 128 2280</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F5", "flight": "FIN1T", "lat": 62.325485, "lon": 25.823364, "alt": 2600, "speed": 159.8, "last_seen": "15.06.2026 22:06 UTC"}, {"hex": "4601FC", "flight": "FIN3PT", "lat": 62.09589, "lon": 26.921183, "alt": 19000, "speed": 270.3, "last_seen": "15.06.2026 22:02 UTC"}, {"hex": "463CF7", "flight": "OHXCH", "lat": 62.230473, "lon": 26.023548, "alt": 1725, "speed": 84.9, "last_seen": "15.06.2026 17:23 UTC"}, {"hex": "4601FA", "flight": "FIN7BT", "lat": 61.636459, "lon": 25.69967, "alt": 17025, "speed": 262.8, "last_seen": "15.06.2026 17:17 UTC"}, {"hex": "47B1E8", "flight": "LED8", "lat": 62.244299, "lon": 25.651175, "alt": 4075, "speed": 132.0, "last_seen": "15.06.2026 16:20 UTC"}, {"hex": "461F36", "flight": "FIN9XG", "lat": 61.226852, "lon": 25.290429, "alt": 25250, "speed": 355.4, "last_seen": "15.06.2026 16:18 UTC"}, {"hex": "461F69", "flight": "FIN5YR", "lat": 61.190822, "lon": 25.278829, "alt": 23050, "speed": 452.1, "last_seen": "15.06.2026 16:07 UTC"}, {"hex": "4601F2", "flight": "FIN6YP", "lat": 62.024414, "lon": 26.573083, "alt": 15975, "speed": 271.7, "last_seen": "15.06.2026 15:35 UTC"}, {"hex": "7815D9", "flight": "CBJ431", "lat": 62.176612, "lon": 26.118939, "alt": 38000, "speed": 482.0, "last_seen": "15.06.2026 15:35 UTC"}, {"hex": "46789E", "flight": "V91", "lat": 62.324432, "lon": 25.845337, "alt": 2650, "speed": 111.1, "last_seen": "15.06.2026 13:13 UTC"}, {"hex": "4678A1", "flight": "K35", "lat": 62.250583, "lon": 25.760615, "alt": 1275, "speed": 129.5, "last_seen": "15.06.2026 13:11 UTC"}, {"hex": "4678A0", "flight": "K33", "lat": 62.221481, "lon": 25.757141, "alt": 1100, "speed": 118.9, "last_seen": "15.06.2026 13:02 UTC"}, {"hex": "4678A3", "flight": "K32", "lat": 62.213295, "lon": 25.774771, "alt": 1350, "speed": 116.3, "last_seen": "15.06.2026 12:19 UTC"}, {"hex": "4601F7", "flight": "FIN5NB", "lat": 61.597549, "lon": 25.779419, "alt": 20000, "speed": 260.5, "last_seen": "15.06.2026 09:44 UTC"}, {"hex": "467894", "flight": "T25", "lat": 62.328977, "lon": 26.266726, "alt": 17000, "speed": 264.1, "last_seen": "15.06.2026 09:25 UTC"}, {"hex": "78216A", "flight": "CSG2520", "lat": 61.726959, "lon": 25.839059, "alt": 37000, "speed": 465.1, "last_seen": "15.06.2026 09:08 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.077083, "lon": 25.545146, "alt": 17950, "speed": 383.9, "last_seen": "15.06.2026 07:55 UTC"}, {"hex": "4678B1", "flight": "K03", "lat": 62.294575, "lon": 25.677373, "alt": 3350, "speed": 124.1, "last_seen": "15.06.2026 07:11 UTC"}, {"hex": "781602", "flight": "CES249", "lat": 61.506399, "lon": 25.434774, "alt": 36000, "speed": 494.0, "last_seen": "15.06.2026 01:42 UTC"}];
+const aircraft = [{"hex": "7815D9", "flight": "CBJ432", "lat": 62.176612, "lon": 26.118939, "alt": 35000, "speed": 452.0, "last_seen": "15.06.2026 23:55 UTC"}, {"hex": "4601F5", "flight": "FIN1T", "lat": 62.325485, "lon": 25.823364, "alt": 2600, "speed": 159.8, "last_seen": "15.06.2026 22:06 UTC"}, {"hex": "4601FC", "flight": "FIN3PT", "lat": 62.09589, "lon": 26.921183, "alt": 19000, "speed": 270.3, "last_seen": "15.06.2026 22:02 UTC"}, {"hex": "463CF7", "flight": "OHXCH", "lat": 62.230473, "lon": 26.023548, "alt": 1725, "speed": 84.9, "last_seen": "15.06.2026 17:23 UTC"}, {"hex": "4601FA", "flight": "FIN7BT", "lat": 61.636459, "lon": 25.69967, "alt": 17025, "speed": 262.8, "last_seen": "15.06.2026 17:17 UTC"}, {"hex": "47B1E8", "flight": "LED8", "lat": 62.244299, "lon": 25.651175, "alt": 4075, "speed": 132.0, "last_seen": "15.06.2026 16:20 UTC"}, {"hex": "461F36", "flight": "FIN9XG", "lat": 61.226852, "lon": 25.290429, "alt": 25250, "speed": 355.4, "last_seen": "15.06.2026 16:18 UTC"}, {"hex": "461F69", "flight": "FIN5YR", "lat": 61.190822, "lon": 25.278829, "alt": 23050, "speed": 452.1, "last_seen": "15.06.2026 16:07 UTC"}, {"hex": "4601F2", "flight": "FIN6YP", "lat": 62.024414, "lon": 26.573083, "alt": 15975, "speed": 271.7, "last_seen": "15.06.2026 15:35 UTC"}, {"hex": "46789E", "flight": "V91", "lat": 62.324432, "lon": 25.845337, "alt": 2650, "speed": 111.1, "last_seen": "15.06.2026 13:13 UTC"}, {"hex": "4678A1", "flight": "K35", "lat": 62.250583, "lon": 25.760615, "alt": 1275, "speed": 129.5, "last_seen": "15.06.2026 13:11 UTC"}, {"hex": "4678A0", "flight": "K33", "lat": 62.221481, "lon": 25.757141, "alt": 1100, "speed": 118.9, "last_seen": "15.06.2026 13:02 UTC"}, {"hex": "4678A3", "flight": "K32", "lat": 62.213295, "lon": 25.774771, "alt": 1350, "speed": 116.3, "last_seen": "15.06.2026 12:19 UTC"}, {"hex": "4601F7", "flight": "FIN5NB", "lat": 61.597549, "lon": 25.779419, "alt": 20000, "speed": 260.5, "last_seen": "15.06.2026 09:44 UTC"}, {"hex": "467894", "flight": "T25", "lat": 62.328977, "lon": 26.266726, "alt": 17000, "speed": 264.1, "last_seen": "15.06.2026 09:25 UTC"}, {"hex": "78216A", "flight": "CSG2520", "lat": 61.726959, "lon": 25.839059, "alt": 37000, "speed": 465.1, "last_seen": "15.06.2026 09:08 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.077083, "lon": 25.545146, "alt": 17950, "speed": 383.9, "last_seen": "15.06.2026 07:55 UTC"}, {"hex": "4678B1", "flight": "K03", "lat": 62.294575, "lon": 25.677373, "alt": 3350, "speed": 124.1, "last_seen": "15.06.2026 07:11 UTC"}, {"hex": "781602", "flight": "CES249", "lat": 61.506399, "lon": 25.434774, "alt": 36000, "speed": 494.0, "last_seen": "15.06.2026 01:42 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
