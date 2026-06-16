@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.06.2026 13:05 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "5V",
-      "msgno": "S87A",
-      "text": "No text"
-    },
-    {
       "time": "14.06.2026 21:26 UTC",
       "source": "ACARS",
       "flight": "N70289",
@@ -329,6 +318,17 @@
       "label": "11",
       "msgno": "M05A",
       "text": "POS\r\nCAS 274,LAT N 62.000,LON E 27.188,ALT 35002,FOB 128960,UTC 141107,PD ----.--,WD 132,WS   51,TAT - 27"
+    },
+    {
+      "time": "16.06.2026 15:25 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "H1",
+      "msgno": "D17B",
+      "text": "L/F2067.1,082.0,095.4/F3067.1,082.0,093.6/G1NH,ITT,FF,IG/G2095.4,0665.4,331,0107/G3095.4,0656.9,315,0125/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.64/**.,EOT,...,/"
     }
   ]
 }
