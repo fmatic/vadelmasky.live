@@ -6,28 +6,6 @@
       "flight": "HO1660",
       "tail": "B-208A",
       "freq": 131.825,
-      "level": -28.7,
-      "label": "Q0",
-      "msgno": "S76A",
-      "text": "No text"
-    },
-    {
-      "time": "14.06.2026 13:00 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "SA",
-      "msgno": "S77A",
-      "text": "0EV130113VS/"
-    },
-    {
-      "time": "14.06.2026 13:00 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-208A",
-      "freq": 131.825,
       "level": -35.0,
       "label": "5V",
       "msgno": "S78A",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S01A",
       "text": "No text"
+    },
+    {
+      "time": "16.06.2026 06:13 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ2",
+      "freq": 131.725,
+      "level": -28.8,
+      "label": "20",
+      "msgno": "M19A",
+      "text": "POSN62081E025356,,061314,032,IPLUV    ,000145,,P11,01510,28,287"
+    },
+    {
+      "time": "16.06.2026 06:13 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ2",
+      "freq": 131.725,
+      "level": -28.2,
+      "label": "SA",
+      "msgno": "M20A",
+      "text": "0EV061401V//312R15PMSMMKO."
     }
   ]
 }

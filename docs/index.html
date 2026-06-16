@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">11</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">16.06.2026 06:10 UTC</div>
+        <div class="value">16.06.2026 06:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">W21</div>
+                    <div class="meta">ICAO 46788C · REG LJ-2 · TYPE LJ35</div>
+                </div>
+                <div class="alt-badge low">3200 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>237.5 kt</b></div>
+                    <div><span>Track</span><b>49.27°</b></div>
+                    <div><span>Position</span><b>62.2159, 25.8500</b></div>
+                    <div><span>Last seen</span><b>16.06.2026 06:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LJ-2" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -530,6 +554,42 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">GS0000</div>
+                    <div class="acars-meta">
+                        ACARS · Tail LJ2 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">16.06.2026 06:13 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg M20A · Level -28.2 dB
+            </div>
+
+            <div class="acars-text">0EV061401V//312R15PMSMMKO.</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">GS0000</div>
+                    <div class="acars-meta">
+                        ACARS · Tail LJ2 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">16.06.2026 06:13 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 20 · Msg M19A · Level -28.8 dB
+            </div>
+
+            <div class="acars-text">POSN62081E025356,,061314,032,IPLUV    ,000145,,P11,01510,28,287</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">N70290</div>
                     <div class="acars-meta">
                         ACARS · Tail OH-ATH · 131.825 MHz
@@ -711,59 +771,11 @@ footer {
  500 500 100 100 100 100</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">HO1667</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-208A · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">15.06.2026 14:51 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg D91I · Level -34.2 dB
-            </div>
-
-            <div class="acars-text">07
-L 948 984  770   00  542  778 -130   06
-R 948 984  771   00  547  778 -130   02
-L 028 057 060 022 062 036 060
-R 016 013 112 112 112 113 112
- 883 883 562848360062828
- 869 869 566845359942819
-  14  </div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">HO1667</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-208A · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">15.06.2026 14:51 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg D91G · Level -35.6 dB
-            </div>
-
-            <div class="acars-text">30   746   960
-L15961550 784 1031   70   00  770   98
-R15331462 731 1037   49  -01  771  141
-L  03  07 036 01319801924  037  022
-R  02  02 067 067  00  00  068  068
-L 3297 525521801 -565 -256 -273  466</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "461E15", "flight": "FIN434", "lat": 61.59343, "lon": 25.217743, "alt": 33950, "speed": 415.5, "last_seen": "16.06.2026 05:30 UTC"}, {"hex": "461F6D", "flight": "FIN8MC", "lat": 61.337494, "lon": 25.26571, "alt": 29225, "speed": 534.1, "last_seen": "16.06.2026 03:22 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.846417, "lon": 26.338501, "alt": 20025, "speed": 232.9, "last_seen": "16.06.2026 03:11 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.906586, "lon": 25.564597, "alt": 12000, "speed": 264.0, "last_seen": "16.06.2026 03:01 UTC"}];
+const aircraft = [{"hex": "46788C", "flight": "W21", "lat": 62.215949, "lon": 25.849985, "alt": 3200, "speed": 237.5, "last_seen": "16.06.2026 06:15 UTC"}, {"hex": "461E15", "flight": "FIN434", "lat": 61.59343, "lon": 25.217743, "alt": 33950, "speed": 415.5, "last_seen": "16.06.2026 05:30 UTC"}, {"hex": "461F6D", "flight": "FIN8MC", "lat": 61.337494, "lon": 25.26571, "alt": 29225, "speed": 534.1, "last_seen": "16.06.2026 03:22 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.846417, "lon": 26.338501, "alt": 20025, "speed": 232.9, "last_seen": "16.06.2026 03:11 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.906586, "lon": 25.564597, "alt": 12000, "speed": 264.0, "last_seen": "16.06.2026 03:01 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
