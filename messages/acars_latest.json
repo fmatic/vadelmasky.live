@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.06.2026 13:00 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "5V",
-      "msgno": "S78A",
-      "text": "No text"
-    },
-    {
-      "time": "14.06.2026 13:02 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -29.6,
-      "label": "Q0",
-      "msgno": "S81A",
-      "text": "No text"
-    },
-    {
-      "time": "14.06.2026 13:02 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -30.7,
-      "label": "SA",
-      "msgno": "S82A",
-      "text": "0EV130316VS/"
-    },
-    {
       "time": "14.06.2026 13:03 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "M20A",
       "text": "0EV061401V//312R15PMSMMKO."
+    },
+    {
+      "time": "16.06.2026 14:05 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-6546",
+      "freq": 131.825,
+      "level": -32.9,
+      "label": "H1",
+      "msgno": "C28A",
+      "text": ".1/WRN/WN2606161405  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "16.06.2026 14:05 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-6546",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "H1",
+      "msgno": "C29A",
+      "text": ".1/WRN/WN2606161405  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "16.06.2026 14:06 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-6546",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "H1",
+      "msgno": "C30A",
+      "text": ".1/FLR/FR2606161405  34363106ATC1   1,ATC2,,,,,,MMR1X2(40RT1X2)/ATC1(1SH1),HARD"
     }
   ]
 }
