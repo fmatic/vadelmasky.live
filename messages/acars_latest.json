@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.06.2026 13:03 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "5V",
-      "msgno": "S83A",
-      "text": "No text"
-    },
-    {
       "time": "14.06.2026 13:05 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C30A",
       "text": ".1/FLR/FR2606161405  34363106ATC1   1,ATC2,,,,,,MMR1X2(40RT1X2)/ATC1(1SH1),HARD"
+    },
+    {
+      "time": "16.06.2026 14:10 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-6546",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "11",
+      "msgno": "M05A",
+      "text": "POS\r\nCAS 274,LAT N 62.000,LON E 27.188,ALT 35002,FOB 128960,UTC 141107,PD ----.--,WD 132,WS   51,TAT - 27"
     }
   ]
 }
