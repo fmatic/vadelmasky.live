@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.06.2026 13:40 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "H1",
-      "msgno": "E65E",
-      "text": ",NO,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,06,JUN,26,13,41,01"
-    },
-    {
-      "time": "14.06.2026 12:57 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-7952",
-      "freq": 131.825,
-      "level": -41.9,
-      "label": "H1",
-      "msgno": "O34A",
-      "text": "SB0122BA_B-7952  ZBAALIRF596\r\n 60887 0261271256 33999-46014605209020;017029"
-    },
-    {
-      "time": "14.06.2026 12:57 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "Q0",
-      "msgno": "S70A",
-      "text": "No text"
-    },
-    {
-      "time": "14.06.2026 12:59 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -27.0,
-      "label": "SA",
-      "msgno": "S73A",
-      "text": "0EV130006VS/"
-    },
-    {
       "time": "14.06.2026 13:00 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -328,6 +284,50 @@
       "level": -32.8,
       "label": "Q0",
       "msgno": "S90A",
+      "text": "No text"
+    },
+    {
+      "time": "16.06.2026 02:48 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -27.5,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "16.06.2026 02:48 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -20.8,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/16 EFJY/EFHK .OH-ATH\r\n/OUT 0244/FOB 0016/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "16.06.2026 02:48 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -28.3,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/16 EFJY/EFHK .OH-ATH\r\n/OUT 0244/OFF 0246/FOB 0015/ETA 0326"
+    },
+    {
+      "time": "16.06.2026 02:49 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "5V",
+      "msgno": "S01A",
       "text": "No text"
     }
   ]
