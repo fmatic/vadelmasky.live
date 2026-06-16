@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">16.06.2026 12:20 UTC</div>
+        <div class="value">16.06.2026 12:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T05</div>
+                    <div class="meta">ICAO 467894 · REG PI-05 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge low">4875 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>212.9 kt</b></div>
+                    <div><span>Track</span><b>224.43°</b></div>
+                    <div><span>Position</span><b>62.3022, 26.0331</b></div>
+                    <div><span>Last seen</span><b>16.06.2026 12:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -324,30 +348,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">T05</div>
-                    <div class="meta">ICAO 467894 · REG PI-05 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge low">3000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>148.5 kt</b></div>
-                    <div><span>Track</span><b>313.91°</b></div>
-                    <div><span>Position</span><b>62.3080, 25.8804</b></div>
-                    <div><span>Last seen</span><b>16.06.2026 11:07 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -895,7 +895,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F4", "flight": "FIN286", "lat": 61.985143, "lon": 25.511271, "alt": 13475, "speed": 211.8, "last_seen": "16.06.2026 11:16 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.601852, "lon": 26.117347, "alt": 20000, "speed": 264.1, "last_seen": "16.06.2026 11:13 UTC"}, {"hex": "467894", "flight": "T05", "lat": 62.308029, "lon": 25.880409, "alt": 3000, "speed": 148.5, "last_seen": "16.06.2026 11:07 UTC"}, {"hex": "4678A1", "flight": "K07", "lat": 62.268585, "lon": 25.74941, "alt": 1275, "speed": 118.1, "last_seen": "16.06.2026 10:47 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.319717, "lon": 25.855204, "alt": 2800, "speed": 164.8, "last_seen": "16.06.2026 06:18 UTC"}, {"hex": "461E15", "flight": "FIN434", "lat": 61.59343, "lon": 25.217743, "alt": 33950, "speed": 415.5, "last_seen": "16.06.2026 05:30 UTC"}, {"hex": "461F6D", "flight": "FIN8MC", "lat": 61.337494, "lon": 25.26571, "alt": 29225, "speed": 534.1, "last_seen": "16.06.2026 03:22 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.846417, "lon": 26.338501, "alt": 20025, "speed": 232.9, "last_seen": "16.06.2026 03:11 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.906586, "lon": 25.564597, "alt": 12000, "speed": 264.0, "last_seen": "16.06.2026 03:01 UTC"}];
+const aircraft = [{"hex": "467894", "flight": "T05", "lat": 62.302185, "lon": 26.033122, "alt": 4875, "speed": 212.9, "last_seen": "16.06.2026 12:25 UTC"}, {"hex": "4601F4", "flight": "FIN286", "lat": 61.985143, "lon": 25.511271, "alt": 13475, "speed": 211.8, "last_seen": "16.06.2026 11:16 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.601852, "lon": 26.117347, "alt": 20000, "speed": 264.1, "last_seen": "16.06.2026 11:13 UTC"}, {"hex": "4678A1", "flight": "K07", "lat": 62.268585, "lon": 25.74941, "alt": 1275, "speed": 118.1, "last_seen": "16.06.2026 10:47 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.319717, "lon": 25.855204, "alt": 2800, "speed": 164.8, "last_seen": "16.06.2026 06:18 UTC"}, {"hex": "461E15", "flight": "FIN434", "lat": 61.59343, "lon": 25.217743, "alt": 33950, "speed": 415.5, "last_seen": "16.06.2026 05:30 UTC"}, {"hex": "461F6D", "flight": "FIN8MC", "lat": 61.337494, "lon": 25.26571, "alt": 29225, "speed": 534.1, "last_seen": "16.06.2026 03:22 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.846417, "lon": 26.338501, "alt": 20025, "speed": 232.9, "last_seen": "16.06.2026 03:11 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.906586, "lon": 25.564597, "alt": 12000, "speed": 264.0, "last_seen": "16.06.2026 03:01 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
