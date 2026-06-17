@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.06.2026 02:48 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -27.5,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
-      "time": "16.06.2026 02:48 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -20.8,
-      "label": "80",
-      "msgno": "M00A",
-      "text": "1001 OUTRP  0290/16 EFJY/EFHK .OH-ATH\r\n/OUT 0244/FOB 0016/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "16.06.2026 02:48 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -28.3,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1101 OFFRP  0290/16 EFJY/EFHK .OH-ATH\r\n/OUT 0244/OFF 0246/FOB 0015/ETA 0326"
-    },
-    {
-      "time": "16.06.2026 02:49 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -29.8,
-      "label": "5V",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
       "time": "16.06.2026 06:13 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -328,6 +284,50 @@
       "level": -37.3,
       "label": "Q0",
       "msgno": "S46A",
+      "text": "No text"
+    },
+    {
+      "time": "17.06.2026 11:07 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "SA",
+      "msgno": "M10A",
+      "text": "0EV110633V"
+    },
+    {
+      "time": "17.06.2026 11:07 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "B9",
+      "msgno": "L10A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "17.06.2026 11:07 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "_d",
+      "msgno": "S51A",
+      "text": "No text"
+    },
+    {
+      "time": "17.06.2026 11:07 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "_d",
+      "msgno": "S52A",
       "text": "No text"
     }
   ]
