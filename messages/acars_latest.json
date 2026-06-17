@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.06.2026 11:15 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -38.9,
-      "label": "SA",
-      "msgno": "M12A",
-      "text": "0EV111448V"
-    },
-    {
-      "time": "17.06.2026 11:15 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "_d",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
       "time": "17.06.2026 11:16 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S37A",
       "text": "No text"
+    },
+    {
+      "time": "17.06.2026 22:18 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "SA",
+      "msgno": "S29A",
+      "text": "0LH221901VS"
+    },
+    {
+      "time": "17.06.2026 22:18 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -35.9,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/FLR/FR2606172218  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
