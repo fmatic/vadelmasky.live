@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.06.2026 10:03 UTC",
-      "source": "ACARS",
-      "flight": "CA8439",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -36.2,
-      "label": "H1",
-      "msgno": "E93C",
-      "text": "40,,-2.40,,-2.40,,-3.11,,-3.11,,-3.12,,3038,-3.11,,-3.11,,3076,-3.11,,-3.10,,3029,-3.09,,-3.11,,-3.12,,+3.80,,+3.89,,+4.08,,+4.10,,+2140,,+2190,,+1670,,+1460,,-0.15,,-0.15,,-0.19,,-0.19,,+0.27,,+60,,+0.26,,"
-    },
-    {
-      "time": "17.06.2026 10:04 UTC",
-      "source": "ACARS",
-      "flight": "CA8439",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -37.6,
-      "label": "H1",
-      "msgno": "E93D",
-      "text": "+10,,+0.27,,+90,,-0.03,,-50,,+34.69,,-0.03,,+10,,,-0.03,,-170,,+35.32,,-0.03,,-130,,,+34.17,,,17,JUN,26,10,08,28,YES,YES,YES,YES,YES,YES,YES,YES,AUTO,AUTO,AUTO,AUTO,NORM,NORM,NORM,NORM,NO,NO,SLOW,NO,NO,NO,N"
-    },
-    {
       "time": "17.06.2026 10:04 UTC",
       "source": "ACARS",
       "flight": "CA8439",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S53A",
       "text": "No text"
+    },
+    {
+      "time": "17.06.2026 12:21 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.725,
+      "level": -37.3,
+      "label": "B9",
+      "msgno": "M61A",
+      "text": "/ENGM.TI2/024ENGMAFD47"
+    },
+    {
+      "time": "17.06.2026 12:22 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32GY",
+      "freq": 131.725,
+      "level": -31.7,
+      "label": "14",
+      "msgno": "M62A",
+      "text": "POS\r\n17JUN,1222,256,37999,N 61.454,E 26.807,  281,  15,157"
     }
   ]
 }
