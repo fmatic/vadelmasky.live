@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.06.2026 11:07 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "_d",
-      "msgno": "S52A",
-      "text": "No text"
-    },
-    {
       "time": "17.06.2026 11:15 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "E10B",
       "text": ",16,42,42,,09,SEP,65,12,47,14"
+    },
+    {
+      "time": "17.06.2026 18:36 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-226D",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "18",
+      "msgno": "M63A",
+      "text": "POX,CSG2517   ,17JUN26,183641,ZGGG,EGPK,N061.27,E0026.40,339, 306,829,-116.9, -49.7,012,-51.0,211641, 30160,"
     }
   ]
 }
