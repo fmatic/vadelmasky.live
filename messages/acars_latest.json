@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.06.2026 14:49 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -36.6,
-      "label": "SA",
-      "msgno": "S28A",
-      "text": "0EV144938VS/"
-    },
-    {
-      "time": "15.06.2026 14:50 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -35.7,
-      "label": "SA",
-      "msgno": "S33A",
-      "text": "0EV145040VS/"
-    },
-    {
       "time": "15.06.2026 14:51 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O44A",
       "text": "SB0122BA_B-2096  ZSPDEHAM692\r\n 61752 0276950724 34001-520054023010NXW009011"
+    },
+    {
+      "time": "17.06.2026 07:20 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -36.2,
+      "label": "_d",
+      "msgno": "S67A",
+      "text": "No text"
+    },
+    {
+      "time": "17.06.2026 07:20 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "E56B",
+      "text": "5,22"
     }
   ]
 }
