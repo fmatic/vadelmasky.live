@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.06.2026 10:04 UTC",
-      "source": "ACARS",
-      "flight": "CA8439",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "H1",
-      "msgno": "E93E",
-      "text": "O,NO,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,17,JUN,26,10,08,28"
-    },
-    {
-      "time": "17.06.2026 10:41 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "Q0",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
-      "time": "17.06.2026 10:41 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "Q0",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
       "time": "17.06.2026 10:41 UTC",
       "source": "ACARS",
       "flight": "N70285",
@@ -329,6 +296,39 @@
       "label": "14",
       "msgno": "M62A",
       "text": "POS\r\n17JUN,1222,256,37999,N 61.454,E 26.807,  281,  15,157"
+    },
+    {
+      "time": "17.06.2026 12:40 UTC",
+      "source": "ACARS",
+      "flight": "CA1041",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -38.4,
+      "label": "_d",
+      "msgno": "S60A",
+      "text": "No text"
+    },
+    {
+      "time": "17.06.2026 12:40 UTC",
+      "source": "ACARS",
+      "flight": "CA1041",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "H1",
+      "msgno": "E08A",
+      "text": "FCL,R,+0.02,-0.02,34000,-0.13,+2.78,287,0.00,-0.15,0.00,-0.31,-0.15,-0.35,+0.18,+0.02,+0.09,0.00,,0.00,,-0.02,,0.00,,0.00,,+0.02,,0.00,,0.00,,-0.02,,0.00,,-0.01,,+0.02,,0.00,,0.00,,0.00,,-0.01,,-1.92,,+0.42"
+    },
+    {
+      "time": "17.06.2026 12:41 UTC",
+      "source": "ACARS",
+      "flight": "CA1041",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "H1",
+      "msgno": "E08E",
+      "text": "O,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,09,SEP,65,12,41,03"
     }
   ]
 }
