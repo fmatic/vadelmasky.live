@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.06.2026 21:27 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -31.2,
-      "label": "Q0",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
-      "time": "15.06.2026 01:45 UTC",
-      "source": "ACARS",
-      "flight": "CZ2519",
-      "tail": "B-226D",
-      "freq": 131.825,
-      "level": -40.3,
-      "label": "SA",
-      "msgno": "S27A",
-      "text": "0LS014508V"
-    },
-    {
-      "time": "15.06.2026 01:46 UTC",
-      "source": "ACARS",
-      "flight": "CZ2519",
-      "tail": "B-226D",
-      "freq": 131.825,
-      "level": -39.9,
-      "label": "H1",
-      "msgno": "O39A",
-      "text": "SB0122BA_B-226D  ZGGGEGPK 23\r\n 61571 0283560146 33995-480140054010W/X009011"
-    },
-    {
       "time": "15.06.2026 02:48 UTC",
       "source": "ACARS",
       "flight": "JD0641",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S83A",
       "text": "No text"
+    },
+    {
+      "time": "17.06.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "80",
+      "msgno": "M02A",
+      "text": "3701 INRANG 0290/17 EFJY/EFHK .OH-ATN\r\n/ETA 0330/ERT     "
+    },
+    {
+      "time": "17.06.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "_d",
+      "msgno": "S04A",
+      "text": "No text"
+    },
+    {
+      "time": "17.06.2026 02:59 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "80",
+      "msgno": "M03A",
+      "text": "3701 INRANG 0290/17 EFJY/EFHK .OH-ATN\r\n/ETA 0329/ERT     "
     }
   ]
 }
