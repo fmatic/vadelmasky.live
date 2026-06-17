@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.06.2026 10:41 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "Q0",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
-      "time": "17.06.2026 11:07 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "SA",
-      "msgno": "M10A",
-      "text": "0EV110633V"
-    },
-    {
-      "time": "17.06.2026 11:07 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -33.2,
-      "label": "B9",
-      "msgno": "L10A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "17.06.2026 11:07 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "_d",
-      "msgno": "S51A",
-      "text": "No text"
-    },
-    {
       "time": "17.06.2026 11:07 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "E08E",
       "text": "O,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,09,SEP,65,12,41,03"
+    },
+    {
+      "time": "17.06.2026 12:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1041",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.9,
+      "label": "_d",
+      "msgno": "S61A",
+      "text": "No text"
+    },
+    {
+      "time": "17.06.2026 12:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1041",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "H1",
+      "msgno": "E09A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,166,166,43,44,42,41,158,158,60,63,82,82,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,400,AUTO,8.5,0.11,0.21,L,,,,09,SEP,65,12,47,07"
+    },
+    {
+      "time": "17.06.2026 12:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1041",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "_d",
+      "msgno": "S62A",
+      "text": "No text"
+    },
+    {
+      "time": "17.06.2026 12:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1041",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "H1",
+      "msgno": "E10B",
+      "text": ",16,42,42,,09,SEP,65,12,47,14"
     }
   ]
 }
