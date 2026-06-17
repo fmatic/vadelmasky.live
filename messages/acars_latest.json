@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.06.2026 02:48 UTC",
-      "source": "ACARS",
-      "flight": "JD0641",
-      "tail": "B-32FE",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "Q0",
-      "msgno": "S83A",
-      "text": "No text"
-    },
-    {
-      "time": "15.06.2026 10:49 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "Q0",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
       "time": "15.06.2026 14:49 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +307,28 @@
       "label": "80",
       "msgno": "M03A",
       "text": "3701 INRANG 0290/17 EFJY/EFHK .OH-ATN\r\n/ETA 0329/ERT     "
+    },
+    {
+      "time": "17.06.2026 07:18 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "10",
+      "msgno": "M94A",
+      "text": "POS170723, N 6183,E 2800,829,290,5972 ,  22,33998, 290,-216,-521,7"
+    },
+    {
+      "time": "17.06.2026 07:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "H1",
+      "msgno": "O44A",
+      "text": "SB0122BA_B-2096  ZSPDEHAM692\r\n 61752 0276950724 34001-520054023010NXW009011"
     }
   ]
 }
