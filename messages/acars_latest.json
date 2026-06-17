@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.06.2026 10:00 UTC",
-      "source": "ACARS",
-      "flight": "CA8439",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -39.5,
-      "label": "H1",
-      "msgno": "E91A",
-      "text": "PER,R,263.0,-51.5,285,-21.8,492.9,0.818,34000,100.5,100.4,83.4,83.4,--,0.57,--,0.69,83.4,83.4,0.34,--,0.10,--,679,672,0.98,--,1.01,--,101.0,101.2,1.00,--,1.02,--,3.690,3.656,167,167,0.00,0.00,62,73,68,68,17"
-    },
-    {
-      "time": "17.06.2026 10:03 UTC",
-      "source": "ACARS",
-      "flight": "CA8439",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "_d",
-      "msgno": "S63A",
-      "text": "No text"
-    },
-    {
-      "time": "17.06.2026 10:03 UTC",
-      "source": "ACARS",
-      "flight": "CA8439",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "H1",
-      "msgno": "E93B",
-      "text": "0.36,,-1.59,,-0.05,,-1.46,,-1.46,,FDR,+0.001,+1.1,+0.6,+0.001,-0.9,-6.98,,0.00,,+1.36,,+0.1,,+0.01,,-7.00,,+0.01,,+1.36,,0.0,,+0.01,,-6.95,,-6.88,,NORMAL,ENGAGED,NO ACTIVITY,,,,17,JUN,26,10,08,28,-2.40,,-2."
-    },
-    {
       "time": "17.06.2026 10:03 UTC",
       "source": "ACARS",
       "flight": "CA8439",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O97A",
       "text": "SB0122BA_B-228C  ZSPDEHAM209\r\n 61572 0263871123 33997-5100370170107GX008011"
+    },
+    {
+      "time": "17.06.2026 11:57 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -39.7,
+      "label": "B9",
+      "msgno": "L24A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "17.06.2026 11:57 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "80",
+      "msgno": "M51A",
+      "text": "3701 INRANG 0286/17 EFJY/EFHK .OH-ATE\r\n/ETA 1230/ERT     "
+    },
+    {
+      "time": "17.06.2026 11:57 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -41.3,
+      "label": "_d",
+      "msgno": "S53A",
+      "text": "No text"
     }
   ]
 }
