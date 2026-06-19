@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">11</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">19.06.2026 06:25 UTC</div>
+        <div class="value">19.06.2026 06:30 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN14J</div>
+                    <div class="meta">ICAO 461E16 · REG OH-LKG · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">30275 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>437.5 kt</b></div>
+                    <div><span>Track</span><b>194.29°</b></div>
+                    <div><span>Position</span><b>61.6225, 25.2991</b></div>
+                    <div><span>Last seen</span><b>19.06.2026 06:29 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -292,10 +316,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>62.6317, 3.2317</b></div>
-                    <div><span>Last seen</span><b>19.06.2026 06:25 UTC</b></div>
+                    <div><span>Speed</span><b>474.3 kt</b></div>
+                    <div><span>Track</span><b>234.27°</b></div>
+                    <div><span>Position</span><b>61.3798, 25.6362</b></div>
+                    <div><span>Last seen</span><b>19.06.2026 06:28 UTC</b></div>
                 </div>
             </div>
 
@@ -535,6 +559,24 @@ footer {
                         ACARS · Tail B-222N · 131.825 MHz
                     </div>
                 </div>
+                <div class="acars-meta">19.06.2026 06:26 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S02A · Level -38.9 dB
+            </div>
+
+            <div class="acars-text">0LH062616VS</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CK0209</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-222N · 131.825 MHz
+                    </div>
+                </div>
                 <div class="acars-meta">19.06.2026 06:24 UTC</div>
             </div>
 
@@ -745,29 +787,11 @@ B-222N  CKK209ZSPDEHAM020246061930ER
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1005</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2097 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.06.2026 22:29 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S05A · Level -40.4 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "781E8A", "flight": "CKK209", "lat": 62.631667, "lon": 3.231667, "alt": 34000, "speed": "-", "last_seen": "19.06.2026 06:25 UTC"}];
+const aircraft = [{"hex": "461E16", "flight": "FIN14J", "lat": 61.622501, "lon": 25.299072, "alt": 30275, "speed": 437.5, "last_seen": "19.06.2026 06:29 UTC"}, {"hex": "781E8A", "flight": "CKK209", "lat": 61.379824, "lon": 25.63619, "alt": 34000, "speed": 474.3, "last_seen": "19.06.2026 06:28 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
