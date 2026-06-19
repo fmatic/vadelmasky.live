@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">14</div>
+        <div class="value">15</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">19.06.2026 07:50 UTC</div>
+        <div class="value">19.06.2026 07:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,7 +286,7 @@ footer {
                     <div class="flight">OHACN</div>
                     <div class="meta">ICAO 460041 · REG OH-ACN · TYPE AC90</div>
                 </div>
-                <div class="alt-badge mid">22100 ft</div>
+                <div class="alt-badge mid">14000 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -295,11 +295,35 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>19.06.2026 07:50 UTC</b></div>
+                    <div><span>Last seen</span><b>19.06.2026 07:55 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ACN" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 341589 · REG T.21-04 · TYPE C295</div>
+                </div>
+                <div class="alt-badge low">2450 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>167.9 kt</b></div>
+                    <div><span>Track</span><b>174.19°</b></div>
+                    <div><span>Position</span><b>62.3502, 25.7307</b></div>
+                    <div><span>Last seen</span><b>19.06.2026 07:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/T.21-04" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -863,7 +887,7 @@ B-222N  CKK209ZSPDEHAM020246061930ER
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F9", "flight": "FIN489", "lat": 62.424316, "lon": 26.509693, "alt": 17000, "speed": 265.7, "last_seen": "19.06.2026 07:37 UTC"}, {"hex": "461E16", "flight": "FIN14J", "lat": 61.622501, "lon": 25.299072, "alt": 30275, "speed": 437.5, "last_seen": "19.06.2026 06:29 UTC"}, {"hex": "781E8A", "flight": "CKK209", "lat": 61.379824, "lon": 25.63619, "alt": 34000, "speed": 474.3, "last_seen": "19.06.2026 06:28 UTC"}];
+const aircraft = [{"hex": "341589", "flight": "-", "lat": 62.350159, "lon": 25.73072, "alt": 2450, "speed": 167.9, "last_seen": "19.06.2026 07:55 UTC"}, {"hex": "4601F9", "flight": "FIN489", "lat": 62.424316, "lon": 26.509693, "alt": 17000, "speed": 265.7, "last_seen": "19.06.2026 07:37 UTC"}, {"hex": "461E16", "flight": "FIN14J", "lat": 61.622501, "lon": 25.299072, "alt": 30275, "speed": 437.5, "last_seen": "19.06.2026 06:29 UTC"}, {"hex": "781E8A", "flight": "CKK209", "lat": 61.379824, "lon": 25.63619, "alt": 34000, "speed": 474.3, "last_seen": "19.06.2026 06:28 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
