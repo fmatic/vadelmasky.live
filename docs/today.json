@@ -41,16 +41,16 @@
     },
     "7812a4": {
       "hex": "7812a4",
-      "flight": "",
+      "flight": "CHH754",
       "reg": "B-1020",
       "type": "A333",
-      "lat": null,
-      "lon": null,
-      "alt": 38000,
-      "speed": null,
-      "track": null,
+      "lat": 62.122099,
+      "lon": 25.744527,
+      "alt": 35000,
+      "speed": 492.0,
+      "track": 75.94,
       "seen_first": "2026-06-19T02:41:01.795996",
-      "last_seen": "2026-06-19T02:41:01.795996"
+      "last_seen": "2026-06-19T14:00:02.168086"
     },
     "4601fc": {
       "hex": "4601fc",
@@ -363,11 +363,24 @@
       "track": 83.26,
       "seen_first": "2026-06-19T13:38:01.516433",
       "last_seen": "2026-06-19T13:39:02.169502"
+    },
+    "4601fa": {
+      "hex": "4601fa",
+      "flight": "FIN42T",
+      "reg": "OH-ATM",
+      "type": "AT75",
+      "lat": 61.924759,
+      "lon": 26.919054,
+      "alt": 15000,
+      "speed": 257.2,
+      "track": 27.06,
+      "seen_first": "2026-06-19T13:58:01.626105",
+      "last_seen": "2026-06-19T14:00:02.168086"
     }
   },
   "summary": {
-    "total_unique_aircraft": 28,
-    "last_seen_live": 0,
-    "updated": "2026-06-19T13:55:01.429085"
+    "total_unique_aircraft": 29,
+    "last_seen_live": 2,
+    "updated": "2026-06-19T14:00:02.168086"
   }
 }
