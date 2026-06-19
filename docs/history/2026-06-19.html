@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>VadelmaSky.live</title>
+<title>VadelmaSky history 2026-06-19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -239,20 +239,14 @@ footer {
 <main>
 
 <section>
-    <h2>Map</h2>
-    <div id="map"></div>
-    <p class="note">Map shows aircraft with known position captured today.</p>
+    <h2>2026-06-19</h2>
+    <p><a href="/history/">← Back to history</a></p>
 </section>
 
 <div class="cards">
     <div class="card">
         <div class="value">0</div>
-        <div class="label">Unique aircraft today</div>
-    </div>
-
-    <div class="card">
-        <div class="value">0</div>
-        <div class="label">Aircraft currently visible</div>
+        <div class="label">Unique aircraft</div>
     </div>
 
     <div class="card">
@@ -269,163 +263,14 @@ footer {
         <div class="value">0 kt</div>
         <div class="label">Max speed</div>
     </div>
-
-    <div class="card">
-        <div class="value">19.06.2026 00:00 UTC</div>
-        <div class="label">Last update</div>
-    </div>
 </div>
 
 <section>
-    <h2>Latest aircraft</h2>
+    <h2>Aircraft for this day</h2>
     <div class="aircraft-grid">
         
     </div>
 </section>
-
-<section>
-    <h2>Latest ACARS messages</h2>
-    <div class="acars-grid">
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1005</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2097 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.06.2026 22:32 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg E08B · Level -37.0 dB
-            </div>
-
-            <div class="acars-text">,34</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1005</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2097 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.06.2026 22:29 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S06A · Level -36.0 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1005</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2097 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.06.2026 22:29 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S05A · Level -40.4 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1005</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2097 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.06.2026 22:29 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 10 · Msg M59A · Level -37.3 dB
-            </div>
-
-            <div class="acars-text">POS182233, N 6154,E 2663,835,292,28463,  20,34000, 296,-116,-436,7</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1005</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2097 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.06.2026 22:28 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S02A · Level -38.0 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-    </div>
-</section>
-
-<script>
-const aircraft = [];
-
-const map = L.map('map').setView([62.24, 25.75], 7);
-
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
-}).addTo(map);
-
-const receiverIcon = L.divIcon({
-    className: 'receiver-icon',
-    iconSize: [18, 18]
-});
-
-L.marker([62.24, 25.75], { icon: receiverIcon })
-    .addTo(map)
-    .bindPopup('<b>VadelmaSky receiver</b><br>Jyväskylä, Finland');
-
-function altitudeColor(alt) {
-    if (!alt || alt === '-') return '#9ca3af';
-    if (alt < 10000) return '#41ff41';
-    if (alt < 25000) return '#facc15';
-    if (alt < 35000) return '#fb923c';
-    return '#f87171';
-}
-
-aircraft.forEach(a => {
-    const color = altitudeColor(Number(a.alt));
-
-    L.circleMarker([a.lat, a.lon], {
-        radius: 7,
-        color: color,
-        fillColor: color,
-        fillOpacity: 0.85,
-        weight: 2
-    }).addTo(map)
-        .bindPopup(`
-            <b>${a.flight}</b><br>
-            ICAO: ${a.hex}<br>
-            Alt: ${a.alt} ft<br>
-            Speed: ${a.speed} kt<br>
-            Last seen: ${a.last_seen}
-        `);
-});
-</script>
 
 </main>
 
