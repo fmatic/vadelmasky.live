@@ -148,13 +148,13 @@
       "flight": "OHACN",
       "reg": "OH-ACN",
       "type": "AC90",
-      "lat": null,
-      "lon": null,
-      "alt": 4300,
+      "lat": 62.26981,
+      "lon": 25.790194,
+      "alt": 2200,
       "speed": null,
       "track": null,
       "seen_first": "2026-06-19T06:33:01.731081",
-      "last_seen": "2026-06-19T08:05:01.949571"
+      "last_seen": "2026-06-19T08:08:02.017991"
     },
     "4601f9": {
       "hex": "4601f9",
@@ -200,18 +200,31 @@
       "flight": "LED8",
       "reg": "LN-TER",
       "type": "C208",
-      "lat": 62.201005,
-      "lon": 25.724276,
-      "alt": 3825,
-      "speed": 124.0,
-      "track": 41.4,
+      "lat": 62.221395,
+      "lon": 25.678429,
+      "alt": 3750,
+      "speed": 123.9,
+      "track": 297.39,
       "seen_first": "2026-06-19T08:02:01.680794",
-      "last_seen": "2026-06-19T08:05:01.949571"
+      "last_seen": "2026-06-19T08:09:01.760908"
+    },
+    "461f39": {
+      "hex": "461f39",
+      "flight": "FIN7TP",
+      "reg": "OH-LVL",
+      "type": "A319",
+      "lat": 61.740464,
+      "lon": 25.296021,
+      "alt": 36925,
+      "speed": 429.0,
+      "track": 180.27,
+      "seen_first": "2026-06-19T08:10:02.063330",
+      "last_seen": "2026-06-19T08:10:02.063330"
     }
   },
   "summary": {
-    "total_unique_aircraft": 16,
-    "last_seen_live": 2,
-    "updated": "2026-06-19T08:05:01.949571"
+    "total_unique_aircraft": 17,
+    "last_seen_live": 1,
+    "updated": "2026-06-19T08:10:02.063330"
   }
 }
