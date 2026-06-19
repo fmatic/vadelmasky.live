@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.06.2026 06:15 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "_d",
-      "msgno": "S32A",
-      "text": "No text"
-    },
-    {
       "time": "19.06.2026 06:19 UTC",
       "source": "ACARS",
       "flight": "CK0209",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M75A",
       "text": "POSA1N61579E 26379,AGIVU  ,115106,340,NISIX  ,123434,-49, 69, 304,832"
+    },
+    {
+      "time": "19.06.2026 22:35 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "18",
+      "msgno": "M45A",
+      "text": "POX,CSG2516   ,19JUN26,224004,EGPK,ZGGG,N061.76,E0026.86,370, 668,827,  71.5, -43.9,063,-52.6,073404, 38600,"
     }
   ]
 }
