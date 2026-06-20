@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.06.2026 06:19 UTC",
-      "source": "ACARS",
-      "flight": "CK0209",
-      "tail": "B-222N",
-      "freq": 131.825,
-      "level": -38.1,
-      "label": "H1",
-      "msgno": "O52A",
-      "text": "SS0340F_  8\r\nB-222N  CKK209ZSPDEHAM020246061930ER\r\n29033998834-1650315223168BSM79967A21\r\n9726101476 2701190626 061921\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  33998\r\n      ) 0 02N    )16.)\r"
-    },
-    {
-      "time": "19.06.2026 06:19 UTC",
-      "source": "ACARS",
-      "flight": "CK0209",
-      "tail": "B-222N",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "H1",
-      "msgno": "O52B",
-      "text": "SS0340F_  8\r\nB-222N  CKK209ZSPDEHAM020246061930ER\r\n29033998834-1650315223168BSM79967A21\r\n9726101476 2701190626 061921\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  33998\r\n      ) 0 02N    )16.)\r\n      ) 1 12N    )16.)\r\n020246061930\r\n111111111111\r\n111111111111"
-    },
-    {
-      "time": "19.06.2026 06:19 UTC",
-      "source": "ACARS",
-      "flight": "CK0209",
-      "tail": "B-222N",
-      "freq": 131.825,
-      "level": -38.4,
-      "label": "16",
-      "msgno": "M79A",
-      "text": "POSA1N61979E 27393,AGIVU  ,060329,340,NISIX  ,065210,-48, 35, 265,835"
-    },
-    {
       "time": "19.06.2026 06:23 UTC",
       "source": "ACARS",
       "flight": "CK0209",
@@ -329,6 +296,39 @@
       "label": "18",
       "msgno": "M45A",
       "text": "POX,CSG2516   ,19JUN26,224004,EGPK,ZGGG,N061.76,E0026.86,370, 668,827,  71.5, -43.9,063,-52.6,073404, 38600,"
+    },
+    {
+      "time": "20.06.2026 02:25 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "Q0",
+      "msgno": "S95A",
+      "text": "No text"
+    },
+    {
+      "time": "20.06.2026 02:25 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -37.8,
+      "label": "SA",
+      "msgno": "S96A",
+      "text": "0EV022537VS/"
+    },
+    {
+      "time": "20.06.2026 02:29 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -30.8,
+      "label": "5V",
+      "msgno": "S02A",
+      "text": "No text"
     }
   ]
 }
