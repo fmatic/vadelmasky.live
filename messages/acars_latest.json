@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.06.2026 11:40 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "_d",
-      "msgno": "S93A",
-      "text": "No text"
-    },
-    {
-      "time": "19.06.2026 11:40 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
       "time": "19.06.2026 11:41 UTC",
       "source": "ACARS",
       "flight": "CA3155",
@@ -329,6 +307,28 @@
       "label": "16",
       "msgno": "M84A",
       "text": "POSA1N61602E 26664,AGAMO  ,110644,340,SALLO  ,125226,-49, 66, 267,832"
+    },
+    {
+      "time": "21.06.2026 11:52 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "H1",
+      "msgno": "C34B",
+      "text": "UN26\r\nMSG 3446082 I 1150 21JUN26 ER I 1 PL\r\nDB GROUND PROXIMITY WARNING COMPUTER\r\nEOR\r\n"
+    },
+    {
+      "time": "21.06.2026 11:53 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "O22A",
+      "text": "SB0122BA_B-2098  LEMDZSPD251\r\n 61742 0275811152 34998-520242063010IH-010012"
     }
   ]
 }
