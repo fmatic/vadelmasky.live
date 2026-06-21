@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.06.2026 22:35 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "18",
-      "msgno": "M45A",
-      "text": "POX,CSG2516   ,19JUN26,224004,EGPK,ZGGG,N061.76,E0026.86,370, 668,827,  71.5, -43.9,063,-52.6,073404, 38600,"
-    },
-    {
-      "time": "20.06.2026 02:25 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -38.1,
-      "label": "Q0",
-      "msgno": "S95A",
-      "text": "No text"
-    },
-    {
       "time": "20.06.2026 02:25 UTC",
       "source": "ACARS",
       "flight": "HO1661",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C08A",
       "text": ".1/WRN/WN2606211202  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "21.06.2026 13:58 UTC",
+      "source": "ACARS",
+      "flight": "CA3038",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "_d",
+      "msgno": "S50A",
+      "text": "No text"
+    },
+    {
+      "time": "21.06.2026 13:58 UTC",
+      "source": "ACARS",
+      "flight": "CA3038",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -38.4,
+      "label": "_d",
+      "msgno": "S51A",
+      "text": "No text"
     }
   ]
 }
