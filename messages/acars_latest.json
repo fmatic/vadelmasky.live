@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.06.2026 09:51 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "_d",
-      "msgno": "S84A",
-      "text": "No text"
-    },
-    {
       "time": "20.06.2026 13:17 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S10A",
       "text": "No text"
+    },
+    {
+      "time": "21.06.2026 20:01 UTC",
+      "source": "ACARS",
+      "flight": "CZ2520",
+      "tail": "B-2081",
+      "freq": 131.825,
+      "level": -28.3,
+      "label": "18",
+      "msgno": "M63A",
+      "text": "POX,CSG2520   ,21JUN26,200619,EGPK,ZGGG,N061.74,E0026.42,370, 655,837,  78.7,-114.4,041,-52.2,050619, 32040,"
     }
   ]
 }
