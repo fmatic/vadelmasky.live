@@ -246,12 +246,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">21.06.2026 09:55 UTC</div>
+        <div class="value">21.06.2026 10:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -292,14 +292,38 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>136.9 kt</b></div>
-                    <div><span>Track</span><b>168.2°</b></div>
-                    <div><span>Position</span><b>62.2541, 25.7660</b></div>
-                    <div><span>Last seen</span><b>21.06.2026 09:55 UTC</b></div>
+                    <div><span>Speed</span><b>145.1 kt</b></div>
+                    <div><span>Track</span><b>168.07°</b></div>
+                    <div><span>Position</span><b>62.0707, 25.8518</b></div>
+                    <div><span>Last seen</span><b>21.06.2026 10:00 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/G-CIZR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601F3 · REG OH-ATF · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">21025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>248.1 kt</b></div>
+                    <div><span>Track</span><b>178.61°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>21.06.2026 10:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -651,7 +675,7 @@ EOR
 </section>
 
 <script>
-const aircraft = [{"hex": "406FC6", "flight": "GCIZR", "lat": 62.254075, "lon": 25.766003, "alt": 3125, "speed": 136.9, "last_seen": "21.06.2026 09:55 UTC"}, {"hex": "4692D4", "flight": "-", "lat": 61.884171, "lon": 26.93634, "alt": 26050, "speed": 406.4, "last_seen": "21.06.2026 09:23 UTC"}, {"hex": "4601FC", "flight": "FIN5NB", "lat": 61.227722, "lon": 25.42972, "alt": 20000, "speed": 226.0, "last_seen": "21.06.2026 07:37 UTC"}];
+const aircraft = [{"hex": "406FC6", "flight": "GCIZR", "lat": 62.070659, "lon": 25.851847, "alt": 3125, "speed": 145.1, "last_seen": "21.06.2026 10:00 UTC"}, {"hex": "4692D4", "flight": "-", "lat": 61.884171, "lon": 26.93634, "alt": 26050, "speed": 406.4, "last_seen": "21.06.2026 09:23 UTC"}, {"hex": "4601FC", "flight": "FIN5NB", "lat": 61.227722, "lon": 25.42972, "alt": 20000, "speed": 226.0, "last_seen": "21.06.2026 07:37 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
