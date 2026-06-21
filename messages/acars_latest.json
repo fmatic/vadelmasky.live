@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.06.2026 12:05 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-227G",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "16",
-      "msgno": "M75A",
-      "text": "POSA1N61579E 26379,AGIVU  ,115106,340,NISIX  ,123434,-49, 69, 304,832"
-    },
-    {
       "time": "19.06.2026 22:35 UTC",
       "source": "ACARS",
       "flight": "CZ2516",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C06A",
       "text": ".1/WRN/WN2606211158  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "21.06.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -33.8,
+      "label": "H1",
+      "msgno": "C08A",
+      "text": ".1/WRN/WN2606211202  345800506NAV GPS 1 FAULT"
     }
   ]
 }
