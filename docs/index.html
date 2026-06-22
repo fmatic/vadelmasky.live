@@ -246,22 +246,22 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">11</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">38000 ft</div>
+        <div class="value">38975 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">22.06.2026 05:35 UTC</div>
+        <div class="value">22.06.2026 05:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -295,11 +295,35 @@ footer {
                     <div><span>Speed</span><b>428.0 kt</b></div>
                     <div><span>Track</span><b>251.72°</b></div>
                     <div><span>Position</span><b>3.9450, 3.8940</b></div>
-                    <div><span>Last seen</span><b>22.06.2026 05:35 UTC</b></div>
+                    <div><span>Last seen</span><b>22.06.2026 05:40 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-222S" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN434</div>
+                    <div class="meta">ICAO 461E18 · REG OH-LKI · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">38975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>444.2 kt</b></div>
+                    <div><span>Track</span><b>185.68°</b></div>
+                    <div><span>Position</span><b>61.7889, 25.4401</b></div>
+                    <div><span>Last seen</span><b>22.06.2026 05:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKI" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -753,7 +777,7 @@ EOR
 </section>
 
 <script>
-const aircraft = [{"hex": "781E95", "flight": "CAO3153", "lat": 3.945, "lon": 3.894, "alt": 34000, "speed": 428.0, "last_seen": "22.06.2026 05:35 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 59.588959, "lon": 28.237989, "alt": 33150, "speed": 444.0, "last_seen": "22.06.2026 03:28 UTC"}];
+const aircraft = [{"hex": "781E95", "flight": "CAO3153", "lat": 3.945, "lon": 3.894, "alt": 34000, "speed": 428.0, "last_seen": "22.06.2026 05:40 UTC"}, {"hex": "461E18", "flight": "FIN434", "lat": 61.788925, "lon": 25.440063, "alt": 38975, "speed": 444.2, "last_seen": "22.06.2026 05:40 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 59.588959, "lon": 28.237989, "alt": 33150, "speed": 444.0, "last_seen": "22.06.2026 03:28 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
