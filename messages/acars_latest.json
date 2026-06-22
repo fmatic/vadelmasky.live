@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.06.2026 11:28 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-220F",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "_d",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
-      "time": "21.06.2026 11:28 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-220F",
-      "freq": 131.825,
-      "level": -36.2,
-      "label": "_d",
-      "msgno": "S36A",
-      "text": "No text"
-    },
-    {
-      "time": "21.06.2026 11:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-220F",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "16",
-      "msgno": "M84A",
-      "text": "POSA1N61602E 26664,AGAMO  ,110644,340,SALLO  ,125226,-49, 66, 267,832"
-    },
-    {
-      "time": "21.06.2026 11:52 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "H1",
-      "msgno": "C34B",
-      "text": "UN26\r\nMSG 3446082 I 1150 21JUN26 ER I 1 PL\r\nDB GROUND PROXIMITY WARNING COMPUTER\r\nEOR\r\n"
-    },
-    {
       "time": "21.06.2026 11:53 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "O34A",
       "text": "SB0122BA_B-222S  ZBAAEGPK433\r\n 61789 0262850118 33999-480265060010GMY010013"
+    },
+    {
+      "time": "22.06.2026 05:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -34.4,
+      "label": "_d",
+      "msgno": "S33A",
+      "text": "No text"
+    },
+    {
+      "time": "22.06.2026 05:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "E39A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,180,180,47,47,46,45,160,160,61,64,85,85,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,100,AUTO,8.5,0.12,0.21,L,,,,14,SEP,65,05,11,51"
+    },
+    {
+      "time": "22.06.2026 05:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "_d",
+      "msgno": "S34A",
+      "text": "No text"
+    },
+    {
+      "time": "22.06.2026 05:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -34.1,
+      "label": "H1",
+      "msgno": "E40A",
+      "text": "PER,R,271.4,-50.1,293,-18.9,428.4,0.838,34010,100.4,100.4,84.8,84.8,--,0.92,--,0.61,84.8,84.8,0.42,--,0.37,--,687,685,0.43,--,0.52,--,102.3,102.2,0.50,--,0.57,--,3.945,3.894,178,178,0.00,0.00,69,60,70,71,16"
     }
   ]
 }
