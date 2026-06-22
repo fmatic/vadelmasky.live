@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.06.2026 11:53 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -36.3,
-      "label": "H1",
-      "msgno": "O22A",
-      "text": "SB0122BA_B-2098  LEMDZSPD251\r\n 61742 0275811152 34998-520242063010IH-010012"
-    },
-    {
-      "time": "21.06.2026 11:57 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "H1",
-      "msgno": "C05A",
-      "text": ".1/WRN/WN2606211158  345204506NAV ADS-B RPTG 2 FAULT"
-    },
-    {
-      "time": "21.06.2026 11:57 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "H1",
-      "msgno": "C06A",
-      "text": ".1/WRN/WN2606211158  345204006NAV ADS-B RPTG 1 FAULT"
-    },
-    {
-      "time": "21.06.2026 12:02 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "H1",
-      "msgno": "C08A",
-      "text": ".1/WRN/WN2606211202  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "21.06.2026 13:58 UTC",
       "source": "ACARS",
       "flight": "CA3038",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "E40A",
       "text": "PER,R,271.4,-50.1,293,-18.9,428.4,0.838,34010,100.4,100.4,84.8,84.8,--,0.92,--,0.61,84.8,84.8,0.42,--,0.37,--,687,685,0.43,--,0.52,--,102.3,102.2,0.50,--,0.57,--,3.945,3.894,178,178,0.00,0.00,69,60,70,71,16"
+    },
+    {
+      "time": "22.06.2026 15:40 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6091",
+      "freq": 131.725,
+      "level": -38.1,
+      "label": "H1",
+      "msgno": "C25A",
+      "text": ".1/WRN/WN2606221540  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "22.06.2026 15:40 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -21.5,
+      "label": "H1",
+      "msgno": "C25A",
+      "text": ".1/WRN/WN2606221540  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "22.06.2026 15:40 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -22.9,
+      "label": "H1",
+      "msgno": "C26A",
+      "text": ".1/WRN/WN2606221540  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "22.06.2026 15:41 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -23.6,
+      "label": "H1",
+      "msgno": "C27A",
+      "text": ".1/FLR/FR2606221540  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),INTERMITTENT"
     }
   ]
 }
