@@ -54,16 +54,16 @@
     },
     "461f62": {
       "hex": "461f62",
-      "flight": "",
+      "flight": "FIN14J",
       "reg": "OH-LXA",
       "type": "A320",
-      "lat": null,
-      "lon": null,
-      "alt": 34200,
-      "speed": null,
-      "track": null,
+      "lat": 61.466675,
+      "lon": 25.288958,
+      "alt": 30400,
+      "speed": 404.1,
+      "track": 181.28,
       "seen_first": "2026-06-22T04:22:01.991625",
-      "last_seen": "2026-06-22T04:22:01.991625"
+      "last_seen": "2026-06-22T06:45:01.872797"
     },
     "781fda": {
       "hex": "781fda",
@@ -174,18 +174,31 @@
       "flight": "K01",
       "reg": "GO-14",
       "type": "G115",
-      "lat": 62.140487,
-      "lon": 25.702092,
-      "alt": 2600,
-      "speed": 123.1,
-      "track": 223.68,
+      "lat": 62.11235,
+      "lon": 25.675049,
+      "alt": 3400,
+      "speed": 70.9,
+      "track": 291.5,
       "seen_first": "2026-06-22T06:10:01.825661",
-      "last_seen": "2026-06-22T06:40:02.043214"
+      "last_seen": "2026-06-22T06:44:01.936027"
+    },
+    "4678ab": {
+      "hex": "4678ab",
+      "flight": "K02",
+      "reg": "GO-21",
+      "type": "G115",
+      "lat": 62.262873,
+      "lon": 25.804878,
+      "alt": 2425,
+      "speed": 138.1,
+      "track": 105.55,
+      "seen_first": "2026-06-22T06:44:01.936027",
+      "last_seen": "2026-06-22T06:45:01.872797"
     }
   },
   "summary": {
-    "total_unique_aircraft": 14,
-    "last_seen_live": 1,
-    "updated": "2026-06-22T06:40:02.043214"
+    "total_unique_aircraft": 15,
+    "last_seen_live": 2,
+    "updated": "2026-06-22T06:45:01.872797"
   }
 }
