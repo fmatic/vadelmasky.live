@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">11</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.06.2026 06:05 UTC</div>
+        <div class="value">23.06.2026 06:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN489</div>
+                    <div class="meta">ICAO 4601F6 · REG OH-ATI · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>261.8 kt</b></div>
+                    <div><span>Track</span><b>18.02°</b></div>
+                    <div><span>Position</span><b>61.7138, 25.7439</b></div>
+                    <div><span>Last seen</span><b>23.06.2026 06:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -753,7 +777,7 @@ EOR
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "4601F6", "flight": "FIN489", "lat": 61.71379, "lon": 25.743917, "alt": 16000, "speed": 261.8, "last_seen": "23.06.2026 06:10 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
