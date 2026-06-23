@@ -6,17 +6,6 @@
       "flight": "CA3038",
       "tail": "B-6093",
       "freq": 131.825,
-      "level": -35.8,
-      "label": "_d",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
-      "time": "21.06.2026 13:58 UTC",
-      "source": "ACARS",
-      "flight": "CA3038",
-      "tail": "B-6093",
-      "freq": 131.825,
       "level": -38.4,
       "label": "_d",
       "msgno": "S51A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C27A",
       "text": ".1/FLR/FR2606221540  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),INTERMITTENT"
+    },
+    {
+      "time": "23.06.2026 07:42 UTC",
+      "source": "ACARS",
+      "flight": "ZD0001",
+      "tail": "022",
+      "freq": 131.725,
+      "level": -41.8,
+      "label": "14",
+      "msgno": "M29A",
+      "text": "(2/OLA"
     }
   ]
 }
