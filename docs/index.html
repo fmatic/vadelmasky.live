@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.06.2026 10:20 UTC</div>
+        <div class="value">23.06.2026 10:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K22</div>
+                    <div class="meta">ICAO 4678AB · REG GO-21 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2200 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>90.6 kt</b></div>
+                    <div><span>Track</span><b>312.32°</b></div>
+                    <div><span>Position</span><b>62.3268, 25.8412</b></div>
+                    <div><span>Last seen</span><b>23.06.2026 10:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-21" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -396,30 +420,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-11" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">K12</div>
-                    <div class="meta">ICAO 4678AB · REG GO-21 · TYPE G115</div>
-                </div>
-                <div class="alt-badge low">2125 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>81.4 kt</b></div>
-                    <div><span>Track</span><b>317.49°</b></div>
-                    <div><span>Position</span><b>62.3181, 25.8598</b></div>
-                    <div><span>Last seen</span><b>23.06.2026 08:31 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-21" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -993,7 +993,7 @@ EOR
 </section>
 
 <script>
-const aircraft = [{"hex": "46789B", "flight": "-", "lat": 62.258835, "lon": 25.693359, "alt": 725, "speed": 108.2, "last_seen": "23.06.2026 09:53 UTC"}, {"hex": "4601F5", "flight": "FIN3KC", "lat": 62.022803, "lon": 27.049255, "alt": 21025, "speed": 261.2, "last_seen": "23.06.2026 09:40 UTC"}, {"hex": "4601F6", "flight": "FIN5NB", "lat": 61.589172, "lon": 25.76343, "alt": 18025, "speed": 279.6, "last_seen": "23.06.2026 08:57 UTC"}, {"hex": "4678A1", "flight": "K13", "lat": 62.317572, "lon": 25.860549, "alt": 2250, "speed": 82.0, "last_seen": "23.06.2026 08:39 UTC"}, {"hex": "4678AB", "flight": "K12", "lat": 62.318084, "lon": 25.859809, "alt": 2125, "speed": 81.4, "last_seen": "23.06.2026 08:31 UTC"}, {"hex": "4678A4", "flight": "K11", "lat": 62.329697, "lon": 25.833842, "alt": 2125, "speed": 91.9, "last_seen": "23.06.2026 08:27 UTC"}, {"hex": "461FA9", "flight": "FIN7TP", "lat": 61.617325, "lon": 25.235203, "alt": 22150, "speed": 409.0, "last_seen": "23.06.2026 08:19 UTC"}, {"hex": "4678AC", "flight": "K04", "lat": 62.317749, "lon": 25.859578, "alt": 2150, "speed": 87.0, "last_seen": "23.06.2026 06:58 UTC"}, {"hex": "479173", "flight": "LED5", "lat": 62.008186, "lon": 25.4245, "alt": 6850, "speed": 173.8, "last_seen": "23.06.2026 06:26 UTC"}, {"hex": "461E16", "flight": "FIN14J", "lat": 61.679527, "lon": 25.328064, "alt": 28150, "speed": 439.6, "last_seen": "23.06.2026 06:24 UTC"}];
+const aircraft = [{"hex": "4678AB", "flight": "K22", "lat": 62.326836, "lon": 25.841217, "alt": 2200, "speed": 90.6, "last_seen": "23.06.2026 10:25 UTC"}, {"hex": "46789B", "flight": "-", "lat": 62.258835, "lon": 25.693359, "alt": 725, "speed": 108.2, "last_seen": "23.06.2026 09:53 UTC"}, {"hex": "4601F5", "flight": "FIN3KC", "lat": 62.022803, "lon": 27.049255, "alt": 21025, "speed": 261.2, "last_seen": "23.06.2026 09:40 UTC"}, {"hex": "4601F6", "flight": "FIN5NB", "lat": 61.589172, "lon": 25.76343, "alt": 18025, "speed": 279.6, "last_seen": "23.06.2026 08:57 UTC"}, {"hex": "4678A1", "flight": "K13", "lat": 62.317572, "lon": 25.860549, "alt": 2250, "speed": 82.0, "last_seen": "23.06.2026 08:39 UTC"}, {"hex": "4678A4", "flight": "K11", "lat": 62.329697, "lon": 25.833842, "alt": 2125, "speed": 91.9, "last_seen": "23.06.2026 08:27 UTC"}, {"hex": "461FA9", "flight": "FIN7TP", "lat": 61.617325, "lon": 25.235203, "alt": 22150, "speed": 409.0, "last_seen": "23.06.2026 08:19 UTC"}, {"hex": "4678AC", "flight": "K04", "lat": 62.317749, "lon": 25.859578, "alt": 2150, "speed": 87.0, "last_seen": "23.06.2026 06:58 UTC"}, {"hex": "479173", "flight": "LED5", "lat": 62.008186, "lon": 25.4245, "alt": 6850, "speed": 173.8, "last_seen": "23.06.2026 06:26 UTC"}, {"hex": "461E16", "flight": "FIN14J", "lat": 61.679527, "lon": 25.328064, "alt": 28150, "speed": 439.6, "last_seen": "23.06.2026 06:24 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
