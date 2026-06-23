@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.06.2026 06:15 UTC</div>
+        <div class="value">23.06.2026 06:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">LED5</div>
+                    <div class="meta">ICAO 479173 · REG LN-TTB · TYPE PA31</div>
+                </div>
+                <div class="alt-badge low">6975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>172.6 kt</b></div>
+                    <div><span>Track</span><b>237.78°</b></div>
+                    <div><span>Position</span><b>62.1322, 25.8465</b></div>
+                    <div><span>Last seen</span><b>23.06.2026 06:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LN-TTB" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -292,10 +316,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>267.3 kt</b></div>
-                    <div><span>Track</span><b>19.45°</b></div>
-                    <div><span>Position</span><b>62.0432, 25.9749</b></div>
-                    <div><span>Last seen</span><b>23.06.2026 06:15 UTC</b></div>
+                    <div><span>Speed</span><b>265.0 kt</b></div>
+                    <div><span>Track</span><b>18.71°</b></div>
+                    <div><span>Position</span><b>62.4245, 26.2515</b></div>
+                    <div><span>Last seen</span><b>23.06.2026 06:20 UTC</b></div>
                 </div>
             </div>
 
@@ -348,30 +372,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKR" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">LED5</div>
-                    <div class="meta">ICAO 479173 · REG LN-TTB · TYPE PA31</div>
-                </div>
-                <div class="alt-badge low">7100 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>23.06.2026 04:32 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LN-TTB" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -777,7 +777,7 @@ EOR
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F6", "flight": "FIN489", "lat": 62.043228, "lon": 25.974917, "alt": 16000, "speed": 267.3, "last_seen": "23.06.2026 06:15 UTC"}];
+const aircraft = [{"hex": "479173", "flight": "LED5", "lat": 62.132201, "lon": 25.846499, "alt": 6975, "speed": 172.6, "last_seen": "23.06.2026 06:20 UTC"}, {"hex": "4601F6", "flight": "FIN489", "lat": 62.424545, "lon": 26.251526, "alt": 16000, "speed": 265.0, "last_seen": "23.06.2026 06:20 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
