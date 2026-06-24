@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">24.06.2026 02:50 UTC</div>
+        <div class="value">24.06.2026 02:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4QT</div>
+                    <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">20000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>249.1 kt</b></div>
+                    <div><span>Track</span><b>213.37°</b></div>
+                    <div><span>Position</span><b>61.8252, 26.4161</b></div>
+                    <div><span>Last seen</span><b>24.06.2026 02:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -292,38 +316,14 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>224.6 kt</b></div>
-                    <div><span>Track</span><b>230.78°</b></div>
-                    <div><span>Position</span><b>62.2796, 25.9306</b></div>
-                    <div><span>Last seen</span><b>24.06.2026 02:50 UTC</b></div>
+                    <div><span>Speed</span><b>221.0 kt</b></div>
+                    <div><span>Track</span><b>230.69°</b></div>
+                    <div><span>Position</span><b>62.1709, 25.6457</b></div>
+                    <div><span>Last seen</span><b>24.06.2026 02:54 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN4QT</div>
-                    <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">19600 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>205.5 kt</b></div>
-                    <div><span>Track</span><b>213.69°</b></div>
-                    <div><span>Position</span><b>62.0819, 26.7780</b></div>
-                    <div><span>Last seen</span><b>24.06.2026 02:50 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -633,7 +633,7 @@ EOR
 </section>
 
 <script>
-const aircraft = [{"hex": "467894", "flight": "FNF324", "lat": 62.279632, "lon": 25.930587, "alt": 16000, "speed": 224.6, "last_seen": "24.06.2026 02:50 UTC"}, {"hex": "4601F5", "flight": "FIN4QT", "lat": 62.081878, "lon": 26.777954, "alt": 19600, "speed": 205.5, "last_seen": "24.06.2026 02:50 UTC"}];
+const aircraft = [{"hex": "4601F5", "flight": "FIN4QT", "lat": 61.825189, "lon": 26.416117, "alt": 20000, "speed": 249.1, "last_seen": "24.06.2026 02:55 UTC"}, {"hex": "467894", "flight": "FNF324", "lat": 62.170886, "lon": 25.645682, "alt": 16000, "speed": 221.0, "last_seen": "24.06.2026 02:54 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
