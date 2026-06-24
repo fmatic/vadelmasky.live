@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">11</div>
+        <div class="value">12</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">7</div>
+        <div class="value">8</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">24.06.2026 09:10 UTC</div>
+        <div class="value">24.06.2026 09:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CA1159</div>
+                    <div class="meta">ICAO 780450 · REG B-6113 · TYPE A332</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>61.4980, 26.4020</b></div>
+                    <div><span>Last seen</span><b>24.06.2026 09:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6113" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -554,6 +578,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CA1159</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6113 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">24.06.2026 09:12 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 10 · Msg M67A · Level -33.8 dB
+            </div>
+
+            <div class="acars-text">POS220912,N 61.498,E 26.402,1000,460500,,,35999,27720</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">CZ2518</div>
                     <div class="acars-meta">
                         ACARS · Tail B-2075 · 131.825 MHz
@@ -749,29 +791,11 @@ footer {
             <div class="acars-text">.1/WRN/WN2606221540  345204506NAV ADS-B RPTG 2 FAULT</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA3153</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-222S · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">22.06.2026 05:11 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg E40A · Level -34.1 dB
-            </div>
-
-            <div class="acars-text">PER,R,271.4,-50.1,293,-18.9,428.4,0.838,34010,100.4,100.4,84.8,84.8,--,0.92,--,0.61,84.8,84.8,0.42,--,0.37,--,687,685,0.43,--,0.52,--,102.3,102.2,0.50,--,0.57,--,3.945,3.894,178,178,0.00,0.00,69,60,70,71,16</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "463051", "flight": "OHSHT", "lat": 62.270461, "lon": 25.615152, "alt": 4725, "speed": 142.3, "last_seen": "24.06.2026 09:07 UTC"}, {"hex": "7805AA", "flight": "CSG2518", "lat": 61.727921, "lon": 25.869566, "alt": 37000, "speed": 520.2, "last_seen": "24.06.2026 08:30 UTC"}, {"hex": "461FA5", "flight": "FIN7TP", "lat": 61.722702, "lon": 25.300042, "alt": 23100, "speed": 404.1, "last_seen": "24.06.2026 07:22 UTC"}, {"hex": "461F6D", "flight": "FIN14J", "lat": 61.567154, "lon": 25.336925, "alt": 24925, "speed": 411.6, "last_seen": "24.06.2026 06:39 UTC"}, {"hex": "782293", "flight": "CKK209", "lat": 61.375671, "lon": 25.645817, "alt": 34000, "speed": 471.6, "last_seen": "24.06.2026 06:06 UTC"}, {"hex": "4601F5", "flight": "FIN4QT", "lat": 61.794092, "lon": 26.375326, "alt": 20000, "speed": 251.9, "last_seen": "24.06.2026 03:10 UTC"}, {"hex": "467894", "flight": "FNF324", "lat": 62.170886, "lon": 25.645682, "alt": 16000, "speed": 221.0, "last_seen": "24.06.2026 02:54 UTC"}];
+const aircraft = [{"hex": "780450", "flight": "CA1159", "lat": 61.498, "lon": 26.402, "alt": "-", "speed": "-", "last_seen": "24.06.2026 09:15 UTC"}, {"hex": "463051", "flight": "OHSHT", "lat": 62.270461, "lon": 25.615152, "alt": 4725, "speed": 142.3, "last_seen": "24.06.2026 09:07 UTC"}, {"hex": "7805AA", "flight": "CSG2518", "lat": 61.727921, "lon": 25.869566, "alt": 37000, "speed": 520.2, "last_seen": "24.06.2026 08:30 UTC"}, {"hex": "461FA5", "flight": "FIN7TP", "lat": 61.722702, "lon": 25.300042, "alt": 23100, "speed": 404.1, "last_seen": "24.06.2026 07:22 UTC"}, {"hex": "461F6D", "flight": "FIN14J", "lat": 61.567154, "lon": 25.336925, "alt": 24925, "speed": 411.6, "last_seen": "24.06.2026 06:39 UTC"}, {"hex": "782293", "flight": "CKK209", "lat": 61.375671, "lon": 25.645817, "alt": 34000, "speed": 471.6, "last_seen": "24.06.2026 06:06 UTC"}, {"hex": "4601F5", "flight": "FIN4QT", "lat": 61.794092, "lon": 26.375326, "alt": 20000, "speed": 251.9, "last_seen": "24.06.2026 03:10 UTC"}, {"hex": "467894", "flight": "FNF324", "lat": 62.170886, "lon": 25.645682, "alt": 16000, "speed": 221.0, "last_seen": "24.06.2026 02:54 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
