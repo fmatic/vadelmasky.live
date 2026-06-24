@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.06.2026 05:04 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -36.3,
-      "label": "H1",
-      "msgno": "E38B",
-      "text": "-0.14,,-1.73,,-0.17,,-1.79,,-1.73,,FDR,0.000,+1.1,0.0,+0.001,0.0,-6.71,,-0.03,,+1.38,,+0.1,,+0.01,,-6.74,,-0.01,,+1.37,,0.0,,+0.01,,-6.69,,-6.76,,NORMAL,ENGAGED,NO ACTIVITY,,,,14,SEP,65,05,05,00,-2.39,,-2.4"
-    },
-    {
-      "time": "22.06.2026 05:05 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "H1",
-      "msgno": "E38C",
-      "text": "0,,-2.41,,-2.41,,-3.11,,-3.13,,-3.11,,3038,-3.11,,-3.12,,3115,-3.10,,-3.09,,3046,-3.09,,-3.11,,-3.12,,+3.73,,+3.73,,+4.22,,+4.28,,+1780,,+1930,,+2180,,+2000,,-0.19,,-0.16,,-0.19,,-0.19,,+0.27,,+60,,+0.27,,+"
-    },
-    {
-      "time": "22.06.2026 05:05 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "H1",
-      "msgno": "E38D",
-      "text": "40,,+0.26,,+90,,+0.24,,-280,,+63.53,,+0.26,,-360,,,+0.26,,-440,,+63.64,,+0.26,,-450,,,+62.99,,,14,SEP,65,05,05,00,YES,YES,YES,YES,YES,YES,YES,YES,AUTO,AUTO,AUTO,AUTO,NORM,NORM,NORM,NORM,NO,NO,SLOW,NO,NO,NO,"
-    },
-    {
-      "time": "22.06.2026 05:05 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -39.2,
-      "label": "H1",
-      "msgno": "E38E",
-      "text": "NO,NO,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,14,SEP,65,05,05,00"
-    },
-    {
-      "time": "22.06.2026 05:09 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "H1",
-      "msgno": "C43A",
-      "text": "RTE 1 14SEP65 0509 CAB-222S CAO3153 ZBAA/EGPK 311B-BCG-00W-19 R 2136 21JUN26\r\nFDE 28303142 A 0506 14SEP65\r\nMSG 2812036 A 0507 14SEP65 ER M\r\nDB ELMS P210 ELECTRONICS UNIT\r\nEOR\r\n"
-    },
-    {
-      "time": "22.06.2026 05:09 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "H1",
-      "msgno": "O34A",
-      "text": "SB0122BA_B-222S  ZBAAEGPK433\r\n 61789 0262850118 33999-480265060010GMY010013"
-    },
-    {
       "time": "22.06.2026 05:11 UTC",
       "source": "ACARS",
       "flight": "CA3153",
@@ -329,6 +263,72 @@
       "label": "10",
       "msgno": "M49A",
       "text": "POS241403,N 61.416,E 26.034,1450,447250,,,38004,29640"
+    },
+    {
+      "time": "24.06.2026 15:31 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "Q0",
+      "msgno": "S40A",
+      "text": "No text"
+    },
+    {
+      "time": "24.06.2026 15:31 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "SA",
+      "msgno": "S41A",
+      "text": "0EV153141V"
+    },
+    {
+      "time": "24.06.2026 15:31 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "_d",
+      "msgno": "S42A",
+      "text": "No text"
+    },
+    {
+      "time": "24.06.2026 15:34 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -30.2,
+      "label": "80",
+      "msgno": "M19A",
+      "text": "3701 INRANG 0370/24 EFKU/EFHK .OH-ATH\r\n/ETA 1601/ERT     \r\nF/AY1107/2.0"
+    },
+    {
+      "time": "24.06.2026 15:34 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "_d",
+      "msgno": "S43A",
+      "text": "No text"
+    },
+    {
+      "time": "24.06.2026 15:34 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "_d",
+      "msgno": "S44A",
+      "text": "No text"
     }
   ]
 }
