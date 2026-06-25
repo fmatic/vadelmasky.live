@@ -6,39 +6,6 @@
       "flight": "N70370",
       "tail": "OH-ATH",
       "freq": 131.825,
-      "level": -35.5,
-      "label": "H1",
-      "msgno": "D06A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,240626,1535,09/D1ENGINE,S.N/D2ESN1,ED1499/D3ESN2,ED2152/E1IAS,ALT,TAT/E2213,.16002,-003/F1TORQ,NP,N"
-    },
-    {
-      "time": "24.06.2026 15:35 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "H1",
-      "msgno": "D06B",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,240626,1535,09/D1ENGINE,S.N/D2ESN1,ED1499/D3ESN2,ED2152/E1IAS,ALT,TAT/E2213,.16002,-003/F1TORQ,NP,NL/F2076.7,082.0,095.4/F3076.7,082.0,094.4/G1NH,ITT,FF,IG/G2096.4,0661.5,364,0100/G3095.5,0643.4,346,0059/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I220.74/**.,EOT,...,/"
-    },
-    {
-      "time": "24.06.2026 15:35 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "_d",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
-      "time": "24.06.2026 15:35 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
       "level": -36.7,
       "label": "_d",
       "msgno": "S51A",
@@ -329,6 +296,39 @@
       "label": "10",
       "msgno": "M49A",
       "text": "POS251237,N 61.567,E 26.712,1327,443500,,,37997,29360"
+    },
+    {
+      "time": "25.06.2026 14:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1043",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "_d",
+      "msgno": "S76A",
+      "text": "No text"
+    },
+    {
+      "time": "25.06.2026 14:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1043",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "H1",
+      "msgno": "E60A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,184,184,48,48,46,46,161,162,59,67,88,88,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,0,AUTO,8.5,0.12,0.23,L,,,,25,JUN,26,14,38,24"
+    },
+    {
+      "time": "25.06.2026 14:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1043",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "H1",
+      "msgno": "E61B",
+      "text": ",15,45,45,,25,JUN,26,14,38,31"
     }
   ]
 }
