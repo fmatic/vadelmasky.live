@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.06.2026 14:01 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "Q0",
-      "msgno": "S48A",
-      "text": "No text"
-    },
-    {
       "time": "24.06.2026 14:03 UTC",
       "source": "ACARS",
       "flight": "CA3155",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S20A",
       "text": "No text"
+    },
+    {
+      "time": "25.06.2026 05:56 UTC",
+      "source": "ACARS",
+      "flight": "CA3119",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -38.4,
+      "label": "10",
+      "msgno": "M44A",
+      "text": "POS250556,N 61.400,E 25.966,0808,462625,,,38001,42720"
     }
   ]
 }
