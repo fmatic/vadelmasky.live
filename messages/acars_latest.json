@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.06.2026 15:35 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "_d",
-      "msgno": "S51A",
-      "text": "No text"
-    },
-    {
       "time": "24.06.2026 15:36 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "E61B",
       "text": ",15,45,45,,25,JUN,26,14,38,31"
+    },
+    {
+      "time": "25.06.2026 14:35 UTC",
+      "source": "ACARS",
+      "flight": "CA1043",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "10",
+      "msgno": "M28A",
+      "text": "POS251440, N 6154,E 2663,833,291,31298,  69,34001, 268,-166,-479,7"
     }
   ]
 }
