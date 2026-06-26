@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">11</div>
+        <div class="value">13</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">26.06.2026 06:45 UTC</div>
+        <div class="value">26.06.2026 06:50 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">SAFIR2</div>
+                    <div class="meta">ICAO 4678B1 · REG GO-27 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2875 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>126.4 kt</b></div>
+                    <div><span>Track</span><b>59.58°</b></div>
+                    <div><span>Position</span><b>62.2135, 25.8480</b></div>
+                    <div><span>Last seen</span><b>26.06.2026 06:50 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-27" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">SAFIR1</div>
+                    <div class="meta">ICAO 46789E · REG GO-8 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>135.0 kt</b></div>
+                    <div><span>Track</span><b>129.59°</b></div>
+                    <div><span>Position</span><b>62.2566, 25.6817</b></div>
+                    <div><span>Last seen</span><b>26.06.2026 06:50 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-8" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -772,7 +820,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4678A1", "flight": "K02", "lat": 62.325905, "lon": 25.842273, "alt": 2225, "speed": 84.9, "last_seen": "26.06.2026 06:41 UTC"}, {"hex": "4678A6", "flight": "-", "lat": 62.272659, "lon": 25.68929, "alt": 1250, "speed": "-", "last_seen": "26.06.2026 06:38 UTC"}];
+const aircraft = [{"hex": "4678B1", "flight": "SAFIR2", "lat": 62.213516, "lon": 25.847982, "alt": 2875, "speed": 126.4, "last_seen": "26.06.2026 06:50 UTC"}, {"hex": "46789E", "flight": "SAFIR1", "lat": 62.256638, "lon": 25.681661, "alt": 2975, "speed": 135.0, "last_seen": "26.06.2026 06:50 UTC"}, {"hex": "4678A1", "flight": "K02", "lat": 62.325905, "lon": 25.842273, "alt": 2225, "speed": 84.9, "last_seen": "26.06.2026 06:41 UTC"}, {"hex": "4678A6", "flight": "-", "lat": 62.272659, "lon": 25.68929, "alt": 1250, "speed": "-", "last_seen": "26.06.2026 06:38 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
