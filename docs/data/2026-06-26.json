@@ -148,13 +148,13 @@
       "flight": "SAFIR2",
       "reg": "GO-27",
       "type": "G115",
-      "lat": 62.259801,
-      "lon": 25.742129,
-      "alt": 700,
-      "speed": 107.3,
-      "track": 168.17,
+      "lat": 62.273575,
+      "lon": 25.848083,
+      "alt": 2350,
+      "speed": 133.4,
+      "track": 52.61,
       "seen_first": "2026-06-26T06:48:01.460875",
-      "last_seen": "2026-06-26T07:54:01.629477"
+      "last_seen": "2026-06-26T10:30:01.436494"
     },
     "46789e": {
       "hex": "46789e",
@@ -236,21 +236,34 @@
     },
     "4601f2": {
       "hex": "4601f2",
-      "flight": "FIN602",
+      "flight": "FIN489",
       "reg": "OH-ATE",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 21025,
-      "speed": null,
-      "track": null,
+      "lat": 61.760696,
+      "lon": 25.805904,
+      "alt": 15025,
+      "speed": 260.7,
+      "track": 19.96,
       "seen_first": "2026-06-26T08:49:01.248672",
-      "last_seen": "2026-06-26T08:50:02.240396"
+      "last_seen": "2026-06-26T10:29:01.546058"
+    },
+    "4678a3": {
+      "hex": "4678a3",
+      "flight": "SAFIR1",
+      "reg": "GO-13",
+      "type": "G115",
+      "lat": 62.232925,
+      "lon": 25.813599,
+      "alt": 4000,
+      "speed": 133.3,
+      "track": 116.76,
+      "seen_first": "2026-06-26T10:28:01.476376",
+      "last_seen": "2026-06-26T10:30:01.436494"
     }
   },
   "summary": {
-    "total_unique_aircraft": 19,
-    "last_seen_live": 0,
-    "updated": "2026-06-26T10:25:01.675742"
+    "total_unique_aircraft": 20,
+    "last_seen_live": 2,
+    "updated": "2026-06-26T10:30:01.436494"
   }
 }
