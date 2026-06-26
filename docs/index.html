@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">26.06.2026 09:55 UTC</div>
+        <div class="value">26.06.2026 10:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K21</div>
+                    <div class="meta">ICAO 4678A6 · REG GO-16 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2950 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>124.2 kt</b></div>
+                    <div><span>Track</span><b>202.23°</b></div>
+                    <div><span>Position</span><b>62.1866, 25.7124</b></div>
+                    <div><span>Last seen</span><b>26.06.2026 10:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-16" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -492,30 +516,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 4678A6 · REG GO-16 · TYPE G115</div>
-                </div>
-                <div class="alt-badge low">1250 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>62.2727, 25.6893</b></div>
-                    <div><span>Last seen</span><b>26.06.2026 06:38 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-16" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -964,7 +964,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4678A1", "flight": "K02", "lat": 62.274353, "lon": 25.758362, "alt": 750, "speed": 119.4, "last_seen": "26.06.2026 08:55 UTC"}, {"hex": "4678AD", "flight": "YOUNG1", "lat": 62.330475, "lon": 25.766805, "alt": 1925, "speed": 118.6, "last_seen": "26.06.2026 08:17 UTC"}, {"hex": "461F69", "flight": "FIN7TP", "lat": 61.726964, "lon": 25.271912, "alt": 25350, "speed": 457.0, "last_seen": "26.06.2026 08:17 UTC"}, {"hex": "461A81", "flight": "OHKAZ", "lat": 62.308308, "lon": 25.880937, "alt": 2900, "speed": 86.7, "last_seen": "26.06.2026 08:01 UTC"}, {"hex": "4678B1", "flight": "SAFIR2", "lat": 62.259801, "lon": 25.742129, "alt": 700, "speed": 107.3, "last_seen": "26.06.2026 07:54 UTC"}, {"hex": "46789E", "flight": "SAFIR1", "lat": 62.272603, "lon": 25.723959, "alt": 850, "speed": 112.6, "last_seen": "26.06.2026 07:54 UTC"}, {"hex": "4601F6", "flight": "FIN9B", "lat": 62.371307, "lon": 26.267293, "alt": 17000, "speed": 251.9, "last_seen": "26.06.2026 07:54 UTC"}, {"hex": "4678A6", "flight": "-", "lat": 62.272659, "lon": 25.68929, "alt": 1250, "speed": "-", "last_seen": "26.06.2026 06:38 UTC"}];
+const aircraft = [{"hex": "4678A6", "flight": "K21", "lat": 62.186621, "lon": 25.712445, "alt": 2950, "speed": 124.2, "last_seen": "26.06.2026 10:00 UTC"}, {"hex": "4678A1", "flight": "K02", "lat": 62.274353, "lon": 25.758362, "alt": 750, "speed": 119.4, "last_seen": "26.06.2026 08:55 UTC"}, {"hex": "4678AD", "flight": "YOUNG1", "lat": 62.330475, "lon": 25.766805, "alt": 1925, "speed": 118.6, "last_seen": "26.06.2026 08:17 UTC"}, {"hex": "461F69", "flight": "FIN7TP", "lat": 61.726964, "lon": 25.271912, "alt": 25350, "speed": 457.0, "last_seen": "26.06.2026 08:17 UTC"}, {"hex": "461A81", "flight": "OHKAZ", "lat": 62.308308, "lon": 25.880937, "alt": 2900, "speed": 86.7, "last_seen": "26.06.2026 08:01 UTC"}, {"hex": "4678B1", "flight": "SAFIR2", "lat": 62.259801, "lon": 25.742129, "alt": 700, "speed": 107.3, "last_seen": "26.06.2026 07:54 UTC"}, {"hex": "46789E", "flight": "SAFIR1", "lat": 62.272603, "lon": 25.723959, "alt": 850, "speed": 112.6, "last_seen": "26.06.2026 07:54 UTC"}, {"hex": "4601F6", "flight": "FIN9B", "lat": 62.371307, "lon": 26.267293, "alt": 17000, "speed": 251.9, "last_seen": "26.06.2026 07:54 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
