@@ -6,28 +6,6 @@
       "flight": "N70366",
       "tail": "OH-ATH",
       "freq": 131.825,
-      "level": -27.1,
-      "label": "_d",
-      "msgno": "S17A",
-      "text": "No text"
-    },
-    {
-      "time": "26.06.2026 11:07 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -30.7,
-      "label": "_d",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
-      "time": "26.06.2026 11:07 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATH",
-      "freq": 131.825,
       "level": -29.3,
       "label": "_d",
       "msgno": "S19A",
@@ -329,6 +307,28 @@
       "label": "18",
       "msgno": "M86A",
       "text": "POX,CSG2516   ,26JUN26,231639,EGPK,ZGGG,N061.73,E0026.21,369, 673,833,  67.7, -43.9,097,-52.2,081339, 39600,"
+    },
+    {
+      "time": "26.06.2026 23:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -39.9,
+      "label": "H1",
+      "msgno": "C26A",
+      "text": "RTE 1 26JUN26 2324 CZB-2075 CSG2516 EGPK/ZGGG 311B-BCG-00W-19 R 2109 26JUN26\r\nFDE 34503142 A 2322 26JUN26\r\nMSG 3453013 A 2322 26JUN26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453302 A 2322 26JUN26 ER H"
+    },
+    {
+      "time": "26.06.2026 23:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -39.8,
+      "label": "H1",
+      "msgno": "C26D",
+      "text": "DE RECEIVER (LEFT)\r\nMSG 3453011 A 2322 26JUN26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
     }
   ]
 }
