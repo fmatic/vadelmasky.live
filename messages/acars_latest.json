@@ -6,17 +6,6 @@
       "flight": "N70366",
       "tail": "OH-ATH",
       "freq": 131.825,
-      "level": -24.7,
-      "label": "_d",
-      "msgno": "S16A",
-      "text": "No text"
-    },
-    {
-      "time": "26.06.2026 11:07 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATH",
-      "freq": 131.825,
       "level": -27.1,
       "label": "_d",
       "msgno": "S17A",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M77A",
       "text": "ETA270117,EGPK,ZSPD, 717"
+    },
+    {
+      "time": "26.06.2026 23:16 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -27.9,
+      "label": "18",
+      "msgno": "M86A",
+      "text": "POX,CSG2516   ,26JUN26,231639,EGPK,ZGGG,N061.73,E0026.21,369, 673,833,  67.7, -43.9,097,-52.2,081339, 39600,"
     }
   ]
 }
