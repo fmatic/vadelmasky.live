@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.06.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "_d",
-      "msgno": "S24A",
-      "text": "No text"
-    },
-    {
-      "time": "26.06.2026 11:15 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "_d",
-      "msgno": "S26A",
-      "text": "No text"
-    },
-    {
       "time": "26.06.2026 14:14 UTC",
       "source": "ACARS",
       "flight": "N70369",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M64A",
       "text": "POS251000,N 61.362,E 25.796,1048,435375,,,38002,25960"
+    },
+    {
+      "time": "27.06.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA743J",
+      "freq": 131.725,
+      "level": -37.6,
+      "label": "H1",
+      "msgno": "O66A",
+      "text": "SS0340C_268\r\nJA743J  JAL47 RJTTEFHK270626111410DC\r\n27435853823-235074240316DBSM79962A\r\n479620784 240270626 111358\r\n538620731 240\r\n539620731 240\r\n10000000000000001\r\n  35861\r\n  3673515 63N  208 0.2\r\n  3679415"
+    },
+    {
+      "time": "27.06.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA743J",
+      "freq": 131.725,
+      "level": -37.6,
+      "label": "H1",
+      "msgno": "O66B",
+      "text": "SS0340C_268\r\nJA743J  JAL47 RJTTEFHK270626111410DC\r\n27435853823-235074240316DBSM79962A\r\n479620784 240270626 111358\r\n538620731 240\r\n539620731 240\r\n10000000000000001\r\n  35861\r\n  3673515 63N  208 0.2\r\n  3679415 54N   99 0.1\r\n270626111410\r\n270626111411\r\n260965111410"
     }
   ]
 }
