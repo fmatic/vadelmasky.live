@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">14</div>
+        <div class="value">15</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">29.06.2026 07:00 UTC</div>
+        <div class="value">29.06.2026 07:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K03</div>
+                    <div class="meta">ICAO 4678A9 · REG GO-19 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">875 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>107.2 kt</b></div>
+                    <div><span>Track</span><b>340.38°</b></div>
+                    <div><span>Position</span><b>62.2729, 25.7387</b></div>
+                    <div><span>Last seen</span><b>29.06.2026 07:03 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-19" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -844,7 +868,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "46788C", "flight": "W21", "lat": 62.323251, "lon": 25.848506, "alt": 2350, "speed": 137.3, "last_seen": "29.06.2026 06:57 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.049271, "lon": 25.681915, "alt": 1825, "speed": 113.1, "last_seen": "29.06.2026 06:44 UTC"}, {"hex": "4601FC", "flight": "FIN489", "lat": 62.518204, "lon": 26.605326, "alt": 18000, "speed": 256.8, "last_seen": "29.06.2026 05:46 UTC"}];
+const aircraft = [{"hex": "4678A9", "flight": "K03", "lat": 62.272882, "lon": 25.738748, "alt": 875, "speed": 107.2, "last_seen": "29.06.2026 07:03 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.323251, "lon": 25.848506, "alt": 2350, "speed": 137.3, "last_seen": "29.06.2026 06:57 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.049271, "lon": 25.681915, "alt": 1825, "speed": 113.1, "last_seen": "29.06.2026 06:44 UTC"}, {"hex": "4601FC", "flight": "FIN489", "lat": 62.518204, "lon": 26.605326, "alt": 18000, "speed": 256.8, "last_seen": "29.06.2026 05:46 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
