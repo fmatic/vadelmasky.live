@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">16</div>
+        <div class="value">17</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">29.06.2026 07:50 UTC</div>
+        <div class="value">29.06.2026 07:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T23</div>
+                    <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge mid">19000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>277.7 kt</b></div>
+                    <div><span>Track</span><b>57.8°</b></div>
+                    <div><span>Position</span><b>62.2725, 25.9532</b></div>
+                    <div><span>Last seen</span><b>29.06.2026 07:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-03" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -295,7 +319,7 @@ footer {
                     <div><span>Speed</span><b>268.7 kt</b></div>
                     <div><span>Track</span><b>58.85°</b></div>
                     <div><span>Position</span><b>62.4075, 26.3551</b></div>
-                    <div><span>Last seen</span><b>29.06.2026 07:50 UTC</b></div>
+                    <div><span>Last seen</span><b>29.06.2026 07:51 UTC</b></div>
                 </div>
             </div>
 
@@ -892,7 +916,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "467894", "flight": "T25", "lat": 62.407516, "lon": 26.355082, "alt": 15000, "speed": 268.7, "last_seen": "29.06.2026 07:50 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.273068, "lon": 25.686669, "alt": 1175, "speed": 107.4, "last_seen": "29.06.2026 07:06 UTC"}, {"hex": "4678A9", "flight": "K03", "lat": 62.272882, "lon": 25.738748, "alt": 875, "speed": 107.2, "last_seen": "29.06.2026 07:03 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.323251, "lon": 25.848506, "alt": 2350, "speed": 137.3, "last_seen": "29.06.2026 06:57 UTC"}, {"hex": "4601FC", "flight": "FIN489", "lat": 62.518204, "lon": 26.605326, "alt": 18000, "speed": 256.8, "last_seen": "29.06.2026 05:46 UTC"}];
+const aircraft = [{"hex": "467892", "flight": "T23", "lat": 62.272476, "lon": 25.953166, "alt": 19000, "speed": 277.7, "last_seen": "29.06.2026 07:55 UTC"}, {"hex": "467894", "flight": "T25", "lat": 62.407516, "lon": 26.355082, "alt": 15000, "speed": 268.7, "last_seen": "29.06.2026 07:51 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.273068, "lon": 25.686669, "alt": 1175, "speed": 107.4, "last_seen": "29.06.2026 07:06 UTC"}, {"hex": "4678A9", "flight": "K03", "lat": 62.272882, "lon": 25.738748, "alt": 875, "speed": 107.2, "last_seen": "29.06.2026 07:03 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.323251, "lon": 25.848506, "alt": 2350, "speed": 137.3, "last_seen": "29.06.2026 06:57 UTC"}, {"hex": "4601FC", "flight": "FIN489", "lat": 62.518204, "lon": 26.605326, "alt": 18000, "speed": 256.8, "last_seen": "29.06.2026 05:46 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
