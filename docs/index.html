@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">29.06.2026 10:15 UTC</div>
+        <div class="value">29.06.2026 10:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">K21</div>
                     <div class="meta">ICAO 46789B · REG GO-5 · TYPE G115</div>
                 </div>
-                <div class="alt-badge low">900 ft</div>
+                <div class="alt-badge low">875 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>116.6 kt</b></div>
-                    <div><span>Track</span><b>149.04°</b></div>
-                    <div><span>Position</span><b>62.2616, 25.7361</b></div>
-                    <div><span>Last seen</span><b>29.06.2026 10:15 UTC</b></div>
+                    <div><span>Speed</span><b>119.5 kt</b></div>
+                    <div><span>Track</span><b>151.5°</b></div>
+                    <div><span>Position</span><b>62.2241, 25.7813</b></div>
+                    <div><span>Last seen</span><b>29.06.2026 10:17 UTC</b></div>
                 </div>
             </div>
 
@@ -963,7 +963,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "46789B", "flight": "-", "lat": 62.26157, "lon": 25.736107, "alt": 900, "speed": 116.6, "last_seen": "29.06.2026 10:15 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 61.895064, "lon": 25.480143, "alt": 13975, "speed": 285.4, "last_seen": "29.06.2026 09:21 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.094866, "lon": 25.587463, "alt": 18000, "speed": 252.9, "last_seen": "29.06.2026 09:15 UTC"}, {"hex": "467894", "flight": "T25", "lat": 62.310654, "lon": 25.876058, "alt": 2625, "speed": 191.6, "last_seen": "29.06.2026 08:46 UTC"}, {"hex": "461E1B", "flight": "FIN7TP", "lat": 61.646164, "lon": 25.175171, "alt": 31325, "speed": 426.3, "last_seen": "29.06.2026 08:25 UTC"}, {"hex": "4601FC", "flight": "FIN5NB", "lat": 61.554441, "lon": 25.770162, "alt": 20000, "speed": 253.9, "last_seen": "29.06.2026 08:25 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.273068, "lon": 25.686669, "alt": 1175, "speed": 107.4, "last_seen": "29.06.2026 07:06 UTC"}, {"hex": "4678A9", "flight": "K03", "lat": 62.272882, "lon": 25.738748, "alt": 875, "speed": 107.2, "last_seen": "29.06.2026 07:03 UTC"}];
+const aircraft = [{"hex": "46789B", "flight": "K21", "lat": 62.224142, "lon": 25.78132, "alt": 875, "speed": 119.5, "last_seen": "29.06.2026 10:17 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 61.895064, "lon": 25.480143, "alt": 13975, "speed": 285.4, "last_seen": "29.06.2026 09:21 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.094866, "lon": 25.587463, "alt": 18000, "speed": 252.9, "last_seen": "29.06.2026 09:15 UTC"}, {"hex": "467894", "flight": "T25", "lat": 62.310654, "lon": 25.876058, "alt": 2625, "speed": 191.6, "last_seen": "29.06.2026 08:46 UTC"}, {"hex": "461E1B", "flight": "FIN7TP", "lat": 61.646164, "lon": 25.175171, "alt": 31325, "speed": 426.3, "last_seen": "29.06.2026 08:25 UTC"}, {"hex": "4601FC", "flight": "FIN5NB", "lat": 61.554441, "lon": 25.770162, "alt": 20000, "speed": 253.9, "last_seen": "29.06.2026 08:25 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.273068, "lon": 25.686669, "alt": 1175, "speed": 107.4, "last_seen": "29.06.2026 07:06 UTC"}, {"hex": "4678A9", "flight": "K03", "lat": 62.272882, "lon": 25.738748, "alt": 875, "speed": 107.2, "last_seen": "29.06.2026 07:03 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
