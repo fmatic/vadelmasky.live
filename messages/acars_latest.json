@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.06.2026 16:03 UTC",
-      "source": "ACARS",
-      "flight": "CA1040",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "_d",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
-      "time": "28.06.2026 16:04 UTC",
-      "source": "ACARS",
-      "flight": "CA1040",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "_d",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
       "time": "28.06.2026 16:04 UTC",
       "source": "ACARS",
       "flight": "CA1040",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "M03A",
       "text": "No text"
+    },
+    {
+      "time": "29.06.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ2",
+      "freq": 131.725,
+      "level": -29.8,
+      "label": "20",
+      "msgno": "M04A",
+      "text": "POSN62187E025333,,085042,029,IPLUV    ,000245,,P10,02310,31,223"
+    },
+    {
+      "time": "29.06.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ2",
+      "freq": 131.725,
+      "level": -25.3,
+      "label": "20",
+      "msgno": "M04A",
+      "text": "POSN62187E025333,,085042,029,IPLUV    ,000245,,P10,02310,31,223"
     }
   ]
 }
