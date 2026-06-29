@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">29.06.2026 08:40 UTC</div>
+        <div class="value">29.06.2026 08:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T25</div>
+                    <div class="meta">ICAO 467894 · REG PI-05 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge low">2675 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>192.4 kt</b></div>
+                    <div><span>Track</span><b>314.16°</b></div>
+                    <div><span>Position</span><b>62.3086, 25.8806</b></div>
+                    <div><span>Last seen</span><b>29.06.2026 08:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">W21</div>
+                    <div class="meta">ICAO 46788C · REG LJ-2 · TYPE LJ35</div>
+                </div>
+                <div class="alt-badge low">2175 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>184.6 kt</b></div>
+                    <div><span>Track</span><b>320.27°</b></div>
+                    <div><span>Position</span><b>62.3174, 25.8617</b></div>
+                    <div><span>Last seen</span><b>29.06.2026 08:43 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LJ-2" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -355,30 +403,6 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">T25</div>
-                    <div class="meta">ICAO 467894 · REG PI-05 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge mid">15000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>268.7 kt</b></div>
-                    <div><span>Track</span><b>58.85°</b></div>
-                    <div><span>Position</span><b>62.4075, 26.3551</b></div>
-                    <div><span>Last seen</span><b>29.06.2026 07:51 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
                     <div class="flight">V52</div>
                     <div class="meta">ICAO 4678B1 · REG GO-27 · TYPE G115</div>
                 </div>
@@ -420,30 +444,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-19" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">W21</div>
-                    <div class="meta">ICAO 46788C · REG LJ-2 · TYPE LJ35</div>
-                </div>
-                <div class="alt-badge low">2350 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>137.3 kt</b></div>
-                    <div><span>Track</span><b>312.64°</b></div>
-                    <div><span>Position</span><b>62.3233, 25.8485</b></div>
-                    <div><span>Last seen</span><b>29.06.2026 06:57 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LJ-2" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -916,7 +916,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "461E1B", "flight": "FIN7TP", "lat": 61.646164, "lon": 25.175171, "alt": 31325, "speed": 426.3, "last_seen": "29.06.2026 08:25 UTC"}, {"hex": "4601FC", "flight": "FIN5NB", "lat": 61.554441, "lon": 25.770162, "alt": 20000, "speed": 253.9, "last_seen": "29.06.2026 08:25 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.401291, "lon": 26.389974, "alt": 19000, "speed": 278.3, "last_seen": "29.06.2026 07:59 UTC"}, {"hex": "467894", "flight": "T25", "lat": 62.407516, "lon": 26.355082, "alt": 15000, "speed": 268.7, "last_seen": "29.06.2026 07:51 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.273068, "lon": 25.686669, "alt": 1175, "speed": 107.4, "last_seen": "29.06.2026 07:06 UTC"}, {"hex": "4678A9", "flight": "K03", "lat": 62.272882, "lon": 25.738748, "alt": 875, "speed": 107.2, "last_seen": "29.06.2026 07:03 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.323251, "lon": 25.848506, "alt": 2350, "speed": 137.3, "last_seen": "29.06.2026 06:57 UTC"}];
+const aircraft = [{"hex": "467894", "flight": "T25", "lat": 62.308634, "lon": 25.88062, "alt": 2675, "speed": 192.4, "last_seen": "29.06.2026 08:45 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.317383, "lon": 25.861715, "alt": 2175, "speed": 184.6, "last_seen": "29.06.2026 08:43 UTC"}, {"hex": "461E1B", "flight": "FIN7TP", "lat": 61.646164, "lon": 25.175171, "alt": 31325, "speed": 426.3, "last_seen": "29.06.2026 08:25 UTC"}, {"hex": "4601FC", "flight": "FIN5NB", "lat": 61.554441, "lon": 25.770162, "alt": 20000, "speed": 253.9, "last_seen": "29.06.2026 08:25 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.401291, "lon": 26.389974, "alt": 19000, "speed": 278.3, "last_seen": "29.06.2026 07:59 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.273068, "lon": 25.686669, "alt": 1175, "speed": 107.4, "last_seen": "29.06.2026 07:06 UTC"}, {"hex": "4678A9", "flight": "K03", "lat": 62.272882, "lon": 25.738748, "alt": 875, "speed": 107.2, "last_seen": "29.06.2026 07:03 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
