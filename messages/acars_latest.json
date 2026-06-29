@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.06.2026 06:44 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ2",
-      "freq": 131.725,
-      "level": -37.3,
-      "label": "Q0",
-      "msgno": "M24A",
-      "text": "No text"
-    },
-    {
-      "time": "29.06.2026 06:48 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ2",
-      "freq": 131.725,
-      "level": -38.1,
-      "label": "Q0",
-      "msgno": "M25A",
-      "text": "No text"
-    },
-    {
       "time": "29.06.2026 06:48 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S83A",
       "text": "0LS191943V"
+    },
+    {
+      "time": "29.06.2026 23:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3062",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "H1",
+      "msgno": "C30A",
+      "text": ".1/WRN/WN2606292327  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "29.06.2026 23:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3062",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "H1",
+      "msgno": "C31A",
+      "text": ".1/FLR/FR2606292327  34361606MMR1   1,IR3,MMR2,IR2,IR1,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
