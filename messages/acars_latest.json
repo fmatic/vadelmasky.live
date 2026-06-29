@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.06.2026 15:37 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32FE",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "14",
-      "msgno": "M24A",
-      "text": "POS\r\n28JUN,1538,258,37995,N 61.886,E 26.694,30047,  40,183"
-    },
-    {
       "time": "28.06.2026 15:49 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O93A",
       "text": "SB0122BA_B-226D  EGPKZGGG823\r\n 61687 0252912214 37001-490299050010PSZ010013"
+    },
+    {
+      "time": "29.06.2026 03:17 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "5V",
+      "msgno": "S16A",
+      "text": "No text"
     }
   ]
 }
