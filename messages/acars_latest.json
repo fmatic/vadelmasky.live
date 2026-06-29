@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.06.2026 15:49 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32FE",
-      "freq": 131.825,
-      "level": -41.4,
-      "label": "_d",
-      "msgno": "S64A",
-      "text": "No text"
-    },
-    {
       "time": "28.06.2026 16:02 UTC",
       "source": "ACARS",
       "flight": "CA1040",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S16A",
       "text": "No text"
+    },
+    {
+      "time": "29.06.2026 06:35 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -28.0,
+      "label": "10",
+      "msgno": "M76A",
+      "text": "POS290635,N 61.758,E 26.988,1424,503125,,,36999,103200"
     }
   ]
 }

@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -266,12 +266,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">460.0 kt</div>
+        <div class="value">500.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">29.06.2026 06:35 UTC</div>
+        <div class="value">29.06.2026 06:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">W21</div>
-                    <div class="meta">ICAO 46788C · REG LJ-2 · TYPE LJ35</div>
+                    <div class="flight">CA3040</div>
+                    <div class="meta">ICAO 78037B · REG B-6093 · TYPE A332</div>
                 </div>
-                <div class="alt-badge low">2850 ft</div>
+                <div class="alt-badge high">36975 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>205.1 kt</b></div>
-                    <div><span>Track</span><b>225.4°</b></div>
-                    <div><span>Position</span><b>62.2991, 26.0264</b></div>
-                    <div><span>Last seen</span><b>29.06.2026 06:35 UTC</b></div>
+                    <div><span>Speed</span><b>500.0 kt</b></div>
+                    <div><span>Track</span><b>64.16°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>29.06.2026 06:38 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6093" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">W21</div>
+                    <div class="meta">ICAO 46788C · REG LJ-2 · TYPE LJ35</div>
+                </div>
+                <div class="alt-badge low">2375 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>161.8 kt</b></div>
+                    <div><span>Track</span><b>307.72°</b></div>
+                    <div><span>Position</span><b>62.3226, 25.8523</b></div>
+                    <div><span>Last seen</span><b>29.06.2026 06:37 UTC</b></div>
                 </div>
             </div>
 
@@ -324,30 +348,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-27" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 78037B · REG B-6093 · TYPE A332</div>
-                </div>
-                <div class="alt-badge high">37000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>58.1 kt</b></div>
-                    <div><span>Track</span><b>137.79°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>29.06.2026 06:32 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6093" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -626,6 +626,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CA3040</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6093 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">29.06.2026 06:35 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 10 · Msg M76A · Level -28.0 dB
+            </div>
+
+            <div class="acars-text">POS290635,N 61.758,E 26.988,1424,503125,,,36999,103200</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">N70380</div>
                     <div class="acars-meta">
                         ACARS · Tail OH-ATH · 131.825 MHz
@@ -822,29 +840,11 @@ footer {
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1040</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2097 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">28.06.2026 16:04 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S38A · Level -36.3 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "46788C", "flight": "W21", "lat": 62.299091, "lon": 26.0264, "alt": 2850, "speed": 205.1, "last_seen": "29.06.2026 06:35 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.225693, "lon": 25.722758, "alt": 1150, "speed": 127.0, "last_seen": "29.06.2026 06:35 UTC"}, {"hex": "4601FC", "flight": "FIN489", "lat": 62.518204, "lon": 26.605326, "alt": 18000, "speed": 256.8, "last_seen": "29.06.2026 05:46 UTC"}];
+const aircraft = [{"hex": "46788C", "flight": "W21", "lat": 62.322601, "lon": 25.852254, "alt": 2375, "speed": 161.8, "last_seen": "29.06.2026 06:37 UTC"}, {"hex": "4678B1", "flight": "V52", "lat": 62.225693, "lon": 25.722758, "alt": 1150, "speed": 127.0, "last_seen": "29.06.2026 06:35 UTC"}, {"hex": "4601FC", "flight": "FIN489", "lat": 62.518204, "lon": 26.605326, "alt": 18000, "speed": 256.8, "last_seen": "29.06.2026 05:46 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
