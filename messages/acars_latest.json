@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.06.2026 08:37 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ2",
-      "freq": 131.725,
-      "level": -42.1,
-      "label": "QQ",
-      "msgno": "M01A",
-      "text": "No text"
-    },
-    {
       "time": "29.06.2026 08:45 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -329,6 +318,17 @@
       "label": "14",
       "msgno": "M27A",
       "text": "POS\r\n30JUN,1431,258,38001,N 61.873,E 27.310,26243,  35,179"
+    },
+    {
+      "time": "30.06.2026 21:27 UTC",
+      "source": "ACARS",
+      "flight": "ET3640",
+      "tail": "ET-ARJ",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "5V",
+      "msgno": "S52A",
+      "text": "No text"
     }
   ]
 }
