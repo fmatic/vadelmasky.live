@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.06.2026 08:45 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ2",
-      "freq": 131.725,
-      "level": -38.3,
-      "label": "Q0",
-      "msgno": "M03A",
-      "text": "No text"
-    },
-    {
       "time": "29.06.2026 08:46 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S52A",
       "text": "No text"
+    },
+    {
+      "time": "30.06.2026 21:51 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -26.2,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/FLR/FR2606302151  34363106IR1    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
