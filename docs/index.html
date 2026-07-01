@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">01.07.2026 10:30 UTC</div>
+        <div class="value">01.07.2026 10:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">V52</div>
+                    <div class="meta">ICAO 46789E · REG GO-8 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">5800 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>101.0 kt</b></div>
+                    <div><span>Track</span><b>343.9°</b></div>
+                    <div><span>Position</span><b>62.2318, 25.4238</b></div>
+                    <div><span>Last seen</span><b>01.07.2026 10:34 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-8" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -372,30 +396,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-03" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">V52</div>
-                    <div class="meta">ICAO 46789E · REG GO-8 · TYPE G115</div>
-                </div>
-                <div class="alt-badge low">1150 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>101.0 kt</b></div>
-                    <div><span>Track</span><b>343.9°</b></div>
-                    <div><span>Position</span><b>62.2789, 25.7493</b></div>
-                    <div><span>Last seen</span><b>01.07.2026 09:39 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-8" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -870,7 +870,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "46788C", "flight": "W02", "lat": 62.456065, "lon": 26.469339, "alt": 18950, "speed": 399.8, "last_seen": "01.07.2026 10:19 UTC"}, {"hex": "467894", "flight": "T05", "lat": 62.280624, "lon": 25.715841, "alt": 1050, "speed": 209.0, "last_seen": "01.07.2026 09:53 UTC"}, {"hex": "4601F7", "flight": "-", "lat": 62.190112, "lon": 27.255073, "alt": 17000, "speed": 288.5, "last_seen": "01.07.2026 09:46 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.088089, "lon": 25.571267, "alt": 14000, "speed": 253.5, "last_seen": "01.07.2026 09:45 UTC"}, {"hex": "46789E", "flight": "V52", "lat": 62.278931, "lon": 25.749308, "alt": 1150, "speed": 101.0, "last_seen": "01.07.2026 09:39 UTC"}, {"hex": "461E15", "flight": "FIN7TP", "lat": 61.658066, "lon": 25.166146, "alt": 28900, "speed": 432.0, "last_seen": "01.07.2026 08:22 UTC"}, {"hex": "888152", "flight": "HVN69", "lat": 61.958038, "lon": 27.055402, "alt": 41000, "speed": 532.2, "last_seen": "01.07.2026 07:42 UTC"}, {"hex": "7805DC", "flight": "CK0203", "lat": 61.526667, "lon": 2.933333, "alt": "-", "speed": "-", "last_seen": "01.07.2026 07:11 UTC"}, {"hex": "4678AD", "flight": "V51", "lat": 62.325302, "lon": 25.843709, "alt": 2050, "speed": 96.9, "last_seen": "01.07.2026 06:54 UTC"}];
+const aircraft = [{"hex": "46789E", "flight": "V52", "lat": 62.231827, "lon": 25.423787, "alt": 5800, "speed": 101.0, "last_seen": "01.07.2026 10:34 UTC"}, {"hex": "46788C", "flight": "W02", "lat": 62.456065, "lon": 26.469339, "alt": 18950, "speed": 399.8, "last_seen": "01.07.2026 10:19 UTC"}, {"hex": "467894", "flight": "T05", "lat": 62.280624, "lon": 25.715841, "alt": 1050, "speed": 209.0, "last_seen": "01.07.2026 09:53 UTC"}, {"hex": "4601F7", "flight": "-", "lat": 62.190112, "lon": 27.255073, "alt": 17000, "speed": 288.5, "last_seen": "01.07.2026 09:46 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.088089, "lon": 25.571267, "alt": 14000, "speed": 253.5, "last_seen": "01.07.2026 09:45 UTC"}, {"hex": "461E15", "flight": "FIN7TP", "lat": 61.658066, "lon": 25.166146, "alt": 28900, "speed": 432.0, "last_seen": "01.07.2026 08:22 UTC"}, {"hex": "888152", "flight": "HVN69", "lat": 61.958038, "lon": 27.055402, "alt": 41000, "speed": 532.2, "last_seen": "01.07.2026 07:42 UTC"}, {"hex": "7805DC", "flight": "CK0203", "lat": 61.526667, "lon": 2.933333, "alt": "-", "speed": "-", "last_seen": "01.07.2026 07:11 UTC"}, {"hex": "4678AD", "flight": "V51", "lat": 62.325302, "lon": 25.843709, "alt": 2050, "speed": 96.9, "last_seen": "01.07.2026 06:54 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
