@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -266,12 +266,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">424.0 kt</div>
+        <div class="value">533.3 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">01.07.2026 07:35 UTC</div>
+        <div class="value">01.07.2026 07:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,7 +283,7 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">HVN69</div>
                     <div class="meta">ICAO 888152 · REG VN-A896 · TYPE A359</div>
                 </div>
                 <div class="alt-badge high">41000 ft</div>
@@ -292,10 +292,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>01.07.2026 07:35 UTC</b></div>
+                    <div><span>Speed</span><b>533.3 kt</b></div>
+                    <div><span>Track</span><b>67.86°</b></div>
+                    <div><span>Position</span><b>61.7389, 25.8967</b></div>
+                    <div><span>Last seen</span><b>01.07.2026 07:38 UTC</b></div>
                 </div>
             </div>
 
@@ -774,7 +774,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "7805DC", "flight": "CK0203", "lat": 61.526667, "lon": 2.933333, "alt": "-", "speed": "-", "last_seen": "01.07.2026 07:11 UTC"}, {"hex": "467894", "flight": "T05", "lat": 62.294174, "lon": 25.820821, "alt": 925, "speed": 195.5, "last_seen": "01.07.2026 07:09 UTC"}, {"hex": "4678AD", "flight": "V51", "lat": 62.325302, "lon": 25.843709, "alt": 2050, "speed": 96.9, "last_seen": "01.07.2026 06:54 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.358771, "lon": 26.418527, "alt": 15000, "speed": 279.7, "last_seen": "01.07.2026 06:10 UTC"}];
+const aircraft = [{"hex": "888152", "flight": "HVN69", "lat": 61.738907, "lon": 25.896737, "alt": 41000, "speed": 533.3, "last_seen": "01.07.2026 07:38 UTC"}, {"hex": "7805DC", "flight": "CK0203", "lat": 61.526667, "lon": 2.933333, "alt": "-", "speed": "-", "last_seen": "01.07.2026 07:11 UTC"}, {"hex": "467894", "flight": "T05", "lat": 62.294174, "lon": 25.820821, "alt": 925, "speed": 195.5, "last_seen": "01.07.2026 07:09 UTC"}, {"hex": "4678AD", "flight": "V51", "lat": 62.325302, "lon": 25.843709, "alt": 2050, "speed": 96.9, "last_seen": "01.07.2026 06:54 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.358771, "lon": 26.418527, "alt": 15000, "speed": 279.7, "last_seen": "01.07.2026 06:10 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
