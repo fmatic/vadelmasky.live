@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">01.07.2026 07:55 UTC</div>
+        <div class="value">01.07.2026 08:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T05</div>
+                    <div class="meta">ICAO 467894 · REG PI-05 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge low">5675 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>164.4 kt</b></div>
+                    <div><span>Track</span><b>203.29°</b></div>
+                    <div><span>Position</span><b>62.2565, 25.6365</b></div>
+                    <div><span>Last seen</span><b>01.07.2026 07:59 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -324,30 +348,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2076" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">T05</div>
-                    <div class="meta">ICAO 467894 · REG PI-05 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge low">925 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>195.5 kt</b></div>
-                    <div><span>Track</span><b>332.26°</b></div>
-                    <div><span>Position</span><b>62.2942, 25.8208</b></div>
-                    <div><span>Last seen</span><b>01.07.2026 07:09 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-05" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -774,7 +774,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "888152", "flight": "HVN69", "lat": 61.958038, "lon": 27.055402, "alt": 41000, "speed": 532.2, "last_seen": "01.07.2026 07:42 UTC"}, {"hex": "7805DC", "flight": "CK0203", "lat": 61.526667, "lon": 2.933333, "alt": "-", "speed": "-", "last_seen": "01.07.2026 07:11 UTC"}, {"hex": "467894", "flight": "T05", "lat": 62.294174, "lon": 25.820821, "alt": 925, "speed": 195.5, "last_seen": "01.07.2026 07:09 UTC"}, {"hex": "4678AD", "flight": "V51", "lat": 62.325302, "lon": 25.843709, "alt": 2050, "speed": 96.9, "last_seen": "01.07.2026 06:54 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.358771, "lon": 26.418527, "alt": 15000, "speed": 279.7, "last_seen": "01.07.2026 06:10 UTC"}];
+const aircraft = [{"hex": "467894", "flight": "T05", "lat": 62.256496, "lon": 25.636491, "alt": 5675, "speed": 164.4, "last_seen": "01.07.2026 07:59 UTC"}, {"hex": "888152", "flight": "HVN69", "lat": 61.958038, "lon": 27.055402, "alt": 41000, "speed": 532.2, "last_seen": "01.07.2026 07:42 UTC"}, {"hex": "7805DC", "flight": "CK0203", "lat": 61.526667, "lon": 2.933333, "alt": "-", "speed": "-", "last_seen": "01.07.2026 07:11 UTC"}, {"hex": "4678AD", "flight": "V51", "lat": 62.325302, "lon": 25.843709, "alt": 2050, "speed": 96.9, "last_seen": "01.07.2026 06:54 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.358771, "lon": 26.418527, "alt": 15000, "speed": 279.7, "last_seen": "01.07.2026 06:10 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
