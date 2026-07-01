@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.06.2026 08:46 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ2",
-      "freq": 131.725,
-      "level": -34.1,
-      "label": "Q0",
-      "msgno": "M03A",
-      "text": "No text"
-    },
-    {
       "time": "29.06.2026 08:51 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C22A",
       "text": ".1/FLR/FR2606302151  34363106IR1    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "01.07.2026 06:29 UTC",
+      "source": "ACARS",
+      "flight": "CK0203",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -33.0,
+      "label": "H1",
+      "msgno": "O30A",
+      "text": "SB0122BA_B-2076  ZSPDLFPG813\r\n 61643 0265400634 33998-490258069010PSZ006007"
     }
   ]
 }
