@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.07.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "CA1040",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -39.7,
-      "label": "_d",
-      "msgno": "S04A",
-      "text": "No text"
-    },
-    {
       "time": "01.07.2026 14:28 UTC",
       "source": "ACARS",
       "flight": "CA1040",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S12A",
       "text": "0LS201325VH"
+    },
+    {
+      "time": "02.07.2026 21:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3106",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -34.3,
+      "label": "H1",
+      "msgno": "C18A",
+      "text": ".1/FLR/FR2607022110  34361606MMR1   1,IR2,MMR2,IR1,IR3,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
