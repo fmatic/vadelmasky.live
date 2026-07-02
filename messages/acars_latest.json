@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.07.2026 06:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "H1",
-      "msgno": "O30A",
-      "text": "SB0122BA_B-2076  ZSPDLFPG813\r\n 61643 0265400634 33998-490258069010PSZ006007"
-    },
-    {
       "time": "01.07.2026 06:34 UTC",
       "source": "ACARS",
       "flight": "CK0203",
@@ -328,6 +317,17 @@
       "level": -37.9,
       "label": "_d",
       "msgno": "S60A",
+      "text": "No text"
+    },
+    {
+      "time": "02.07.2026 18:02 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "_d",
+      "msgno": "S92A",
       "text": "No text"
     }
   ]
