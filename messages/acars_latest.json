@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.06.2026 23:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3062",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -35.7,
-      "label": "H1",
-      "msgno": "C31A",
-      "text": ".1/FLR/FR2606292327  34361606MMR1   1,IR3,MMR2,IR2,IR1,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
       "time": "29.06.2026 23:34 UTC",
       "source": "ACARS",
       "flight": "CA3062",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C31B",
       "text": "RTE 1 02JUL26 0046 CAB-2091 CAO8440 LEMD/ZSPD 311B-BCG-00W-19 L 2045 01JUL26\r\nFDE 34503142 A 0044 02JUL26\r\nMSG 3453302 A 0044 02JUL26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 0044 02JUL26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "02.07.2026 11:30 UTC",
+      "source": "ACARS",
+      "flight": "CA3105",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -29.7,
+      "label": "10",
+      "msgno": "M55A",
+      "text": "POS021131,N 61.496,E 26.388,1222,427000,,,38002,30440"
     }
   ]
 }
