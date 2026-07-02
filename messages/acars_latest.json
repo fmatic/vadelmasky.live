@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.07.2026 06:34 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "16",
-      "msgno": "M20A",
-      "text": "POSA1N61316E 25605,AGIVU  ,061822,339,NISIX  ,070640,-49, 69, 325,835"
-    },
-    {
       "time": "01.07.2026 14:24 UTC",
       "source": "ACARS",
       "flight": "CA1040",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S92A",
       "text": "No text"
+    },
+    {
+      "time": "02.07.2026 20:12 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -30.4,
+      "label": "SA",
+      "msgno": "S12A",
+      "text": "0LS201325VH"
     }
   ]
 }
