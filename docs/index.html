@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">03.07.2026 07:40 UTC</div>
+        <div class="value">03.07.2026 07:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,20 +286,44 @@ footer {
                     <div class="flight">FIN9B</div>
                     <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">21250 ft</div>
+                <div class="alt-badge mid">22000 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>250.8 kt</b></div>
-                    <div><span>Track</span><b>23.5°</b></div>
-                    <div><span>Position</span><b>61.4906, 25.7878</b></div>
-                    <div><span>Last seen</span><b>03.07.2026 07:40 UTC</b></div>
+                    <div><span>Speed</span><b>248.6 kt</b></div>
+                    <div><span>Track</span><b>23.47°</b></div>
+                    <div><span>Position</span><b>61.7672, 26.0389</b></div>
+                    <div><span>Last seen</span><b>03.07.2026 07:45 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CAO1007</div>
+                    <div class="meta">ICAO 782078 · REG B-225A · TYPE B77L</div>
+                </div>
+                <div class="alt-badge high">32000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>428.0 kt</b></div>
+                    <div><span>Track</span><b>252.77°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>03.07.2026 07:43 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-225A" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -730,7 +754,7 @@ EOR
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F2", "flight": "FIN9B", "lat": 61.49057, "lon": 25.787757, "alt": 21250, "speed": 250.8, "last_seen": "03.07.2026 07:40 UTC"}, {"hex": "461F69", "flight": "FIN14J", "lat": 61.514969, "lon": 25.291606, "alt": 26500, "speed": 362.1, "last_seen": "03.07.2026 06:41 UTC"}, {"hex": "4601F9", "flight": "FIN2PC", "lat": 61.951625, "lon": 25.437826, "alt": 18000, "speed": 270.6, "last_seen": "03.07.2026 04:58 UTC"}];
+const aircraft = [{"hex": "4601F2", "flight": "FIN9B", "lat": 61.767232, "lon": 26.03892, "alt": 22000, "speed": 248.6, "last_seen": "03.07.2026 07:45 UTC"}, {"hex": "461F69", "flight": "FIN14J", "lat": 61.514969, "lon": 25.291606, "alt": 26500, "speed": 362.1, "last_seen": "03.07.2026 06:41 UTC"}, {"hex": "4601F9", "flight": "FIN2PC", "lat": 61.951625, "lon": 25.437826, "alt": 18000, "speed": 270.6, "last_seen": "03.07.2026 04:58 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
