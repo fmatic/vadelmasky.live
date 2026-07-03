@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">03.07.2026 09:30 UTC</div>
+        <div class="value">03.07.2026 09:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN9LG</div>
+                    <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">20025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>249.5 kt</b></div>
+                    <div><span>Track</span><b>203.38°</b></div>
+                    <div><span>Position</span><b>62.1463, 26.3145</b></div>
+                    <div><span>Last seen</span><b>03.07.2026 09:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -372,30 +396,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-BRA" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN9B</div>
-                    <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">21975 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>283.4 kt</b></div>
-                    <div><span>Track</span><b>23.94°</b></div>
-                    <div><span>Position</span><b>62.5021, 26.7290</b></div>
-                    <div><span>Last seen</span><b>03.07.2026 07:55 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -602,6 +602,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">N70414</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATE · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">03.07.2026 09:34 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 5V · Msg S40A · Level -28.2 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">HO1661</div>
                     <div class="acars-meta">
                         ACARS · Tail B-20D1 · 131.825 MHz
@@ -797,36 +815,11 @@ footer {
             <div class="acars-text">POS021131,N 61.496,E 26.388,1222,427000,,,38002,30440</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA8440</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2091 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">02.07.2026 00:46 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C31B · Level -35.4 dB
-            </div>
-
-            <div class="acars-text">RTE 1 02JUL26 0046 CAB-2091 CAO8440 LEMD/ZSPD 311B-BCG-00W-19 L 2045 01JUL26
-FDE 34503142 A 0044 02JUL26
-MSG 3453302 A 0044 02JUL26 ER H PL
-DB MULTI-MODE RECEIVER (RIGHT)
-MSG 3453013 A 0044 02JUL26 ER H PL
-DB MULTI-MODE RECEIVER (RIGHT)
-EOR
-</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F9", "flight": "FIN602", "lat": 61.784729, "lon": 25.341437, "alt": 20975, "speed": 253.4, "last_seen": "03.07.2026 08:46 UTC"}, {"hex": "461F62", "flight": "FIN7TP", "lat": 61.545319, "lon": 25.292489, "alt": 26250, "speed": 352.1, "last_seen": "03.07.2026 08:15 UTC"}, {"hex": "4678AC", "flight": "K12", "lat": 62.284378, "lon": 25.788066, "alt": 1175, "speed": 139.6, "last_seen": "03.07.2026 08:15 UTC"}, {"hex": "46045E", "flight": "OHBRA", "lat": 62.089417, "lon": 25.573523, "alt": 12000, "speed": 183.4, "last_seen": "03.07.2026 08:01 UTC"}, {"hex": "4601F2", "flight": "FIN9B", "lat": 62.50209, "lon": 26.729024, "alt": 21975, "speed": 283.4, "last_seen": "03.07.2026 07:55 UTC"}, {"hex": "782078", "flight": "CAO1007", "lat": 61.654482, "lon": 25.444539, "alt": 32000, "speed": 440.2, "last_seen": "03.07.2026 07:49 UTC"}, {"hex": "461F69", "flight": "FIN14J", "lat": 61.514969, "lon": 25.291606, "alt": 26500, "speed": 362.1, "last_seen": "03.07.2026 06:41 UTC"}];
+const aircraft = [{"hex": "4601F2", "flight": "FIN9LG", "lat": 62.14626, "lon": 26.314474, "alt": 20025, "speed": 249.5, "last_seen": "03.07.2026 09:35 UTC"}, {"hex": "4601F9", "flight": "FIN602", "lat": 61.784729, "lon": 25.341437, "alt": 20975, "speed": 253.4, "last_seen": "03.07.2026 08:46 UTC"}, {"hex": "461F62", "flight": "FIN7TP", "lat": 61.545319, "lon": 25.292489, "alt": 26250, "speed": 352.1, "last_seen": "03.07.2026 08:15 UTC"}, {"hex": "4678AC", "flight": "K12", "lat": 62.284378, "lon": 25.788066, "alt": 1175, "speed": 139.6, "last_seen": "03.07.2026 08:15 UTC"}, {"hex": "46045E", "flight": "OHBRA", "lat": 62.089417, "lon": 25.573523, "alt": 12000, "speed": 183.4, "last_seen": "03.07.2026 08:01 UTC"}, {"hex": "782078", "flight": "CAO1007", "lat": 61.654482, "lon": 25.444539, "alt": 32000, "speed": 440.2, "last_seen": "03.07.2026 07:49 UTC"}, {"hex": "461F69", "flight": "FIN14J", "lat": 61.514969, "lon": 25.291606, "alt": 26500, "speed": 362.1, "last_seen": "03.07.2026 06:41 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
