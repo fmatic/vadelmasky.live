@@ -246,12 +246,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -261,7 +261,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0 ft</div>
+        <div class="value">16000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">03.07.2026 02:55 UTC</div>
+        <div class="value">03.07.2026 03:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -280,12 +280,54 @@ footer {
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
         
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601F4 · REG OH-ATG · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>03.07.2026 03:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
     </div>
 </section>
 
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70380</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATG · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">03.07.2026 02:57 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 5V · Msg S14A · Level -33.4 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -494,24 +536,6 @@ FDE 34503142 A 0044 02JUL26
 MSG 3453302 A 0044 02JUL26 ER H PL
 DB MULTI-MODE RECEIVER (RIGHT)
 MSG 3453013 A 0044 02JUL26 ER H</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA8440</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2091 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">02.07.2026 00:46 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 10 · Msg M36A · Level -33.4 dB
-            </div>
-
-            <div class="acars-text">POS020046, N 6187,E 2763,829,294,24640,  83,33002, 651,-168,-475,7</div>
         </article>
         
     </div>
