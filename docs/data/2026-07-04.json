@@ -2,16 +2,16 @@
   "aircraft": {
     "781134": {
       "hex": "781134",
-      "flight": "CBJ621",
+      "flight": "CBJ622",
       "reg": "B-8982",
       "type": "A332",
-      "lat": null,
-      "lon": null,
-      "alt": 38000,
-      "speed": 458.0,
-      "track": 237.13,
+      "lat": 61.482844,
+      "lon": 25.590515,
+      "alt": 37000,
+      "speed": 490.0,
+      "track": 63.81,
       "seen_first": "2026-07-04T01:20:01.268856",
-      "last_seen": "2026-07-04T01:28:02.092382"
+      "last_seen": "2026-07-04T15:10:01.766665"
     },
     "4601fa": {
       "hex": "4601fa",
@@ -291,18 +291,31 @@
       "flight": "FIN6YP",
       "reg": "OH-ATI",
       "type": "AT75",
-      "lat": 61.789111,
-      "lon": 26.261393,
+      "lat": 61.534424,
+      "lon": 25.452779,
       "alt": 22000,
-      "speed": 279.9,
-      "track": 237.1,
+      "speed": 282.3,
+      "track": 235.97,
       "seen_first": "2026-07-04T14:59:01.435920",
-      "last_seen": "2026-07-04T15:05:02.236730"
+      "last_seen": "2026-07-04T15:10:01.766665"
+    },
+    "4601f5": {
+      "hex": "4601f5",
+      "flight": "",
+      "reg": "OH-ATH",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 18000,
+      "speed": 261.4,
+      "track": 3.29,
+      "seen_first": "2026-07-04T15:09:01.978917",
+      "last_seen": "2026-07-04T15:10:01.766665"
     }
   },
   "summary": {
-    "total_unique_aircraft": 23,
-    "last_seen_live": 1,
-    "updated": "2026-07-04T15:05:02.236730"
+    "total_unique_aircraft": 24,
+    "last_seen_live": 3,
+    "updated": "2026-07-04T15:10:01.766665"
   }
 }
