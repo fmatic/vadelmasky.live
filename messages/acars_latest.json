@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.07.2026 00:41 UTC",
-      "source": "ACARS",
-      "flight": "CA8440",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "H1",
-      "msgno": "E53B",
-      "text": ",47"
-    },
-    {
-      "time": "02.07.2026 00:45 UTC",
-      "source": "ACARS",
-      "flight": "CA8440",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "_d",
-      "msgno": "S48A",
-      "text": "No text"
-    },
-    {
       "time": "02.07.2026 00:45 UTC",
       "source": "ACARS",
       "flight": "CA8440",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S26A",
       "text": "0LS060921V"
+    },
+    {
+      "time": "04.07.2026 06:19 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-223F",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "16",
+      "msgno": "M80A",
+      "text": "POSA1N62237E 26406,AGAMO  ,060031,340,DETNA  ,072716,-47, 16, 260,829"
+    },
+    {
+      "time": "04.07.2026 06:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "Q0",
+      "msgno": "S29A",
+      "text": "No text"
     }
   ]
 }
