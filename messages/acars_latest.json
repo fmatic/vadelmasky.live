@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.07.2026 13:12 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1429",
-      "freq": 131.825,
-      "level": -42.2,
-      "label": "_d",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "02.07.2026 17:22 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -39.8,
-      "label": "_d",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
       "time": "02.07.2026 17:22 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S56A",
       "text": "No text"
+    },
+    {
+      "time": "04.07.2026 14:00 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-223F",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "16",
+      "msgno": "M43A",
+      "text": "POSA1N61753E 26329,DODAM  ,133146,329,KOKAT  ,142008,-49, 10, 786,825"
+    },
+    {
+      "time": "04.07.2026 14:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-223F",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "H1",
+      "msgno": "O09A",
+      "text": "SB0122BA_B-223F  EGSSZSPD239\r\n 61812 0266201402 32995-4901830170109B,009010"
     }
   ]
 }
