@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.07.2026 00:46 UTC",
-      "source": "ACARS",
-      "flight": "CA8440",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "H1",
-      "msgno": "C31B",
-      "text": "RTE 1 02JUL26 0046 CAB-2091 CAO8440 LEMD/ZSPD 311B-BCG-00W-19 L 2045 01JUL26\r\nFDE 34503142 A 0044 02JUL26\r\nMSG 3453302 A 0044 02JUL26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 0044 02JUL26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "02.07.2026 11:30 UTC",
-      "source": "ACARS",
-      "flight": "CA3105",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -29.7,
-      "label": "10",
-      "msgno": "M55A",
-      "text": "POS021131,N 61.496,E 26.388,1222,427000,,,38002,30440"
-    },
-    {
       "time": "02.07.2026 13:12 UTC",
       "source": "ACARS",
       "flight": "CA0939",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O02A",
       "text": "SB0122BA_B-221S  LFPGZSPD117\r\n 61838 0276491324 32996-48018301501005Z011014"
+    },
+    {
+      "time": "04.07.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "Q0",
+      "msgno": "M23A",
+      "text": "No text"
+    },
+    {
+      "time": "04.07.2026 13:53 UTC",
+      "source": "ACARS",
+      "flight": "N70369",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "_d",
+      "msgno": "S56A",
+      "text": "No text"
     }
   ]
 }
