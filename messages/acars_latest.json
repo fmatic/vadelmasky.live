@@ -6,17 +6,6 @@
       "flight": "CA8440",
       "tail": "B-2091",
       "freq": 131.825,
-      "level": -34.1,
-      "label": "H1",
-      "msgno": "C31A",
-      "text": "RTE 1 02JUL26 0046 CAB-2091 CAO8440 LEMD/ZSPD 311B-BCG-00W-19 L 2045 01JUL26\r\nFDE 34503142 A 0044 02JUL26\r\nMSG 3453302 A 0044 02JUL26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 0044 02JUL26 ER H"
-    },
-    {
-      "time": "02.07.2026 00:46 UTC",
-      "source": "ACARS",
-      "flight": "CA8440",
-      "tail": "B-2091",
-      "freq": 131.825,
       "level": -35.4,
       "label": "H1",
       "msgno": "C31B",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M89A",
       "text": "POSA1N61456E 26273,AGAMO  ,122128,340,SALLO  ,135017,-47, 18, 235,836"
+    },
+    {
+      "time": "04.07.2026 13:25 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "O02A",
+      "text": "SB0122BA_B-221S  LFPGZSPD117\r\n 61838 0276491324 32996-48018301501005Z011014"
     }
   ]
 }
