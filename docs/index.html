@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">04.07.2026 06:20 UTC</div>
+        <div class="value">04.07.2026 06:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -295,7 +295,7 @@ footer {
                     <div><span>Speed</span><b>476.0 kt</b></div>
                     <div><span>Track</span><b>245.74°</b></div>
                     <div><span>Position</span><b>62.3950, 3.0667</b></div>
-                    <div><span>Last seen</span><b>04.07.2026 06:20 UTC</b></div>
+                    <div><span>Last seen</span><b>04.07.2026 06:25 UTC</b></div>
                 </div>
             </div>
 
@@ -454,6 +454,50 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CK0605</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-223F · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">04.07.2026 06:21 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg O61A · Level -31.7 dB
+            </div>
+
+            <div class="acars-text">SS0340F_ 22
+B-223F  CKK605ZSPDEGSS040726062145ER
+28934000832-1700521293168BSM79967A21
+1086201789 2501040726 062137
+  0 000  0  000)
+  0 000  0  000)
+10110111111111111
+  33996
+      ) 0 02N    )16.)</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA1153</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6117 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">04.07.2026 06:21 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label _d · Msg S30A · Level -33.9 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -638,47 +682,11 @@ ZFW/240365KG
 </div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70414</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATE · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">03.07.2026 09:34 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 5V · Msg S40A · Level -28.2 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">HO1661</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-20D1 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">03.07.2026 03:07 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 5V · Msg S50A · Level -40.9 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "781F00", "flight": "CKK605", "lat": 62.395, "lon": 3.066667, "alt": 34000, "speed": 476.0, "last_seen": "04.07.2026 06:20 UTC"}, {"hex": "780AEB", "flight": "CSG2516", "lat": 61.0125, "lon": 2.116167, "alt": 37000, "speed": 502.0, "last_seen": "04.07.2026 03:38 UTC"}];
+const aircraft = [{"hex": "781F00", "flight": "CKK605", "lat": 62.395, "lon": 3.066667, "alt": 34000, "speed": 476.0, "last_seen": "04.07.2026 06:25 UTC"}, {"hex": "780AEB", "flight": "CSG2516", "lat": 61.0125, "lon": 2.116167, "alt": 37000, "speed": 502.0, "last_seen": "04.07.2026 03:38 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
