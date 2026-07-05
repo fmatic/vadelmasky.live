@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.07.2026 17:22 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -39.7,
-      "label": "_d",
-      "msgno": "S59A",
-      "text": "No text"
-    },
-    {
-      "time": "02.07.2026 17:22 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "_d",
-      "msgno": "S60A",
-      "text": "No text"
-    },
-    {
-      "time": "02.07.2026 18:02 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "_d",
-      "msgno": "S92A",
-      "text": "No text"
-    },
-    {
-      "time": "02.07.2026 20:12 UTC",
-      "source": "ACARS",
-      "flight": "CA3120",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "SA",
-      "msgno": "S12A",
-      "text": "0LS201325VH"
-    },
-    {
-      "time": "02.07.2026 21:11 UTC",
-      "source": "ACARS",
-      "flight": "CA3106",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -34.3,
-      "label": "H1",
-      "msgno": "C18A",
-      "text": ".1/FLR/FR2607022110  34361606MMR1   1,IR2,MMR2,IR1,IR3,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "02.07.2026 21:16 UTC",
-      "source": "ACARS",
-      "flight": "CA3106",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -30.6,
-      "label": "10",
-      "msgno": "M96A",
-      "text": "POS022117,N 61.825,E 27.278,0450,523750,,,37003,100520"
-    },
-    {
       "time": "03.07.2026 02:57 UTC",
       "source": "ACARS",
       "flight": "N70380",
@@ -329,6 +263,72 @@
       "label": "H1",
       "msgno": "O09A",
       "text": "SB0122BA_B-223F  EGSSZSPD239\r\n 61812 0266201402 32995-4901830170109B,009010"
+    },
+    {
+      "time": "05.07.2026 11:27 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "5U",
+      "msgno": "M40A",
+      "text": "ESGG EKCH-FS"
+    },
+    {
+      "time": "05.07.2026 11:27 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "_d",
+      "msgno": "S39A",
+      "text": "No text"
+    },
+    {
+      "time": "05.07.2026 11:27 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "_d",
+      "msgno": "S40A",
+      "text": "No text"
+    },
+    {
+      "time": "05.07.2026 11:27 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "_d",
+      "msgno": "S41A",
+      "text": "No text"
+    },
+    {
+      "time": "05.07.2026 11:28 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "B9",
+      "msgno": "M41A",
+      "text": "/ESGG.TI2/024ESGGA30AD"
+    },
+    {
+      "time": "05.07.2026 11:28 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -30.3,
+      "label": "_d",
+      "msgno": "S42A",
+      "text": "No text"
     }
   ]
 }
