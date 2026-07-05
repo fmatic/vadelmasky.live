@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.07.2026 11:27 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "_d",
-      "msgno": "S40A",
-      "text": "No text"
-    },
-    {
-      "time": "05.07.2026 11:27 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "_d",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
       "time": "05.07.2026 11:28 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S51A",
       "text": "No text"
+    },
+    {
+      "time": "05.07.2026 18:47 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-223F",
+      "freq": 131.825,
+      "level": -34.4,
+      "label": "16",
+      "msgno": "M64A",
+      "text": "POSA1N61658E 28009,LAK-04 ,182242,309,KOKAT  ,190218,-48, 26, 762,816"
+    },
+    {
+      "time": "05.07.2026 18:49 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-223F",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "SA",
+      "msgno": "S40A",
+      "text": "0LS184951VH"
     }
   ]
 }
