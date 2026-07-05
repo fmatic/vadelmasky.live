@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">12</div>
+        <div class="value">13</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">05.07.2026 12:00 UTC</div>
+        <div class="value">05.07.2026 12:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -292,14 +292,38 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>267.4 kt</b></div>
-                    <div><span>Track</span><b>176.78°</b></div>
-                    <div><span>Position</span><b>61.8832, 25.7131</b></div>
-                    <div><span>Last seen</span><b>05.07.2026 12:00 UTC</b></div>
+                    <div><span>Speed</span><b>270.0 kt</b></div>
+                    <div><span>Track</span><b>187.02°</b></div>
+                    <div><span>Position</span><b>61.5836, 25.6893</b></div>
+                    <div><span>Last seen</span><b>05.07.2026 12:05 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 868056 · REG JA738J · TYPE B77W</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.07.2026 12:03 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/JA738J" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -795,7 +819,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F2", "flight": "FIN2KK", "lat": 61.883194, "lon": 25.713109, "alt": 19025, "speed": 267.4, "last_seen": "05.07.2026 12:00 UTC"}, {"hex": "461404", "flight": "OHHPC", "lat": 62.257645, "lon": 25.822856, "alt": 1000, "speed": 70.0, "last_seen": "05.07.2026 11:56 UTC"}, {"hex": "4ACA88", "flight": "NSZ6YA", "lat": 62.400482, "lon": 25.539516, "alt": 35500, "speed": 481.2, "last_seen": "05.07.2026 11:48 UTC"}, {"hex": "4601F3", "flight": "FIN8Q", "lat": 62.077735, "lon": 25.557048, "alt": 18000, "speed": 271.0, "last_seen": "05.07.2026 11:47 UTC"}, {"hex": "4632AF", "flight": "-", "lat": 61.733155, "lon": 25.305176, "alt": 29000, "speed": 273.1, "last_seen": "05.07.2026 11:31 UTC"}, {"hex": "4601F9", "flight": "FIN5NB", "lat": 61.549072, "lon": 25.665338, "alt": 21975, "speed": 268.2, "last_seen": "05.07.2026 07:20 UTC"}];
+const aircraft = [{"hex": "4601F2", "flight": "FIN2KK", "lat": 61.583583, "lon": 25.68929, "alt": 19025, "speed": 270.0, "last_seen": "05.07.2026 12:05 UTC"}, {"hex": "461404", "flight": "OHHPC", "lat": 62.257645, "lon": 25.822856, "alt": 1000, "speed": 70.0, "last_seen": "05.07.2026 11:56 UTC"}, {"hex": "4ACA88", "flight": "NSZ6YA", "lat": 62.400482, "lon": 25.539516, "alt": 35500, "speed": 481.2, "last_seen": "05.07.2026 11:48 UTC"}, {"hex": "4601F3", "flight": "FIN8Q", "lat": 62.077735, "lon": 25.557048, "alt": 18000, "speed": 271.0, "last_seen": "05.07.2026 11:47 UTC"}, {"hex": "4632AF", "flight": "-", "lat": 61.733155, "lon": 25.305176, "alt": 29000, "speed": 273.1, "last_seen": "05.07.2026 11:31 UTC"}, {"hex": "4601F9", "flight": "FIN5NB", "lat": 61.549072, "lon": 25.665338, "alt": 21975, "speed": 268.2, "last_seen": "05.07.2026 07:20 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
