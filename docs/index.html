@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">05.07.2026 11:35 UTC</div>
+        <div class="value">05.07.2026 11:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8Q</div>
+                    <div class="meta">ICAO 4601F3 · REG OH-ATF · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>266.2 kt</b></div>
+                    <div><span>Track</span><b>5.39°</b></div>
+                    <div><span>Position</span><b>61.7034, 25.5489</b></div>
+                    <div><span>Last seen</span><b>05.07.2026 11:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">NSZ6YA</div>
+                    <div class="meta">ICAO 4ACA88 · REG SE-RTH · TYPE B38M</div>
+                </div>
+                <div class="alt-badge high">29050 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>440.0 kt</b></div>
+                    <div><span>Track</span><b>23.91°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.07.2026 11:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/SE-RTH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -487,6 +535,24 @@ footer {
                         ACARS · Tail B-32MG · 131.825 MHz
                     </div>
                 </div>
+                <div class="acars-meta">05.07.2026 11:38 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S44A · Level -39.0 dB
+            </div>
+
+            <div class="acars-text">0LS113840V</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">JD0677</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-32MG · 131.825 MHz
+                    </div>
+                </div>
                 <div class="acars-meta">05.07.2026 11:28 UTC</div>
             </div>
 
@@ -679,29 +745,11 @@ footer {
  61838 0276491324 32996-48018301501005Z011014</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CK0215</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2077 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">04.07.2026 12:38 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 16 · Msg M89A · Level -30.9 dB
-            </div>
-
-            <div class="acars-text">POSA1N61456E 26273,AGAMO  ,122128,340,SALLO  ,135017,-47, 18, 235,836</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4632AF", "flight": "-", "lat": 61.733155, "lon": 25.305176, "alt": 29000, "speed": 273.1, "last_seen": "05.07.2026 11:31 UTC"}, {"hex": "4601F9", "flight": "FIN5NB", "lat": 61.549072, "lon": 25.665338, "alt": 21975, "speed": 268.2, "last_seen": "05.07.2026 07:20 UTC"}];
+const aircraft = [{"hex": "4601F3", "flight": "FIN8Q", "lat": 61.70343, "lon": 25.548902, "alt": 18000, "speed": 266.2, "last_seen": "05.07.2026 11:40 UTC"}, {"hex": "4632AF", "flight": "-", "lat": 61.733155, "lon": 25.305176, "alt": 29000, "speed": 273.1, "last_seen": "05.07.2026 11:31 UTC"}, {"hex": "4601F9", "flight": "FIN5NB", "lat": 61.549072, "lon": 25.665338, "alt": 21975, "speed": 268.2, "last_seen": "05.07.2026 07:20 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
