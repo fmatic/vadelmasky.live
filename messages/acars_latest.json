@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.07.2026 11:28 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "B9",
-      "msgno": "M41A",
-      "text": "/ESGG.TI2/024ESGGA30AD"
-    },
-    {
-      "time": "05.07.2026 11:28 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "_d",
-      "msgno": "S42A",
-      "text": "No text"
-    },
-    {
       "time": "05.07.2026 11:38 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S40A",
       "text": "0LS184951VH"
+    },
+    {
+      "time": "05.07.2026 19:38 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -26.1,
+      "label": "10",
+      "msgno": "M90A",
+      "text": "POS051938,N 62.226,E 26.486,0314,469500,,,39002,102720"
+    },
+    {
+      "time": "05.07.2026 19:38 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -26.0,
+      "label": "10",
+      "msgno": "M90A",
+      "text": "POS051938,N 62.226,E 26.486,0314,469500,,,39002,102720"
     }
   ]
 }
