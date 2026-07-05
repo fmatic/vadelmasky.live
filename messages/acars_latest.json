@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.07.2026 03:07 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -40.9,
-      "label": "5V",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
-      "time": "03.07.2026 09:34 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -28.2,
-      "label": "5V",
-      "msgno": "S40A",
-      "text": "No text"
-    },
-    {
-      "time": "04.07.2026 02:08 UTC",
-      "source": "ACARS",
-      "flight": "CK0601",
-      "tail": "B-220F",
-      "freq": 131.825,
-      "level": -39.9,
-      "label": "81",
-      "msgno": "M80A",
-      "text": "/PVGUOCK.CKK601 FL320\r\nNETNA/0246Z EFOB/21T\r\nZFW/240365KG\r\n"
-    },
-    {
       "time": "04.07.2026 02:11 UTC",
       "source": "ACARS",
       "flight": "CK0601",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S44A",
       "text": "0LS113840V"
+    },
+    {
+      "time": "05.07.2026 11:49 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.2,
+      "label": "Q0",
+      "msgno": "M33A",
+      "text": "No text"
+    },
+    {
+      "time": "05.07.2026 11:49 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -30.3,
+      "label": "B9",
+      "msgno": "L14A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "05.07.2026 11:50 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -27.7,
+      "label": "_d",
+      "msgno": "S35A",
+      "text": "No text"
     }
   ]
 }
