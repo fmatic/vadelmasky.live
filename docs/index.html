@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">06.07.2026 06:00 UTC</div>
+        <div class="value">06.07.2026 06:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
+                    <div class="flight">W31</div>
+                    <div class="meta">ICAO 46788B · REG LJ-3 · TYPE LJ35</div>
+                </div>
+                <div class="alt-badge mid">19925 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>382.0 kt</b></div>
+                    <div><span>Track</span><b>228.87°</b></div>
+                    <div><span>Position</span><b>62.4036, 26.3397</b></div>
+                    <div><span>Last seen</span><b>06.07.2026 06:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LJ-3" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
                     <div class="flight">T23</div>
                     <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
                 </div>
-                <div class="alt-badge high">26250 ft</div>
+                <div class="alt-badge mid">21500 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>258.0 kt</b></div>
-                    <div><span>Track</span><b>226.05°</b></div>
+                    <div><span>Track</span><b>229.92°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>06.07.2026 06:00 UTC</b></div>
+                    <div><span>Last seen</span><b>06.07.2026 06:04 UTC</b></div>
                 </div>
             </div>
 
@@ -324,30 +348,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2091" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">W31</div>
-                    <div class="meta">ICAO 46788B · REG LJ-3 · TYPE LJ35</div>
-                </div>
-                <div class="alt-badge mid">20975 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>392.0 kt</b></div>
-                    <div><span>Track</span><b>83.32°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>06.07.2026 05:20 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LJ-3" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -705,7 +705,7 @@ EOR
 </section>
 
 <script>
-const aircraft = [{"hex": "780C5B", "flight": "CAO3153", "lat": 61.79, "lon": 26.32, "alt": 34000, "speed": 492.0, "last_seen": "06.07.2026 05:53 UTC"}, {"hex": "780AEC", "flight": "-", "lat": 61.012667, "lon": 2.114, "alt": "-", "speed": "-", "last_seen": "06.07.2026 00:37 UTC"}];
+const aircraft = [{"hex": "46788B", "flight": "W31", "lat": 62.403601, "lon": 26.339722, "alt": 19925, "speed": 382.0, "last_seen": "06.07.2026 06:05 UTC"}, {"hex": "780C5B", "flight": "CAO3153", "lat": 61.79, "lon": 26.32, "alt": 34000, "speed": 492.0, "last_seen": "06.07.2026 05:53 UTC"}, {"hex": "780AEC", "flight": "-", "lat": 61.012667, "lon": 2.114, "alt": "-", "speed": "-", "last_seen": "06.07.2026 00:37 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
