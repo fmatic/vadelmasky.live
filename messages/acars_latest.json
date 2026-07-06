@@ -1,105 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.07.2026 11:50 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -27.2,
-      "label": "_d",
-      "msgno": "S36A",
-      "text": "No text"
-    },
-    {
-      "time": "05.07.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -27.7,
-      "label": "Q0",
-      "msgno": "S36A",
-      "text": "No text"
-    },
-    {
-      "time": "05.07.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "Q0",
-      "msgno": "M23A",
-      "text": "No text"
-    },
-    {
-      "time": "05.07.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -28.1,
-      "label": "SA",
-      "msgno": "S37A",
-      "text": "0EV115446V"
-    },
-    {
-      "time": "05.07.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "B9",
-      "msgno": "L17A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "05.07.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "_d",
-      "msgno": "S38A",
-      "text": "No text"
-    },
-    {
-      "time": "05.07.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "_d",
-      "msgno": "S39A",
-      "text": "No text"
-    },
-    {
-      "time": "05.07.2026 11:55 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -39.2,
-      "label": "5V",
-      "msgno": "S37A",
-      "text": "No text"
-    },
-    {
-      "time": "05.07.2026 11:56 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "Q0",
-      "msgno": "M34A",
-      "text": "No text"
-    },
-    {
       "time": "05.07.2026 11:56 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +230,105 @@
       "label": "H1",
       "msgno": "C14C",
       "text": "MSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nATA 345800\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "06.07.2026 05:15 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "_d",
+      "msgno": "S08A",
+      "text": "No text"
+    },
+    {
+      "time": "06.07.2026 05:15 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "H1",
+      "msgno": "E86B",
+      "text": "RM,NORM,NORM,NORM,NORM,,06,JUL,26,05,20,29"
+    },
+    {
+      "time": "06.07.2026 05:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "10",
+      "msgno": "M86A",
+      "text": "POS060520, N 6179,E 2632,831,289,15519,  27,33998, 313,-128,-441,7"
+    },
+    {
+      "time": "06.07.2026 05:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "_d",
+      "msgno": "S09A",
+      "text": "No text"
+    },
+    {
+      "time": "06.07.2026 05:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "H1",
+      "msgno": "E87A",
+      "text": "FCL,R,+0.09,+0.02,34010,-0.30,+2.84,288,0.00,-0.11,0.00,+0.01,-1.11,-0.05,+0.07,+0.11,-0.11,0.00,,+0.03,,-0.02,,0.00,,+0.04,,+0.01,,0.00,,+0.03,,-0.02,,0.00,,+0.04,,+0.01,,0.00,,+0.04,,0.00,,+0.03,,-0.80,,+"
+    },
+    {
+      "time": "06.07.2026 05:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -30.4,
+      "label": "H1",
+      "msgno": "E87B",
+      "text": "0.50,,-1.38,,+0.29,,-1.13,,-1.41,,FDR,+0.003,+3.3,+2.5,+0.003,-4.1,-6.74,,-0.03,,+1.34,,+0.1,,+0.01,,-6.76,,-0.02,,+1.34,,+0.1,,0.00,,-6.81,,-6.76,,NORMAL,ENGAGED,NO ACTIVITY,,,,06,JUL,26,05,21,25,-2.40,,-2"
+    },
+    {
+      "time": "06.07.2026 05:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "H1",
+      "msgno": "E87C",
+      "text": ".40,,-2.40,,-2.40,,-3.11,,-3.11,,-3.10,,3102,-3.10,,-3.11,,3105,-3.11,,-3.10,,3031,-3.10,,-3.10,,-3.10,,+3.60,,+3.44,,+4.45,,+4.30,,+1540,,+1610,,+2200,,+2100,,-0.19,,-0.19,,-0.19,,-0.15,,+0.23,,+80,,+0.24,"
+    },
+    {
+      "time": "06.07.2026 05:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "H1",
+      "msgno": "E87D",
+      "text": ",+80,,+0.24,,+70,,-0.01,,-60,,+41.36,,-0.02,,-40,,,-0.01,,-180,,+41.69,,-0.01,,-140,,,+42.25,,,06,JUL,26,05,21,25,YES,YES,YES,YES,YES,YES,YES,YES,AUTO,AUTO,AUTO,AUTO,NORM,NORM,NORM,NORM,NO,NO,SLOW,NO,NO,NO,"
+    },
+    {
+      "time": "06.07.2026 05:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "H1",
+      "msgno": "E87E",
+      "text": "FCL,R,+0.09,+0.02,34010,-0.30,+2.84,288,0.00,-0.11,0.00,+0.01,-1.11,-0.05,+0.07,+0.11,-0.11,0.00,,+0.03,,-0.02,,0.00,,+0.04,,+0.01,,0.00,,+0.03,,-0.02,,0.00,,+0.04,,+0.01,,0.00,,+0.04,,0.00,,+0.03,,-0.80,,+0.50,,-1.38,,+0.29,,-1.13,,-1.41,,FDR,+0.003,+3.3,+2.5,+0.003,-4.1,-6.74,,-0.03,,+1.34,,+0.1,,+0.01,,-6.76,,-0.02,,+1.34,,+0.1,,0.00,,-6.81,,-6.76,,NORMAL,ENGAGED,NO ACTIVITY,,,,06,JUL,26,05,21,25,-2.40,,-2.40,,-2.40,,-2.40,,-3.11,,-3.11,,-3.10,,3102,-3.10,,-3.11,,3105,-3.11,,-3.10,,3031,-3.10,,-3.10,,-3.10,,+3.60,,+3.44,,+4.45,,+4.30,,+1540,,+1610,,+2200,,+2100,,-0.19,,-0.19,,-0.19,,-0.15,,+0.23,,+80,,+0.24,,+80,,+0.24,,+70,,-0.01,,-60,,+41.36,,-0.02,,-40,,,-0.01,,-180,,+41.69,,-0.01,,-140,,,+42.25,,,06,JUL,26,05,21,25,YES,YES,YES,YES,YES,YES,YES,YES,AUTO,AUTO,AUTO,AUTO,NORM,NORM,NORM,NORM,NO,NO,SLOW,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,06,JUL,26,05,21,25"
     }
   ]
 }
