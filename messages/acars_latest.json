@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.07.2026 11:49 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "Q0",
-      "msgno": "M33A",
-      "text": "No text"
-    },
-    {
-      "time": "05.07.2026 11:49 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "B9",
-      "msgno": "L14A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "05.07.2026 11:50 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -27.7,
-      "label": "_d",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
       "time": "05.07.2026 11:50 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +296,39 @@
       "label": "18",
       "msgno": "M87A",
       "text": "POX,CSG2520   ,06JUL26,000002,EGPK,ZGGG,N061.76,E0026.84,369, 707,838,  80.0, 149.0,028,-43.9,090702, 39480,"
+    },
+    {
+      "time": "06.07.2026 05:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "_d",
+      "msgno": "S07A",
+      "text": "No text"
+    },
+    {
+      "time": "06.07.2026 05:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "H1",
+      "msgno": "C14B",
+      "text": "DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\n"
+    },
+    {
+      "time": "06.07.2026 05:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "H1",
+      "msgno": "C14C",
+      "text": "MSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nATA 345800\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
     }
   ]
 }
