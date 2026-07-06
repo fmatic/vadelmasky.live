@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.07.2026 11:38 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -39.0,
-      "label": "SA",
-      "msgno": "S44A",
-      "text": "0LS113840V"
-    },
-    {
       "time": "05.07.2026 11:49 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M90A",
       "text": "POS051938,N 62.226,E 26.486,0314,469500,,,39002,102720"
+    },
+    {
+      "time": "06.07.2026 00:00 UTC",
+      "source": "ACARS",
+      "flight": "CZ2520",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "18",
+      "msgno": "M87A",
+      "text": "POX,CSG2520   ,06JUL26,000002,EGPK,ZGGG,N061.76,E0026.84,369, 707,838,  80.0, 149.0,028,-43.9,090702, 39480,"
     }
   ]
 }
