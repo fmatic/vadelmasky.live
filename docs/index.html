@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">07.07.2026 09:05 UTC</div>
+        <div class="value">07.07.2026 09:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHCAZ</div>
+                    <div class="meta">ICAO 460561 · REG OH-CAZ · TYPE C172</div>
+                </div>
+                <div class="alt-badge low">5075 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>88.8 kt</b></div>
+                    <div><span>Track</span><b>326.49°</b></div>
+                    <div><span>Position</span><b>62.3586, 25.7031</b></div>
+                    <div><span>Last seen</span><b>07.07.2026 09:09 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-CAZ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -300,30 +324,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">OHCAZ</div>
-                    <div class="meta">ICAO 460561 · REG OH-CAZ · TYPE C172</div>
-                </div>
-                <div class="alt-badge low">3025 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>108.9 kt</b></div>
-                    <div><span>Track</span><b>315.0°</b></div>
-                    <div><span>Position</span><b>62.3228, 25.8492</b></div>
-                    <div><span>Last seen</span><b>07.07.2026 08:44 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-CAZ" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -572,7 +572,7 @@ TEHTYA JOTAIN. KIITOS.</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F6", "flight": "FIN5NB", "lat": 61.523531, "lon": 25.744934, "alt": 20025, "speed": 298.1, "last_seen": "07.07.2026 08:45 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.32283, "lon": 25.849202, "alt": 3025, "speed": 108.9, "last_seen": "07.07.2026 08:44 UTC"}, {"hex": "461E1C", "flight": "FIN14J", "lat": 61.694366, "lon": 25.274636, "alt": 29325, "speed": 445.3, "last_seen": "07.07.2026 06:44 UTC"}];
+const aircraft = [{"hex": "460561", "flight": "OHCAZ", "lat": 62.358631, "lon": 25.703148, "alt": 5075, "speed": 88.8, "last_seen": "07.07.2026 09:09 UTC"}, {"hex": "4601F6", "flight": "FIN5NB", "lat": 61.523531, "lon": 25.744934, "alt": 20025, "speed": 298.1, "last_seen": "07.07.2026 08:45 UTC"}, {"hex": "461E1C", "flight": "FIN14J", "lat": 61.694366, "lon": 25.274636, "alt": 29325, "speed": 445.3, "last_seen": "07.07.2026 06:44 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
