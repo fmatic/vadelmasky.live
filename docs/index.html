@@ -251,27 +251,27 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">6</div>
+        <div class="value">7</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">35000 ft</div>
+        <div class="value">34975 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">456.0 kt</div>
+        <div class="value">502.2 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">07.07.2026 12:40 UTC</div>
+        <div class="value">07.07.2026 12:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">CHH770</div>
                     <div class="meta">ICAO 78110D · REG B-7302 · TYPE B789</div>
                 </div>
-                <div class="alt-badge high">35000 ft</div>
+                <div class="alt-badge high">34975 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>07.07.2026 12:40 UTC</b></div>
+                    <div><span>Speed</span><b>502.2 kt</b></div>
+                    <div><span>Track</span><b>82.56°</b></div>
+                    <div><span>Position</span><b>60.6422, 27.8599</b></div>
+                    <div><span>Last seen</span><b>07.07.2026 12:42 UTC</b></div>
                 </div>
             </div>
 
@@ -668,7 +668,7 @@ TEHTYA JOTAIN. KIITOS.</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "461E1A", "flight": "FIN5KR", "lat": 61.532143, "lon": 25.304057, "alt": 26125, "speed": 456.0, "last_seen": "07.07.2026 12:18 UTC"}, {"hex": "461E1E", "flight": "FIN2PD", "lat": 61.578555, "lon": 25.293477, "alt": 22600, "speed": 414.1, "last_seen": "07.07.2026 11:49 UTC"}, {"hex": "4601F4", "flight": "FIN2KK", "lat": 61.838922, "lon": 25.32491, "alt": 17025, "speed": 286.0, "last_seen": "07.07.2026 11:32 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.358631, "lon": 25.703148, "alt": 5075, "speed": 88.8, "last_seen": "07.07.2026 09:09 UTC"}, {"hex": "4601F6", "flight": "FIN5NB", "lat": 61.523531, "lon": 25.744934, "alt": 20025, "speed": 298.1, "last_seen": "07.07.2026 08:45 UTC"}, {"hex": "461E1C", "flight": "FIN14J", "lat": 61.694366, "lon": 25.274636, "alt": 29325, "speed": 445.3, "last_seen": "07.07.2026 06:44 UTC"}];
+const aircraft = [{"hex": "78110D", "flight": "CHH770", "lat": 60.642197, "lon": 27.859907, "alt": 34975, "speed": 502.2, "last_seen": "07.07.2026 12:42 UTC"}, {"hex": "461E1A", "flight": "FIN5KR", "lat": 61.532143, "lon": 25.304057, "alt": 26125, "speed": 456.0, "last_seen": "07.07.2026 12:18 UTC"}, {"hex": "461E1E", "flight": "FIN2PD", "lat": 61.578555, "lon": 25.293477, "alt": 22600, "speed": 414.1, "last_seen": "07.07.2026 11:49 UTC"}, {"hex": "4601F4", "flight": "FIN2KK", "lat": 61.838922, "lon": 25.32491, "alt": 17025, "speed": 286.0, "last_seen": "07.07.2026 11:32 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.358631, "lon": 25.703148, "alt": 5075, "speed": 88.8, "last_seen": "07.07.2026 09:09 UTC"}, {"hex": "4601F6", "flight": "FIN5NB", "lat": 61.523531, "lon": 25.744934, "alt": 20025, "speed": 298.1, "last_seen": "07.07.2026 08:45 UTC"}, {"hex": "461E1C", "flight": "FIN14J", "lat": 61.694366, "lon": 25.274636, "alt": 29325, "speed": 445.3, "last_seen": "07.07.2026 06:44 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
