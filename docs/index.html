@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">11</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">08.07.2026 09:50 UTC</div>
+        <div class="value">08.07.2026 09:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 460561 · REG OH-CAZ · TYPE C172</div>
+                </div>
+                <div class="alt-badge low">3300 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>96.0 kt</b></div>
+                    <div><span>Track</span><b>128.66°</b></div>
+                    <div><span>Position</span><b>62.3221, 25.8489</b></div>
+                    <div><span>Last seen</span><b>08.07.2026 09:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-CAZ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -752,7 +776,7 @@ TEHTYA JOTAIN. KIITOS.</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "3D248C", "flight": "DEMCA", "lat": 62.362747, "lon": 26.229757, "alt": 7025, "speed": 129.1, "last_seen": "08.07.2026 08:50 UTC"}];
+const aircraft = [{"hex": "460561", "flight": "-", "lat": 62.322134, "lon": 25.848929, "alt": 3300, "speed": 96.0, "last_seen": "08.07.2026 09:55 UTC"}, {"hex": "3D248C", "flight": "DEMCA", "lat": 62.362747, "lon": 26.229757, "alt": 7025, "speed": 129.1, "last_seen": "08.07.2026 08:50 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
