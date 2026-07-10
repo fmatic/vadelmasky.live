@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">10.07.2026 09:35 UTC</div>
+        <div class="value">10.07.2026 09:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -292,10 +292,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>266.6 kt</b></div>
-                    <div><span>Track</span><b>199.05°</b></div>
-                    <div><span>Position</span><b>62.3340, 26.2484</b></div>
-                    <div><span>Last seen</span><b>10.07.2026 09:35 UTC</b></div>
+                    <div><span>Speed</span><b>274.8 kt</b></div>
+                    <div><span>Track</span><b>198.9°</b></div>
+                    <div><span>Position</span><b>61.9756, 25.9835</b></div>
+                    <div><span>Last seen</span><b>10.07.2026 09:40 UTC</b></div>
                 </div>
             </div>
 
@@ -454,6 +454,42 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70414</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATN · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">10.07.2026 09:39 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S12A · Level -32.8 dB
+            </div>
+
+            <div class="acars-text">0EV093932V</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70414</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATN · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">10.07.2026 09:39 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg M19A · Level -30.7 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -640,47 +676,11 @@ TEHTYA JOTAIN. KIITOS.</div>
 /ETA 0903/ERT     </div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70490</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATI · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.07.2026 08:36 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S70A · Level -29.1 dB
-            </div>
-
-            <div class="acars-text">0EV083630V</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70490</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATI · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.07.2026 08:36 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label Q0 · Msg S69A · Level -30.8 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FB", "flight": "FIN9LG", "lat": 62.334, "lon": 26.248372, "alt": 20000, "speed": 266.6, "last_seen": "10.07.2026 09:35 UTC"}, {"hex": "463AFE", "flight": "JEF22", "lat": 62.154648, "lon": 26.651815, "alt": 24325, "speed": 434.6, "last_seen": "10.07.2026 08:59 UTC"}, {"hex": "4601F4", "flight": "FIN602", "lat": 61.841675, "lon": 25.450712, "alt": 18000, "speed": 269.4, "last_seen": "10.07.2026 08:38 UTC"}, {"hex": "461E1F", "flight": "-", "lat": 61.638885, "lon": 25.266985, "alt": 35000, "speed": 436.0, "last_seen": "10.07.2026 08:12 UTC"}];
+const aircraft = [{"hex": "4601FB", "flight": "FIN9LG", "lat": 61.975553, "lon": 25.98348, "alt": 20000, "speed": 274.8, "last_seen": "10.07.2026 09:40 UTC"}, {"hex": "463AFE", "flight": "JEF22", "lat": 62.154648, "lon": 26.651815, "alt": 24325, "speed": 434.6, "last_seen": "10.07.2026 08:59 UTC"}, {"hex": "4601F4", "flight": "FIN602", "lat": 61.841675, "lon": 25.450712, "alt": 18000, "speed": 269.4, "last_seen": "10.07.2026 08:38 UTC"}, {"hex": "461E1F", "flight": "-", "lat": 61.638885, "lon": 25.266985, "alt": 35000, "speed": 436.0, "last_seen": "10.07.2026 08:12 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
