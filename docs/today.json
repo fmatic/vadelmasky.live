@@ -161,13 +161,13 @@
       "flight": "FIN8PK",
       "reg": "OH-ATI",
       "type": "AT75",
-      "lat": 62.404953,
-      "lon": 26.253866,
+      "lat": 62.512254,
+      "lon": 26.330742,
       "alt": 16025,
-      "speed": 280.6,
-      "track": 17.21,
+      "speed": 280.0,
+      "track": 19.16,
       "seen_first": "2026-07-11T11:33:01.464045",
-      "last_seen": "2026-07-11T13:45:01.431233"
+      "last_seen": "2026-07-11T13:50:01.915522"
     },
     "461e1d": {
       "hex": "461e1d",
@@ -223,21 +223,47 @@
     },
     "7813a0": {
       "hex": "7813a0",
-      "flight": "",
+      "flight": "CHH752",
       "reg": "B-1097",
       "type": "A333",
       "lat": null,
       "lon": null,
       "alt": 35000,
+      "speed": 68.7,
+      "track": 257.38,
+      "seen_first": "2026-07-11T13:45:01.431233",
+      "last_seen": "2026-07-11T13:49:02.213496"
+    },
+    "78158e": {
+      "hex": "78158e",
+      "flight": "CHH408",
+      "reg": "B-207U",
+      "type": "B789",
+      "lat": 62.424316,
+      "lon": 26.766393,
+      "alt": 37000,
+      "speed": 474.0,
+      "track": 81.56,
+      "seen_first": "2026-07-11T13:47:01.766701",
+      "last_seen": "2026-07-11T13:50:01.915522"
+    },
+    "781003": {
+      "hex": "781003",
+      "flight": "",
+      "reg": "B-7839",
+      "type": "B789",
+      "lat": null,
+      "lon": null,
+      "alt": null,
       "speed": null,
       "track": null,
-      "seen_first": "2026-07-11T13:45:01.431233",
-      "last_seen": "2026-07-11T13:45:01.431233"
+      "seen_first": "2026-07-11T13:50:01.915522",
+      "last_seen": "2026-07-11T13:50:01.915522"
     }
   },
   "summary": {
-    "total_unique_aircraft": 18,
-    "last_seen_live": 2,
-    "updated": "2026-07-11T13:45:01.431233"
+    "total_unique_aircraft": 20,
+    "last_seen_live": 3,
+    "updated": "2026-07-11T13:50:01.915522"
   }
 }
