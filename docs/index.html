@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">13</div>
+        <div class="value">14</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">12.07.2026 11:35 UTC</div>
+        <div class="value">12.07.2026 11:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">OHHPC</div>
-                    <div class="meta">ICAO 461404 · REG OH-HPC · TYPE R44</div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4ACA83 · REG SE-RTC · TYPE B38M</div>
                 </div>
-                <div class="alt-badge low">675 ft</div>
+                <div class="alt-badge high">31225 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>49.6 kt</b></div>
-                    <div><span>Track</span><b>221.73°</b></div>
-                    <div><span>Position</span><b>62.2552, 25.8295</b></div>
-                    <div><span>Last seen</span><b>12.07.2026 11:35 UTC</b></div>
+                    <div><span>Speed</span><b>439.6 kt</b></div>
+                    <div><span>Track</span><b>4.96°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>12.07.2026 11:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/SE-RTC" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHHPC</div>
+                    <div class="meta">ICAO 461404 · REG OH-HPC · TYPE R44</div>
+                </div>
+                <div class="alt-badge low">1150 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>94.9 kt</b></div>
+                    <div><span>Track</span><b>286.53°</b></div>
+                    <div><span>Position</span><b>62.2519, 25.7271</b></div>
+                    <div><span>Last seen</span><b>12.07.2026 11:39 UTC</b></div>
                 </div>
             </div>
 
@@ -819,7 +843,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "461404", "flight": "OHHPC", "lat": 62.255239, "lon": 25.829491, "alt": 675, "speed": 49.6, "last_seen": "12.07.2026 11:35 UTC"}, {"hex": "868012", "flight": "JAL47", "lat": 61.691345, "lon": 25.907233, "alt": 26350, "speed": 363.1, "last_seen": "12.07.2026 11:29 UTC"}, {"hex": "461A81", "flight": "OHKAZ", "lat": 62.244299, "lon": 26.02883, "alt": 7000, "speed": 129.5, "last_seen": "12.07.2026 10:18 UTC"}, {"hex": "04022C", "flight": "ETH3792", "lat": 61.710717, "lon": 25.896708, "alt": 33000, "speed": 485.4, "last_seen": "12.07.2026 08:06 UTC"}, {"hex": "4601F4", "flight": "FIN5NB", "lat": 61.44342, "lon": 25.496913, "alt": 16025, "speed": 253.7, "last_seen": "12.07.2026 07:35 UTC"}, {"hex": "4601F2", "flight": "FIN541", "lat": 62.490875, "lon": 25.596619, "alt": 16000, "speed": 269.0, "last_seen": "12.07.2026 05:19 UTC"}];
+const aircraft = [{"hex": "461404", "flight": "OHHPC", "lat": 62.251933, "lon": 25.727128, "alt": 1150, "speed": 94.9, "last_seen": "12.07.2026 11:39 UTC"}, {"hex": "868012", "flight": "JAL47", "lat": 61.691345, "lon": 25.907233, "alt": 26350, "speed": 363.1, "last_seen": "12.07.2026 11:29 UTC"}, {"hex": "461A81", "flight": "OHKAZ", "lat": 62.244299, "lon": 26.02883, "alt": 7000, "speed": 129.5, "last_seen": "12.07.2026 10:18 UTC"}, {"hex": "04022C", "flight": "ETH3792", "lat": 61.710717, "lon": 25.896708, "alt": 33000, "speed": 485.4, "last_seen": "12.07.2026 08:06 UTC"}, {"hex": "4601F4", "flight": "FIN5NB", "lat": 61.44342, "lon": 25.496913, "alt": 16025, "speed": 253.7, "last_seen": "12.07.2026 07:35 UTC"}, {"hex": "4601F2", "flight": "FIN541", "lat": 62.490875, "lon": 25.596619, "alt": 16000, "speed": 269.0, "last_seen": "12.07.2026 05:19 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
