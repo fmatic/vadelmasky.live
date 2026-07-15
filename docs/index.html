@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">15.07.2026 09:20 UTC</div>
+        <div class="value">15.07.2026 09:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHCAZ</div>
+                    <div class="meta">ICAO 460561 · REG OH-CAZ · TYPE C172</div>
+                </div>
+                <div class="alt-badge low">2525 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>112.6 kt</b></div>
+                    <div><span>Track</span><b>131.76°</b></div>
+                    <div><span>Position</span><b>62.2887, 25.9172</b></div>
+                    <div><span>Last seen</span><b>15.07.2026 09:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-CAZ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -745,7 +769,7 @@ B-2095  CAO303LEMDZSPD150726071726ER
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "460561", "flight": "OHCAZ", "lat": 62.28871, "lon": 25.917171, "alt": 2525, "speed": 112.6, "last_seen": "15.07.2026 09:25 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
