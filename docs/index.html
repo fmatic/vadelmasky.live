@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">16.07.2026 07:00 UTC</div>
+        <div class="value">16.07.2026 07:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,16 +286,16 @@ footer {
                     <div class="flight">W21</div>
                     <div class="meta">ICAO 46788C · REG LJ-2 · TYPE LJ35</div>
                 </div>
-                <div class="alt-badge low">1875 ft</div>
+                <div class="alt-badge low">1900 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>211.6 kt</b></div>
-                    <div><span>Track</span><b>309.63°</b></div>
-                    <div><span>Position</span><b>62.3166, 25.8595</b></div>
-                    <div><span>Last seen</span><b>16.07.2026 06:57 UTC</b></div>
+                    <div><span>Speed</span><b>193.4 kt</b></div>
+                    <div><span>Track</span><b>330.92°</b></div>
+                    <div><span>Position</span><b>62.2782, 25.9426</b></div>
+                    <div><span>Last seen</span><b>16.07.2026 07:05 UTC</b></div>
                 </div>
             </div>
 
@@ -602,6 +602,42 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">GS0000</div>
+                    <div class="acars-meta">
+                        ACARS · Tail LJ2 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">16.07.2026 07:04 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg M11A · Level -32.0 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">GS0000</div>
+                    <div class="acars-meta">
+                        ACARS · Tail LJ2 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">16.07.2026 07:03 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg M11A · Level -29.0 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">CZ2517</div>
                     <div class="acars-meta">
                         ACARS · Tail B-2081 · 131.825 MHz
@@ -801,47 +837,11 @@ B-2095  CAO303LEMDZSPD150726071726ER
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA3144</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6091 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">11.07.2026 18:20 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S44A · Level -33.8 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA3144</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6091 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">11.07.2026 18:19 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg F18A · Level -29.9 dB
-            </div>
-
-            <div class="acars-text">REQPWI/TS182024,071126/WQ390.370:KOKAT.LULOR.PABMA.UTITA.DELUL.INDOS.ARNER.RUPAD.TODSA.TUSUP.PINEG.GOSUM.NIDMA.MUFRI.IBEBO.UHT.OKRAN.ODMOR.EPOTI.GOGAT.ERUSA.KAZUZ.SORLI.ABGIL.LARTU.NEGNA.OGIKA.ULGUN.APRAN.T</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "46788C", "flight": "W21", "lat": 62.316605, "lon": 25.859477, "alt": 1875, "speed": 211.6, "last_seen": "16.07.2026 06:57 UTC"}, {"hex": "4601F5", "flight": "FIN489", "lat": 62.218369, "lon": 26.26567, "alt": 12000, "speed": 239.4, "last_seen": "16.07.2026 06:12 UTC"}];
+const aircraft = [{"hex": "46788C", "flight": "W21", "lat": 62.278235, "lon": 25.942629, "alt": 1900, "speed": 193.4, "last_seen": "16.07.2026 07:05 UTC"}, {"hex": "4601F5", "flight": "FIN489", "lat": 62.218369, "lon": 26.26567, "alt": 12000, "speed": 239.4, "last_seen": "16.07.2026 06:12 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
