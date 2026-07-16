@@ -288,16 +288,16 @@
     },
     "4601fd": {
       "hex": "4601fd",
-      "flight": "",
+      "flight": "FIN6YP",
       "reg": "OH-ATP",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 17000,
-      "speed": null,
-      "track": null,
+      "lat": 62.073592,
+      "lon": 26.764221,
+      "alt": 16025,
+      "speed": 288.4,
+      "track": 213.69,
       "seen_first": "2026-07-16T14:34:01.753466",
-      "last_seen": "2026-07-16T14:36:01.788376"
+      "last_seen": "2026-07-16T15:45:01.301443"
     },
     "461e15": {
       "hex": "461e15",
@@ -311,11 +311,24 @@
       "track": 181.24,
       "seen_first": "2026-07-16T15:21:01.933850",
       "last_seen": "2026-07-16T15:24:01.925981"
+    },
+    "461f62": {
+      "hex": "461f62",
+      "flight": "FIN9XG",
+      "reg": "OH-LXA",
+      "type": "A320",
+      "lat": 61.589961,
+      "lon": 25.339762,
+      "alt": 25125,
+      "speed": 479.2,
+      "track": 181.55,
+      "seen_first": "2026-07-16T15:43:01.969429",
+      "last_seen": "2026-07-16T15:45:01.301443"
     }
   },
   "summary": {
-    "total_unique_aircraft": 24,
-    "last_seen_live": 0,
-    "updated": "2026-07-16T15:40:01.456408"
+    "total_unique_aircraft": 25,
+    "last_seen_live": 2,
+    "updated": "2026-07-16T15:45:01.301443"
   }
 }
