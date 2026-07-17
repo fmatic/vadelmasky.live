@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.07.2026 08:37 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "80",
-      "msgno": "M12A",
-      "text": "3801 MTCRP  0490/07 EFKS/EFHK .OH-ATI\r\nMOI. CA STATION INTERPHO\r\nNE BUTTONS WORN. REMARK\r\nKIRJASSA. SAISIKO SILLE\r\nTEHTYA JOTAIN. KIITOS."
-    },
-    {
-      "time": "07.07.2026 08:41 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "_d",
-      "msgno": "S72A",
-      "text": "No text"
-    },
-    {
-      "time": "07.07.2026 15:26 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -21.3,
-      "label": "Q0",
-      "msgno": "M02A",
-      "text": "No text"
-    },
-    {
-      "time": "07.07.2026 15:26 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATH",
-      "freq": 131.725,
-      "level": -35.0,
-      "label": "SA",
-      "msgno": "S24A",
-      "text": "0EV152625V"
-    },
-    {
       "time": "07.07.2026 15:26 UTC",
       "source": "ACARS",
       "flight": "N70415",
@@ -329,6 +285,50 @@
       "label": "Q0",
       "msgno": "M22A",
       "text": "No text"
+    },
+    {
+      "time": "17.07.2026 13:02 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -28.8,
+      "label": "_d",
+      "msgno": "S21A",
+      "text": "No text"
+    },
+    {
+      "time": "17.07.2026 13:02 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -30.2,
+      "label": "H1",
+      "msgno": "E62B",
+      "text": "3,02,19,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,0FF,ON,0FF,ON,0FF,ON,,17,JUL,26,13,02,20"
+    },
+    {
+      "time": "17.07.2026 13:02 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "10",
+      "msgno": "M04A",
+      "text": "POS171302, N 6215,E 2632,820,280,25226,  38,34999, 680,-195,-496,7"
+    },
+    {
+      "time": "17.07.2026 13:02 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "H1",
+      "msgno": "O01A",
+      "text": "SB0122BA_B-2094  EGPKZSPD616\r\n 62122 0260551301 34998-4902500380107GX010013"
     }
   ]
 }
