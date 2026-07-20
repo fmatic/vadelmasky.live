@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.07.2026 13:15 UTC</div>
+        <div class="value">20.07.2026 13:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">T23</div>
-                    <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
+                    <div class="flight">CCA939</div>
+                    <div class="meta">ICAO 78115F · REG B-1429 · TYPE B77W</div>
                 </div>
-                <div class="alt-badge mid">17900 ft</div>
+                <div class="alt-badge high">34000 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>159.2 kt</b></div>
-                    <div><span>Track</span><b>206.89°</b></div>
-                    <div><span>Position</span><b>61.9103, 25.6032</b></div>
-                    <div><span>Last seen</span><b>20.07.2026 13:15 UTC</b></div>
+                    <div><span>Speed</span><b>431.9 kt</b></div>
+                    <div><span>Track</span><b>263.35°</b></div>
+                    <div><span>Position</span><b>61.6143, 25.0750</b></div>
+                    <div><span>Last seen</span><b>20.07.2026 13:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-1429" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T23</div>
+                    <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge mid">20000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>208.4 kt</b></div>
+                    <div><span>Track</span><b>206.81°</b></div>
+                    <div><span>Position</span><b>61.7472, 25.4292</b></div>
+                    <div><span>Last seen</span><b>20.07.2026 13:19 UTC</b></div>
                 </div>
             </div>
 
@@ -723,7 +747,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "467892", "flight": "T23", "lat": 61.910333, "lon": 25.603231, "alt": 17900, "speed": 159.2, "last_seen": "20.07.2026 13:15 UTC"}, {"hex": "461F39", "flight": "FIN5KR", "lat": 61.190775, "lon": 25.276082, "alt": 25525, "speed": 388.0, "last_seen": "20.07.2026 11:49 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.327685, "lon": 25.752869, "alt": 16000, "speed": 254.4, "last_seen": "20.07.2026 11:15 UTC"}, {"hex": "4601F4", "flight": "FIN5NB", "lat": 61.496018, "lon": 25.671387, "alt": 18000, "speed": 258.7, "last_seen": "20.07.2026 09:07 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.451968, "lon": 26.660649, "alt": 20700, "speed": 430.7, "last_seen": "20.07.2026 06:46 UTC"}];
+const aircraft = [{"hex": "78115F", "flight": "CCA939", "lat": 61.614307, "lon": 25.074972, "alt": 34000, "speed": 431.9, "last_seen": "20.07.2026 13:20 UTC"}, {"hex": "467892", "flight": "T23", "lat": 61.747214, "lon": 25.429179, "alt": 20000, "speed": 208.4, "last_seen": "20.07.2026 13:19 UTC"}, {"hex": "461F39", "flight": "FIN5KR", "lat": 61.190775, "lon": 25.276082, "alt": 25525, "speed": 388.0, "last_seen": "20.07.2026 11:49 UTC"}, {"hex": "4601F3", "flight": "FIN26B", "lat": 61.327685, "lon": 25.752869, "alt": 16000, "speed": 254.4, "last_seen": "20.07.2026 11:15 UTC"}, {"hex": "4601F4", "flight": "FIN5NB", "lat": 61.496018, "lon": 25.671387, "alt": 18000, "speed": 258.7, "last_seen": "20.07.2026 09:07 UTC"}, {"hex": "46788C", "flight": "W21", "lat": 62.451968, "lon": 26.660649, "alt": 20700, "speed": 430.7, "last_seen": "20.07.2026 06:46 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
