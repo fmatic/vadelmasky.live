@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.07.2026 06:00 UTC</div>
+        <div class="value">20.07.2026 06:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">T23</div>
                     <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
                 </div>
-                <div class="alt-badge low">1775 ft</div>
+                <div class="alt-badge low">1325 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>159.8 kt</b></div>
-                    <div><span>Track</span><b>34.29°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>20.07.2026 06:00 UTC</b></div>
+                    <div><span>Speed</span><b>176.7 kt</b></div>
+                    <div><span>Track</span><b>348.24°</b></div>
+                    <div><span>Position</span><b>62.2934, 25.7099</b></div>
+                    <div><span>Last seen</span><b>20.07.2026 06:01 UTC</b></div>
                 </div>
             </div>
 
@@ -579,7 +579,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "467892", "flight": "T23", "lat": 62.293442, "lon": 25.709941, "alt": 1325, "speed": 176.7, "last_seen": "20.07.2026 06:01 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
