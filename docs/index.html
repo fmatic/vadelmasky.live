@@ -246,32 +246,32 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">35075 ft</div>
+        <div class="value">37000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">485.5 kt</div>
+        <div class="value">495.2 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">21.07.2026 11:05 UTC</div>
+        <div class="value">21.07.2026 11:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CHH408D</div>
+                    <div class="meta">ICAO 78158F · REG B-207V · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">37000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>495.2 kt</b></div>
+                    <div><span>Track</span><b>82.57°</b></div>
+                    <div><span>Position</span><b>62.4664, 26.5758</b></div>
+                    <div><span>Last seen</span><b>21.07.2026 11:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-207V" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -506,6 +530,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">HU408D</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-207V · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">21.07.2026 11:05 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 5V · Msg S19A · Level -35.4 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">CA3124</div>
                     <div class="acars-meta">
                         ACARS · Tail B-2094 · 131.825 MHz
@@ -701,29 +743,11 @@ footer {
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">HO1660</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-207N · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">19.07.2026 12:34 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 5V · Msg S68A · Level -36.5 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F7", "flight": "FIN489", "lat": 62.144669, "lon": 25.818685, "alt": 17000, "speed": 262.9, "last_seen": "21.07.2026 09:23 UTC"}, {"hex": "467895", "flight": "T06", "lat": 62.399872, "lon": 26.117757, "alt": 10000, "speed": 192.0, "last_seen": "21.07.2026 08:42 UTC"}, {"hex": "461E21", "flight": "FIN7TP", "lat": 61.601578, "lon": 25.296119, "alt": 35075, "speed": 410.0, "last_seen": "21.07.2026 08:17 UTC"}];
+const aircraft = [{"hex": "78158F", "flight": "CHH408D", "lat": 62.4664, "lon": 26.575822, "alt": 37000, "speed": 495.2, "last_seen": "21.07.2026 11:10 UTC"}, {"hex": "4601F7", "flight": "FIN489", "lat": 62.144669, "lon": 25.818685, "alt": 17000, "speed": 262.9, "last_seen": "21.07.2026 09:23 UTC"}, {"hex": "467895", "flight": "T06", "lat": 62.399872, "lon": 26.117757, "alt": 10000, "speed": 192.0, "last_seen": "21.07.2026 08:42 UTC"}, {"hex": "461E21", "flight": "FIN7TP", "lat": 61.601578, "lon": 25.296119, "alt": 35075, "speed": 410.0, "last_seen": "21.07.2026 08:17 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
