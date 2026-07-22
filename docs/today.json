@@ -41,16 +41,16 @@
     },
     "7817fb": {
       "hex": "7817fb",
-      "flight": "DKH1661",
+      "flight": "DKH1662",
       "reg": "B-20DT",
       "type": "B789",
-      "lat": null,
-      "lon": null,
-      "alt": 38000,
-      "speed": 500.0,
-      "track": 244.16,
+      "lat": 61.472443,
+      "lon": 25.428543,
+      "alt": 37000,
+      "speed": 494.7,
+      "track": 64.11,
       "seen_first": "2026-07-22T04:11:01.889238",
-      "last_seen": "2026-07-22T04:13:01.359561"
+      "last_seen": "2026-07-22T12:50:01.946196"
     },
     "461404": {
       "hex": "461404",
@@ -233,11 +233,37 @@
       "track": 65.24,
       "seen_first": "2026-07-22T12:33:01.237107",
       "last_seen": "2026-07-22T12:35:01.849640"
+    },
+    "489228": {
+      "hex": "489228",
+      "flight": "",
+      "reg": "SP-ESI",
+      "type": "B738",
+      "lat": null,
+      "lon": null,
+      "alt": 31000,
+      "speed": 451.1,
+      "track": 178.86,
+      "seen_first": "2026-07-22T12:48:01.386470",
+      "last_seen": "2026-07-22T12:49:01.338968"
+    },
+    "78115f": {
+      "hex": "78115f",
+      "flight": "",
+      "reg": "B-1429",
+      "type": "B77W",
+      "lat": null,
+      "lon": null,
+      "alt": 34000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-07-22T12:50:01.946196",
+      "last_seen": "2026-07-22T12:50:01.946196"
     }
   },
   "summary": {
-    "total_unique_aircraft": 18,
-    "last_seen_live": 0,
-    "updated": "2026-07-22T12:45:01.930551"
+    "total_unique_aircraft": 20,
+    "last_seen_live": 2,
+    "updated": "2026-07-22T12:50:01.946196"
   }
 }
