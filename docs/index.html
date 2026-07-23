@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">6</div>
+        <div class="value">8</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.07.2026 08:10 UTC</div>
+        <div class="value">23.07.2026 08:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHBRA</div>
+                    <div class="meta">ICAO 46045E · REG OH-BRA · TYPE SR22</div>
+                </div>
+                <div class="alt-badge mid">13000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>189.3 kt</b></div>
+                    <div><span>Track</span><b>51.43°</b></div>
+                    <div><span>Position</span><b>62.2684, 25.8867</b></div>
+                    <div><span>Last seen</span><b>23.07.2026 08:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-BRA" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7TP</div>
+                    <div class="meta">ICAO 461E21 · REG OH-LKR · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">28850 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>444.0 kt</b></div>
+                    <div><span>Track</span><b>180.13°</b></div>
+                    <div><span>Position</span><b>61.6982, 25.2685</b></div>
+                    <div><span>Last seen</span><b>23.07.2026 08:12 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -653,7 +701,7 @@ F/AY213/2.1</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "461F64", "flight": "FIN14J", "lat": 61.535614, "lon": 25.309753, "alt": 24175, "speed": 382.5, "last_seen": "23.07.2026 06:44 UTC"}, {"hex": "4601F7", "flight": "FIN489", "lat": 62.520447, "lon": 26.567899, "alt": 19000, "speed": 262.8, "last_seen": "23.07.2026 06:27 UTC"}, {"hex": "4601FA", "flight": "FIN434", "lat": 61.810851, "lon": 25.269877, "alt": 21000, "speed": 281.0, "last_seen": "23.07.2026 05:58 UTC"}];
+const aircraft = [{"hex": "46045E", "flight": "OHBRA", "lat": 62.268413, "lon": 25.886747, "alt": 13000, "speed": 189.3, "last_seen": "23.07.2026 08:15 UTC"}, {"hex": "461E21", "flight": "FIN7TP", "lat": 61.698241, "lon": 25.268453, "alt": 28850, "speed": 444.0, "last_seen": "23.07.2026 08:12 UTC"}, {"hex": "461F64", "flight": "FIN14J", "lat": 61.535614, "lon": 25.309753, "alt": 24175, "speed": 382.5, "last_seen": "23.07.2026 06:44 UTC"}, {"hex": "4601F7", "flight": "FIN489", "lat": 62.520447, "lon": 26.567899, "alt": 19000, "speed": 262.8, "last_seen": "23.07.2026 06:27 UTC"}, {"hex": "4601FA", "flight": "FIN434", "lat": 61.810851, "lon": 25.269877, "alt": 21000, "speed": 281.0, "last_seen": "23.07.2026 05:58 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
