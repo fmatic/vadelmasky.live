@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.07.2026 06:20 UTC</div>
+        <div class="value">23.07.2026 06:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -292,10 +292,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>264.5 kt</b></div>
-                    <div><span>Track</span><b>20.35°</b></div>
-                    <div><span>Position</span><b>62.1277, 26.2715</b></div>
-                    <div><span>Last seen</span><b>23.07.2026 06:20 UTC</b></div>
+                    <div><span>Speed</span><b>264.4 kt</b></div>
+                    <div><span>Track</span><b>19.67°</b></div>
+                    <div><span>Position</span><b>62.4024, 26.4762</b></div>
+                    <div><span>Last seen</span><b>23.07.2026 06:25 UTC</b></div>
                 </div>
             </div>
 
@@ -406,6 +406,24 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70489</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATJ · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">23.07.2026 06:22 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S13A · Level -34.6 dB
+            </div>
+
+            <div class="acars-text">0EV062214V</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -607,29 +625,11 @@ F/AY213/2.1</div>
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">HO1660</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-207N · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">19.07.2026 12:40 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S85A · Level -34.7 dB
-            </div>
-
-            <div class="acars-text">0EV124022VS/</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F7", "flight": "FIN489", "lat": 62.127686, "lon": 26.271464, "alt": 19000, "speed": 264.5, "last_seen": "23.07.2026 06:20 UTC"}, {"hex": "4601FA", "flight": "FIN434", "lat": 61.810851, "lon": 25.269877, "alt": 21000, "speed": 281.0, "last_seen": "23.07.2026 05:58 UTC"}];
+const aircraft = [{"hex": "4601F7", "flight": "FIN489", "lat": 62.402437, "lon": 26.476206, "alt": 19000, "speed": 264.4, "last_seen": "23.07.2026 06:25 UTC"}, {"hex": "4601FA", "flight": "FIN434", "lat": 61.810851, "lon": 25.269877, "alt": 21000, "speed": 281.0, "last_seen": "23.07.2026 05:58 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
