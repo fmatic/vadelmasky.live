@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">24.07.2026 12:35 UTC</div>
+        <div class="value">24.07.2026 12:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DKH1662</div>
+                    <div class="meta">ICAO 781942 · REG B-20EQ · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">34975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>501.6 kt</b></div>
+                    <div><span>Track</span><b>65.38°</b></div>
+                    <div><span>Position</span><b>61.6151, 25.8747</b></div>
+                    <div><span>Last seen</span><b>24.07.2026 12:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-20EQ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -564,30 +588,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LZE" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">DKH1661</div>
-                    <div class="meta">ICAO 781942 · REG B-20EQ · TYPE B789</div>
-                </div>
-                <div class="alt-badge high">37975 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>508.0 kt</b></div>
-                    <div><span>Track</span><b>245.39°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>24.07.2026 03:05 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-20EQ" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -896,7 +896,7 @@ MAX ERO ON 4. </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "461E14", "flight": "FIN5KR", "lat": 61.327872, "lon": 25.340576, "alt": 18700, "speed": 378.5, "last_seen": "24.07.2026 12:02 UTC"}, {"hex": "463E84", "flight": "OHXRO", "lat": 62.319993, "lon": 25.855373, "alt": 2125, "speed": 147.8, "last_seen": "24.07.2026 11:52 UTC"}, {"hex": "461F30", "flight": "FIN2PD", "lat": 61.675524, "lon": 25.298055, "alt": 27175, "speed": 460.1, "last_seen": "24.07.2026 11:41 UTC"}, {"hex": "4601F8", "flight": "FIN26B", "lat": 61.323669, "lon": 25.754994, "alt": 17625, "speed": 278.2, "last_seen": "24.07.2026 11:10 UTC"}, {"hex": "461F49", "flight": "FIN70", "lat": 61.75834, "lon": 25.288391, "alt": 23400, "speed": 392.1, "last_seen": "24.07.2026 11:08 UTC"}, {"hex": "4601FB", "flight": "FIN489", "lat": 62.439423, "lon": 26.136882, "alt": 16000, "speed": 278.4, "last_seen": "24.07.2026 10:49 UTC"}, {"hex": "4601F5", "flight": "FIN9LG", "lat": 61.395326, "lon": 25.484416, "alt": 20000, "speed": 267.2, "last_seen": "24.07.2026 09:48 UTC"}, {"hex": "461A76", "flight": "OHKAO", "lat": 62.014572, "lon": 25.530951, "alt": 10000, "speed": 157.0, "last_seen": "24.07.2026 07:48 UTC"}, {"hex": "461F36", "flight": "FIN14J", "lat": 61.696976, "lon": 25.113275, "alt": 25750, "speed": 403.5, "last_seen": "24.07.2026 06:55 UTC"}];
+const aircraft = [{"hex": "781942", "flight": "DKH1662", "lat": 61.615082, "lon": 25.874666, "alt": 34975, "speed": 501.6, "last_seen": "24.07.2026 12:40 UTC"}, {"hex": "461E14", "flight": "FIN5KR", "lat": 61.327872, "lon": 25.340576, "alt": 18700, "speed": 378.5, "last_seen": "24.07.2026 12:02 UTC"}, {"hex": "463E84", "flight": "OHXRO", "lat": 62.319993, "lon": 25.855373, "alt": 2125, "speed": 147.8, "last_seen": "24.07.2026 11:52 UTC"}, {"hex": "461F30", "flight": "FIN2PD", "lat": 61.675524, "lon": 25.298055, "alt": 27175, "speed": 460.1, "last_seen": "24.07.2026 11:41 UTC"}, {"hex": "4601F8", "flight": "FIN26B", "lat": 61.323669, "lon": 25.754994, "alt": 17625, "speed": 278.2, "last_seen": "24.07.2026 11:10 UTC"}, {"hex": "461F49", "flight": "FIN70", "lat": 61.75834, "lon": 25.288391, "alt": 23400, "speed": 392.1, "last_seen": "24.07.2026 11:08 UTC"}, {"hex": "4601FB", "flight": "FIN489", "lat": 62.439423, "lon": 26.136882, "alt": 16000, "speed": 278.4, "last_seen": "24.07.2026 10:49 UTC"}, {"hex": "4601F5", "flight": "FIN9LG", "lat": 61.395326, "lon": 25.484416, "alt": 20000, "speed": 267.2, "last_seen": "24.07.2026 09:48 UTC"}, {"hex": "461A76", "flight": "OHKAO", "lat": 62.014572, "lon": 25.530951, "alt": 10000, "speed": 157.0, "last_seen": "24.07.2026 07:48 UTC"}, {"hex": "461F36", "flight": "FIN14J", "lat": 61.696976, "lon": 25.113275, "alt": 25750, "speed": 403.5, "last_seen": "24.07.2026 06:55 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
