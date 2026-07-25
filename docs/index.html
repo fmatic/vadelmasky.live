@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">13</div>
+        <div class="value">14</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">25.07.2026 10:35 UTC</div>
+        <div class="value">25.07.2026 10:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DEHET</div>
+                    <div class="meta">ICAO 3D179F · REG D-EHET · TYPE RALL</div>
+                </div>
+                <div class="alt-badge low">2275 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>86.7 kt</b></div>
+                    <div><span>Track</span><b>200.94°</b></div>
+                    <div><span>Position</span><b>62.2646, 25.8305</b></div>
+                    <div><span>Last seen</span><b>25.07.2026 10:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/D-EHET" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -825,7 +849,7 @@ RUNWAY 15 CONDITION
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F6", "flight": "FIN489", "lat": 62.467563, "lon": 26.13563, "alt": 21000, "speed": 286.4, "last_seen": "25.07.2026 09:00 UTC"}, {"hex": "461E21", "flight": "FIN7TP", "lat": 61.539638, "lon": 25.291138, "alt": 27900, "speed": 427.1, "last_seen": "25.07.2026 08:24 UTC"}, {"hex": "461404", "flight": "OHHPC", "lat": 62.259335, "lon": 25.829808, "alt": 1000, "speed": 67.1, "last_seen": "25.07.2026 05:25 UTC"}];
+const aircraft = [{"hex": "3D179F", "flight": "DEHET", "lat": 62.264648, "lon": 25.830485, "alt": 2275, "speed": 86.7, "last_seen": "25.07.2026 10:40 UTC"}, {"hex": "4601F6", "flight": "FIN489", "lat": 62.467563, "lon": 26.13563, "alt": 21000, "speed": 286.4, "last_seen": "25.07.2026 09:00 UTC"}, {"hex": "461E21", "flight": "FIN7TP", "lat": 61.539638, "lon": 25.291138, "alt": 27900, "speed": 427.1, "last_seen": "25.07.2026 08:24 UTC"}, {"hex": "461404", "flight": "OHHPC", "lat": 62.259335, "lon": 25.829808, "alt": 1000, "speed": 67.1, "last_seen": "25.07.2026 05:25 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
