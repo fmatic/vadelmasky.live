@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">25.07.2026 10:50 UTC</div>
+        <div class="value">25.07.2026 10:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN3KC</div>
+                    <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">19975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>208.8 kt</b></div>
+                    <div><span>Track</span><b>209.88°</b></div>
+                    <div><span>Position</span><b>62.0094, 26.6311</b></div>
+                    <div><span>Last seen</span><b>25.07.2026 10:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -324,30 +348,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LTO" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN3KC</div>
-                    <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">19000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>25.07.2026 09:46 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -849,7 +849,7 @@ RUNWAY 15 CONDITION
 </section>
 
 <script>
-const aircraft = [{"hex": "3D179F", "flight": "DEHET", "lat": 62.142768, "lon": 25.72734, "alt": 2275, "speed": 93.6, "last_seen": "25.07.2026 10:46 UTC"}, {"hex": "4601F6", "flight": "FIN489", "lat": 62.467563, "lon": 26.13563, "alt": 21000, "speed": 286.4, "last_seen": "25.07.2026 09:00 UTC"}, {"hex": "461E21", "flight": "FIN7TP", "lat": 61.539638, "lon": 25.291138, "alt": 27900, "speed": 427.1, "last_seen": "25.07.2026 08:24 UTC"}, {"hex": "461404", "flight": "OHHPC", "lat": 62.259335, "lon": 25.829808, "alt": 1000, "speed": 67.1, "last_seen": "25.07.2026 05:25 UTC"}];
+const aircraft = [{"hex": "4601F2", "flight": "FIN3KC", "lat": 62.009396, "lon": 26.631063, "alt": 19975, "speed": 208.8, "last_seen": "25.07.2026 10:55 UTC"}, {"hex": "3D179F", "flight": "DEHET", "lat": 62.142768, "lon": 25.72734, "alt": 2275, "speed": 93.6, "last_seen": "25.07.2026 10:46 UTC"}, {"hex": "4601F6", "flight": "FIN489", "lat": 62.467563, "lon": 26.13563, "alt": 21000, "speed": 286.4, "last_seen": "25.07.2026 09:00 UTC"}, {"hex": "461E21", "flight": "FIN7TP", "lat": 61.539638, "lon": 25.291138, "alt": 27900, "speed": 427.1, "last_seen": "25.07.2026 08:24 UTC"}, {"hex": "461404", "flight": "OHHPC", "lat": 62.259335, "lon": 25.829808, "alt": 1000, "speed": 67.1, "last_seen": "25.07.2026 05:25 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
