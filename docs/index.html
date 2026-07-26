@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">26.07.2026 06:30 UTC</div>
+        <div class="value">26.07.2026 06:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 461F30 · REG OH-LVC · TYPE A319</div>
+                </div>
+                <div class="alt-badge high">26350 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>412.9 kt</b></div>
+                    <div><span>Track</span><b>185.56°</b></div>
+                    <div><span>Position</span><b>61.6387, 25.0640</b></div>
+                    <div><span>Last seen</span><b>26.07.2026 06:32 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVC" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -729,7 +753,7 @@ RUNWAY 15 CONDITION
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "461F30", "flight": "-", "lat": 61.638654, "lon": 25.063985, "alt": 26350, "speed": 412.9, "last_seen": "26.07.2026 06:32 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
