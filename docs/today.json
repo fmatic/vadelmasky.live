@@ -210,16 +210,16 @@
     },
     "4601f8": {
       "hex": "4601f8",
-      "flight": "FIN2KK",
+      "flight": "FIN5CE",
       "reg": "OH-ATK",
       "type": "AT75",
-      "lat": 61.427628,
-      "lon": 25.816694,
-      "alt": 17000,
-      "speed": 237.8,
-      "track": 161.11,
+      "lat": 61.871017,
+      "lon": 25.615311,
+      "alt": 18950,
+      "speed": 265.1,
+      "track": 15.08,
       "seen_first": "2026-07-27T11:35:01.898285",
-      "last_seen": "2026-07-27T11:44:01.561128"
+      "last_seen": "2026-07-27T15:15:02.152996"
     },
     "461f30": {
       "hex": "461f30",
@@ -298,11 +298,37 @@
       "track": 181.25,
       "seen_first": "2026-07-27T14:12:01.789663",
       "last_seen": "2026-07-27T14:15:01.289810"
+    },
+    "461f64": {
+      "hex": "461f64",
+      "flight": "",
+      "reg": "OH-LXC",
+      "type": "A320",
+      "lat": 61.650558,
+      "lon": 25.0657,
+      "alt": 27625,
+      "speed": 368.6,
+      "track": 185.29,
+      "seen_first": "2026-07-27T15:13:02.204874",
+      "last_seen": "2026-07-27T15:13:02.204874"
+    },
+    "4601f3": {
+      "hex": "4601f3",
+      "flight": "",
+      "reg": "OH-ATF",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 22000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-07-27T15:14:01.251018",
+      "last_seen": "2026-07-27T15:14:01.251018"
     }
   },
   "summary": {
-    "total_unique_aircraft": 23,
-    "last_seen_live": 0,
-    "updated": "2026-07-27T15:10:01.695357"
+    "total_unique_aircraft": 25,
+    "last_seen_live": 1,
+    "updated": "2026-07-27T15:15:02.152996"
   }
 }
