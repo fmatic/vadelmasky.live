@@ -54,16 +54,16 @@
     },
     "4601f5": {
       "hex": "4601f5",
-      "flight": "FIN489",
+      "flight": "FIN5NB",
       "reg": "OH-ATH",
       "type": "AT75",
       "lat": null,
       "lon": null,
-      "alt": 19000,
-      "speed": null,
-      "track": null,
+      "alt": 18000,
+      "speed": 237.2,
+      "track": 199.2,
       "seen_first": "2026-07-27T02:50:01.242391",
-      "last_seen": "2026-07-27T06:30:01.470938"
+      "last_seen": "2026-07-27T09:00:01.959560"
     },
     "4601f4": {
       "hex": "4601f4",
@@ -142,11 +142,24 @@
       "track": 187.58,
       "seen_first": "2026-07-27T08:19:01.886945",
       "last_seen": "2026-07-27T08:19:01.886945"
+    },
+    "780d8f": {
+      "hex": "780d8f",
+      "flight": "CAO3153",
+      "reg": "B-2094",
+      "type": "B77L",
+      "lat": null,
+      "lon": null,
+      "alt": 34000,
+      "speed": 450.0,
+      "track": 252.42,
+      "seen_first": "2026-07-27T08:56:01.481221",
+      "last_seen": "2026-07-27T08:57:01.622410"
     }
   },
   "summary": {
-    "total_unique_aircraft": 11,
-    "last_seen_live": 0,
-    "updated": "2026-07-27T08:55:02.204141"
+    "total_unique_aircraft": 12,
+    "last_seen_live": 1,
+    "updated": "2026-07-27T09:00:01.959560"
   }
 }
