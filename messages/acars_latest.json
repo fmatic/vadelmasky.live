@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.07.2026 15:17 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -30.0,
-      "label": "80",
-      "msgno": "M11A",
-      "text": "/HELWBAY.3B01 OTHER  0370/23 EFKU/EFHK .OH-ATE\r\nMOI. HUOMATTIIN ETTA\r\nAY923 RIVEILLA 1-5\r\nON 0 LASTA JA RIVEILLA\r\n13-17 ON 6 LASTA\r\nMAX ERO ON 4. "
-    },
-    {
       "time": "23.07.2026 15:18 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -328,6 +317,17 @@
       "level": -29.5,
       "label": "5V",
       "msgno": "S08A",
+      "text": "No text"
+    },
+    {
+      "time": "27.07.2026 03:23 UTC",
+      "source": "ACARS",
+      "flight": "CZ2520",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -33.8,
+      "label": "Q0",
+      "msgno": "S66A",
       "text": "No text"
     }
   ]
