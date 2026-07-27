@@ -54,21 +54,34 @@
     },
     "4601f5": {
       "hex": "4601f5",
-      "flight": "",
+      "flight": "FIN4QA",
       "reg": "OH-ATH",
       "type": "AT75",
       "lat": null,
       "lon": null,
-      "alt": null,
+      "alt": 17000,
       "speed": null,
       "track": null,
       "seen_first": "2026-07-27T02:50:01.242391",
-      "last_seen": "2026-07-27T02:50:01.242391"
+      "last_seen": "2026-07-27T02:54:02.240808"
+    },
+    "4601f4": {
+      "hex": "4601f4",
+      "flight": "FIN8KH",
+      "reg": "OH-ATG",
+      "type": "AT75",
+      "lat": 62.041443,
+      "lon": 25.604226,
+      "alt": 14450,
+      "speed": 180.7,
+      "track": 187.95,
+      "seen_first": "2026-07-27T02:55:12.094056",
+      "last_seen": "2026-07-27T03:01:01.489589"
     }
   },
   "summary": {
-    "total_unique_aircraft": 5,
-    "last_seen_live": 2,
-    "updated": "2026-07-27T02:50:01.242391"
+    "total_unique_aircraft": 6,
+    "last_seen_live": 1,
+    "updated": "2026-07-27T03:01:01.489589"
   }
 }

@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.07.2026 06:22 UTC",
-      "source": "ACARS",
-      "flight": "N70489",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "SA",
-      "msgno": "S13A",
-      "text": "0EV062214V"
-    },
-    {
-      "time": "23.07.2026 15:16 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "Q0",
-      "msgno": "M10A",
-      "text": "No text"
-    },
-    {
-      "time": "23.07.2026 15:17 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "SA",
-      "msgno": "S63A",
-      "text": "0EV151733V"
-    },
-    {
       "time": "23.07.2026 15:17 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -328,6 +295,39 @@
       "level": -28.7,
       "label": "_d",
       "msgno": "S52A",
+      "text": "No text"
+    },
+    {
+      "time": "27.07.2026 02:51 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -27.4,
+      "label": "H1",
+      "msgno": "D01A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20380,270726,0252,09/D1ENGINE,S.N/D2ESN1,ED1499/D3ESN2,ED2152/E1IAS,ALT,TAT/E2203,.17009,-003/F1TORQ,NP,N"
+    },
+    {
+      "time": "27.07.2026 02:51 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "H1",
+      "msgno": "D01B",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20380,270726,0252,09/D1ENGINE,S.N/D2ESN1,ED1499/D3ESN2,ED2152/E1IAS,ALT,TAT/E2203,.17009,-003/F1TORQ,NP,NL/F2072.1,082.0,095.4/F3072.1,082.0,094.5/G1NH,ITT,FF,IG/G2096.6,0659.4,346,0084/G3095.6,0647.6,329,0050/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I221.22/**.,EOT,...,/"
+    },
+    {
+      "time": "27.07.2026 02:52 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "5V",
+      "msgno": "S08A",
       "text": "No text"
     }
   ]
