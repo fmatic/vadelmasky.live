@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.07.2026 02:53 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "SA",
-      "msgno": "S19A",
-      "text": "0EV025343V"
-    },
-    {
-      "time": "25.07.2026 02:53 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "HX",
-      "msgno": "S17A",
-      "text": "/HELATXA.A9 CRC /HELATXA.TI2/EFHK ARR ATIS A\r\n0250Z EXPECT ILS APCH\r\nARR RWY 15\r\nRUNWAY 15 CONDITION\r\n REPORT AT 0225 UTC\r\n RUNWAY CONDITION CODES\r\n 6 , 6 , 6 CONTAMI"
-    },
-    {
       "time": "25.07.2026 02:54 UTC",
       "source": "ACARS",
       "flight": "N70380",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S07A",
       "text": "No text"
+    },
+    {
+      "time": "28.07.2026 21:44 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -21.3,
+      "label": "Q0",
+      "msgno": "M09A",
+      "text": "No text"
+    },
+    {
+      "time": "28.07.2026 21:44 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -22.6,
+      "label": "SA",
+      "msgno": "S29A",
+      "text": "0EV214532V"
     }
   ]
 }
