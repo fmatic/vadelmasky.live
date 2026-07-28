@@ -246,32 +246,32 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">4</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">17225 ft</div>
+        <div class="value">28900 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">0 kt</div>
+        <div class="value">362.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">28.07.2026 03:00 UTC</div>
+        <div class="value">28.07.2026 03:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,10 +283,58 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">11975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>181.5 kt</b></div>
+                    <div><span>Track</span><b>187.28°</b></div>
+                    <div><span>Position</span><b>62.1042, 25.6242</b></div>
+                    <div><span>Last seen</span><b>28.07.2026 03:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8MC</div>
+                    <div class="meta">ICAO 461F6A · REG OH-LXI · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">28900 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>362.0 kt</b></div>
+                    <div><span>Track</span><b>180.88°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>28.07.2026 03:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
                     <div class="flight">FIN4QA</div>
                     <div class="meta">ICAO 4601F8 · REG OH-ATK · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">17225 ft</div>
+                <div class="alt-badge mid">16025 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -295,7 +343,7 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>28.07.2026 02:59 UTC</b></div>
+                    <div><span>Last seen</span><b>28.07.2026 03:02 UTC</b></div>
                 </div>
             </div>
 
@@ -555,7 +603,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "4601F5", "flight": "FIN8KH", "lat": 62.104156, "lon": 25.624237, "alt": 11975, "speed": 181.5, "last_seen": "28.07.2026 03:05 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
