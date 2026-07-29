@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">12</div>
+        <div class="value">13</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">9</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">29.07.2026 08:15 UTC</div>
+        <div class="value">29.07.2026 08:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7TP</div>
+                    <div class="meta">ICAO 461E21 · REG OH-LKR · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">26425 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>473.0 kt</b></div>
+                    <div><span>Track</span><b>180.12°</b></div>
+                    <div><span>Position</span><b>61.7067, 25.2674</b></div>
+                    <div><span>Last seen</span><b>29.07.2026 08:17 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -796,7 +820,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "460561", "flight": "OHCAZ", "lat": 62.308588, "lon": 25.742023, "alt": 1500, "speed": 70.1, "last_seen": "29.07.2026 07:24 UTC"}, {"hex": "461F36", "flight": "-", "lat": 61.662186, "lon": 25.12122, "alt": 26575, "speed": 438.9, "last_seen": "29.07.2026 06:33 UTC"}, {"hex": "467899", "flight": "K01", "lat": 62.135553, "lon": 25.631315, "alt": 4500, "speed": 109.3, "last_seen": "29.07.2026 06:30 UTC"}, {"hex": "485202", "flight": "PHSVZ", "lat": 61.548902, "lon": 25.808207, "alt": 24800, "speed": 261.6, "last_seen": "29.07.2026 06:25 UTC"}, {"hex": "467895", "flight": "T26", "lat": 61.807965, "lon": 25.541077, "alt": 18000, "speed": 258.0, "last_seen": "29.07.2026 03:35 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.641773, "lon": 25.559896, "alt": 18000, "speed": 281.0, "last_seen": "29.07.2026 03:20 UTC"}, {"hex": "781942", "flight": "DKH1659", "lat": 61.518689, "lon": 24.412537, "alt": 38000, "speed": 478.2, "last_seen": "29.07.2026 03:02 UTC"}, {"hex": "78026E", "flight": "-", "lat": 62.132, "lon": 26.809, "alt": "-", "speed": "-", "last_seen": "29.07.2026 00:06 UTC"}];
+const aircraft = [{"hex": "461E21", "flight": "FIN7TP", "lat": 61.70668, "lon": 25.267378, "alt": 26425, "speed": 473.0, "last_seen": "29.07.2026 08:17 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.308588, "lon": 25.742023, "alt": 1500, "speed": 70.1, "last_seen": "29.07.2026 07:24 UTC"}, {"hex": "461F36", "flight": "-", "lat": 61.662186, "lon": 25.12122, "alt": 26575, "speed": 438.9, "last_seen": "29.07.2026 06:33 UTC"}, {"hex": "467899", "flight": "K01", "lat": 62.135553, "lon": 25.631315, "alt": 4500, "speed": 109.3, "last_seen": "29.07.2026 06:30 UTC"}, {"hex": "485202", "flight": "PHSVZ", "lat": 61.548902, "lon": 25.808207, "alt": 24800, "speed": 261.6, "last_seen": "29.07.2026 06:25 UTC"}, {"hex": "467895", "flight": "T26", "lat": 61.807965, "lon": 25.541077, "alt": 18000, "speed": 258.0, "last_seen": "29.07.2026 03:35 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.641773, "lon": 25.559896, "alt": 18000, "speed": 281.0, "last_seen": "29.07.2026 03:20 UTC"}, {"hex": "781942", "flight": "DKH1659", "lat": 61.518689, "lon": 24.412537, "alt": 38000, "speed": 478.2, "last_seen": "29.07.2026 03:02 UTC"}, {"hex": "78026E", "flight": "-", "lat": 62.132, "lon": 26.809, "alt": "-", "speed": "-", "last_seen": "29.07.2026 00:06 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
