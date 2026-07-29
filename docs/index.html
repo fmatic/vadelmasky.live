@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">11</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">7</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">29.07.2026 06:20 UTC</div>
+        <div class="value">29.07.2026 06:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHCAZ</div>
+                    <div class="meta">ICAO 460561 · REG OH-CAZ · TYPE C172</div>
+                </div>
+                <div class="alt-badge low">1650 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>82.3 kt</b></div>
+                    <div><span>Track</span><b>184.88°</b></div>
+                    <div><span>Position</span><b>62.2017, 25.7284</b></div>
+                    <div><span>Last seen</span><b>29.07.2026 06:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-CAZ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">PHSVZ</div>
+                    <div class="meta">ICAO 485202 · REG PH-SVZ · TYPE C550</div>
+                </div>
+                <div class="alt-badge mid">24800 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>261.6 kt</b></div>
+                    <div><span>Track</span><b>99.46°</b></div>
+                    <div><span>Position</span><b>61.5489, 25.8082</b></div>
+                    <div><span>Last seen</span><b>29.07.2026 06:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PH-SVZ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -725,7 +773,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "467899", "flight": "K01", "lat": 62.135553, "lon": 25.631315, "alt": 4500, "speed": 49.6, "last_seen": "29.07.2026 06:20 UTC"}, {"hex": "467895", "flight": "T26", "lat": 61.807965, "lon": 25.541077, "alt": 18000, "speed": 258.0, "last_seen": "29.07.2026 03:35 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.641773, "lon": 25.559896, "alt": 18000, "speed": 281.0, "last_seen": "29.07.2026 03:20 UTC"}, {"hex": "781942", "flight": "DKH1659", "lat": 61.518689, "lon": 24.412537, "alt": 38000, "speed": 478.2, "last_seen": "29.07.2026 03:02 UTC"}, {"hex": "78026E", "flight": "-", "lat": 62.132, "lon": 26.809, "alt": "-", "speed": "-", "last_seen": "29.07.2026 00:06 UTC"}];
+const aircraft = [{"hex": "460561", "flight": "OHCAZ", "lat": 62.20166, "lon": 25.728353, "alt": 1650, "speed": 82.3, "last_seen": "29.07.2026 06:25 UTC"}, {"hex": "485202", "flight": "PHSVZ", "lat": 61.548902, "lon": 25.808207, "alt": 24800, "speed": 261.6, "last_seen": "29.07.2026 06:25 UTC"}, {"hex": "467899", "flight": "K01", "lat": 62.135553, "lon": 25.631315, "alt": 4500, "speed": 49.6, "last_seen": "29.07.2026 06:20 UTC"}, {"hex": "467895", "flight": "T26", "lat": 61.807965, "lon": 25.541077, "alt": 18000, "speed": 258.0, "last_seen": "29.07.2026 03:35 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.641773, "lon": 25.559896, "alt": 18000, "speed": 281.0, "last_seen": "29.07.2026 03:20 UTC"}, {"hex": "781942", "flight": "DKH1659", "lat": 61.518689, "lon": 24.412537, "alt": 38000, "speed": 478.2, "last_seen": "29.07.2026 03:02 UTC"}, {"hex": "78026E", "flight": "-", "lat": 62.132, "lon": 26.809, "alt": "-", "speed": "-", "last_seen": "29.07.2026 00:06 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
