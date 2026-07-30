@@ -176,11 +176,11 @@
       "type": "R44",
       "lat": null,
       "lon": null,
-      "alt": 1100,
+      "alt": 600,
       "speed": null,
       "track": null,
       "seen_first": "2026-07-30T08:54:01.964426",
-      "last_seen": "2026-07-30T14:47:01.274271"
+      "last_seen": "2026-07-30T15:03:02.090616"
     },
     "4612c7": {
       "hex": "4612c7",
@@ -304,13 +304,13 @@
       "flight": "FIN26B",
       "reg": "OH-ATH",
       "type": "AT75",
-      "lat": 61.772278,
-      "lon": 26.349433,
-      "alt": 16000,
-      "speed": 262.1,
-      "track": 212.54,
+      "lat": 61.787018,
+      "lon": 25.818852,
+      "alt": 18000,
+      "speed": 273.0,
+      "track": 21.49,
       "seen_first": "2026-07-30T11:00:01.650928",
-      "last_seen": "2026-07-30T11:12:02.000862"
+      "last_seen": "2026-07-30T15:05:02.188909"
     },
     "4b431b": {
       "hex": "4b431b",
@@ -597,11 +597,50 @@
       "track": 236.92,
       "seen_first": "2026-07-30T14:12:02.191727",
       "last_seen": "2026-07-30T14:15:01.957999"
+    },
+    "4aa34d": {
+      "hex": "4aa34d",
+      "flight": "SEHZM",
+      "reg": null,
+      "type": null,
+      "lat": 62.186417,
+      "lon": 25.745646,
+      "alt": 925,
+      "speed": 99.5,
+      "track": 12.78,
+      "seen_first": "2026-07-30T15:02:02.081214",
+      "last_seen": "2026-07-30T15:04:01.301855"
+    },
+    "4aaaab": {
+      "hex": "4aaaab",
+      "flight": "",
+      "reg": "SE-JUK",
+      "type": "B505",
+      "lat": null,
+      "lon": null,
+      "alt": 700,
+      "speed": 92.2,
+      "track": 331.49,
+      "seen_first": "2026-07-30T15:04:01.301855",
+      "last_seen": "2026-07-30T15:05:02.188909"
+    },
+    "781a1f": {
+      "hex": "781a1f",
+      "flight": "",
+      "reg": "B-220E",
+      "type": "B77L",
+      "lat": null,
+      "lon": null,
+      "alt": 33000,
+      "speed": 508.0,
+      "track": 58.89,
+      "seen_first": "2026-07-30T15:04:01.301855",
+      "last_seen": "2026-07-30T15:05:02.188909"
     }
   },
   "summary": {
-    "total_unique_aircraft": 46,
-    "last_seen_live": 0,
-    "updated": "2026-07-30T15:00:02.061149"
+    "total_unique_aircraft": 49,
+    "last_seen_live": 3,
+    "updated": "2026-07-30T15:05:02.188909"
   }
 }
