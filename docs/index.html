@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">30.07.2026 05:30 UTC</div>
+        <div class="value">30.07.2026 05:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OOLET</div>
+                    <div class="meta">ICAO 44B0B4 · REG OO-LET · TYPE BE20</div>
+                </div>
+                <div class="alt-badge mid">21775 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>163.4 kt</b></div>
+                    <div><span>Track</span><b>241.08°</b></div>
+                    <div><span>Position</span><b>62.2578, 26.1024</b></div>
+                    <div><span>Last seen</span><b>30.07.2026 05:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OO-LET" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -292,38 +316,14 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>255.1 kt</b></div>
-                    <div><span>Track</span><b>5.4°</b></div>
-                    <div><span>Position</span><b>62.2080, 25.6871</b></div>
-                    <div><span>Last seen</span><b>30.07.2026 05:30 UTC</b></div>
+                    <div><span>Speed</span><b>252.1 kt</b></div>
+                    <div><span>Track</span><b>5.24°</b></div>
+                    <div><span>Position</span><b>62.3916, 25.7238</b></div>
+                    <div><span>Last seen</span><b>30.07.2026 05:32 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">OOLET</div>
-                    <div class="meta">ICAO 44B0B4 · REG OO-LET · TYPE BE20</div>
-                </div>
-                <div class="alt-badge mid">16275 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>175.6 kt</b></div>
-                    <div><span>Track</span><b>56.85°</b></div>
-                    <div><span>Position</span><b>62.2305, 26.1780</b></div>
-                    <div><span>Last seen</span><b>30.07.2026 05:30 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OO-LET" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -748,7 +748,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F3", "flight": "FIN7KL", "lat": 62.208023, "lon": 25.687052, "alt": 20025, "speed": 255.1, "last_seen": "30.07.2026 05:30 UTC"}, {"hex": "44B0B4", "flight": "OOLET", "lat": 62.230473, "lon": 26.17799, "alt": 16275, "speed": 175.6, "last_seen": "30.07.2026 05:30 UTC"}, {"hex": "461E1F", "flight": "FIN434", "lat": 61.668355, "lon": 25.267537, "alt": 25375, "speed": 425.0, "last_seen": "30.07.2026 05:18 UTC"}, {"hex": "4601F2", "flight": "FIN4QA", "lat": 61.474604, "lon": 26.139832, "alt": 20025, "speed": 271.1, "last_seen": "30.07.2026 03:12 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.466644, "lon": 25.236206, "alt": 23525, "speed": 384.3, "last_seen": "30.07.2026 03:03 UTC"}];
+const aircraft = [{"hex": "44B0B4", "flight": "OOLET", "lat": 62.257752, "lon": 26.102354, "alt": 21775, "speed": 163.4, "last_seen": "30.07.2026 05:35 UTC"}, {"hex": "4601F3", "flight": "FIN7KL", "lat": 62.391586, "lon": 25.723775, "alt": 20025, "speed": 252.1, "last_seen": "30.07.2026 05:32 UTC"}, {"hex": "461E1F", "flight": "FIN434", "lat": 61.668355, "lon": 25.267537, "alt": 25375, "speed": 425.0, "last_seen": "30.07.2026 05:18 UTC"}, {"hex": "4601F2", "flight": "FIN4QA", "lat": 61.474604, "lon": 26.139832, "alt": 20025, "speed": 271.1, "last_seen": "30.07.2026 03:12 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.466644, "lon": 25.236206, "alt": 23525, "speed": 384.3, "last_seen": "30.07.2026 03:03 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
