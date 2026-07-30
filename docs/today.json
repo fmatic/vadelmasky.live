@@ -579,11 +579,11 @@
       "type": "R44",
       "lat": null,
       "lon": null,
-      "alt": 500,
+      "alt": 1000,
       "speed": null,
       "track": null,
       "seen_first": "2026-07-30T13:50:02.073564",
-      "last_seen": "2026-07-30T13:53:01.668724"
+      "last_seen": "2026-07-30T19:35:01.244903"
     },
     "4aa998": {
       "hex": "4aa998",
@@ -701,11 +701,24 @@
       "track": null,
       "seen_first": "2026-07-30T18:13:01.789302",
       "last_seen": "2026-07-30T18:13:01.789302"
+    },
+    "461e16": {
+      "hex": "461e16",
+      "flight": "FIN446",
+      "reg": "OH-LKG",
+      "type": "E190",
+      "lat": null,
+      "lon": null,
+      "alt": 32725,
+      "speed": 448.0,
+      "track": 181.05,
+      "seen_first": "2026-07-30T19:34:02.027557",
+      "last_seen": "2026-07-30T19:35:01.244903"
     }
   },
   "summary": {
-    "total_unique_aircraft": 54,
-    "last_seen_live": 0,
-    "updated": "2026-07-30T19:30:01.789439"
+    "total_unique_aircraft": 55,
+    "last_seen_live": 2,
+    "updated": "2026-07-30T19:35:01.244903"
   }
 }
