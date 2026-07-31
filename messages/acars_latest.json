@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.07.2026 21:45 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -24.3,
-      "label": "_d",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
-      "time": "28.07.2026 21:49 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "5V",
-      "msgno": "S32A",
-      "text": "No text"
-    },
-    {
-      "time": "28.07.2026 23:26 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -27.5,
-      "label": "Q0",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
-      "time": "28.07.2026 23:28 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "10",
-      "msgno": "M32A",
-      "text": "POS282328,N 62.132,E 26.809,0737,485250,,,34998,114080"
-    },
-    {
       "time": "29.07.2026 02:55 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +285,50 @@
       "label": "_d",
       "msgno": "S14A",
       "text": "No text"
+    },
+    {
+      "time": "31.07.2026 02:30 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20DT",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "SA",
+      "msgno": "S24A",
+      "text": "0EV022956VS/"
+    },
+    {
+      "time": "31.07.2026 02:30 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20DT",
+      "freq": 131.825,
+      "level": -25.5,
+      "label": "H1",
+      "msgno": "F79A",
+      "text": "POSN62135E026168,AGAMO,022959,380,KELAS,030129,INVOL,M57,25035,5616F6A"
+    },
+    {
+      "time": "31.07.2026 02:31 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20DT",
+      "freq": 131.825,
+      "level": -23.2,
+      "label": "Q0",
+      "msgno": "S27A",
+      "text": "No text"
+    },
+    {
+      "time": "31.07.2026 02:31 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20DT",
+      "freq": 131.825,
+      "level": -23.6,
+      "label": "SA",
+      "msgno": "S28A",
+      "text": "0EV023139VS/"
     }
   ]
 }
