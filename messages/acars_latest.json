@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.07.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1101 OFFRP  0290/29 EFJY/EFHK .OH-ATI\r\n/OUT 0250/OFF 0254/FOB 0015/ETA 0334"
-    },
-    {
-      "time": "29.07.2026 02:59 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.725,
-      "level": -34.3,
-      "label": "Q0",
-      "msgno": "S05A",
-      "text": "No text"
-    },
-    {
-      "time": "29.07.2026 02:59 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -18.4,
-      "label": "Q0",
-      "msgno": "S05A",
-      "text": "No text"
-    },
-    {
       "time": "29.07.2026 02:59 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S28A",
       "text": "0EV023139VS/"
+    },
+    {
+      "time": "31.07.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -23.5,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "31.07.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -28.8,
+      "label": "SA",
+      "msgno": "S01A",
+      "text": "0EV025707V"
+    },
+    {
+      "time": "31.07.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -24.8,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/31 EFJY/EFHK .OH-ATI\r\n/OUT 0249/FOB 0016/BRD       /UNT LITERS  /TYP A "
     }
   ]
 }
