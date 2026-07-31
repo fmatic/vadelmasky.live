@@ -6,17 +6,6 @@
       "flight": "N70290",
       "tail": "OH-ATI",
       "freq": 131.825,
-      "level": -22.9,
-      "label": "SA",
-      "msgno": "S06A",
-      "text": "0EV025906V"
-    },
-    {
-      "time": "29.07.2026 02:59 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
       "level": -19.4,
       "label": "H1",
       "msgno": "D00A",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M00A",
       "text": "1001 OUTRP  0290/31 EFJY/EFHK .OH-ATI\r\n/OUT 0249/FOB 0016/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "31.07.2026 05:36 UTC",
+      "source": "ACARS",
+      "flight": "CA3106",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "H1",
+      "msgno": "C05A",
+      "text": ".1/FLR/FR2607310535  34363106IR3    1,IR2,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
