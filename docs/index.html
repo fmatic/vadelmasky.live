@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">31.07.2026 04:00 UTC</div>
+        <div class="value">31.07.2026 04:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">HCX21</div>
+                    <div class="meta">ICAO 4612E8 · REG OH-HEE · TYPE EC20</div>
+                </div>
+                <div class="alt-badge low">600 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>50.8 kt</b></div>
+                    <div><span>Track</span><b>122.12°</b></div>
+                    <div><span>Position</span><b>62.2333, 25.7770</b></div>
+                    <div><span>Last seen</span><b>31.07.2026 04:02 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HEE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -295,35 +319,11 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>31.07.2026 04:00 UTC</b></div>
+                    <div><span>Last seen</span><b>31.07.2026 04:01 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/HB-ZKT" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">HCX21</div>
-                    <div class="meta">ICAO 4612E8 · REG OH-HEE · TYPE EC20</div>
-                </div>
-                <div class="alt-badge low">1100 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>139.1 kt</b></div>
-                    <div><span>Track</span><b>12.04°</b></div>
-                    <div><span>Position</span><b>62.1827, 25.7544</b></div>
-                    <div><span>Last seen</span><b>31.07.2026 04:00 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HEE" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -785,7 +785,7 @@ C4,-21</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4612E8", "flight": "HCX21", "lat": 62.18271, "lon": 25.754383, "alt": 1100, "speed": 139.1, "last_seen": "31.07.2026 04:00 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.820441, "lon": 25.506083, "alt": 18025, "speed": 207.8, "last_seen": "31.07.2026 03:18 UTC"}, {"hex": "7817FB", "flight": "DKH1661", "lat": 62.225, "lon": 26.28, "alt": 37975, "speed": 440.0, "last_seen": "31.07.2026 03:07 UTC"}, {"hex": "4601F2", "flight": "-", "lat": 61.811596, "lon": 26.453145, "alt": "-", "speed": 259.3, "last_seen": "31.07.2026 02:56 UTC"}];
+const aircraft = [{"hex": "4612E8", "flight": "HCX21", "lat": 62.233292, "lon": 25.776978, "alt": 600, "speed": 50.8, "last_seen": "31.07.2026 04:02 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.820441, "lon": 25.506083, "alt": 18025, "speed": 207.8, "last_seen": "31.07.2026 03:18 UTC"}, {"hex": "7817FB", "flight": "DKH1661", "lat": 62.225, "lon": 26.28, "alt": 37975, "speed": 440.0, "last_seen": "31.07.2026 03:07 UTC"}, {"hex": "4601F2", "flight": "-", "lat": 61.811596, "lon": 26.453145, "alt": "-", "speed": 259.3, "last_seen": "31.07.2026 02:56 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
