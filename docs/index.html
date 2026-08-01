@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">16</div>
+        <div class="value">17</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">01.08.2026 04:40 UTC</div>
+        <div class="value">01.08.2026 04:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,10 +283,34 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
+                    <div class="flight">SWC902</div>
+                    <div class="meta">ICAO 4AAB43 · REG SE-JZC · TYPE AS50</div>
+                </div>
+                <div class="alt-badge low">800 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>73.4 kt</b></div>
+                    <div><span>Track</span><b>96.25°</b></div>
+                    <div><span>Position</span><b>62.2331, 25.7884</b></div>
+                    <div><span>Last seen</span><b>01.08.2026 04:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/SE-JZC" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
                     <div class="flight">Unknown</div>
                     <div class="meta">ICAO 4AA9F3 · REG SE-JOS · TYPE AS50</div>
                 </div>
-                <div class="alt-badge low">1150 ft</div>
+                <div class="alt-badge low">1125 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -295,7 +319,7 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>01.08.2026 04:40 UTC</b></div>
+                    <div><span>Last seen</span><b>01.08.2026 04:41 UTC</b></div>
                 </div>
             </div>
 
@@ -913,7 +937,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4613FC", "flight": "OHHOU", "lat": 62.199981, "lon": 25.742446, "alt": "-", "speed": 96.9, "last_seen": "01.08.2026 04:34 UTC"}, {"hex": "4AAAA8", "flight": "SEJUH", "lat": 62.149891, "lon": 25.717304, "alt": 975, "speed": 114.8, "last_seen": "01.08.2026 04:32 UTC"}, {"hex": "4612E8", "flight": "HCX21", "lat": 62.226469, "lon": 25.754066, "alt": 1025, "speed": 82.2, "last_seen": "01.08.2026 04:28 UTC"}, {"hex": "4612C7", "flight": "HCX11", "lat": 62.2229, "lon": 25.744425, "alt": 1025, "speed": 95.4, "last_seen": "01.08.2026 04:28 UTC"}, {"hex": "4613F6", "flight": "HCX32", "lat": 62.2034, "lon": 25.73171, "alt": 1000, "speed": 109.6, "last_seen": "01.08.2026 04:23 UTC"}, {"hex": "46147F", "flight": "OHHTV", "lat": 62.235489, "lon": 25.777893, "alt": 700, "speed": 68.3, "last_seen": "01.08.2026 04:16 UTC"}, {"hex": "4AAAAB", "flight": "SEJUK", "lat": 62.177915, "lon": 25.726283, "alt": 975, "speed": 101.6, "last_seen": "01.08.2026 04:13 UTC"}, {"hex": "4601F2", "flight": "FIN8KH", "lat": 61.482513, "lon": 25.525164, "alt": 16025, "speed": 236.0, "last_seen": "01.08.2026 03:02 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.818998, "lon": 26.300252, "alt": 16000, "speed": 231.4, "last_seen": "01.08.2026 03:02 UTC"}];
+const aircraft = [{"hex": "4AAB43", "flight": "SWC902", "lat": 62.23308, "lon": 25.788398, "alt": 800, "speed": 73.4, "last_seen": "01.08.2026 04:45 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.199981, "lon": 25.742446, "alt": "-", "speed": 96.9, "last_seen": "01.08.2026 04:34 UTC"}, {"hex": "4AAAA8", "flight": "SEJUH", "lat": 62.149891, "lon": 25.717304, "alt": 975, "speed": 114.8, "last_seen": "01.08.2026 04:32 UTC"}, {"hex": "4612E8", "flight": "HCX21", "lat": 62.226469, "lon": 25.754066, "alt": 1025, "speed": 82.2, "last_seen": "01.08.2026 04:28 UTC"}, {"hex": "4612C7", "flight": "HCX11", "lat": 62.2229, "lon": 25.744425, "alt": 1025, "speed": 95.4, "last_seen": "01.08.2026 04:28 UTC"}, {"hex": "4613F6", "flight": "HCX32", "lat": 62.2034, "lon": 25.73171, "alt": 1000, "speed": 109.6, "last_seen": "01.08.2026 04:23 UTC"}, {"hex": "46147F", "flight": "OHHTV", "lat": 62.235489, "lon": 25.777893, "alt": 700, "speed": 68.3, "last_seen": "01.08.2026 04:16 UTC"}, {"hex": "4AAAAB", "flight": "SEJUK", "lat": 62.177915, "lon": 25.726283, "alt": 975, "speed": 101.6, "last_seen": "01.08.2026 04:13 UTC"}, {"hex": "4601F2", "flight": "FIN8KH", "lat": 61.482513, "lon": 25.525164, "alt": 16025, "speed": 236.0, "last_seen": "01.08.2026 03:02 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.818998, "lon": 26.300252, "alt": 16000, "speed": 231.4, "last_seen": "01.08.2026 03:02 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
