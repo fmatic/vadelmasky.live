@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.07.2026 10:26 UTC",
-      "source": "ACARS",
-      "flight": "ZD0001",
-      "tail": "HBVJT",
-      "freq": 131.725,
-      "level": -28.8,
-      "label": "SA",
-      "msgno": "M05A",
-      "text": "0EV102658V"
-    },
-    {
-      "time": "30.07.2026 10:26 UTC",
-      "source": "ACARS",
-      "flight": "ZD0001",
-      "tail": "HBVJT",
-      "freq": 131.725,
-      "level": -25.8,
-      "label": "SA",
-      "msgno": "M05A",
-      "text": "0EV102658V"
-    },
-    {
-      "time": "30.07.2026 10:27 UTC",
-      "source": "ACARS",
-      "flight": "ZD0001",
-      "tail": "HBVJT",
-      "freq": 131.725,
-      "level": -23.3,
-      "label": "SA",
-      "msgno": "M05A",
-      "text": "0EV102658V"
-    },
-    {
-      "time": "30.07.2026 10:27 UTC",
-      "source": "ACARS",
-      "flight": "ZD0001",
-      "tail": "HBVJT",
-      "freq": 131.725,
-      "level": -21.2,
-      "label": "5V",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
       "time": "30.07.2026 11:29 UTC",
       "source": "ACARS",
       "flight": "ZD0001",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "D08B",
       "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2JUL31,1035,0285/C1/C210.35.31,MC/C310.35.31,ENG/C4ENG,1,LO,PITCH/C5MFC1B.1UA1.,.,PIN,AC-05A/C6CHK,PEC,FAULT,CODES/C710.35.31,MC/C810.35.31,ENG/C9ENG,2,LO,PITCH/C0MFC1B.1UA1.,.,PIN,AC-05B/D1CHK,PEC,FAULT,CODES,/"
+    },
+    {
+      "time": "01.08.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "SA",
+      "msgno": "S54A",
+      "text": "0EV030129VSH/"
+    },
+    {
+      "time": "01.08.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "5V",
+      "msgno": "S55A",
+      "text": "No text"
+    },
+    {
+      "time": "01.08.2026 03:04 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "Q0",
+      "msgno": "S58A",
+      "text": "No text"
+    },
+    {
+      "time": "01.08.2026 03:04 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "SA",
+      "msgno": "S59A",
+      "text": "0EV030500VSH/"
     }
   ]
 }
