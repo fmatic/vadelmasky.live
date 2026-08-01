@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -266,12 +266,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">436.0 kt</div>
+        <div class="value">432.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">01.08.2026 06:10 UTC</div>
+        <div class="value">01.08.2026 06:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -292,10 +292,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>436.0 kt</b></div>
-                    <div><span>Track</span><b>245.21°</b></div>
+                    <div><span>Speed</span><b>432.0 kt</b></div>
+                    <div><span>Track</span><b>245.04°</b></div>
                     <div><span>Position</span><b>62.2287, 26.3680</b></div>
-                    <div><span>Last seen</span><b>01.08.2026 06:10 UTC</b></div>
+                    <div><span>Last seen</span><b>01.08.2026 06:13 UTC</b></div>
                 </div>
             </div>
 
@@ -842,6 +842,52 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CK0605</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-221S · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">01.08.2026 06:10 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg D08D · Level -25.6 dB
+            </div>
+
+            <div class="acars-text">030FA8 -1494 31
+18225044908490061  1286D030FA8 -1519 32
+11111011111101
+11111011111101</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CK0605</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-221S · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">01.08.2026 06:10 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg D08C · Level -28.5 dB
+            </div>
+
+            <div class="acars-text">   0)   0)
+00170500600003091010620001060
+0011008031000105 920330001031
+ 72 69167  2 5   ) 64   ) 6908
+ 71 73158  3 5   ) 64   ) 6882
+ 6745 6770 6745 6750
+ 6750 6750 6705 6695
+18200044908490041  2276D</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">HO1661</div>
                     <div class="acars-meta">
                         ACARS · Tail B-20EC · 131.825 MHz
@@ -1022,66 +1068,11 @@ footer {
 /ON  1035/IN  1037/FOB 0014</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70286</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATI · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">31.07.2026 11:18 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 80 · Msg M21B · Level -23.9 dB
-            </div>
-
-            <div class="acars-text">3501 SUMMRY 0285/31 EFHK/EFJY .OH-ATI
-/OUT 0957/FOB 0017
-/OFF 1002/FOB 0017
-/ON  1035/FOB 0012
-/IN  1037/FOB 0014
-/TKO CAPT /CRW          
-/LND CAPT /CRW          
-/APP N  /RWY    /RVR     /ALT    
-/ERR    /ERR    /ERR    
-/CPT          /FO           
-/SO1          /SO2          
-/CHK          </div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70286</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATI · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">31.07.2026 11:18 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 80 · Msg M21A · Level -27.5 dB
-            </div>
-
-            <div class="acars-text">3501 SUMMRY 0285/31 EFHK/EFJY .OH-ATI
-/OUT 0957/FOB 0017
-/OFF 1002/FOB 0017
-/ON  1035/FOB 0012
-/IN  1037/FOB 0014
-/TKO CAPT /CRW          
-/LND CAPT /CRW          
-/APP N  /RWY    /RVR     /ALT    
-/ERR</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "781D6D", "flight": "CKK605", "lat": 62.228657, "lon": 26.368033, "alt": 32000, "speed": 436.0, "last_seen": "01.08.2026 06:10 UTC"}, {"hex": "46141B", "flight": "OHHPZ", "lat": 62.248116, "lon": 25.773715, "alt": 850, "speed": 100.8, "last_seen": "01.08.2026 06:09 UTC"}, {"hex": "46146F", "flight": "OHHTF", "lat": 62.294357, "lon": 25.749613, "alt": 1175, "speed": 122.9, "last_seen": "01.08.2026 05:42 UTC"}, {"hex": "5110CD", "flight": "ESHOG", "lat": 62.172608, "lon": 25.737798, "alt": 1200, "speed": 123.4, "last_seen": "01.08.2026 05:15 UTC"}, {"hex": "46147F", "flight": "OHHTV", "lat": 62.234569, "lon": 25.778996, "alt": 725, "speed": 70.5, "last_seen": "01.08.2026 05:12 UTC"}, {"hex": "4AAB43", "flight": "SWC902", "lat": 62.160365, "lon": 25.710754, "alt": 1175, "speed": 103.7, "last_seen": "01.08.2026 04:49 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.199981, "lon": 25.742446, "alt": "-", "speed": 96.9, "last_seen": "01.08.2026 04:34 UTC"}, {"hex": "4AAAA8", "flight": "SEJUH", "lat": 62.149891, "lon": 25.717304, "alt": 975, "speed": 114.8, "last_seen": "01.08.2026 04:32 UTC"}, {"hex": "4612E8", "flight": "HCX21", "lat": 62.226469, "lon": 25.754066, "alt": 1025, "speed": 82.2, "last_seen": "01.08.2026 04:28 UTC"}, {"hex": "4612C7", "flight": "HCX11", "lat": 62.2229, "lon": 25.744425, "alt": 1025, "speed": 95.4, "last_seen": "01.08.2026 04:28 UTC"}, {"hex": "4613F6", "flight": "HCX32", "lat": 62.2034, "lon": 25.73171, "alt": 1000, "speed": 109.6, "last_seen": "01.08.2026 04:23 UTC"}, {"hex": "4AAAAB", "flight": "SEJUK", "lat": 62.177915, "lon": 25.726283, "alt": 975, "speed": 101.6, "last_seen": "01.08.2026 04:13 UTC"}, {"hex": "4601F2", "flight": "FIN8KH", "lat": 61.482513, "lon": 25.525164, "alt": 16025, "speed": 236.0, "last_seen": "01.08.2026 03:02 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.818998, "lon": 26.300252, "alt": 16000, "speed": 231.4, "last_seen": "01.08.2026 03:02 UTC"}];
+const aircraft = [{"hex": "781D6D", "flight": "CKK605", "lat": 62.228657, "lon": 26.368033, "alt": 32000, "speed": 432.0, "last_seen": "01.08.2026 06:13 UTC"}, {"hex": "46141B", "flight": "OHHPZ", "lat": 62.248116, "lon": 25.773715, "alt": 850, "speed": 100.8, "last_seen": "01.08.2026 06:09 UTC"}, {"hex": "46146F", "flight": "OHHTF", "lat": 62.294357, "lon": 25.749613, "alt": 1175, "speed": 122.9, "last_seen": "01.08.2026 05:42 UTC"}, {"hex": "5110CD", "flight": "ESHOG", "lat": 62.172608, "lon": 25.737798, "alt": 1200, "speed": 123.4, "last_seen": "01.08.2026 05:15 UTC"}, {"hex": "46147F", "flight": "OHHTV", "lat": 62.234569, "lon": 25.778996, "alt": 725, "speed": 70.5, "last_seen": "01.08.2026 05:12 UTC"}, {"hex": "4AAB43", "flight": "SWC902", "lat": 62.160365, "lon": 25.710754, "alt": 1175, "speed": 103.7, "last_seen": "01.08.2026 04:49 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.199981, "lon": 25.742446, "alt": "-", "speed": 96.9, "last_seen": "01.08.2026 04:34 UTC"}, {"hex": "4AAAA8", "flight": "SEJUH", "lat": 62.149891, "lon": 25.717304, "alt": 975, "speed": 114.8, "last_seen": "01.08.2026 04:32 UTC"}, {"hex": "4612E8", "flight": "HCX21", "lat": 62.226469, "lon": 25.754066, "alt": 1025, "speed": 82.2, "last_seen": "01.08.2026 04:28 UTC"}, {"hex": "4612C7", "flight": "HCX11", "lat": 62.2229, "lon": 25.744425, "alt": 1025, "speed": 95.4, "last_seen": "01.08.2026 04:28 UTC"}, {"hex": "4613F6", "flight": "HCX32", "lat": 62.2034, "lon": 25.73171, "alt": 1000, "speed": 109.6, "last_seen": "01.08.2026 04:23 UTC"}, {"hex": "4AAAAB", "flight": "SEJUK", "lat": 62.177915, "lon": 25.726283, "alt": 975, "speed": 101.6, "last_seen": "01.08.2026 04:13 UTC"}, {"hex": "4601F2", "flight": "FIN8KH", "lat": 61.482513, "lon": 25.525164, "alt": 16025, "speed": 236.0, "last_seen": "01.08.2026 03:02 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.818998, "lon": 26.300252, "alt": 16000, "speed": 231.4, "last_seen": "01.08.2026 03:02 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
