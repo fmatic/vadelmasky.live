@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">02.08.2026 06:15 UTC</div>
+        <div class="value">02.08.2026 06:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 4613F0 · REG OH-HOI · TYPE AS50</div>
+                    <div class="flight">OHHBH</div>
+                    <div class="meta">ICAO 46129D · REG OH-HBH · TYPE R44</div>
                 </div>
-                <div class="alt-badge low">900 ft</div>
+                <div class="alt-badge low">1400 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>73.4 kt</b></div>
-                    <div><span>Track</span><b>65.88°</b></div>
-                    <div><span>Position</span><b>62.2328, 25.7581</b></div>
-                    <div><span>Last seen</span><b>02.08.2026 06:15 UTC</b></div>
+                    <div><span>Speed</span><b>87.3 kt</b></div>
+                    <div><span>Track</span><b>189.89°</b></div>
+                    <div><span>Position</span><b>62.2041, 25.7531</b></div>
+                    <div><span>Last seen</span><b>02.08.2026 06:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HBH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4613F0 · REG OH-HOI · TYPE AS50</div>
+                </div>
+                <div class="alt-badge low">625 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>45.7 kt</b></div>
+                    <div><span>Track</span><b>151.19°</b></div>
+                    <div><span>Position</span><b>62.2350, 25.7775</b></div>
+                    <div><span>Last seen</span><b>02.08.2026 06:16 UTC</b></div>
                 </div>
             </div>
 
@@ -325,30 +349,6 @@ footer {
 
             <a class="photo-link" href="https://globe.adsbexchange.com/?icao=4613fc" target="_blank" rel="noopener">
                 View aircraft info
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">OHHBH</div>
-                    <div class="meta">ICAO 46129D · REG OH-HBH · TYPE R44</div>
-                </div>
-                <div class="alt-badge low">850 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>65.7 kt</b></div>
-                    <div><span>Track</span><b>166.81°</b></div>
-                    <div><span>Position</span><b>62.2349, 25.7777</b></div>
-                    <div><span>Last seen</span><b>02.08.2026 06:00 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HBH" target="_blank" rel="noopener">
-                Search aircraft photo
             </a>
         </article>
         
@@ -587,7 +587,7 @@ B-221S  CKK606EGSSZSPD170346141232ER
 </section>
 
 <script>
-const aircraft = [{"hex": "4613F0", "flight": "-", "lat": 62.232847, "lon": 25.75808, "alt": 900, "speed": 73.4, "last_seen": "02.08.2026 06:15 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.183222, "lon": 25.729875, "alt": "-", "speed": 85.1, "last_seen": "02.08.2026 06:05 UTC"}, {"hex": "46129D", "flight": "OHHBH", "lat": 62.23494, "lon": 25.77769, "alt": 850, "speed": 65.7, "last_seen": "02.08.2026 06:00 UTC"}, {"hex": "4601F3", "flight": "FIN489", "lat": 62.460813, "lon": 26.288276, "alt": 16975, "speed": 292.5, "last_seen": "02.08.2026 04:28 UTC"}];
+const aircraft = [{"hex": "46129D", "flight": "OHHBH", "lat": 62.204086, "lon": 25.753072, "alt": 1400, "speed": 87.3, "last_seen": "02.08.2026 06:20 UTC"}, {"hex": "4613F0", "flight": "-", "lat": 62.234985, "lon": 25.777486, "alt": 625, "speed": 45.7, "last_seen": "02.08.2026 06:16 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.183222, "lon": 25.729875, "alt": "-", "speed": 85.1, "last_seen": "02.08.2026 06:05 UTC"}, {"hex": "4601F3", "flight": "FIN489", "lat": 62.460813, "lon": 26.288276, "alt": 16975, "speed": 292.5, "last_seen": "02.08.2026 04:28 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
