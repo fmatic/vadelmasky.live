@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">02.08.2026 06:10 UTC</div>
+        <div class="value">02.08.2026 06:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4613F0 · REG OH-HOI · TYPE AS50</div>
+                </div>
+                <div class="alt-badge low">900 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>73.4 kt</b></div>
+                    <div><span>Track</span><b>65.88°</b></div>
+                    <div><span>Position</span><b>62.2328, 25.7581</b></div>
+                    <div><span>Last seen</span><b>02.08.2026 06:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HOI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -563,7 +587,7 @@ B-221S  CKK606EGSSZSPD170346141232ER
 </section>
 
 <script>
-const aircraft = [{"hex": "4613FC", "flight": "OHHOU", "lat": 62.183222, "lon": 25.729875, "alt": "-", "speed": 85.1, "last_seen": "02.08.2026 06:05 UTC"}, {"hex": "46129D", "flight": "OHHBH", "lat": 62.23494, "lon": 25.77769, "alt": 850, "speed": 65.7, "last_seen": "02.08.2026 06:00 UTC"}, {"hex": "4601F3", "flight": "FIN489", "lat": 62.460813, "lon": 26.288276, "alt": 16975, "speed": 292.5, "last_seen": "02.08.2026 04:28 UTC"}];
+const aircraft = [{"hex": "4613F0", "flight": "-", "lat": 62.232847, "lon": 25.75808, "alt": 900, "speed": 73.4, "last_seen": "02.08.2026 06:15 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.183222, "lon": 25.729875, "alt": "-", "speed": 85.1, "last_seen": "02.08.2026 06:05 UTC"}, {"hex": "46129D", "flight": "OHHBH", "lat": 62.23494, "lon": 25.77769, "alt": 850, "speed": 65.7, "last_seen": "02.08.2026 06:00 UTC"}, {"hex": "4601F3", "flight": "FIN489", "lat": 62.460813, "lon": 26.288276, "alt": 16975, "speed": 292.5, "last_seen": "02.08.2026 04:28 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
