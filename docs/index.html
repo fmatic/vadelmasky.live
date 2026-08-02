@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">34</div>
+        <div class="value">35</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">20</div>
+        <div class="value">21</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">02.08.2026 11:55 UTC</div>
+        <div class="value">02.08.2026 12:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5KR</div>
+                    <div class="meta">ICAO 461F30 · REG OH-LVC · TYPE A319</div>
+                </div>
+                <div class="alt-badge high">25300 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>354.2 kt</b></div>
+                    <div><span>Track</span><b>182.1°</b></div>
+                    <div><span>Position</span><b>61.6824, 25.3225</b></div>
+                    <div><span>Last seen</span><b>02.08.2026 12:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVC" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHHOI</div>
+                    <div class="meta">ICAO 4613F0 · REG OH-HOI · TYPE AS50</div>
+                </div>
+                <div class="alt-badge low">650 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>94.4 kt</b></div>
+                    <div><span>Track</span><b>15.36°</b></div>
+                    <div><span>Position</span><b>62.2352, 25.7901</b></div>
+                    <div><span>Last seen</span><b>02.08.2026 11:58 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HOI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -907,30 +955,6 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">OHHOI</div>
-                    <div class="meta">ICAO 4613F0 · REG OH-HOI · TYPE AS50</div>
-                </div>
-                <div class="alt-badge low">1600 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>94.0 kt</b></div>
-                    <div><span>Track</span><b>209.29°</b></div>
-                    <div><span>Position</span><b>62.1870, 25.7560</b></div>
-                    <div><span>Last seen</span><b>02.08.2026 06:24 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HOI" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
                     <div class="flight">OHHOU</div>
                     <div class="meta">ICAO 4613FC · REG - · TYPE -</div>
                 </div>
@@ -1199,7 +1223,7 @@ B-221S  CKK606EGSSZSPD170346141232ER
 </section>
 
 <script>
-const aircraft = [{"hex": "4AAAAB", "flight": "SEJUK", "lat": 62.190216, "lon": 25.734049, "alt": 1000, "speed": 92.7, "last_seen": "02.08.2026 11:52 UTC"}, {"hex": "46129D", "flight": "OHHBH", "lat": 62.177765, "lon": 25.749308, "alt": 1225, "speed": 93.3, "last_seen": "02.08.2026 11:50 UTC"}, {"hex": "4AAAA8", "flight": "SEJUH", "lat": 62.233638, "lon": 25.781849, "alt": 700, "speed": 67.2, "last_seen": "02.08.2026 11:49 UTC"}, {"hex": "463AEA", "flight": "JEF11", "lat": 61.444016, "lon": 25.576859, "alt": 20950, "speed": 388.6, "last_seen": "02.08.2026 11:46 UTC"}, {"hex": "4AA34D", "flight": "SEHZM", "lat": 62.194336, "lon": 25.739543, "alt": 925, "speed": 73.7, "last_seen": "02.08.2026 11:44 UTC"}, {"hex": "44B0B4", "flight": "OOLET", "lat": 62.141052, "lon": 25.641479, "alt": 13175, "speed": 247.0, "last_seen": "02.08.2026 11:42 UTC"}, {"hex": "4601F2", "flight": "FIN26B", "lat": 61.258759, "lon": 25.802373, "alt": 15125, "speed": 269.9, "last_seen": "02.08.2026 11:22 UTC"}, {"hex": "461F55", "flight": "FIN70", "lat": 61.71991, "lon": 25.290135, "alt": 28000, "speed": 399.1, "last_seen": "02.08.2026 10:34 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.060743, "lon": 26.233114, "alt": 7800, "speed": 113.1, "last_seen": "02.08.2026 09:51 UTC"}, {"hex": "4601F3", "flight": "FIN286", "lat": 61.91748, "lon": 25.559398, "alt": 12175, "speed": 198.3, "last_seen": "02.08.2026 09:31 UTC"}, {"hex": "4612C7", "flight": "HCX11", "lat": 62.215157, "lon": 25.737375, "alt": 1350, "speed": 113.3, "last_seen": "02.08.2026 09:10 UTC"}, {"hex": "4AAA98", "flight": "-", "lat": 62.184386, "lon": 25.703465, "alt": 1450, "speed": 89.8, "last_seen": "02.08.2026 08:39 UTC"}, {"hex": "4613F6", "flight": "HCX32", "lat": 62.301407, "lon": 25.757955, "alt": 1375, "speed": 136.5, "last_seen": "02.08.2026 08:33 UTC"}, {"hex": "4B3871", "flight": "HCX72", "lat": 61.34523, "lon": 25.547333, "alt": 28025, "speed": 380.9, "last_seen": "02.08.2026 07:42 UTC"}, {"hex": "46141B", "flight": "OHHPZ", "lat": 62.168747, "lon": 25.74351, "alt": 1125, "speed": 107.5, "last_seen": "02.08.2026 07:06 UTC"}, {"hex": "4612E8", "flight": "HCX21", "lat": 62.168093, "lon": 25.746988, "alt": 1350, "speed": 105.1, "last_seen": "02.08.2026 07:03 UTC"}, {"hex": "4AA158", "flight": "SEHJX", "lat": 62.189438, "lon": 25.729879, "alt": 1200, "speed": 83.5, "last_seen": "02.08.2026 06:47 UTC"}, {"hex": "46147F", "flight": "OHHTV", "lat": 62.257194, "lon": 25.720262, "alt": 1250, "speed": 87.8, "last_seen": "02.08.2026 06:26 UTC"}, {"hex": "4613F0", "flight": "OHHOI", "lat": 62.186966, "lon": 25.756022, "alt": 1600, "speed": 94.0, "last_seen": "02.08.2026 06:24 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.183222, "lon": 25.729875, "alt": "-", "speed": 85.1, "last_seen": "02.08.2026 06:05 UTC"}];
+const aircraft = [{"hex": "461F30", "flight": "FIN5KR", "lat": 61.682373, "lon": 25.322505, "alt": 25300, "speed": 354.2, "last_seen": "02.08.2026 12:00 UTC"}, {"hex": "4613F0", "flight": "OHHOI", "lat": 62.235221, "lon": 25.790088, "alt": 650, "speed": 94.4, "last_seen": "02.08.2026 11:58 UTC"}, {"hex": "4AAAAB", "flight": "SEJUK", "lat": 62.190216, "lon": 25.734049, "alt": 1000, "speed": 92.7, "last_seen": "02.08.2026 11:52 UTC"}, {"hex": "46129D", "flight": "OHHBH", "lat": 62.177765, "lon": 25.749308, "alt": 1225, "speed": 93.3, "last_seen": "02.08.2026 11:50 UTC"}, {"hex": "4AAAA8", "flight": "SEJUH", "lat": 62.233638, "lon": 25.781849, "alt": 700, "speed": 67.2, "last_seen": "02.08.2026 11:49 UTC"}, {"hex": "463AEA", "flight": "JEF11", "lat": 61.444016, "lon": 25.576859, "alt": 20950, "speed": 388.6, "last_seen": "02.08.2026 11:46 UTC"}, {"hex": "4AA34D", "flight": "SEHZM", "lat": 62.194336, "lon": 25.739543, "alt": 925, "speed": 73.7, "last_seen": "02.08.2026 11:44 UTC"}, {"hex": "44B0B4", "flight": "OOLET", "lat": 62.141052, "lon": 25.641479, "alt": 13175, "speed": 247.0, "last_seen": "02.08.2026 11:42 UTC"}, {"hex": "4601F2", "flight": "FIN26B", "lat": 61.258759, "lon": 25.802373, "alt": 15125, "speed": 269.9, "last_seen": "02.08.2026 11:22 UTC"}, {"hex": "461F55", "flight": "FIN70", "lat": 61.71991, "lon": 25.290135, "alt": 28000, "speed": 399.1, "last_seen": "02.08.2026 10:34 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.060743, "lon": 26.233114, "alt": 7800, "speed": 113.1, "last_seen": "02.08.2026 09:51 UTC"}, {"hex": "4601F3", "flight": "FIN286", "lat": 61.91748, "lon": 25.559398, "alt": 12175, "speed": 198.3, "last_seen": "02.08.2026 09:31 UTC"}, {"hex": "4612C7", "flight": "HCX11", "lat": 62.215157, "lon": 25.737375, "alt": 1350, "speed": 113.3, "last_seen": "02.08.2026 09:10 UTC"}, {"hex": "4AAA98", "flight": "-", "lat": 62.184386, "lon": 25.703465, "alt": 1450, "speed": 89.8, "last_seen": "02.08.2026 08:39 UTC"}, {"hex": "4613F6", "flight": "HCX32", "lat": 62.301407, "lon": 25.757955, "alt": 1375, "speed": 136.5, "last_seen": "02.08.2026 08:33 UTC"}, {"hex": "4B3871", "flight": "HCX72", "lat": 61.34523, "lon": 25.547333, "alt": 28025, "speed": 380.9, "last_seen": "02.08.2026 07:42 UTC"}, {"hex": "46141B", "flight": "OHHPZ", "lat": 62.168747, "lon": 25.74351, "alt": 1125, "speed": 107.5, "last_seen": "02.08.2026 07:06 UTC"}, {"hex": "4612E8", "flight": "HCX21", "lat": 62.168093, "lon": 25.746988, "alt": 1350, "speed": 105.1, "last_seen": "02.08.2026 07:03 UTC"}, {"hex": "4AA158", "flight": "SEHJX", "lat": 62.189438, "lon": 25.729879, "alt": 1200, "speed": 83.5, "last_seen": "02.08.2026 06:47 UTC"}, {"hex": "46147F", "flight": "OHHTV", "lat": 62.257194, "lon": 25.720262, "alt": 1250, "speed": 87.8, "last_seen": "02.08.2026 06:26 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.183222, "lon": 25.729875, "alt": "-", "speed": 85.1, "last_seen": "02.08.2026 06:05 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
