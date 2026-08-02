@@ -54,16 +54,16 @@
     },
     "781555": {
       "hex": "781555",
-      "flight": "",
+      "flight": "CHH754",
       "reg": "B-303C",
       "type": "A333",
       "lat": null,
       "lon": null,
-      "alt": null,
-      "speed": null,
-      "track": null,
+      "alt": 35000,
+      "speed": 510.0,
+      "track": 74.36,
       "seen_first": "2026-08-02T03:04:01.380084",
-      "last_seen": "2026-08-02T03:04:01.380084"
+      "last_seen": "2026-08-02T13:35:01.665297"
     },
     "461e16": {
       "hex": "461e16",
@@ -343,13 +343,13 @@
       "flight": "OHCAZ",
       "reg": "OH-CAZ",
       "type": "C172",
-      "lat": 62.060743,
-      "lon": 26.233114,
-      "alt": 7800,
-      "speed": 113.1,
-      "track": 128.9,
+      "lat": 62.185822,
+      "lon": 26.157633,
+      "alt": 2950,
+      "speed": 109.5,
+      "track": 320.93,
       "seen_first": "2026-08-02T09:39:01.682752",
-      "last_seen": "2026-08-02T09:51:01.960940"
+      "last_seen": "2026-08-02T13:35:01.665297"
     },
     "502d7d": {
       "hex": "502d7d",
@@ -519,11 +519,24 @@
       "track": 43.9,
       "seen_first": "2026-08-02T13:06:02.195021",
       "last_seen": "2026-08-02T13:12:01.785780"
+    },
+    "781318": {
+      "hex": "781318",
+      "flight": "CHH752",
+      "reg": "B-1048",
+      "type": "A333",
+      "lat": null,
+      "lon": null,
+      "alt": 37000,
+      "speed": 502.0,
+      "track": 82.97,
+      "seen_first": "2026-08-02T13:33:01.476575",
+      "last_seen": "2026-08-02T13:34:01.455211"
     }
   },
   "summary": {
-    "total_unique_aircraft": 40,
-    "last_seen_live": 0,
-    "updated": "2026-08-02T13:30:01.364285"
+    "total_unique_aircraft": 41,
+    "last_seen_live": 2,
+    "updated": "2026-08-02T13:35:01.665297"
   }
 }
