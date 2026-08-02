@@ -122,13 +122,13 @@
       "flight": "OHHOI",
       "reg": "OH-HOI",
       "type": "AS50",
-      "lat": 62.235221,
-      "lon": 25.790088,
-      "alt": 650,
-      "speed": 94.4,
-      "track": 15.36,
+      "lat": 62.234337,
+      "lon": 25.753538,
+      "alt": 1200,
+      "speed": 82.2,
+      "track": 256.64,
       "seen_first": "2026-08-02T06:14:01.799466",
-      "last_seen": "2026-08-02T11:58:02.086533"
+      "last_seen": "2026-08-02T12:03:02.037346"
     },
     "4b431b": {
       "hex": "4b431b",
@@ -137,24 +137,24 @@
       "type": "AS50",
       "lat": null,
       "lon": null,
-      "alt": 1925,
+      "alt": 1450,
       "speed": null,
       "track": null,
       "seen_first": "2026-08-02T06:22:02.152509",
-      "last_seen": "2026-08-02T07:00:02.209598"
+      "last_seen": "2026-08-02T12:04:02.109856"
     },
     "4612c7": {
       "hex": "4612c7",
       "flight": "HCX11",
       "reg": "OH-HCX",
       "type": "EC30",
-      "lat": 62.215157,
-      "lon": 25.737375,
-      "alt": 1350,
-      "speed": 113.3,
-      "track": 209.05,
+      "lat": 62.241226,
+      "lon": 25.779947,
+      "alt": 1100,
+      "speed": 85.8,
+      "track": 130.75,
       "seen_first": "2026-08-02T06:23:02.080959",
-      "last_seen": "2026-08-02T09:10:01.557383"
+      "last_seen": "2026-08-02T12:05:02.228612"
     },
     "4613f6": {
       "hex": "4613f6",
@@ -447,18 +447,44 @@
       "flight": "FIN5KR",
       "reg": "OH-LVC",
       "type": "A319",
-      "lat": 61.682373,
-      "lon": 25.322505,
-      "alt": 25300,
-      "speed": 354.2,
-      "track": 182.1,
+      "lat": 61.56189,
+      "lon": 25.312794,
+      "alt": 22875,
+      "speed": 337.2,
+      "track": 182.04,
       "seen_first": "2026-08-02T11:58:02.086533",
-      "last_seen": "2026-08-02T12:00:01.848815"
+      "last_seen": "2026-08-02T12:01:02.125202"
+    },
+    "461f69": {
+      "hex": "461f69",
+      "flight": "FIN2PD",
+      "reg": "OH-LXH",
+      "type": "A320",
+      "lat": 61.623385,
+      "lon": 25.295308,
+      "alt": 27700,
+      "speed": 435.1,
+      "track": 181.45,
+      "seen_first": "2026-08-02T12:03:02.037346",
+      "last_seen": "2026-08-02T12:05:02.228612"
+    },
+    "48b9e4": {
+      "hex": "48b9e4",
+      "flight": "",
+      "reg": "SP-OPE",
+      "type": "P06T",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-08-02T12:04:02.109856",
+      "last_seen": "2026-08-02T12:05:02.228612"
     }
   },
   "summary": {
-    "total_unique_aircraft": 35,
-    "last_seen_live": 1,
-    "updated": "2026-08-02T12:00:01.848815"
+    "total_unique_aircraft": 37,
+    "last_seen_live": 3,
+    "updated": "2026-08-02T12:05:02.228612"
   }
 }
