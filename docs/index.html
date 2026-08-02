@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">02.08.2026 06:25 UTC</div>
+        <div class="value">02.08.2026 06:30 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHHTV</div>
+                    <div class="meta">ICAO 46147F · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge low">1250 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>87.8 kt</b></div>
+                    <div><span>Track</span><b>232.87°</b></div>
+                    <div><span>Position</span><b>62.2572, 25.7203</b></div>
+                    <div><span>Last seen</span><b>02.08.2026 06:26 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=46147f" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -325,30 +349,6 @@ footer {
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HCX" target="_blank" rel="noopener">
                 Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">OHHTV</div>
-                    <div class="meta">ICAO 46147F · REG - · TYPE -</div>
-                </div>
-                <div class="alt-badge low">1300 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>84.2 kt</b></div>
-                    <div><span>Track</span><b>226.44°</b></div>
-                    <div><span>Position</span><b>62.2659, 25.7387</b></div>
-                    <div><span>Last seen</span><b>02.08.2026 06:25 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=46147f" target="_blank" rel="noopener">
-                View aircraft info
             </a>
         </article>
         
@@ -707,7 +707,7 @@ B-221S  CKK606EGSSZSPD170346141232ER
 </section>
 
 <script>
-const aircraft = [{"hex": "4612C7", "flight": "HCX11", "lat": 62.234197, "lon": 25.778151, "alt": 625, "speed": 74.5, "last_seen": "02.08.2026 06:25 UTC"}, {"hex": "46147F", "flight": "OHHTV", "lat": 62.265946, "lon": 25.738748, "alt": 1300, "speed": 84.2, "last_seen": "02.08.2026 06:25 UTC"}, {"hex": "4613F0", "flight": "OHHOI", "lat": 62.186966, "lon": 25.756022, "alt": 1600, "speed": 94.0, "last_seen": "02.08.2026 06:24 UTC"}, {"hex": "4613F6", "flight": "HCX32", "lat": 62.234482, "lon": 25.778809, "alt": 650, "speed": 74.3, "last_seen": "02.08.2026 06:24 UTC"}, {"hex": "4612E8", "flight": "HCX21", "lat": 62.232707, "lon": 25.777306, "alt": 675, "speed": 50.0, "last_seen": "02.08.2026 06:24 UTC"}, {"hex": "46129D", "flight": "OHHBH", "lat": 62.189833, "lon": 25.745932, "alt": 1550, "speed": 82.9, "last_seen": "02.08.2026 06:21 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.183222, "lon": 25.729875, "alt": "-", "speed": 85.1, "last_seen": "02.08.2026 06:05 UTC"}, {"hex": "4601F3", "flight": "FIN489", "lat": 62.460813, "lon": 26.288276, "alt": 16975, "speed": 292.5, "last_seen": "02.08.2026 04:28 UTC"}];
+const aircraft = [{"hex": "46147F", "flight": "OHHTV", "lat": 62.257194, "lon": 25.720262, "alt": 1250, "speed": 87.8, "last_seen": "02.08.2026 06:26 UTC"}, {"hex": "4612C7", "flight": "HCX11", "lat": 62.234197, "lon": 25.778151, "alt": 625, "speed": 74.5, "last_seen": "02.08.2026 06:25 UTC"}, {"hex": "4613F0", "flight": "OHHOI", "lat": 62.186966, "lon": 25.756022, "alt": 1600, "speed": 94.0, "last_seen": "02.08.2026 06:24 UTC"}, {"hex": "4613F6", "flight": "HCX32", "lat": 62.234482, "lon": 25.778809, "alt": 650, "speed": 74.3, "last_seen": "02.08.2026 06:24 UTC"}, {"hex": "4612E8", "flight": "HCX21", "lat": 62.232707, "lon": 25.777306, "alt": 675, "speed": 50.0, "last_seen": "02.08.2026 06:24 UTC"}, {"hex": "46129D", "flight": "OHHBH", "lat": 62.189833, "lon": 25.745932, "alt": 1550, "speed": 82.9, "last_seen": "02.08.2026 06:21 UTC"}, {"hex": "4613FC", "flight": "OHHOU", "lat": 62.183222, "lon": 25.729875, "alt": "-", "speed": 85.1, "last_seen": "02.08.2026 06:05 UTC"}, {"hex": "4601F3", "flight": "FIN489", "lat": 62.460813, "lon": 26.288276, "alt": 16975, "speed": 292.5, "last_seen": "02.08.2026 04:28 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
