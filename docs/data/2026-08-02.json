@@ -96,13 +96,13 @@
       "flight": "OHHBH",
       "reg": "OH-HBH",
       "type": "R44",
-      "lat": 62.204086,
-      "lon": 25.753072,
-      "alt": 1400,
-      "speed": 87.3,
-      "track": 189.89,
+      "lat": 62.189833,
+      "lon": 25.745932,
+      "alt": 1550,
+      "speed": 82.9,
+      "track": 199.75,
       "seen_first": "2026-08-02T05:58:02.101677",
-      "last_seen": "2026-08-02T06:20:01.692789"
+      "last_seen": "2026-08-02T06:21:01.223126"
     },
     "4613fc": {
       "hex": "4613fc",
@@ -119,21 +119,86 @@
     },
     "4613f0": {
       "hex": "4613f0",
-      "flight": "",
+      "flight": "OHHOI",
       "reg": "OH-HOI",
       "type": "AS50",
-      "lat": 62.234985,
-      "lon": 25.777486,
-      "alt": 625,
-      "speed": 45.7,
-      "track": 151.19,
+      "lat": 62.186966,
+      "lon": 25.756022,
+      "alt": 1600,
+      "speed": 94.0,
+      "track": 209.29,
       "seen_first": "2026-08-02T06:14:01.799466",
-      "last_seen": "2026-08-02T06:16:01.229553"
+      "last_seen": "2026-08-02T06:24:01.986862"
+    },
+    "4b431b": {
+      "hex": "4b431b",
+      "flight": "SWC984",
+      "reg": "HB-ZKT",
+      "type": "AS50",
+      "lat": null,
+      "lon": null,
+      "alt": 1700,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-08-02T06:22:02.152509",
+      "last_seen": "2026-08-02T06:25:01.930283"
+    },
+    "4612c7": {
+      "hex": "4612c7",
+      "flight": "HCX11",
+      "reg": "OH-HCX",
+      "type": "EC30",
+      "lat": 62.234197,
+      "lon": 25.778151,
+      "alt": 625,
+      "speed": 74.5,
+      "track": 139.9,
+      "seen_first": "2026-08-02T06:23:02.080959",
+      "last_seen": "2026-08-02T06:25:01.930283"
+    },
+    "4613f6": {
+      "hex": "4613f6",
+      "flight": "HCX32",
+      "reg": "OH-HOO",
+      "type": "EC30",
+      "lat": 62.234482,
+      "lon": 25.778809,
+      "alt": 650,
+      "speed": 74.3,
+      "track": 151.02,
+      "seen_first": "2026-08-02T06:23:02.080959",
+      "last_seen": "2026-08-02T06:24:01.986862"
+    },
+    "4612e8": {
+      "hex": "4612e8",
+      "flight": "HCX21",
+      "reg": "OH-HEE",
+      "type": "EC20",
+      "lat": 62.232707,
+      "lon": 25.777306,
+      "alt": 675,
+      "speed": 50.0,
+      "track": 143.13,
+      "seen_first": "2026-08-02T06:23:02.080959",
+      "last_seen": "2026-08-02T06:24:01.986862"
+    },
+    "46147f": {
+      "hex": "46147f",
+      "flight": "OHHTV",
+      "reg": null,
+      "type": null,
+      "lat": 62.265946,
+      "lon": 25.738748,
+      "alt": 1300,
+      "speed": 84.2,
+      "track": 226.44,
+      "seen_first": "2026-08-02T06:23:02.080959",
+      "last_seen": "2026-08-02T06:25:01.930283"
     }
   },
   "summary": {
-    "total_unique_aircraft": 10,
-    "last_seen_live": 1,
-    "updated": "2026-08-02T06:20:01.692789"
+    "total_unique_aircraft": 15,
+    "last_seen_live": 3,
+    "updated": "2026-08-02T06:25:01.930283"
   }
 }
