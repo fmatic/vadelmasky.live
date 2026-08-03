@@ -41,16 +41,16 @@
     },
     "4601fa": {
       "hex": "4601fa",
-      "flight": "FIN4QA",
+      "flight": "FIN489",
       "reg": "OH-ATM",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 16000,
-      "speed": null,
-      "track": null,
+      "lat": 61.65477,
+      "lon": 25.810122,
+      "alt": 18000,
+      "speed": 284.9,
+      "track": 31.07,
       "seen_first": "2026-08-03T02:49:01.496441",
-      "last_seen": "2026-08-03T02:50:01.344595"
+      "last_seen": "2026-08-03T06:20:01.694673"
     },
     "7813a0": {
       "hex": "7813a0",
@@ -181,11 +181,24 @@
       "track": 187.91,
       "seen_first": "2026-08-03T05:57:01.911891",
       "last_seen": "2026-08-03T06:01:01.547349"
+    },
+    "46789d": {
+      "hex": "46789d",
+      "flight": "K06",
+      "reg": "GO-7",
+      "type": "G115",
+      "lat": 62.195186,
+      "lon": 25.756601,
+      "alt": 925,
+      "speed": 118.1,
+      "track": 181.94,
+      "seen_first": "2026-08-03T06:18:01.976683",
+      "last_seen": "2026-08-03T06:20:01.694673"
     }
   },
   "summary": {
-    "total_unique_aircraft": 14,
-    "last_seen_live": 0,
-    "updated": "2026-08-03T06:15:01.852530"
+    "total_unique_aircraft": 15,
+    "last_seen_live": 2,
+    "updated": "2026-08-03T06:20:01.694673"
   }
 }
