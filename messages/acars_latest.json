@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.08.2026 08:03 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "H1",
-      "msgno": "O06A",
-      "text": "SB0122BA_B-2095  ZBAAEGPK661\r\n 61877 0269230808 32001-480276097010W/X010013"
-    },
-    {
       "time": "03.08.2026 11:30 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -328,6 +317,17 @@
       "level": -30.1,
       "label": "_d",
       "msgno": "S31A",
+      "text": "No text"
+    },
+    {
+      "time": "04.08.2026 11:10 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -26.9,
+      "label": "_d",
+      "msgno": "S32A",
       "text": "No text"
     }
   ]
