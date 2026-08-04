@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.08.2026 14:05 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFD",
-      "freq": 131.725,
-      "level": -34.8,
-      "label": "5V",
-      "msgno": "S38A",
-      "text": "No text"
-    },
-    {
       "time": "02.08.2026 20:37 UTC",
       "source": "ACARS",
       "flight": "CA3158",
@@ -329,6 +318,17 @@
       "label": "B9",
       "msgno": "L15A",
       "text": "/EFKU.TI2/024EFKUA873F"
+    },
+    {
+      "time": "04.08.2026 10:31 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "Q0",
+      "msgno": "S27A",
+      "text": "No text"
     }
   ]
 }

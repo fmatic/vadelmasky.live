@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">04.08.2026 10:30 UTC</div>
+        <div class="value">04.08.2026 10:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T21</div>
+                    <div class="meta">ICAO 467891 · REG PI-02 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge mid">16000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>234.9 kt</b></div>
+                    <div><span>Track</span><b>231.57°</b></div>
+                    <div><span>Position</span><b>62.1378, 25.6297</b></div>
+                    <div><span>Last seen</span><b>04.08.2026 10:31 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-02" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -300,30 +324,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">T21</div>
-                    <div class="meta">ICAO 467891 · REG PI-02 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge mid">16000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>234.9 kt</b></div>
-                    <div><span>Track</span><b>231.57°</b></div>
-                    <div><span>Position</span><b>62.1622, 25.6958</b></div>
-                    <div><span>Last seen</span><b>04.08.2026 10:30 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-02" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -698,6 +698,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">N70285</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATH · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">04.08.2026 10:31 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg S27A · Level -33.4 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">N70365</div>
                     <div class="acars-meta">
                         ACARS · Tail OH-ATE · 131.825 MHz
@@ -937,29 +955,11 @@ B00170164  96500  01 807
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA3157</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6113 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">04.08.2026 03:32 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label B9 · Msg M13A · Level -33.5 dB
-            </div>
-
-            <div class="acars-text">/ESSA.TI2/040ESSAAA22C</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F5", "flight": "FIN6LE", "lat": 62.312498, "lon": 25.83266, "alt": 2200, "speed": 158.2, "last_seen": "04.08.2026 10:30 UTC"}, {"hex": "467891", "flight": "T21", "lat": 62.162201, "lon": 25.695801, "alt": 16000, "speed": 234.9, "last_seen": "04.08.2026 10:30 UTC"}, {"hex": "467896", "flight": "N31", "lat": 62.033324, "lon": 25.86263, "alt": 15025, "speed": 280.0, "last_seen": "04.08.2026 09:54 UTC"}, {"hex": "467899", "flight": "V51", "lat": 62.273487, "lon": 25.716459, "alt": 1200, "speed": 122.0, "last_seen": "04.08.2026 08:27 UTC"}, {"hex": "461F62", "flight": "FIN14J", "lat": 61.657928, "lon": 25.291214, "alt": 27300, "speed": 394.3, "last_seen": "04.08.2026 06:54 UTC"}, {"hex": "463DD1", "flight": "OHXKR", "lat": 62.132355, "lon": 25.705566, "alt": 1325, "speed": 53.3, "last_seen": "04.08.2026 06:50 UTC"}, {"hex": "7805DD", "flight": "CKK249", "lat": 62.021667, "lon": 3.058333, "alt": 34000, "speed": 416.0, "last_seen": "04.08.2026 06:42 UTC"}, {"hex": "4601FD", "flight": "FIN5NB", "lat": 62.420242, "lon": 25.97758, "alt": 16000, "speed": 287.3, "last_seen": "04.08.2026 06:13 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.952742, "lon": 25.62734, "alt": 16000, "speed": 201.6, "last_seen": "04.08.2026 03:24 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.203996, "lon": 25.285136, "alt": 26600, "speed": 342.2, "last_seen": "04.08.2026 03:12 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.516734, "lon": 25.289103, "alt": 24950, "speed": 400.4, "last_seen": "04.08.2026 03:05 UTC"}];
+const aircraft = [{"hex": "467891", "flight": "T21", "lat": 62.137802, "lon": 25.629679, "alt": 16000, "speed": 234.9, "last_seen": "04.08.2026 10:31 UTC"}, {"hex": "4601F5", "flight": "FIN6LE", "lat": 62.312498, "lon": 25.83266, "alt": 2200, "speed": 158.2, "last_seen": "04.08.2026 10:30 UTC"}, {"hex": "467896", "flight": "N31", "lat": 62.033324, "lon": 25.86263, "alt": 15025, "speed": 280.0, "last_seen": "04.08.2026 09:54 UTC"}, {"hex": "467899", "flight": "V51", "lat": 62.273487, "lon": 25.716459, "alt": 1200, "speed": 122.0, "last_seen": "04.08.2026 08:27 UTC"}, {"hex": "461F62", "flight": "FIN14J", "lat": 61.657928, "lon": 25.291214, "alt": 27300, "speed": 394.3, "last_seen": "04.08.2026 06:54 UTC"}, {"hex": "463DD1", "flight": "OHXKR", "lat": 62.132355, "lon": 25.705566, "alt": 1325, "speed": 53.3, "last_seen": "04.08.2026 06:50 UTC"}, {"hex": "7805DD", "flight": "CKK249", "lat": 62.021667, "lon": 3.058333, "alt": 34000, "speed": 416.0, "last_seen": "04.08.2026 06:42 UTC"}, {"hex": "4601FD", "flight": "FIN5NB", "lat": 62.420242, "lon": 25.97758, "alt": 16000, "speed": 287.3, "last_seen": "04.08.2026 06:13 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.952742, "lon": 25.62734, "alt": 16000, "speed": 201.6, "last_seen": "04.08.2026 03:24 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.203996, "lon": 25.285136, "alt": 26600, "speed": 342.2, "last_seen": "04.08.2026 03:12 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.516734, "lon": 25.289103, "alt": 24950, "speed": 400.4, "last_seen": "04.08.2026 03:05 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
