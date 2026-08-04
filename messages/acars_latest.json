@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.08.2026 11:31 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "Q0",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
-      "time": "03.08.2026 11:32 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "80",
-      "msgno": "M16A",
-      "text": "1201 ONRP   0285/03 EFHK/EFJY .OH-ATM\r\n/ON  1054/FOB 0014"
-    },
-    {
       "time": "03.08.2026 11:32 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "D16B",
       "text": "L/F2077.3,082.0,094.5/F3077.3,082.0,094.5/G1NH,ITT,FF,IG/G2096.8,0664.1,355,0088/G3095.1,0653.4,367,0105/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I218.82/**.,EOT,...,/"
+    },
+    {
+      "time": "04.08.2026 21:13 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "Q0",
+      "msgno": "S06A",
+      "text": "No text"
+    },
+    {
+      "time": "04.08.2026 21:13 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.3,
+      "label": "Q0",
+      "msgno": "S06A",
+      "text": "No text"
     }
   ]
 }
