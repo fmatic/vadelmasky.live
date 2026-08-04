@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">04.08.2026 06:05 UTC</div>
+        <div class="value">04.08.2026 06:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -295,7 +295,7 @@ footer {
                     <div><span>Speed</span><b>287.3 kt</b></div>
                     <div><span>Track</span><b>22.73°</b></div>
                     <div><span>Position</span><b>62.4202, 25.9776</b></div>
-                    <div><span>Last seen</span><b>04.08.2026 06:05 UTC</b></div>
+                    <div><span>Last seen</span><b>04.08.2026 06:10 UTC</b></div>
                 </div>
             </div>
 
@@ -318,8 +318,8 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>416.0 kt</b></div>
                     <div><span>Track</span><b>234.14°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>04.08.2026 06:05 UTC</b></div>
+                    <div><span>Position</span><b>62.0217, 3.0583</b></div>
+                    <div><span>Last seen</span><b>04.08.2026 06:10 UTC</b></div>
                 </div>
             </div>
 
@@ -550,6 +550,24 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CK0249</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-2077 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">04.08.2026 06:05 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 16 · Msg M68A · Level -31.3 dB
+            </div>
+
+            <div class="acars-text">POSA1N61613E 26352,AGIVU  ,054739,339,NISIX  ,063714,-52, 64, 304,834</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -794,30 +812,11 @@ B00170164  96500  01 807
 /OUT 0257/OFF 0300/FOB 0014/ETA 0340</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70286</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATM · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">03.08.2026 11:32 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 80 · Msg M18A · Level -33.8 dB
-            </div>
-
-            <div class="acars-text">1001 OUTRP  0286/03 EFJY/EFHK .OH-ATM
-/OUT 1123/FOB 0015/BRD       /UNT LITERS  /TYP A </div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FD", "flight": "FIN5NB", "lat": 62.420242, "lon": 25.97758, "alt": 16000, "speed": 287.3, "last_seen": "04.08.2026 06:05 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.952742, "lon": 25.62734, "alt": 16000, "speed": 201.6, "last_seen": "04.08.2026 03:24 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.203996, "lon": 25.285136, "alt": 26600, "speed": 342.2, "last_seen": "04.08.2026 03:12 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.516734, "lon": 25.289103, "alt": 24950, "speed": 400.4, "last_seen": "04.08.2026 03:05 UTC"}];
+const aircraft = [{"hex": "4601FD", "flight": "FIN5NB", "lat": 62.420242, "lon": 25.97758, "alt": 16000, "speed": 287.3, "last_seen": "04.08.2026 06:10 UTC"}, {"hex": "7805DD", "flight": "CKK249", "lat": 62.021667, "lon": 3.058333, "alt": 34000, "speed": 416.0, "last_seen": "04.08.2026 06:10 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.952742, "lon": 25.62734, "alt": 16000, "speed": 201.6, "last_seen": "04.08.2026 03:24 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.203996, "lon": 25.285136, "alt": 26600, "speed": 342.2, "last_seen": "04.08.2026 03:12 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.516734, "lon": 25.289103, "alt": 24950, "speed": 400.4, "last_seen": "04.08.2026 03:05 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
