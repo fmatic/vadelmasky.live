@@ -1,105 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.08.2026 20:37 UTC",
-      "source": "ACARS",
-      "flight": "CA3158",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -26.5,
-      "label": "H1",
-      "msgno": "C23A",
-      "text": ".1/WRN/WN2608022037  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "02.08.2026 20:38 UTC",
-      "source": "ACARS",
-      "flight": "CA3158",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -31.2,
-      "label": "H1",
-      "msgno": "C24A",
-      "text": ".1/FLR/FR2608022037  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
-      "time": "02.08.2026 21:46 UTC",
-      "source": "ACARS",
-      "flight": "CA1160",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -25.2,
-      "label": "Q0",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
-      "time": "03.08.2026 02:50 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -21.7,
-      "label": "Q0",
-      "msgno": "S13A",
-      "text": "No text"
-    },
-    {
-      "time": "03.08.2026 02:50 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -22.9,
-      "label": "_d",
-      "msgno": "S14A",
-      "text": "No text"
-    },
-    {
-      "time": "03.08.2026 02:50 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -24.7,
-      "label": "SA",
-      "msgno": "S15A",
-      "text": "0EV025506VS/"
-    },
-    {
-      "time": "03.08.2026 02:51 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -28.5,
-      "label": "80",
-      "msgno": "M56A",
-      "text": "TXT\r\nCOPY THAT"
-    },
-    {
-      "time": "03.08.2026 03:02 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -29.2,
-      "label": "Q0",
-      "msgno": "M02A",
-      "text": "No text"
-    },
-    {
-      "time": "03.08.2026 03:02 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -29.0,
-      "label": "SA",
-      "msgno": "S03A",
-      "text": "0EV030233V"
-    },
-    {
       "time": "03.08.2026 08:03 UTC",
       "source": "ACARS",
       "flight": "CA3153",
@@ -328,6 +229,105 @@
       "level": -33.4,
       "label": "Q0",
       "msgno": "S27A",
+      "text": "No text"
+    },
+    {
+      "time": "04.08.2026 11:06 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "Q0",
+      "msgno": "S28A",
+      "text": "No text"
+    },
+    {
+      "time": "04.08.2026 11:07 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -19.8,
+      "label": "80",
+      "msgno": "M40B",
+      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
+    },
+    {
+      "time": "04.08.2026 11:08 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -25.3,
+      "label": "80",
+      "msgno": "M41A",
+      "text": "1201 ONRP   0285/04 EFHK/EFJY .OH-ATH\r\n/ON  1032/FOB 0014"
+    },
+    {
+      "time": "04.08.2026 11:08 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -26.9,
+      "label": "80",
+      "msgno": "M42A",
+      "text": "1301 INRP   0285/04 EFHK/EFJY .OH-ATH\r\n/ON  1032/IN  1034/FOB 0015"
+    },
+    {
+      "time": "04.08.2026 11:08 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -22.7,
+      "label": "80",
+      "msgno": "M43A",
+      "text": "1001 OUTRP  0286/04 EFJY/EFHK .OH-ATH\r\n/OUT 1101/FOB 0015/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "04.08.2026 11:09 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.725,
+      "level": -39.8,
+      "label": "B9",
+      "msgno": "L19A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "04.08.2026 11:09 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -22.7,
+      "label": "B9",
+      "msgno": "L19A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "04.08.2026 11:09 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -22.4,
+      "label": "_d",
+      "msgno": "S30A",
+      "text": "No text"
+    },
+    {
+      "time": "04.08.2026 11:10 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "_d",
+      "msgno": "S31A",
       "text": "No text"
     }
   ]
