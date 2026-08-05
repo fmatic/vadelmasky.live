@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.08.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -22.7,
-      "label": "80",
-      "msgno": "M43A",
-      "text": "1001 OUTRP  0286/04 EFJY/EFHK .OH-ATH\r\n/OUT 1101/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "04.08.2026 11:09 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.725,
-      "level": -39.8,
-      "label": "B9",
-      "msgno": "L19A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
       "time": "04.08.2026 11:09 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -328,6 +306,28 @@
       "level": -36.0,
       "label": "5V",
       "msgno": "S07A",
+      "text": "No text"
+    },
+    {
+      "time": "05.08.2026 11:51 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "Q0",
+      "msgno": "S20A",
+      "text": "No text"
+    },
+    {
+      "time": "05.08.2026 11:52 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "_d",
+      "msgno": "S21A",
       "text": "No text"
     }
   ]
