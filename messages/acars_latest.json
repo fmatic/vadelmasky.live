@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.08.2026 09:39 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "SA",
-      "msgno": "S83A",
-      "text": "0EV093949V"
-    },
-    {
-      "time": "04.08.2026 09:39 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -39.9,
-      "label": "B9",
-      "msgno": "L15A",
-      "text": "/EFKU.TI2/024EFKUA873F"
-    },
-    {
-      "time": "04.08.2026 10:31 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "Q0",
-      "msgno": "S27A",
-      "text": "No text"
-    },
-    {
-      "time": "04.08.2026 11:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -29.5,
-      "label": "Q0",
-      "msgno": "S28A",
-      "text": "No text"
-    },
-    {
-      "time": "04.08.2026 11:07 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -19.8,
-      "label": "80",
-      "msgno": "M40B",
-      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
-      "time": "04.08.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -25.3,
-      "label": "80",
-      "msgno": "M41A",
-      "text": "1201 ONRP   0285/04 EFHK/EFJY .OH-ATH\r\n/ON  1032/FOB 0014"
-    },
-    {
-      "time": "04.08.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -26.9,
-      "label": "80",
-      "msgno": "M42A",
-      "text": "1301 INRP   0285/04 EFHK/EFJY .OH-ATH\r\n/ON  1032/IN  1034/FOB 0015"
-    },
-    {
       "time": "04.08.2026 11:08 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -328,6 +251,83 @@
       "level": -32.6,
       "label": "_d",
       "msgno": "S57A",
+      "text": "No text"
+    },
+    {
+      "time": "05.08.2026 11:16 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "H1",
+      "msgno": "D49A",
+      "text": "<301>JEG9   2\r\n B-20ECDKH1607   TA  45050826021742ZSPDEFHK  261\r\n 31155 1218083363361DKH4BACMF1004\r\nTA042( 1 1 )2) ) ) () 822(\r\nER 1 1 )2) ) ) ()\r\nTA0048 1 1 012 0 6 0216717\r\nER 1 1 0 0 0 8 02\r\nTA   165  33"
+    },
+    {
+      "time": "05.08.2026 11:16 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "H1",
+      "msgno": "D49C",
+      "text": " )  ) 9)  )  ) 9)  )\r\nER 9)  )  ) 9)  )  ) 9)  )\r\nTA  0  2  2 83  0 26 92100\r\nER 15 14  2  2  0  0 23 17\r\nTA  4)   )  9)  9)14)14)21)14)\r\nER  4)   )  9)  9)14)14)21)14)\r\nTA  30  32  88  53146149198192\r\nER  "
+    },
+    {
+      "time": "05.08.2026 11:16 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -38.3,
+      "label": "H1",
+      "msgno": "D49D",
+      "text": "26  28 128 128 45 46165166\r\nTA 4)   4)  9)  3)   )  1) 4) 2)  (  )  )\r\nER 4)   4)  9)  3)   )  1) 4) 2)  (  )  )\r\nTA 35   30  93  33  17  20 49 14  2  2  2\r\nER 55   58  49 -18  11  12 45 98 98 58 98\r\nTA  ( "
+    },
+    {
+      "time": "05.08.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -39.2,
+      "label": "H1",
+      "msgno": "D49E",
+      "text": " ( 9) 398)1814)   0  1 567  0106 98 9)\r\nER  (  ( 9) 398)1814)   0 23 563227 79 55 9)\r\nTA  2  2 501028715633   0  1 567  0110 98 90\r\nER 70 90  0 6141 9345   0 23 563205 80 56 35\r\n  26  24   )  (  24  24   ) "
+    },
+    {
+      "time": "05.08.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "H1",
+      "msgno": "D49F",
+      "text": " (\r\n  19  1  27 24\r\n  26  23  1601  24  23  2401\r\n  25  23  18  2  23  23  22 31\r\n  26  23  1801  23  23  1701\r\n  26  23  18  (  24  23  16  (\r\n  26  23  19  2  23  23  18 25\r\n  19  17\r\n  28  23  19  (  23 "
+    },
+    {
+      "time": "05.08.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "H1",
+      "msgno": "D49G",
+      "text": " 23  13  (\r\n  19  13\r\nTA22 10 112222\r\nER22 10 112222\r\nTA221     0\r\nER221     0"
+    },
+    {
+      "time": "05.08.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-20EC",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "5V",
+      "msgno": "S07A",
       "text": "No text"
     }
   ]
