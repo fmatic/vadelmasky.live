@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,22 +256,22 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">25525 ft</div>
+        <div class="value">26175 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">395.0 kt</div>
+        <div class="value">395.2 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">05.08.2026 06:20 UTC</div>
+        <div class="value">05.08.2026 06:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN14J</div>
+                    <div class="meta">ICAO 461E1A · REG OH-LKK · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">26175 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>395.2 kt</b></div>
+                    <div><span>Track</span><b>181.74°</b></div>
+                    <div><span>Position</span><b>61.6535, 25.2728</b></div>
+                    <div><span>Last seen</span><b>05.08.2026 06:24 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKK" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -723,7 +747,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4678A3", "flight": "-", "lat": 62.259521, "lon": 25.708618, "alt": 1050, "speed": 112.0, "last_seen": "05.08.2026 06:09 UTC"}, {"hex": "4678A9", "flight": "-", "lat": 62.258125, "lon": 25.700296, "alt": 1150, "speed": 101.0, "last_seen": "05.08.2026 06:09 UTC"}, {"hex": "461F6E", "flight": "FIN434", "lat": 61.509472, "lon": 25.269368, "alt": 24300, "speed": 395.0, "last_seen": "05.08.2026 05:21 UTC"}, {"hex": "4601FA", "flight": "FIN8KH", "lat": 61.925649, "lon": 25.582581, "alt": 18000, "speed": 214.4, "last_seen": "05.08.2026 03:20 UTC"}];
+const aircraft = [{"hex": "461E1A", "flight": "FIN14J", "lat": 61.653488, "lon": 25.272773, "alt": 26175, "speed": 395.2, "last_seen": "05.08.2026 06:24 UTC"}, {"hex": "4678A3", "flight": "-", "lat": 62.259521, "lon": 25.708618, "alt": 1050, "speed": 112.0, "last_seen": "05.08.2026 06:09 UTC"}, {"hex": "4678A9", "flight": "-", "lat": 62.258125, "lon": 25.700296, "alt": 1150, "speed": 101.0, "last_seen": "05.08.2026 06:09 UTC"}, {"hex": "461F6E", "flight": "FIN434", "lat": 61.509472, "lon": 25.269368, "alt": 24300, "speed": 395.0, "last_seen": "05.08.2026 05:21 UTC"}, {"hex": "4601FA", "flight": "FIN8KH", "lat": 61.925649, "lon": 25.582581, "alt": 18000, "speed": 214.4, "last_seen": "05.08.2026 03:20 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
