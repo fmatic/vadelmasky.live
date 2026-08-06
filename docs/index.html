@@ -246,12 +246,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">7</div>
+        <div class="value">8</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -266,12 +266,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">396.0 kt</div>
+        <div class="value">400.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">06.08.2026 03:05 UTC</div>
+        <div class="value">06.08.2026 03:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8MC</div>
+                    <div class="meta">ICAO 461F69 · REG OH-LXH · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">28150 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>400.0 kt</b></div>
+                    <div><span>Track</span><b>184.92°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>06.08.2026 03:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -295,7 +319,7 @@ footer {
                     <div><span>Speed</span><b>246.0 kt</b></div>
                     <div><span>Track</span><b>206.04°</b></div>
                     <div><span>Position</span><b>61.3349, 25.8046</b></div>
-                    <div><span>Last seen</span><b>06.08.2026 03:05 UTC</b></div>
+                    <div><span>Last seen</span><b>06.08.2026 03:06 UTC</b></div>
                 </div>
             </div>
 
@@ -675,7 +699,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F3", "flight": "FIN4QA", "lat": 61.334947, "lon": 25.804647, "alt": 18000, "speed": 246.0, "last_seen": "06.08.2026 03:05 UTC"}, {"hex": "4601FB", "flight": "FIN8KH", "lat": 61.723389, "lon": 25.404707, "alt": 16000, "speed": 199.0, "last_seen": "06.08.2026 03:05 UTC"}];
+const aircraft = [{"hex": "4601F3", "flight": "FIN4QA", "lat": 61.334947, "lon": 25.804647, "alt": 18000, "speed": 246.0, "last_seen": "06.08.2026 03:06 UTC"}, {"hex": "4601FB", "flight": "FIN8KH", "lat": 61.723389, "lon": 25.404707, "alt": 16000, "speed": 199.0, "last_seen": "06.08.2026 03:05 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
