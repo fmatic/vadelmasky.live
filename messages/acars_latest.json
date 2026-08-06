@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.08.2026 11:16 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20EC",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "H1",
-      "msgno": "D49D",
-      "text": "26  28 128 128 45 46165166\r\nTA 4)   4)  9)  3)   )  1) 4) 2)  (  )  )\r\nER 4)   4)  9)  3)   )  1) 4) 2)  (  )  )\r\nTA 35   30  93  33  17  20 49 14  2  2  2\r\nER 55   58  49 -18  11  12 45 98 98 58 98\r\nTA  ( "
-    },
-    {
       "time": "05.08.2026 11:17 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +318,17 @@
       "label": "11",
       "msgno": "M68A",
       "text": "POS\r\nCAS 273,LAT N 62.136,LON E 25.798,ALT 36011,FOB 37800,UTC 162218,PD ----.--,WD 229,WS   95,TAT - 22"
+    },
+    {
+      "time": "06.08.2026 16:49 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "10",
+      "msgno": "M97A",
+      "text": "POS041650,N 61.492,E 26.369,1747,368375,,,36002,29240"
     }
   ]
 }
