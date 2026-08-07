@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.08.2026 11:52 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "_d",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "05.08.2026 11:57 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "Q0",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
-      "time": "05.08.2026 12:41 UTC",
-      "source": "ACARS",
-      "flight": "HO1662",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "Q0",
-      "msgno": "S68A",
-      "text": "No text"
-    },
-    {
       "time": "05.08.2026 12:41 UTC",
       "source": "ACARS",
       "flight": "HO1662",
@@ -328,6 +295,39 @@
       "level": -29.5,
       "label": "Q0",
       "msgno": "S12A",
+      "text": "No text"
+    },
+    {
+      "time": "07.08.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "B9",
+      "msgno": "L01A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "07.08.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "80",
+      "msgno": "M04A",
+      "text": "3701 INRANG 0380/07 EFKU/EFHK .OH-ATJ\r\n/ETA 0333/ERT     "
+    },
+    {
+      "time": "07.08.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "_d",
+      "msgno": "S16A",
       "text": "No text"
     }
   ]
