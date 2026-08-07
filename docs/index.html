@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">9</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">07.08.2026 07:35 UTC</div>
+        <div class="value">07.08.2026 07:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN9B</div>
+                    <div class="meta">ICAO 4601F8 · REG OH-ATK · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>281.4 kt</b></div>
+                    <div><span>Track</span><b>20.82°</b></div>
+                    <div><span>Position</span><b>61.7298, 25.8925</b></div>
+                    <div><span>Last seen</span><b>07.08.2026 07:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATK" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -701,7 +725,7 @@ CAS 273,LAT N 62.136,LON E 25.798,ALT 36011,FOB 37800,UTC 162218,PD ----.--,WD 2
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FC", "flight": "FIN8KH", "lat": 61.802285, "lon": 25.466105, "alt": 18000, "speed": 239.0, "last_seen": "07.08.2026 03:18 UTC"}, {"hex": "4601F7", "flight": "-", "lat": 61.831706, "lon": 26.318461, "alt": "-", "speed": 219.0, "last_seen": "07.08.2026 03:12 UTC"}];
+const aircraft = [{"hex": "4601F8", "flight": "FIN9B", "lat": 61.729757, "lon": 25.892537, "alt": 18000, "speed": 281.4, "last_seen": "07.08.2026 07:40 UTC"}, {"hex": "4601FC", "flight": "FIN8KH", "lat": 61.802285, "lon": 25.466105, "alt": 18000, "speed": 239.0, "last_seen": "07.08.2026 03:18 UTC"}, {"hex": "4601F7", "flight": "-", "lat": 61.831706, "lon": 26.318461, "alt": "-", "speed": 219.0, "last_seen": "07.08.2026 03:12 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
