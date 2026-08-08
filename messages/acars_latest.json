@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.08.2026 12:45 UTC",
-      "source": "ACARS",
-      "flight": "HO1662",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "SA",
-      "msgno": "S78A",
-      "text": "0EV124550VS/"
-    },
-    {
-      "time": "05.08.2026 12:46 UTC",
-      "source": "ACARS",
-      "flight": "HO1662",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "5V",
-      "msgno": "S80A",
-      "text": "No text"
-    },
-    {
       "time": "05.08.2026 12:47 UTC",
       "source": "ACARS",
       "flight": "HO1662",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S01A",
       "text": "No text"
+    },
+    {
+      "time": "08.08.2026 06:08 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "H1",
+      "msgno": "O58A",
+      "text": "SB0122BA_B-227M  ZSPDEGSS123\r\n 62106 0258260608 33998-450240034010PSZ008010"
+    },
+    {
+      "time": "08.08.2026 06:08 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "16",
+      "msgno": "M72A",
+      "text": "POSA1N62095E 25744,AGAMO  ,054559,340,DETNA  ,071654,-46, 34, 271,830"
     }
   ]
 }
