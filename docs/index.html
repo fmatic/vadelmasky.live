@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">11</div>
+        <div class="value">12</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">08.08.2026 09:00 UTC</div>
+        <div class="value">08.08.2026 09:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">GFM1T</div>
+                    <div class="meta">ICAO 4AC994 · REG SE-RLT · TYPE C560</div>
+                </div>
+                <div class="alt-badge high">37000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>434.3 kt</b></div>
+                    <div><span>Track</span><b>64.5°</b></div>
+                    <div><span>Position</span><b>61.6821, 25.8585</b></div>
+                    <div><span>Last seen</span><b>08.08.2026 09:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/SE-RLT" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -773,7 +797,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F6", "flight": "FIN489", "lat": 62.431183, "lon": 26.175435, "alt": 21000, "speed": 273.5, "last_seen": "08.08.2026 08:58 UTC"}, {"hex": "461E1D", "flight": "FIN7TP", "lat": 61.661682, "lon": 25.259628, "alt": 30050, "speed": 437.1, "last_seen": "08.08.2026 08:18 UTC"}, {"hex": "4601FD", "flight": "FIN8KH", "lat": 61.995438, "lon": 25.593927, "alt": 16000, "speed": 203.4, "last_seen": "08.08.2026 03:07 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.794744, "lon": 26.388957, "alt": 16025, "speed": 259.8, "last_seen": "08.08.2026 03:03 UTC"}];
+const aircraft = [{"hex": "4AC994", "flight": "GFM1T", "lat": 61.682053, "lon": 25.858481, "alt": 37000, "speed": 434.3, "last_seen": "08.08.2026 09:05 UTC"}, {"hex": "4601F6", "flight": "FIN489", "lat": 62.431183, "lon": 26.175435, "alt": 21000, "speed": 273.5, "last_seen": "08.08.2026 08:58 UTC"}, {"hex": "461E1D", "flight": "FIN7TP", "lat": 61.661682, "lon": 25.259628, "alt": 30050, "speed": 437.1, "last_seen": "08.08.2026 08:18 UTC"}, {"hex": "4601FD", "flight": "FIN8KH", "lat": 61.995438, "lon": 25.593927, "alt": 16000, "speed": 203.4, "last_seen": "08.08.2026 03:07 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.794744, "lon": 26.388957, "alt": 16025, "speed": 259.8, "last_seen": "08.08.2026 03:03 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
