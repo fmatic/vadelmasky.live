@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.08.2026 16:49 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "10",
-      "msgno": "M97A",
-      "text": "POS041650,N 61.492,E 26.369,1747,368375,,,36002,29240"
-    },
-    {
-      "time": "06.08.2026 16:51 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "B9",
-      "msgno": "M98A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
-      "time": "06.08.2026 16:51 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "_d",
-      "msgno": "S14A",
-      "text": "No text"
-    },
-    {
       "time": "06.08.2026 16:53 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C12A",
       "text": ".1/FLR/FR2608091132  34363106IR2    1,IR1,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "09.08.2026 22:35 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "_d",
+      "msgno": "S82A",
+      "text": "No text"
+    },
+    {
+      "time": "09.08.2026 22:39 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "_d",
+      "msgno": "S83A",
+      "text": "No text"
+    },
+    {
+      "time": "09.08.2026 22:39 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "E31B",
+      "text": "56"
     }
   ]
 }
