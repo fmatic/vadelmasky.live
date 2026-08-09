@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.08.2026 16:53 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "_d",
-      "msgno": "S15A",
-      "text": "No text"
-    },
-    {
-      "time": "06.08.2026 21:43 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "Q0",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
-      "time": "07.08.2026 02:59 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -29.5,
-      "label": "Q0",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
       "time": "07.08.2026 03:00 UTC",
       "source": "ACARS",
       "flight": "N70380",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "E31B",
       "text": "56"
+    },
+    {
+      "time": "09.08.2026 22:40 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "H1",
+      "msgno": "O19A",
+      "text": "SB0122BA_B-2093  EHAMZSPD 56\r\n 61809 0271382244 31003-43024603501005Z010012"
+    },
+    {
+      "time": "09.08.2026 22:41 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "_d",
+      "msgno": "S84A",
+      "text": "No text"
+    },
+    {
+      "time": "09.08.2026 22:41 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "E33A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,201,201,53,53,50,50,160,160,76,62,87,87,OPEN,CLOSED,OPEN,CLOSED,CRUISE,4000,0,0,AUTO,8.5,0.12,0.25,L,,,,09,AUG,26,22,46,19"
     }
   ]
 }
