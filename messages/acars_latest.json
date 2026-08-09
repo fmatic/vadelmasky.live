@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.08.2026 14:57 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -28.0,
-      "label": "B9",
-      "msgno": "L07A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "06.08.2026 14:57 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -28.5,
-      "label": "B9",
-      "msgno": "L07A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "06.08.2026 14:57 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "H1",
-      "msgno": "D02A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,060826,1454,09/D1ENGINE,S.N/D2ESN1,ED1499/D3ESN2,ED2152/E1IAS,ALT,TAT/E2208,.16001,.002/F1TORQ,NP,N"
-    },
-    {
-      "time": "06.08.2026 14:58 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -27.8,
-      "label": "_d",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
       "time": "06.08.2026 15:02 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +285,50 @@
       "label": "80",
       "msgno": "M36A",
       "text": "1101 OFFRP  0286/09 EFJY/EFHK .OH-ATH\r\n/OUT 0916/OFF 0922/FOB 0013/ETA 1002"
+    },
+    {
+      "time": "09.08.2026 09:28 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "SA",
+      "msgno": "S57A",
+      "text": "0EV092825V"
+    },
+    {
+      "time": "09.08.2026 09:28 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "B9",
+      "msgno": "L18A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "09.08.2026 09:28 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "_d",
+      "msgno": "S58A",
+      "text": "No text"
+    },
+    {
+      "time": "09.08.2026 09:28 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "_d",
+      "msgno": "S59A",
+      "text": "No text"
     }
   ]
 }
