@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.08.2026 03:00 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "B9",
-      "msgno": "L01A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "07.08.2026 03:01 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "80",
-      "msgno": "M04A",
-      "text": "3701 INRANG 0380/07 EFKU/EFHK .OH-ATJ\r\n/ETA 0333/ERT     "
-    },
-    {
       "time": "07.08.2026 03:01 UTC",
       "source": "ACARS",
       "flight": "N70380",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "E33A",
       "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,201,201,53,53,50,50,160,160,76,62,87,87,OPEN,CLOSED,OPEN,CLOSED,CRUISE,4000,0,0,AUTO,8.5,0.12,0.25,L,,,,09,AUG,26,22,46,19"
+    },
+    {
+      "time": "10.08.2026 11:35 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "D00B",
+      "text": "L/F2066.9,082.0,094.5/F3066.8,082.0,093.6/G1NH,ITT,FF,IG/G2096.3,0656.6,321,0080/G3095.3,0649.0,305,0056/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I220.21/**.,EOT,...,/"
+    },
+    {
+      "time": "10.08.2026 11:38 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "_d",
+      "msgno": "S35A",
+      "text": "No text"
     }
   ]
 }
