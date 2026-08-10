@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.08.2026 03:01 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -29.5,
-      "label": "_d",
-      "msgno": "S16A",
-      "text": "No text"
-    },
-    {
-      "time": "07.08.2026 12:18 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "H1",
-      "msgno": "O92A",
-      "text": "SB0122BA_B-2096  ZSPDEHAM860\r\n 61404 0260591218 33998-450253037010IH-010013"
-    },
-    {
       "time": "07.08.2026 20:08 UTC",
       "source": "ACARS",
       "flight": "CZ2516",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S35A",
       "text": "No text"
+    },
+    {
+      "time": "10.08.2026 12:59 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "_d",
+      "msgno": "S51A",
+      "text": "No text"
+    },
+    {
+      "time": "10.08.2026 12:59 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "H1",
+      "msgno": "D02A",
+      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2AUG10,1259,0366/C1/C212.54.24,MC/C312.54.24,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/"
     }
   ]
 }
