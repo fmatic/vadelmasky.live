@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.08.2026 11:35 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -36.3,
-      "label": "H1",
-      "msgno": "D00B",
-      "text": "L/F2066.9,082.0,094.5/F3066.8,082.0,093.6/G1NH,ITT,FF,IG/G2096.3,0656.6,321,0080/G3095.3,0649.0,305,0056/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I220.21/**.,EOT,...,/"
-    },
-    {
-      "time": "10.08.2026 11:38 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "_d",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
-      "time": "10.08.2026 12:59 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "_d",
-      "msgno": "S51A",
-      "text": "No text"
-    },
-    {
-      "time": "10.08.2026 12:59 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "H1",
-      "msgno": "D02A",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2AUG10,1259,0366/C1/C212.54.24,MC/C312.54.24,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/"
-    },
-    {
       "time": "10.08.2026 13:00 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +285,50 @@
       "label": "_d",
       "msgno": "S38A",
       "text": "No text"
+    },
+    {
+      "time": "11.08.2026 11:19 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -25.7,
+      "label": "SA",
+      "msgno": "S34A",
+      "text": "0EV112008V"
+    },
+    {
+      "time": "11.08.2026 11:19 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.1,
+      "label": "80",
+      "msgno": "M11A",
+      "text": "3501 SUMMRY 0285/11 EFHK/EFJY .OH-ATJ\r\n/OUT 0943/FOB 0018\r\n/OFF 0951/FOB 0018\r\n/ON  1030/FOB 0013\r\n/IN  1031/FOB 0014\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
+    },
+    {
+      "time": "11.08.2026 11:19 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "80",
+      "msgno": "M11B",
+      "text": "3501 SUMMRY 0285/11 EFHK/EFJY .OH-ATJ\r\n/OUT 0943/FOB 0018\r\n/OFF 0951/FOB 0018\r\n/ON  1030/FOB 0013\r\n/IN  1031/FOB 0014\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
+    },
+    {
+      "time": "11.08.2026 11:20 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "80",
+      "msgno": "M10A",
+      "text": "1201 ONRP   0285/11 EFHK/EFJY .OH-ATJ\r\n/ON  1030/FOB 0013"
     }
   ]
 }
