@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.08.2026 22:39 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -34.0,
-      "label": "H1",
-      "msgno": "E31B",
-      "text": "56"
-    },
-    {
-      "time": "09.08.2026 22:40 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "H1",
-      "msgno": "O19A",
-      "text": "SB0122BA_B-2093  EHAMZSPD 56\r\n 61809 0271382244 31003-43024603501005Z010012"
-    },
-    {
-      "time": "09.08.2026 22:41 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "_d",
-      "msgno": "S84A",
-      "text": "No text"
-    },
-    {
-      "time": "09.08.2026 22:41 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "H1",
-      "msgno": "E33A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,201,201,53,53,50,50,160,160,76,62,87,87,OPEN,CLOSED,OPEN,CLOSED,CRUISE,4000,0,0,AUTO,8.5,0.12,0.25,L,,,,09,AUG,26,22,46,19"
-    },
-    {
       "time": "10.08.2026 11:35 UTC",
       "source": "ACARS",
       "flight": "N70365",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "D04B",
       "text": ",MC/C920.55.24,ANTI,ICING/C0ICE,DETECTED/D1MFC1B.2B.1UA1.2./D2ICE,DETECTED,WHILE/D3D.ICE,SYSTEM,IS,OFF,/"
+    },
+    {
+      "time": "11.08.2026 05:45 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "Q0",
+      "msgno": "M18A",
+      "text": "No text"
+    },
+    {
+      "time": "11.08.2026 05:46 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "SA",
+      "msgno": "M19A",
+      "text": "0EV054529V"
+    },
+    {
+      "time": "11.08.2026 05:46 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "B9",
+      "msgno": "L09A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "11.08.2026 05:46 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "_d",
+      "msgno": "S38A",
+      "text": "No text"
     }
   ]
 }
