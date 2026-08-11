@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">11</div>
+        <div class="value">13</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">11.08.2026 05:05 UTC</div>
+        <div class="value">11.08.2026 05:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T26</div>
+                    <div class="meta">ICAO 467895 · REG PI-06 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge low">4325 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>240.5 kt</b></div>
+                    <div><span>Track</span><b>16.17°</b></div>
+                    <div><span>Position</span><b>62.2576, 25.9251</b></div>
+                    <div><span>Last seen</span><b>11.08.2026 05:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-06" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN448</div>
+                    <div class="meta">ICAO 461F6E · REG OH-LXM · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">31850 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>396.0 kt</b></div>
+                    <div><span>Track</span><b>181.05°</b></div>
+                    <div><span>Position</span><b>61.8385, 25.3053</b></div>
+                    <div><span>Last seen</span><b>11.08.2026 05:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXM" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -772,7 +820,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F6", "flight": "FIN8KH", "lat": 61.461104, "lon": 25.579224, "alt": 18000, "speed": 260.4, "last_seen": "11.08.2026 03:15 UTC"}];
+const aircraft = [{"hex": "467895", "flight": "T26", "lat": 62.257645, "lon": 25.92509, "alt": 4325, "speed": 240.5, "last_seen": "11.08.2026 05:10 UTC"}, {"hex": "461F6E", "flight": "FIN448", "lat": 61.838503, "lon": 25.305278, "alt": 31850, "speed": 396.0, "last_seen": "11.08.2026 05:10 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.461104, "lon": 25.579224, "alt": 18000, "speed": 260.4, "last_seen": "11.08.2026 03:15 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
