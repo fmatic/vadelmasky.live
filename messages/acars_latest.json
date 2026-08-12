@@ -6,17 +6,6 @@
       "flight": "N70366",
       "tail": "OH-ATH",
       "freq": 131.825,
-      "level": -30.8,
-      "label": "80",
-      "msgno": "M09A",
-      "text": "3701 INRANG 0366/10 EFKU/EFHK .OH-ATH\r\n/ETA 1337/ERT     "
-    },
-    {
-      "time": "10.08.2026 13:02 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATH",
-      "freq": 131.825,
       "level": -31.2,
       "label": "_d",
       "msgno": "S66A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O32A",
       "text": "SB0122BA_B-2095  ZSPDEHAM286\r\n 61709 0274041237 32007-47031203601020;012016"
+    },
+    {
+      "time": "12.08.2026 12:35 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -38.2,
+      "label": "H1",
+      "msgno": "E81A",
+      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,C"
     }
   ]
 }
