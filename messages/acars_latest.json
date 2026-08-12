@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.08.2026 21:02 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATI",
-      "freq": 131.725,
-      "level": -32.2,
-      "label": "SA",
-      "msgno": "S37A",
-      "text": "0EV210249V"
-    },
-    {
-      "time": "10.08.2026 21:02 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -17.6,
-      "label": "H1",
-      "msgno": "D04A",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2AUG10,2100,0289/C1/C220.52.20,MC/C320.52.20,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/C820.55.24"
-    },
-    {
-      "time": "10.08.2026 21:02 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATI",
-      "freq": 131.725,
-      "level": -32.0,
-      "label": "H1",
-      "msgno": "D04B",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2AUG10,2100,0289/C1/C220.52.20,MC/C320.52.20,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/C820.55.24,MC/C920.55.24,ANTI,ICING/C0ICE,DETECTED/D1MFC1B.2B.1UA1.2./D2ICE,DETECTED,WHILE/D3D.ICE,SYSTEM,IS,OFF,/"
-    },
-    {
-      "time": "10.08.2026 21:02 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -16.0,
-      "label": "H1",
-      "msgno": "D04B",
-      "text": ",MC/C920.55.24,ANTI,ICING/C0ICE,DETECTED/D1MFC1B.2B.1UA1.2./D2ICE,DETECTED,WHILE/D3D.ICE,SYSTEM,IS,OFF,/"
-    },
-    {
       "time": "10.08.2026 21:03 UTC",
       "source": "ACARS",
       "flight": "N70289",
@@ -329,6 +285,50 @@
       "label": "B9",
       "msgno": "L05A",
       "text": "/EFHK.TI2/024EFHKCDE51"
+    },
+    {
+      "time": "12.08.2026 18:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -28.9,
+      "label": "10",
+      "msgno": "M69A",
+      "text": "POS121831, N 6210,E 2596,837,286,33381,  57,34992, 696,-154,-471,7"
+    },
+    {
+      "time": "12.08.2026 18:32 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "H1",
+      "msgno": "C96A",
+      "text": "EF 1 12AUG26 1833 CAB-2096 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 232701\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB"
+    },
+    {
+      "time": "12.08.2026 18:32 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -28.5,
+      "label": "H1",
+      "msgno": "C96B",
+      "text": " DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 261600\r\nMSG 2620281 A\r\nDB CSDS CONTROLLER MAINT CH 1\r\nDB CSDS CONTROLLER MAINT"
+    },
+    {
+      "time": "12.08.2026 18:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "H1",
+      "msgno": "C96C",
+      "text": "EF 1 12AUG26 1833 CAB-2096 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 232701\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 261600\r\nMSG 2620281 A\r\nDB CSDS CONTROLLER MAINT CH 1\r\nDB CSDS CONTROLLER MAINT CH 2\r\nATA 324900\r\nMSG 3254341 A\r\nDB TIRE PRESSURE CHANNEL\r\nMSG 3254349 A\r\nDB TIRE PRESSURE CHANNEL\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nEOR\r\n"
     }
   ]
 }
