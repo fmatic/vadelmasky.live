@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">14.08.2026 02:40 UTC</div>
+        <div class="value">14.08.2026 02:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,19 +283,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">DKH1661</div>
-                    <div class="meta">ICAO 7815A9 · REG B-208A · TYPE B789</div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601F6 · REG OH-ATI · TYPE AT75</div>
                 </div>
-                <div class="alt-badge high">38000 ft</div>
+                <div class="alt-badge mid">19325 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>484.0 kt</b></div>
-                    <div><span>Track</span><b>241.35°</b></div>
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>14.08.2026 02:40 UTC</b></div>
+                    <div><span>Last seen</span><b>14.08.2026 02:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DKH1661</div>
+                    <div class="meta">ICAO 7815A9 · REG B-208A · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">37975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>482.0 kt</b></div>
+                    <div><span>Track</span><b>241.17°</b></div>
+                    <div><span>Position</span><b>61.4747, 25.5514</b></div>
+                    <div><span>Last seen</span><b>14.08.2026 02:42 UTC</b></div>
                 </div>
             </div>
 
@@ -638,7 +662,7 @@ DB CSDS CONTROLLER MAINT</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "781001", "flight": "CHH491", "lat": 61.279737, "lon": 25.534871, "alt": 36000, "speed": 492.0, "last_seen": "14.08.2026 02:25 UTC"}, {"hex": "4613BA", "flight": "-", "lat": 62.239746, "lon": 25.706177, "alt": 850, "speed": 54.1, "last_seen": "14.08.2026 00:58 UTC"}];
+const aircraft = [{"hex": "7815A9", "flight": "DKH1661", "lat": 61.474744, "lon": 25.551351, "alt": 37975, "speed": 482.0, "last_seen": "14.08.2026 02:42 UTC"}, {"hex": "781001", "flight": "CHH491", "lat": 61.279737, "lon": 25.534871, "alt": 36000, "speed": 492.0, "last_seen": "14.08.2026 02:25 UTC"}, {"hex": "4613BA", "flight": "-", "lat": 62.239746, "lon": 25.706177, "alt": 850, "speed": 54.1, "last_seen": "14.08.2026 00:58 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
