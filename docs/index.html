@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">14.08.2026 03:20 UTC</div>
+        <div class="value">14.08.2026 03:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,7 +283,7 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">CES231</div>
                     <div class="meta">ICAO 781F29 · REG B-32DJ · TYPE A359</div>
                 </div>
                 <div class="alt-badge high">38000 ft</div>
@@ -294,8 +294,8 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>14.08.2026 03:20 UTC</b></div>
+                    <div><span>Position</span><b>61.4918, 25.3118</b></div>
+                    <div><span>Last seen</span><b>14.08.2026 03:22 UTC</b></div>
                 </div>
             </div>
 
@@ -806,7 +806,7 @@ DB CSDS CONTROLLER MAINT</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F9", "flight": "FIN8KH", "lat": 61.608069, "lon": 25.697937, "alt": 18025, "speed": 235.1, "last_seen": "14.08.2026 03:18 UTC"}, {"hex": "461F6A", "flight": "FIN8MC", "lat": 61.476699, "lon": 25.291239, "alt": 25675, "speed": 220.0, "last_seen": "14.08.2026 03:13 UTC"}, {"hex": "7815A9", "flight": "DKH1661", "lat": 61.474744, "lon": 25.551351, "alt": 37975, "speed": 482.0, "last_seen": "14.08.2026 02:42 UTC"}, {"hex": "781001", "flight": "CHH491", "lat": 61.279737, "lon": 25.534871, "alt": 36000, "speed": 492.0, "last_seen": "14.08.2026 02:25 UTC"}, {"hex": "4613BA", "flight": "-", "lat": 62.239746, "lon": 25.706177, "alt": 850, "speed": 54.1, "last_seen": "14.08.2026 00:58 UTC"}];
+const aircraft = [{"hex": "781F29", "flight": "CES231", "lat": 61.491829, "lon": 25.311788, "alt": 38000, "speed": "-", "last_seen": "14.08.2026 03:22 UTC"}, {"hex": "4601F9", "flight": "FIN8KH", "lat": 61.608069, "lon": 25.697937, "alt": 18025, "speed": 235.1, "last_seen": "14.08.2026 03:18 UTC"}, {"hex": "461F6A", "flight": "FIN8MC", "lat": 61.476699, "lon": 25.291239, "alt": 25675, "speed": 220.0, "last_seen": "14.08.2026 03:13 UTC"}, {"hex": "7815A9", "flight": "DKH1661", "lat": 61.474744, "lon": 25.551351, "alt": 37975, "speed": 482.0, "last_seen": "14.08.2026 02:42 UTC"}, {"hex": "781001", "flight": "CHH491", "lat": 61.279737, "lon": 25.534871, "alt": 36000, "speed": 492.0, "last_seen": "14.08.2026 02:25 UTC"}, {"hex": "4613BA", "flight": "-", "lat": 62.239746, "lon": 25.706177, "alt": 850, "speed": 54.1, "last_seen": "14.08.2026 00:58 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
