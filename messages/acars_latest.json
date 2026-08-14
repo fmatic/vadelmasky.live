@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.08.2026 09:55 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "B9",
-      "msgno": "M20A",
-      "text": "/EHAM.TI2/040EHAMACFFA"
-    },
-    {
       "time": "12.08.2026 09:56 UTC",
       "source": "ACARS",
       "flight": "CA3159",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C33D",
       "text": "LEFT)\r\nMSG 3453011 A 0658 14AUG26 ER H\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "14.08.2026 10:48 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "5V",
+      "msgno": "S44A",
+      "text": "No text"
     }
   ]
 }
