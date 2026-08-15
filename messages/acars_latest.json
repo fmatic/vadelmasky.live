@@ -1,116 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.08.2026 18:30 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -28.9,
-      "label": "10",
-      "msgno": "M69A",
-      "text": "POS121831, N 6210,E 2596,837,286,33381,  57,34992, 696,-154,-471,7"
-    },
-    {
-      "time": "12.08.2026 18:32 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "H1",
-      "msgno": "C96A",
-      "text": "EF 1 12AUG26 1833 CAB-2096 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 232701\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB"
-    },
-    {
-      "time": "12.08.2026 18:32 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -28.5,
-      "label": "H1",
-      "msgno": "C96B",
-      "text": " DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 261600\r\nMSG 2620281 A\r\nDB CSDS CONTROLLER MAINT CH 1\r\nDB CSDS CONTROLLER MAINT"
-    },
-    {
-      "time": "12.08.2026 18:33 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "H1",
-      "msgno": "C96C",
-      "text": "EF 1 12AUG26 1833 CAB-2096 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 232701\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 261600\r\nMSG 2620281 A\r\nDB CSDS CONTROLLER MAINT CH 1\r\nDB CSDS CONTROLLER MAINT CH 2\r\nATA 324900\r\nMSG 3254341 A\r\nDB TIRE PRESSURE CHANNEL\r\nMSG 3254349 A\r\nDB TIRE PRESSURE CHANNEL\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nEOR\r\n"
-    },
-    {
-      "time": "12.08.2026 18:53 UTC",
-      "source": "ACARS",
-      "flight": "CA1160",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -20.3,
-      "label": "H1",
-      "msgno": "C15A",
-      "text": ".1/WRN/WN2608121854  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "12.08.2026 18:55 UTC",
-      "source": "ACARS",
-      "flight": "CA1160",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -24.5,
-      "label": "H1",
-      "msgno": "C16A",
-      "text": ".1/FLR/FR2608121854  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
-      "time": "12.08.2026 18:56 UTC",
-      "source": "ACARS",
-      "flight": "CA1160",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -24.1,
-      "label": "H1",
-      "msgno": "C17A",
-      "text": ".1/WRN/WN2608121856  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "12.08.2026 21:23 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "Q0",
-      "msgno": "S11A",
-      "text": "No text"
-    },
-    {
-      "time": "12.08.2026 21:23 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -26.7,
-      "label": "Q0",
-      "msgno": "S11A",
-      "text": "No text"
-    },
-    {
-      "time": "13.08.2026 06:33 UTC",
-      "source": "ACARS",
-      "flight": "CA3055",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "Q0",
-      "msgno": "S64A",
-      "text": "No text"
-    },
-    {
       "time": "13.08.2026 06:35 UTC",
       "source": "ACARS",
       "flight": "CA3055",
@@ -328,6 +218,116 @@
       "level": -28.6,
       "label": "_d",
       "msgno": "S63A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 17:25 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "_d",
+      "msgno": "S64A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 17:25 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "_d",
+      "msgno": "S65A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 17:25 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -28.5,
+      "label": "_d",
+      "msgno": "S66A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 17:25 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -27.7,
+      "label": "_d",
+      "msgno": "S67A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 17:25 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -26.1,
+      "label": "_d",
+      "msgno": "S68A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 17:25 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -26.5,
+      "label": "_d",
+      "msgno": "S69A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 17:25 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -25.6,
+      "label": "_d",
+      "msgno": "S70A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 17:25 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -24.6,
+      "label": "_d",
+      "msgno": "S71A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 17:26 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -20.9,
+      "label": "H1",
+      "msgno": "D04A",
+      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2AUG15,1726,0488/C1/C217.21.07,MC/C317.21.07,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/"
+    },
+    {
+      "time": "15.08.2026 17:27 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -22.3,
+      "label": "5V",
+      "msgno": "S72A",
       "text": "No text"
     }
   ]
