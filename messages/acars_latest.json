@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.08.2026 06:35 UTC",
-      "source": "ACARS",
-      "flight": "CA3055",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "_d",
-      "msgno": "S65A",
-      "text": "No text"
-    },
-    {
-      "time": "13.08.2026 10:35 UTC",
-      "source": "ACARS",
-      "flight": "CA3143",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "SA",
-      "msgno": "S11A",
-      "text": "0LH103600VS"
-    },
-    {
-      "time": "13.08.2026 21:44 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "Q0",
-      "msgno": "M24A",
-      "text": "No text"
-    },
-    {
-      "time": "13.08.2026 21:44 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "SA",
-      "msgno": "S56A",
-      "text": "0EV214427V"
-    },
-    {
-      "time": "14.08.2026 06:10 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "Q0",
-      "msgno": "S43A",
-      "text": "No text"
-    },
-    {
-      "time": "14.08.2026 06:55 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "10",
-      "msgno": "M88A",
-      "text": "POS140700, N 6184,E 2665,833,304,33504,  46,32002, 310,-155,-469,7"
-    },
-    {
       "time": "14.08.2026 06:56 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +263,72 @@
       "label": "5V",
       "msgno": "S72A",
       "text": "No text"
+    },
+    {
+      "time": "15.08.2026 19:16 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "10",
+      "msgno": "M97A",
+      "text": "POS151916, N 6205,E 2578,834,285,26762,  24,34999, 681,-232,-539,7"
+    },
+    {
+      "time": "15.08.2026 19:18 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "_d",
+      "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 19:18 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "H1",
+      "msgno": "C96B",
+      "text": " DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CE"
+    },
+    {
+      "time": "15.08.2026 19:18 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "H1",
+      "msgno": "C96C",
+      "text": "NTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\nMSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nATA 345800\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "15.08.2026 19:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "O96A",
+      "text": "SS0340C_ 35\r\nB-2097  CAO100EGPKZSPD150826192435ER\r\n28634998836-242516771316DBSM79962A\r\n161620661 260150826 191957\r\n47)6))94) 2))\r\n55)6))43) 2))\r\n10000000000001111\r\n  34997\r\n  3499)12 02N3276)16.)\r\n  3499)12"
+    },
+    {
+      "time": "15.08.2026 19:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "H1",
+      "msgno": "O96B",
+      "text": "SS0340C_ 35\r\nB-2097  CAO100EGPKZSPD150826192435ER\r\n28634998836-242516771316DBSM79962A\r\n161620661 260150826 191957\r\n47)6))94) 2))\r\n55)6))43) 2))\r\n10000000000001111\r\n  34997\r\n  3499)12 02N3276)16.)\r\n  3499)12 06N3276)16.)\r\n150826192435\r\n111111111111\r\n150826192435"
     }
   ]
 }
