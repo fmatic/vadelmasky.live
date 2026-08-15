@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.08.2026 12:35 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "H1",
-      "msgno": "E81A",
-      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,C"
-    },
-    {
       "time": "12.08.2026 15:29 UTC",
       "source": "ACARS",
       "flight": "CA3155",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S06A",
       "text": "No text"
+    },
+    {
+      "time": "15.08.2026 13:06 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "10",
+      "msgno": "M89A",
+      "text": "POS151307,N 62.149,E 26.674,2059,485000,,,36997,109720"
     }
   ]
 }
