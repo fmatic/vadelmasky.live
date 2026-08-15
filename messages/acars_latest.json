@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.08.2026 11:15 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "10",
-      "msgno": "M30A",
-      "text": "POS121116, N 6171,E 2578,832,290,31196,  43,34004, 312,-165,-478,7"
-    },
-    {
       "time": "12.08.2026 12:32 UTC",
       "source": "ACARS",
       "flight": "CA1039",
@@ -328,6 +317,17 @@
       "level": -34.8,
       "label": "Q0",
       "msgno": "S95A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 10:30 UTC",
+      "source": "ACARS",
+      "flight": "N70341",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "_d",
+      "msgno": "S05A",
       "text": "No text"
     }
   ]
