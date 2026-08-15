@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.08.2026 12:32 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -37.7,
-      "label": "H1",
-      "msgno": "O32A",
-      "text": "SB0122BA_B-2095  ZSPDEHAM286\r\n 61709 0274041237 32007-47031203601020;012016"
-    },
-    {
       "time": "12.08.2026 12:35 UTC",
       "source": "ACARS",
       "flight": "CA1039",
@@ -328,6 +317,17 @@
       "level": -36.3,
       "label": "_d",
       "msgno": "S05A",
+      "text": "No text"
+    },
+    {
+      "time": "15.08.2026 13:04 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -27.0,
+      "label": "Q0",
+      "msgno": "S06A",
       "text": "No text"
     }
   ]
