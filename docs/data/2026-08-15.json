@@ -44,13 +44,13 @@
       "flight": "FIN8DP",
       "reg": "OH-LKM",
       "type": "E190",
-      "lat": 61.658439,
-      "lon": 25.355937,
-      "alt": 30900,
-      "speed": 428.0,
+      "lat": 61.58889,
+      "lon": 25.325216,
+      "alt": 29075,
+      "speed": 416.0,
       "track": 184.04,
       "seen_first": "2026-08-15T03:13:01.431990",
-      "last_seen": "2026-08-15T15:50:01.805627"
+      "last_seen": "2026-08-15T15:55:01.534088"
     },
     "461f6d": {
       "hex": "461f6d",
@@ -163,11 +163,11 @@
       "type": "C182",
       "lat": null,
       "lon": null,
-      "alt": 9025,
+      "alt": 5950,
       "speed": null,
       "track": null,
       "seen_first": "2026-08-15T08:52:01.418682",
-      "last_seen": "2026-08-15T15:10:01.735812"
+      "last_seen": "2026-08-15T15:55:01.534088"
     },
     "4601fa": {
       "hex": "4601fa",
@@ -363,11 +363,24 @@
       "track": 232.56,
       "seen_first": "2026-08-15T15:18:01.213616",
       "last_seen": "2026-08-15T15:27:01.409096"
+    },
+    "461f6e": {
+      "hex": "461f6e",
+      "flight": "FIN9XG",
+      "reg": "OH-LXM",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": 28875,
+      "speed": 420.0,
+      "track": 182.29,
+      "seen_first": "2026-08-15T15:53:01.250348",
+      "last_seen": "2026-08-15T15:55:01.534088"
     }
   },
   "summary": {
-    "total_unique_aircraft": 28,
-    "last_seen_live": 1,
-    "updated": "2026-08-15T15:50:01.805627"
+    "total_unique_aircraft": 29,
+    "last_seen_live": 3,
+    "updated": "2026-08-15T15:55:01.534088"
   }
 }
