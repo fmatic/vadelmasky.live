@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.08.2026 13:06 UTC",
-      "source": "ACARS",
-      "flight": "CA1160",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "10",
-      "msgno": "M89A",
-      "text": "POS151307,N 62.149,E 26.674,2059,485000,,,36997,109720"
-    },
-    {
       "time": "15.08.2026 14:15 UTC",
       "source": "ACARS",
       "flight": "CA3158",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S09A",
       "text": "No text"
+    },
+    {
+      "time": "16.08.2026 09:41 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "H1",
+      "msgno": "C37A",
+      "text": ".1/FLR/FR2608160940  34363106MMR2   1,,,,,,,MMR2(40RT2),HARD"
     }
   ]
 }
