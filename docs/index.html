@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">9</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">16.08.2026 06:20 UTC</div>
+        <div class="value">16.08.2026 06:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4MP</div>
+                    <div class="meta">ICAO 461E1D · REG OH-LKN · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">29450 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>423.0 kt</b></div>
+                    <div><span>Track</span><b>180.81°</b></div>
+                    <div><span>Position</span><b>61.6339, 25.2808</b></div>
+                    <div><span>Last seen</span><b>16.08.2026 06:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKN" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -738,7 +762,7 @@ DB CE</div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F5", "flight": "FIN489", "lat": 60.823245, "lon": 24.437419, "alt": 22000, "speed": "-", "last_seen": "16.08.2026 04:34 UTC"}];
+const aircraft = [{"hex": "461E1D", "flight": "FIN4MP", "lat": 61.633942, "lon": 25.280816, "alt": 29450, "speed": 423.0, "last_seen": "16.08.2026 06:25 UTC"}, {"hex": "4601F5", "flight": "FIN489", "lat": 60.823245, "lon": 24.437419, "alt": 22000, "speed": "-", "last_seen": "16.08.2026 04:34 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
