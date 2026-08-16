@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">16.08.2026 09:25 UTC</div>
+        <div class="value">16.08.2026 09:30 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,16 +286,16 @@ footer {
                     <div class="flight">FIN286</div>
                     <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
                 </div>
-                <div class="alt-badge low">9950 ft</div>
+                <div class="alt-badge mid">14875 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>180.7 kt</b></div>
-                    <div><span>Track</span><b>185.08°</b></div>
-                    <div><span>Position</span><b>62.1227, 25.6666</b></div>
-                    <div><span>Last seen</span><b>16.08.2026 09:25 UTC</b></div>
+                    <div><span>Speed</span><b>204.4 kt</b></div>
+                    <div><span>Track</span><b>190.43°</b></div>
+                    <div><span>Position</span><b>61.8586, 25.6007</b></div>
+                    <div><span>Last seen</span><b>16.08.2026 09:30 UTC</b></div>
                 </div>
             </div>
 
@@ -554,6 +554,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">N70286</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATH · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">16.08.2026 09:28 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label _d · Msg S09A · Level -38.0 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">CA3159</div>
                     <div class="acars-meta">
                         ACARS · Tail B-6117 · 131.825 MHz
@@ -788,29 +806,11 @@ DB CE</div>
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1008</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2097 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">15.08.2026 19:16 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 10 · Msg M97A · Level -34.2 dB
-            </div>
-
-            <div class="acars-text">POS151916, N 6205,E 2578,834,285,26762,  24,34999, 681,-232,-539,7</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F5", "flight": "FIN286", "lat": 62.122742, "lon": 25.666613, "alt": 9950, "speed": 180.7, "last_seen": "16.08.2026 09:25 UTC"}, {"hex": "461F62", "flight": "FIN7TP", "lat": 61.660394, "lon": 25.227559, "alt": 26250, "speed": 367.8, "last_seen": "16.08.2026 08:15 UTC"}, {"hex": "461E14", "flight": "FIN14J", "lat": 61.566219, "lon": 25.308736, "alt": 24650, "speed": 389.3, "last_seen": "16.08.2026 06:58 UTC"}, {"hex": "461E1D", "flight": "FIN4MP", "lat": 61.633942, "lon": 25.280816, "alt": 29450, "speed": 423.0, "last_seen": "16.08.2026 06:26 UTC"}];
+const aircraft = [{"hex": "4601F5", "flight": "FIN286", "lat": 61.858614, "lon": 25.600688, "alt": 14875, "speed": 204.4, "last_seen": "16.08.2026 09:30 UTC"}, {"hex": "461F62", "flight": "FIN7TP", "lat": 61.660394, "lon": 25.227559, "alt": 26250, "speed": 367.8, "last_seen": "16.08.2026 08:15 UTC"}, {"hex": "461E14", "flight": "FIN14J", "lat": 61.566219, "lon": 25.308736, "alt": 24650, "speed": 389.3, "last_seen": "16.08.2026 06:58 UTC"}, {"hex": "461E1D", "flight": "FIN4MP", "lat": 61.633942, "lon": 25.280816, "alt": 29450, "speed": 423.0, "last_seen": "16.08.2026 06:26 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
