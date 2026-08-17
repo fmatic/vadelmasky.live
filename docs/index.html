@@ -246,32 +246,32 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">5</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">21500 ft</div>
+        <div class="value">38000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">0 kt</div>
+        <div class="value">480.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">17.08.2026 02:40 UTC</div>
+        <div class="value">17.08.2026 02:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DKH1661</div>
+                    <div class="meta">ICAO 781783 · REG B-20D1 · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>480.0 kt</b></div>
+                    <div><span>Track</span><b>245.21°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>17.08.2026 02:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-20D1" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN418</div>
+                    <div class="meta">ICAO 4601FC · REG OH-ATO · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>281.5 kt</b></div>
+                    <div><span>Track</span><b>195.67°</b></div>
+                    <div><span>Position</span><b>62.2417, 26.2698</b></div>
+                    <div><span>Last seen</span><b>17.08.2026 02:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATO" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -579,7 +627,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "4601FC", "flight": "FIN418", "lat": 62.241669, "lon": 26.269836, "alt": 18000, "speed": 281.5, "last_seen": "17.08.2026 02:45 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
