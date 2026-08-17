@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.08.2026 19:18 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "H1",
-      "msgno": "C96B",
-      "text": " DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CE"
-    },
-    {
-      "time": "15.08.2026 19:18 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "H1",
-      "msgno": "C96C",
-      "text": "NTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\nMSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nATA 345800\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
-      "time": "15.08.2026 19:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -34.0,
-      "label": "H1",
-      "msgno": "O96A",
-      "text": "SS0340C_ 35\r\nB-2097  CAO100EGPKZSPD150826192435ER\r\n28634998836-242516771316DBSM79962A\r\n161620661 260150826 191957\r\n47)6))94) 2))\r\n55)6))43) 2))\r\n10000000000001111\r\n  34997\r\n  3499)12 02N3276)16.)\r\n  3499)12"
-    },
-    {
-      "time": "15.08.2026 19:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "H1",
-      "msgno": "O96B",
-      "text": "SS0340C_ 35\r\nB-2097  CAO100EGPKZSPD150826192435ER\r\n28634998836-242516771316DBSM79962A\r\n161620661 260150826 191957\r\n47)6))94) 2))\r\n55)6))43) 2))\r\n10000000000001111\r\n  34997\r\n  3499)12 02N3276)16.)\r\n  3499)12 06N3276)16.)\r\n150826192435\r\n111111111111\r\n150826192435"
-    },
-    {
-      "time": "16.08.2026 03:11 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "_d",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
-      "time": "16.08.2026 03:19 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "SA",
-      "msgno": "S60A",
-      "text": "0LS031924V"
-    },
-    {
       "time": "16.08.2026 04:02 UTC",
       "source": "ACARS",
       "flight": "CA3159",
@@ -328,6 +262,72 @@
       "level": -39.6,
       "label": "_d",
       "msgno": "S45A",
+      "text": "No text"
+    },
+    {
+      "time": "17.08.2026 10:02 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -40.2,
+      "label": "Q0",
+      "msgno": "S82A",
+      "text": "No text"
+    },
+    {
+      "time": "17.08.2026 10:02 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -39.7,
+      "label": "SA",
+      "msgno": "S83A",
+      "text": "0EV100306VSH/"
+    },
+    {
+      "time": "17.08.2026 10:02 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -38.3,
+      "label": "5V",
+      "msgno": "S84A",
+      "text": "No text"
+    },
+    {
+      "time": "17.08.2026 10:03 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "Q0",
+      "msgno": "S86A",
+      "text": "No text"
+    },
+    {
+      "time": "17.08.2026 10:03 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "SA",
+      "msgno": "S87A",
+      "text": "0EV100415VSH/"
+    },
+    {
+      "time": "17.08.2026 10:04 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -41.6,
+      "label": "5V",
+      "msgno": "S88A",
       "text": "No text"
     }
   ]
