@@ -288,16 +288,16 @@
     },
     "46789d": {
       "hex": "46789d",
-      "flight": "",
+      "flight": "SAFIR1",
       "reg": "GO-7",
       "type": "G115",
-      "lat": null,
-      "lon": null,
+      "lat": 62.260529,
+      "lon": 25.734863,
       "alt": 1675,
-      "speed": null,
-      "track": null,
+      "speed": 115.7,
+      "track": 345.48,
       "seen_first": "2026-08-17T09:37:02.131015",
-      "last_seen": "2026-08-17T09:37:02.131015"
+      "last_seen": "2026-08-17T09:55:01.426738"
     },
     "467897": {
       "hex": "467897",
@@ -311,11 +311,24 @@
       "track": 180.86,
       "seen_first": "2026-08-17T09:37:02.131015",
       "last_seen": "2026-08-17T09:41:01.253809"
+    },
+    "4601f7": {
+      "hex": "4601f7",
+      "flight": "",
+      "reg": "OH-ATJ",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-08-17T09:54:01.400853",
+      "last_seen": "2026-08-17T09:54:01.400853"
     }
   },
   "summary": {
-    "total_unique_aircraft": 24,
-    "last_seen_live": 0,
-    "updated": "2026-08-17T09:50:01.775853"
+    "total_unique_aircraft": 25,
+    "last_seen_live": 1,
+    "updated": "2026-08-17T09:55:01.426738"
   }
 }
