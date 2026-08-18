@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.08.2026 10:02 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -40.2,
-      "label": "Q0",
-      "msgno": "S82A",
-      "text": "No text"
-    },
-    {
-      "time": "17.08.2026 10:02 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -39.7,
-      "label": "SA",
-      "msgno": "S83A",
-      "text": "0EV100306VSH/"
-    },
-    {
-      "time": "17.08.2026 10:02 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "5V",
-      "msgno": "S84A",
-      "text": "No text"
-    },
-    {
-      "time": "17.08.2026 10:03 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "Q0",
-      "msgno": "S86A",
-      "text": "No text"
-    },
-    {
       "time": "17.08.2026 10:03 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +285,50 @@
       "label": "80",
       "msgno": "M75A",
       "text": "3801 MTCRP  0594/18 EFKT/EFHK .OH-ATK\r\nMORO. LOYTYYKO TEILTA \r\nATR WC ISTUIN RENKAITA.\r\nON KUULEMA NIIN SIIVOTT\r\nOMASSA KUNNOSSA ETTEI \r\nPIKKU SIIVOUS AUTA. JOS\r\nSEN SAISI VAIHDETTUA."
+    },
+    {
+      "time": "18.08.2026 17:22 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "SA",
+      "msgno": "S95A",
+      "text": "0EV172155V"
+    },
+    {
+      "time": "18.08.2026 17:23 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -25.1,
+      "label": "B9",
+      "msgno": "L08A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "18.08.2026 17:23 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -22.3,
+      "label": "_d",
+      "msgno": "S97A",
+      "text": "No text"
+    },
+    {
+      "time": "18.08.2026 17:23 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -23.2,
+      "label": "_d",
+      "msgno": "S98A",
+      "text": "No text"
     }
   ]
 }
