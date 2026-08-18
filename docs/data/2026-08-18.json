@@ -161,18 +161,70 @@
       "flight": "FIN5ET",
       "reg": "OH-ATI",
       "type": "AT75",
-      "lat": 61.470978,
-      "lon": 25.99375,
+      "lat": 61.262375,
+      "lon": 25.828073,
       "alt": 20000,
-      "speed": 256.3,
-      "track": 201.76,
+      "speed": 256.0,
+      "track": 200.35,
       "seen_first": "2026-08-18T05:49:01.508882",
-      "last_seen": "2026-08-18T06:00:01.780409"
+      "last_seen": "2026-08-18T06:04:01.559632"
+    },
+    "46789b": {
+      "hex": "46789b",
+      "flight": "",
+      "reg": "GO-5",
+      "type": "G115",
+      "lat": 62.268227,
+      "lon": 25.684451,
+      "alt": 1625,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-08-18T06:01:01.954710",
+      "last_seen": "2026-08-18T06:02:02.184713"
+    },
+    "4678aa": {
+      "hex": "4678aa",
+      "flight": "",
+      "reg": null,
+      "type": null,
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-08-18T06:01:01.954710",
+      "last_seen": "2026-08-18T06:01:01.954710"
+    },
+    "467899": {
+      "hex": "467899",
+      "flight": "SAFIR1",
+      "reg": "GO-3",
+      "type": "G115",
+      "lat": 62.165588,
+      "lon": 25.753276,
+      "alt": 1775,
+      "speed": 136.5,
+      "track": 136.48,
+      "seen_first": "2026-08-18T06:02:02.184713",
+      "last_seen": "2026-08-18T06:05:01.630560"
+    },
+    "4678a0": {
+      "hex": "4678a0",
+      "flight": "K02",
+      "reg": "GO-10",
+      "type": "G115",
+      "lat": 62.323517,
+      "lon": 25.84788,
+      "alt": 2625,
+      "speed": 75.0,
+      "track": 315.0,
+      "seen_first": "2026-08-18T06:03:01.475187",
+      "last_seen": "2026-08-18T06:05:01.630560"
     }
   },
   "summary": {
-    "total_unique_aircraft": 13,
-    "last_seen_live": 1,
-    "updated": "2026-08-18T06:00:01.780409"
+    "total_unique_aircraft": 17,
+    "last_seen_live": 2,
+    "updated": "2026-08-18T06:05:01.630560"
   }
 }
