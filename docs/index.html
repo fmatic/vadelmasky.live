@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">11</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">18.08.2026 06:05 UTC</div>
+        <div class="value">18.08.2026 06:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K01</div>
+                    <div class="meta">ICAO 4678AA · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge low">2725 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>89.9 kt</b></div>
+                    <div><span>Track</span><b>317.25°</b></div>
+                    <div><span>Position</span><b>62.3274, 25.8388</b></div>
+                    <div><span>Last seen</span><b>18.08.2026 06:09 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=4678aa" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -373,30 +397,6 @@ footer {
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-5" target="_blank" rel="noopener">
                 Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 4678AA · REG - · TYPE -</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>18.08.2026 06:01 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=4678aa" target="_blank" rel="noopener">
-                View aircraft info
             </a>
         </article>
         
@@ -915,7 +915,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "467899", "flight": "SAFIR1", "lat": 62.165588, "lon": 25.753276, "alt": 1775, "speed": 136.5, "last_seen": "18.08.2026 06:05 UTC"}, {"hex": "4678A0", "flight": "K02", "lat": 62.323517, "lon": 25.84788, "alt": 2625, "speed": 75.0, "last_seen": "18.08.2026 06:05 UTC"}, {"hex": "4601F6", "flight": "FIN5ET", "lat": 61.262375, "lon": 25.828073, "alt": 20000, "speed": 256.0, "last_seen": "18.08.2026 06:04 UTC"}, {"hex": "46789B", "flight": "-", "lat": 62.268227, "lon": 25.684451, "alt": 1625, "speed": "-", "last_seen": "18.08.2026 06:02 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.323059, "lon": 25.745544, "alt": 2100, "speed": 206.4, "last_seen": "18.08.2026 05:32 UTC"}, {"hex": "461F6D", "flight": "FIN434", "lat": 61.640842, "lon": 25.26886, "alt": 26475, "speed": 444.1, "last_seen": "18.08.2026 05:30 UTC"}, {"hex": "461F35", "flight": "FIN8MC", "lat": 61.499184, "lon": 25.290527, "alt": 25900, "speed": 194.0, "last_seen": "18.08.2026 03:14 UTC"}, {"hex": "780707", "flight": "CHH7921", "lat": 61.357944, "lon": 25.747986, "alt": 38000, "speed": 484.0, "last_seen": "18.08.2026 03:12 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.436199, "lon": 26.197713, "alt": 21975, "speed": 262.1, "last_seen": "18.08.2026 03:08 UTC"}, {"hex": "4601F3", "flight": "FIN8KH", "lat": 61.496933, "lon": 25.42972, "alt": 17975, "speed": 264.7, "last_seen": "18.08.2026 03:08 UTC"}];
+const aircraft = [{"hex": "4678AA", "flight": "K01", "lat": 62.327362, "lon": 25.838826, "alt": 2725, "speed": 89.9, "last_seen": "18.08.2026 06:09 UTC"}, {"hex": "467899", "flight": "SAFIR1", "lat": 62.165588, "lon": 25.753276, "alt": 1775, "speed": 136.5, "last_seen": "18.08.2026 06:05 UTC"}, {"hex": "4678A0", "flight": "K02", "lat": 62.323517, "lon": 25.84788, "alt": 2625, "speed": 75.0, "last_seen": "18.08.2026 06:05 UTC"}, {"hex": "4601F6", "flight": "FIN5ET", "lat": 61.262375, "lon": 25.828073, "alt": 20000, "speed": 256.0, "last_seen": "18.08.2026 06:04 UTC"}, {"hex": "46789B", "flight": "-", "lat": 62.268227, "lon": 25.684451, "alt": 1625, "speed": "-", "last_seen": "18.08.2026 06:02 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.323059, "lon": 25.745544, "alt": 2100, "speed": 206.4, "last_seen": "18.08.2026 05:32 UTC"}, {"hex": "461F6D", "flight": "FIN434", "lat": 61.640842, "lon": 25.26886, "alt": 26475, "speed": 444.1, "last_seen": "18.08.2026 05:30 UTC"}, {"hex": "461F35", "flight": "FIN8MC", "lat": 61.499184, "lon": 25.290527, "alt": 25900, "speed": 194.0, "last_seen": "18.08.2026 03:14 UTC"}, {"hex": "780707", "flight": "CHH7921", "lat": 61.357944, "lon": 25.747986, "alt": 38000, "speed": 484.0, "last_seen": "18.08.2026 03:12 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.436199, "lon": 26.197713, "alt": 21975, "speed": 262.1, "last_seen": "18.08.2026 03:08 UTC"}, {"hex": "4601F3", "flight": "FIN8KH", "lat": 61.496933, "lon": 25.42972, "alt": 17975, "speed": 264.7, "last_seen": "18.08.2026 03:08 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
