@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">18.08.2026 03:35 UTC</div>
+        <div class="value">18.08.2026 03:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T42</div>
+                    <div class="meta">ICAO 467891 · REG PI-02 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge mid">13400 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>167.3 kt</b></div>
+                    <div><span>Track</span><b>187.21°</b></div>
+                    <div><span>Position</span><b>62.1161, 25.6529</b></div>
+                    <div><span>Last seen</span><b>18.08.2026 03:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-02" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -300,30 +324,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6115" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">T42</div>
-                    <div class="meta">ICAO 467891 · REG PI-02 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>152.9 kt</b></div>
-                    <div><span>Track</span><b>186.38°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>18.08.2026 03:35 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-02" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -747,7 +747,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "461F35", "flight": "FIN8MC", "lat": 61.499184, "lon": 25.290527, "alt": 25900, "speed": 194.0, "last_seen": "18.08.2026 03:14 UTC"}, {"hex": "780707", "flight": "CHH7921", "lat": 61.357944, "lon": 25.747986, "alt": 38000, "speed": 484.0, "last_seen": "18.08.2026 03:12 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.436199, "lon": 26.197713, "alt": 21975, "speed": 262.1, "last_seen": "18.08.2026 03:08 UTC"}, {"hex": "4601F3", "flight": "FIN8KH", "lat": 61.496933, "lon": 25.42972, "alt": 17975, "speed": 264.7, "last_seen": "18.08.2026 03:08 UTC"}];
+const aircraft = [{"hex": "467891", "flight": "T42", "lat": 62.116104, "lon": 25.65288, "alt": 13400, "speed": 167.3, "last_seen": "18.08.2026 03:40 UTC"}, {"hex": "461F35", "flight": "FIN8MC", "lat": 61.499184, "lon": 25.290527, "alt": 25900, "speed": 194.0, "last_seen": "18.08.2026 03:14 UTC"}, {"hex": "780707", "flight": "CHH7921", "lat": 61.357944, "lon": 25.747986, "alt": 38000, "speed": 484.0, "last_seen": "18.08.2026 03:12 UTC"}, {"hex": "4601FB", "flight": "FIN4QA", "lat": 61.436199, "lon": 26.197713, "alt": 21975, "speed": 262.1, "last_seen": "18.08.2026 03:08 UTC"}, {"hex": "4601F3", "flight": "FIN8KH", "lat": 61.496933, "lon": 25.42972, "alt": 17975, "speed": 264.7, "last_seen": "18.08.2026 03:08 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
