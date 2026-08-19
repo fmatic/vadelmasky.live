@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.08.2026 07:40 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "DCFSH",
-      "freq": 131.725,
-      "level": -19.7,
-      "label": "10",
-      "msgno": "M23A",
-      "text": "/N62.157/E025.568/10/0.32/010/032/EFJY/0703/0041/00009/ATNEK/RW30 /0702/-----/----/"
-    },
-    {
       "time": "19.08.2026 08:31 UTC",
       "source": "ACARS",
       "flight": "CZ2518",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "D02D",
       "text": "NT,13341/H711313,HP,DISK,13557/H811313,HP,REAR,13557/H910391,AIR,SEAL,13196/I011320,LP,DISK,13562/I126314,1ST,PT,28557/I226314,2ND,PT,28557/**.,EOT,...,/"
+    },
+    {
+      "time": "19.08.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -28.2,
+      "label": "5V",
+      "msgno": "S30A",
+      "text": "No text"
     }
   ]
 }
