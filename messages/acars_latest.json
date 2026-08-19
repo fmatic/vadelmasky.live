@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.08.2026 14:14 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "5V",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
       "time": "18.08.2026 14:15 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +318,17 @@
       "label": "QX",
       "msgno": "S22A",
       "text": "No text"
+    },
+    {
+      "time": "19.08.2026 07:40 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "DCFSH",
+      "freq": 131.725,
+      "level": -19.7,
+      "label": "10",
+      "msgno": "M23A",
+      "text": "/N62.157/E025.568/10/0.32/010/032/EFJY/0703/0041/00009/ATNEK/RW30 /0702/-----/----/"
     }
   ]
 }
