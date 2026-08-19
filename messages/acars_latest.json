@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.08.2026 04:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3067",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "B9",
-      "msgno": "M18A",
-      "text": "/EBLG.TI2/040EBLGA0ACB"
-    },
-    {
-      "time": "18.08.2026 04:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3067",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "_d",
-      "msgno": "S83A",
-      "text": "No text"
-    },
-    {
-      "time": "18.08.2026 04:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3067",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "SA",
-      "msgno": "S84A",
-      "text": "0LS041449V"
-    },
-    {
-      "time": "18.08.2026 06:27 UTC",
-      "source": "ACARS",
-      "flight": "CA1021",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "H1",
-      "msgno": "E60A",
-      "text": "ELC,R,115,115,0,0,0,115,,400,400,0,0,0,400,,0.22,0.27,0.00,0.00,0.00,0.00,28,28,28,28,28,28,0,,42,31,13,45,1,DIS,60,65,52,53,23,11,17,3,-1,--,--,--,--,NORMAL,NORMAL,NORMAL,NORMAL,29,29,29,7,10,7,,18,AUG,26,"
-    },
-    {
-      "time": "18.08.2026 06:30 UTC",
-      "source": "ACARS",
-      "flight": "CA1021",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "H1",
-      "msgno": "E61A",
-      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,C"
-    },
-    {
-      "time": "18.08.2026 06:46 UTC",
-      "source": "ACARS",
-      "flight": "CA3143",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "Q0",
-      "msgno": "S16A",
-      "text": "No text"
-    },
-    {
       "time": "18.08.2026 08:22 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -329,6 +263,72 @@
       "label": "Q0",
       "msgno": "S31A",
       "text": "No text"
+    },
+    {
+      "time": "19.08.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -21.3,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "19.08.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -21.4,
+      "label": "SA",
+      "msgno": "S01A",
+      "text": "0EV030144V"
+    },
+    {
+      "time": "19.08.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -24.0,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/19 EFJY/EFHK .OH-ATI\r\n/OUT 0254/FOB 0017/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "19.08.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -24.0,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/19 EFJY/EFHK .OH-ATI\r\n/OUT 0254/FOB 0017/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "19.08.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -28.5,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/19 EFJY/EFHK .OH-ATI\r\n/OUT 0254/OFF 0256/FOB 0017/ETA 0336"
+    },
+    {
+      "time": "19.08.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -23.4,
+      "label": "H1",
+      "msgno": "D00A",
+      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2AUG18,2126,0289/C1GMT,ACC/C22114,.0.90,FLT/C32120,.1.28,FLT/C42124,.1.27,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
     }
   ]
 }
