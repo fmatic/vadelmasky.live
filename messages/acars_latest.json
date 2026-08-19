@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.08.2026 08:22 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "B9",
-      "msgno": "M51A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
-      "time": "18.08.2026 08:22 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "_d",
-      "msgno": "S74A",
-      "text": "No text"
-    },
-    {
-      "time": "18.08.2026 14:11 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "49",
-      "msgno": "M52A",
-      "text": "01CLER   DKH1608/181412EFHKZSPD\r\n+34830289.0- 21.8"
-    },
-    {
-      "time": "18.08.2026 14:12 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "5V",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
       "time": "18.08.2026 14:13 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "D00A",
       "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2AUG18,2126,0289/C1GMT,ACC/C22114,.0.90,FLT/C32120,.1.28,FLT/C42124,.1.27,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
+    },
+    {
+      "time": "19.08.2026 07:30 UTC",
+      "source": "ACARS",
+      "flight": "XA0001",
+      "tail": "OEHCU",
+      "freq": 131.725,
+      "level": -16.7,
+      "label": "Q0",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "19.08.2026 07:30 UTC",
+      "source": "ACARS",
+      "flight": "XA0001",
+      "tail": "OEHCU",
+      "freq": 131.825,
+      "level": -39.0,
+      "label": "Q0",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "19.08.2026 07:30 UTC",
+      "source": "ACARS",
+      "flight": "XA0001",
+      "tail": "OEHCU",
+      "freq": 131.925,
+      "level": -37.2,
+      "label": "Q0",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "19.08.2026 07:32 UTC",
+      "source": "ACARS",
+      "flight": "XA0001",
+      "tail": "OEHCU",
+      "freq": 131.725,
+      "level": -22.0,
+      "label": "5V",
+      "msgno": "S37A",
+      "text": "No text"
     }
   ]
 }
