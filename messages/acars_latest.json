@@ -5,17 +5,6 @@
       "source": "ACARS",
       "flight": "N70286",
       "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -21.1,
-      "label": "80",
-      "msgno": "M02B",
-      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
-      "time": "19.08.2026 11:43 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
       "freq": 131.725,
       "level": -39.6,
       "label": "80",
@@ -329,6 +318,17 @@
       "label": "B9",
       "msgno": "M57A",
       "text": "/EDDF.TI2/024EDDFA1046"
+    },
+    {
+      "time": "20.08.2026 12:41 UTC",
+      "source": "ACARS",
+      "flight": "CA3055",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "B9",
+      "msgno": "M47A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
     }
   ]
 }
