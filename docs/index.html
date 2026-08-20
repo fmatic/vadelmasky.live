@@ -246,17 +246,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">12</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.08.2026 05:50 UTC</div>
+        <div class="value">20.08.2026 05:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,78 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN5ET</div>
+                    <div class="meta">ICAO 4601FB · REG OH-ATN · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>20.08.2026 05:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4678B1 · REG GO-27 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">4425 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>124.3 kt</b></div>
+                    <div><span>Track</span><b>196.83°</b></div>
+                    <div><span>Position</span><b>62.2736, 25.6219</b></div>
+                    <div><span>Last seen</span><b>20.08.2026 05:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-27" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K05</div>
+                    <div class="meta">ICAO 4678A1 · REG GO-11 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">3375 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>123.3 kt</b></div>
+                    <div><span>Track</span><b>202.41°</b></div>
+                    <div><span>Position</span><b>62.2773, 25.6363</b></div>
+                    <div><span>Last seen</span><b>20.08.2026 05:52 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-11" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -444,30 +516,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXH" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN4QA</div>
-                    <div class="meta">ICAO 4601FB · REG OH-ATN · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">16000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>20.08.2026 02:59 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -748,7 +796,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "467891", "flight": "T42", "lat": 62.301977, "lon": 25.768221, "alt": 2050, "speed": 197.6, "last_seen": "20.08.2026 05:20 UTC"}, {"hex": "4601FD", "flight": "FIN8KH", "lat": 61.942734, "lon": 25.544637, "alt": 18000, "speed": 211.1, "last_seen": "20.08.2026 03:20 UTC"}, {"hex": "461F69", "flight": "FIN8MC", "lat": 61.479772, "lon": 25.290426, "alt": 26425, "speed": 406.0, "last_seen": "20.08.2026 03:20 UTC"}];
+const aircraft = [{"hex": "4678B1", "flight": "-", "lat": 62.27358, "lon": 25.621913, "alt": 4425, "speed": 124.3, "last_seen": "20.08.2026 05:55 UTC"}, {"hex": "4678A1", "flight": "K05", "lat": 62.277283, "lon": 25.636292, "alt": 3375, "speed": 123.3, "last_seen": "20.08.2026 05:52 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.301977, "lon": 25.768221, "alt": 2050, "speed": 197.6, "last_seen": "20.08.2026 05:20 UTC"}, {"hex": "4601FD", "flight": "FIN8KH", "lat": 61.942734, "lon": 25.544637, "alt": 18000, "speed": 211.1, "last_seen": "20.08.2026 03:20 UTC"}, {"hex": "461F69", "flight": "FIN8MC", "lat": 61.479772, "lon": 25.290426, "alt": 26425, "speed": 406.0, "last_seen": "20.08.2026 03:20 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
