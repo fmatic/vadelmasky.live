@@ -31,13 +31,13 @@
       "flight": "FIN5ET",
       "reg": "OH-ATN",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
+      "lat": 61.756525,
+      "lon": 26.325989,
       "alt": 18000,
-      "speed": null,
-      "track": null,
+      "speed": 257.9,
+      "track": 213.14,
       "seen_first": "2026-08-20T02:46:01.905383",
-      "last_seen": "2026-08-20T05:55:02.030950"
+      "last_seen": "2026-08-20T06:00:01.678206"
     },
     "4601fd": {
       "hex": "4601fd",
@@ -155,11 +155,24 @@
       "track": 196.83,
       "seen_first": "2026-08-20T05:55:02.030950",
       "last_seen": "2026-08-20T05:55:02.030950"
+    },
+    "4678ab": {
+      "hex": "4678ab",
+      "flight": "K08",
+      "reg": "GO-21",
+      "type": "G115",
+      "lat": 62.264603,
+      "lon": 25.947469,
+      "alt": 3350,
+      "speed": 132.0,
+      "track": 15.83,
+      "seen_first": "2026-08-20T05:56:01.562321",
+      "last_seen": "2026-08-20T06:00:01.678206"
     }
   },
   "summary": {
-    "total_unique_aircraft": 12,
+    "total_unique_aircraft": 13,
     "last_seen_live": 2,
-    "updated": "2026-08-20T05:55:02.030950"
+    "updated": "2026-08-20T06:00:01.678206"
   }
 }
