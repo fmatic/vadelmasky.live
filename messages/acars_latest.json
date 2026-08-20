@@ -5,28 +5,6 @@
       "source": "ACARS",
       "flight": "N70286",
       "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "SA",
-      "msgno": "S29A",
-      "text": "0EV114314V"
-    },
-    {
-      "time": "19.08.2026 11:43 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -26.9,
-      "label": "80",
-      "msgno": "M02A",
-      "text": "3501 SUMMRY 0285/19 EFHK/EFJY .OH-ATI\r\n/OUT 1027/FOB 0017\r\n/OFF 1032/FOB 0017\r\n/ON  1109/FOB 0012\r\n/IN  1110/FOB 0013\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
-    },
-    {
-      "time": "19.08.2026 11:43 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
       "freq": 131.725,
       "level": -36.7,
       "label": "80",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "E33B",
       "text": ",14,43,43,,20,AUG,26,04,29,19"
+    },
+    {
+      "time": "20.08.2026 07:55 UTC",
+      "source": "ACARS",
+      "flight": "ZD0001",
+      "tail": "023",
+      "freq": 131.725,
+      "level": -35.0,
+      "label": "Q0",
+      "msgno": "M75A",
+      "text": "No text"
+    },
+    {
+      "time": "20.08.2026 07:58 UTC",
+      "source": "ACARS",
+      "flight": "ZD0001",
+      "tail": "023",
+      "freq": 131.725,
+      "level": -38.7,
+      "label": "15",
+      "msgno": "M76A",
+      "text": "(2N61573E 26031--- 25216-26(Z"
     }
   ]
 }
