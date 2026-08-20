@@ -31,13 +31,13 @@
       "flight": "FIN6YP",
       "reg": "OH-ATN",
       "type": "AT75",
-      "lat": 61.853865,
-      "lon": 26.459961,
-      "alt": 16450,
+      "lat": 61.364462,
+      "lon": 25.816752,
+      "alt": 19000,
       "speed": 264.9,
       "track": 212.67,
       "seen_first": "2026-08-20T02:46:01.905383",
-      "last_seen": "2026-08-20T15:45:01.546630"
+      "last_seen": "2026-08-20T15:50:01.444875"
     },
     "4601fd": {
       "hex": "4601fd",
@@ -112,10 +112,10 @@
       "lat": null,
       "lon": null,
       "alt": 37000,
-      "speed": 492.0,
-      "track": 75.23,
+      "speed": 494.0,
+      "track": 75.76,
       "seen_first": "2026-08-20T05:44:01.663303",
-      "last_seen": "2026-08-20T15:45:01.546630"
+      "last_seen": "2026-08-20T15:47:01.630491"
     },
     "46789c": {
       "hex": "46789c",
@@ -444,21 +444,34 @@
     },
     "461e14": {
       "hex": "461e14",
-      "flight": "",
+      "flight": "FIN9XG",
       "reg": "OH-LKE",
       "type": "E190",
       "lat": null,
       "lon": null,
       "alt": 31000,
-      "speed": null,
-      "track": null,
+      "speed": 390.0,
+      "track": 191.78,
       "seen_first": "2026-08-20T15:45:01.546630",
-      "last_seen": "2026-08-20T15:45:01.546630"
+      "last_seen": "2026-08-20T15:47:01.630491"
+    },
+    "463010": {
+      "hex": "463010",
+      "flight": "OHSFG",
+      "reg": null,
+      "type": null,
+      "lat": 62.178334,
+      "lon": 25.820406,
+      "alt": 1700,
+      "speed": 110.7,
+      "track": 157.14,
+      "seen_first": "2026-08-20T15:47:01.630491",
+      "last_seen": "2026-08-20T15:50:01.444875"
     }
   },
   "summary": {
-    "total_unique_aircraft": 35,
-    "last_seen_live": 3,
-    "updated": "2026-08-20T15:45:01.546630"
+    "total_unique_aircraft": 36,
+    "last_seen_live": 2,
+    "updated": "2026-08-20T15:50:01.444875"
   }
 }
