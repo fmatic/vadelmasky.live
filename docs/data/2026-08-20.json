@@ -33,11 +33,11 @@
       "type": "AT75",
       "lat": 61.853865,
       "lon": 26.459961,
-      "alt": 16225,
+      "alt": 16450,
       "speed": 264.9,
       "track": 212.67,
       "seen_first": "2026-08-20T02:46:01.905383",
-      "last_seen": "2026-08-20T15:40:02.106846"
+      "last_seen": "2026-08-20T15:45:01.546630"
     },
     "4601fd": {
       "hex": "4601fd",
@@ -106,16 +106,16 @@
     },
     "78044f": {
       "hex": "78044f",
-      "flight": "CAO1153",
+      "flight": "CAO1154",
       "reg": "B-6117",
       "type": "A332",
       "lat": null,
       "lon": null,
-      "alt": 36000,
-      "speed": null,
-      "track": null,
+      "alt": 37000,
+      "speed": 492.0,
+      "track": 75.23,
       "seen_first": "2026-08-20T05:44:01.663303",
-      "last_seen": "2026-08-20T05:44:01.663303"
+      "last_seen": "2026-08-20T15:45:01.546630"
     },
     "46789c": {
       "hex": "46789c",
@@ -441,11 +441,24 @@
       "track": 209.74,
       "seen_first": "2026-08-20T14:25:01.415599",
       "last_seen": "2026-08-20T14:31:02.069098"
+    },
+    "461e14": {
+      "hex": "461e14",
+      "flight": "",
+      "reg": "OH-LKE",
+      "type": "E190",
+      "lat": null,
+      "lon": null,
+      "alt": 31000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-08-20T15:45:01.546630",
+      "last_seen": "2026-08-20T15:45:01.546630"
     }
   },
   "summary": {
-    "total_unique_aircraft": 34,
-    "last_seen_live": 1,
-    "updated": "2026-08-20T15:40:02.106846"
+    "total_unique_aircraft": 35,
+    "last_seen_live": 3,
+    "updated": "2026-08-20T15:45:01.546630"
   }
 }
