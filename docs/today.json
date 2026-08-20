@@ -267,16 +267,42 @@
       "type": "AT75",
       "lat": null,
       "lon": null,
-      "alt": 21000,
+      "alt": 21025,
       "speed": null,
       "track": null,
       "seen_first": "2026-08-20T09:42:01.949654",
-      "last_seen": "2026-08-20T09:55:01.589674"
+      "last_seen": "2026-08-20T09:57:01.806852"
+    },
+    "46789d": {
+      "hex": "46789d",
+      "flight": "YOUNG1",
+      "reg": "GO-7",
+      "type": "G115",
+      "lat": 62.247528,
+      "lon": 25.722961,
+      "alt": 1700,
+      "speed": 113.2,
+      "track": 168.79,
+      "seen_first": "2026-08-20T09:58:02.077283",
+      "last_seen": "2026-08-20T10:00:02.180754"
+    },
+    "467897": {
+      "hex": "467897",
+      "flight": "YOUNG2",
+      "reg": "GO-1",
+      "type": "G115",
+      "lat": null,
+      "lon": null,
+      "alt": 1700,
+      "speed": 104.2,
+      "track": 208.04,
+      "seen_first": "2026-08-20T09:59:01.799842",
+      "last_seen": "2026-08-20T10:00:02.180754"
     }
   },
   "summary": {
-    "total_unique_aircraft": 21,
-    "last_seen_live": 1,
-    "updated": "2026-08-20T09:55:01.589674"
+    "total_unique_aircraft": 23,
+    "last_seen_live": 2,
+    "updated": "2026-08-20T10:00:02.180754"
   }
 }
