@@ -246,12 +246,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">17</div>
+        <div class="value">18</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">21.08.2026 07:50 UTC</div>
+        <div class="value">21.08.2026 07:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K01</div>
+                    <div class="meta">ICAO 46789A · REG GO-4 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2525 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>114.6 kt</b></div>
+                    <div><span>Track</span><b>314.29°</b></div>
+                    <div><span>Position</span><b>62.3230, 25.8476</b></div>
+                    <div><span>Last seen</span><b>21.08.2026 07:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-4" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601F3 · REG OH-ATF · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">19025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>21.08.2026 07:53 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATF" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -300,30 +348,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-10" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">K01</div>
-                    <div class="meta">ICAO 46789A · REG GO-4 · TYPE G115</div>
-                </div>
-                <div class="alt-badge low">2575 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>87.0 kt</b></div>
-                    <div><span>Track</span><b>317.33°</b></div>
-                    <div><span>Position</span><b>62.3210, 25.8537</b></div>
-                    <div><span>Last seen</span><b>21.08.2026 07:41 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-4" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -915,7 +939,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4678A0", "flight": "K02", "lat": 62.326767, "lon": 25.841064, "alt": 2500, "speed": 99.0, "last_seen": "21.08.2026 07:46 UTC"}, {"hex": "46789A", "flight": "K01", "lat": 62.32097, "lon": 25.853682, "alt": 2575, "speed": 87.0, "last_seen": "21.08.2026 07:41 UTC"}, {"hex": "4601F4", "flight": "FIN489", "lat": 61.779661, "lon": 25.885315, "alt": 24000, "speed": 136.9, "last_seen": "21.08.2026 07:07 UTC"}, {"hex": "461F36", "flight": "FIN14J", "lat": 61.534836, "lon": 25.276206, "alt": 24000, "speed": 374.2, "last_seen": "21.08.2026 06:44 UTC"}, {"hex": "4601F9", "flight": "FIN5ET", "lat": 61.877747, "lon": 26.449291, "alt": 22000, "speed": 237.7, "last_seen": "21.08.2026 05:43 UTC"}, {"hex": "461F67", "flight": "FIN434", "lat": 61.524994, "lon": 25.277579, "alt": 25225, "speed": 397.2, "last_seen": "21.08.2026 05:20 UTC"}, {"hex": "461F62", "flight": "FIN448", "lat": 60.9744, "lon": 25.48014, "alt": 27675, "speed": 392.0, "last_seen": "21.08.2026 05:13 UTC"}, {"hex": "467896", "flight": "FNF359", "lat": 62.343246, "lon": 25.711466, "alt": 3950, "speed": 136.2, "last_seen": "21.08.2026 03:52 UTC"}, {"hex": "781437", "flight": "HO1661", "lat": 61.555, "lon": 26.713333, "alt": 38000, "speed": "-", "last_seen": "21.08.2026 03:22 UTC"}, {"hex": "461F30", "flight": "FIN8MC", "lat": 61.676734, "lon": 25.252482, "alt": 24675, "speed": 392.0, "last_seen": "21.08.2026 03:07 UTC"}, {"hex": "78165E", "flight": "DKH1659", "lat": 61.953627, "lon": 26.045634, "alt": 38000, "speed": 478.0, "last_seen": "21.08.2026 02:56 UTC"}];
+const aircraft = [{"hex": "46789A", "flight": "K01", "lat": 62.323019, "lon": 25.847555, "alt": 2525, "speed": 114.6, "last_seen": "21.08.2026 07:55 UTC"}, {"hex": "4678A0", "flight": "K02", "lat": 62.326767, "lon": 25.841064, "alt": 2500, "speed": 99.0, "last_seen": "21.08.2026 07:46 UTC"}, {"hex": "4601F4", "flight": "FIN489", "lat": 61.779661, "lon": 25.885315, "alt": 24000, "speed": 136.9, "last_seen": "21.08.2026 07:07 UTC"}, {"hex": "461F36", "flight": "FIN14J", "lat": 61.534836, "lon": 25.276206, "alt": 24000, "speed": 374.2, "last_seen": "21.08.2026 06:44 UTC"}, {"hex": "4601F9", "flight": "FIN5ET", "lat": 61.877747, "lon": 26.449291, "alt": 22000, "speed": 237.7, "last_seen": "21.08.2026 05:43 UTC"}, {"hex": "461F67", "flight": "FIN434", "lat": 61.524994, "lon": 25.277579, "alt": 25225, "speed": 397.2, "last_seen": "21.08.2026 05:20 UTC"}, {"hex": "461F62", "flight": "FIN448", "lat": 60.9744, "lon": 25.48014, "alt": 27675, "speed": 392.0, "last_seen": "21.08.2026 05:13 UTC"}, {"hex": "467896", "flight": "FNF359", "lat": 62.343246, "lon": 25.711466, "alt": 3950, "speed": 136.2, "last_seen": "21.08.2026 03:52 UTC"}, {"hex": "781437", "flight": "HO1661", "lat": 61.555, "lon": 26.713333, "alt": 38000, "speed": "-", "last_seen": "21.08.2026 03:22 UTC"}, {"hex": "461F30", "flight": "FIN8MC", "lat": 61.676734, "lon": 25.252482, "alt": 24675, "speed": 392.0, "last_seen": "21.08.2026 03:07 UTC"}, {"hex": "78165E", "flight": "DKH1659", "lat": 61.953627, "lon": 26.045634, "alt": 38000, "speed": 478.0, "last_seen": "21.08.2026 02:56 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
