@@ -5,50 +5,6 @@
       "source": "ACARS",
       "flight": "N70286",
       "tail": "OH-ATI",
-      "freq": 131.725,
-      "level": -39.0,
-      "label": "H1",
-      "msgno": "D01A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2AUG19,1110,0285/C1GMT,ACC/C21036,.0.55,FLT/C31032,.1.50,FLT/C41108,.1.24,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "19.08.2026 11:44 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -22.8,
-      "label": "H1",
-      "msgno": "D01A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2AUG19,1110,0285/C1GMT,ACC/C21036,.0.55,FLT/C31032,.1.50,FLT/C41108,.1.24,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "19.08.2026 11:44 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -25.7,
-      "label": "H1",
-      "msgno": "D02A",
-      "text": "A25/ATR7250025,1,1/A1PW127M,ENGINE,CYCLES,REPORT/B1DATE,GMT/B2AUG19,1132/C1TOTAL,LIFE,COUNT/C2ENGINE,1,S.N/C3ESN1,ED2136/C4LP,IMPELLER,03690/C5HP,IMPELLER,03690/C6HP,FRONT,COVER,04239/C7HP,DISK,03687/C8HP,R"
-    },
-    {
-      "time": "19.08.2026 11:44 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -26.9,
-      "label": "H1",
-      "msgno": "D02B",
-      "text": "EAR,COVER,03687/C9AIR,SEAL,04609/D0LP,DISK,03680/D11ST,PT,DISK,03686/D22ND,PT,DISK,03686/E1TOTAL,LIFE,COUNT/E2ENGINE,2,S.N/E3ESN2,ED2131/E4LP,IMPELLER,01444/E5HP,IMPELLER,01444/E6HP,FRONT,COVER,01659/E7HP,D"
-    },
-    {
-      "time": "19.08.2026 11:44 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
       "freq": 131.825,
       "level": -26.9,
       "label": "H1",
@@ -328,6 +284,50 @@
       "level": -23.4,
       "label": "Q0",
       "msgno": "S77A",
+      "text": "No text"
+    },
+    {
+      "time": "21.08.2026 02:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "Q0",
+      "msgno": "S35A",
+      "text": "No text"
+    },
+    {
+      "time": "21.08.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "SA",
+      "msgno": "S40A",
+      "text": "0EV024321VS/"
+    },
+    {
+      "time": "21.08.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "5V",
+      "msgno": "S41A",
+      "text": "No text"
+    },
+    {
+      "time": "21.08.2026 02:44 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "Q0",
+      "msgno": "S43A",
       "text": "No text"
     }
   ]
