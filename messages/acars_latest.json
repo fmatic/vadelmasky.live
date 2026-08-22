@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.08.2026 13:46 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "DCFSH",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "10",
-      "msgno": "M03A",
-      "text": "/N62.242/E025.401/10/0.25/313/013/EDDB/1532/0064/00051/ERTOP/SOTUP/1409/RIKUM/1351/"
-    },
-    {
-      "time": "20.08.2026 13:46 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "DCFSH",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "QQ",
-      "msgno": "M04A",
-      "text": "EFJYEDDB1345/0063/-----/1532/"
-    },
-    {
       "time": "20.08.2026 13:47 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -328,6 +306,28 @@
       "level": -35.7,
       "label": "_d",
       "msgno": "S09A",
+      "text": "No text"
+    },
+    {
+      "time": "22.08.2026 12:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "_d",
+      "msgno": "S10A",
+      "text": "No text"
+    },
+    {
+      "time": "22.08.2026 12:49 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "Q0",
+      "msgno": "S11A",
       "text": "No text"
     }
   ]
