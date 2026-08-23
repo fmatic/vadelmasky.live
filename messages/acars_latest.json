@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.08.2026 02:46 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "5V",
-      "msgno": "S47A",
-      "text": "No text"
-    },
-    {
-      "time": "21.08.2026 02:47 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "Q0",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
       "time": "21.08.2026 02:47 UTC",
       "source": "ACARS",
       "flight": "HO1661",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S97A",
       "text": "No text"
+    },
+    {
+      "time": "23.08.2026 03:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "10",
+      "msgno": "M43A",
+      "text": "POS230318,N 61.722,E 27.428,0406,481750,,,38000,28320"
+    },
+    {
+      "time": "23.08.2026 03:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "10",
+      "msgno": "M43A",
+      "text": "POS230318,N 61.722,E 27.428,0406,481750,,,38000,28320"
     }
   ]
 }
