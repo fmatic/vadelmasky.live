@@ -288,16 +288,16 @@
     },
     "4601f3": {
       "hex": "4601f3",
-      "flight": "FIN7BT",
+      "flight": "FIN1T",
       "reg": "OH-ATF",
       "type": "AT75",
-      "lat": 61.486335,
-      "lon": 25.69224,
-      "alt": 22025,
+      "lat": 61.28523,
+      "lon": 25.455119,
+      "alt": 23525,
       "speed": 285.6,
       "track": 201.35,
       "seen_first": "2026-08-23T15:33:02.025549",
-      "last_seen": "2026-08-23T17:35:02.097242"
+      "last_seen": "2026-08-23T21:20:01.980783"
     },
     "461f65": {
       "hex": "461f65",
@@ -324,11 +324,24 @@
       "track": 193.45,
       "seen_first": "2026-08-23T15:48:01.352936",
       "last_seen": "2026-08-23T15:50:01.220446"
+    },
+    "4601f7": {
+      "hex": "4601f7",
+      "flight": "FIN417",
+      "reg": "OH-ATJ",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 16000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-08-23T21:16:01.300737",
+      "last_seen": "2026-08-23T21:20:01.980783"
     }
   },
   "summary": {
-    "total_unique_aircraft": 25,
-    "last_seen_live": 0,
-    "updated": "2026-08-23T21:15:01.756908"
+    "total_unique_aircraft": 26,
+    "last_seen_live": 2,
+    "updated": "2026-08-23T21:20:01.980783"
   }
 }
