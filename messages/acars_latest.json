@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.08.2026 10:05 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "B9",
-      "msgno": "M47A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
-      "time": "21.08.2026 10:05 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "_d",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
-      "time": "21.08.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "5V",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
       "time": "21.08.2026 10:55 UTC",
       "source": "ACARS",
       "flight": "CA1047",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S05A",
       "text": "No text"
+    },
+    {
+      "time": "23.08.2026 12:10 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -36.7,
+      "label": "Q0",
+      "msgno": "S27A",
+      "text": "No text"
+    },
+    {
+      "time": "23.08.2026 12:11 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "H1",
+      "msgno": "O51A",
+      "text": "SB0122BA_B-221S  ZSPDEHAM152\r\n 61741 0267651817 33996-44000401609805Z023036"
+    },
+    {
+      "time": "23.08.2026 12:12 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "16",
+      "msgno": "M90A",
+      "text": "POSA1N61598E 26302,AGIVU  ,115349,339,NISIX  ,123857,-46, 27, 253,829"
     }
   ]
 }
