@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">9</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.08.2026 08:20 UTC</div>
+        <div class="value">23.08.2026 08:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7TP</div>
+                    <div class="meta">ICAO 461F6E · REG OH-LXM · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">29300 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>463.1 kt</b></div>
+                    <div><span>Track</span><b>180.87°</b></div>
+                    <div><span>Position</span><b>61.6239, 25.2952</b></div>
+                    <div><span>Last seen</span><b>23.08.2026 08:24 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXM" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -699,7 +723,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "4601FB", "flight": "FIN5NB", "lat": 61.599106, "lon": 25.703888, "alt": 20000, "speed": 290.0, "last_seen": "23.08.2026 07:14 UTC"}, {"hex": "78026E", "flight": "CA3155", "lat": 61.722, "lon": 27.428, "alt": "-", "speed": "-", "last_seen": "23.08.2026 03:54 UTC"}];
+const aircraft = [{"hex": "461F6E", "flight": "FIN7TP", "lat": 61.623917, "lon": 25.295236, "alt": 29300, "speed": 463.1, "last_seen": "23.08.2026 08:24 UTC"}, {"hex": "4601FB", "flight": "FIN5NB", "lat": 61.599106, "lon": 25.703888, "alt": 20000, "speed": 290.0, "last_seen": "23.08.2026 07:14 UTC"}, {"hex": "78026E", "flight": "CA3155", "lat": 61.722, "lon": 27.428, "alt": "-", "speed": "-", "last_seen": "23.08.2026 03:54 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
