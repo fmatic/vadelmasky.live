@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.08.2026 02:49 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -31.4,
-      "label": "5V",
-      "msgno": "S55A",
-      "text": "No text"
-    },
-    {
       "time": "21.08.2026 05:58 UTC",
       "source": "ACARS",
       "flight": "CA3159",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S32A",
       "text": "No text"
+    },
+    {
+      "time": "23.08.2026 11:16 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228S",
+      "freq": 131.825,
+      "level": -33.0,
+      "label": "H1",
+      "msgno": "O63A",
+      "text": "SB0122BA_B-228S  ZSPDEDDF356\r\n 61756 0271331116 34001-430026014010YY,010011"
     }
   ]
 }
