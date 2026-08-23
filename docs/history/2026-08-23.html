@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VadelmaSky history 2026-08-23</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0f1418;
+    color: #e8edf2;
+}
+header {
+    padding: 2rem;
+    background: linear-gradient(135deg, #07110c, #132019);
+    border-bottom: 1px solid #243225;
+}
+h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    color: #41ff41;
+}
+a {
+    color: #7dd3fc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.subtitle {
+    color: #a8b3bd;
+    margin-top: .4rem;
+}
+nav {
+    margin-top: 1rem;
+}
+nav a {
+    margin-right: 1rem;
+}
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.card {
+    background: #171d22;
+    border: 1px solid #2b363d;
+    border-radius: 14px;
+    padding: 1rem;
+}
+.card .value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #7dd3fc;
+}
+.card .label {
+    color: #a8b3bd;
+    margin-top: .25rem;
+}
+section {
+    background: #171d22;
+    border: 1px solid #2b363d;
+    border-radius: 14px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+#map {
+    height: 520px;
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid #2b363d;
+    margin-top: 1rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: .65rem;
+    border-bottom: 1px solid #2b363d;
+    white-space: nowrap;
+}
+th {
+    color: #93c5fd;
+    font-weight: 600;
+}
+tr:hover {
+    background: #1f2933;
+}
+.note {
+    color: #a8b3bd;
+    font-size: .95rem;
+}
+.receiver-icon {
+    background: #41ff41;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 18px #41ff41;
+}
+
+.aircraft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+.aircraft-card {
+    background: #101820;
+    border: 1px solid #2b363d;
+    border-radius: 14px;
+    padding: 1rem;
+}
+.aircraft-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.flight {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.meta {
+    color: #7b8794;
+    font-size: .9rem;
+}
+.alt-badge {
+    padding: .25rem .65rem;
+    border-radius: 999px;
+    font-weight: 800;
+    font-size: .85rem;
+    white-space: nowrap;
+}
+.alt-badge.low { background: rgba(65,255,65,.15); color: #41ff41; }
+.alt-badge.mid { background: rgba(250,204,21,.15); color: #facc15; }
+.alt-badge.high { background: rgba(248,113,113,.15); color: #f87171; }
+.alt-badge.unknown { background: rgba(156,163,175,.15); color: #9ca3af; }
+
+.aircraft-body {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.aircraft-silhouette {
+    width: 72px;
+    height: 72px;
+    border-radius: 12px;
+    background: #17212b;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    color: #41ff41;
+}
+.aircraft-data {
+    flex: 1;
+    display: grid;
+    gap: .35rem;
+}
+.aircraft-data div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #26313a;
+    padding-bottom: .25rem;
+}
+.aircraft-data span {
+    color: #7b8794;
+}
+.aircraft-data b {
+    text-align: right;
+}
+.photo-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.acars-grid {
+    display: grid;
+    gap: .75rem;
+}
+.acars-card {
+    background: #101820;
+    border: 1px solid #2b363d;
+    border-radius: 12px;
+    padding: .9rem;
+}
+.acars-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.acars-flight {
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+.acars-meta {
+    color: #7b8794;
+    font-size: .9rem;
+}
+.acars-text {
+    margin-top: .75rem;
+    padding: .75rem;
+    background: #0b1117;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+footer {
+    color: #6b7280;
+    padding: 2rem;
+    text-align: center;
+    font-size: .9rem;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>VadelmaSky ✈️</h1>
+    <div class="subtitle">Local ADS-B aviation log from Jyväskylä, Finland</div>
+    <nav>
+        <a href="/">Live</a>
+        <a href="/history/">History</a>
+        <a href="/today.json">Today JSON</a>
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h2>2026-08-23</h2>
+    <p><a href="/history/">← Back to history</a></p>
+</section>
+
+<div class="cards">
+    <div class="card">
+        <div class="value">0</div>
+        <div class="label">Unique aircraft</div>
+    </div>
+
+    <div class="card">
+        <div class="value">0</div>
+        <div class="label">With position</div>
+    </div>
+
+    <div class="card">
+        <div class="value">0 ft</div>
+        <div class="label">Highest altitude</div>
+    </div>
+
+    <div class="card">
+        <div class="value">0 kt</div>
+        <div class="label">Max speed</div>
+    </div>
+</div>
+
+<section>
+    <h2>Aircraft for this day</h2>
+    <div class="aircraft-grid">
+        
+    </div>
+</section>
+
+</main>
+
+<footer>
+    VadelmaSky.live · Powered by local SDR receivers · Data updates automatically
+</footer>
+</body>
+</html>
