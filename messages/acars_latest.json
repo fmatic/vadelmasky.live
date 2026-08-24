@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.08.2026 12:46 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "_d",
-      "msgno": "S10A",
-      "text": "No text"
-    },
-    {
-      "time": "22.08.2026 12:49 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "Q0",
-      "msgno": "S11A",
-      "text": "No text"
-    },
-    {
       "time": "22.08.2026 13:52 UTC",
       "source": "ACARS",
       "flight": "N70487",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S18A",
       "text": "No text"
+    },
+    {
+      "time": "24.08.2026 07:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "_d",
+      "msgno": "S23A",
+      "text": "No text"
+    },
+    {
+      "time": "24.08.2026 07:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "H1",
+      "msgno": "E63A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,176,176,47,46,46,44,161,161,55,79,85,85,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,100,AUTO,8.5,0.10,0.21,L,,,,24,AUG,26,07,21,43"
     }
   ]
 }
