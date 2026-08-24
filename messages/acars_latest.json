@@ -6,17 +6,6 @@
       "flight": "HO1661",
       "tail": "B-208A",
       "freq": 131.825,
-      "level": -23.7,
-      "label": "5V",
-      "msgno": "S95A",
-      "text": "No text"
-    },
-    {
-      "time": "23.08.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-208A",
-      "freq": 131.825,
       "level": -30.0,
       "label": "Q0",
       "msgno": "S97A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C28A",
       "text": ".1/FLR/FR2608241549  34363106IR2    1,IR1,IR3,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "24.08.2026 15:51 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -28.8,
+      "label": "10",
+      "msgno": "M84A",
+      "text": "POS241551,N 62.168,E 26.815,2339,459375,,,35002,105080"
     }
   ]
 }
