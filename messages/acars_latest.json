@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.08.2026 02:39 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -29.7,
-      "label": "SA",
-      "msgno": "S94A",
-      "text": "0EV024348VS/"
-    },
-    {
       "time": "23.08.2026 02:40 UTC",
       "source": "ACARS",
       "flight": "HO1661",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S50A",
       "text": "No text"
+    },
+    {
+      "time": "24.08.2026 15:49 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -25.7,
+      "label": "H1",
+      "msgno": "C28A",
+      "text": ".1/FLR/FR2608241549  34363106IR2    1,IR1,IR3,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
