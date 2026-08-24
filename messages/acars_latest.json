@@ -6,17 +6,6 @@
       "flight": "N70487",
       "tail": "OH-ATO",
       "freq": 131.825,
-      "level": -20.8,
-      "label": "Q0",
-      "msgno": "S03A",
-      "text": "No text"
-    },
-    {
-      "time": "22.08.2026 13:52 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATO",
-      "freq": 131.825,
       "level": -23.0,
       "label": "Q0",
       "msgno": "M06A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "E63A",
       "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,176,176,47,46,46,44,161,161,55,79,85,85,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,100,AUTO,8.5,0.10,0.21,L,,,,24,AUG,26,07,21,43"
+    },
+    {
+      "time": "24.08.2026 07:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "H1",
+      "msgno": "C26A",
+      "text": ".1/FLR/FR2608240748  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
