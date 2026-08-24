@@ -246,22 +246,22 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">33350 ft</div>
+        <div class="value">36875 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">24.08.2026 04:35 UTC</div>
+        <div class="value">24.08.2026 04:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8PN</div>
+                    <div class="meta">ICAO 461F39 · REG OH-LVL · TYPE A319</div>
+                </div>
+                <div class="alt-badge high">36875 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>217.1 kt</b></div>
+                    <div><span>Track</span><b>1.32°</b></div>
+                    <div><span>Position</span><b>61.7543, 25.2116</b></div>
+                    <div><span>Last seen</span><b>24.08.2026 04:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVL" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -406,6 +430,42 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA1047</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-222S · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">24.08.2026 04:35 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg E90B · Level -39.0 dB
+            </div>
+
+            <div class="acars-text">,48</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA1047</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-222S · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">24.08.2026 04:35 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label _d · Msg S33A · Level -35.4 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -589,47 +649,11 @@ footer {
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1159</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6113 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">23.08.2026 04:34 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label B9 · Msg M13A · Level -35.5 dB
-            </div>
-
-            <div class="acars-text">/ESSA.TI2/040ESSAAA22C</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA3155</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6070 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">23.08.2026 03:17 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 10 · Msg M43A · Level -35.2 dB
-            </div>
-
-            <div class="acars-text">POS230318,N 61.722,E 27.428,0406,481750,,,38000,28320</div>
-        </article>
-        
     </div>
 </section>
 
 <script>
-const aircraft = [{"hex": "4601F3", "flight": "FIN8KH", "lat": 61.81141, "lon": 25.505473, "alt": 16000, "speed": 251.2, "last_seen": "24.08.2026 03:10 UTC"}, {"hex": "461F35", "flight": "FIN8MC", "lat": 61.504537, "lon": 25.263875, "alt": 27725, "speed": 444.0, "last_seen": "24.08.2026 03:08 UTC"}, {"hex": "4601F9", "flight": "FIN4QA", "lat": 61.895623, "lon": 26.376241, "alt": 20025, "speed": 153.4, "last_seen": "24.08.2026 03:04 UTC"}, {"hex": "4601F7", "flight": "FIN418", "lat": 62.296326, "lon": 26.205546, "alt": 22025, "speed": 289.4, "last_seen": "24.08.2026 03:01 UTC"}];
+const aircraft = [{"hex": "461F39", "flight": "FIN8PN", "lat": 61.75429, "lon": 25.211589, "alt": 36875, "speed": 217.1, "last_seen": "24.08.2026 04:40 UTC"}, {"hex": "4601F3", "flight": "FIN8KH", "lat": 61.81141, "lon": 25.505473, "alt": 16000, "speed": 251.2, "last_seen": "24.08.2026 03:10 UTC"}, {"hex": "461F35", "flight": "FIN8MC", "lat": 61.504537, "lon": 25.263875, "alt": 27725, "speed": 444.0, "last_seen": "24.08.2026 03:08 UTC"}, {"hex": "4601F9", "flight": "FIN4QA", "lat": 61.895623, "lon": 26.376241, "alt": 20025, "speed": 153.4, "last_seen": "24.08.2026 03:04 UTC"}, {"hex": "4601F7", "flight": "FIN418", "lat": 62.296326, "lon": 26.205546, "alt": 22025, "speed": 289.4, "last_seen": "24.08.2026 03:01 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
