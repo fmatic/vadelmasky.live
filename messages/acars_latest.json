@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.08.2026 13:52 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -23.0,
-      "label": "Q0",
-      "msgno": "M06A",
-      "text": "No text"
-    },
-    {
-      "time": "22.08.2026 13:53 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -22.4,
-      "label": "SA",
-      "msgno": "M05A",
-      "text": "0EV135321V"
-    },
-    {
-      "time": "22.08.2026 13:53 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -21.3,
-      "label": "B9",
-      "msgno": "L01A",
-      "text": "/EFKS.TI2/024EFKSA2D99"
-    },
-    {
       "time": "22.08.2026 13:53 UTC",
       "source": "ACARS",
       "flight": "N70487",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C26A",
       "text": ".1/FLR/FR2608240748  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "24.08.2026 08:45 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "_d",
+      "msgno": "S41A",
+      "text": "No text"
+    },
+    {
+      "time": "24.08.2026 08:49 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "B9",
+      "msgno": "L07A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "24.08.2026 08:50 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "_d",
+      "msgno": "S42A",
+      "text": "No text"
     }
   ]
 }
