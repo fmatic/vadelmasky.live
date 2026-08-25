@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.08.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -30.0,
-      "label": "Q0",
-      "msgno": "S97A",
-      "text": "No text"
-    },
-    {
-      "time": "23.08.2026 03:17 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "10",
-      "msgno": "M43A",
-      "text": "POS230318,N 61.722,E 27.428,0406,481750,,,38000,28320"
-    },
-    {
-      "time": "23.08.2026 03:17 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "10",
-      "msgno": "M43A",
-      "text": "POS230318,N 61.722,E 27.428,0406,481750,,,38000,28320"
-    },
-    {
-      "time": "23.08.2026 04:34 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "B9",
-      "msgno": "M13A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
-      "time": "23.08.2026 04:34 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -34.0,
-      "label": "_d",
-      "msgno": "S70A",
-      "text": "No text"
-    },
-    {
-      "time": "23.08.2026 04:34 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "_d",
-      "msgno": "S71A",
-      "text": "No text"
-    },
-    {
       "time": "23.08.2026 07:39 UTC",
       "source": "ACARS",
       "flight": "CZ2519",
@@ -329,6 +263,72 @@
       "label": "10",
       "msgno": "M84A",
       "text": "POS241551,N 62.168,E 26.815,2339,459375,,,35002,105080"
+    },
+    {
+      "time": "25.08.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.1,
+      "label": "Q0",
+      "msgno": "S01A",
+      "text": "No text"
+    },
+    {
+      "time": "25.08.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -23.8,
+      "label": "SA",
+      "msgno": "S02A",
+      "text": "0EV030047V"
+    },
+    {
+      "time": "25.08.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -31.4,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/25 EFJY/EFHK .OH-ATJ\r\n/OUT 0254/FOB 0015/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "25.08.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -22.2,
+      "label": "H1",
+      "msgno": "D00A",
+      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2AUG24,2130,0289/C1GMT,ACC/C22052,.0.90,FLT/C32051,.1.30,FLT/C42128,.1.28,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
+    },
+    {
+      "time": "25.08.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "H1",
+      "msgno": "D01A",
+      "text": "A25/ATR7250025,1,1/A1PW127M,ENGINE,CYCLES,REPORT/B1DATE,GMT/B2AUG25,0252/C1TOTAL,LIFE,COUNT/C2ENGINE,1,S.N/C3ESN1,ED2129/C4LP,IMPELLER,04729/C5HP,IMPELLER,04729/C6HP,FRONT,COVER,05432/C7HP,DISK,04724/C8HP,R"
+    },
+    {
+      "time": "25.08.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "H1",
+      "msgno": "D01C",
+      "text": "ISK,03166/E8HP,REAR,COVER,03166/E9AIR,SEAL,03958/F0LP,DISK,03157/F11ST,PT,DISK,03165/F22ND,PT,DISK,03165/H1REMAINING,LIFE/H2ESN1,ESN2/H3ED2129,ED2139/H410271,LP,IMP,11830/H510271,HP,IMP,11830/H609568,HP,FRO"
     }
   ]
 }
