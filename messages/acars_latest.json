@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.08.2026 10:29 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -31.0,
-      "label": "Q0",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
-      "time": "25.08.2026 10:50 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "SA",
-      "msgno": "S67A",
-      "text": "0EV105033VS/"
-    },
-    {
-      "time": "25.08.2026 11:05 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -24.8,
-      "label": "Q0",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
       "time": "25.08.2026 11:05 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S26A",
       "text": "No text"
+    },
+    {
+      "time": "25.08.2026 20:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1022",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "H1",
+      "msgno": "C44B",
+      "text": "DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\n"
+    },
+    {
+      "time": "25.08.2026 20:46 UTC",
+      "source": "ACARS",
+      "flight": "CA1022",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "H1",
+      "msgno": "C44C",
+      "text": "MSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453013 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nATA 345800\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "25.08.2026 20:48 UTC",
+      "source": "ACARS",
+      "flight": "CA1022",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -38.2,
+      "label": "H1",
+      "msgno": "E98B",
+      "text": "NORM,NORM,NORM,NORM,,25,AUG,26,20,48,14"
     }
   ]
 }
