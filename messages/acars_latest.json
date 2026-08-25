@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.08.2026 15:49 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -25.7,
-      "label": "H1",
-      "msgno": "C28A",
-      "text": ".1/FLR/FR2608241549  34363106IR2    1,IR1,IR3,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "24.08.2026 15:51 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -28.8,
-      "label": "10",
-      "msgno": "M84A",
-      "text": "POS241551,N 62.168,E 26.815,2339,459375,,,35002,105080"
-    },
-    {
-      "time": "25.08.2026 03:00 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -29.1,
-      "label": "Q0",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
-      "time": "25.08.2026 03:00 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -23.8,
-      "label": "SA",
-      "msgno": "S02A",
-      "text": "0EV030047V"
-    },
-    {
-      "time": "25.08.2026 03:00 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -31.4,
-      "label": "80",
-      "msgno": "M00A",
-      "text": "1001 OUTRP  0290/25 EFJY/EFHK .OH-ATJ\r\n/OUT 0254/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "25.08.2026 03:01 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -22.2,
-      "label": "H1",
-      "msgno": "D00A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2AUG24,2130,0289/C1GMT,ACC/C22052,.0.90,FLT/C32051,.1.30,FLT/C42128,.1.28,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "25.08.2026 03:01 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -30.7,
-      "label": "H1",
-      "msgno": "D01A",
-      "text": "A25/ATR7250025,1,1/A1PW127M,ENGINE,CYCLES,REPORT/B1DATE,GMT/B2AUG25,0252/C1TOTAL,LIFE,COUNT/C2ENGINE,1,S.N/C3ESN1,ED2129/C4LP,IMPELLER,04729/C5HP,IMPELLER,04729/C6HP,FRONT,COVER,05432/C7HP,DISK,04724/C8HP,R"
-    },
-    {
       "time": "25.08.2026 03:01 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -328,6 +251,83 @@
       "level": -35.6,
       "label": "5V",
       "msgno": "S82A",
+      "text": "No text"
+    },
+    {
+      "time": "25.08.2026 15:13 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "Q0",
+      "msgno": "S35A",
+      "text": "No text"
+    },
+    {
+      "time": "25.08.2026 15:13 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "SA",
+      "msgno": "M13A",
+      "text": "0EV151400V"
+    },
+    {
+      "time": "25.08.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "_d",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "25.08.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "D03A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,250826,1514,09/D1ENGINE,S.N/D2ESN1,ED2142/D3ESN2,ED1903/E1IAS,ALT,TAT/E2213,.16007,-000/F1TORQ,NP,N"
+    },
+    {
+      "time": "25.08.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "H1",
+      "msgno": "D03B",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,250826,1514,09/D1ENGINE,S.N/D2ESN1,ED2142/D3ESN2,ED1903/E1IAS,ALT,TAT/E2213,.16007,-000/F1TORQ,NP,NL/F2075.0,082.0,094.5/F3075.0,082.0,095.4/G1NH,ITT,FF,IG/G2095.9,0669.6,353,0071/G3095.6,0670.2,352,0082/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I218.77/**.,EOT,...,/"
+    },
+    {
+      "time": "25.08.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "_d",
+      "msgno": "S37A",
+      "text": "No text"
+    },
+    {
+      "time": "25.08.2026 15:15 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "_d",
+      "msgno": "S38A",
       "text": "No text"
     }
   ]
