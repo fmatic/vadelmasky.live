@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.08.2026 15:15 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "_d",
-      "msgno": "S40A",
-      "text": "No text"
-    },
-    {
-      "time": "25.08.2026 15:15 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "_d",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
-      "time": "25.08.2026 15:16 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -37.6,
-      "label": "_d",
-      "msgno": "S45A",
-      "text": "No text"
-    },
-    {
-      "time": "25.08.2026 15:16 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -38.4,
-      "label": "_d",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
       "time": "25.08.2026 19:19 UTC",
       "source": "ACARS",
       "flight": "N70594",
@@ -329,6 +285,50 @@
       "label": "_d",
       "msgno": "S08A",
       "text": "No text"
+    },
+    {
+      "time": "26.08.2026 11:12 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "Q0",
+      "msgno": "S12A",
+      "text": "No text"
+    },
+    {
+      "time": "26.08.2026 11:12 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -26.4,
+      "label": "SA",
+      "msgno": "S13A",
+      "text": "0EV111252V"
+    },
+    {
+      "time": "26.08.2026 11:12 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -28.1,
+      "label": "80",
+      "msgno": "M24A",
+      "text": "3501 SUMMRY 0285/26 EFHK/EFJY .OH-ATI\r\n/OUT 0955/FOB 0019\r\n/OFF 0959/FOB 0019\r\n/ON  1037/FOB 0014\r\n/IN  1039/FOB 0015\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
+    },
+    {
+      "time": "26.08.2026 11:12 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -31.4,
+      "label": "80",
+      "msgno": "M25A",
+      "text": "1201 ONRP   0285/26 EFHK/EFJY .OH-ATI\r\n/ON  1037/FOB 0014"
     }
   ]
 }
