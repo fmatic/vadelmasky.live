@@ -1,105 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.08.2026 19:19 UTC",
-      "source": "ACARS",
-      "flight": "N70594",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "_d",
-      "msgno": "S26A",
-      "text": "No text"
-    },
-    {
-      "time": "25.08.2026 20:46 UTC",
-      "source": "ACARS",
-      "flight": "CA1022",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -36.6,
-      "label": "H1",
-      "msgno": "C44B",
-      "text": "DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\n"
-    },
-    {
-      "time": "25.08.2026 20:46 UTC",
-      "source": "ACARS",
-      "flight": "CA1022",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "H1",
-      "msgno": "C44C",
-      "text": "MSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453013 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nATA 345800\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "25.08.2026 20:48 UTC",
-      "source": "ACARS",
-      "flight": "CA1022",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "H1",
-      "msgno": "E98B",
-      "text": "NORM,NORM,NORM,NORM,,25,AUG,26,20,48,14"
-    },
-    {
-      "time": "26.08.2026 02:49 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "H1",
-      "msgno": "634F",
-      "text": "T0VJ0U902E01I0000050002500G004400G000002000000190002000:::00000060000001742002081000GMV8JGQ00000F0301070303066D1I9LR9L79D776C1OE0OA70P00L1Q00000T60TB0TF0TK0TO0TR0U40UH0UP0V4//0SC0SH0SN0SV0T70TB0TQ0UA0UR0VN/"
-    },
-    {
-      "time": "26.08.2026 02:51 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "5V",
-      "msgno": "S76A",
-      "text": "No text"
-    },
-    {
-      "time": "26.08.2026 02:52 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "_d",
-      "msgno": "S79A",
-      "text": "No text"
-    },
-    {
-      "time": "26.08.2026 02:52 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "SA",
-      "msgno": "S80A",
-      "text": "0EV025229VSH/"
-    },
-    {
-      "time": "26.08.2026 02:52 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "5V",
-      "msgno": "S81A",
-      "text": "No text"
-    },
-    {
       "time": "26.08.2026 02:53 UTC",
       "source": "ACARS",
       "flight": "HO1659",
@@ -329,6 +230,105 @@
       "label": "80",
       "msgno": "M25A",
       "text": "1201 ONRP   0285/26 EFHK/EFJY .OH-ATI\r\n/ON  1037/FOB 0014"
+    },
+    {
+      "time": "26.08.2026 12:35 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "Q0",
+      "msgno": "S58A",
+      "text": "No text"
+    },
+    {
+      "time": "26.08.2026 12:36 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "SA",
+      "msgno": "S59A",
+      "text": "0EV123625VSH/"
+    },
+    {
+      "time": "26.08.2026 12:37 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "Q0",
+      "msgno": "S62A",
+      "text": "No text"
+    },
+    {
+      "time": "26.08.2026 12:37 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "SA",
+      "msgno": "S63A",
+      "text": "0EV123734VSH/"
+    },
+    {
+      "time": "26.08.2026 12:37 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "5V",
+      "msgno": "S64A",
+      "text": "No text"
+    },
+    {
+      "time": "26.08.2026 12:38 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "Q0",
+      "msgno": "S66A",
+      "text": "No text"
+    },
+    {
+      "time": "26.08.2026 12:38 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "SA",
+      "msgno": "S67A",
+      "text": "0EV123908VSH/"
+    },
+    {
+      "time": "26.08.2026 12:38 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -30.2,
+      "label": "5V",
+      "msgno": "S68A",
+      "text": "No text"
+    },
+    {
+      "time": "26.08.2026 12:39 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -27.1,
+      "label": "Q0",
+      "msgno": "S70A",
+      "text": "No text"
     }
   ]
 }
