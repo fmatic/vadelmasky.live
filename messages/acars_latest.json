@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.08.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "5V",
-      "msgno": "S89A",
-      "text": "No text"
-    },
-    {
-      "time": "26.08.2026 02:57 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -26.7,
-      "label": "Q0",
-      "msgno": "S02A",
-      "text": "No text"
-    },
-    {
       "time": "26.08.2026 02:57 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M20A",
       "text": "POS261328, N 6180,E 2720,835,312,32407,  41,31003, 775,-125,-444,7"
+    },
+    {
+      "time": "26.08.2026 14:28 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-20DT",
+      "freq": 131.825,
+      "level": -39.6,
+      "label": "H1",
+      "msgno": "F79A",
+      "text": "POSN61244E027271,ENUTO,142822,299,KOKAT,144509,LULOR,M41,32839,127057E3"
+    },
+    {
+      "time": "26.08.2026 14:28 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-20DT",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "5V",
+      "msgno": "S73A",
+      "text": "No text"
     }
   ]
 }
