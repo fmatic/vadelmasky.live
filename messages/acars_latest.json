@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.08.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -30.8,
-      "label": "SA",
-      "msgno": "S88A",
-      "text": "0EV025550VSH/"
-    },
-    {
       "time": "26.08.2026 02:56 UTC",
       "source": "ACARS",
       "flight": "HO1659",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S77A",
       "text": "No text"
+    },
+    {
+      "time": "26.08.2026 13:28 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "10",
+      "msgno": "M20A",
+      "text": "POS261328, N 6180,E 2720,835,312,32407,  41,31003, 775,-125,-444,7"
     }
   ]
 }
