@@ -384,11 +384,11 @@
       "type": null,
       "lat": null,
       "lon": null,
-      "alt": null,
+      "alt": 1600,
       "speed": null,
       "track": null,
       "seen_first": "2026-08-26T14:51:01.661141",
-      "last_seen": "2026-08-26T16:04:01.661802"
+      "last_seen": "2026-08-26T16:14:01.789804"
     },
     "4601f7": {
       "hex": "4601f7",
@@ -441,11 +441,24 @@
       "track": 78.93,
       "seen_first": "2026-08-26T15:22:01.634709",
       "last_seen": "2026-08-26T15:24:01.948479"
+    },
+    "460561": {
+      "hex": "460561",
+      "flight": "OHCAZ",
+      "reg": "OH-CAZ",
+      "type": "C172",
+      "lat": 62.270554,
+      "lon": 25.775299,
+      "alt": 2025,
+      "speed": 97.9,
+      "track": 158.42,
+      "seen_first": "2026-08-26T16:14:01.789804",
+      "last_seen": "2026-08-26T16:15:01.859364"
     }
   },
   "summary": {
-    "total_unique_aircraft": 34,
-    "last_seen_live": 0,
-    "updated": "2026-08-26T16:10:01.620315"
+    "total_unique_aircraft": 35,
+    "last_seen_live": 1,
+    "updated": "2026-08-26T16:15:01.859364"
   }
 }
