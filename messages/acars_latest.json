@@ -6,28 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATI",
       "freq": 131.825,
-      "level": -36.3,
-      "label": "80",
-      "msgno": "M14A",
-      "text": "1201 ONRP   0285/27 EFHK/EFJY .OH-ATI\r\n/ON  1039/FOB 0014"
-    },
-    {
-      "time": "27.08.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -23.2,
-      "label": "80",
-      "msgno": "M16A",
-      "text": "1301 INRP   0285/27 EFHK/EFJY .OH-ATI\r\n/ON  1039/IN  1040/FOB 0016"
-    },
-    {
-      "time": "27.08.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
       "level": -25.0,
       "label": "80",
       "msgno": "M17A",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S09A",
       "text": "No text"
+    },
+    {
+      "time": "27.08.2026 14:42 UTC",
+      "source": "ACARS",
+      "flight": "CA3105",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "10",
+      "msgno": "M51A",
+      "text": "POS271442,N 61.743,E 27.531,1538,435375,,,38005,29520"
+    },
+    {
+      "time": "27.08.2026 14:43 UTC",
+      "source": "ACARS",
+      "flight": "CA3105",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "SA",
+      "msgno": "S31A",
+      "text": "0LS144338VH"
     }
   ]
 }
