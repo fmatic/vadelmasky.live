@@ -251,12 +251,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">27.08.2026 01:15 UTC</div>
+        <div class="value">27.08.2026 01:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,30 +279,6 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CBJ621</div>
-                    <div class="meta">ICAO 781133 · REG B-8981 · TYPE A332</div>
-                </div>
-                <div class="alt-badge high">38000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>448.0 kt</b></div>
-                    <div><span>Track</span><b>237.13°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>27.08.2026 01:15 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-8981" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -317,13 +293,37 @@ footer {
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>504.0 kt</b></div>
-                    <div><span>Track</span><b>62.58°</b></div>
+                    <div><span>Track</span><b>62.75°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>27.08.2026 01:15 UTC</b></div>
+                    <div><span>Last seen</span><b>27.08.2026 01:18 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2097" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CBJ621</div>
+                    <div class="meta">ICAO 781133 · REG B-8981 · TYPE A332</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>446.0 kt</b></div>
+                    <div><span>Track</span><b>236.95°</b></div>
+                    <div><span>Position</span><b>61.5731, 25.4258</b></div>
+                    <div><span>Last seen</span><b>27.08.2026 01:17 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-8981" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -555,7 +555,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "781133", "flight": "CBJ621", "lat": 61.573109, "lon": 25.425822, "alt": 38000, "speed": 446.0, "last_seen": "27.08.2026 01:17 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
