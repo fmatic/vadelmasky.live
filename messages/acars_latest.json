@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.08.2026 09:26 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "5V",
-      "msgno": "S10A",
-      "text": "No text"
-    },
-    {
-      "time": "27.08.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATI",
-      "freq": 131.725,
-      "level": -34.1,
-      "label": "Q0",
-      "msgno": "S99A",
-      "text": "No text"
-    },
-    {
-      "time": "27.08.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -18.4,
-      "label": "Q0",
-      "msgno": "S99A",
-      "text": "No text"
-    },
-    {
-      "time": "27.08.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -21.9,
-      "label": "SA",
-      "msgno": "S01A",
-      "text": "0EV103357V"
-    },
-    {
-      "time": "27.08.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATI",
-      "freq": 131.725,
-      "level": -37.7,
-      "label": "SA",
-      "msgno": "S01A",
-      "text": "0EV103357V"
-    },
-    {
-      "time": "27.08.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -19.6,
-      "label": "80",
-      "msgno": "M13A",
-      "text": "3701 INRANG 0285/27 EFHK/EFJY .OH-ATI\r\n/ETA 1039/ERT     "
-    },
-    {
       "time": "27.08.2026 10:33 UTC",
       "source": "ACARS",
       "flight": "N70285",
@@ -329,6 +263,72 @@
       "label": "SA",
       "msgno": "S08A",
       "text": "0EV111836V"
+    },
+    {
+      "time": "27.08.2026 11:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "H1",
+      "msgno": "D81A",
+      "text": "<340>LEG\r\n9  B-226MDKH1607   ER  63270826045524ZSPDEFHK 8228  1\r\n 41871 116022 36100 -801DKH4BACMF1004\r\n280 226 -408  582812   55   5311\r\n2007600000\r\n20........    )\r\n 0 706 15210066\r\n 0 731 17210060\r\n2 81 "
+    },
+    {
+      "time": "27.08.2026 11:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -36.2,
+      "label": "H1",
+      "msgno": "D81D",
+      "text": ".\r\nERXXXX   )XXXXX99999\r\n......................\r\nER  0XXX0XXXX  1  0  1\r\n200  25  23  25  2511 810101\r\n  0  300XXXXXXXX\r\n 0 031 167 3002\r\n20 000  78 2998\r\n0  27  39\r\n1 24  18 3300 3250 3150  231 82 7  72\r\n1"
+    },
+    {
+      "time": "27.08.2026 11:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "D81E",
+      "text": " 22  26 5850 5850 5775  221 82 7\r\n..................\r\n1013 2071200010049\r\n 750 1711200010080XXXX   ) 1228)XXXXX\r\n 0 0 0  12    )    )   8   9\r\n 0002  24   8   9\r\n00000101\r\n0000001\r\n1110\r\nXXXX   )XXXXX2\r\n0  "
+    },
+    {
+      "time": "27.08.2026 11:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "F82A",
+      "text": "POSN61366E028191,AGAMO,114708,361,ROKVI,115457,VEPIN,M58,29954,271B2A9"
+    },
+    {
+      "time": "27.08.2026 11:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "H1",
+      "msgno": "D81F",
+      "text": " 00   00    000   00   00    00\r\n112011101110"
+    },
+    {
+      "time": "27.08.2026 11:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -43.5,
+      "label": "Q0",
+      "msgno": "S93A",
+      "text": "No text"
     }
   ]
 }
