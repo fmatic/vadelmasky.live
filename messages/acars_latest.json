@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.08.2026 12:26 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "5V",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
       "time": "28.08.2026 12:28 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S18A",
       "text": "0EV153036VS/"
+    },
+    {
+      "time": "28.08.2026 23:37 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2041",
+      "freq": 131.825,
+      "level": -33.8,
+      "label": "18",
+      "msgno": "M10A",
+      "text": "POX,CSG2516   ,28AUG26,233712,EGPK,ZGGG,N061.75,E0026.45,349, 736,829,  72.1, -50.0,059,-52.4,082412, 41560,"
     }
   ]
 }
