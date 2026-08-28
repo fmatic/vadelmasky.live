@@ -6,28 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATI",
       "freq": 131.825,
-      "level": -26.5,
-      "label": "B9",
-      "msgno": "L11A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "27.08.2026 11:12 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -20.0,
-      "label": "H1",
-      "msgno": "D07D",
-      "text": "NT,13290/H711269,HP,DISK,13513/H811269,HP,REAR,13513/H910336,AIR,SEAL,13141/I011276,LP,DISK,13518/I126270,1ST,PT,28513/I226270,2ND,PT,28513/**.,EOT,...,/"
-    },
-    {
-      "time": "27.08.2026 11:12 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
       "level": -25.1,
       "label": "H1",
       "msgno": "D07D",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S48A",
       "text": "0EV024959VS/"
+    },
+    {
+      "time": "28.08.2026 05:53 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -35.8,
+      "label": "B9",
+      "msgno": "M50A",
+      "text": "/ESSA.TI2/024ESSAA05A8"
+    },
+    {
+      "time": "28.08.2026 05:54 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -31.5,
+      "label": "_d",
+      "msgno": "S78A",
+      "text": "No text"
     }
   ]
 }
