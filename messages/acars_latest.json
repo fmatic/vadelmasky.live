@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.08.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -25.0,
-      "label": "80",
-      "msgno": "M17A",
-      "text": "1001 OUTRP  0286/27 EFJY/EFHK .OH-ATI\r\n/OUT 1104/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "27.08.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -29.1,
-      "label": "80",
-      "msgno": "M18A",
-      "text": "1101 OFFRP  0286/27 EFJY/EFHK .OH-ATI\r\n/OUT 1104/OFF 1108/FOB 0015/ETA 1148"
-    },
-    {
-      "time": "27.08.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "80",
-      "msgno": "M19A",
-      "text": "3701 INRANG 0286/27 EFJY/EFHK .OH-ATI\r\n/ETA 1148/ERT     "
-    },
-    {
-      "time": "27.08.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -24.3,
-      "label": "H1",
-      "msgno": "D05B",
-      "text": "/C9ENG,2,LO,PITCH/C0MFC1B.1UA1.,.,PIN,AC-05B/D1CHK,PEC,FAULT,CODES,/"
-    },
-    {
-      "time": "27.08.2026 11:12 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -22.5,
-      "label": "H1",
-      "msgno": "D06A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2AUG27,1040,0285/C1GMT,ACC/C21035,.0.63,FLT/C31034,.1.33,FLT/C41038,.1.36,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "27.08.2026 11:12 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -25.2,
-      "label": "H1",
-      "msgno": "D07B",
-      "text": "EAR,COVER,03731/C9AIR,SEAL,04664/D0LP,DISK,03724/D11ST,PT,DISK,03730/D22ND,PT,DISK,03730/E1TOTAL,LIFE,COUNT/E2ENGINE,2,S.N/E3ESN2,ED2131/E4LP,IMPELLER,01488/E5HP,IMPELLER,01488/E6HP,FRONT,COVER,01710/E7HP,D"
-    },
-    {
       "time": "27.08.2026 11:12 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +263,72 @@
       "label": "SA",
       "msgno": "S31A",
       "text": "0LS144338VH"
+    },
+    {
+      "time": "28.08.2026 02:40 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20D1",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "5V",
+      "msgno": "S37A",
+      "text": "No text"
+    },
+    {
+      "time": "28.08.2026 02:41 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20D1",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "Q0",
+      "msgno": "S39A",
+      "text": "No text"
+    },
+    {
+      "time": "28.08.2026 02:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20D1",
+      "freq": 131.825,
+      "level": -23.6,
+      "label": "5V",
+      "msgno": "S41A",
+      "text": "No text"
+    },
+    {
+      "time": "28.08.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20D1",
+      "freq": 131.825,
+      "level": -28.1,
+      "label": "Q0",
+      "msgno": "S43A",
+      "text": "No text"
+    },
+    {
+      "time": "28.08.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20D1",
+      "freq": 131.825,
+      "level": -26.3,
+      "label": "SA",
+      "msgno": "S44A",
+      "text": "0EV024833VS/"
+    },
+    {
+      "time": "28.08.2026 02:44 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20D1",
+      "freq": 131.825,
+      "level": -29.6,
+      "label": "5V",
+      "msgno": "S45A",
+      "text": "No text"
     }
   ]
 }
