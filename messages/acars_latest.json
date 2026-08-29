@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.08.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "Q0",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
-      "time": "28.08.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "SA",
-      "msgno": "S42A",
-      "text": "0EV122843VSH/"
-    },
-    {
-      "time": "28.08.2026 12:29 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "5V",
-      "msgno": "S43A",
-      "text": "No text"
-    },
-    {
       "time": "28.08.2026 12:30 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +296,39 @@
       "label": "18",
       "msgno": "M10A",
       "text": "POX,CSG2516   ,28AUG26,233712,EGPK,ZGGG,N061.75,E0026.45,349, 736,829,  72.1, -50.0,059,-52.4,082412, 41560,"
+    },
+    {
+      "time": "29.08.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "80",
+      "msgno": "M02A",
+      "text": "3701 INRANG 0380/29 EFKU/EFHK .OH-ATJ\r\n/ETA 0335/ERT     "
+    },
+    {
+      "time": "29.08.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "_d",
+      "msgno": "S15A",
+      "text": "No text"
+    },
+    {
+      "time": "29.08.2026 03:03 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "5V",
+      "msgno": "S16A",
+      "text": "No text"
     }
   ]
 }
