@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.08.2026 12:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -38.9,
-      "label": "Q0",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
       "time": "28.08.2026 12:34 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O06A",
       "text": "SB0122BA_B-221S  ZSPDEDDF369\r\n 61610 0267231900 34000-480251037098W/X030040"
+    },
+    {
+      "time": "29.08.2026 11:31 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "16",
+      "msgno": "M06A",
+      "text": "POSA1N61308E 25883,AGAMO  ,,339,SALLO  ,124708,-49, 41, 249,820"
     }
   ]
 }
