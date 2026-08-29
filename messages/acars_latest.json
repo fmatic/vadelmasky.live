@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.08.2026 12:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "5V",
-      "msgno": "S47A",
-      "text": "No text"
-    },
-    {
-      "time": "28.08.2026 12:31 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "SA",
-      "msgno": "S51A",
-      "text": "0EV123136VSH/"
-    },
-    {
-      "time": "28.08.2026 12:31 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "H1",
-      "msgno": "F60A",
-      "text": "POSN61254E027182,RIKUM,123139,370,KETOL,124114,ROGID,M56,30155,11549F74"
-    },
-    {
       "time": "28.08.2026 12:31 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S44A",
       "text": "0LS031715V"
+    },
+    {
+      "time": "29.08.2026 05:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "B9",
+      "msgno": "M11A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "29.08.2026 05:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "_d",
+      "msgno": "S42A",
+      "text": "No text"
+    },
+    {
+      "time": "29.08.2026 05:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "_d",
+      "msgno": "S43A",
+      "text": "No text"
     }
   ]
 }
