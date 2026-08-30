@@ -256,12 +256,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">18000 ft</div>
+        <div class="value">18025 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">30.08.2026 07:10 UTC</div>
+        <div class="value">30.08.2026 07:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,7 +286,7 @@ footer {
                     <div class="flight">FIN5NB</div>
                     <div class="meta">ICAO 4601F6 · REG OH-ATI · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">18000 ft</div>
+                <div class="alt-badge mid">18025 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -294,8 +294,8 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>30.08.2026 07:10 UTC</b></div>
+                    <div><span>Position</span><b>61.4260, 25.5841</b></div>
+                    <div><span>Last seen</span><b>30.08.2026 07:15 UTC</b></div>
                 </div>
             </div>
 
@@ -611,7 +611,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [];
+const aircraft = [{"hex": "4601F6", "flight": "FIN5NB", "lat": 61.42605, "lon": 25.584106, "alt": 18025, "speed": "-", "last_seen": "30.08.2026 07:15 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
