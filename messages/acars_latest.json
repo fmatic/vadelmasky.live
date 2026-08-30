@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.08.2026 11:50 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "SA",
-      "msgno": "S74A",
-      "text": "0EV115047V"
-    },
-    {
       "time": "29.08.2026 13:03 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M91A",
       "text": "POSA1N61748E 27061,AGAMO  ,104534,339,SALLO  ,122147,-49, 62, 292,831"
+    },
+    {
+      "time": "30.08.2026 11:31 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "10",
+      "msgno": "M43A",
+      "text": "POS301132,N 61.606,E 26.892,1224,456000,,,36002,30120"
     }
   ]
 }
