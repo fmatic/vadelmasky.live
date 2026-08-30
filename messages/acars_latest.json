@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.08.2026 12:18 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2010",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "H1",
-      "msgno": "C04D",
-      "text": "RTE 1 30AUG26 1218 CZB-2010 CSG2520 EGPK/ZGGG 311B-BCG-00W-19 L 1003 30AUG26\r\nFDE 34503141 A 1216 30AUG26\r\nMSG 3453301 A 1216 30AUG26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1216 30AUG26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 1216 30AUG26\r\nMSG 3453301 A 1216 30AUG26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1216 30AUG26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 1214 30AUG26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1214 30AUG26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 1214 30AUG26\r\nMSG 3453302 A 1214 30AUG26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1214 30AUG26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
-    },
-    {
-      "time": "30.08.2026 12:25 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -37.4,
-      "label": "SA",
-      "msgno": "S73A",
-      "text": "0EV122540VS/"
-    },
-    {
-      "time": "30.08.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "Q0",
-      "msgno": "S77A",
-      "text": "No text"
-    },
-    {
-      "time": "30.08.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -33.2,
-      "label": "_d",
-      "msgno": "S78A",
-      "text": "No text"
-    },
-    {
-      "time": "30.08.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "SA",
-      "msgno": "S79A",
-      "text": "0EV122836VS/"
-    },
-    {
-      "time": "30.08.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "H1",
-      "msgno": "F78A",
-      "text": "POSN61176E026264,RIKUM,122839,352,KETOL,124154,ROGID,M49,16741,1205EC06"
-    },
-    {
       "time": "30.08.2026 12:29 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +263,72 @@
       "label": "_d",
       "msgno": "S97A",
       "text": "No text"
+    },
+    {
+      "time": "30.08.2026 15:35 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -22.6,
+      "label": "Q0",
+      "msgno": "S12A",
+      "text": "No text"
+    },
+    {
+      "time": "30.08.2026 15:35 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -23.3,
+      "label": "B9",
+      "msgno": "L03A",
+      "text": "/EFKI.TI2/024EFKIAC121"
+    },
+    {
+      "time": "30.08.2026 15:35 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -26.9,
+      "label": "SA",
+      "msgno": "M03A",
+      "text": "0EV153553V"
+    },
+    {
+      "time": "30.08.2026 15:35 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -25.8,
+      "label": "H1",
+      "msgno": "D01A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20415,300826,1529,09/D1ENGINE,S.N/D2ESN1,ED2142/D3ESN2,ED1903/E1IAS,ALT,TAT/E2197,.18027,-006/F1TORQ,NP,N"
+    },
+    {
+      "time": "30.08.2026 15:35 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -27.4,
+      "label": "H1",
+      "msgno": "D01B",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20415,300826,1529,09/D1ENGINE,S.N/D2ESN1,ED2142/D3ESN2,ED1903/E1IAS,ALT,TAT/E2197,.18027,-006/F1TORQ,NP,NL/F2070.4,082.0,094.5/F3070.4,082.0,094.5/G1NH,ITT,FF,IG/G2096.1,0675.3,336,0075/G3095.6,0672.1,332,0095/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I222.15/**.,EOT,...,/"
+    },
+    {
+      "time": "30.08.2026 15:36 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "H1",
+      "msgno": "D02B",
+      "text": "/C9.,ADC2.1FL2.,.,RLY.15CY./C0.,RLY.16CY.,.,TLU,MECHA,/"
     }
   ]
 }
