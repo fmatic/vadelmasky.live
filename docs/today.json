@@ -80,16 +80,16 @@
     },
     "4601f8": {
       "hex": "4601f8",
-      "flight": "",
+      "flight": "FIN26B",
       "reg": "OH-ATK",
       "type": "AT75",
       "lat": null,
       "lon": null,
-      "alt": null,
+      "alt": 16025,
       "speed": null,
       "track": null,
       "seen_first": "2026-08-30T09:55:01.733328",
-      "last_seen": "2026-08-30T09:55:01.733328"
+      "last_seen": "2026-08-30T11:05:01.292654"
     },
     "780092": {
       "hex": "780092",
@@ -129,11 +129,24 @@
       "track": 182.11,
       "seen_first": "2026-08-30T10:48:01.533161",
       "last_seen": "2026-08-30T10:50:01.625439"
+    },
+    "782277": {
+      "hex": "782277",
+      "flight": "CK0215",
+      "reg": "B-227K",
+      "type": "B77L",
+      "lat": 62.246667,
+      "lon": 3.176667,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-08-30T11:05:01.292654",
+      "last_seen": "2026-08-30T11:05:01.292654"
     }
   },
   "summary": {
-    "total_unique_aircraft": 10,
-    "last_seen_live": 0,
-    "updated": "2026-08-30T11:00:01.791378"
+    "total_unique_aircraft": 11,
+    "last_seen_live": 2,
+    "updated": "2026-08-30T11:05:01.292654"
   }
 }
