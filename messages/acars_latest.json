@@ -6,28 +6,6 @@
       "flight": "HO1660",
       "tail": "B-20DT",
       "freq": 131.825,
-      "level": -35.0,
-      "label": "Q0",
-      "msgno": "S82A",
-      "text": "No text"
-    },
-    {
-      "time": "30.08.2026 12:29 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "SA",
-      "msgno": "S83A",
-      "text": "0EV123003VS/"
-    },
-    {
-      "time": "30.08.2026 12:29 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20DT",
-      "freq": 131.825,
       "level": -33.0,
       "label": "5V",
       "msgno": "S84A",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "D02B",
       "text": "/C9.,ADC2.1FL2.,.,RLY.15CY./C0.,RLY.16CY.,.,TLU,MECHA,/"
+    },
+    {
+      "time": "30.08.2026 21:57 UTC",
+      "source": "ACARS",
+      "flight": "N70379",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -28.2,
+      "label": "Q0",
+      "msgno": "S09A",
+      "text": "No text"
+    },
+    {
+      "time": "30.08.2026 21:57 UTC",
+      "source": "ACARS",
+      "flight": "N70379",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "SA",
+      "msgno": "S10A",
+      "text": "0EV215748V"
     }
   ]
 }
