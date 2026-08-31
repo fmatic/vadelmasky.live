@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.08.2026 13:58 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "_d",
-      "msgno": "S93A",
-      "text": "No text"
-    },
-    {
-      "time": "30.08.2026 13:58 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
       "time": "30.08.2026 13:59 UTC",
       "source": "ACARS",
       "flight": "N70369",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S82A",
       "text": "0EV035207VS/"
+    },
+    {
+      "time": "31.08.2026 05:01 UTC",
+      "source": "ACARS",
+      "flight": "CA1047",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "O02A",
+      "text": "SB0122BA_B-2098  ZSPDEDDF681\r\n 61703 0273790501 33997-5101880160107GX011014"
+    },
+    {
+      "time": "31.08.2026 05:02 UTC",
+      "source": "ACARS",
+      "flight": "CA1047",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "_d",
+      "msgno": "S39A",
+      "text": "No text"
     }
   ]
 }
