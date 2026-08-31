@@ -246,7 +246,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -256,7 +256,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">31.08.2026 04:45 UTC</div>
+        <div class="value">31.08.2026 04:50 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7AZ</div>
+                    <div class="meta">ICAO 461E15 · REG OH-LKF · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">30925 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>430.0 kt</b></div>
+                    <div><span>Track</span><b>188.09°</b></div>
+                    <div><span>Position</span><b>61.6637, 25.1765</b></div>
+                    <div><span>Last seen</span><b>31.08.2026 04:49 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKF" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -725,7 +749,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "467891", "flight": "T42", "lat": 62.105294, "lon": 25.634054, "alt": 18000, "speed": 246.0, "last_seen": "31.08.2026 03:45 UTC"}, {"hex": "4601FA", "flight": "FIN8KH", "lat": 62.027505, "lon": 25.645955, "alt": 17575, "speed": 193.7, "last_seen": "31.08.2026 03:16 UTC"}, {"hex": "4601F7", "flight": "FIN418", "lat": 61.419998, "lon": 25.558268, "alt": 15975, "speed": 260.4, "last_seen": "31.08.2026 03:00 UTC"}];
+const aircraft = [{"hex": "461E15", "flight": "FIN7AZ", "lat": 61.663746, "lon": 25.176493, "alt": 30925, "speed": 430.0, "last_seen": "31.08.2026 04:49 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.105294, "lon": 25.634054, "alt": 18000, "speed": 246.0, "last_seen": "31.08.2026 03:45 UTC"}, {"hex": "4601FA", "flight": "FIN8KH", "lat": 62.027505, "lon": 25.645955, "alt": 17575, "speed": 193.7, "last_seen": "31.08.2026 03:16 UTC"}, {"hex": "4601F7", "flight": "FIN418", "lat": 61.419998, "lon": 25.558268, "alt": 15975, "speed": 260.4, "last_seen": "31.08.2026 03:00 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
