@@ -251,7 +251,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -271,7 +271,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">31.08.2026 14:50 UTC</div>
+        <div class="value">31.08.2026 14:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -279,6 +279,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T23</div>
+                    <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge low">6850 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>147.9 kt</b></div>
+                    <div><span>Track</span><b>218.96°</b></div>
+                    <div><span>Position</span><b>62.3169, 25.8323</b></div>
+                    <div><span>Last seen</span><b>31.08.2026 14:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-03" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -324,30 +348,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATM" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">T23</div>
-                    <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge low">3175 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>176.7 kt</b></div>
-                    <div><span>Track</span><b>348.24°</b></div>
-                    <div><span>Position</span><b>62.3169, 25.8323</b></div>
-                    <div><span>Last seen</span><b>31.08.2026 13:49 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-03" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1203,7 +1203,7 @@ footer {
 </section>
 
 <script>
-const aircraft = [{"hex": "460561", "flight": "OHCAZ", "lat": 62.323531, "lon": 25.848823, "alt": 2900, "speed": 83.4, "last_seen": "31.08.2026 14:20 UTC"}, {"hex": "4601FA", "flight": "FIN1YL", "lat": 61.845998, "lon": 25.404968, "alt": 17025, "speed": 256.6, "last_seen": "31.08.2026 14:19 UTC"}, {"hex": "467892", "flight": "T23", "lat": 62.316925, "lon": 25.832316, "alt": 3175, "speed": 176.7, "last_seen": "31.08.2026 13:49 UTC"}, {"hex": "78158F", "flight": "CHH408", "lat": 62.522402, "lon": 27.293948, "alt": 35000, "speed": 521.7, "last_seen": "31.08.2026 13:48 UTC"}, {"hex": "7813A1", "flight": "CHH752", "lat": 62.490467, "lon": 26.67977, "alt": 37000, "speed": 488.0, "last_seen": "31.08.2026 13:48 UTC"}, {"hex": "461E1C", "flight": "FIN440", "lat": 61.430007, "lon": 25.578715, "alt": 24075, "speed": 362.0, "last_seen": "31.08.2026 13:37 UTC"}, {"hex": "4601FC", "flight": "FIN2KK", "lat": 61.862869, "lon": 25.307007, "alt": 19000, "speed": 259.0, "last_seen": "31.08.2026 12:02 UTC"}, {"hex": "4601F3", "flight": "FIN286", "lat": 61.954744, "lon": 25.632019, "alt": 16225, "speed": 196.7, "last_seen": "31.08.2026 11:30 UTC"}, {"hex": "4601F6", "flight": "-", "lat": 61.794891, "lon": 25.248053, "alt": 19025, "speed": 264.0, "last_seen": "31.08.2026 11:20 UTC"}, {"hex": "4601F7", "flight": "FIN418", "lat": 61.419998, "lon": 25.558268, "alt": 15975, "speed": 260.4, "last_seen": "31.08.2026 11:19 UTC"}, {"hex": "467896", "flight": "N31", "lat": 62.163484, "lon": 25.760404, "alt": 15000, "speed": 238.0, "last_seen": "31.08.2026 07:03 UTC"}, {"hex": "461F63", "flight": "FIN14J", "lat": 61.807406, "lon": 25.302734, "alt": 28150, "speed": 396.0, "last_seen": "31.08.2026 06:34 UTC"}, {"hex": "467893", "flight": "T14", "lat": 62.333771, "lon": 25.661723, "alt": 4850, "speed": 231.3, "last_seen": "31.08.2026 05:47 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.322227, "lon": 25.850724, "alt": 2575, "speed": 188.9, "last_seen": "31.08.2026 05:27 UTC"}, {"hex": "461F65", "flight": "FIN434", "lat": 61.500813, "lon": 25.290426, "alt": 26525, "speed": 379.0, "last_seen": "31.08.2026 05:25 UTC"}, {"hex": "781FC3", "flight": "CAO3153", "lat": 61.710671, "lon": 25.806071, "alt": 34000, "speed": 476.0, "last_seen": "31.08.2026 05:21 UTC"}, {"hex": "461F6D", "flight": "FIN448", "lat": 61.749123, "lon": 25.299988, "alt": 28600, "speed": 418.0, "last_seen": "31.08.2026 05:20 UTC"}, {"hex": "461E15", "flight": "FIN7AZ", "lat": 61.663746, "lon": 25.176493, "alt": 30925, "speed": 430.0, "last_seen": "31.08.2026 04:49 UTC"}];
+const aircraft = [{"hex": "467892", "flight": "T23", "lat": 62.316925, "lon": 25.832316, "alt": 6850, "speed": 147.9, "last_seen": "31.08.2026 14:55 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.323531, "lon": 25.848823, "alt": 2900, "speed": 83.4, "last_seen": "31.08.2026 14:20 UTC"}, {"hex": "4601FA", "flight": "FIN1YL", "lat": 61.845998, "lon": 25.404968, "alt": 17025, "speed": 256.6, "last_seen": "31.08.2026 14:19 UTC"}, {"hex": "78158F", "flight": "CHH408", "lat": 62.522402, "lon": 27.293948, "alt": 35000, "speed": 521.7, "last_seen": "31.08.2026 13:48 UTC"}, {"hex": "7813A1", "flight": "CHH752", "lat": 62.490467, "lon": 26.67977, "alt": 37000, "speed": 488.0, "last_seen": "31.08.2026 13:48 UTC"}, {"hex": "461E1C", "flight": "FIN440", "lat": 61.430007, "lon": 25.578715, "alt": 24075, "speed": 362.0, "last_seen": "31.08.2026 13:37 UTC"}, {"hex": "4601FC", "flight": "FIN2KK", "lat": 61.862869, "lon": 25.307007, "alt": 19000, "speed": 259.0, "last_seen": "31.08.2026 12:02 UTC"}, {"hex": "4601F3", "flight": "FIN286", "lat": 61.954744, "lon": 25.632019, "alt": 16225, "speed": 196.7, "last_seen": "31.08.2026 11:30 UTC"}, {"hex": "4601F6", "flight": "-", "lat": 61.794891, "lon": 25.248053, "alt": 19025, "speed": 264.0, "last_seen": "31.08.2026 11:20 UTC"}, {"hex": "4601F7", "flight": "FIN418", "lat": 61.419998, "lon": 25.558268, "alt": 15975, "speed": 260.4, "last_seen": "31.08.2026 11:19 UTC"}, {"hex": "467896", "flight": "N31", "lat": 62.163484, "lon": 25.760404, "alt": 15000, "speed": 238.0, "last_seen": "31.08.2026 07:03 UTC"}, {"hex": "461F63", "flight": "FIN14J", "lat": 61.807406, "lon": 25.302734, "alt": 28150, "speed": 396.0, "last_seen": "31.08.2026 06:34 UTC"}, {"hex": "467893", "flight": "T14", "lat": 62.333771, "lon": 25.661723, "alt": 4850, "speed": 231.3, "last_seen": "31.08.2026 05:47 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.322227, "lon": 25.850724, "alt": 2575, "speed": 188.9, "last_seen": "31.08.2026 05:27 UTC"}, {"hex": "461F65", "flight": "FIN434", "lat": 61.500813, "lon": 25.290426, "alt": 26525, "speed": 379.0, "last_seen": "31.08.2026 05:25 UTC"}, {"hex": "781FC3", "flight": "CAO3153", "lat": 61.710671, "lon": 25.806071, "alt": 34000, "speed": 476.0, "last_seen": "31.08.2026 05:21 UTC"}, {"hex": "461F6D", "flight": "FIN448", "lat": 61.749123, "lon": 25.299988, "alt": 28600, "speed": 418.0, "last_seen": "31.08.2026 05:20 UTC"}, {"hex": "461E15", "flight": "FIN7AZ", "lat": 61.663746, "lon": 25.176493, "alt": 30925, "speed": 430.0, "last_seen": "31.08.2026 04:49 UTC"}];
 
 const map = L.map('map').setView([62.24, 25.75], 7);
 
