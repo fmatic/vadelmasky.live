@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.08.2026 11:13 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "H1",
-      "msgno": "D06A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2AUG31,1026,0285/C1GMT,ACC/C21021,.0.79,FLT/C30947,.1.31,FLT/C41024,.1.16,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
       "time": "31.08.2026 12:52 UTC",
       "source": "ACARS",
       "flight": "HO1662",
@@ -329,6 +318,17 @@
       "label": "B9",
       "msgno": "L06A",
       "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "01.09.2026 11:40 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "10",
+      "msgno": "M44A",
+      "text": "POS011140,N 61.482,E 26.329,1227,454500,,,39998,28440"
     }
   ]
 }
