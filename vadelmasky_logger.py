@@ -19,6 +19,8 @@ MESSAGES = BASE / "messages"
 TODAY_FILE = DOCS / "today.json"
 INDEX = DOCS / "index.html"
 HISTORY_INDEX = HISTORY / "index.html"
+HISTORY_DAY = HISTORY / "day.html"
+HISTORY_MANIFEST = HISTORY / "history.json"
 ACARS_FILE = MESSAGES / "acars_latest.json"
 
 HOME_LAT = 62.24
@@ -712,65 +714,38 @@ aircraft.forEach(a => {{
     INDEX.write_text(page_template("VadelmaSky.live", body), encoding="utf-8")
 
 
-def build_day_page(date_name, payload):
-    aircraft = payload.get("aircraft", {})
-    stats = daily_stats(payload)
+def load_history_manifest():
+    if not HISTORY_MANIFEST.exists():
+        return {"days": {}}
 
-    aircraft_list = sorted(
-        aircraft.items(),
-        key=lambda x: x[1].get("last_seen", ""),
-        reverse=True
-    )
+    try:
+        data = json.loads(HISTORY_MANIFEST.read_text(encoding="utf-8"))
 
-    aircraft_cards = build_aircraft_cards(aircraft_list, limit=None)
+        if "days" not in data:
+            data["days"] = {}
 
-    body = f"""
-<section>
-    <h2>{esc(date_name)}</h2>
-    <p><a href="/history/">← Back to history</a></p>
-</section>
+        return data
 
-<div class="cards">
-    <div class="card">
-        <div class="value">{stats["unique"]}</div>
-        <div class="label">Unique aircraft</div>
-    </div>
-
-    <div class="card">
-        <div class="value">{stats["with_position"]}</div>
-        <div class="label">With position</div>
-    </div>
-
-    <div class="card">
-        <div class="value">{stats["highest_alt"]} ft</div>
-        <div class="label">Highest altitude</div>
-    </div>
-
-    <div class="card">
-        <div class="value">{stats["max_speed"]} kt</div>
-        <div class="label">Max speed</div>
-    </div>
-</div>
-
-<section>
-    <h2>Aircraft for this day</h2>
-    <div class="aircraft-grid">
-        {aircraft_cards}
-    </div>
-</section>
-"""
-    (HISTORY / f"{date_name}.html").write_text(
-        page_template(f"VadelmaSky history {date_name}", body),
-        encoding="utf-8"
-    )
+    except Exception as e:
+        print(f"History manifest load failed: {e}")
+        return {"days": {}}
 
 
-def build_history_pages():
-    history_rows = ""
+def ensure_history_manifest():
+    """
+    First run only:
+    build the small history manifest from existing local JSON archives.
+    After that we never need to scan old history again.
+    """
 
-    files = sorted(DATA.glob("*.json"), reverse=True)
+    if HISTORY_MANIFEST.exists():
+        return load_history_manifest()
 
-    for file in files:
+    print("Building initial history manifest...")
+
+    manifest = {"days": {}}
+
+    for file in sorted(DATA.glob("*.json")):
         date_name = file.stem
 
         try:
@@ -779,26 +754,375 @@ def build_history_pages():
             continue
 
         stats = daily_stats(payload)
-        updated = fmt_time(payload.get("summary", {}).get("updated"))
 
-        build_day_page(date_name, payload)
+        manifest["days"][date_name] = {
+            "unique": stats["unique"],
+            "with_position": stats["with_position"],
+            "highest_alt": stats["highest_alt"],
+            "max_speed": stats["max_speed"],
+            "updated": payload.get("summary", {}).get("updated"),
+            "data_url": f"/data/{date_name}.json",
+        }
+
+    save_json(HISTORY_MANIFEST, manifest)
+
+    print(f"History manifest created: {len(manifest['days'])} days")
+
+    return manifest
+
+
+def update_history_manifest(date_name, payload):
+    manifest = ensure_history_manifest()
+
+    stats = daily_stats(payload)
+
+    manifest["days"][date_name] = {
+        "unique": stats["unique"],
+        "with_position": stats["with_position"],
+        "highest_alt": stats["highest_alt"],
+        "max_speed": stats["max_speed"],
+        "updated": payload.get("summary", {}).get("updated"),
+        "data_url": f"/data/{date_name}.json",
+    }
+
+    save_json(HISTORY_MANIFEST, manifest)
+
+    return manifest
+
+
+def build_history_day_viewer():
+    body = r"""
+<section>
+    <h2 id="day-title">History</h2>
+    <p><a href="/history/">← Back to history</a></p>
+    <p id="day-status" class="note">Loading daily aircraft log…</p>
+</section>
+
+<div id="day-stats" class="cards"></div>
+
+<section>
+    <h2>Aircraft for this day</h2>
+    <div id="day-aircraft" class="aircraft-grid"></div>
+</section>
+
+<script>
+function escapeHtml(value) {
+    return String(value ?? '-')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+}
+
+
+function altitudeClass(alt) {
+    if (!Number.isFinite(alt)) return 'unknown';
+    if (alt < 10000) return 'low';
+    if (alt < 25000) return 'mid';
+    return 'high';
+}
+
+
+function fmtTime(value) {
+    if (!value) return '-';
+
+    const iso = value.endsWith('Z') ? value : value + 'Z';
+    const d = new Date(iso);
+
+    if (Number.isNaN(d.getTime()))
+        return escapeHtml(value);
+
+    return d.toISOString()
+        .slice(0, 16)
+        .replace('T', ' ') + ' UTC';
+}
+
+
+function calculateStats(payload) {
+    const aircraft = Object.values(payload.aircraft || {});
+
+    const withPosition = aircraft.filter(
+        a => a.lat != null && a.lon != null
+    ).length;
+
+    const highestAlt = Math.max(
+        0,
+        ...aircraft.map(a =>
+            Number.isFinite(a.alt) ? a.alt : 0
+        )
+    );
+
+    const maxSpeed = Math.max(
+        0,
+        ...aircraft.map(a =>
+            Number.isFinite(a.speed) ? a.speed : 0
+        )
+    );
+
+    return {
+        unique: aircraft.length,
+        withPosition: withPosition,
+        highestAlt: highestAlt,
+        maxSpeed: Math.round(maxSpeed * 10) / 10
+    };
+}
+
+
+function renderStats(stats) {
+    document.getElementById('day-stats').innerHTML = `
+        <div class="card">
+            <div class="value">${stats.unique}</div>
+            <div class="label">Unique aircraft</div>
+        </div>
+
+        <div class="card">
+            <div class="value">${stats.withPosition}</div>
+            <div class="label">With position</div>
+        </div>
+
+        <div class="card">
+            <div class="value">${stats.highestAlt} ft</div>
+            <div class="label">Highest altitude</div>
+        </div>
+
+        <div class="card">
+            <div class="value">${stats.maxSpeed} kt</div>
+            <div class="label">Max speed</div>
+        </div>
+    `;
+}
+
+
+function renderAircraft(payload) {
+    const items = Object.entries(payload.aircraft || {})
+        .sort((a, b) =>
+            String(b[1].last_seen || '')
+                .localeCompare(String(a[1].last_seen || ''))
+        );
+
+    const cards = items.map(([hexId, a]) => {
+
+        const flight = escapeHtml(a.flight || 'Unknown');
+        const icao = escapeHtml(hexId.toUpperCase());
+
+        const regRaw = a.reg || '';
+        const reg = escapeHtml(regRaw || '-');
+
+        const type = escapeHtml(a.type || '-');
+
+        const alt = Number.isFinite(a.alt)
+            ? a.alt
+            : null;
+
+        const altText = alt !== null
+            ? `${alt} ft`
+            : '-';
+
+        const speed = escapeHtml(a.speed ?? '-');
+        const track = escapeHtml(a.track ?? '-');
+
+        const position =
+            Number.isFinite(a.lat) &&
+            Number.isFinite(a.lon)
+
+            ? `${a.lat.toFixed(4)}, ${a.lon.toFixed(4)}`
+            : 'No position';
+
+        let photoUrl;
+        let photoLabel;
+
+        if (regRaw) {
+            photoUrl =
+                `https://www.jetphotos.com/photo/keyword/${encodeURIComponent(regRaw)}`;
+            photoLabel = 'Search aircraft photo';
+        }
+        else {
+            photoUrl =
+                `https://globe.adsbexchange.com/?icao=${encodeURIComponent(hexId.toLowerCase())}`;
+            photoLabel = 'View aircraft info';
+        }
+
+        return `
+        <article class="aircraft-card">
+
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">${flight}</div>
+                    <div class="meta">
+                        ICAO ${icao} · REG ${reg} · TYPE ${type}
+                    </div>
+                </div>
+
+                <div class="alt-badge ${altitudeClass(alt)}">
+                    ${escapeHtml(altText)}
+                </div>
+            </div>
+
+            <div class="aircraft-body">
+
+                <div class="aircraft-silhouette">✈</div>
+
+                <div class="aircraft-data">
+
+                    <div>
+                        <span>Speed</span>
+                        <b>${speed} kt</b>
+                    </div>
+
+                    <div>
+                        <span>Track</span>
+                        <b>${track}°</b>
+                    </div>
+
+                    <div>
+                        <span>Position</span>
+                        <b>${escapeHtml(position)}</b>
+                    </div>
+
+                    <div>
+                        <span>Last seen</span>
+                        <b>${fmtTime(a.last_seen)}</b>
+                    </div>
+
+                </div>
+            </div>
+
+            <a
+                class="photo-link"
+                href="${photoUrl}"
+                target="_blank"
+                rel="noopener"
+            >
+                ${photoLabel}
+            </a>
+
+        </article>
+        `;
+    });
+
+    document.getElementById('day-aircraft').innerHTML =
+        cards.join('') ||
+        '<p class="note">No aircraft stored for this day.</p>';
+}
+
+
+(async function () {
+
+    const params =
+        new URLSearchParams(window.location.search);
+
+    const date = params.get('date');
+
+    const status =
+        document.getElementById('day-status');
+
+    if (
+        !date ||
+        !/^\d{4}-\d{2}-\d{2}$/.test(date)
+    ) {
+        status.textContent =
+            'No valid date selected.';
+        return;
+    }
+
+    document.getElementById('day-title')
+        .textContent = date;
+
+    document.title =
+        `VadelmaSky history ${date}`;
+
+    try {
+
+        const response = await fetch(
+            `/data/${date}.json`,
+            { cache: 'no-store' }
+        );
+
+        if (!response.ok)
+            throw new Error(
+                `HTTP ${response.status}`
+            );
+
+        const payload =
+            await response.json();
+
+        renderStats(
+            calculateStats(payload)
+        );
+
+        renderAircraft(payload);
+
+        status.textContent =
+            `Daily aircraft log · ${fmtTime(
+                payload.summary?.updated
+            )}`;
+
+    }
+    catch (err) {
+
+        status.textContent =
+            `Could not load archive: ${err.message}`;
+
+    }
+
+})();
+</script>
+"""
+
+    HISTORY_DAY.write_text(
+        page_template(
+            "VadelmaSky history",
+            body
+        ),
+        encoding="utf-8"
+    )
+
+
+def build_history_pages(manifest):
+    history_rows = ""
+
+    for date_name in sorted(
+        manifest.get("days", {}),
+        reverse=True
+    ):
+        item = manifest["days"][date_name]
+
+        updated = fmt_time(
+            item.get("updated")
+        )
 
         history_rows += f"""
         <tr>
-            <td><a href="/history/{esc(date_name)}.html">{esc(date_name)}</a></td>
-            <td>{stats["unique"]}</td>
-            <td>{stats["with_position"]}</td>
-            <td>{stats["highest_alt"]} ft</td>
-            <td>{stats["max_speed"]} kt</td>
+            <td>
+                <a href="/history/day.html?date={esc(date_name)}">
+                    {esc(date_name)}
+                </a>
+            </td>
+
+            <td>{esc(item.get("unique", 0))}</td>
+            <td>{esc(item.get("with_position", 0))}</td>
+            <td>{esc(item.get("highest_alt", 0))} ft</td>
+            <td>{esc(item.get("max_speed", 0))} kt</td>
             <td>{esc(updated)}</td>
-            <td><a href="/data/{esc(date_name)}.json">JSON</a></td>
+
+            <td>
+                <a href="{esc(item.get("data_url"))}">
+                    JSON
+                </a>
+            </td>
         </tr>
         """
 
     body = f"""
 <section>
     <h2>History</h2>
-    <p class="note">Daily aircraft logs generated from local ADS-B reception.</p>
+
+    <p class="note">
+        Daily aircraft logs generated from local ADS-B reception.
+        Historical aircraft data is served from the GitHub Pages archive.
+    </p>
+
     <table>
         <thead>
             <tr>
@@ -811,13 +1135,24 @@ def build_history_pages():
                 <th>Data</th>
             </tr>
         </thead>
+
         <tbody>
             {history_rows}
         </tbody>
     </table>
+
 </section>
 """
-    HISTORY_INDEX.write_text(page_template("VadelmaSky history", body), encoding="utf-8")
+
+    HISTORY_INDEX.write_text(
+        page_template(
+            "VadelmaSky history",
+            body
+        ),
+        encoding="utf-8"
+    )
+
+    build_history_day_viewer()
 
 
 def main():
@@ -868,9 +1203,13 @@ def main():
     save_json(TODAY_FILE, store)
     save_json(DATA / f"{date_name}.json", store)
 
-    build_live_page(store)
-    build_history_pages()
+    manifest = update_history_manifest(
+    date_name,
+    store
+    )
 
+    build_live_page(store)
+    build_history_pages(manifest)
 
 if __name__ == "__main__":
     main()
