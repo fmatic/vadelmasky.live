@@ -193,7 +193,6 @@ def page_template(title, body):
 <title>{esc(title)}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.css">
-<script src="https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.js"></script>
 <style>
 body {{
     margin: 0;
@@ -624,7 +623,8 @@ def build_live_page(store):
     </div>
 </section>
 
-<script>
+<script type="module">
+import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
 const aircraft = {markers_json};
 
 const map = new maplibregl.Map({{
