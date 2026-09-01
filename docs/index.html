@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">01.09.2026 03:30 UTC</div>
+        <div class="value">01.09.2026 03:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,16 +277,16 @@ footer {
                     <div class="flight">FIN8KH</div>
                     <div class="meta">ICAO 4601F6 · REG OH-ATI · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">14925 ft</div>
+                <div class="alt-badge mid">18000 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>198.0 kt</b></div>
-                    <div><span>Track</span><b>192.84°</b></div>
-                    <div><span>Position</span><b>61.9576, 25.5739</b></div>
-                    <div><span>Last seen</span><b>01.09.2026 03:30 UTC</b></div>
+                    <div><span>Speed</span><b>221.8 kt</b></div>
+                    <div><span>Track</span><b>191.97°</b></div>
+                    <div><span>Position</span><b>61.7616, 25.4859</b></div>
+                    <div><span>Last seen</span><b>01.09.2026 03:34 UTC</b></div>
                 </div>
             </div>
 
@@ -397,6 +397,42 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATI · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">01.09.2026 03:32 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S26A · Level -35.7 dB
+            </div>
+
+            <div class="acars-text">0EV033243V</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATI · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">01.09.2026 03:32 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg M02A · Level -35.6 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -578,48 +614,12 @@ footer {
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA3061</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6117 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">31.08.2026 13:33 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label Q0 · Msg S24A · Level -32.2 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">HO1662</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-226M · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">31.08.2026 12:58 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S61A · Level -30.6 dB
-            </div>
-
-            <div class="acars-text">0LH125913VS/</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F6", "flight": "FIN8KH", "lat": 61.957626, "lon": 25.573916, "alt": 14925, "speed": 198.0, "last_seen": "01.09.2026 03:30 UTC"}];
+const aircraft = [{"hex": "4601F6", "flight": "FIN8KH", "lat": 61.761552, "lon": 25.485942, "alt": 18000, "speed": 221.8, "last_seen": "01.09.2026 03:34 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
