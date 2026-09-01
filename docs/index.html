@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">5</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">01.09.2026 03:20 UTC</div>
+        <div class="value">01.09.2026 03:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601F6 · REG OH-ATI · TYPE AT75</div>
+                </div>
+                <div class="alt-badge low">8025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>184.9 kt</b></div>
+                    <div><span>Track</span><b>185.59°</b></div>
+                    <div><span>Position</span><b>62.2172, 25.6879</b></div>
+                    <div><span>Last seen</span><b>01.09.2026 03:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 780092 · REG B-6090 · TYPE A332</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>01.09.2026 03:24 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6090" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -349,6 +397,42 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA3157</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6090 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">01.09.2026 03:21 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label _d · Msg S38A · Level -34.6 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA3157</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6090 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">01.09.2026 03:20 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S37A · Level -34.3 dB
+            </div>
+
+            <div class="acars-text">0LS032040V</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -530,48 +614,12 @@ footer {
             <div class="acars-text">0EV125557VSH/</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">HO1662</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-226M · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">31.08.2026 12:55 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label Q0 · Msg S51A · Level -38.4 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">HO1662</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-226M · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">31.08.2026 12:54 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 5V · Msg S49A · Level -33.3 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "4601F6", "flight": "FIN8KH", "lat": 62.217159, "lon": 25.687937, "alt": 8025, "speed": 184.9, "last_seen": "01.09.2026 03:25 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
