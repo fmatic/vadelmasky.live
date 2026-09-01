@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.08.2026 11:12 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "52",
-      "msgno": "M72A",
-      "text": "No text"
-    },
-    {
-      "time": "31.08.2026 11:12 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "52",
-      "msgno": "M74A",
-      "text": "No text"
-    },
-    {
-      "time": "31.08.2026 11:12 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "H1",
-      "msgno": "D05A",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2AUG31,1024,0285/C1/C210.24.28,MC/C310.24.28,ENG/C4ENG,1,LO,PITCH/C5MFC1B.1UA1.,.,PIN,AC-05A/C6CHK,PEC,FAULT,CODES/C710.24.28,MC/C810.24.28,ENG"
-    },
-    {
-      "time": "31.08.2026 11:12 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "H1",
-      "msgno": "D05B",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2AUG31,1024,0285/C1/C210.24.28,MC/C310.24.28,ENG/C4ENG,1,LO,PITCH/C5MFC1B.1UA1.,.,PIN,AC-05A/C6CHK,PEC,FAULT,CODES/C710.24.28,MC/C810.24.28,ENG/C9ENG,2,LO,PITCH/C0MFC1B.1UA1.,.,PIN,AC-05B/D1CHK,PEC,FAULT,CODES,/"
-    },
-    {
       "time": "31.08.2026 11:13 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +285,50 @@
       "label": "5V",
       "msgno": "S31A",
       "text": "No text"
+    },
+    {
+      "time": "01.09.2026 10:53 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "Q0",
+      "msgno": "S46A",
+      "text": "No text"
+    },
+    {
+      "time": "01.09.2026 10:53 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "Q0",
+      "msgno": "M11A",
+      "text": "No text"
+    },
+    {
+      "time": "01.09.2026 10:53 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -39.0,
+      "label": "SA",
+      "msgno": "S47A",
+      "text": "0EV105347V"
+    },
+    {
+      "time": "01.09.2026 10:53 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "B9",
+      "msgno": "L06A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
     }
   ]
 }
