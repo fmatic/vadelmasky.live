@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">01.09.2026 05:10 UTC</div>
+        <div class="value">01.09.2026 05:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,19 +274,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">T23</div>
                     <div class="meta">ICAO 467892 · REG PI-03 · TYPE PC12</div>
                 </div>
-                <div class="alt-badge mid">13825 ft</div>
+                <div class="alt-badge low">5925 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>278.0 kt</b></div>
-                    <div><span>Track</span><b>14.24°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>01.09.2026 05:10 UTC</b></div>
+                    <div><span>Speed</span><b>233.3 kt</b></div>
+                    <div><span>Track</span><b>9.62°</b></div>
+                    <div><span>Position</span><b>62.1506, 25.9200</b></div>
+                    <div><span>Last seen</span><b>01.09.2026 05:15 UTC</b></div>
                 </div>
             </div>
 
@@ -298,19 +298,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">T14</div>
                     <div class="meta">ICAO 467893 · REG PI-04 · TYPE PC12</div>
                 </div>
-                <div class="alt-badge unknown">-</div>
+                <div class="alt-badge low">2825 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>196.6 kt</b></div>
-                    <div><span>Track</span><b>224.18°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>01.09.2026 05:10 UTC</b></div>
+                    <div><span>Speed</span><b>208.6 kt</b></div>
+                    <div><span>Track</span><b>314.81°</b></div>
+                    <div><span>Position</span><b>62.3108, 25.8754</b></div>
+                    <div><span>Last seen</span><b>01.09.2026 05:12 UTC</b></div>
                 </div>
             </div>
 
@@ -691,7 +691,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F6", "flight": "FIN8KH", "lat": 61.761552, "lon": 25.485942, "alt": 18000, "speed": 221.8, "last_seen": "01.09.2026 03:34 UTC"}];
+const aircraft = [{"hex": "467892", "flight": "T23", "lat": 62.150574, "lon": 25.920003, "alt": 5925, "speed": 233.3, "last_seen": "01.09.2026 05:15 UTC"}, {"hex": "467893", "flight": "T14", "lat": 62.310775, "lon": 25.875444, "alt": 2825, "speed": 208.6, "last_seen": "01.09.2026 05:12 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.761552, "lon": 25.485942, "alt": 18000, "speed": 221.8, "last_seen": "01.09.2026 03:34 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
