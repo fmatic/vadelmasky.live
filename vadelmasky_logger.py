@@ -192,8 +192,8 @@ def page_template(title, body):
 <meta charset="utf-8">
 <title>{esc(title)}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.js"></script>
 <style>
 body {{
     margin: 0;
@@ -289,14 +289,6 @@ tr:hover {{
 .note {{
     color: #a8b3bd;
     font-size: .95rem;
-}}
-.receiver-icon {{
-    background: #41ff41;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    border: 3px solid #ffffff;
-    box-shadow: 0 0 18px #41ff41;
 }}
 
 .aircraft-grid {{
@@ -635,21 +627,44 @@ def build_live_page(store):
 <script>
 const aircraft = {markers_json};
 
-const map = L.map('map').setView([{HOME_LAT}, {HOME_LON}], 7);
-
-L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png', {{
-    maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
-}}).addTo(map);
-
-const receiverIcon = L.divIcon({{
-    className: 'receiver-icon',
-    iconSize: [18, 18]
+const map = new maplibregl.Map({{
+    container: 'map',
+    style: 'https://tiles.openfreemap.org/styles/dark',
+    center: [{HOME_LON}, {HOME_LAT}],
+    zoom: 6.5
 }});
 
-L.marker([{HOME_LAT}, {HOME_LON}], {{ icon: receiverIcon }})
-    .addTo(map)
-    .bindPopup('<b>VadelmaSky receiver</b><br>Jyväskylä, Finland');
+map.addControl(
+    new maplibregl.NavigationControl({{
+        showCompass: false
+    }}),
+    'top-right'
+);
+
+
+// Receiver marker
+const receiver = document.createElement('div');
+
+receiver.style.width = '20px';
+receiver.style.height = '20px';
+receiver.style.borderRadius = '50%';
+receiver.style.background = '#41ff41';
+receiver.style.border = '3px solid white';
+receiver.style.boxShadow = '0 0 18px #41ff41';
+
+new maplibregl.Marker({{
+    element: receiver,
+    anchor: 'center'
+}})
+    .setLngLat([{HOME_LON}, {HOME_LAT}])
+    .setPopup(
+        new maplibregl.Popup({{ offset: 15 }})
+            .setHTML(
+                '<b>VadelmaSky receiver</b><br>Jyväskylä, Finland'
+            )
+    )
+    .addTo(map);
+
 
 function altitudeColor(alt) {{
     if (!alt || alt === '-') return '#9ca3af';
@@ -659,23 +674,38 @@ function altitudeColor(alt) {{
     return '#f87171';
 }}
 
+
+// Aircraft markers
 aircraft.forEach(a => {{
+
     const color = altitudeColor(Number(a.alt));
 
-    L.circleMarker([a.lat, a.lon], {{
-        radius: 7,
-        color: color,
-        fillColor: color,
-        fillOpacity: 0.85,
-        weight: 2
-    }}).addTo(map)
-        .bindPopup(`
-            <b>${{a.flight}}</b><br>
-            ICAO: ${{a.hex}}<br>
-            Alt: ${{a.alt}} ft<br>
-            Speed: ${{a.speed}} kt<br>
-            Last seen: ${{a.last_seen}}
-        `);
+    const marker = document.createElement('div');
+
+    marker.style.width = '14px';
+    marker.style.height = '14px';
+    marker.style.borderRadius = '50%';
+    marker.style.background = color;
+    marker.style.border = `2px solid ${{color}}`;
+    marker.style.boxShadow = `0 0 8px ${{color}}`;
+    marker.style.cursor = 'pointer';
+
+    new maplibregl.Marker({{
+        element: marker,
+        anchor: 'center'
+    }})
+        .setLngLat([a.lon, a.lat])
+        .setPopup(
+            new maplibregl.Popup({{ offset: 12 }})
+                .setHTML(`
+                    <b>${{a.flight}}</b><br>
+                    ICAO: ${{a.hex}}<br>
+                    Alt: ${{a.alt}} ft<br>
+                    Speed: ${{a.speed}} kt<br>
+                    Last seen: ${{a.last_seen}}
+                `)
+        )
+        .addTo(map);
 }});
 </script>
 """
