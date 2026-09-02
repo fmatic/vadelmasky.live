@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">21</div>
+        <div class="value">22</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -247,7 +247,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">17</div>
+        <div class="value">18</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">02.09.2026 12:15 UTC</div>
+        <div class="value">02.09.2026 12:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FNF409</div>
+                    <div class="meta">ICAO 46788B · REG LJ-3 · TYPE LJ35</div>
+                </div>
+                <div class="alt-badge mid">16975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>386.0 kt</b></div>
+                    <div><span>Track</span><b>55.9°</b></div>
+                    <div><span>Position</span><b>62.2119, 25.8579</b></div>
+                    <div><span>Last seen</span><b>02.09.2026 12:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/LJ-3" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -283,10 +307,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>469.2 kt</b></div>
-                    <div><span>Track</span><b>259.94°</b></div>
-                    <div><span>Position</span><b>61.7301, 25.0980</b></div>
-                    <div><span>Last seen</span><b>02.09.2026 12:15 UTC</b></div>
+                    <div><span>Speed</span><b>460.7 kt</b></div>
+                    <div><span>Track</span><b>259.49°</b></div>
+                    <div><span>Position</span><b>61.7064, 24.8183</b></div>
+                    <div><span>Last seen</span><b>02.09.2026 12:16 UTC</b></div>
                 </div>
             </div>
 
@@ -1032,7 +1056,7 @@ A</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "780BB6", "flight": "CAO1007", "lat": 61.730083, "lon": 25.097961, "alt": 34000, "speed": 469.2, "last_seen": "02.09.2026 12:15 UTC"}, {"hex": "4678A8", "flight": "K33", "lat": 62.322879, "lon": 25.848823, "alt": 2525, "speed": 93.3, "last_seen": "02.09.2026 12:14 UTC"}, {"hex": "461F36", "flight": "FIN5KR", "lat": 61.676268, "lon": 25.29775, "alt": 24850, "speed": 378.1, "last_seen": "02.09.2026 12:01 UTC"}, {"hex": "461FA0", "flight": "FIN2PD", "lat": 61.776961, "lon": 25.302022, "alt": 24500, "speed": 404.1, "last_seen": "02.09.2026 11:58 UTC"}, {"hex": "4601F6", "flight": "FIN286", "lat": 61.517572, "lon": 25.448201, "alt": 18000, "speed": 271.3, "last_seen": "02.09.2026 11:20 UTC"}, {"hex": "4678A1", "flight": "K14", "lat": 62.320039, "lon": 25.855478, "alt": 2550, "speed": 110.3, "last_seen": "02.09.2026 08:30 UTC"}, {"hex": "461E15", "flight": "FIN7TP", "lat": 61.703502, "lon": 25.275981, "alt": 29400, "speed": 436.0, "last_seen": "02.09.2026 08:10 UTC"}, {"hex": "461F64", "flight": "FIN14J", "lat": 61.697525, "lon": 25.270026, "alt": 27775, "speed": 406.1, "last_seen": "02.09.2026 06:39 UTC"}, {"hex": "467897", "flight": "K02", "lat": 62.326401, "lon": 25.840759, "alt": 2475, "speed": 92.6, "last_seen": "02.09.2026 06:14 UTC"}, {"hex": "4678A0", "flight": "K01", "lat": 62.32246, "lon": 25.848823, "alt": 2425, "speed": 85.6, "last_seen": "02.09.2026 06:11 UTC"}, {"hex": "4601FB", "flight": "FIN3PJ", "lat": 62.07415, "lon": 27.039795, "alt": 20975, "speed": 140.4, "last_seen": "02.09.2026 05:57 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.309239, "lon": 25.879669, "alt": 2925, "speed": 145.7, "last_seen": "02.09.2026 05:24 UTC"}, {"hex": "461F6D", "flight": "FIN434", "lat": 61.502536, "lon": 25.263265, "alt": 24000, "speed": 375.5, "last_seen": "02.09.2026 05:20 UTC"}, {"hex": "461F67", "flight": "FIN448", "lat": 61.492806, "lon": 25.267843, "alt": 25175, "speed": 202.3, "last_seen": "02.09.2026 05:18 UTC"}, {"hex": "461E17", "flight": "FIN7AZ", "lat": 61.803077, "lon": 25.256144, "alt": 30100, "speed": 426.0, "last_seen": "02.09.2026 04:58 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.686417, "lon": 25.364176, "alt": 18000, "speed": 241.5, "last_seen": "02.09.2026 03:19 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.38811, "lon": 25.297953, "alt": 26750, "speed": 338.2, "last_seen": "02.09.2026 03:13 UTC"}];
+const aircraft = [{"hex": "46788B", "flight": "FNF409", "lat": 62.211852, "lon": 25.857908, "alt": 16975, "speed": 386.0, "last_seen": "02.09.2026 12:20 UTC"}, {"hex": "780BB6", "flight": "CAO1007", "lat": 61.706388, "lon": 24.818319, "alt": 34000, "speed": 460.7, "last_seen": "02.09.2026 12:16 UTC"}, {"hex": "4678A8", "flight": "K33", "lat": 62.322879, "lon": 25.848823, "alt": 2525, "speed": 93.3, "last_seen": "02.09.2026 12:14 UTC"}, {"hex": "461F36", "flight": "FIN5KR", "lat": 61.676268, "lon": 25.29775, "alt": 24850, "speed": 378.1, "last_seen": "02.09.2026 12:01 UTC"}, {"hex": "461FA0", "flight": "FIN2PD", "lat": 61.776961, "lon": 25.302022, "alt": 24500, "speed": 404.1, "last_seen": "02.09.2026 11:58 UTC"}, {"hex": "4601F6", "flight": "FIN286", "lat": 61.517572, "lon": 25.448201, "alt": 18000, "speed": 271.3, "last_seen": "02.09.2026 11:20 UTC"}, {"hex": "4678A1", "flight": "K14", "lat": 62.320039, "lon": 25.855478, "alt": 2550, "speed": 110.3, "last_seen": "02.09.2026 08:30 UTC"}, {"hex": "461E15", "flight": "FIN7TP", "lat": 61.703502, "lon": 25.275981, "alt": 29400, "speed": 436.0, "last_seen": "02.09.2026 08:10 UTC"}, {"hex": "461F64", "flight": "FIN14J", "lat": 61.697525, "lon": 25.270026, "alt": 27775, "speed": 406.1, "last_seen": "02.09.2026 06:39 UTC"}, {"hex": "467897", "flight": "K02", "lat": 62.326401, "lon": 25.840759, "alt": 2475, "speed": 92.6, "last_seen": "02.09.2026 06:14 UTC"}, {"hex": "4678A0", "flight": "K01", "lat": 62.32246, "lon": 25.848823, "alt": 2425, "speed": 85.6, "last_seen": "02.09.2026 06:11 UTC"}, {"hex": "4601FB", "flight": "FIN3PJ", "lat": 62.07415, "lon": 27.039795, "alt": 20975, "speed": 140.4, "last_seen": "02.09.2026 05:57 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.309239, "lon": 25.879669, "alt": 2925, "speed": 145.7, "last_seen": "02.09.2026 05:24 UTC"}, {"hex": "461F6D", "flight": "FIN434", "lat": 61.502536, "lon": 25.263265, "alt": 24000, "speed": 375.5, "last_seen": "02.09.2026 05:20 UTC"}, {"hex": "461F67", "flight": "FIN448", "lat": 61.492806, "lon": 25.267843, "alt": 25175, "speed": 202.3, "last_seen": "02.09.2026 05:18 UTC"}, {"hex": "461E17", "flight": "FIN7AZ", "lat": 61.803077, "lon": 25.256144, "alt": 30100, "speed": 426.0, "last_seen": "02.09.2026 04:58 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.686417, "lon": 25.364176, "alt": 18000, "speed": 241.5, "last_seen": "02.09.2026 03:19 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.38811, "lon": 25.297953, "alt": 26750, "speed": 338.2, "last_seen": "02.09.2026 03:13 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
