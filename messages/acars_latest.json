@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.09.2026 07:22 UTC",
-      "source": "ACARS",
-      "flight": "CA3143",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "_d",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "01.09.2026 07:32 UTC",
-      "source": "ACARS",
-      "flight": "CA3143",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "Q0",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
-      "time": "01.09.2026 10:08 UTC",
-      "source": "ACARS",
-      "flight": "AY0034",
-      "tail": "OH-LTT",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "5V",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
-      "time": "01.09.2026 10:53 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "Q0",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
-      "time": "01.09.2026 10:53 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -39.5,
-      "label": "Q0",
-      "msgno": "M11A",
-      "text": "No text"
-    },
-    {
-      "time": "01.09.2026 10:53 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -39.0,
-      "label": "SA",
-      "msgno": "S47A",
-      "text": "0EV105347V"
-    },
-    {
       "time": "01.09.2026 10:53 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +263,72 @@
       "label": "27",
       "msgno": "M36A",
       "text": "POS01CSN5202   /02181515ENGMZSPD\r\nN062.19E0025.711515310KOKAT          1534 804-47.1-135.3019----------------827ETA 235503,  69.0,-16.1,528440,705120, 501.16,AUTO POS REPORT"
+    },
+    {
+      "time": "02.09.2026 18:57 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -25.8,
+      "label": "H1",
+      "msgno": "C25A",
+      "text": "RTE 1 02SEP26 1858 CAB-2095 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R 1641 02SEP26\r\nFDE 34503142 A 1856 02SEP26\r\nMSG 3453302 A 1856 02SEP26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1856 02SEP26 ER H"
+    },
+    {
+      "time": "02.09.2026 18:58 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "H1",
+      "msgno": "C26A",
+      "text": "EF 1 02SEP26 1858 CAB-2095 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 232701\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB "
+    },
+    {
+      "time": "02.09.2026 18:58 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -28.9,
+      "label": "H1",
+      "msgno": "C26B",
+      "text": "DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\n"
+    },
+    {
+      "time": "02.09.2026 18:58 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "H1",
+      "msgno": "C26C",
+      "text": "MSG 3453013 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nATA 344500\r\nMSG 3445040 L\r\nDB TCAS COMPUTER\r\nATA 345800\r\nMSG 3453302 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 34533"
+    },
+    {
+      "time": "02.09.2026 18:58 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "H1",
+      "msgno": "C26D",
+      "text": "EF 1 02SEP26 1858 CAB-2095 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 232701\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\nMSG 3453013 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nATA 344500\r\nMSG 3445040 L\r\nDB TCAS COMPUTER\r\nATA 345800\r\nMSG 3453302 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "02.09.2026 18:58 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "H1",
+      "msgno": "E29B",
+      "text": ",NORM,NORM,NORM,NORM,,02,SEP,26,18,59,21"
     }
   ]
 }
