@@ -408,18 +408,44 @@
       "flight": "FIN5YR",
       "reg": "OH-LVH",
       "type": "A319",
-      "lat": 61.799725,
-      "lon": 25.266724,
-      "alt": 31550,
-      "speed": 422.0,
-      "track": 180.14,
+      "lat": 61.496484,
+      "lon": 25.267944,
+      "alt": 24325,
+      "speed": 1.2,
+      "track": 90.0,
       "seen_first": "2026-09-02T15:55:02.221885",
-      "last_seen": "2026-09-02T15:55:02.221885"
+      "last_seen": "2026-09-02T15:58:01.762954"
+    },
+    "4601fc": {
+      "hex": "4601fc",
+      "flight": "FIN6YP",
+      "reg": "OH-ATO",
+      "type": "AT75",
+      "lat": 61.876648,
+      "lon": 26.565922,
+      "alt": 16000,
+      "speed": 264.4,
+      "track": 204.82,
+      "seen_first": "2026-09-02T15:56:02.101185",
+      "last_seen": "2026-09-02T16:00:01.433583"
+    },
+    "461f6c": {
+      "hex": "461f6c",
+      "flight": "",
+      "reg": "OH-LXK",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": 410.0,
+      "track": 179.86,
+      "seen_first": "2026-09-02T16:00:01.433583",
+      "last_seen": "2026-09-02T16:00:01.433583"
     }
   },
   "summary": {
-    "total_unique_aircraft": 32,
-    "last_seen_live": 1,
-    "updated": "2026-09-02T15:55:02.221885"
+    "total_unique_aircraft": 34,
+    "last_seen_live": 2,
+    "updated": "2026-09-02T16:00:01.433583"
   }
 }
