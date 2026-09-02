@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">6</div>
+        <div class="value">7</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -247,7 +247,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">02.09.2026 03:15 UTC</div>
+        <div class="value">02.09.2026 03:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,19 +274,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">FIN8KH</div>
-                    <div class="meta">ICAO 4601F8 · REG OH-ATK · TYPE AT75</div>
+                    <div class="flight">T42</div>
+                    <div class="meta">ICAO 467891 · REG PI-02 · TYPE PC12</div>
                 </div>
-                <div class="alt-badge mid">16150 ft</div>
+                <div class="alt-badge low">9950 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>211.5 kt</b></div>
-                    <div><span>Track</span><b>206.69°</b></div>
-                    <div><span>Position</span><b>61.8430, 25.5303</b></div>
-                    <div><span>Last seen</span><b>02.09.2026 03:15 UTC</b></div>
+                    <div><span>Speed</span><b>166.1 kt</b></div>
+                    <div><span>Track</span><b>186.57°</b></div>
+                    <div><span>Position</span><b>62.1981, 25.6946</b></div>
+                    <div><span>Last seen</span><b>02.09.2026 03:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-02" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601F8 · REG OH-ATK · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>241.5 kt</b></div>
+                    <div><span>Track</span><b>206.57°</b></div>
+                    <div><span>Position</span><b>61.6864, 25.3642</b></div>
+                    <div><span>Last seen</span><b>02.09.2026 03:19 UTC</b></div>
                 </div>
             </div>
 
@@ -643,7 +667,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F8", "flight": "FIN8KH", "lat": 61.842957, "lon": 25.530265, "alt": 16150, "speed": 211.5, "last_seen": "02.09.2026 03:15 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.38811, "lon": 25.297953, "alt": 26750, "speed": 338.2, "last_seen": "02.09.2026 03:13 UTC"}];
+const aircraft = [{"hex": "467891", "flight": "T42", "lat": 62.19809, "lon": 25.69458, "alt": 9950, "speed": 166.1, "last_seen": "02.09.2026 03:20 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.686417, "lon": 25.364176, "alt": 18000, "speed": 241.5, "last_seen": "02.09.2026 03:19 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.38811, "lon": 25.297953, "alt": 26750, "speed": 338.2, "last_seen": "02.09.2026 03:13 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
