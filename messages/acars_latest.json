@@ -6,17 +6,6 @@
       "flight": "N70290",
       "tail": "OH-ATI",
       "freq": 131.825,
-      "level": -25.7,
-      "label": "H1",
-      "msgno": "D01A",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2AUG31,2130,0289/C1/C221.30.30,MC/C321.30.30,ENG/C4ENG,1,LO,PITCH/C5MFC1B.1UA1.,.,PIN,AC-05A/C6CHK,PEC,FAULT,CODES/C721.30.30,MC/C821.30.30,ENG"
-    },
-    {
-      "time": "01.09.2026 03:26 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
       "level": -24.2,
       "label": "H1",
       "msgno": "D01B",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C16D",
       "text": "TA 345800\r\nMSG 3453302 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "02.09.2026 12:12 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -35.3,
+      "label": "H1",
+      "msgno": "E78A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,169,168,45,45,43,43,159,158,55,70,83,83,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,+100,0,AUTO,8.5,0.11,0.23,L,,,,02,SEP,26,12,17,38"
     }
   ]
 }
