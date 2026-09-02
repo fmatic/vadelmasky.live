@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">9</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">02.09.2026 05:10 UTC</div>
+        <div class="value">02.09.2026 05:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T42</div>
+                    <div class="meta">ICAO 467891 · REG PI-02 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge low">9925 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>217.8 kt</b></div>
+                    <div><span>Track</span><b>25.86°</b></div>
+                    <div><span>Position</span><b>61.7819, 25.5831</b></div>
+                    <div><span>Last seen</span><b>02.09.2026 05:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-02" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN448</div>
+                    <div class="meta">ICAO 461F67 · REG OH-LXF · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">29300 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>420.0 kt</b></div>
+                    <div><span>Track</span><b>182.81°</b></div>
+                    <div><span>Position</span><b>61.7222, 25.2919</b></div>
+                    <div><span>Last seen</span><b>02.09.2026 05:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXF" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -315,30 +363,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">T42</div>
-                    <div class="meta">ICAO 467891 · REG PI-02 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge mid">14000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>260.3 kt</b></div>
-                    <div><span>Track</span><b>189.06°</b></div>
-                    <div><span>Position</span><b>61.7819, 25.5831</b></div>
-                    <div><span>Last seen</span><b>02.09.2026 03:27 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-02" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -691,7 +715,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461E17", "flight": "FIN7AZ", "lat": 61.803077, "lon": 25.256144, "alt": 30100, "speed": 426.0, "last_seen": "02.09.2026 04:58 UTC"}, {"hex": "4601FB", "flight": "FIN3PJ", "lat": 62.07415, "lon": 27.039795, "alt": 20975, "speed": 140.4, "last_seen": "02.09.2026 04:50 UTC"}, {"hex": "467891", "flight": "T42", "lat": 61.781942, "lon": 25.583089, "alt": 14000, "speed": 260.3, "last_seen": "02.09.2026 03:27 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.686417, "lon": 25.364176, "alt": 18000, "speed": 241.5, "last_seen": "02.09.2026 03:19 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.38811, "lon": 25.297953, "alt": 26750, "speed": 338.2, "last_seen": "02.09.2026 03:13 UTC"}];
+const aircraft = [{"hex": "467891", "flight": "T42", "lat": 61.781942, "lon": 25.583089, "alt": 9925, "speed": 217.8, "last_seen": "02.09.2026 05:15 UTC"}, {"hex": "461F67", "flight": "FIN448", "lat": 61.722169, "lon": 25.29185, "alt": 29300, "speed": 420.0, "last_seen": "02.09.2026 05:15 UTC"}, {"hex": "461E17", "flight": "FIN7AZ", "lat": 61.803077, "lon": 25.256144, "alt": 30100, "speed": 426.0, "last_seen": "02.09.2026 04:58 UTC"}, {"hex": "4601FB", "flight": "FIN3PJ", "lat": 62.07415, "lon": 27.039795, "alt": 20975, "speed": 140.4, "last_seen": "02.09.2026 04:50 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.686417, "lon": 25.364176, "alt": 18000, "speed": 241.5, "last_seen": "02.09.2026 03:19 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.38811, "lon": 25.297953, "alt": 26750, "speed": 338.2, "last_seen": "02.09.2026 03:13 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
