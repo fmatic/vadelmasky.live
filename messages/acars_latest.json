@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.09.2026 03:20 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "SA",
-      "msgno": "S37A",
-      "text": "0LS032040V"
-    },
-    {
-      "time": "01.09.2026 03:21 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "_d",
-      "msgno": "S38A",
-      "text": "No text"
-    },
-    {
-      "time": "01.09.2026 03:25 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -16.7,
-      "label": "Q0",
-      "msgno": "S03A",
-      "text": "No text"
-    },
-    {
       "time": "01.09.2026 03:26 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +296,39 @@
       "label": "5V",
       "msgno": "S97A",
       "text": "No text"
+    },
+    {
+      "time": "02.09.2026 12:08 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "_d",
+      "msgno": "S90A",
+      "text": "No text"
+    },
+    {
+      "time": "02.09.2026 12:09 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "H1",
+      "msgno": "C16C",
+      "text": " 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\nMSG 3453013 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nATA 344500\r\nMSG 3445040 L\r\nDB TCAS COMPUTER\r\nA"
+    },
+    {
+      "time": "02.09.2026 12:09 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "H1",
+      "msgno": "C16D",
+      "text": "TA 345800\r\nMSG 3453302 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
     }
   ]
 }
