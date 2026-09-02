@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.09.2026 03:32 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -35.7,
-      "label": "SA",
-      "msgno": "S26A",
-      "text": "0EV033243V"
-    },
-    {
       "time": "01.09.2026 07:22 UTC",
       "source": "ACARS",
       "flight": "CA3143",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "M03A",
       "text": "No text"
+    },
+    {
+      "time": "02.09.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "CZ5202",
+      "tail": "B-20EN",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "27",
+      "msgno": "M36A",
+      "text": "POS01CSN5202   /02181515ENGMZSPD\r\nN062.19E0025.711515310KOKAT          1534 804-47.1-135.3019----------------827ETA 235503,  69.0,-16.1,528440,705120, 501.16,AUTO POS REPORT"
     }
   ]
 }
