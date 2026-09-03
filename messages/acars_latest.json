@@ -6,28 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATI",
       "freq": 131.825,
-      "level": -26.9,
-      "label": "80",
-      "msgno": "M14A",
-      "text": "3501 SUMMRY 0285/02 EFHK/EFJY .OH-ATI\r\n/OUT 0953/FOB 0018\r\n/OFF 0959/FOB 0018\r\n/ON  1037/FOB 0013\r\n/IN  1039/FOB 0014\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
-    },
-    {
-      "time": "02.09.2026 11:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -30.0,
-      "label": "80",
-      "msgno": "M13A",
-      "text": "1201 ONRP   0285/02 EFHK/EFJY .OH-ATI\r\n/ON  1037/FOB 0013"
-    },
-    {
-      "time": "02.09.2026 11:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
       "level": -24.0,
       "label": "80",
       "msgno": "M15A",
@@ -329,6 +307,28 @@
       "label": "B9",
       "msgno": "M33A",
       "text": "/EFJY.TI2/024EFJYDA5C7"
+    },
+    {
+      "time": "03.09.2026 17:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5920",
+      "freq": 131.825,
+      "level": -27.6,
+      "label": "SA",
+      "msgno": "S90A",
+      "text": "0LS173226VH"
+    },
+    {
+      "time": "03.09.2026 17:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5920",
+      "freq": 131.825,
+      "level": -33.8,
+      "label": "17",
+      "msgno": "M80A",
+      "text": "ETA\r\nDEP ZSPD,DES ESSA,ETA 1818,FOB 42400,UTC 173354"
     }
   ]
 }
