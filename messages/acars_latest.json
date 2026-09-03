@@ -4,17 +4,6 @@
       "time": "02.09.2026 11:06 UTC",
       "source": "ACARS",
       "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -24.0,
-      "label": "80",
-      "msgno": "M15A",
-      "text": "1301 INRP   0285/02 EFHK/EFJY .OH-ATI\r\n/ON  1037/IN  1039/FOB 0014"
-    },
-    {
-      "time": "02.09.2026 11:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
       "tail": "OH-BTI",
       "freq": 131.725,
       "level": -38.8,
@@ -329,6 +318,17 @@
       "label": "17",
       "msgno": "M80A",
       "text": "ETA\r\nDEP ZSPD,DES ESSA,ETA 1818,FOB 42400,UTC 173354"
+    },
+    {
+      "time": "03.09.2026 19:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3106",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -28.6,
+      "label": "H1",
+      "msgno": "C04A",
+      "text": ".1/FLR/FR2609031951  34363106IR3    1,IR1,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
