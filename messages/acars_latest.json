@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.09.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -24.1,
-      "label": "5V",
-      "msgno": "S45A",
-      "text": "No text"
-    },
-    {
       "time": "02.09.2026 02:41 UTC",
       "source": "ACARS",
       "flight": "HO1659",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "M15A",
       "text": "0EV025108V//312R15PMSMMHO."
+    },
+    {
+      "time": "03.09.2026 04:45 UTC",
+      "source": "ACARS",
+      "flight": "CA3055",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "SA",
+      "msgno": "S43A",
+      "text": "0LS044531VH"
     }
   ]
 }
