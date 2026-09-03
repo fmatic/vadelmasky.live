@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">6</div>
+        <div class="value">7</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">454.0 kt</div>
+        <div class="value">471.5 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">03.09.2026 02:30 UTC</div>
+        <div class="value">03.09.2026 02:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES201</div>
+                    <div class="meta">ICAO 781684 · REG B-307Y · TYPE A359</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>471.5 kt</b></div>
+                    <div><span>Track</span><b>244.9°</b></div>
+                    <div><span>Position</span><b>62.0757, 25.6399</b></div>
+                    <div><span>Last seen</span><b>03.09.2026 02:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-307Y" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -707,7 +731,7 @@ N062.19E0025.711515310KOKAT          1534 804-47.1-135.3019----------------827ET
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "467896", "flight": "FNF382", "lat": 62.201385, "lon": 25.622355, "alt": 20000, "speed": 264.0, "last_seen": "03.09.2026 01:51 UTC"}];
+const aircraft = [{"hex": "781684", "flight": "CES201", "lat": 62.075729, "lon": 25.639932, "alt": 38000, "speed": 471.5, "last_seen": "03.09.2026 02:35 UTC"}, {"hex": "467896", "flight": "FNF382", "lat": 62.201385, "lon": 25.622355, "alt": 20000, "speed": 264.0, "last_seen": "03.09.2026 01:51 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
