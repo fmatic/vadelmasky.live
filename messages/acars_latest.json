@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.09.2026 11:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -22.6,
-      "label": "80",
-      "msgno": "M16A",
-      "text": "1001 OUTRP  0286/02 EFJY/EFHK .OH-ATI\r\n/OUT 1101/FOB 0014/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "02.09.2026 11:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -27.2,
-      "label": "80",
-      "msgno": "M17A",
-      "text": "1101 OFFRP  0286/02 EFJY/EFHK .OH-ATI\r\n/OUT 1101/OFF 1104/FOB 0014/ETA 1146"
-    },
-    {
-      "time": "02.09.2026 11:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -24.7,
-      "label": "5V",
-      "msgno": "S97A",
-      "text": "No text"
-    },
-    {
-      "time": "02.09.2026 12:08 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "_d",
-      "msgno": "S90A",
-      "text": "No text"
-    },
-    {
       "time": "02.09.2026 12:09 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +285,50 @@
       "label": "Q0",
       "msgno": "S43A",
       "text": "No text"
+    },
+    {
+      "time": "03.09.2026 20:26 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -33.9,
+      "label": "H1",
+      "msgno": "C57A",
+      "text": ".1/WRN/WN2609032027  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "03.09.2026 20:26 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -33.6,
+      "label": "11",
+      "msgno": "M08A",
+      "text": "POS\r\nCAS 272,LAT N 61.616,LON E 27.422,ALT 35003,FOB 128240,UTC 202729,PD ----.--,WD 243,WS   33,TAT - 17"
+    },
+    {
+      "time": "03.09.2026 20:27 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "C58A",
+      "text": ".1/FLR/FR2609032027  34361606MMR1   1,IR3,IR1,IR2,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "03.09.2026 20:29 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -33.9,
+      "label": "SA",
+      "msgno": "S85A",
+      "text": "0LS203002V"
     }
   ]
 }
