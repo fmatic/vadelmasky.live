@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.09.2026 02:41 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -22.0,
-      "label": "Q0",
-      "msgno": "S47A",
-      "text": "No text"
-    },
-    {
       "time": "02.09.2026 02:42 UTC",
       "source": "ACARS",
       "flight": "HO1659",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M70A",
       "text": "POSA1N61628E 26734,AGAMO  ,051733,320,SALLO  ,065510,-52, 33, 332,833"
+    },
+    {
+      "time": "03.09.2026 06:00 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "10",
+      "msgno": "M51A",
+      "text": "POS030600,N 61.658,E 27.131,0654,452625,,,38001,31360"
     }
   ]
 }
