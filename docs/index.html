@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">03.09.2026 01:35 UTC</div>
+        <div class="value">03.09.2026 01:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FNF382</div>
+                    <div class="meta">ICAO 467896 · REG CC-3 · TYPE C295</div>
+                </div>
+                <div class="alt-badge mid">20000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>264.0 kt</b></div>
+                    <div><span>Track</span><b>59.06°</b></div>
+                    <div><span>Position</span><b>62.2014, 25.6224</b></div>
+                    <div><span>Last seen</span><b>03.09.2026 01:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CC-3" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -611,7 +635,7 @@ N062.19E0025.711515310KOKAT          1534 804-47.1-135.3019----------------827ET
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "467896", "flight": "FNF382", "lat": 62.201385, "lon": 25.622355, "alt": 20000, "speed": 264.0, "last_seen": "03.09.2026 01:40 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
