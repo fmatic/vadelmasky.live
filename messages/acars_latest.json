@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.09.2026 10:53 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -38.6,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "01.09.2026 11:40 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "10",
-      "msgno": "M44A",
-      "text": "POS011140,N 61.482,E 26.329,1227,454500,,,39998,28440"
-    },
-    {
       "time": "02.09.2026 02:40 UTC",
       "source": "ACARS",
       "flight": "HO1659",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "E29B",
       "text": ",NORM,NORM,NORM,NORM,,02,SEP,26,18,59,21"
+    },
+    {
+      "time": "03.09.2026 02:51 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ2",
+      "freq": 131.725,
+      "level": -25.2,
+      "label": "20",
+      "msgno": "M14A",
+      "text": "POSN62080E025350,,024844,049,IPLUV    ,000145,,P5 ,25012,37,301"
+    },
+    {
+      "time": "03.09.2026 02:51 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ2",
+      "freq": 131.725,
+      "level": -23.1,
+      "label": "SA",
+      "msgno": "M15A",
+      "text": "0EV025108V//312R15PMSMMHO."
     }
   ]
 }
