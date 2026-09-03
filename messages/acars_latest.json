@@ -4,17 +4,6 @@
       "time": "02.09.2026 11:06 UTC",
       "source": "ACARS",
       "flight": "N70286",
-      "tail": "OH-BTI",
-      "freq": 131.725,
-      "level": -38.8,
-      "label": "80",
-      "msgno": "M16A",
-      "text": "1001 OUTRP  0286/02 EFJY/EFHK .OH-UTI\r\n/OUT 110a/FOB 0014/BRD       /UNT LITERS  /TYY A "
-    },
-    {
-      "time": "02.09.2026 11:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
       "tail": "OH-ATI",
       "freq": 131.825,
       "level": -22.6,
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C04A",
       "text": ".1/FLR/FR2609031951  34363106IR3    1,IR1,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "03.09.2026 20:08 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "Q0",
+      "msgno": "S43A",
+      "text": "No text"
     }
   ]
 }
