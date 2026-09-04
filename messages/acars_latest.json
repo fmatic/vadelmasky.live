@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.09.2026 05:37 UTC",
-      "source": "ACARS",
-      "flight": "CK0605",
-      "tail": "B-222K",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "16",
-      "msgno": "M70A",
-      "text": "POSA1N61628E 26734,AGAMO  ,051733,320,SALLO  ,065510,-52, 33, 332,833"
-    },
-    {
-      "time": "03.09.2026 06:00 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "10",
-      "msgno": "M51A",
-      "text": "POS030600,N 61.658,E 27.131,0654,452625,,,38001,31360"
-    },
-    {
       "time": "03.09.2026 07:43 UTC",
       "source": "ACARS",
       "flight": "CA3143",
@@ -328,6 +306,28 @@
       "level": -27.9,
       "label": "Q0",
       "msgno": "M14A",
+      "text": "No text"
+    },
+    {
+      "time": "04.09.2026 17:37 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "OH-TFB",
+      "freq": 131.725,
+      "level": -34.5,
+      "label": "Q0",
+      "msgno": "M02A",
+      "text": "No text"
+    },
+    {
+      "time": "04.09.2026 17:38 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "OH-TFB",
+      "freq": 131.725,
+      "level": -34.3,
+      "label": "5V",
+      "msgno": "M07A",
       "text": "No text"
     }
   ]
