@@ -93,21 +93,34 @@
     },
     "4601fa": {
       "hex": "4601fa",
-      "flight": "",
+      "flight": "FIN4QA",
       "reg": "OH-ATM",
       "type": "AT75",
       "lat": null,
       "lon": null,
-      "alt": 20150,
+      "alt": 21725,
       "speed": null,
       "track": null,
       "seen_first": "2026-09-04T02:50:02.249387",
-      "last_seen": "2026-09-04T02:50:02.249387"
+      "last_seen": "2026-09-04T02:55:01.690254"
+    },
+    "7815a9": {
+      "hex": "7815a9",
+      "flight": "DKH1661",
+      "reg": "B-208A",
+      "type": "B789",
+      "lat": 61.309437,
+      "lon": 25.518901,
+      "alt": 35975,
+      "speed": 458.0,
+      "track": 243.98,
+      "seen_first": "2026-09-04T02:53:02.100898",
+      "last_seen": "2026-09-04T02:55:01.690254"
     }
   },
   "summary": {
-    "total_unique_aircraft": 8,
-    "last_seen_live": 1,
-    "updated": "2026-09-04T02:50:02.249387"
+    "total_unique_aircraft": 9,
+    "last_seen_live": 2,
+    "updated": "2026-09-04T02:55:01.690254"
   }
 }
