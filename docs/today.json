@@ -96,13 +96,13 @@
       "flight": "FIN4QA",
       "reg": "OH-ATM",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 21500,
-      "speed": null,
-      "track": null,
+      "lat": 61.30953,
+      "lon": 25.749817,
+      "alt": 21350,
+      "speed": 240.5,
+      "track": 209.66,
       "seen_first": "2026-09-04T02:50:02.249387",
-      "last_seen": "2026-09-04T03:05:02.153753"
+      "last_seen": "2026-09-04T03:06:02.173766"
     },
     "7815a9": {
       "hex": "7815a9",
@@ -122,18 +122,31 @@
       "flight": "FIN8KH",
       "reg": "OH-ATN",
       "type": "AT75",
-      "lat": 61.962662,
-      "lon": 25.605305,
-      "alt": 13800,
-      "speed": 199.6,
-      "track": 189.23,
+      "lat": 61.935844,
+      "lon": 25.596212,
+      "alt": 18000,
+      "speed": 197.4,
+      "track": 189.03,
       "seen_first": "2026-09-04T02:59:01.336979",
-      "last_seen": "2026-09-04T03:05:02.153753"
+      "last_seen": "2026-09-04T03:10:01.638042"
+    },
+    "461f36": {
+      "hex": "461f36",
+      "flight": "FIN8MC",
+      "reg": "OH-LVI",
+      "type": "A319",
+      "lat": null,
+      "lon": null,
+      "alt": 29850,
+      "speed": 416.0,
+      "track": 182.11,
+      "seen_first": "2026-09-04T03:08:01.903056",
+      "last_seen": "2026-09-04T03:10:01.638042"
     }
   },
   "summary": {
-    "total_unique_aircraft": 10,
+    "total_unique_aircraft": 11,
     "last_seen_live": 2,
-    "updated": "2026-09-04T03:05:02.153753"
+    "updated": "2026-09-04T03:10:01.638042"
   }
 }
