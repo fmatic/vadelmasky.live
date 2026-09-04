@@ -67,16 +67,16 @@
     },
     "782272": {
       "hex": "782272",
-      "flight": "CES201",
+      "flight": "CES202",
       "reg": "B-227J",
       "type": "B789",
-      "lat": null,
-      "lon": null,
-      "alt": 38000,
-      "speed": 476.0,
-      "track": 245.04,
+      "lat": 61.757549,
+      "lon": 25.925496,
+      "alt": 35000,
+      "speed": 534.0,
+      "track": 68.03,
       "seen_first": "2026-09-04T02:30:02.136844",
-      "last_seen": "2026-09-04T02:34:01.851746"
+      "last_seen": "2026-09-04T13:14:01.920095"
     },
     "7817fb": {
       "hex": "7817fb",
@@ -415,11 +415,24 @@
       "track": null,
       "seen_first": "2026-09-04T12:28:01.901264",
       "last_seen": "2026-09-04T12:29:01.255083"
+    },
+    "7812a1": {
+      "hex": "7812a1",
+      "flight": "CHH408",
+      "reg": "B-1343",
+      "type": "B789",
+      "lat": 62.468307,
+      "lon": 26.274414,
+      "alt": 36975,
+      "speed": 521.1,
+      "track": 82.83,
+      "seen_first": "2026-09-04T13:15:01.299651",
+      "last_seen": "2026-09-04T13:15:01.299651"
     }
   },
   "summary": {
-    "total_unique_aircraft": 32,
-    "last_seen_live": 0,
-    "updated": "2026-09-04T13:10:01.452704"
+    "total_unique_aircraft": 33,
+    "last_seen_live": 1,
+    "updated": "2026-09-04T13:15:01.299651"
   }
 }
