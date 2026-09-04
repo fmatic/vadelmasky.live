@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.09.2026 12:09 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "H1",
-      "msgno": "C16C",
-      "text": " 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\nMSG 3453013 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nATA 344500\r\nMSG 3445040 L\r\nDB TCAS COMPUTER\r\nA"
-    },
-    {
-      "time": "02.09.2026 12:09 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "H1",
-      "msgno": "C16D",
-      "text": "TA 345800\r\nMSG 3453302 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453301 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
-      "time": "02.09.2026 12:12 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "H1",
-      "msgno": "E78A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,169,168,45,45,43,43,159,158,55,70,83,83,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,+100,0,AUTO,8.5,0.11,0.23,L,,,,02,SEP,26,12,17,38"
-    },
-    {
-      "time": "02.09.2026 13:47 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ3",
-      "freq": 131.725,
-      "level": -33.5,
-      "label": "QS",
-      "msgno": "M00A",
-      "text": "No text"
-    },
-    {
-      "time": "02.09.2026 13:47 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "LJ3",
-      "freq": 131.725,
-      "level": -29.3,
-      "label": "SA",
-      "msgno": "M02A",
-      "text": "0EV134814V//312U1FLJMMM3JC"
-    },
-    {
       "time": "02.09.2026 13:47 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -329,6 +274,61 @@
       "label": "SA",
       "msgno": "S85A",
       "text": "0LS203002V"
+    },
+    {
+      "time": "04.09.2026 08:26 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "Q0",
+      "msgno": "S31A",
+      "text": "No text"
+    },
+    {
+      "time": "04.09.2026 08:26 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "SA",
+      "msgno": "S32A",
+      "text": "0LH082620VS"
+    },
+    {
+      "time": "04.09.2026 08:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "B9",
+      "msgno": "M20A",
+      "text": "/EHAM.TI2/040EHAMACFFA"
+    },
+    {
+      "time": "04.09.2026 08:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "_d",
+      "msgno": "S33A",
+      "text": "No text"
+    },
+    {
+      "time": "04.09.2026 08:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -36.2,
+      "label": "_d",
+      "msgno": "S35A",
+      "text": "No text"
     }
   ]
 }
