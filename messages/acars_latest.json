@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.09.2026 17:32 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-5920",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "17",
-      "msgno": "M80A",
-      "text": "ETA\r\nDEP ZSPD,DES ESSA,ETA 1818,FOB 42400,UTC 173354"
-    },
-    {
       "time": "03.09.2026 19:52 UTC",
       "source": "ACARS",
       "flight": "CA3106",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M83A",
       "text": "POSA1N61929E 27292,AGIVU  ,062633,339,NISIX  ,071457,-47, 21, 317,832"
+    },
+    {
+      "time": "05.09.2026 11:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "H1",
+      "msgno": "O55A",
+      "text": "SB0122BA_B-223A  ZSPDEDDF907\r\n 61520 0263901102 33996-490270010010NXW008010"
     }
   ]
 }
