@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.09.2026 17:31 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-5920",
-      "freq": 131.825,
-      "level": -27.6,
-      "label": "SA",
-      "msgno": "S90A",
-      "text": "0LS173226VH"
-    },
-    {
       "time": "03.09.2026 17:32 UTC",
       "source": "ACARS",
       "flight": "MU0289",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S68A",
       "text": "No text"
+    },
+    {
+      "time": "05.09.2026 06:42 UTC",
+      "source": "ACARS",
+      "flight": "CK0203",
+      "tail": "B-227G",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "16",
+      "msgno": "M83A",
+      "text": "POSA1N61929E 27292,AGIVU  ,062633,339,NISIX  ,071457,-47, 21, 317,832"
     }
   ]
 }
