@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.09.2026 11:21 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "SA",
-      "msgno": "S63A",
-      "text": "0EV112549VSH/"
-    },
-    {
-      "time": "04.09.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -39.1,
-      "label": "H1",
-      "msgno": "C72D",
-      "text": "GHT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6073  \r\nMSG 3462021 I 1005 04SEP26 ER I 3 PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6073  \r\nMSG 3462012 A 1003 04SEP26 ER I 2 PL\r\nDB RIGHT INTEG SURVE"
-    },
-    {
       "time": "04.09.2026 11:24 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S31A",
       "text": "No text"
+    },
+    {
+      "time": "05.09.2026 20:23 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -36.5,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/WRN/WN2609052024  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "05.09.2026 20:24 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -36.0,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/FLR/FR2609052024  34361606MMR1   1,IR3,IR2,IR1,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
