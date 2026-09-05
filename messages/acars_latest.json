@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.09.2026 07:43 UTC",
-      "source": "ACARS",
-      "flight": "CA3143",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "10",
-      "msgno": "M51A",
-      "text": "POS010743,N 61.729,E 27.463,1011,445500,,,36001,46400"
-    },
-    {
-      "time": "03.09.2026 07:43 UTC",
-      "source": "ACARS",
-      "flight": "CA3143",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "10",
-      "msgno": "M51A",
-      "text": "POS010743,N 61.729,E 27.463,1011,445500,,,36001,46400"
-    },
-    {
       "time": "03.09.2026 14:24 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -328,6 +306,28 @@
       "level": -34.3,
       "label": "5V",
       "msgno": "M07A",
+      "text": "No text"
+    },
+    {
+      "time": "05.09.2026 02:52 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -25.3,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "05.09.2026 02:53 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "Q0",
+      "msgno": "S00A",
       "text": "No text"
     }
   ]
