@@ -6,17 +6,6 @@
       "flight": "CA3159",
       "tail": "B-6115",
       "freq": 131.825,
-      "level": -33.7,
-      "label": "_d",
-      "msgno": "S33A",
-      "text": "No text"
-    },
-    {
-      "time": "04.09.2026 08:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6115",
-      "freq": 131.825,
       "level": -36.2,
       "label": "_d",
       "msgno": "S35A",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S02A",
       "text": "No text"
+    },
+    {
+      "time": "05.09.2026 14:00 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "10",
+      "msgno": "M24A",
+      "text": "POS051400, N 6186,E 2748,828,309,30075,  31,31003, 763,-222,-525,7"
     }
   ]
 }
