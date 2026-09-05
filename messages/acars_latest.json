@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.09.2026 19:52 UTC",
-      "source": "ACARS",
-      "flight": "CA3106",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -28.6,
-      "label": "H1",
-      "msgno": "C04A",
-      "text": ".1/FLR/FR2609031951  34363106IR3    1,IR1,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "03.09.2026 20:08 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "Q0",
-      "msgno": "S43A",
-      "text": "No text"
-    },
-    {
-      "time": "03.09.2026 20:26 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -33.9,
-      "label": "H1",
-      "msgno": "C57A",
-      "text": ".1/WRN/WN2609032027  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "03.09.2026 20:26 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -33.6,
-      "label": "11",
-      "msgno": "M08A",
-      "text": "POS\r\nCAS 272,LAT N 61.616,LON E 27.422,ALT 35003,FOB 128240,UTC 202729,PD ----.--,WD 243,WS   33,TAT - 17"
-    },
-    {
-      "time": "03.09.2026 20:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -34.0,
-      "label": "H1",
-      "msgno": "C58A",
-      "text": ".1/FLR/FR2609032027  34361606MMR1   1,IR3,IR1,IR2,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
       "time": "03.09.2026 20:29 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "O55A",
       "text": "SB0122BA_B-223A  ZSPDEDDF907\r\n 61520 0263901102 33996-490270010010NXW008010"
+    },
+    {
+      "time": "05.09.2026 11:13 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "H1",
+      "msgno": "O56A",
+      "text": "SB0122BA_B-222S  ZSPDEGPK494\r\n 61897 0269561113 34001-480278013010IH-011015"
+    },
+    {
+      "time": "05.09.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "_d",
+      "msgno": "S93A",
+      "text": "No text"
+    },
+    {
+      "time": "05.09.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "H1",
+      "msgno": "E11A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,173,173,46,46,44,44,158,158,60,63,84,84,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,100,AUTO,8.5,0.10,0.21,L,,,,05,SEP,26,11,15,18"
+    },
+    {
+      "time": "05.09.2026 11:15 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "_d",
+      "msgno": "S94A",
+      "text": "No text"
+    },
+    {
+      "time": "05.09.2026 11:15 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "H1",
+      "msgno": "C10A",
+      "text": "EF 1 05SEP26 1115 CAB-222S CAO1007 ZSPD/EGPK 311B-BCG-00W-19 R\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL "
     }
   ]
 }
