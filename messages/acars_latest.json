@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.09.2026 20:29 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -33.9,
-      "label": "SA",
-      "msgno": "S85A",
-      "text": "0LS203002V"
-    },
-    {
-      "time": "04.09.2026 08:26 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -31.2,
-      "label": "Q0",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
-      "time": "04.09.2026 08:26 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "SA",
-      "msgno": "S32A",
-      "text": "0LH082620VS"
-    },
-    {
-      "time": "04.09.2026 08:27 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -30.7,
-      "label": "B9",
-      "msgno": "M20A",
-      "text": "/EHAM.TI2/040EHAMACFFA"
-    },
-    {
       "time": "04.09.2026 08:28 UTC",
       "source": "ACARS",
       "flight": "CA3159",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "C10A",
       "text": "EF 1 05SEP26 1115 CAB-222S CAO1007 ZSPD/EGPK 311B-BCG-00W-19 R\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL "
+    },
+    {
+      "time": "05.09.2026 11:15 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "H1",
+      "msgno": "C10B",
+      "text": "EF 1 05SEP26 1115 CAB-222S CAO1007 ZSPD/EGPK 311B-BCG-00W-19 R\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nEOR\r\n"
+    },
+    {
+      "time": "05.09.2026 11:15 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "H1",
+      "msgno": "C10B",
+      "text": "MAINTENANCE COMPUTING FUNCTION\r\nEOR\r\n"
+    },
+    {
+      "time": "05.09.2026 11:15 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -34.4,
+      "label": "H1",
+      "msgno": "C11A",
+      "text": "BSY EM-PERF-REAL"
+    },
+    {
+      "time": "05.09.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "Q0",
+      "msgno": "S02A",
+      "text": "No text"
     }
   ]
 }
