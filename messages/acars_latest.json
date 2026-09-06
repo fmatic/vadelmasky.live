@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.09.2026 11:14 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -33.2,
-      "label": "_d",
-      "msgno": "S93A",
-      "text": "No text"
-    },
-    {
-      "time": "05.09.2026 11:14 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "H1",
-      "msgno": "E11A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,173,173,46,46,44,44,158,158,60,63,84,84,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,100,AUTO,8.5,0.10,0.21,L,,,,05,SEP,26,11,15,18"
-    },
-    {
-      "time": "05.09.2026 11:15 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -34.0,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
       "time": "05.09.2026 11:15 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O03B",
       "text": "SS0340F_187\r\nB-228C  CKK206EHAMZSPD220446180601ER\r\n29633004829-1862154343168BSM79967A21\r\n6856101744 2701060926 180559\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  33005\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n220446180601\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "06.09.2026 19:56 UTC",
+      "source": "ACARS",
+      "flight": "CA3123",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "10",
+      "msgno": "M53A",
+      "text": "POS061957, N 6147,E 2631,827,289,32951,  40,33998, 295,-175,-484,7"
+    },
+    {
+      "time": "06.09.2026 19:59 UTC",
+      "source": "ACARS",
+      "flight": "CA3123",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "H1",
+      "msgno": "C56C",
+      "text": " I 1956 06SEP26 ER I 5\r\nFDE 34403100 I 1955 06SEP26\r\nMSG 3453803 I 1956 06SEP26 ER I 5\r\nFDE 34302142 I 1956 06SEP26\r\nMSG 3453803 I 1956 06SEP26 ER I 5\r\nMSG 3453013 I 1510 06SEP26 ER I 2\r\nDB MULTI-MODE RECEI"
+    },
+    {
+      "time": "06.09.2026 19:59 UTC",
+      "source": "ACARS",
+      "flight": "CA3123",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -39.0,
+      "label": "H1",
+      "msgno": "O22B",
+      "text": " 02N3276)16.)\r\n060926200005\r\n111111111111\r\n111111111111"
     }
   ]
 }
