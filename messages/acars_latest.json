@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.09.2026 11:26 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -40.2,
-      "label": "SA",
-      "msgno": "S76A",
-      "text": "0EV113130VSH/"
-    },
-    {
       "time": "04.09.2026 14:25 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S78A",
       "text": "0LS040523VH"
+    },
+    {
+      "time": "06.09.2026 07:15 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "10",
+      "msgno": "M67A",
+      "text": "POS060715,N 61.771,E 27.442,1459,484000,,,37006,103040"
     }
   ]
 }
