@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">10</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">06.09.2026 03:10 UTC</div>
+        <div class="value">06.09.2026 03:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4MP</div>
+                    <div class="meta">ICAO 461E17 · REG OH-LKH · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">32975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>36.1 kt</b></div>
+                    <div><span>Track</span><b>266.82°</b></div>
+                    <div><span>Position</span><b>59.5380, 28.2387</b></div>
+                    <div><span>Last seen</span><b>06.09.2026 03:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DKH1659</div>
+                    <div class="meta">ICAO 782159 · REG B-226N · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">35975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>461.5 kt</b></div>
+                    <div><span>Track</span><b>312.37°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>06.09.2026 03:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-226N" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -692,7 +740,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "781FF6", "flight": "CES249", "lat": 61.515803, "lon": 25.475057, "alt": 38000, "speed": 497.3, "last_seen": "06.09.2026 02:00 UTC"}];
+const aircraft = [{"hex": "461E17", "flight": "FIN4MP", "lat": 59.538031, "lon": 28.238652, "alt": 32975, "speed": 36.1, "last_seen": "06.09.2026 03:15 UTC"}, {"hex": "781FF6", "flight": "CES249", "lat": 61.515803, "lon": 25.475057, "alt": 38000, "speed": 497.3, "last_seen": "06.09.2026 02:00 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
