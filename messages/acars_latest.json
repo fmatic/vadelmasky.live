@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.09.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20D1",
-      "freq": 131.825,
-      "level": -41.8,
-      "label": "SA",
-      "msgno": "S71A",
-      "text": "0EV112921VSH/"
-    },
-    {
       "time": "04.09.2026 11:26 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C21A",
       "text": ".1/FLR/FR2609052024  34361606MMR1   1,IR3,IR2,IR1,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "06.09.2026 04:05 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "SA",
+      "msgno": "S78A",
+      "text": "0LS040523VH"
     }
   ]
 }
