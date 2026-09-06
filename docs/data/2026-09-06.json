@@ -20,11 +20,11 @@
       "type": "A359",
       "lat": null,
       "lon": null,
-      "alt": 38000,
-      "speed": null,
-      "track": null,
+      "alt": 35600,
+      "speed": 488.0,
+      "track": 57.66,
       "seen_first": "2026-09-06T01:48:01.635195",
-      "last_seen": "2026-09-06T01:56:02.117173"
+      "last_seen": "2026-09-06T13:14:01.751996"
     },
     "461f55": {
       "hex": "461f55",
@@ -363,11 +363,37 @@
       "track": 231.86,
       "seen_first": "2026-09-06T12:41:01.650240",
       "last_seen": "2026-09-06T12:51:01.852432"
+    },
+    "78140f": {
+      "hex": "78140f",
+      "flight": "CHH408",
+      "reg": "B-1132",
+      "type": "B789",
+      "lat": 62.492981,
+      "lon": 26.711672,
+      "alt": 37000,
+      "speed": 266.3,
+      "track": 82.45,
+      "seen_first": "2026-09-06T13:11:01.746913",
+      "last_seen": "2026-09-06T13:13:01.418762"
+    },
+    "460561": {
+      "hex": "460561",
+      "flight": "OHCAZ",
+      "reg": "OH-CAZ",
+      "type": "C172",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": 118.4,
+      "track": 139.45,
+      "seen_first": "2026-09-06T13:13:01.418762",
+      "last_seen": "2026-09-06T13:15:02.104832"
     }
   },
   "summary": {
-    "total_unique_aircraft": 28,
-    "last_seen_live": 0,
-    "updated": "2026-09-06T13:10:01.868514"
+    "total_unique_aircraft": 30,
+    "last_seen_live": 1,
+    "updated": "2026-09-06T13:15:02.104832"
   }
 }
