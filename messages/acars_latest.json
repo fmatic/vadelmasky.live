@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.09.2026 17:37 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "OH-TFB",
-      "freq": 131.725,
-      "level": -34.5,
-      "label": "Q0",
-      "msgno": "M02A",
-      "text": "No text"
-    },
-    {
       "time": "04.09.2026 17:38 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M72A",
       "text": "POS031037,N 61.556,E 26.660,1128,454375,,,36001,27560"
+    },
+    {
+      "time": "06.09.2026 11:06 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "H1",
+      "msgno": "O58A",
+      "text": "SB0122BA_B-228C  ZSPDEHAM727\r\n 61725 0269401106 33999-500334037010NXW012017"
     }
   ]
 }
