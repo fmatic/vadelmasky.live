@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.09.2026 17:38 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "OH-TFB",
-      "freq": 131.725,
-      "level": -34.3,
-      "label": "5V",
-      "msgno": "M07A",
-      "text": "No text"
-    },
-    {
-      "time": "05.09.2026 02:52 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -25.3,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
       "time": "05.09.2026 02:53 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O58A",
       "text": "SB0122BA_B-228C  ZSPDEHAM727\r\n 61725 0269401106 33999-500334037010NXW012017"
+    },
+    {
+      "time": "06.09.2026 11:10 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "16",
+      "msgno": "M83A",
+      "text": "POSA1N61433E 25946,AGIVU  ,105449,340,NISIX  ,113709,-54, 44, 234,830"
+    },
+    {
+      "time": "06.09.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "CZ2520",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "Q0",
+      "msgno": "S82A",
+      "text": "No text"
     }
   ]
 }
