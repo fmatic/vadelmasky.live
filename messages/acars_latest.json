@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.09.2026 06:25 UTC",
-      "source": "ACARS",
-      "flight": "CA1033",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "_d",
-      "msgno": "S68A",
-      "text": "No text"
-    },
-    {
       "time": "05.09.2026 06:42 UTC",
       "source": "ACARS",
       "flight": "CK0203",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C16A",
       "text": ".1/FLR/FR2609061145  34363106IR2    1,IR1,IR3,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "06.09.2026 13:03 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "Q0",
+      "msgno": "S31A",
+      "text": "No text"
     }
   ]
 }
