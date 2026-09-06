@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.09.2026 16:47 UTC",
-      "source": "ACARS",
-      "flight": "GS0000",
-      "tail": "OH-TFB",
-      "freq": 131.725,
-      "level": -27.9,
-      "label": "Q0",
-      "msgno": "M14A",
-      "text": "No text"
-    },
-    {
       "time": "04.09.2026 17:37 UTC",
       "source": "ACARS",
       "flight": "GS0000",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M21A",
       "text": "1001 OUTRP  0286/06 EFJY/EFHK .OH-ATF\r\n/OUT 0916/FOB 0013/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "06.09.2026 10:36 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -33.7,
+      "label": "10",
+      "msgno": "M72A",
+      "text": "POS031037,N 61.556,E 26.660,1128,454375,,,36001,27560"
     }
   ]
 }
