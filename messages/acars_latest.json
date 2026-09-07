@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.09.2026 20:33 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6092",
-      "freq": 131.725,
-      "level": -28.1,
-      "label": "_d",
-      "msgno": "S91A",
-      "text": "No text"
-    },
-    {
-      "time": "06.09.2026 20:33 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6092",
-      "freq": 131.725,
-      "level": -28.3,
-      "label": "H1",
-      "msgno": "C58A",
-      "text": ".1/WRN/WN2609062034  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "06.09.2026 20:33 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5903",
-      "freq": 131.725,
-      "level": -33.4,
-      "label": "H1",
-      "msgno": "C48A",
-      "text": ".1/WRN/WN2609062034  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "06.09.2026 20:34 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5903",
-      "freq": 131.725,
-      "level": -33.1,
-      "label": "H1",
-      "msgno": "C49A",
-      "text": ".1/WRN/WN2609062034  345801006NAV GPS 2 FAULT"
-    },
-    {
       "time": "06.09.2026 20:34 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -329,6 +285,50 @@
       "label": "_d",
       "msgno": "S29A",
       "text": "No text"
+    },
+    {
+      "time": "07.09.2026 12:25 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "H1",
+      "msgno": "O15A",
+      "text": "SB0122BA_B-2093  EHAMZSPD976\r\n 61608 0264091225 28999-41032504901020;011014"
+    },
+    {
+      "time": "07.09.2026 12:26 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -32.9,
+      "label": "H1",
+      "msgno": "E19B",
+      "text": ",17"
+    },
+    {
+      "time": "07.09.2026 12:27 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "_d",
+      "msgno": "S92A",
+      "text": "No text"
+    },
+    {
+      "time": "07.09.2026 12:27 UTC",
+      "source": "ACARS",
+      "flight": "CA1034",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "H1",
+      "msgno": "E20A",
+      "text": "PER,R,319.0,-41.9,328,-9.3,500.3,0.840,29000,99.4,99.4,85.6,85.6,--,0.08,--,0.51,85.6,85.6,0.49,--,0.26,--,725,719,0.08,--,0.53,--,103.5,103.5,0.32,--,0.56,--,4.802,4.787,214,215,0.00,0.00,67,70,82,82,16,14"
     }
   ]
 }
