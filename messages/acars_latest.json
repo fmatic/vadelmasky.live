@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.09.2026 20:34 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5903",
-      "freq": 131.725,
-      "level": -33.0,
-      "label": "H1",
-      "msgno": "C50A",
-      "text": ".1/FLR/FR2609062034  34361606MMR1   1,IR1,IR3,IR2,AFS,MMR2,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "07.09.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.725,
-      "level": -36.3,
-      "label": "5V",
-      "msgno": "S70A",
-      "text": "No text"
-    },
-    {
-      "time": "07.09.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -19.4,
-      "label": "5V",
-      "msgno": "S70A",
-      "text": "No text"
-    },
-    {
-      "time": "07.09.2026 02:41 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -29.0,
-      "label": "SA",
-      "msgno": "S73A",
-      "text": "0EV024619VS/"
-    },
-    {
-      "time": "07.09.2026 02:49 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "_d",
-      "msgno": "S13A",
-      "text": "No text"
-    },
-    {
       "time": "07.09.2026 02:49 UTC",
       "source": "ACARS",
       "flight": "N70380",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "E20A",
       "text": "PER,R,319.0,-41.9,328,-9.3,500.3,0.840,29000,99.4,99.4,85.6,85.6,--,0.08,--,0.51,85.6,85.6,0.49,--,0.26,--,725,719,0.08,--,0.53,--,103.5,103.5,0.32,--,0.56,--,4.802,4.787,214,215,0.00,0.00,67,70,82,82,16,14"
+    },
+    {
+      "time": "07.09.2026 13:00 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-227J",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "SA",
+      "msgno": "S18A",
+      "text": "0EV130110VSH/"
+    },
+    {
+      "time": "07.09.2026 13:03 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-227J",
+      "freq": 131.825,
+      "level": -26.6,
+      "label": "5V",
+      "msgno": "S23A",
+      "text": "No text"
+    },
+    {
+      "time": "07.09.2026 13:04 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-227J",
+      "freq": 131.825,
+      "level": -27.7,
+      "label": "Q0",
+      "msgno": "S25A",
+      "text": "No text"
+    },
+    {
+      "time": "07.09.2026 13:04 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-227J",
+      "freq": 131.825,
+      "level": -25.7,
+      "label": "SA",
+      "msgno": "S26A",
+      "text": "0EV130444VSH/"
+    },
+    {
+      "time": "07.09.2026 13:05 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-227J",
+      "freq": 131.825,
+      "level": -29.1,
+      "label": "_d",
+      "msgno": "S28A",
+      "text": "No text"
     }
   ]
 }
