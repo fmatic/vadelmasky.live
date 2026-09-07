@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">07.09.2026 06:10 UTC</div>
+        <div class="value">07.09.2026 06:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,30 +270,6 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 467897 · REG GO-1 · TYPE G115</div>
-                </div>
-                <div class="alt-badge low">2525 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>109.8 kt</b></div>
-                    <div><span>Track</span><b>276.8°</b></div>
-                    <div><span>Position</span><b>62.2907, 25.9335</b></div>
-                    <div><span>Last seen</span><b>07.09.2026 06:10 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-1" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -307,14 +283,38 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>250.2 kt</b></div>
-                    <div><span>Track</span><b>19.38°</b></div>
-                    <div><span>Position</span><b>61.6176, 25.4938</b></div>
-                    <div><span>Last seen</span><b>07.09.2026 06:10 UTC</b></div>
+                    <div><span>Speed</span><b>252.1 kt</b></div>
+                    <div><span>Track</span><b>19.23°</b></div>
+                    <div><span>Position</span><b>61.8473, 25.6631</b></div>
+                    <div><span>Last seen</span><b>07.09.2026 06:15 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATO" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">K01</div>
+                    <div class="meta">ICAO 467897 · REG GO-1 · TYPE G115</div>
+                </div>
+                <div class="alt-badge low">2200 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>89.1 kt</b></div>
+                    <div><span>Track</span><b>315.0°</b></div>
+                    <div><span>Position</span><b>62.3227, 25.8492</b></div>
+                    <div><span>Last seen</span><b>07.09.2026 06:13 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/GO-1" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -811,7 +811,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "467897", "flight": "-", "lat": 62.290741, "lon": 25.933533, "alt": 2525, "speed": 109.8, "last_seen": "07.09.2026 06:10 UTC"}, {"hex": "4601FC", "flight": "FIN489", "lat": 61.617645, "lon": 25.493774, "alt": 18000, "speed": 250.2, "last_seen": "07.09.2026 06:10 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.304428, "lon": 25.759074, "alt": 1950, "speed": 190.6, "last_seen": "07.09.2026 05:24 UTC"}, {"hex": "461F35", "flight": "FIN448", "lat": 61.589542, "lon": 25.107829, "alt": 29275, "speed": 454.0, "last_seen": "07.09.2026 05:08 UTC"}, {"hex": "461F69", "flight": "FIN7AZ", "lat": 61.425492, "lon": 25.283508, "alt": 29825, "speed": 464.0, "last_seen": "07.09.2026 04:50 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.9319, "lon": 25.584608, "alt": 11100, "speed": 225.9, "last_seen": "07.09.2026 03:11 UTC"}, {"hex": "781F29", "flight": "CES249", "lat": 61.456076, "lon": 25.281576, "alt": 38000, "speed": 473.7, "last_seen": "07.09.2026 02:10 UTC"}];
+const aircraft = [{"hex": "4601FC", "flight": "FIN489", "lat": 61.847301, "lon": 25.663147, "alt": 18000, "speed": 252.1, "last_seen": "07.09.2026 06:15 UTC"}, {"hex": "467897", "flight": "K01", "lat": 62.322739, "lon": 25.849246, "alt": 2200, "speed": 89.1, "last_seen": "07.09.2026 06:13 UTC"}, {"hex": "467891", "flight": "T42", "lat": 62.304428, "lon": 25.759074, "alt": 1950, "speed": 190.6, "last_seen": "07.09.2026 05:24 UTC"}, {"hex": "461F35", "flight": "FIN448", "lat": 61.589542, "lon": 25.107829, "alt": 29275, "speed": 454.0, "last_seen": "07.09.2026 05:08 UTC"}, {"hex": "461F69", "flight": "FIN7AZ", "lat": 61.425492, "lon": 25.283508, "alt": 29825, "speed": 464.0, "last_seen": "07.09.2026 04:50 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.9319, "lon": 25.584608, "alt": 11100, "speed": 225.9, "last_seen": "07.09.2026 03:11 UTC"}, {"hex": "781F29", "flight": "CES249", "lat": 61.456076, "lon": 25.281576, "alt": 38000, "speed": 473.7, "last_seen": "07.09.2026 02:10 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
