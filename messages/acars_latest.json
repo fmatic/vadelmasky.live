@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.09.2026 20:24 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5902",
-      "freq": 131.725,
-      "level": -36.0,
-      "label": "H1",
-      "msgno": "C21A",
-      "text": ".1/FLR/FR2609052024  34361606MMR1   1,IR3,IR2,IR1,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "06.09.2026 04:05 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "SA",
-      "msgno": "S78A",
-      "text": "0LS040523VH"
-    },
-    {
       "time": "06.09.2026 07:15 UTC",
       "source": "ACARS",
       "flight": "CA3040",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S73A",
       "text": "0EV024619VS/"
+    },
+    {
+      "time": "07.09.2026 02:49 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "_d",
+      "msgno": "S13A",
+      "text": "No text"
+    },
+    {
+      "time": "07.09.2026 02:49 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -24.5,
+      "label": "5V",
+      "msgno": "S14A",
+      "text": "No text"
     }
   ]
 }
