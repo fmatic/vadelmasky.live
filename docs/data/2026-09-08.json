@@ -197,21 +197,34 @@
     },
     "4601f9": {
       "hex": "4601f9",
-      "flight": "FIN5NB",
+      "flight": "FIN6LE",
       "reg": "OH-ATL",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 13025,
-      "speed": null,
-      "track": null,
+      "lat": 62.000458,
+      "lon": 25.699565,
+      "alt": 12450,
+      "speed": 257.3,
+      "track": 11.66,
       "seen_first": "2026-09-08T08:57:01.815368",
-      "last_seen": "2026-09-08T09:11:01.964924"
+      "last_seen": "2026-09-08T10:35:01.400877"
+    },
+    "4613d3": {
+      "hex": "4613d3",
+      "flight": "OHHNF",
+      "reg": "OH-HNF",
+      "type": "EC45",
+      "lat": 62.246487,
+      "lon": 25.750474,
+      "alt": 1300,
+      "speed": 110.2,
+      "track": 233.86,
+      "seen_first": "2026-09-08T10:32:01.417370",
+      "last_seen": "2026-09-08T10:34:02.047947"
     }
   },
   "summary": {
-    "total_unique_aircraft": 16,
-    "last_seen_live": 0,
-    "updated": "2026-09-08T10:30:01.925685"
+    "total_unique_aircraft": 17,
+    "last_seen_live": 1,
+    "updated": "2026-09-08T10:35:01.400877"
   }
 }
