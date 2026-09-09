@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.09.2026 15:06 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "_d",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
-      "time": "07.09.2026 15:51 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -21.6,
-      "label": "12",
-      "msgno": "M32A",
-      "text": "WXR FS UUEE,USSS,UNNT"
-    },
-    {
-      "time": "07.09.2026 15:52 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -28.2,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
-      "time": "07.09.2026 15:52 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -26.2,
-      "label": "_d",
-      "msgno": "S95A",
-      "text": "No text"
-    },
-    {
       "time": "07.09.2026 15:52 UTC",
       "source": "ACARS",
       "flight": "CA1154",
@@ -284,6 +240,94 @@
       "level": -36.6,
       "label": "Q0",
       "msgno": "S04A",
+      "text": "No text"
+    },
+    {
+      "time": "09.09.2026 11:12 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "80",
+      "msgno": "M20B",
+      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
+    },
+    {
+      "time": "09.09.2026 11:13 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "80",
+      "msgno": "M20B",
+      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
+    },
+    {
+      "time": "09.09.2026 11:13 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -29.2,
+      "label": "80",
+      "msgno": "M21A",
+      "text": "1201 ONRP   0285/09 EFHK/EFJY .OH-ATO\r\n/ON  1039/FOB 0014"
+    },
+    {
+      "time": "09.09.2026 11:13 UTC",
+      "source": "ACARS",
+      "flight": "N70612",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "Q0",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "09.09.2026 11:13 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "80",
+      "msgno": "M22A",
+      "text": "1301 INRP   0285/09 EFHK/EFJY .OH-ATO\r\n/ON  1039/IN  1041/FOB 0015"
+    },
+    {
+      "time": "09.09.2026 11:13 UTC",
+      "source": "ACARS",
+      "flight": "N70612",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "Q0",
+      "msgno": "M45A",
+      "text": "No text"
+    },
+    {
+      "time": "09.09.2026 11:13 UTC",
+      "source": "ACARS",
+      "flight": "N70612",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "SA",
+      "msgno": "M44A",
+      "text": "0EV111343V"
+    },
+    {
+      "time": "09.09.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "5V",
+      "msgno": "S19A",
       "text": "No text"
     }
   ]
