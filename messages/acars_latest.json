@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.09.2026 02:47 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -24.6,
-      "label": "5V",
-      "msgno": "S15A",
-      "text": "No text"
-    },
-    {
-      "time": "08.09.2026 11:09 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "Q0",
-      "msgno": "S96A",
-      "text": "No text"
-    },
-    {
-      "time": "08.09.2026 11:09 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -21.0,
-      "label": "80",
-      "msgno": "M23A",
-      "text": "3501 SUMMRY 0285/08 EFHK/EFJY .OH-ATL\r\n/OUT 1002/FOB 0020\r\n/OFF 1009/FOB 0019\r\n/ON  1042/FOB 0014\r\n/IN  1044/FOB 0016\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
-    },
-    {
-      "time": "08.09.2026 11:10 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "80",
-      "msgno": "M23B",
-      "text": "3501 SUMMRY 0285/08 EFHK/EFJY .OH-ATL\r\n/OUT 1002/FOB 0020\r\n/OFF 1009/FOB 0019\r\n/ON  1042/FOB 0014\r\n/IN  1044/FOB 0016\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
       "time": "08.09.2026 11:10 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "C16A",
       "text": ".1/FLR/FR2609091614  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "09.09.2026 16:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "H1",
+      "msgno": "C17A",
+      "text": ".1/WRN/WN2609091617  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "09.09.2026 16:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -27.0,
+      "label": "H1",
+      "msgno": "C17A",
+      "text": ".1/WRN/WN2609091617  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "09.09.2026 16:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -28.0,
+      "label": "H1",
+      "msgno": "C18A",
+      "text": ".1/WRN/WN2609091617  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "09.09.2026 16:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -28.6,
+      "label": "H1",
+      "msgno": "C19A",
+      "text": ".1/FLR/FR2609091617  34363106MMR2   1,MMR1,,,,,,MMR2(40RT2),HARD"
     }
   ]
 }
