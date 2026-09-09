@@ -242,17 +242,17 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">34000 ft</div>
+        <div class="value">38000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">09.09.2026 02:00 UTC</div>
+        <div class="value">09.09.2026 02:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,10 +274,10 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">CES709</div>
                     <div class="meta">ICAO 781EB8 · REG B-32D0 · TYPE A359</div>
                 </div>
-                <div class="alt-badge unknown">-</div>
+                <div class="alt-badge high">38000 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -285,8 +285,8 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>09.09.2026 02:00 UTC</b></div>
+                    <div><span>Position</span><b>61.9265, 26.7960</b></div>
+                    <div><span>Last seen</span><b>09.09.2026 02:04 UTC</b></div>
                 </div>
             </div>
 
@@ -594,7 +594,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "780F3A", "flight": "CES219", "lat": 61.284671, "lon": 25.669963, "alt": 32000, "speed": 392.0, "last_seen": "09.09.2026 01:43 UTC"}];
+const aircraft = [{"hex": "781EB8", "flight": "CES709", "lat": 61.926487, "lon": 26.795959, "alt": 38000, "speed": "-", "last_seen": "09.09.2026 02:04 UTC"}, {"hex": "780F3A", "flight": "CES219", "lat": 61.284671, "lon": 25.669963, "alt": 32000, "speed": 392.0, "last_seen": "09.09.2026 01:43 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
