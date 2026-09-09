@@ -6,28 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATL",
       "freq": 131.825,
-      "level": -24.3,
-      "label": "80",
-      "msgno": "M24A",
-      "text": "1301 INRP   0285/08 EFHK/EFJY .OH-ATL\r\n/ON  1042/IN  1044/FOB 0016"
-    },
-    {
-      "time": "08.09.2026 11:10 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -26.8,
-      "label": "80",
-      "msgno": "M25A",
-      "text": "1001 OUTRP  0286/08 EFJY/EFHK .OH-ATL\r\n/OUT 1105/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "08.09.2026 11:10 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATL",
-      "freq": 131.825,
       "level": -23.0,
       "label": "80",
       "msgno": "M26A",
@@ -329,6 +307,28 @@
       "label": "16",
       "msgno": "M68A",
       "text": "POSA1N61698E 27862,ALA-03 ,171817,330,KOKAT  ,175619,-48,109, 697,827"
+    },
+    {
+      "time": "09.09.2026 18:32 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "SA",
+      "msgno": "S41A",
+      "text": "0LS183252V"
+    },
+    {
+      "time": "09.09.2026 18:32 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "16",
+      "msgno": "M66A",
+      "text": "POSA1N61663E 28173,ALAMI  ,175207,329,KOKAT  ,184403,-47,104, 709,821"
     }
   ]
 }
