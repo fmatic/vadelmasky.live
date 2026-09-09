@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.09.2026 19:44 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6092",
-      "freq": 131.725,
-      "level": -27.1,
-      "label": "H1",
-      "msgno": "C17A",
-      "text": ".1/WRN/WN2609081944  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "08.09.2026 23:26 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "Q0",
-      "msgno": "S95A",
-      "text": "No text"
-    },
-    {
       "time": "09.09.2026 10:18 UTC",
       "source": "ACARS",
       "flight": "CA3157",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C18C",
       "text": "EF 1 09SEP26 1924 CAB-2094 CAO1007 ZSPD/EGPK 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 270200\r\nMSG 2712401 L\r\nDB PRIMARY FLIGHT COMPUTER (RIGHT)\r\nDB PRIMARY FLIGHT COMPUTER (LEFT)\r\nDB PRIMARY FLIGHT COMPUTER (CENTER)\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nEOR\r\n"
+    },
+    {
+      "time": "09.09.2026 19:24 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "5U",
+      "msgno": "M60A",
+      "text": "FS EGPK,EIDW"
+    },
+    {
+      "time": "09.09.2026 19:25 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "_d",
+      "msgno": "S06A",
+      "text": "No text"
     }
   ]
 }
