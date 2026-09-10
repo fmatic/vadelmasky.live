@@ -6,17 +6,6 @@
       "flight": "CA3156",
       "tail": "B-6115",
       "freq": 131.825,
-      "level": -28.1,
-      "label": "Q0",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
-      "time": "09.09.2026 13:51 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6115",
-      "freq": 131.825,
       "level": -26.3,
       "label": "Q0",
       "msgno": "S53A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "D62F",
       "text": "   0.)  894.0  885.5  872.0  872.0"
+    },
+    {
+      "time": "10.09.2026 16:10 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6545",
+      "freq": 131.725,
+      "level": -23.9,
+      "label": "11",
+      "msgno": "M73A",
+      "text": "POS\r\nCAS 259,LAT N 62.151,LON E 25.867,ALT 37997,FOB 40320,UTC 161105,PD ----.--,WD 202,WS   22,TAT - 14"
     }
   ]
 }
