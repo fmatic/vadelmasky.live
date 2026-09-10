@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.09.2026 16:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "H1",
-      "msgno": "C16A",
-      "text": ".1/FLR/FR2609091614  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
       "time": "09.09.2026 16:16 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S42A",
       "text": "0LS213008V"
+    },
+    {
+      "time": "10.09.2026 21:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6545",
+      "freq": 131.725,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "C79A",
+      "text": ".1/FLR/FR2609102132  34363106IR2    1,IR1,IR3,AFS,,,,MMR1-GPSSU1(40RT1-1SN1),HARD"
     }
   ]
 }
