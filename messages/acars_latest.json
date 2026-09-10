@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.09.2026 11:13 UTC",
-      "source": "ACARS",
-      "flight": "N70612",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "SA",
-      "msgno": "M44A",
-      "text": "0EV111343V"
-    },
-    {
       "time": "09.09.2026 11:14 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S01A",
       "text": "No text"
+    },
+    {
+      "time": "10.09.2026 04:40 UTC",
+      "source": "ACARS",
+      "flight": "JL047D",
+      "tail": "JA742J",
+      "freq": 131.725,
+      "level": -33.4,
+      "label": "H1",
+      "msgno": "O71B",
+      "text": ".. 314\r\n  57  67 373  540  620    0    0000000000FA8\r\n  57  65 403  570  600    0    0000000000FA8\r\n 88110 96"
     }
   ]
 }
