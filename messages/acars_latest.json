@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.09.2026 16:16 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -27.8,
-      "label": "H1",
-      "msgno": "C17A",
-      "text": ".1/WRN/WN2609091617  345801006NAV GPS 2 FAULT"
-    },
-    {
       "time": "09.09.2026 16:17 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C79A",
       "text": ".1/FLR/FR2609102132  34363106IR2    1,IR1,IR3,AFS,,,,MMR1-GPSSU1(40RT1-1SN1),HARD"
+    },
+    {
+      "time": "11.09.2026 06:02 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "SA",
+      "msgno": "S11A",
+      "text": "0EV060221V"
     }
   ]
 }
