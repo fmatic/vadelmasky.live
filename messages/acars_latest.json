@@ -1,127 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.09.2026 16:17 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -28.6,
-      "label": "H1",
-      "msgno": "C19A",
-      "text": ".1/FLR/FR2609091617  34363106MMR2   1,MMR1,,,,,,MMR2(40RT2),HARD"
-    },
-    {
-      "time": "09.09.2026 17:44 UTC",
-      "source": "ACARS",
-      "flight": "CK0210",
-      "tail": "B-220E",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "16",
-      "msgno": "M68A",
-      "text": "POSA1N61698E 27862,ALA-03 ,171817,330,KOKAT  ,175619,-48,109, 697,827"
-    },
-    {
-      "time": "09.09.2026 18:32 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-221S",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "SA",
-      "msgno": "S41A",
-      "text": "0LS183252V"
-    },
-    {
-      "time": "09.09.2026 18:32 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-221S",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "16",
-      "msgno": "M66A",
-      "text": "POSA1N61663E 28173,ALAMI  ,175207,329,KOKAT  ,184403,-47,104, 709,821"
-    },
-    {
-      "time": "09.09.2026 19:17 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "_d",
-      "msgno": "S02A",
-      "text": "No text"
-    },
-    {
-      "time": "09.09.2026 19:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "_d",
-      "msgno": "S04A",
-      "text": "No text"
-    },
-    {
-      "time": "09.09.2026 19:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "H1",
-      "msgno": "C18A",
-      "text": "EF 1 09SEP26 1924 CAB-2094 CAO1007 ZSPD/EGPK 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB "
-    },
-    {
-      "time": "09.09.2026 19:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "H1",
-      "msgno": "C18B",
-      "text": "DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 270200\r\nMSG 2712401 L\r\nDB PRIMARY FLIGHT COMPUTER (RIGHT)\r\nDB PRIMARY FLIGHT C"
-    },
-    {
-      "time": "09.09.2026 19:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "H1",
-      "msgno": "C18C",
-      "text": "EF 1 09SEP26 1924 CAB-2094 CAO1007 ZSPD/EGPK 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 270200\r\nMSG 2712401 L\r\nDB PRIMARY FLIGHT COMPUTER (RIGHT)\r\nDB PRIMARY FLIGHT COMPUTER (LEFT)\r\nDB PRIMARY FLIGHT COMPUTER (CENTER)\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nEOR\r\n"
-    },
-    {
-      "time": "09.09.2026 19:24 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -32.5,
-      "label": "5U",
-      "msgno": "M60A",
-      "text": "FS EGPK,EIDW"
-    },
-    {
-      "time": "09.09.2026 19:25 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "_d",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
       "time": "10.09.2026 02:54 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -329,6 +208,127 @@
       "label": "Q0",
       "msgno": "S28A",
       "text": "No text"
+    },
+    {
+      "time": "11.09.2026 13:05 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "_d",
+      "msgno": "S92A",
+      "text": "No text"
+    },
+    {
+      "time": "11.09.2026 13:06 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "H1",
+      "msgno": "C57A",
+      "text": "EF 1 11DEC65 1305 CAB-222S CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 324200\r\nMSG 3230400 A\r\nDB BRAKE SY"
+    },
+    {
+      "time": "11.09.2026 13:06 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "H1",
+      "msgno": "C57B",
+      "text": "EF 1 11DEC65 1305 CAB-222S CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 324200\r\nMSG 3230400 A\r\nDB BRAKE SYSTEM CONTROL UNIT (PRIMARY CHAN)\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 461311\r\nMSG 4616300 A\r\nDB NETWORK FILE SERVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "11.09.2026 13:07 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -26.5,
+      "label": "H1",
+      "msgno": "C58A",
+      "text": "BSY EM-HYD-REAL"
+    },
+    {
+      "time": "11.09.2026 13:07 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "_d",
+      "msgno": "S93A",
+      "text": "No text"
+    },
+    {
+      "time": "11.09.2026 13:07 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -34.1,
+      "label": "H1",
+      "msgno": "E92B",
+      "text": ".34,,-1.92,,+0.33,,-3.95,,-1.88,,FDR,-0.002,+1.1,-1.6,+0.001,+0.3,-6.75,,0.00,,+1.31,,0.0,,+0.01,,-6.76,,0.00,,+1.30,,0.0,,+0.01,,-6.71,,-6.81,,NORMAL,ENGAGED,NO ACTIVITY,,,,11,DEC,65,13,08,14,-2.39,,-2.40,"
+    },
+    {
+      "time": "11.09.2026 13:08 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "H1",
+      "msgno": "E92C",
+      "text": ",-2.41,,-2.40,,-3.11,,-3.13,,-3.11,,3055,-3.11,,-3.12,,3111,-3.10,,-3.09,,3049,-3.09,,-3.11,,-3.12,,+4.05,,+4.03,,+3.91,,+3.98,,+1750,,+1830,,+2070,,+1930,,-0.19,,-0.16,,-0.19,,-0.19,,+0.29,,+20,,+0.29,,+10"
+    },
+    {
+      "time": "11.09.2026 13:08 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "H1",
+      "msgno": "E92D",
+      "text": ",,+0.29,,+40,,+0.20,,-210,,+70.74,,+0.23,,-400,,,+0.23,,-370,,+71.03,,+0.22,,-300,,,+70.01,,,11,DEC,65,13,08,14,YES,YES,YES,YES,YES,YES,YES,YES,AUTO,AUTO,AUTO,AUTO,NORM,NORM,NORM,NORM,NO,NO,SLOW,NO,NO,NO,NO"
+    },
+    {
+      "time": "11.09.2026 13:08 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "H1",
+      "msgno": "E92E",
+      "text": ",NO,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,11,DEC,65,13,08,14"
+    },
+    {
+      "time": "11.09.2026 13:08 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -36.2,
+      "label": "_d",
+      "msgno": "S94A",
+      "text": "No text"
+    },
+    {
+      "time": "11.09.2026 13:08 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "H1",
+      "msgno": "E93A",
+      "text": "AIC,R,23,23,5,5,15,15,23,23,5,5,15,15,24,24,1,5,22,26,21,0.37,0.35,0.01,0.32,0.43,0.55,0.36,2,1,2,2,2,2,1,0.35,0.45,0.55,OFF,ON,1,1,76.9,77.1,2,2,74.5,75.1,39.2,39.5,-8,-12,0.64,0.99,154,152,0.57,0.57,91,70"
     }
   ]
 }
