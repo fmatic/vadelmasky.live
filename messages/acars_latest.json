@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.09.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -24.1,
-      "label": "SA",
-      "msgno": "M00A",
-      "text": "0EV025405V"
-    },
-    {
-      "time": "10.09.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -27.3,
-      "label": "H1",
-      "msgno": "E53E",
-      "text": "NO,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,10,SEP,26,02,54,34"
-    },
-    {
       "time": "10.09.2026 02:55 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +307,28 @@
       "label": "16",
       "msgno": "M79A",
       "text": "POSA1N61761E 28028,ADO-07 ,190306,329,ASP-08 ,191250,-44, 43, 708,824"
+    },
+    {
+      "time": "11.09.2026 20:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "10",
+      "msgno": "M15A",
+      "text": "POS112017,N 61.746,E 26.934,0416,477625,,,37005,106360"
+    },
+    {
+      "time": "11.09.2026 20:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "H1",
+      "msgno": "C07A",
+      "text": ".1/WRN/WN2609112017  345800506NAV GPS 1 FAULT"
     }
   ]
 }
