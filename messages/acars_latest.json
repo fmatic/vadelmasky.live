@@ -6,28 +6,6 @@
       "flight": "CA3160",
       "tail": "B-6117",
       "freq": 131.825,
-      "level": -27.0,
-      "label": "H1",
-      "msgno": "C17A",
-      "text": ".1/WRN/WN2609091617  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "09.09.2026 16:17 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -28.0,
-      "label": "H1",
-      "msgno": "C18A",
-      "text": ".1/WRN/WN2609091617  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "09.09.2026 16:17 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6117",
-      "freq": 131.825,
       "level": -28.6,
       "label": "H1",
       "msgno": "C19A",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S11A",
       "text": "0EV060221V"
+    },
+    {
+      "time": "11.09.2026 10:33 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "Q0",
+      "msgno": "S28A",
+      "text": "No text"
+    },
+    {
+      "time": "11.09.2026 10:34 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "Q0",
+      "msgno": "S28A",
+      "text": "No text"
     }
   ]
 }
