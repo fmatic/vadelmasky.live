@@ -3,17 +3,6 @@
     {
       "time": "10.09.2026 02:55 UTC",
       "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATF",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "H1",
-      "msgno": "D00A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2SEP09,2125,0289/C1GMT,ACC/C22049,.0.89,FLT/C32123,.1.33,FLT/C42122,.1.24,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "10.09.2026 02:55 UTC",
-      "source": "ACARS",
       "flight": "CA1008",
       "tail": "B-2094",
       "freq": 131.825,
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C07A",
       "text": ".1/WRN/WN2609112017  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "11.09.2026 20:56 UTC",
+      "source": "ACARS",
+      "flight": "CA3038",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "H1",
+      "msgno": "C96A",
+      "text": ".1/WRN/WN2609112056  345800506NAV GPS 1 FAULT"
     }
   ]
 }
