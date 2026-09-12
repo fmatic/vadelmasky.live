@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.09.2026 21:32 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6545",
-      "freq": 131.725,
-      "level": -32.1,
-      "label": "H1",
-      "msgno": "C79A",
-      "text": ".1/FLR/FR2609102132  34363106IR2    1,IR1,IR3,AFS,,,,MMR1-GPSSU1(40RT1-1SN1),HARD"
-    },
-    {
-      "time": "11.09.2026 06:02 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -36.3,
-      "label": "SA",
-      "msgno": "S11A",
-      "text": "0EV060221V"
-    },
-    {
-      "time": "11.09.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "Q0",
-      "msgno": "S28A",
-      "text": "No text"
-    },
-    {
-      "time": "11.09.2026 10:34 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "Q0",
-      "msgno": "S28A",
-      "text": "No text"
-    },
-    {
-      "time": "11.09.2026 13:05 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "_d",
-      "msgno": "S92A",
-      "text": "No text"
-    },
-    {
-      "time": "11.09.2026 13:06 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "H1",
-      "msgno": "C57A",
-      "text": "EF 1 11DEC65 1305 CAB-222S CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 324200\r\nMSG 3230400 A\r\nDB BRAKE SY"
-    },
-    {
       "time": "11.09.2026 13:06 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -329,6 +263,72 @@
       "label": "H1",
       "msgno": "C14A",
       "text": ".1/FLR/FR2609121314  34363106IR3    1,IR1,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "12.09.2026 16:06 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -26.0,
+      "label": "H1",
+      "msgno": "D60A",
+      "text": "R02/A33002,1,1\r\nC1,.B-5903,26SEP12,12.25.41,ZSPD,ESSA,CES289    ,5000,036\r\nC2,001,06.0,000000,D1333RR06C0MU36,000,052,052\r\nC3,-23.8,34000,0.799,111,1.08,111,10,0,01,111,1.06,X\r\nC4,-23.8,34000,0.799,111\r\nC5,"
+    },
+    {
+      "time": "12.09.2026 16:06 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -23.6,
+      "label": "H1",
+      "msgno": "D60B",
+      "text": "041473,43678,10074,18865,00444,10016,00000,00402,06066,040\r\nC6,041963,54174,19305,10039,00444,10016,00000,00402,16066,039\r\nN1,1.377,1.376,075.85,085.0,086.8,0587,07.663,02884,08.83\r\nN2,1.377,1.376,075.60,08"
+    },
+    {
+      "time": "12.09.2026 16:06 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -18.8,
+      "label": "H1",
+      "msgno": "D60C",
+      "text": "4.8,085.7,0602,07.666,02867,08.81\r\nS1,05.52,-23.6,035.7,170.5,151.9,435.8,10.3,055.1,028.6,29,118\r\nS2,05.52,-23.6,035.8,169.8,148.9,430.1,10.5,055.2,029.4,29,131\r\nT1,075,092,100.7,-06.9,046.7,0.00,0.28,0.02"
+    },
+    {
+      "time": "12.09.2026 16:06 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -21.1,
+      "label": "H1",
+      "msgno": "D60D",
+      "text": ",209,0.31,-09.9\r\nT2,088,104,094.0,-09.9,046.9,0.19,0.04,0.07,106,0.22,-10.5\r\nV1,0395,0346\r\nV2,0394,0325\r\nX1,000.3,002.1,001.0,0000,00.0003,N57.93\r\nX2,000.2,002.3,001.3,0002,-0.0005,N58.04\r\nX3,000.0,000.8,-0"
+    },
+    {
+      "time": "12.09.2026 16:06 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -19.4,
+      "label": "H1",
+      "msgno": "D60E",
+      "text": "2.4,-00.1,-00.0,002.2,-00682,191876,34.8\r\nX4,-00.1,-00.1,000.0,-00.1,-00.1,-00.0,000.0,000.0,-066.7\r\nX5,-00.1,-00.1,-00.1,-00.1,-00.1,-00.1,000.0,000.0,-066.8\r\nX6,-00.2,000.2,018,-096,0.819\r\nX7,000.1,000.2,"
+    },
+    {
+      "time": "12.09.2026 16:06 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -25.5,
+      "label": "17",
+      "msgno": "M76A",
+      "text": "ETA\r\nDEP ZSPD,DES ESSA,ETA 1652,FOB 37960,UTC 160715"
     }
   ]
 }
