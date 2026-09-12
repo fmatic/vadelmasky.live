@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.09.2026 13:07 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -26.5,
-      "label": "H1",
-      "msgno": "C58A",
-      "text": "BSY EM-HYD-REAL"
-    },
-    {
-      "time": "11.09.2026 13:07 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "_d",
-      "msgno": "S93A",
-      "text": "No text"
-    },
-    {
-      "time": "11.09.2026 13:07 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "H1",
-      "msgno": "E92B",
-      "text": ".34,,-1.92,,+0.33,,-3.95,,-1.88,,FDR,-0.002,+1.1,-1.6,+0.001,+0.3,-6.75,,0.00,,+1.31,,0.0,,+0.01,,-6.76,,0.00,,+1.30,,0.0,,+0.01,,-6.71,,-6.81,,NORMAL,ENGAGED,NO ACTIVITY,,,,11,DEC,65,13,08,14,-2.39,,-2.40,"
-    },
-    {
-      "time": "11.09.2026 13:08 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "H1",
-      "msgno": "E92C",
-      "text": ",-2.41,,-2.40,,-3.11,,-3.13,,-3.11,,3055,-3.11,,-3.12,,3111,-3.10,,-3.09,,3049,-3.09,,-3.11,,-3.12,,+4.05,,+4.03,,+3.91,,+3.98,,+1750,,+1830,,+2070,,+1930,,-0.19,,-0.16,,-0.19,,-0.19,,+0.29,,+20,,+0.29,,+10"
-    },
-    {
       "time": "11.09.2026 13:08 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -328,6 +284,50 @@
       "level": -21.9,
       "label": "Q0",
       "msgno": "S55A",
+      "text": "No text"
+    },
+    {
+      "time": "12.09.2026 21:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -29.4,
+      "label": "SA",
+      "msgno": "S82A",
+      "text": "0LS213938V"
+    },
+    {
+      "time": "12.09.2026 21:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -29.6,
+      "label": "B9",
+      "msgno": "J45A",
+      "text": "/ZSPD.TI2/000ZSPDAA4EC"
+    },
+    {
+      "time": "12.09.2026 21:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -28.8,
+      "label": "_d",
+      "msgno": "S83A",
+      "text": "No text"
+    },
+    {
+      "time": "12.09.2026 21:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -27.8,
+      "label": "_d",
+      "msgno": "S84A",
       "text": "No text"
     }
   ]
