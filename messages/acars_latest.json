@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.09.2026 04:40 UTC",
-      "source": "ACARS",
-      "flight": "JL047D",
-      "tail": "JA742J",
-      "freq": 131.725,
-      "level": -33.4,
-      "label": "H1",
-      "msgno": "O71B",
-      "text": ".. 314\r\n  57  67 373  540  620    0    0000000000FA8\r\n  57  65 403  570  600    0    0000000000FA8\r\n 88110 96"
-    },
-    {
       "time": "10.09.2026 10:48 UTC",
       "source": "ACARS",
       "flight": "JL0047",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S74A",
       "text": "No text"
+    },
+    {
+      "time": "12.09.2026 06:23 UTC",
+      "source": "ACARS",
+      "flight": "CK0203",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "H1",
+      "msgno": "O12A",
+      "text": "SB0122BA_B-223A  ZSPDLFPG269\r\n 61726 0267050624 34002-500313022010/9W012020"
     }
   ]
 }
