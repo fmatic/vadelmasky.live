@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.09.2026 21:29 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6545",
-      "freq": 131.725,
-      "level": -27.2,
-      "label": "SA",
-      "msgno": "S42A",
-      "text": "0LS213008V"
-    },
-    {
       "time": "10.09.2026 21:32 UTC",
       "source": "ACARS",
       "flight": "MU0290",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O26A",
       "text": "SB0122BA_B-222K  ZSPDEHAM797\r\n 61914 0274991203 33996-43030901401005Z009010"
+    },
+    {
+      "time": "12.09.2026 13:15 UTC",
+      "source": "ACARS",
+      "flight": "CA3068",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "H1",
+      "msgno": "C14A",
+      "text": ".1/FLR/FR2609121314  34363106IR3    1,IR1,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
