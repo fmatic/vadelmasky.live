@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.09.2026 19:55 UTC",
-      "source": "ACARS",
-      "flight": "CA3106",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "Q0",
-      "msgno": "S25A",
-      "text": "No text"
-    },
-    {
       "time": "10.09.2026 21:29 UTC",
       "source": "ACARS",
       "flight": "MU0290",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S48A",
       "text": "No text"
+    },
+    {
+      "time": "12.09.2026 12:03 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "H1",
+      "msgno": "O26A",
+      "text": "SB0122BA_B-222K  ZSPDEHAM797\r\n 61914 0274991203 33996-43030901401005Z009010"
     }
   ]
 }
