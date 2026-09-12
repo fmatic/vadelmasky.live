@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">462.0 kt</div>
+        <div class="value">473.2 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">12.09.2026 02:55 UTC</div>
+        <div class="value">12.09.2026 03:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,19 +274,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">FIN8KH</div>
-                    <div class="meta">ICAO 4601F4 · REG OH-ATG · TYPE AT75</div>
+                    <div class="flight">DKH1661</div>
+                    <div class="meta">ICAO 781783 · REG B-20D1 · TYPE B789</div>
                 </div>
-                <div class="alt-badge low">9825 ft</div>
+                <div class="alt-badge high">35975 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>194.1 kt</b></div>
-                    <div><span>Track</span><b>186.21°</b></div>
-                    <div><span>Position</span><b>62.1841, 25.6745</b></div>
-                    <div><span>Last seen</span><b>12.09.2026 02:55 UTC</b></div>
+                    <div><span>Speed</span><b>473.2 kt</b></div>
+                    <div><span>Track</span><b>243.11°</b></div>
+                    <div><span>Position</span><b>61.1296, 24.8624</b></div>
+                    <div><span>Last seen</span><b>12.09.2026 03:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-20D1" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601F4 · REG OH-ATG · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16525 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>244.6 kt</b></div>
+                    <div><span>Track</span><b>186.57°</b></div>
+                    <div><span>Position</span><b>61.8741, 25.5880</b></div>
+                    <div><span>Last seen</span><b>12.09.2026 03:00 UTC</b></div>
                 </div>
             </div>
 
@@ -307,38 +331,14 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>226.2 kt</b></div>
-                    <div><span>Track</span><b>203.17°</b></div>
-                    <div><span>Position</span><b>61.9727, 26.5806</b></div>
-                    <div><span>Last seen</span><b>12.09.2026 02:55 UTC</b></div>
+                    <div><span>Speed</span><b>280.2 kt</b></div>
+                    <div><span>Track</span><b>204.0°</b></div>
+                    <div><span>Position</span><b>61.6234, 26.2479</b></div>
+                    <div><span>Last seen</span><b>12.09.2026 03:00 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATM" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 781783 · REG B-20D1 · TYPE B789</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>12.09.2026 02:50 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-20D1" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -879,7 +879,7 @@ B-2077  CKK206EHAMZSPD110926190630ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F4", "flight": "FIN8KH", "lat": 62.18406, "lon": 25.674521, "alt": 9825, "speed": 194.1, "last_seen": "12.09.2026 02:55 UTC"}, {"hex": "4601FA", "flight": "FIN4QA", "lat": 61.972713, "lon": 26.580607, "alt": 20000, "speed": 226.2, "last_seen": "12.09.2026 02:55 UTC"}];
+const aircraft = [{"hex": "781783", "flight": "DKH1661", "lat": 61.129606, "lon": 24.862366, "alt": 35975, "speed": 473.2, "last_seen": "12.09.2026 03:00 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.874069, "lon": 25.587972, "alt": 16525, "speed": 244.6, "last_seen": "12.09.2026 03:00 UTC"}, {"hex": "4601FA", "flight": "FIN4QA", "lat": 61.623385, "lon": 26.247864, "alt": 20000, "speed": 280.2, "last_seen": "12.09.2026 03:00 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
