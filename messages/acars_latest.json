@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.09.2026 13:06 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "H1",
-      "msgno": "C57B",
-      "text": "EF 1 11DEC65 1305 CAB-222S CAO1008 EGPK/ZSPD 311B-BCG-00W-19 R\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 324200\r\nMSG 3230400 A\r\nDB BRAKE SYSTEM CONTROL UNIT (PRIMARY CHAN)\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 461311\r\nMSG 4616300 A\r\nDB NETWORK FILE SERVER (LEFT)\r\nEOR\r\n"
-    },
-    {
       "time": "11.09.2026 13:07 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -329,6 +318,17 @@
       "label": "17",
       "msgno": "M76A",
       "text": "ETA\r\nDEP ZSPD,DES ESSA,ETA 1652,FOB 37960,UTC 160715"
+    },
+    {
+      "time": "12.09.2026 19:20 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -21.9,
+      "label": "Q0",
+      "msgno": "S55A",
+      "text": "No text"
     }
   ]
 }
