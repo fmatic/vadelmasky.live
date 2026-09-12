@@ -330,13 +330,13 @@
       "flight": "OHCAD",
       "reg": null,
       "type": null,
-      "lat": null,
-      "lon": null,
-      "alt": 6100,
-      "speed": null,
-      "track": null,
+      "lat": 62.30072,
+      "lon": 25.76875,
+      "alt": 8025,
+      "speed": 86.5,
+      "track": 48.75,
       "seen_first": "2026-09-12T07:32:01.902876",
-      "last_seen": "2026-09-12T10:55:01.313294"
+      "last_seen": "2026-09-12T11:00:01.591150"
     },
     "460561": {
       "hex": "460561",
@@ -382,18 +382,31 @@
       "flight": "FIN26B",
       "reg": "OH-ATK",
       "type": "AT75",
-      "lat": 62.018555,
-      "lon": 26.568178,
+      "lat": 61.754791,
+      "lon": 26.341782,
       "alt": 18000,
-      "speed": 267.2,
-      "track": 201.28,
+      "speed": 272.9,
+      "track": 203.09,
       "seen_first": "2026-09-12T10:54:01.942412",
-      "last_seen": "2026-09-12T10:55:01.313294"
+      "last_seen": "2026-09-12T11:00:01.591150"
+    },
+    "7819d6": {
+      "hex": "7819d6",
+      "flight": "",
+      "reg": "B-220D",
+      "type": "B789",
+      "lat": null,
+      "lon": null,
+      "alt": 37975,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-09-12T11:00:01.591150",
+      "last_seen": "2026-09-12T11:00:01.591150"
     }
   },
   "summary": {
-    "total_unique_aircraft": 30,
-    "last_seen_live": 2,
-    "updated": "2026-09-12T10:55:01.313294"
+    "total_unique_aircraft": 31,
+    "last_seen_live": 3,
+    "updated": "2026-09-12T11:00:01.591150"
   }
 }
