@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">13.09.2026 08:05 UTC</div>
+        <div class="value">13.09.2026 08:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7TP</div>
+                    <div class="meta">ICAO 461E17 · REG OH-LKH · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">26675 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>420.0 kt</b></div>
+                    <div><span>Track</span><b>181.41°</b></div>
+                    <div><span>Position</span><b>61.6885, 25.3032</b></div>
+                    <div><span>Last seen</span><b>13.09.2026 08:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -363,30 +387,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXL" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN7AZ</div>
-                    <div class="meta">ICAO 461E17 · REG OH-LKH · TYPE E190</div>
-                </div>
-                <div class="alt-badge high">26075 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>444.0 kt</b></div>
-                    <div><span>Track</span><b>181.41°</b></div>
-                    <div><span>Position</span><b>61.7003, 25.3105</b></div>
-                    <div><span>Last seen</span><b>13.09.2026 04:55 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKH" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -847,7 +847,7 @@ X3,000.0,000.8,-0</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4692D4", "flight": "AEE4578", "lat": 62.259109, "lon": 26.286316, "alt": 15950, "speed": 358.9, "last_seen": "13.09.2026 07:05 UTC"}, {"hex": "4601F4", "flight": "FIN5NB", "lat": 61.603958, "lon": 25.703201, "alt": 16025, "speed": 262.8, "last_seen": "13.09.2026 07:01 UTC"}, {"hex": "461BAB", "flight": "OHKML", "lat": 62.237083, "lon": 25.93122, "alt": 10000, "speed": 113.9, "last_seen": "13.09.2026 06:47 UTC"}, {"hex": "461F6D", "flight": "FIN14J", "lat": 61.49913, "lon": 25.313089, "alt": 23900, "speed": 406.2, "last_seen": "13.09.2026 06:40 UTC"}, {"hex": "461E17", "flight": "FIN7AZ", "lat": 61.700336, "lon": 25.310465, "alt": 26075, "speed": 444.0, "last_seen": "13.09.2026 04:55 UTC"}];
+const aircraft = [{"hex": "461E17", "flight": "FIN7TP", "lat": 61.688461, "lon": 25.303181, "alt": 26675, "speed": 420.0, "last_seen": "13.09.2026 08:10 UTC"}, {"hex": "4692D4", "flight": "AEE4578", "lat": 62.259109, "lon": 26.286316, "alt": 15950, "speed": 358.9, "last_seen": "13.09.2026 07:05 UTC"}, {"hex": "4601F4", "flight": "FIN5NB", "lat": 61.603958, "lon": 25.703201, "alt": 16025, "speed": 262.8, "last_seen": "13.09.2026 07:01 UTC"}, {"hex": "461BAB", "flight": "OHKML", "lat": 62.237083, "lon": 25.93122, "alt": 10000, "speed": 113.9, "last_seen": "13.09.2026 06:47 UTC"}, {"hex": "461F6D", "flight": "FIN14J", "lat": 61.49913, "lon": 25.313089, "alt": 23900, "speed": 406.2, "last_seen": "13.09.2026 06:40 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
