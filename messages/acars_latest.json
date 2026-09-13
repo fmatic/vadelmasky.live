@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.09.2026 13:47 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "Q0",
-      "msgno": "S32A",
-      "text": "No text"
-    },
-    {
-      "time": "11.09.2026 19:05 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "H1",
-      "msgno": "O47A",
-      "text": "SS0340F_253\r\nB-2077  CKK206EHAMZSPD110926190630ER\r\n29532998830-1400136103168BSM79967A21\r\n6776101690 2701110926 190628\r\n6586100625 2700(\r\n6536100609 2700)\r\n10110111111111111\r\n  32999\r\n  3300(12 07(3276(16.(\r"
-    },
-    {
       "time": "11.09.2026 19:06 UTC",
       "source": "ACARS",
       "flight": "CK0206",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C64A",
       "text": ".1/FLR/FR2609122136  34361606MMR1   1,IR3,IR2,IR1,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "13.09.2026 08:49 UTC",
+      "source": "ACARS",
+      "flight": "N706LE",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "Q0",
+      "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "13.09.2026 08:49 UTC",
+      "source": "ACARS",
+      "flight": "N706LE",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "Q0",
+      "msgno": "S03A",
+      "text": "No text"
     }
   ]
 }
