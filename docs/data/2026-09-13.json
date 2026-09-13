@@ -353,16 +353,16 @@
     },
     "4601f8": {
       "hex": "4601f8",
-      "flight": "",
+      "flight": "FIN6YP",
       "reg": "OH-ATK",
       "type": "AT75",
       "lat": null,
       "lon": null,
-      "alt": null,
+      "alt": 20000,
       "speed": null,
       "track": null,
       "seen_first": "2026-09-13T13:50:01.702196",
-      "last_seen": "2026-09-13T13:50:01.702196"
+      "last_seen": "2026-09-13T15:00:01.524225"
     },
     "7803be": {
       "hex": "7803be",
@@ -415,11 +415,24 @@
       "track": 188.32,
       "seen_first": "2026-09-13T14:48:02.031907",
       "last_seen": "2026-09-13T14:49:01.335865"
+    },
+    "46004b": {
+      "hex": "46004b",
+      "flight": "HCX42",
+      "reg": "OH-ACX",
+      "type": "C25C",
+      "lat": 61.703874,
+      "lon": 25.276693,
+      "alt": 28625,
+      "speed": 435.0,
+      "track": 180.53,
+      "seen_first": "2026-09-13T14:57:01.476565",
+      "last_seen": "2026-09-13T14:59:02.147789"
     }
   },
   "summary": {
-    "total_unique_aircraft": 32,
-    "last_seen_live": 0,
-    "updated": "2026-09-13T14:55:01.374048"
+    "total_unique_aircraft": 33,
+    "last_seen_live": 1,
+    "updated": "2026-09-13T15:00:01.524225"
   }
 }
