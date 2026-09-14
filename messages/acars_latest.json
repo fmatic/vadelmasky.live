@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.09.2026 10:19 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -30.5,
-      "label": "_d",
-      "msgno": "S07A",
-      "text": "No text"
-    },
-    {
       "time": "13.09.2026 10:59 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S69A",
       "text": "0LS202740V"
+    },
+    {
+      "time": "14.09.2026 20:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -34.6,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/FLR/FR2609142030  34123406AFS    1,,,,,,,ADIRU1(1FP1)/           FMGEC1(1CA1),HARD"
     }
   ]
 }
