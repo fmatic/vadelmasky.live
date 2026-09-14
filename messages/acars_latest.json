@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.09.2026 10:59 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "Q0",
-      "msgno": "M20A",
-      "text": "No text"
-    },
-    {
-      "time": "13.09.2026 10:59 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "SA",
-      "msgno": "S24A",
-      "text": "0EV105935V"
-    },
-    {
-      "time": "13.09.2026 11:00 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "80",
-      "msgno": "M21A",
-      "text": "3701 INRANG 0366/13 EFKU/EFHK .OH-ATN\r\n/ETA 1127/ERT     "
-    },
-    {
-      "time": "13.09.2026 11:00 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "_d",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
       "time": "13.09.2026 12:30 UTC",
       "source": "ACARS",
       "flight": "CZ2520",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "C20A",
       "text": ".1/FLR/FR2609142030  34123406AFS    1,,,,,,,ADIRU1(1FP1)/           FMGEC1(1CA1),HARD"
+    },
+    {
+      "time": "14.09.2026 21:15 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5930",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "11",
+      "msgno": "M86A",
+      "text": "POS\r\nCAS 277,LAT N 61.616,LON E 25.825,ALT 34994,FOB 131160,UTC 211608,PD ----.--,WD 314,WS   39,TAT - 27"
+    },
+    {
+      "time": "14.09.2026 21:17 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5930",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "_d",
+      "msgno": "S42A",
+      "text": "No text"
+    },
+    {
+      "time": "14.09.2026 21:18 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5930",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "80",
+      "msgno": "M87A",
+      "text": "TXT\r\nD4-79804,COPY,,,,,,"
+    },
+    {
+      "time": "14.09.2026 21:18 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5930",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "SA",
+      "msgno": "S43A",
+      "text": "0LS211926V"
     }
   ]
 }
