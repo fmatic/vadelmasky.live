@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.09.2026 09:47 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "Q0",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
-      "time": "13.09.2026 09:47 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "SA",
-      "msgno": "S58A",
-      "text": "0EV094809VS"
-    },
-    {
       "time": "13.09.2026 10:19 UTC",
       "source": "ACARS",
       "flight": "CA3155",
@@ -329,6 +307,28 @@
       "label": "80",
       "msgno": "M15A",
       "text": "1201 ONRP   0285/14 EFHK/EFJY .OH-ATJ\r\n/ON  1041/FOB 0013"
+    },
+    {
+      "time": "14.09.2026 14:00 UTC",
+      "source": "ACARS",
+      "flight": "N70613",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -22.3,
+      "label": "Q0",
+      "msgno": "S89A",
+      "text": "No text"
+    },
+    {
+      "time": "14.09.2026 14:00 UTC",
+      "source": "ACARS",
+      "flight": "N70613",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -23.4,
+      "label": "SA",
+      "msgno": "S90A",
+      "text": "0EV140038V"
     }
   ]
 }
