@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.09.2026 21:35 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5903",
-      "freq": 131.725,
-      "level": -30.2,
-      "label": "H1",
-      "msgno": "C62A",
-      "text": ".1/WRN/WN2609122136  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "12.09.2026 21:36 UTC",
       "source": "ACARS",
       "flight": "MU0290",
@@ -326,6 +315,17 @@
       "tail": "OH-ATL",
       "freq": 131.825,
       "level": -27.4,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/14 EFJY/EFHK .OH-ATL\r\n/OUT 0250/OFF 0253/FOB 0015/ETA 0333"
+    },
+    {
+      "time": "14.09.2026 02:55 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -26.3,
       "label": "80",
       "msgno": "M01A",
       "text": "1101 OFFRP  0290/14 EFJY/EFHK .OH-ATL\r\n/OUT 0250/OFF 0253/FOB 0015/ETA 0333"
