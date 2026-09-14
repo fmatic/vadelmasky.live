@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.09.2026 09:14 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "80",
-      "msgno": "M70A",
-      "text": "1101 OFFRP  0286/13 EFJY/EFHK .OH-ATG\r\n/OUT 0910/OFF 0912/FOB 0013/ETA 0952"
-    },
-    {
-      "time": "13.09.2026 09:15 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -26.1,
-      "label": "5V",
-      "msgno": "S05A",
-      "text": "No text"
-    },
-    {
-      "time": "13.09.2026 09:16 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -27.6,
-      "label": "SA",
-      "msgno": "S07A",
-      "text": "0EV091652V"
-    },
-    {
-      "time": "13.09.2026 09:16 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -29.6,
-      "label": "H1",
-      "msgno": "D09A",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2SEP13,0851,0285/"
-    },
-    {
-      "time": "13.09.2026 09:16 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -27.0,
-      "label": "H1",
-      "msgno": "D10A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2SEP13,0852,0285/C1GMT,ACC/C20847,.0.73,FLT/C30814,.1.35,FLT/C40851,.1.11,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
       "time": "13.09.2026 09:47 UTC",
       "source": "ACARS",
       "flight": "CA3157",
@@ -329,6 +274,61 @@
       "label": "_d",
       "msgno": "S80A",
       "text": "No text"
+    },
+    {
+      "time": "14.09.2026 11:16 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.725,
+      "level": -37.8,
+      "label": "Q0",
+      "msgno": "S81A",
+      "text": "No text"
+    },
+    {
+      "time": "14.09.2026 11:16 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -22.3,
+      "label": "Q0",
+      "msgno": "S81A",
+      "text": "No text"
+    },
+    {
+      "time": "14.09.2026 11:16 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -27.1,
+      "label": "SA",
+      "msgno": "S82A",
+      "text": "0EV111647V"
+    },
+    {
+      "time": "14.09.2026 11:16 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -26.7,
+      "label": "80",
+      "msgno": "M14B",
+      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
+    },
+    {
+      "time": "14.09.2026 11:16 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.1,
+      "label": "80",
+      "msgno": "M15A",
+      "text": "1201 ONRP   0285/14 EFHK/EFJY .OH-ATJ\r\n/ON  1041/FOB 0013"
     }
   ]
 }
