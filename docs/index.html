@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">7</div>
+        <div class="value">8</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">15.09.2026 02:55 UTC</div>
+        <div class="value">15.09.2026 03:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,11 +286,35 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>15.09.2026 02:55 UTC</b></div>
+                    <div><span>Last seen</span><b>15.09.2026 03:00 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601FB · REG OH-ATN · TYPE AT75</div>
+                </div>
+                <div class="alt-badge low">6450 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>191.5 kt</b></div>
+                    <div><span>Track</span><b>189.31°</b></div>
+                    <div><span>Position</span><b>62.2360, 25.6761</b></div>
+                    <div><span>Last seen</span><b>15.09.2026 03:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -673,7 +697,7 @@ CAS 277,LAT N 61.616,LON E 25.825,ALT 34994,FOB 131160,UTC 211608,PD ----.--,WD 
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "781EB7", "flight": "CES201", "lat": 62.070194, "lon": 25.628052, "alt": 36000, "speed": 462.6, "last_seen": "15.09.2026 02:42 UTC"}, {"hex": "781F29", "flight": "CES709", "lat": 61.436804, "lon": 25.342, "alt": 38000, "speed": "-", "last_seen": "15.09.2026 02:07 UTC"}, {"hex": "781684", "flight": "CES249", "lat": 61.467575, "lon": 25.44047, "alt": 38000, "speed": "-", "last_seen": "15.09.2026 01:58 UTC"}];
+const aircraft = [{"hex": "4601FB", "flight": "FIN8KH", "lat": 62.236013, "lon": 25.676105, "alt": 6450, "speed": 191.5, "last_seen": "15.09.2026 03:00 UTC"}, {"hex": "781EB7", "flight": "CES201", "lat": 62.070194, "lon": 25.628052, "alt": 36000, "speed": 462.6, "last_seen": "15.09.2026 02:42 UTC"}, {"hex": "781F29", "flight": "CES709", "lat": 61.436804, "lon": 25.342, "alt": 38000, "speed": "-", "last_seen": "15.09.2026 02:07 UTC"}, {"hex": "781684", "flight": "CES249", "lat": 61.467575, "lon": 25.44047, "alt": 38000, "speed": "-", "last_seen": "15.09.2026 01:58 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
