@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.09.2026 12:33 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2081",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "18",
-      "msgno": "M80A",
-      "text": "POX,CSG2520   ,13SEP26,123330,EGPK,ZGGG,N061.76,E0027.41,349, 678,821,  76.3, -80.5,030,-54.2,213630, 39680,"
-    },
-    {
       "time": "13.09.2026 12:40 UTC",
       "source": "ACARS",
       "flight": "CA1159",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S53A",
       "text": "No text"
+    },
+    {
+      "time": "15.09.2026 06:11 UTC",
+      "source": "ACARS",
+      "flight": "CK0217",
+      "tail": "B-222J",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "16",
+      "msgno": "M71A",
+      "text": "POSA1N61771E 26965,AGIVU  ,055942,339,NISIX  ,064315,-52, 48, 259,833"
     }
   ]
 }
