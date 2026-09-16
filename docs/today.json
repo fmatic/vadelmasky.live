@@ -431,16 +431,16 @@
     },
     "4601fc": {
       "hex": "4601fc",
-      "flight": "",
+      "flight": "FIN6YP",
       "reg": "OH-ATO",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 18000,
-      "speed": null,
-      "track": null,
+      "lat": 61.989751,
+      "lon": 26.514689,
+      "alt": 16000,
+      "speed": 230.0,
+      "track": 210.58,
       "seen_first": "2026-09-16T13:46:01.879676",
-      "last_seen": "2026-09-16T13:50:02.158603"
+      "last_seen": "2026-09-16T15:15:01.591198"
     },
     "461f31": {
       "hex": "461f31",
@@ -545,11 +545,24 @@
       "track": 244.25,
       "seen_first": "2026-09-16T14:43:02.136324",
       "last_seen": "2026-09-16T14:48:02.179501"
+    },
+    "781940": {
+      "hex": "781940",
+      "flight": "CSN5202",
+      "reg": "B-20EM",
+      "type": "B77L",
+      "lat": 62.316781,
+      "lon": 26.444831,
+      "alt": 29000,
+      "speed": 271.8,
+      "track": 80.47,
+      "seen_first": "2026-09-16T15:11:02.150859",
+      "last_seen": "2026-09-16T15:14:01.204256"
     }
   },
   "summary": {
-    "total_unique_aircraft": 42,
-    "last_seen_live": 0,
-    "updated": "2026-09-16T15:10:02.000375"
+    "total_unique_aircraft": 43,
+    "last_seen_live": 1,
+    "updated": "2026-09-16T15:15:01.591198"
   }
 }
