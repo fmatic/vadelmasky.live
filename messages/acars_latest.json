@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.09.2026 21:15 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5930",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "11",
-      "msgno": "M86A",
-      "text": "POS\r\nCAS 277,LAT N 61.616,LON E 25.825,ALT 34994,FOB 131160,UTC 211608,PD ----.--,WD 314,WS   39,TAT - 27"
-    },
-    {
       "time": "14.09.2026 21:17 UTC",
       "source": "ACARS",
       "flight": "MU0290",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S26A",
       "text": "No text"
+    },
+    {
+      "time": "16.09.2026 14:10 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -37.8,
+      "label": "10",
+      "msgno": "M16A",
+      "text": "POS161411,N 61.790,E 27.125,2152,517125,,,35004,108720"
     }
   ]
 }
