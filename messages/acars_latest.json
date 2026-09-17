@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.09.2026 06:11 UTC",
-      "source": "ACARS",
-      "flight": "CK0217",
-      "tail": "B-222J",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "16",
-      "msgno": "M71A",
-      "text": "POSA1N61771E 26965,AGIVU  ,055942,339,NISIX  ,064315,-52, 48, 259,833"
-    },
-    {
       "time": "15.09.2026 09:06 UTC",
       "source": "ACARS",
       "flight": "N70490",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O57A",
       "text": "SB0122BA_B-227K  ZSPDLFPG640\r\n 61391 0256820648 34001-460225047010IH-008011"
+    },
+    {
+      "time": "17.09.2026 10:52 UTC",
+      "source": "ACARS",
+      "flight": "GR0000",
+      "tail": "OHTFE",
+      "freq": 131.725,
+      "level": -30.8,
+      "label": "Q0",
+      "msgno": "S50A",
+      "text": "No text"
     }
   ]
 }
