@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">7</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">3</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">442.2 kt</div>
+        <div class="value">444.3 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">17.09.2026 02:00 UTC</div>
+        <div class="value">17.09.2026 02:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,14 +283,62 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>442.2 kt</b></div>
-                    <div><span>Track</span><b>237.28°</b></div>
-                    <div><span>Position</span><b>61.9327, 26.8247</b></div>
-                    <div><span>Last seen</span><b>17.09.2026 02:00 UTC</b></div>
+                    <div><span>Speed</span><b>444.3 kt</b></div>
+                    <div><span>Track</span><b>236.38°</b></div>
+                    <div><span>Position</span><b>61.5883, 25.7132</b></div>
+                    <div><span>Last seen</span><b>17.09.2026 02:05 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-324X" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES249</div>
+                    <div class="meta">ICAO 781858 · REG B-30CW · TYPE A359</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>17.09.2026 02:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-30CW" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 461F53 · REG OH-LWL · TYPE A359</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>17.09.2026 02:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LWL" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -619,7 +667,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "781C0D", "flight": "CES709", "lat": 61.932725, "lon": 26.824748, "alt": 38000, "speed": 442.2, "last_seen": "17.09.2026 02:00 UTC"}, {"hex": "781100", "flight": "CES219", "lat": 61.193103, "lon": 25.431925, "alt": 30000, "speed": 388.0, "last_seen": "17.09.2026 01:51 UTC"}];
+const aircraft = [{"hex": "781C0D", "flight": "CES709", "lat": 61.588348, "lon": 25.713207, "alt": 38000, "speed": 444.3, "last_seen": "17.09.2026 02:05 UTC"}, {"hex": "781100", "flight": "CES219", "lat": 61.193103, "lon": 25.431925, "alt": 30000, "speed": 388.0, "last_seen": "17.09.2026 01:51 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
