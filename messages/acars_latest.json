@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.09.2026 21:17 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5930",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "_d",
-      "msgno": "S42A",
-      "text": "No text"
-    },
-    {
-      "time": "14.09.2026 21:18 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5930",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "80",
-      "msgno": "M87A",
-      "text": "TXT\r\nD4-79804,COPY,,,,,,"
-    },
-    {
       "time": "14.09.2026 21:18 UTC",
       "source": "ACARS",
       "flight": "MU0290",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M16A",
       "text": "POS161411,N 61.790,E 27.125,2152,517125,,,35004,108720"
+    },
+    {
+      "time": "17.09.2026 03:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3055",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -30.8,
+      "label": "_d",
+      "msgno": "S17A",
+      "text": "No text"
+    },
+    {
+      "time": "17.09.2026 03:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3055",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "_d",
+      "msgno": "S18A",
+      "text": "No text"
     }
   ]
 }
