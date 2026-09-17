@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.09.2026 04:38 UTC",
-      "source": "ACARS",
-      "flight": "N70361",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "5V",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
       "time": "15.09.2026 06:11 UTC",
       "source": "ACARS",
       "flight": "CK0217",
@@ -329,6 +318,17 @@
       "label": "36",
       "msgno": "M77A",
       "text": "GTA01CKK605    /--170617ZSPDEGSS\r\nCKK605    ETA/0850Z\r\n"
+    },
+    {
+      "time": "17.09.2026 06:48 UTC",
+      "source": "ACARS",
+      "flight": "CK0203",
+      "tail": "B-227K",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "H1",
+      "msgno": "O57A",
+      "text": "SB0122BA_B-227K  ZSPDLFPG640\r\n 61391 0256820648 34001-460225047010IH-008011"
     }
   ]
 }
