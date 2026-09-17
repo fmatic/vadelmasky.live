@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">444.3 kt</div>
+        <div class="value">443.2 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">17.09.2026 02:05 UTC</div>
+        <div class="value">17.09.2026 02:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,30 +270,6 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CES709</div>
-                    <div class="meta">ICAO 781C0D · REG B-324X · TYPE A359</div>
-                </div>
-                <div class="alt-badge high">38000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>444.3 kt</b></div>
-                    <div><span>Track</span><b>236.38°</b></div>
-                    <div><span>Position</span><b>61.5883, 25.7132</b></div>
-                    <div><span>Last seen</span><b>17.09.2026 02:05 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-324X" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -310,7 +286,7 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>17.09.2026 02:05 UTC</b></div>
+                    <div><span>Last seen</span><b>17.09.2026 02:10 UTC</b></div>
                 </div>
             </div>
 
@@ -322,10 +298,34 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">CES709</div>
+                    <div class="meta">ICAO 781C0D · REG B-324X · TYPE A359</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>443.2 kt</b></div>
+                    <div><span>Track</span><b>236.13°</b></div>
+                    <div><span>Position</span><b>61.5064, 25.4562</b></div>
+                    <div><span>Last seen</span><b>17.09.2026 02:07 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-324X" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN80</div>
                     <div class="meta">ICAO 461F53 · REG OH-LWL · TYPE A359</div>
                 </div>
-                <div class="alt-badge unknown">-</div>
+                <div class="alt-badge mid">23800 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -334,7 +334,7 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>17.09.2026 02:05 UTC</b></div>
+                    <div><span>Last seen</span><b>17.09.2026 02:07 UTC</b></div>
                 </div>
             </div>
 
@@ -667,7 +667,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "781C0D", "flight": "CES709", "lat": 61.588348, "lon": 25.713207, "alt": 38000, "speed": 444.3, "last_seen": "17.09.2026 02:05 UTC"}, {"hex": "781100", "flight": "CES219", "lat": 61.193103, "lon": 25.431925, "alt": 30000, "speed": 388.0, "last_seen": "17.09.2026 01:51 UTC"}];
+const aircraft = [{"hex": "781C0D", "flight": "CES709", "lat": 61.506353, "lon": 25.456238, "alt": 38000, "speed": 443.2, "last_seen": "17.09.2026 02:07 UTC"}, {"hex": "781100", "flight": "CES219", "lat": 61.193103, "lon": 25.431925, "alt": 30000, "speed": 388.0, "last_seen": "17.09.2026 01:51 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
