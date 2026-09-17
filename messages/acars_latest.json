@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.09.2026 09:07 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -37.7,
-      "label": "_d",
-      "msgno": "S52A",
-      "text": "No text"
-    },
-    {
-      "time": "15.09.2026 09:07 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -40.2,
-      "label": "_d",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
       "time": "15.09.2026 09:08 UTC",
       "source": "ACARS",
       "flight": "N70490",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O25B",
       "text": "SS0340F_255\r\nB-228C  CKK205ZSPDEHAM030546132928ER\r\n29133995833-1375495883168BSM79967A21\r\n4276101955 2501170926 132915\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  33998\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n030546132928\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "17.09.2026 13:57 UTC",
+      "source": "ACARS",
+      "flight": "CA3105",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "H1",
+      "msgno": "C11A",
+      "text": ".1/WRN/WN2609171358  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "17.09.2026 13:58 UTC",
+      "source": "ACARS",
+      "flight": "CA3105",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "H1",
+      "msgno": "C12A",
+      "text": ".1/FLR/FR2609171358  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
