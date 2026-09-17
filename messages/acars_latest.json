@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.09.2026 11:27 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6092",
-      "freq": 131.725,
-      "level": -34.5,
-      "label": "10",
-      "msgno": "M49A",
-      "text": "POS151128,N 61.617,E 26.941,1221,441250,,,38005,28240"
-    },
-    {
-      "time": "15.09.2026 11:27 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "Q0",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
-      "time": "15.09.2026 11:27 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -27.9,
-      "label": "SA",
-      "msgno": "S13A",
-      "text": "0EV112813V"
-    },
-    {
-      "time": "15.09.2026 11:27 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "H1",
-      "msgno": "D05A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2SEP15,1055,0285/C1GMT,ACC/C21017,.0.75,FLT/C31018,.1.32,FLT/C41053,.1.30,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
       "time": "15.09.2026 11:28 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "O60A",
       "text": "SB0122BA_B-2094  ZSPDEHAM807\r\n 61678 0272151429 33995-4502370380H8PSZ039051"
+    },
+    {
+      "time": "17.09.2026 14:38 UTC",
+      "source": "ACARS",
+      "flight": "CZ8171",
+      "tail": "B-1297",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "5V",
+      "msgno": "S89A",
+      "text": "No text"
+    },
+    {
+      "time": "17.09.2026 14:38 UTC",
+      "source": "ACARS",
+      "flight": "CZ8171",
+      "tail": "B-1297",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "5V",
+      "msgno": "S89A",
+      "text": "No text"
+    },
+    {
+      "time": "17.09.2026 14:39 UTC",
+      "source": "ACARS",
+      "flight": "CZ8171",
+      "tail": "B-1297",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "Q0",
+      "msgno": "S91A",
+      "text": "No text"
+    },
+    {
+      "time": "17.09.2026 14:39 UTC",
+      "source": "ACARS",
+      "flight": "CZ8171",
+      "tail": "B-1297",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "SA",
+      "msgno": "S92A",
+      "text": "0EV144010VS/"
     }
   ]
 }
