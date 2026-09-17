@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.09.2026 09:06 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "B9",
-      "msgno": "L09A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "15.09.2026 09:07 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -39.1,
-      "label": "_d",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
-      "time": "15.09.2026 09:07 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -39.1,
-      "label": "_d",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
-      "time": "15.09.2026 09:07 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "_d",
-      "msgno": "S51A",
-      "text": "No text"
-    },
-    {
       "time": "15.09.2026 09:07 UTC",
       "source": "ACARS",
       "flight": "N70490",
@@ -329,6 +285,50 @@
       "label": "80",
       "msgno": "M48A",
       "text": "1301 INRP   0285/17 EFHK/EFJY .OH-ATO\r\n/ON  1148/IN  1150/FOB 0014"
+    },
+    {
+      "time": "17.09.2026 13:25 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -32.2,
+      "label": "H1",
+      "msgno": "O24A",
+      "text": "SB0122BA_B-228C  ZSPDEHAM187\r\n 61684 0267221325 34000-460243033010/9W010016"
+    },
+    {
+      "time": "17.09.2026 13:27 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "16",
+      "msgno": "M07A",
+      "text": "POSA1N61577E 26374,AGIVU  ,131146,339,NISIX  ,135659,-47, 37, 252,837"
+    },
+    {
+      "time": "17.09.2026 13:29 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "H1",
+      "msgno": "O25A",
+      "text": "SS0340F_255\r\nB-228C  CKK205ZSPDEHAM030546132928ER\r\n29133995833-1375495883168BSM79967A21\r\n4276101955 2501170926 132915\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  33998\r\n      ) 0 02N    )16.)\r"
+    },
+    {
+      "time": "17.09.2026 13:29 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-228C",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "H1",
+      "msgno": "O25B",
+      "text": "SS0340F_255\r\nB-228C  CKK205ZSPDEHAM030546132928ER\r\n29133995833-1375495883168BSM79967A21\r\n4276101955 2501170926 132915\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  33998\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n030546132928\r\n111111111111\r\n111111111111"
     }
   ]
 }
