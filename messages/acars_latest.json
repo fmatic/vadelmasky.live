@@ -6,17 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATG",
       "freq": 131.825,
-      "level": -30.0,
-      "label": "B9",
-      "msgno": "L18A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "15.09.2026 11:28 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
       "level": -30.6,
       "label": "_d",
       "msgno": "S14A",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S92A",
       "text": "0EV144010VS/"
+    },
+    {
+      "time": "17.09.2026 15:05 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -27.0,
+      "label": "11",
+      "msgno": "M86A",
+      "text": "POS\r\nCAS 257,LAT N 61.946,LON E 26.539,ALT 38007,FOB 46160,UTC 150612,PD ----.--,WD 260,WS   29,TAT - 15"
     }
   ]
 }
