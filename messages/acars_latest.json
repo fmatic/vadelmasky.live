@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.09.2026 13:57 UTC",
-      "source": "ACARS",
-      "flight": "CA3105",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "H1",
-      "msgno": "C11A",
-      "text": ".1/WRN/WN2609171358  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "17.09.2026 13:58 UTC",
-      "source": "ACARS",
-      "flight": "CA3105",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "H1",
-      "msgno": "C12A",
-      "text": ".1/FLR/FR2609171358  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
       "time": "17.09.2026 14:28 UTC",
       "source": "ACARS",
       "flight": "CA1043",
@@ -328,6 +306,28 @@
       "level": -23.7,
       "label": "_d",
       "msgno": "S56A",
+      "text": "No text"
+    },
+    {
+      "time": "18.09.2026 10:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -29.8,
+      "label": "B9",
+      "msgno": "M44A",
+      "text": "/ESSA.TI2/024ESSAA05A8"
+    },
+    {
+      "time": "18.09.2026 10:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6092",
+      "freq": 131.725,
+      "level": -29.8,
+      "label": "_d",
+      "msgno": "S41A",
       "text": "No text"
     }
   ]
