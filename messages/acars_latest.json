@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.09.2026 14:39 UTC",
-      "source": "ACARS",
-      "flight": "CZ8171",
-      "tail": "B-1297",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "SA",
-      "msgno": "S92A",
-      "text": "0EV144010VS/"
-    },
-    {
-      "time": "17.09.2026 15:05 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-5902",
-      "freq": 131.725,
-      "level": -27.0,
-      "label": "11",
-      "msgno": "M86A",
-      "text": "POS\r\nCAS 257,LAT N 61.946,LON E 26.539,ALT 38007,FOB 46160,UTC 150612,PD ----.--,WD 260,WS   29,TAT - 15"
-    },
-    {
-      "time": "17.09.2026 18:16 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "Q0",
-      "msgno": "S34A",
-      "text": "No text"
-    },
-    {
       "time": "17.09.2026 20:51 UTC",
       "source": "ACARS",
       "flight": "CA1044",
@@ -329,6 +296,39 @@
       "label": "18",
       "msgno": "M93A",
       "text": "POX,CSG2516   ,18SEP26,112355,EGPK,ZGGG,N061.74,E0026.76,369, 679,838,  79.8,-131.9,043,-50.4,202155, 41800,"
+    },
+    {
+      "time": "18.09.2026 11:52 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -26.0,
+      "label": "Q0",
+      "msgno": "S10A",
+      "text": "No text"
+    },
+    {
+      "time": "18.09.2026 11:53 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -24.9,
+      "label": "80",
+      "msgno": "M13B",
+      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
+    },
+    {
+      "time": "18.09.2026 11:54 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -25.7,
+      "label": "H1",
+      "msgno": "D11A",
+      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2SEP18,1040,0285/C1GMT,ACC/C21006,.0.73,FLT/C31003,.1.39,FLT/C41037,.1.13,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
     }
   ]
 }
