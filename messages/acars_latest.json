@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.09.2026 14:38 UTC",
-      "source": "ACARS",
-      "flight": "CZ8171",
-      "tail": "B-1297",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "5V",
-      "msgno": "S89A",
-      "text": "No text"
-    },
-    {
-      "time": "17.09.2026 14:39 UTC",
-      "source": "ACARS",
-      "flight": "CZ8171",
-      "tail": "B-1297",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "Q0",
-      "msgno": "S91A",
-      "text": "No text"
-    },
-    {
       "time": "17.09.2026 14:39 UTC",
       "source": "ACARS",
       "flight": "CZ8171",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O56B",
       "text": "\n      ) 0 02N    )16.)\r\n180926104850\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "18.09.2026 11:20 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2080",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "Q0",
+      "msgno": "S05A",
+      "text": "No text"
+    },
+    {
+      "time": "18.09.2026 11:23 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2080",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "18",
+      "msgno": "M93A",
+      "text": "POX,CSG2516   ,18SEP26,112355,EGPK,ZGGG,N061.74,E0026.76,369, 679,838,  79.8,-131.9,043,-50.4,202155, 41800,"
     }
   ]
 }
