@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.09.2026 06:16 UTC",
-      "source": "ACARS",
-      "flight": "CK0605",
-      "tail": "B-220E",
-      "freq": 131.825,
-      "level": -24.7,
-      "label": "36",
-      "msgno": "M77A",
-      "text": "GTA01CKK605    /--170617ZSPDEGSS\r\nCKK605    ETA/0850Z\r\n"
-    },
-    {
-      "time": "17.09.2026 06:48 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-227K",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "H1",
-      "msgno": "O57A",
-      "text": "SB0122BA_B-227K  ZSPDLFPG640\r\n 61391 0256820648 34001-460225047010IH-008011"
-    },
-    {
       "time": "17.09.2026 10:52 UTC",
       "source": "ACARS",
       "flight": "GR0000",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S50A",
       "text": "No text"
+    },
+    {
+      "time": "18.09.2026 02:53 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -24.5,
+      "label": "SA",
+      "msgno": "M00A",
+      "text": "0EV025324V"
+    },
+    {
+      "time": "18.09.2026 02:55 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -22.4,
+      "label": "B9",
+      "msgno": "L00A",
+      "text": "/EFJY.TI2/024EFJYAF562"
     }
   ]
 }
