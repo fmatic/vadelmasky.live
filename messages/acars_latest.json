@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.09.2026 06:44 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "Q0",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
-      "time": "16.09.2026 08:06 UTC",
-      "source": "ACARS",
-      "flight": "CA3037",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "Q0",
-      "msgno": "S26A",
-      "text": "No text"
-    },
-    {
-      "time": "16.09.2026 14:10 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "10",
-      "msgno": "M16A",
-      "text": "POS161411,N 61.790,E 27.125,2152,517125,,,35004,108720"
-    },
-    {
-      "time": "17.09.2026 03:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3055",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -30.8,
-      "label": "_d",
-      "msgno": "S17A",
-      "text": "No text"
-    },
-    {
-      "time": "17.09.2026 03:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3055",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -29.8,
-      "label": "_d",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
       "time": "17.09.2026 06:16 UTC",
       "source": "ACARS",
       "flight": "CK0605",
@@ -328,6 +273,61 @@
       "level": -30.2,
       "label": "Q0",
       "msgno": "S65A",
+      "text": "No text"
+    },
+    {
+      "time": "18.09.2026 02:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -20.9,
+      "label": "H1",
+      "msgno": "D56A",
+      "text": "<ENG>   180926 024257 COPY NO:  35\r\n 90.8 105.0  772.5    78.50 106.62 15.04  5880 0.53  0.57   4.00  0.64\r\n 90.8 105.5  777.0    83.26 103.51 14.12  5902 0.17  0.33   2.00  0.33\r\n59664.9  0.00\r\n60288.2  0."
+    },
+    {
+      "time": "18.09.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20EQ",
+      "freq": 131.725,
+      "level": -34.5,
+      "label": "H1",
+      "msgno": "D56B",
+      "text": "<ENG>   180926 024257 COPY NO:  35\r\n 90.8 105.0  772.5    78.50 106.62 15.04  5880 0.53  0.57   4.00  0.64\r\n 90.8 105.5  777.0    83.26 103.51 14.12  5902 0.17  0.33   2.00  0.33\r\n59664.9  0.00\r\n60288.2  0.00"
+    },
+    {
+      "time": "18.09.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -18.4,
+      "label": "H1",
+      "msgno": "D56B",
+      "text": "00"
+    },
+    {
+      "time": "18.09.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -19.8,
+      "label": "H1",
+      "msgno": "D56B",
+      "text": "00"
+    },
+    {
+      "time": "18.09.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1661",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -21.3,
+      "label": "_d",
+      "msgno": "S50A",
       "text": "No text"
     }
   ]
