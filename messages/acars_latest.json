@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.09.2026 13:25 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "H1",
-      "msgno": "O24A",
-      "text": "SB0122BA_B-228C  ZSPDEHAM187\r\n 61684 0267221325 34000-460243033010/9W010016"
-    },
-    {
-      "time": "17.09.2026 13:27 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "16",
-      "msgno": "M07A",
-      "text": "POSA1N61577E 26374,AGIVU  ,131146,339,NISIX  ,135659,-47, 37, 252,837"
-    },
-    {
-      "time": "17.09.2026 13:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "H1",
-      "msgno": "O25A",
-      "text": "SS0340F_255\r\nB-228C  CKK205ZSPDEHAM030546132928ER\r\n29133995833-1375495883168BSM79967A21\r\n4276101955 2501170926 132915\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  33998\r\n      ) 0 02N    )16.)\r"
-    },
-    {
-      "time": "17.09.2026 13:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "H1",
-      "msgno": "O25B",
-      "text": "SS0340F_255\r\nB-228C  CKK205ZSPDEHAM030546132928ER\r\n29133995833-1375495883168BSM79967A21\r\n4276101955 2501170926 132915\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n11110111111111111\r\n  33998\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n030546132928\r\n111111111111\r\n111111111111"
-    },
-    {
       "time": "17.09.2026 13:57 UTC",
       "source": "ACARS",
       "flight": "CA3105",
@@ -328,6 +284,50 @@
       "level": -26.6,
       "label": "5V",
       "msgno": "S05A",
+      "text": "No text"
+    },
+    {
+      "time": "18.09.2026 04:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -20.1,
+      "label": "12",
+      "msgno": "M04A",
+      "text": "WXR FS USNN,UNNT,UNAA"
+    },
+    {
+      "time": "18.09.2026 04:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -20.5,
+      "label": "_d",
+      "msgno": "S54A",
+      "text": "No text"
+    },
+    {
+      "time": "18.09.2026 04:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -21.6,
+      "label": "_d",
+      "msgno": "S55A",
+      "text": "No text"
+    },
+    {
+      "time": "18.09.2026 04:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -23.7,
+      "label": "_d",
+      "msgno": "S56A",
       "text": "No text"
     }
   ]
