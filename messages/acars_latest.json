@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.09.2026 06:00 UTC",
-      "source": "ACARS",
-      "flight": "CK0605",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -22.6,
-      "label": "_d",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
-      "time": "19.09.2026 06:01 UTC",
-      "source": "ACARS",
-      "flight": "CK0605",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "_d",
-      "msgno": "S36A",
-      "text": "No text"
-    },
-    {
       "time": "19.09.2026 06:01 UTC",
       "source": "ACARS",
       "flight": "CK0605",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S36A",
       "text": "0LS202925V"
+    },
+    {
+      "time": "19.09.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -35.2,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/WRN/WN2609192032  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "19.09.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -34.2,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/WRN/WN2609192032  345801006NAV GPS 2 FAULT"
     }
   ]
 }
