@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.09.2026 11:53 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -24.9,
-      "label": "80",
-      "msgno": "M13B",
-      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
-      "time": "18.09.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -25.7,
-      "label": "H1",
-      "msgno": "D11A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2SEP18,1040,0285/C1GMT,ACC/C21006,.0.73,FLT/C31003,.1.39,FLT/C41037,.1.13,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
       "time": "18.09.2026 11:56 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +307,28 @@
       "label": "16",
       "msgno": "M78A",
       "text": "POSA1N61570E 26577,AGAMO  ,131122,340,SALLO  ,145341,-52, 56, 272,816"
+    },
+    {
+      "time": "19.09.2026 14:17 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "10",
+      "msgno": "M12A",
+      "text": "POS191418, N 6178,E 2622,828,289,28265,  67,33995, 328,-216,-520,7"
+    },
+    {
+      "time": "19.09.2026 14:18 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "H1",
+      "msgno": "O37A",
+      "text": "SB0122BA_B-2096  ZSPDEGPK360\r\n 61784 0262221418 33995-52028306701005Z009012"
     }
   ]
 }
