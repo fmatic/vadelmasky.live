@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">19.09.2026 03:15 UTC</div>
+        <div class="value">19.09.2026 03:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8MC</div>
+                    <div class="meta">ICAO 461F6C · REG OH-LXK · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">27950 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>410.0 kt</b></div>
+                    <div><span>Track</span><b>181.41°</b></div>
+                    <div><span>Position</span><b>61.5027, 25.2897</b></div>
+                    <div><span>Last seen</span><b>19.09.2026 03:18 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXK" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -291,30 +315,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKM" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN8MC</div>
-                    <div class="meta">ICAO 461F6C · REG OH-LXK · TYPE A320</div>
-                </div>
-                <div class="alt-badge high">34725 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>442.0 kt</b></div>
-                    <div><span>Track</span><b>181.23°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>19.09.2026 03:15 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXK" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -812,7 +812,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461E1C", "flight": "FIN4MP", "lat": 61.643822, "lon": 25.218608, "alt": 30200, "speed": 426.0, "last_seen": "19.09.2026 03:15 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.760621, "lon": 25.484924, "alt": 18000, "speed": 241.4, "last_seen": "19.09.2026 03:05 UTC"}];
+const aircraft = [{"hex": "461F6C", "flight": "FIN8MC", "lat": 61.502675, "lon": 25.289714, "alt": 27950, "speed": 410.0, "last_seen": "19.09.2026 03:18 UTC"}, {"hex": "461E1C", "flight": "FIN4MP", "lat": 61.643822, "lon": 25.218608, "alt": 30200, "speed": 426.0, "last_seen": "19.09.2026 03:15 UTC"}, {"hex": "4601F5", "flight": "FIN8KH", "lat": 61.760621, "lon": 25.484924, "alt": 18000, "speed": 241.4, "last_seen": "19.09.2026 03:05 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
