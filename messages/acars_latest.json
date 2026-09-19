@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.09.2026 11:56 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -25.9,
-      "label": "5V",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
-      "time": "18.09.2026 13:02 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -30.8,
-      "label": "H1",
-      "msgno": "O05A",
-      "text": "SS0340C_435\r\nB-222S  CAO100EGPKZSPD180926130240ER\r\n28735002841-181217865316DBSM79962A\r\n124620779 250180926 130238\r\n134620772 250\r\n135620772 250\r\n10000000000000010\r\n  35004\r\n  3471115 64N  139 0.1\r\n  3471915"
-    },
-    {
       "time": "18.09.2026 13:02 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O37A",
       "text": "SB0122BA_B-2096  ZSPDEGPK360\r\n 61784 0262221418 33995-52028306701005Z009012"
+    },
+    {
+      "time": "19.09.2026 14:41 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-227K",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "16",
+      "msgno": "M54A",
+      "text": "POSA1N61580E 26907,TOMBU  ,140541,330,KOKAT  ,145749,-50, 75, 664,832"
+    },
+    {
+      "time": "19.09.2026 14:42 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-227K",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "H1",
+      "msgno": "O92A",
+      "text": "SB0122BA_B-227K  LFPGZSPD747\r\n 61615 0270331442 32997-50028507301020;008011"
     }
   ]
 }
