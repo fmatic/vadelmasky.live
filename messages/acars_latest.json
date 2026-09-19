@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.09.2026 10:39 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "16",
-      "msgno": "M80A",
-      "text": "POSA1N61900E 27483,AGAMO  ,102226,339,SALLO  ,120327,-50, 43, 265,828"
-    },
-    {
       "time": "18.09.2026 10:48 UTC",
       "source": "ACARS",
       "flight": "CK0215",
@@ -329,6 +318,17 @@
       "label": "B0",
       "msgno": "L06A",
       "text": "/EFIN.AFN/FMHCKK605,.B-228S,782409,060153/FPON62070E025507,1/FCOADS,01/FCOATC,016B2E"
+    },
+    {
+      "time": "19.09.2026 07:55 UTC",
+      "source": "ACARS",
+      "flight": "N70572",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "_d",
+      "msgno": "S64A",
+      "text": "No text"
     }
   ]
 }
