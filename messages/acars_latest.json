@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.09.2026 13:33 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-222J",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "16",
-      "msgno": "M78A",
-      "text": "POSA1N61570E 26577,AGAMO  ,131122,340,SALLO  ,145341,-52, 56, 272,816"
-    },
-    {
       "time": "19.09.2026 14:17 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "F44A",
       "text": "POSN61545E025523,AGAMO,024533,360,RIKUM,031651,DOSUR,M48,24070,542D207"
+    },
+    {
+      "time": "20.09.2026 09:24 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.9,
+      "label": "Q0",
+      "msgno": "S83A",
+      "text": "No text"
     }
   ]
 }
