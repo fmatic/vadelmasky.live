@@ -6,17 +6,6 @@
       "flight": "MU0707",
       "tail": "B-8226",
       "freq": 131.725,
-      "level": -29.6,
-      "label": "Q0",
-      "msgno": "S56A",
-      "text": "No text"
-    },
-    {
-      "time": "19.09.2026 15:46 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
       "level": -30.5,
       "label": "Q0",
       "msgno": "S56A",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M41A",
       "text": "1101 OFFRP  0286/20 EFJY/EFHK .OH-ATM\r\n/OUT 0922/OFF 0924/FOB 0016/ETA 1004"
+    },
+    {
+      "time": "20.09.2026 11:23 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "10",
+      "msgno": "M14A",
+      "text": "POS201123,N 61.476,E 25.807,1907,523000,,,39003,104280"
     }
   ]
 }
