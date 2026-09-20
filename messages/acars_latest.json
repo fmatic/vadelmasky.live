@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.09.2026 15:46 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -30.5,
-      "label": "Q0",
-      "msgno": "S56A",
-      "text": "No text"
-    },
-    {
       "time": "19.09.2026 15:47 UTC",
       "source": "ACARS",
       "flight": "MU0707",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M14A",
       "text": "POS201123,N 61.476,E 25.807,1907,523000,,,39003,104280"
+    },
+    {
+      "time": "20.09.2026 11:35 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-220E",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "16",
+      "msgno": "M23A",
+      "text": "POSA1N61616E 26427,AGIVU  ,111601,339,NISIX  ,120800,-50, 69, 257,833"
     }
   ]
 }
