@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.09.2026 02:41 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "H1",
-      "msgno": "F44A",
-      "text": "POSN61545E025523,AGAMO,024533,360,RIKUM,031651,DOSUR,M48,24070,542D207"
-    },
-    {
-      "time": "20.09.2026 09:24 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "Q0",
-      "msgno": "S83A",
-      "text": "No text"
-    },
-    {
-      "time": "20.09.2026 09:25 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -37.4,
-      "label": "Q0",
-      "msgno": "S83A",
-      "text": "No text"
-    },
-    {
       "time": "20.09.2026 09:26 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +296,39 @@
       "label": "81",
       "msgno": "M59A",
       "text": "/CANUOCZ.WX RECVD THX\r\n"
+    },
+    {
+      "time": "20.09.2026 15:01 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -38.2,
+      "label": "_d",
+      "msgno": "S71A",
+      "text": "No text"
+    },
+    {
+      "time": "20.09.2026 15:03 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "D16A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,200926,1502,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2212,.16013,-009/F1TORQ,NP,N"
+    },
+    {
+      "time": "20.09.2026 15:03 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "H1",
+      "msgno": "D16B",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,200926,1502,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2212,.16013,-009/F1TORQ,NP,NL/F2076.2,082.0,094.5/F3076.2,081.9,093.6/G1NH,ITT,FF,IG/G2095.3,0665.7,371,0095/G3095.4,0644.9,362,0093/H1HPL,HPR,N.H,ACL,ACR/H21,1,0,0,0/I1WGT/I221.27/**.,EOT,...,/"
     }
   ]
 }
