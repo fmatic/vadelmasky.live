@@ -1,105 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.09.2026 14:17 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "10",
-      "msgno": "M12A",
-      "text": "POS191418, N 6178,E 2622,828,289,28265,  67,33995, 328,-216,-520,7"
-    },
-    {
-      "time": "19.09.2026 14:18 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -33.2,
-      "label": "H1",
-      "msgno": "O37A",
-      "text": "SB0122BA_B-2096  ZSPDEGPK360\r\n 61784 0262221418 33995-52028306701005Z009012"
-    },
-    {
-      "time": "19.09.2026 14:41 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-227K",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "16",
-      "msgno": "M54A",
-      "text": "POSA1N61580E 26907,TOMBU  ,140541,330,KOKAT  ,145749,-50, 75, 664,832"
-    },
-    {
-      "time": "19.09.2026 14:42 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-227K",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "H1",
-      "msgno": "O92A",
-      "text": "SB0122BA_B-227K  LFPGZSPD747\r\n 61615 0270331442 32997-50028507301020;008011"
-    },
-    {
-      "time": "19.09.2026 15:46 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -27.8,
-      "label": "Q0",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
-      "time": "19.09.2026 15:46 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -26.9,
-      "label": "SA",
-      "msgno": "S51A",
-      "text": "0EV154710VHS"
-    },
-    {
-      "time": "19.09.2026 15:46 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -29.1,
-      "label": "Q0",
-      "msgno": "S52A",
-      "text": "No text"
-    },
-    {
-      "time": "19.09.2026 15:46 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -28.3,
-      "label": "Q0",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
-      "time": "19.09.2026 15:46 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -29.3,
-      "label": "Q0",
-      "msgno": "S56A",
-      "text": "No text"
-    },
-    {
       "time": "19.09.2026 15:46 UTC",
       "source": "ACARS",
       "flight": "MU0707",
@@ -329,6 +230,105 @@
       "label": "Q0",
       "msgno": "S83A",
       "text": "No text"
+    },
+    {
+      "time": "20.09.2026 09:25 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "Q0",
+      "msgno": "S83A",
+      "text": "No text"
+    },
+    {
+      "time": "20.09.2026 09:26 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "Q0",
+      "msgno": "S83A",
+      "text": "No text"
+    },
+    {
+      "time": "20.09.2026 09:26 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "SA",
+      "msgno": "S84A",
+      "text": "0EV092624V"
+    },
+    {
+      "time": "20.09.2026 09:26 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "80",
+      "msgno": "M38A",
+      "text": "3501 SUMMRY 0285/20 EFHK/EFJY .OH-ATM\r\n/OUT 0818/FOB 0020\r\n/OFF 0824/FOB 0019\r\n/ON  0858/FOB 0014\r\n/IN  0900/FOB 0016\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
+    },
+    {
+      "time": "20.09.2026 09:26 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "80",
+      "msgno": "M38B",
+      "text": "3501 SUMMRY 0285/20 EFHK/EFJY .OH-ATM\r\n/OUT 0818/FOB 0020\r\n/OFF 0824/FOB 0019\r\n/ON  0858/FOB 0014\r\n/IN  0900/FOB 0016\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
+    },
+    {
+      "time": "20.09.2026 09:26 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "80",
+      "msgno": "M39A",
+      "text": "1301 INRP   0285/20 EFHK/EFJY .OH-ATM\r\n/ON  0858/IN  0900/FOB 0016"
+    },
+    {
+      "time": "20.09.2026 09:26 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "80",
+      "msgno": "M40A",
+      "text": "1001 OUTRP  0286/20 EFJY/EFHK .OH-ATM\r\n/OUT 0922/FOB 0016/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "20.09.2026 09:26 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "80",
+      "msgno": "M41A",
+      "text": "1101 OFFRP  0286/20 EFJY/EFHK .OH-ATM\r\n/OUT 0922/OFF 0924/FOB 0016/ETA 1004"
+    },
+    {
+      "time": "20.09.2026 09:26 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "80",
+      "msgno": "M41A",
+      "text": "1101 OFFRP  0286/20 EFJY/EFHK .OH-ATM\r\n/OUT 0922/OFF 0924/FOB 0016/ETA 1004"
     }
   ]
 }
