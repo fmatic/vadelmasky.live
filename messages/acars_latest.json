@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.09.2026 06:01 UTC",
-      "source": "ACARS",
-      "flight": "CK0605",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -24.2,
-      "label": "B0",
-      "msgno": "L06A",
-      "text": "/EFIN.AFN/FMHCKK605,.B-228S,782409,060153/FPON62070E025507,1/FCOADS,01/FCOATC,016B2E"
-    },
-    {
       "time": "19.09.2026 07:55 UTC",
       "source": "ACARS",
       "flight": "N70572",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C21A",
       "text": ".1/WRN/WN2609192032  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "20.09.2026 02:39 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-20DT",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "Q0",
+      "msgno": "S89A",
+      "text": "No text"
     }
   ]
 }
