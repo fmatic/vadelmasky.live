@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">16</div>
+        <div class="value">17</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -247,7 +247,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.09.2026 06:35 UTC</div>
+        <div class="value">20.09.2026 06:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">AEE4578</div>
+                    <div class="meta">ICAO 4691C5 · REG SX-DNE · TYPE A320</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>250.6 kt</b></div>
+                    <div><span>Track</span><b>16.7°</b></div>
+                    <div><span>Position</span><b>60.7083, 25.9170</b></div>
+                    <div><span>Last seen</span><b>20.09.2026 06:39 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/SX-DNE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -883,7 +907,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "781ED3", "flight": "CKK605", "lat": 62.051759, "lon": 25.544739, "alt": 34000, "speed": 396.0, "last_seen": "20.09.2026 06:22 UTC"}, {"hex": "461E1A", "flight": "FIN7AZ", "lat": 61.521575, "lon": 25.315145, "alt": 27125, "speed": 368.0, "last_seen": "20.09.2026 04:57 UTC"}, {"hex": "7817FB", "flight": "DKH1659", "lat": 61.908333, "lon": 25.871667, "alt": 35975, "speed": 422.0, "last_seen": "20.09.2026 03:18 UTC"}];
+const aircraft = [{"hex": "4691C5", "flight": "AEE4578", "lat": 60.708261, "lon": 25.917042, "alt": "-", "speed": 250.6, "last_seen": "20.09.2026 06:39 UTC"}, {"hex": "781ED3", "flight": "CKK605", "lat": 62.051759, "lon": 25.544739, "alt": 34000, "speed": 396.0, "last_seen": "20.09.2026 06:22 UTC"}, {"hex": "461E1A", "flight": "FIN7AZ", "lat": 61.521575, "lon": 25.315145, "alt": 27125, "speed": 368.0, "last_seen": "20.09.2026 04:57 UTC"}, {"hex": "7817FB", "flight": "DKH1659", "lat": 61.908333, "lon": 25.871667, "alt": 35975, "speed": 422.0, "last_seen": "20.09.2026 03:18 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
