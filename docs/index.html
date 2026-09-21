@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">21.09.2026 02:45 UTC</div>
+        <div class="value">21.09.2026 02:50 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,11 +286,35 @@ footer {
                     <div><span>Speed</span><b>259.6 kt</b></div>
                     <div><span>Track</span><b>197.95°</b></div>
                     <div><span>Position</span><b>62.3105, 26.1665</b></div>
-                    <div><span>Last seen</span><b>21.09.2026 02:45 UTC</b></div>
+                    <div><span>Last seen</span><b>21.09.2026 02:50 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>21.09.2026 02:50 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -620,7 +644,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F7", "flight": "FIN418", "lat": 62.310471, "lon": 26.166484, "alt": 24000, "speed": 259.6, "last_seen": "21.09.2026 02:45 UTC"}, {"hex": "780D9F", "flight": "CES219", "lat": 61.401052, "lon": 25.777181, "alt": 34000, "speed": 452.0, "last_seen": "21.09.2026 01:50 UTC"}];
+const aircraft = [{"hex": "4601F7", "flight": "FIN418", "lat": 62.310471, "lon": 26.166484, "alt": 24000, "speed": 259.6, "last_seen": "21.09.2026 02:50 UTC"}, {"hex": "780D9F", "flight": "CES219", "lat": 61.401052, "lon": 25.777181, "alt": 34000, "speed": 452.0, "last_seen": "21.09.2026 01:50 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
