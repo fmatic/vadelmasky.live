@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.09.2026 13:37 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2072",
-      "freq": 131.825,
-      "level": -31.2,
-      "label": "18",
-      "msgno": "M58A",
-      "text": "POX,CSG2520   ,20SEP26,133729,EGPK,ZGGG,N061.76,E0027.11,370, 653,829,  80.3,-120.1,056,-44.8,223529, 36080,"
-    },
-    {
       "time": "20.09.2026 13:38 UTC",
       "source": "ACARS",
       "flight": "CZ2520",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S32A",
       "text": "No text"
+    },
+    {
+      "time": "21.09.2026 15:05 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -35.1,
+      "label": "SA",
+      "msgno": "S33A",
+      "text": "0LS150623VH"
     }
   ]
 }
