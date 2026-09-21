@@ -28,16 +28,16 @@
     },
     "781eb7": {
       "hex": "781eb7",
-      "flight": "CES249",
+      "flight": "CES250",
       "reg": "B-32CZ",
       "type": "A359",
-      "lat": null,
-      "lon": null,
-      "alt": 36000,
-      "speed": null,
-      "track": null,
+      "lat": 61.426516,
+      "lon": 25.943604,
+      "alt": 35000,
+      "speed": 262.7,
+      "track": 61.09,
       "seen_first": "2026-09-21T01:49:01.924871",
-      "last_seen": "2026-09-21T01:57:02.163301"
+      "last_seen": "2026-09-21T13:59:01.814035"
     },
     "781684": {
       "hex": "781684",
@@ -428,11 +428,24 @@
       "track": 252.15,
       "seen_first": "2026-09-21T13:48:02.110147",
       "last_seen": "2026-09-21T13:50:01.810985"
+    },
+    "780561": {
+      "hex": "780561",
+      "flight": "",
+      "reg": "B-2005",
+      "type": "B77W",
+      "lat": null,
+      "lon": null,
+      "alt": 34000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-09-21T14:00:02.140788",
+      "last_seen": "2026-09-21T14:00:02.140788"
     }
   },
   "summary": {
-    "total_unique_aircraft": 33,
-    "last_seen_live": 0,
-    "updated": "2026-09-21T13:55:01.593517"
+    "total_unique_aircraft": 34,
+    "last_seen_live": 1,
+    "updated": "2026-09-21T14:00:02.140788"
   }
 }
