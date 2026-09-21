@@ -93,16 +93,16 @@
     },
     "4601fb": {
       "hex": "4601fb",
-      "flight": "FIN1YL",
+      "flight": "FIN42T",
       "reg": "OH-ATN",
       "type": "AT75",
-      "lat": 61.839015,
-      "lon": 25.305379,
-      "alt": 18000,
-      "speed": 287.1,
-      "track": 181.2,
+      "lat": 62.057252,
+      "lon": 26.538696,
+      "alt": 17025,
+      "speed": 260.1,
+      "track": 1.32,
       "seen_first": "2026-09-21T02:58:01.616758",
-      "last_seen": "2026-09-21T07:18:02.045397"
+      "last_seen": "2026-09-21T14:10:02.007199"
     },
     "461f6e": {
       "hex": "461f6e",
@@ -434,18 +434,31 @@
       "flight": "CES771",
       "reg": "B-2005",
       "type": "B77W",
-      "lat": 61.854098,
-      "lon": 26.948649,
+      "lat": 61.401657,
+      "lon": 25.37679,
       "alt": 34000,
-      "speed": 242.2,
-      "track": 239.2,
+      "speed": 480.0,
+      "track": 238.01,
       "seen_first": "2026-09-21T14:00:02.140788",
-      "last_seen": "2026-09-21T14:05:01.462396"
+      "last_seen": "2026-09-21T14:08:01.344315"
+    },
+    "781f41": {
+      "hex": "781f41",
+      "flight": "CES232",
+      "reg": "B-32DW",
+      "type": "A359",
+      "lat": null,
+      "lon": null,
+      "alt": 36025,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-09-21T14:07:02.044140",
+      "last_seen": "2026-09-21T14:09:01.643429"
     }
   },
   "summary": {
-    "total_unique_aircraft": 34,
+    "total_unique_aircraft": 35,
     "last_seen_live": 1,
-    "updated": "2026-09-21T14:05:01.462396"
+    "updated": "2026-09-21T14:10:02.007199"
   }
 }
