@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.09.2026 13:03 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -34.0,
-      "label": "H1",
-      "msgno": "D29F",
-      "text": "060,-120,0.820:\r\n"
-    },
-    {
-      "time": "20.09.2026 13:34 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2072",
-      "freq": 131.825,
-      "level": -27.1,
-      "label": "Q0",
-      "msgno": "S56A",
-      "text": "No text"
-    },
-    {
       "time": "20.09.2026 13:37 UTC",
       "source": "ACARS",
       "flight": "CZ2520",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O48A",
       "text": "SB0122BA_B-1429  ZBAALIRF825\r\n 61467 0263691346 33997-430227014010W/X012014"
+    },
+    {
+      "time": "21.09.2026 15:01 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -27.2,
+      "label": "B9",
+      "msgno": "J11A",
+      "text": "/EKCH.TI2/000EKCHA0475"
+    },
+    {
+      "time": "21.09.2026 15:02 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -27.9,
+      "label": "_d",
+      "msgno": "S32A",
+      "text": "No text"
     }
   ]
 }
