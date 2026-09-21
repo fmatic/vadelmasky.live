@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.09.2026 13:02 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "H1",
-      "msgno": "D28D",
-      "text": ",0.30,-16.3\r\nT2,083,102,098.6,-00.2,047.3,0.05,0.06,0.26,327,0.29,-16.7\r\nV1,0439,0382\r\nV2,0441,0399\r\n                            :\r\n"
-    },
-    {
-      "time": "20.09.2026 13:02 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "H1",
-      "msgno": "D29A",
-      "text": "R02/A33002,1,1\r\nC1,.B-6070,26SEP20,12.57.38,ZUUU,ESSA,CAO1159   ,5000,269\r\nC2,001,06.0,000000,D1033RR04C0CBT1,000,000,000\r\nC3,-16.3,37998,0.820,111,0.81,111,10,0,01,111,0.81,X\r\nC4,-16.3,38000,0.820,111\r\nC5,"
-    },
-    {
       "time": "20.09.2026 13:03 UTC",
       "source": "ACARS",
       "flight": "CA1159",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O61B",
       "text": "\n      ) 0 02N    )16.)\r\n210926112327\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "21.09.2026 13:09 UTC",
+      "source": "ACARS",
+      "flight": "CA0617",
+      "tail": "B-1430",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "H1",
+      "msgno": "C13A",
+      "text": "RTE 1 21SEP26 1314 CAB-1430 CCA617 ZBAA/LOWW 311B-BCG-00W-19 L 0508 21SEP26\r\nFDE 34405400 I 1312 21SEP26\r\nMSG 3446082 I 1312 21SEP26 ER I 1 PL\r\nDB GROUND PROXIMITY WARNING COMPUTER\r\nFDE 34405100 I 1312 21SE"
+    },
+    {
+      "time": "21.09.2026 13:09 UTC",
+      "source": "ACARS",
+      "flight": "CA0617",
+      "tail": "B-1430",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "H1",
+      "msgno": "C13B",
+      "text": "RTE 1 21SEP26 1314 CAB-1430 CCA617 ZBAA/LOWW 311B-BCG-00W-19 L 0508 21SEP26\r\nFDE 34405400 I 1312 21SEP26\r\nMSG 3446082 I 1312 21SEP26 ER I 1 PL\r\nDB GROUND PROXIMITY WARNING COMPUTER\r\nFDE 34405100 I 1312 21SEP26\r\nMSG 3446082 I 1312 21SEP26 ER I 1 PL\r\nDB GROUND PROXIMITY WARNING COMPUTER\r\nEOR\r\n"
     }
   ]
 }
