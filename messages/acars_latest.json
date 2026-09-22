@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.09.2026 13:38 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2072",
-      "freq": 131.825,
-      "level": -36.2,
-      "label": "_d",
-      "msgno": "S59A",
-      "text": "No text"
-    },
-    {
       "time": "20.09.2026 13:39 UTC",
       "source": "ACARS",
       "flight": "CZ2520",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S35A",
       "text": "No text"
+    },
+    {
+      "time": "22.09.2026 02:56 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -27.5,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/22 EFJY/EFHK .OH-ATK\r\n/OUT 0251/OFF 0253/FOB 0016/ETA 0333"
     }
   ]
 }
