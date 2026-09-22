@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.09.2026 21:21 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "Q0",
-      "msgno": "S55A",
-      "text": "No text"
-    },
-    {
-      "time": "21.09.2026 02:58 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -29.0,
-      "label": "SA",
-      "msgno": "S01A",
-      "text": "0EV025737V"
-    },
-    {
       "time": "21.09.2026 07:12 UTC",
       "source": "ACARS",
       "flight": "CA3153",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O14A",
       "text": "SB0122BA_B-2095  EHAMZSPD725\r\n 61404 0255951513 31005-430017054010/9W014017"
+    },
+    {
+      "time": "22.09.2026 15:18 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "H1",
+      "msgno": "C28A",
+      "text": ".1/WRN/WN2609221518  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "22.09.2026 15:19 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "C29A",
+      "text": ".1/WRN/WN2609221519  345800506NAV GPS 1 FAULT"
     }
   ]
 }
