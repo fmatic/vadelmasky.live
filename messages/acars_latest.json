@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.09.2026 13:39 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2072",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "81",
-      "msgno": "M59A",
-      "text": "/CANUOCZ.WX RECVD THX\r\n"
-    },
-    {
       "time": "20.09.2026 15:01 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M01A",
       "text": "1101 OFFRP  0290/22 EFJY/EFHK .OH-ATK\r\n/OUT 0251/OFF 0253/FOB 0016/ETA 0333"
+    },
+    {
+      "time": "22.09.2026 06:52 UTC",
+      "source": "ACARS",
+      "flight": "CK0249",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "16",
+      "msgno": "M77A",
+      "text": "POSA1N61646E 26580,AGIVU  ,063948,319,NISIX  ,071945,-45, 47, 265,824"
     }
   ]
 }
