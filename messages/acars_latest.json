@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.09.2026 07:12 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "_d",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
-      "time": "21.09.2026 07:13 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "H1",
-      "msgno": "E27A",
-      "text": "FCL,R,+0.02,0.00,30000,+0.18,+2.22,317,0.00,-0.01,+0.02,-1.11,-0.09,-0.06,+0.08,+0.09,-0.08,0.00,,+0.04,,0.00,,0.00,,+0.04,,+0.02,,0.00,,+0.03,,0.00,,0.00,,+0.04,,+0.03,,0.00,,+0.04,,0.00,,+0.04,,-0.93,,+0."
-    },
-    {
-      "time": "21.09.2026 07:13 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "H1",
-      "msgno": "E27C",
-      "text": "-2.40,,-2.40,,-3.11,,-3.11,,-3.10,,3093,-3.10,,-3.11,,3113,-3.11,,-3.10,,3030,-3.10,,-3.10,,-3.11,,+3.68,,+3.54,,+4.37,,+4.26,,+2150,,+2000,,+2570,,+2480,,-0.19,,-0.19,,-0.18,,-0.15,,+0.24,,+50,,+0.23,,+140"
-    },
-    {
-      "time": "21.09.2026 07:13 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "H1",
-      "msgno": "E28A",
-      "text": "LGB,R,0,,193,191,0,,,0.0,0.0,,,0.0,0.0,,,205,203,,,210,209,,,0.0,0.0,,,,0.0,0.0,,,197,207,,,205,197,,,0.0,0.0,,,0.0,0.0,,,190,196,,,197,193,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,32,32,ANTISKID,21,SEP,26,07,18,"
-    },
-    {
-      "time": "21.09.2026 07:13 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "H1",
-      "msgno": "E28B",
-      "text": "LGB,R,0,,193,191,0,,,0.0,0.0,,,0.0,0.0,,,205,203,,,210,209,,,0.0,0.0,,,,0.0,0.0,,,197,207,,,205,197,,,0.0,0.0,,,0.0,0.0,,,190,196,,,197,193,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,32,32,ANTISKID,21,SEP,26,07,18,23"
-    },
-    {
       "time": "21.09.2026 09:58 UTC",
       "source": "ACARS",
       "flight": "N70365",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "C29A",
       "text": ".1/WRN/WN2609221519  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "22.09.2026 15:20 UTC",
+      "source": "ACARS",
+      "flight": "CA1002",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "10",
+      "msgno": "M11A",
+      "text": "POS221520, N 6180,E 2723,826,308,2115 ,  47,30999, 757,-105,-420,7"
+    },
+    {
+      "time": "22.09.2026 15:21 UTC",
+      "source": "ACARS",
+      "flight": "CA1002",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "_d",
+      "msgno": "S22A",
+      "text": "No text"
+    },
+    {
+      "time": "22.09.2026 15:21 UTC",
+      "source": "ACARS",
+      "flight": "CA1002",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "C43A",
+      "text": "EF 1 22SEP26 1522 CAB-2095 CAO1002 EHAM/ZSPD 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371711 A\r\nDB"
+    },
+    {
+      "time": "22.09.2026 15:21 UTC",
+      "source": "ACARS",
+      "flight": "CA1002",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "C43B",
+      "text": " DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CE"
+    },
+    {
+      "time": "22.09.2026 15:21 UTC",
+      "source": "ACARS",
+      "flight": "CA1002",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "H1",
+      "msgno": "C43C",
+      "text": "EF 1 22SEP26 1522 CAB-2095 CAO1002 EHAM/ZSPD 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 344500\r\nMSG 3445040 L\r\nDB TCAS COMPUTER\r\nEOR\r\n"
     }
   ]
 }
