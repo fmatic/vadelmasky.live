@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">7</div>
+        <div class="value">8</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">22.09.2026 05:05 UTC</div>
+        <div class="value">22.09.2026 05:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHBRA</div>
+                    <div class="meta">ICAO 46045E · REG OH-BRA · TYPE SR22</div>
+                </div>
+                <div class="alt-badge mid">11000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>184.5 kt</b></div>
+                    <div><span>Track</span><b>69.7°</b></div>
+                    <div><span>Position</span><b>61.8729, 25.7415</b></div>
+                    <div><span>Last seen</span><b>22.09.2026 05:10 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-BRA" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -686,7 +710,7 @@ FDE 34405100 I 1312 21SE</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F8", "flight": "FIN8KH", "lat": 61.242448, "lon": 25.434367, "alt": 18000, "speed": 237.6, "last_seen": "22.09.2026 03:21 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.097997, "lon": 25.581563, "alt": 16525, "speed": 275.3, "last_seen": "22.09.2026 03:08 UTC"}, {"hex": "781FF6", "flight": "CES249", "lat": 61.490897, "lon": 25.386454, "alt": 38000, "speed": 282.6, "last_seen": "22.09.2026 02:05 UTC"}];
+const aircraft = [{"hex": "46045E", "flight": "OHBRA", "lat": 61.872894, "lon": 25.741457, "alt": 11000, "speed": 184.5, "last_seen": "22.09.2026 05:10 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.242448, "lon": 25.434367, "alt": 18000, "speed": 237.6, "last_seen": "22.09.2026 03:21 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.097997, "lon": 25.581563, "alt": 16525, "speed": 275.3, "last_seen": "22.09.2026 03:08 UTC"}, {"hex": "781FF6", "flight": "CES249", "lat": 61.490897, "lon": 25.386454, "alt": 38000, "speed": 282.6, "last_seen": "22.09.2026 02:05 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
