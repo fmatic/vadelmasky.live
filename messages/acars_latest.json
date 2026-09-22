@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.09.2026 15:08 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "_d",
-      "msgno": "S77A",
-      "text": "No text"
-    },
-    {
       "time": "20.09.2026 21:20 UTC",
       "source": "ACARS",
       "flight": "N70289",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C27A",
       "text": ".1/FLR/FR2609221459  34363106IR2    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "22.09.2026 15:05 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -28.8,
+      "label": "H1",
+      "msgno": "C28A",
+      "text": ".1/WRN/WN2609221505  345800506NAV GPS 1 FAULT"
     }
   ]
 }
