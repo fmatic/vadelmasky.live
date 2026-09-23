@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.09.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -27.5,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1101 OFFRP  0290/22 EFJY/EFHK .OH-ATK\r\n/OUT 0251/OFF 0253/FOB 0016/ETA 0333"
-    },
-    {
       "time": "22.09.2026 06:52 UTC",
       "source": "ACARS",
       "flight": "CK0249",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O90A",
       "text": "SB0122BA_B-2075  EGPKZGGG464\r\n 61758 0266751019 36998-520078031010PSZ010012"
+    },
+    {
+      "time": "23.09.2026 10:56 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "5V",
+      "msgno": "S57A",
+      "text": "No text"
     }
   ]
 }
