@@ -8,17 +8,6 @@
       "freq": 131.825,
       "level": -32.1,
       "label": "H1",
-      "msgno": "C43A",
-      "text": "EF 1 22SEP26 1522 CAB-2095 CAO1002 EHAM/ZSPD 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371711 A\r\nDB"
-    },
-    {
-      "time": "22.09.2026 15:21 UTC",
-      "source": "ACARS",
-      "flight": "CA1002",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "H1",
       "msgno": "C43B",
       "text": " DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CE"
     },
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S58A",
       "text": "No text"
+    },
+    {
+      "time": "23.09.2026 14:33 UTC",
+      "source": "ACARS",
+      "flight": "CA8439",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "H1",
+      "msgno": "O57A",
+      "text": "SB0122BA_B-2097  ZSPDEBLG808\r\n 61442 0262171438 31997-490079044010NXW012013"
     }
   ]
 }
