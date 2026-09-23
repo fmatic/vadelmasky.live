@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.09.2026 02:05 UTC</div>
+        <div class="value">23.09.2026 02:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -285,8 +285,8 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>23.09.2026 02:05 UTC</b></div>
+                    <div><span>Position</span><b>61.4808, 25.4111</b></div>
+                    <div><span>Last seen</span><b>23.09.2026 02:08 UTC</b></div>
                 </div>
             </div>
 
@@ -638,7 +638,7 @@ DB</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "781F29", "flight": "CES709", "lat": 61.480796, "lon": 25.411072, "alt": 38000, "speed": "-", "last_seen": "23.09.2026 02:08 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
