@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.09.2026 13:09 UTC",
-      "source": "ACARS",
-      "flight": "CA0617",
-      "tail": "B-1430",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "H1",
-      "msgno": "C13A",
-      "text": "RTE 1 21SEP26 1314 CAB-1430 CCA617 ZBAA/LOWW 311B-BCG-00W-19 L 0508 21SEP26\r\nFDE 34405400 I 1312 21SEP26\r\nMSG 3446082 I 1312 21SEP26 ER I 1 PL\r\nDB GROUND PROXIMITY WARNING COMPUTER\r\nFDE 34405100 I 1312 21SE"
-    },
-    {
-      "time": "21.09.2026 13:09 UTC",
-      "source": "ACARS",
-      "flight": "CA0617",
-      "tail": "B-1430",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "H1",
-      "msgno": "C13B",
-      "text": "RTE 1 21SEP26 1314 CAB-1430 CCA617 ZBAA/LOWW 311B-BCG-00W-19 L 0508 21SEP26\r\nFDE 34405400 I 1312 21SEP26\r\nMSG 3446082 I 1312 21SEP26 ER I 1 PL\r\nDB GROUND PROXIMITY WARNING COMPUTER\r\nFDE 34405100 I 1312 21SEP26\r\nMSG 3446082 I 1312 21SEP26 ER I 1 PL\r\nDB GROUND PROXIMITY WARNING COMPUTER\r\nEOR\r\n"
-    },
-    {
-      "time": "21.09.2026 13:46 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1429",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "H1",
-      "msgno": "O48A",
-      "text": "SB0122BA_B-1429  ZBAALIRF825\r\n 61467 0263691346 33997-430227014010W/X012014"
-    },
-    {
       "time": "21.09.2026 15:01 UTC",
       "source": "ACARS",
       "flight": "MU0707",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S52A",
       "text": "0EV202724VS"
+    },
+    {
+      "time": "23.09.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "5V",
+      "msgno": "S62A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 02:44 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "Q0",
+      "msgno": "S64A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 02:44 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "SA",
+      "msgno": "S65A",
+      "text": "0EV024442VS/"
     }
   ]
 }

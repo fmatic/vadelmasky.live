@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.09.2026 02:40 UTC</div>
+        <div class="value">23.09.2026 02:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4QA</div>
+                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">19550 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>23.09.2026 02:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -373,6 +397,60 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">HO1659</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-226N · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">23.09.2026 02:44 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S65A · Level -31.9 dB
+            </div>
+
+            <div class="acars-text">0EV024442VS/</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">HO1659</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-226N · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">23.09.2026 02:44 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg S64A · Level -32.3 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">HO1659</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-226N · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">23.09.2026 02:43 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 5V · Msg S62A · Level -33.6 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -558,79 +636,6 @@ MSG 3445040 L
 DB TCAS COMPUTER
 EOR
 </div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1002</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2095 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">22.09.2026 15:21 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C43B · Level -32.1 dB
-            </div>
-
-            <div class="acars-text"> DCMF IN LEFT AIMS
-ATA 255200
-MSG 2558890 A
-DB ARINC SIGNAL GATEWAY (LEFT), RSCF
-DB ARINC SIGNAL GATEWAY (RIGHT), RSCF
-ATA 313500
-MSG 3140202 A
-DB ACMF IN RIGHT AIMS
-ATA 342100
-MSG 4517100 A
-DB CE</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1002</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2095 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">22.09.2026 15:21 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C43A · Level -32.1 dB
-            </div>
-
-            <div class="acars-text">EF 1 22SEP26 1522 CAB-2095 CAO1002 EHAM/ZSPD 311B-BCG-00W-19 L
-ATA 232701
-MSG 2371712 A
-DB DCMF IN RIGHT AIMS
-MSG 2371710 A
-DB DCMF IN RIGHT AIMS
-MSG 2371713 A
-DB DCMF IN LEFT AIMS
-MSG 2371711 A
-DB</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA1002</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2095 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">22.09.2026 15:21 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S22A · Level -32.0 dB
-            </div>
-
-            <div class="acars-text">No text</div>
         </article>
         
     </div>
