@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.09.2026 14:03 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -32.5,
-      "label": "Q0",
-      "msgno": "S85A",
-      "text": "No text"
-    },
-    {
-      "time": "22.09.2026 14:58 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8231",
-      "freq": 131.725,
-      "level": -30.2,
-      "label": "_d",
-      "msgno": "S27A",
-      "text": "No text"
-    },
-    {
-      "time": "22.09.2026 15:00 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -27.2,
-      "label": "H1",
-      "msgno": "C27A",
-      "text": ".1/FLR/FR2609221459  34363106IR2    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "22.09.2026 15:05 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -28.8,
-      "label": "H1",
-      "msgno": "C28A",
-      "text": ".1/WRN/WN2609221505  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "22.09.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "CA1002",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "H1",
-      "msgno": "O14A",
-      "text": "SB0122BA_B-2095  EHAMZSPD725\r\n 61404 0255951513 31005-430017054010/9W014017"
-    },
-    {
       "time": "22.09.2026 15:18 UTC",
       "source": "ACARS",
       "flight": "CA3158",
@@ -328,6 +273,61 @@
       "level": -35.4,
       "label": "5V",
       "msgno": "S38A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 12:30 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "5V",
+      "msgno": "S42A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 12:32 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "5V",
+      "msgno": "S46A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 12:33 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "SA",
+      "msgno": "S49A",
+      "text": "0EV123334VSH/"
+    },
+    {
+      "time": "23.09.2026 12:33 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -26.9,
+      "label": "5V",
+      "msgno": "S50A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 12:34 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "Q0",
+      "msgno": "S52A",
       "text": "No text"
     }
   ]
