@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.09.2026 15:01 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -27.2,
-      "label": "B9",
-      "msgno": "J11A",
-      "text": "/EKCH.TI2/000EKCHA0475"
-    },
-    {
-      "time": "21.09.2026 15:02 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -27.9,
-      "label": "_d",
-      "msgno": "S32A",
-      "text": "No text"
-    },
-    {
       "time": "21.09.2026 15:05 UTC",
       "source": "ACARS",
       "flight": "MU0707",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S65A",
       "text": "0EV024442VS/"
+    },
+    {
+      "time": "23.09.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATP",
+      "freq": 131.725,
+      "level": -29.9,
+      "label": "SA",
+      "msgno": "M00A",
+      "text": "0EV025735V"
+    },
+    {
+      "time": "23.09.2026 02:58 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATP",
+      "freq": 131.725,
+      "level": -28.8,
+      "label": "5V",
+      "msgno": "S01A",
+      "text": "No text"
     }
   ]
 }
