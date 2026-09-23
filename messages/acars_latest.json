@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.09.2026 15:18 UTC",
-      "source": "ACARS",
-      "flight": "CA3158",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "H1",
-      "msgno": "C28A",
-      "text": ".1/WRN/WN2609221518  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "22.09.2026 15:19 UTC",
-      "source": "ACARS",
-      "flight": "CA3158",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -36.3,
-      "label": "H1",
-      "msgno": "C29A",
-      "text": ".1/WRN/WN2609221519  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "22.09.2026 15:20 UTC",
-      "source": "ACARS",
-      "flight": "CA1002",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "10",
-      "msgno": "M11A",
-      "text": "POS221520, N 6180,E 2723,826,308,2115 ,  47,30999, 757,-105,-420,7"
-    },
-    {
-      "time": "22.09.2026 15:21 UTC",
-      "source": "ACARS",
-      "flight": "CA1002",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "_d",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
       "time": "22.09.2026 15:21 UTC",
       "source": "ACARS",
       "flight": "CA1002",
@@ -328,6 +284,50 @@
       "level": -29.9,
       "label": "Q0",
       "msgno": "S52A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 12:35 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "5V",
+      "msgno": "S54A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 12:36 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "Q0",
+      "msgno": "S56A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 12:36 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "SA",
+      "msgno": "S57A",
+      "text": "0EV123718VSH/"
+    },
+    {
+      "time": "23.09.2026 12:37 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226N",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "5V",
+      "msgno": "S58A",
       "text": "No text"
     }
   ]
