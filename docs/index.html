@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.09.2026 04:05 UTC</div>
+        <div class="value">23.09.2026 04:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,16 +277,16 @@ footer {
                     <div class="flight">DKH1661</div>
                     <div class="meta">ICAO 781942 · REG B-20EQ · TYPE B789</div>
                 </div>
-                <div class="alt-badge high">38000 ft</div>
+                <div class="alt-badge high">37975 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>526.0 kt</b></div>
-                    <div><span>Track</span><b>244.34°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>23.09.2026 04:05 UTC</b></div>
+                    <div><span>Track</span><b>244.16°</b></div>
+                    <div><span>Position</span><b>61.2130, 25.4049</b></div>
+                    <div><span>Last seen</span><b>23.09.2026 04:06 UTC</b></div>
                 </div>
             </div>
 
@@ -763,7 +763,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F2", "flight": "FIN7DC", "lat": 61.652201, "lon": 25.121765, "alt": 25000, "speed": 302.3, "last_seen": "23.09.2026 03:24 UTC"}, {"hex": "461E15", "flight": "FIN4MP", "lat": 61.368419, "lon": 25.043945, "alt": 32975, "speed": 482.2, "last_seen": "23.09.2026 03:13 UTC"}, {"hex": "4601FD", "flight": "FIN8KH", "lat": 61.549088, "lon": 25.457764, "alt": 16050, "speed": 293.9, "last_seen": "23.09.2026 03:11 UTC"}, {"hex": "4601F7", "flight": "FIN4QA", "lat": 61.222105, "lon": 25.6309, "alt": 22000, "speed": 254.9, "last_seen": "23.09.2026 03:00 UTC"}, {"hex": "781F29", "flight": "CES709", "lat": 61.480796, "lon": 25.411072, "alt": 38000, "speed": "-", "last_seen": "23.09.2026 02:08 UTC"}];
+const aircraft = [{"hex": "781942", "flight": "DKH1661", "lat": 61.213027, "lon": 25.404867, "alt": 37975, "speed": 526.0, "last_seen": "23.09.2026 04:06 UTC"}, {"hex": "4601F2", "flight": "FIN7DC", "lat": 61.652201, "lon": 25.121765, "alt": 25000, "speed": 302.3, "last_seen": "23.09.2026 03:24 UTC"}, {"hex": "461E15", "flight": "FIN4MP", "lat": 61.368419, "lon": 25.043945, "alt": 32975, "speed": 482.2, "last_seen": "23.09.2026 03:13 UTC"}, {"hex": "4601FD", "flight": "FIN8KH", "lat": 61.549088, "lon": 25.457764, "alt": 16050, "speed": 293.9, "last_seen": "23.09.2026 03:11 UTC"}, {"hex": "4601F7", "flight": "FIN4QA", "lat": 61.222105, "lon": 25.6309, "alt": 22000, "speed": 254.9, "last_seen": "23.09.2026 03:00 UTC"}, {"hex": "781F29", "flight": "CES709", "lat": 61.480796, "lon": 25.411072, "alt": 38000, "speed": "-", "last_seen": "23.09.2026 02:08 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
