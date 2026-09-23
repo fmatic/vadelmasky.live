@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.09.2026 15:05 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -35.1,
-      "label": "SA",
-      "msgno": "S33A",
-      "text": "0LS150623VH"
-    },
-    {
-      "time": "21.09.2026 17:10 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "_d",
-      "msgno": "S34A",
-      "text": "No text"
-    },
-    {
       "time": "21.09.2026 17:12 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S01A",
       "text": "No text"
+    },
+    {
+      "time": "23.09.2026 10:18 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "Q0",
+      "msgno": "S54A",
+      "text": "No text"
+    },
+    {
+      "time": "23.09.2026 10:20 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "18",
+      "msgno": "M72A",
+      "text": "POX,CSG2518   ,23SEP26,102024,EGPK,ZGGG,N061.76,E0026.91,370, 630,833,  76.5,  76.1,031,-54.2,192324, 29160,"
     }
   ]
 }
