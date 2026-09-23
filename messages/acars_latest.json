@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.09.2026 17:12 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -28.2,
-      "label": "5V",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
       "time": "22.09.2026 02:56 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +318,17 @@
       "label": "18",
       "msgno": "M72A",
       "text": "POX,CSG2518   ,23SEP26,102024,EGPK,ZGGG,N061.76,E0026.91,370, 630,833,  76.5,  76.1,031,-54.2,192324, 29160,"
+    },
+    {
+      "time": "23.09.2026 10:20 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -29.2,
+      "label": "H1",
+      "msgno": "O90A",
+      "text": "SB0122BA_B-2075  EGPKZGGG464\r\n 61758 0266751019 36998-520078031010PSZ010012"
     }
   ]
 }
