@@ -6,17 +6,6 @@
       "flight": "CA1002",
       "tail": "B-2095",
       "freq": 131.825,
-      "level": -32.1,
-      "label": "H1",
-      "msgno": "C43B",
-      "text": " DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CE"
-    },
-    {
-      "time": "22.09.2026 15:21 UTC",
-      "source": "ACARS",
-      "flight": "CA1002",
-      "tail": "B-2095",
-      "freq": 131.825,
       "level": -32.7,
       "label": "H1",
       "msgno": "C43C",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O57A",
       "text": "SB0122BA_B-2097  ZSPDEBLG808\r\n 61442 0262171438 31997-490079044010NXW012013"
+    },
+    {
+      "time": "23.09.2026 15:31 UTC",
+      "source": "ACARS",
+      "flight": "CZ5202",
+      "tail": "B-20EN",
+      "freq": 131.825,
+      "level": -30.0,
+      "label": "18",
+      "msgno": "M32A",
+      "text": "POX,CSN5202   ,09MAY46,153157,ENGM,ZSPD,N062.23,E0026.09,290, 811,830,  68.1,  80.6,032,-43.9,235357, 30000,"
     }
   ]
 }
