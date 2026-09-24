@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -252,7 +252,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">38000 ft</div>
+        <div class="value">38225 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">24.09.2026 06:10 UTC</div>
+        <div class="value">24.09.2026 06:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHTFE</div>
+                    <div class="meta">ICAO 4632B2 · REG OH-TFE · TYPE E55P</div>
+                </div>
+                <div class="alt-badge high">38225 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>185.5 kt</b></div>
+                    <div><span>Track</span><b>219.09°</b></div>
+                    <div><span>Position</span><b>61.9210, 25.4176</b></div>
+                    <div><span>Last seen</span><b>24.09.2026 06:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-TFE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -291,30 +315,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">OHTFE</div>
-                    <div class="meta">ICAO 4632B2 · REG OH-TFE · TYPE E55P</div>
-                </div>
-                <div class="alt-badge high">32925 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>329.5 kt</b></div>
-                    <div><span>Track</span><b>225.74°</b></div>
-                    <div><span>Position</span><b>62.2747, 26.1024</b></div>
-                    <div><span>Last seen</span><b>24.09.2026 06:10 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-TFE" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -929,7 +929,7 @@ B-2097  CAO844LEMDZSPD240926040159ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F6", "flight": "FIN5ET", "lat": 61.276804, "lon": 25.718282, "alt": 14000, "speed": 260.8, "last_seen": "24.09.2026 06:10 UTC"}, {"hex": "4632B2", "flight": "OHTFE", "lat": 62.274698, "lon": 26.102354, "alt": 32925, "speed": 329.5, "last_seen": "24.09.2026 06:10 UTC"}, {"hex": "461F31", "flight": "FIN7AZ", "lat": 61.460964, "lon": 25.290833, "alt": 33025, "speed": 404.0, "last_seen": "24.09.2026 05:00 UTC"}, {"hex": "461E1A", "flight": "FIN4MP", "lat": 59.582907, "lon": 28.236473, "alt": 33025, "speed": 179.4, "last_seen": "24.09.2026 03:23 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.584778, "lon": 25.470919, "alt": 16025, "speed": 268.0, "last_seen": "24.09.2026 03:08 UTC"}];
+const aircraft = [{"hex": "4632B2", "flight": "OHTFE", "lat": 61.920994, "lon": 25.417582, "alt": 38225, "speed": 185.5, "last_seen": "24.09.2026 06:15 UTC"}, {"hex": "4601F6", "flight": "FIN5ET", "lat": 61.276804, "lon": 25.718282, "alt": 14000, "speed": 260.8, "last_seen": "24.09.2026 06:10 UTC"}, {"hex": "461F31", "flight": "FIN7AZ", "lat": 61.460964, "lon": 25.290833, "alt": 33025, "speed": 404.0, "last_seen": "24.09.2026 05:00 UTC"}, {"hex": "461E1A", "flight": "FIN4MP", "lat": 59.582907, "lon": 28.236473, "alt": 33025, "speed": 179.4, "last_seen": "24.09.2026 03:23 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.584778, "lon": 25.470919, "alt": 16025, "speed": 268.0, "last_seen": "24.09.2026 03:08 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
