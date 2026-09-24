@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">47</div>
+        <div class="value">48</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">24.09.2026 21:15 UTC</div>
+        <div class="value">24.09.2026 21:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,19 +274,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">FIN4HX</div>
-                    <div class="meta">ICAO 461E1C · REG OH-LKM · TYPE E190</div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
                 </div>
-                <div class="alt-badge high">30600 ft</div>
+                <div class="alt-badge mid">21025 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>468.0 kt</b></div>
-                    <div><span>Track</span><b>3.34°</b></div>
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>24.09.2026 21:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4HX</div>
+                    <div class="meta">ICAO 461E1C · REG OH-LKM · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">32000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>462.0 kt</b></div>
+                    <div><span>Track</span><b>3.87°</b></div>
                     <div><span>Position</span><b>61.5385, 25.2743</b></div>
-                    <div><span>Last seen</span><b>24.09.2026 21:15 UTC</b></div>
+                    <div><span>Last seen</span><b>24.09.2026 21:19 UTC</b></div>
                 </div>
             </div>
 
@@ -1627,7 +1651,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461E1C", "flight": "FIN4HX", "lat": 61.53852, "lon": 25.274251, "alt": 30600, "speed": 468.0, "last_seen": "24.09.2026 21:15 UTC"}, {"hex": "4601FD", "flight": "FIN7016", "lat": 61.689331, "lon": 25.418047, "alt": 17000, "speed": 277.4, "last_seen": "24.09.2026 20:54 UTC"}, {"hex": "780560", "flight": "CES772", "lat": 61.555419, "lon": 25.379537, "alt": 31000, "speed": 476.0, "last_seen": "24.09.2026 20:47 UTC"}, {"hex": "461F69", "flight": "FIN4MZ", "lat": 61.160283, "lon": 25.274963, "alt": 30075, "speed": 350.0, "last_seen": "24.09.2026 20:39 UTC"}, {"hex": "780D22", "flight": "CES708", "lat": 61.59308, "lon": 25.366211, "alt": 31000, "speed": 426.0, "last_seen": "24.09.2026 20:37 UTC"}, {"hex": "7819D6", "flight": "CES214", "lat": 61.746237, "lon": 25.910848, "alt": 37000, "speed": 490.0, "last_seen": "24.09.2026 19:47 UTC"}, {"hex": "781EBB", "flight": "-", "lat": 61.179323, "lon": 25.846558, "alt": 31000, "speed": 476.0, "last_seen": "24.09.2026 19:15 UTC"}, {"hex": "781E34", "flight": "-", "lat": 61.065689, "lon": 25.809733, "alt": 31000, "speed": 482.0, "last_seen": "24.09.2026 18:00 UTC"}, {"hex": "4601F9", "flight": "FIN7BT", "lat": 61.343886, "lon": 25.466614, "alt": 14025, "speed": 268.8, "last_seen": "24.09.2026 17:20 UTC"}, {"hex": "7803BF", "flight": "CES289", "lat": 62.082856, "lon": 25.607198, "alt": 36000, "speed": 450.0, "last_seen": "24.09.2026 16:28 UTC"}, {"hex": "4ACA8A", "flight": "NSZ2528", "lat": 62.013353, "lon": 25.452271, "alt": 30925, "speed": 512.0, "last_seen": "24.09.2026 16:23 UTC"}, {"hex": "4601F2", "flight": "FIN6YP", "lat": 61.266423, "lon": 25.710856, "alt": 15025, "speed": 267.4, "last_seen": "24.09.2026 16:03 UTC"}, {"hex": "461E1B", "flight": "FIN9XG", "lat": 61.539172, "lon": 25.294596, "alt": 33350, "speed": 204.0, "last_seen": "24.09.2026 15:50 UTC"}, {"hex": "461FA4", "flight": "FIN5YR", "lat": 61.521575, "lon": 25.311076, "alt": 30000, "speed": 386.0, "last_seen": "24.09.2026 15:23 UTC"}, {"hex": "780450", "flight": "CA3056", "lat": 61.856, "lon": 27.411, "alt": 37000, "speed": 460.0, "last_seen": "24.09.2026 15:20 UTC"}, {"hex": "781134", "flight": "CBJ622", "lat": 61.307435, "lon": 25.924276, "alt": 37000, "speed": 238.0, "last_seen": "24.09.2026 15:11 UTC"}, {"hex": "780DA0", "flight": "CES554", "lat": 61.28388, "lon": 25.882161, "alt": 31000, "speed": 253.3, "last_seen": "24.09.2026 14:39 UTC"}, {"hex": "780F39", "flight": "CES551", "lat": 62.055111, "lon": 25.506592, "alt": 34000, "speed": 236.4, "last_seen": "24.09.2026 14:26 UTC"}, {"hex": "467894", "flight": "T15", "lat": 62.310217, "lon": 25.875338, "alt": 2775, "speed": 193.7, "last_seen": "24.09.2026 13:46 UTC"}, {"hex": "780FF1", "flight": "CHH408", "lat": 62.484974, "lon": 26.567794, "alt": 36975, "speed": 471.5, "last_seen": "24.09.2026 13:24 UTC"}, {"hex": "467891", "flight": "T22", "lat": 62.310608, "lon": 25.875651, "alt": 2775, "speed": 148.5, "last_seen": "24.09.2026 13:17 UTC"}, {"hex": "781AA6", "flight": "CES249", "lat": 61.288581, "lon": 25.766093, "alt": 35650, "speed": 480.9, "last_seen": "24.09.2026 12:51 UTC"}, {"hex": "467895", "flight": "T36", "lat": 62.351881, "lon": 26.359793, "alt": 15000, "speed": 246.0, "last_seen": "24.09.2026 12:28 UTC"}, {"hex": "461F67", "flight": "FIN5KR", "lat": 61.561145, "lon": 25.083822, "alt": 33300, "speed": 199.8, "last_seen": "24.09.2026 12:14 UTC"}, {"hex": "781FC4", "flight": "CAO1022", "lat": 61.517386, "lon": 26.029765, "alt": 33000, "speed": 246.4, "last_seen": "24.09.2026 11:39 UTC"}, {"hex": "4601FC", "flight": "FIN26B", "lat": 61.212189, "lon": 25.703939, "alt": 16000, "speed": 127.0, "last_seen": "24.09.2026 11:23 UTC"}, {"hex": "461FA5", "flight": "FIN14J", "lat": 61.475256, "lon": 25.29012, "alt": 30575, "speed": 362.0, "last_seen": "24.09.2026 07:00 UTC"}, {"hex": "4632B2", "flight": "OHTFE", "lat": 61.920994, "lon": 25.417582, "alt": 38225, "speed": 185.5, "last_seen": "24.09.2026 06:15 UTC"}, {"hex": "4601F6", "flight": "FIN5ET", "lat": 61.276804, "lon": 25.718282, "alt": 14000, "speed": 260.8, "last_seen": "24.09.2026 06:10 UTC"}, {"hex": "461F31", "flight": "FIN7AZ", "lat": 61.460964, "lon": 25.290833, "alt": 33025, "speed": 404.0, "last_seen": "24.09.2026 05:00 UTC"}, {"hex": "461E1A", "flight": "FIN4MP", "lat": 59.582907, "lon": 28.236473, "alt": 33025, "speed": 179.4, "last_seen": "24.09.2026 03:23 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.584778, "lon": 25.470919, "alt": 16025, "speed": 268.0, "last_seen": "24.09.2026 03:08 UTC"}];
+const aircraft = [{"hex": "461E1C", "flight": "FIN4HX", "lat": 61.53852, "lon": 25.274251, "alt": 32000, "speed": 462.0, "last_seen": "24.09.2026 21:19 UTC"}, {"hex": "4601FD", "flight": "FIN7016", "lat": 61.689331, "lon": 25.418047, "alt": 17000, "speed": 277.4, "last_seen": "24.09.2026 20:54 UTC"}, {"hex": "780560", "flight": "CES772", "lat": 61.555419, "lon": 25.379537, "alt": 31000, "speed": 476.0, "last_seen": "24.09.2026 20:47 UTC"}, {"hex": "461F69", "flight": "FIN4MZ", "lat": 61.160283, "lon": 25.274963, "alt": 30075, "speed": 350.0, "last_seen": "24.09.2026 20:39 UTC"}, {"hex": "780D22", "flight": "CES708", "lat": 61.59308, "lon": 25.366211, "alt": 31000, "speed": 426.0, "last_seen": "24.09.2026 20:37 UTC"}, {"hex": "7819D6", "flight": "CES214", "lat": 61.746237, "lon": 25.910848, "alt": 37000, "speed": 490.0, "last_seen": "24.09.2026 19:47 UTC"}, {"hex": "781EBB", "flight": "-", "lat": 61.179323, "lon": 25.846558, "alt": 31000, "speed": 476.0, "last_seen": "24.09.2026 19:15 UTC"}, {"hex": "781E34", "flight": "-", "lat": 61.065689, "lon": 25.809733, "alt": 31000, "speed": 482.0, "last_seen": "24.09.2026 18:00 UTC"}, {"hex": "4601F9", "flight": "FIN7BT", "lat": 61.343886, "lon": 25.466614, "alt": 14025, "speed": 268.8, "last_seen": "24.09.2026 17:20 UTC"}, {"hex": "7803BF", "flight": "CES289", "lat": 62.082856, "lon": 25.607198, "alt": 36000, "speed": 450.0, "last_seen": "24.09.2026 16:28 UTC"}, {"hex": "4ACA8A", "flight": "NSZ2528", "lat": 62.013353, "lon": 25.452271, "alt": 30925, "speed": 512.0, "last_seen": "24.09.2026 16:23 UTC"}, {"hex": "4601F2", "flight": "FIN6YP", "lat": 61.266423, "lon": 25.710856, "alt": 15025, "speed": 267.4, "last_seen": "24.09.2026 16:03 UTC"}, {"hex": "461E1B", "flight": "FIN9XG", "lat": 61.539172, "lon": 25.294596, "alt": 33350, "speed": 204.0, "last_seen": "24.09.2026 15:50 UTC"}, {"hex": "461FA4", "flight": "FIN5YR", "lat": 61.521575, "lon": 25.311076, "alt": 30000, "speed": 386.0, "last_seen": "24.09.2026 15:23 UTC"}, {"hex": "780450", "flight": "CA3056", "lat": 61.856, "lon": 27.411, "alt": 37000, "speed": 460.0, "last_seen": "24.09.2026 15:20 UTC"}, {"hex": "781134", "flight": "CBJ622", "lat": 61.307435, "lon": 25.924276, "alt": 37000, "speed": 238.0, "last_seen": "24.09.2026 15:11 UTC"}, {"hex": "780DA0", "flight": "CES554", "lat": 61.28388, "lon": 25.882161, "alt": 31000, "speed": 253.3, "last_seen": "24.09.2026 14:39 UTC"}, {"hex": "780F39", "flight": "CES551", "lat": 62.055111, "lon": 25.506592, "alt": 34000, "speed": 236.4, "last_seen": "24.09.2026 14:26 UTC"}, {"hex": "467894", "flight": "T15", "lat": 62.310217, "lon": 25.875338, "alt": 2775, "speed": 193.7, "last_seen": "24.09.2026 13:46 UTC"}, {"hex": "780FF1", "flight": "CHH408", "lat": 62.484974, "lon": 26.567794, "alt": 36975, "speed": 471.5, "last_seen": "24.09.2026 13:24 UTC"}, {"hex": "467891", "flight": "T22", "lat": 62.310608, "lon": 25.875651, "alt": 2775, "speed": 148.5, "last_seen": "24.09.2026 13:17 UTC"}, {"hex": "781AA6", "flight": "CES249", "lat": 61.288581, "lon": 25.766093, "alt": 35650, "speed": 480.9, "last_seen": "24.09.2026 12:51 UTC"}, {"hex": "467895", "flight": "T36", "lat": 62.351881, "lon": 26.359793, "alt": 15000, "speed": 246.0, "last_seen": "24.09.2026 12:28 UTC"}, {"hex": "461F67", "flight": "FIN5KR", "lat": 61.561145, "lon": 25.083822, "alt": 33300, "speed": 199.8, "last_seen": "24.09.2026 12:14 UTC"}, {"hex": "781FC4", "flight": "CAO1022", "lat": 61.517386, "lon": 26.029765, "alt": 33000, "speed": 246.4, "last_seen": "24.09.2026 11:39 UTC"}, {"hex": "4601FC", "flight": "FIN26B", "lat": 61.212189, "lon": 25.703939, "alt": 16000, "speed": 127.0, "last_seen": "24.09.2026 11:23 UTC"}, {"hex": "461FA5", "flight": "FIN14J", "lat": 61.475256, "lon": 25.29012, "alt": 30575, "speed": 362.0, "last_seen": "24.09.2026 07:00 UTC"}, {"hex": "4632B2", "flight": "OHTFE", "lat": 61.920994, "lon": 25.417582, "alt": 38225, "speed": 185.5, "last_seen": "24.09.2026 06:15 UTC"}, {"hex": "4601F6", "flight": "FIN5ET", "lat": 61.276804, "lon": 25.718282, "alt": 14000, "speed": 260.8, "last_seen": "24.09.2026 06:10 UTC"}, {"hex": "461F31", "flight": "FIN7AZ", "lat": 61.460964, "lon": 25.290833, "alt": 33025, "speed": 404.0, "last_seen": "24.09.2026 05:00 UTC"}, {"hex": "461E1A", "flight": "FIN4MP", "lat": 59.582907, "lon": 28.236473, "alt": 33025, "speed": 179.4, "last_seen": "24.09.2026 03:23 UTC"}, {"hex": "4601F4", "flight": "FIN8KH", "lat": 61.584778, "lon": 25.470919, "alt": 16025, "speed": 268.0, "last_seen": "24.09.2026 03:08 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
