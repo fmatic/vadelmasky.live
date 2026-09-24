@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.09.2026 15:21 UTC",
-      "source": "ACARS",
-      "flight": "CA1002",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "H1",
-      "msgno": "C43C",
-      "text": "EF 1 22SEP26 1522 CAB-2095 CAO1002 EHAM/ZSPD 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 344500\r\nMSG 3445040 L\r\nDB TCAS COMPUTER\r\nEOR\r\n"
-    },
-    {
-      "time": "22.09.2026 20:25 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-8231",
-      "freq": 131.725,
-      "level": -34.4,
-      "label": "Q0",
-      "msgno": "S39A",
-      "text": "No text"
-    },
-    {
       "time": "22.09.2026 20:25 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -329,6 +307,28 @@
       "label": "18",
       "msgno": "M32A",
       "text": "POX,CSN5202   ,09MAY46,153157,ENGM,ZSPD,N062.23,E0026.09,290, 811,830,  68.1,  80.6,032,-43.9,235357, 30000,"
+    },
+    {
+      "time": "24.09.2026 02:56 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -29.1,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "24.09.2026 02:56 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "B9",
+      "msgno": "L00A",
+      "text": "/EFHK.TI2/024EFHKCDE51"
     }
   ]
 }
