@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.09.2026 10:56 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "5V",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
       "time": "23.09.2026 12:28 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C25A",
       "text": ".1/WRN/WN2609241444  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "24.09.2026 14:45 UTC",
+      "source": "ACARS",
+      "flight": "CA3056",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "C26A",
+      "text": ".1/FLR/FR2609241444  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
