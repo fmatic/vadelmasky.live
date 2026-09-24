@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.09.2026 12:36 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -29.4,
-      "label": "SA",
-      "msgno": "S57A",
-      "text": "0EV123718VSH/"
-    },
-    {
-      "time": "23.09.2026 12:37 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-226N",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "5V",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
       "time": "23.09.2026 14:33 UTC",
       "source": "ACARS",
       "flight": "CA8439",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S93A",
       "text": "0LS204044V"
+    },
+    {
+      "time": "24.09.2026 20:40 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -27.3,
+      "label": "H1",
+      "msgno": "C25A",
+      "text": ".1/FLR/FR2609242040  34361606MMR1   1,IR1,IR3,IR2,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "24.09.2026 20:42 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -38.3,
+      "label": "H1",
+      "msgno": "C26A",
+      "text": ".1/WRN/WN2609242042  345801006NAV GPS 2 FAULT"
     }
   ]
 }
