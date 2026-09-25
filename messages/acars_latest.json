@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.09.2026 11:28 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "Q0",
-      "msgno": "S78A",
-      "text": "No text"
-    },
-    {
-      "time": "24.09.2026 11:59 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -28.2,
-      "label": "Q0",
-      "msgno": "S81A",
-      "text": "No text"
-    },
-    {
-      "time": "24.09.2026 11:59 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -27.8,
-      "label": "Q0",
-      "msgno": "M20A",
-      "text": "No text"
-    },
-    {
-      "time": "24.09.2026 11:59 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "SA",
-      "msgno": "S82A",
-      "text": "0EV115953V"
-    },
-    {
-      "time": "24.09.2026 12:00 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "_d",
-      "msgno": "S83A",
-      "text": "No text"
-    },
-    {
-      "time": "24.09.2026 12:00 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "_d",
-      "msgno": "S84A",
-      "text": "No text"
-    },
-    {
       "time": "24.09.2026 14:39 UTC",
       "source": "ACARS",
       "flight": "CA3056",
@@ -328,6 +262,72 @@
       "level": -36.7,
       "label": "_d",
       "msgno": "S43A",
+      "text": "No text"
+    },
+    {
+      "time": "25.09.2026 13:00 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "10",
+      "msgno": "M27A",
+      "text": "POS251301, N 6199,E 2580,828,282,12316,  43,35003, 662,-104,-420,7"
+    },
+    {
+      "time": "25.09.2026 13:03 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -26.6,
+      "label": "_d",
+      "msgno": "S79A",
+      "text": "No text"
+    },
+    {
+      "time": "25.09.2026 13:03 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -27.6,
+      "label": "H1",
+      "msgno": "C63A",
+      "text": "EF 1 25SEP26 1303 CAB-2094 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB "
+    },
+    {
+      "time": "25.09.2026 13:03 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -28.7,
+      "label": "H1",
+      "msgno": "C63B",
+      "text": "DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CE"
+    },
+    {
+      "time": "25.09.2026 13:03 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "H1",
+      "msgno": "C63C",
+      "text": "EF 1 25SEP26 1303 CAB-2094 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nEOR\r\n"
+    },
+    {
+      "time": "25.09.2026 13:04 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -27.4,
+      "label": "_d",
+      "msgno": "S80A",
       "text": "No text"
     }
   ]
