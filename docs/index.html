@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -252,17 +252,17 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">39000 ft</div>
+        <div class="value">38000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">522.0 kt</div>
+        <div class="value">2165.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">25.09.2026 03:10 UTC</div>
+        <div class="value">25.09.2026 03:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,16 +277,16 @@ footer {
                     <div class="flight">FIN8MC</div>
                     <div class="meta">ICAO 461F31 · REG OH-LVD · TYPE A319</div>
                 </div>
-                <div class="alt-badge high">32625 ft</div>
+                <div class="alt-badge high">31475 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>434.0 kt</b></div>
-                    <div><span>Track</span><b>181.41°</b></div>
-                    <div><span>Position</span><b>61.5079, 25.2904</b></div>
-                    <div><span>Last seen</span><b>25.09.2026 03:10 UTC</b></div>
+                    <div><span>Speed</span><b>2165.0 kt</b></div>
+                    <div><span>Track</span><b>242.25°</b></div>
+                    <div><span>Position</span><b>61.2517, 25.3168</b></div>
+                    <div><span>Last seen</span><b>25.09.2026 03:13 UTC</b></div>
                 </div>
             </div>
 
@@ -301,16 +301,16 @@ footer {
                     <div class="flight">FIN4MP</div>
                     <div class="meta">ICAO 461E1C · REG OH-LKM · TYPE E190</div>
                 </div>
-                <div class="alt-badge high">39000 ft</div>
+                <div class="alt-badge high">36600 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>458.0 kt</b></div>
-                    <div><span>Track</span><b>182.81°</b></div>
-                    <div><span>Position</span><b>61.6802, 25.3364</b></div>
-                    <div><span>Last seen</span><b>25.09.2026 03:10 UTC</b></div>
+                    <div><span>Speed</span><b>8.0 kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>59.5854, 28.2371</b></div>
+                    <div><span>Last seen</span><b>25.09.2026 03:12 UTC</b></div>
                 </div>
             </div>
 
@@ -763,7 +763,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461F31", "flight": "FIN8MC", "lat": 61.507889, "lon": 25.290426, "alt": 32625, "speed": 434.0, "last_seen": "25.09.2026 03:10 UTC"}, {"hex": "461E1C", "flight": "FIN4MP", "lat": 61.680179, "lon": 25.336405, "alt": 39000, "speed": 458.0, "last_seen": "25.09.2026 03:10 UTC"}, {"hex": "780019", "flight": "CAO1154", "lat": 62.353743, "lon": 26.65167, "alt": 37000, "speed": 422.0, "last_seen": "25.09.2026 03:09 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.729889, "lon": 25.400587, "alt": 15325, "speed": 226.6, "last_seen": "25.09.2026 03:03 UTC"}, {"hex": "4601F6", "flight": "FIN4QA", "lat": 62.003717, "lon": 26.548971, "alt": 14025, "speed": 285.5, "last_seen": "25.09.2026 03:00 UTC"}, {"hex": "78158A", "flight": "DKH1661", "lat": 61.238864, "lon": 25.319112, "alt": 38000, "speed": 522.0, "last_seen": "25.09.2026 02:52 UTC"}];
+const aircraft = [{"hex": "461F31", "flight": "FIN8MC", "lat": 61.251666, "lon": 25.316772, "alt": 31475, "speed": 2165.0, "last_seen": "25.09.2026 03:13 UTC"}, {"hex": "461E1C", "flight": "FIN4MP", "lat": 59.585375, "lon": 28.237136, "alt": 36600, "speed": 8.0, "last_seen": "25.09.2026 03:12 UTC"}, {"hex": "780019", "flight": "CAO1154", "lat": 62.353743, "lon": 26.65167, "alt": 37000, "speed": 422.0, "last_seen": "25.09.2026 03:09 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.729889, "lon": 25.400587, "alt": 15325, "speed": 226.6, "last_seen": "25.09.2026 03:03 UTC"}, {"hex": "4601F6", "flight": "FIN4QA", "lat": 62.003717, "lon": 26.548971, "alt": 14025, "speed": 285.5, "last_seen": "25.09.2026 03:00 UTC"}, {"hex": "78158A", "flight": "DKH1661", "lat": 61.238864, "lon": 25.319112, "alt": 38000, "speed": 522.0, "last_seen": "25.09.2026 02:52 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
