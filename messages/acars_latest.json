@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.09.2026 14:33 UTC",
-      "source": "ACARS",
-      "flight": "CA8439",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "H1",
-      "msgno": "O57A",
-      "text": "SB0122BA_B-2097  ZSPDEBLG808\r\n 61442 0262171438 31997-490079044010NXW012013"
-    },
-    {
-      "time": "23.09.2026 15:31 UTC",
-      "source": "ACARS",
-      "flight": "CZ5202",
-      "tail": "B-20EN",
-      "freq": 131.825,
-      "level": -30.0,
-      "label": "18",
-      "msgno": "M32A",
-      "text": "POX,CSN5202   ,09MAY46,153157,ENGM,ZSPD,N062.23,E0026.09,290, 811,830,  68.1,  80.6,032,-43.9,235357, 30000,"
-    },
-    {
       "time": "24.09.2026 02:56 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C26A",
       "text": ".1/WRN/WN2609242042  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "25.09.2026 05:18 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "H1",
+      "msgno": "O74A",
+      "text": "SB0122BA_B-2094  ZSPDEGPK291\r\n 61938 0273270522 34000-4801200760107GX011013"
+    },
+    {
+      "time": "25.09.2026 05:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -30.2,
+      "label": "_d",
+      "msgno": "S03A",
+      "text": "No text"
     }
   ]
 }
