@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.09.2026 15:05 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "_d",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
-      "time": "25.09.2026 18:24 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "80",
-      "msgno": "M51A",
-      "text": "TXT\r\n D3-79803,CES210 FL350,EEP/1909 EXP/2118,ETP/2011,,,,"
-    },
-    {
-      "time": "25.09.2026 18:25 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "SA",
-      "msgno": "S79A",
-      "text": "0LS182622V"
-    },
-    {
-      "time": "25.09.2026 18:30 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "H1",
-      "msgno": "C78A",
-      "text": ".1/FLR/FR2609251830  34361606MMR1   1,IR2,IR1,IR3,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "25.09.2026 21:42 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "H1",
-      "msgno": "C36A",
-      "text": ".1/WRN/WN2609252142  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "26.09.2026 02:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -28.0,
-      "label": "Q0",
-      "msgno": "S11A",
-      "text": "No text"
-    },
-    {
-      "time": "26.09.2026 02:34 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -28.5,
-      "label": "Q0",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
       "time": "26.09.2026 02:34 UTC",
       "source": "ACARS",
       "flight": "HO1661",
@@ -329,6 +252,83 @@
       "label": "H1",
       "msgno": "E61D",
       "text": "1,31.0,11.2,30.9,,0.816,0.797,0.814,,0,,1354,,0,,1354,,0,,1352,,0,,1352,,0,,1354,,42,,1297,,0,,1352,,41,,1276,,0,,1354,,42,,1297,,0,,1352,,41,,1276,,35,,1354,,33,,1297,,34,,1352,,33,,1276,,34,,1354,,14,,129"
+    },
+    {
+      "time": "26.09.2026 12:41 UTC",
+      "source": "ACARS",
+      "flight": "HO1662",
+      "tail": "B-208A",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "5V",
+      "msgno": "S30A",
+      "text": "No text"
+    },
+    {
+      "time": "26.09.2026 12:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1662",
+      "tail": "B-208A",
+      "freq": 131.825,
+      "level": -34.1,
+      "label": "Q0",
+      "msgno": "S32A",
+      "text": "No text"
+    },
+    {
+      "time": "26.09.2026 12:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1662",
+      "tail": "B-208A",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "SA",
+      "msgno": "S33A",
+      "text": "0EV124243VS/"
+    },
+    {
+      "time": "26.09.2026 12:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1662",
+      "tail": "B-208A",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "5V",
+      "msgno": "S34A",
+      "text": "No text"
+    },
+    {
+      "time": "26.09.2026 12:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1662",
+      "tail": "B-208A",
+      "freq": 131.825,
+      "level": -35.3,
+      "label": "Q0",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "26.09.2026 12:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1662",
+      "tail": "B-208A",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "SA",
+      "msgno": "S37A",
+      "text": "0EV124402VS/"
+    },
+    {
+      "time": "26.09.2026 12:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1662",
+      "tail": "B-208A",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "5V",
+      "msgno": "S38A",
+      "text": "No text"
     }
   ]
 }
