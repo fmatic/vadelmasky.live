@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.09.2026 02:36 UTC",
-      "source": "ACARS",
-      "flight": "HO1661",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -28.7,
-      "label": "SA",
-      "msgno": "S17A",
-      "text": "0EV023627VS/"
-    },
-    {
       "time": "26.09.2026 03:35 UTC",
       "source": "ACARS",
       "flight": "CA3156",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S43A",
       "text": "No text"
+    },
+    {
+      "time": "26.09.2026 16:04 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-6546",
+      "freq": 131.725,
+      "level": -37.1,
+      "label": "11",
+      "msgno": "M54A",
+      "text": "POS\r\nCAS 257,LAT N 62.020,LON E 26.802,ALT 38002,FOB 44440,UTC 160524,PD ----.--,WD 240,WS   38,TAT - 26"
     }
   ]
 }
