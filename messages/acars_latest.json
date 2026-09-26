@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.09.2026 13:55 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -39.5,
-      "label": "_d",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
-      "time": "25.09.2026 13:55 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "5V",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
-      "time": "25.09.2026 15:05 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
       "time": "25.09.2026 15:05 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "D08A",
       "text": "110000#DFBTKO003000 423 94209E FJY 260907111051  13.3   9.0  14660.275158560\r\n''''1TOFFA75 02891255  0  0 94.7 94.7 97.1 96.9833834 9478 9463  74.3\r\n  74.16258 57 590.180.340.260.46 601350.030.140.190.04109"
+    },
+    {
+      "time": "26.09.2026 07:52 UTC",
+      "source": "ACARS",
+      "flight": "N70572",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -35.3,
+      "label": "Q0",
+      "msgno": "S66A",
+      "text": "No text"
+    },
+    {
+      "time": "26.09.2026 07:52 UTC",
+      "source": "ACARS",
+      "flight": "N70572",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "SA",
+      "msgno": "S67A",
+      "text": "0EV075258V"
+    },
+    {
+      "time": "26.09.2026 07:52 UTC",
+      "source": "ACARS",
+      "flight": "N70572",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -34.4,
+      "label": "B9",
+      "msgno": "L13A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
     }
   ]
 }
