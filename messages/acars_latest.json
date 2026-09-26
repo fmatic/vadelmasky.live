@@ -6,17 +6,6 @@
       "flight": "CA1008",
       "tail": "B-2094",
       "freq": 131.825,
-      "level": -27.6,
-      "label": "H1",
-      "msgno": "C63A",
-      "text": "EF 1 25SEP26 1303 CAB-2094 CAO1008 EGPK/ZSPD 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371712 A\r\nDB "
-    },
-    {
-      "time": "25.09.2026 13:03 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2094",
-      "freq": 131.825,
       "level": -28.7,
       "label": "H1",
       "msgno": "C63B",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C07A",
       "text": ".1/FLR/FR2609260335  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "26.09.2026 03:41 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "10",
+      "msgno": "M18A",
+      "text": "POS260341,N 61.828,E 28.217,1114,478125,,,38997,102320"
     }
   ]
 }
