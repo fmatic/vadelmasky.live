@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.09.2026 07:02 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -26.2,
-      "label": "B9",
-      "msgno": "L13A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "27.09.2026 07:03 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -25.9,
-      "label": "_d",
-      "msgno": "S65A",
-      "text": "No text"
-    },
-    {
       "time": "27.09.2026 07:03 UTC",
       "source": "ACARS",
       "flight": "N70490",
@@ -329,6 +307,28 @@
       "label": "18",
       "msgno": "M86A",
       "text": "POX,CSG2520   ,27SEP26,141521,EGPK,ZGGG,N061.78,E0027.70,369, 628,830,  73.9, -35.6,038,-53.2,225721, 32760,"
+    },
+    {
+      "time": "27.09.2026 15:20 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "Q0",
+      "msgno": "S10A",
+      "text": "No text"
+    },
+    {
+      "time": "27.09.2026 15:20 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "SA",
+      "msgno": "S11A",
+      "text": "0EV152037V"
     }
   ]
 }
