@@ -6,17 +6,6 @@
       "flight": "N70490",
       "tail": "OH-ATE",
       "freq": 131.825,
-      "level": -27.1,
-      "label": "SA",
-      "msgno": "S64A",
-      "text": "0EV070256V"
-    },
-    {
-      "time": "27.09.2026 07:02 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATE",
-      "freq": 131.825,
       "level": -26.2,
       "label": "B9",
       "msgno": "L13A",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M50A",
       "text": "POSA1N61946E 27198,DOD-01 ,124934,349,KOKAT  ,133705,-53, 57, 599,810"
+    },
+    {
+      "time": "27.09.2026 14:14 UTC",
+      "source": "ACARS",
+      "flight": "CZ2520",
+      "tail": "B-2041",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "18",
+      "msgno": "M86A",
+      "text": "POX,CSG2520   ,27SEP26,141521,EGPK,ZGGG,N061.78,E0027.70,369, 628,830,  73.9, -35.6,038,-53.2,225721, 32760,"
     }
   ]
 }
