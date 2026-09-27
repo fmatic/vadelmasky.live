@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.09.2026 14:14 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2041",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "18",
-      "msgno": "M86A",
-      "text": "POX,CSG2520   ,27SEP26,141521,EGPK,ZGGG,N061.78,E0027.70,369, 628,830,  73.9, -35.6,038,-53.2,225721, 32760,"
-    },
-    {
-      "time": "27.09.2026 15:20 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "Q0",
-      "msgno": "S10A",
-      "text": "No text"
-    },
-    {
       "time": "27.09.2026 15:20 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C65A",
       "text": ".1/WRN/WN2609272043  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "27.09.2026 21:35 UTC",
+      "source": "ACARS",
+      "flight": "N70417",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "Q0",
+      "msgno": "S07A",
+      "text": "No text"
+    },
+    {
+      "time": "27.09.2026 21:35 UTC",
+      "source": "ACARS",
+      "flight": "N70417",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "SA",
+      "msgno": "S08A",
+      "text": "0EV213554V"
     }
   ]
 }
