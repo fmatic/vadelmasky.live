@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.09.2026 13:20 UTC",
-      "source": "ACARS",
-      "flight": "CK0606",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -30.0,
-      "label": "Q0",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
-      "time": "27.09.2026 13:21 UTC",
-      "source": "ACARS",
-      "flight": "CK0606",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "16",
-      "msgno": "M50A",
-      "text": "POSA1N61946E 27198,DOD-01 ,124934,349,KOKAT  ,133705,-53, 57, 599,810"
-    },
-    {
       "time": "27.09.2026 14:14 UTC",
       "source": "ACARS",
       "flight": "CZ2520",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C31A",
       "text": ".1/FLR/FR2609271759  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "27.09.2026 20:42 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -27.4,
+      "label": "Q0",
+      "msgno": "S24A",
+      "text": "No text"
+    },
+    {
+      "time": "27.09.2026 20:43 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "H1",
+      "msgno": "C65A",
+      "text": ".1/WRN/WN2609272043  345801006NAV GPS 2 FAULT"
     }
   ]
 }
