@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">11</div>
+        <div class="value">12</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">28.09.2026 03:15 UTC</div>
+        <div class="value">28.09.2026 03:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16275 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>213.1 kt</b></div>
+                    <div><span>Track</span><b>185.92°</b></div>
+                    <div><span>Position</span><b>61.6407, 25.5751</b></div>
+                    <div><span>Last seen</span><b>28.09.2026 03:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4MP</div>
+                    <div class="meta">ICAO 461E21 · REG OH-LKR · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">26900 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>388.0 kt</b></div>
+                    <div><span>Track</span><b>181.76°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>28.09.2026 03:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -286,7 +334,7 @@ footer {
                     <div><span>Speed</span><b>274.8 kt</b></div>
                     <div><span>Track</span><b>198.9°</b></div>
                     <div><span>Position</span><b>61.9408, 25.9539</b></div>
-                    <div><span>Last seen</span><b>28.09.2026 03:15 UTC</b></div>
+                    <div><span>Last seen</span><b>28.09.2026 03:16 UTC</b></div>
                 </div>
             </div>
 
@@ -298,43 +346,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">FIN8KH</div>
-                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">12125 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>204.0 kt</b></div>
-                    <div><span>Track</span><b>185.63°</b></div>
-                    <div><span>Position</span><b>61.9303, 25.6307</b></div>
-                    <div><span>Last seen</span><b>28.09.2026 03:15 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
                     <div class="flight">FIN8MC</div>
                     <div class="meta">ICAO 461F65 · REG OH-LXD · TYPE A320</div>
                 </div>
-                <div class="alt-badge high">28025 ft</div>
+                <div class="alt-badge high">26725 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>394.0 kt</b></div>
+                    <div><span>Speed</span><b>392.0 kt</b></div>
                     <div><span>Track</span><b>181.41°</b></div>
-                    <div><span>Position</span><b>61.7187, 25.3061</b></div>
-                    <div><span>Last seen</span><b>28.09.2026 03:15 UTC</b></div>
+                    <div><span>Position</span><b>61.6571, 25.3011</b></div>
+                    <div><span>Last seen</span><b>28.09.2026 03:16 UTC</b></div>
                 </div>
             </div>
 
@@ -763,7 +787,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601FA", "flight": "FIN418", "lat": 61.940781, "lon": 25.953925, "alt": 20000, "speed": 274.8, "last_seen": "28.09.2026 03:15 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.930298, "lon": 25.630711, "alt": 12125, "speed": 204.0, "last_seen": "28.09.2026 03:15 UTC"}, {"hex": "461F65", "flight": "FIN8MC", "lat": 61.718724, "lon": 25.306091, "alt": 28025, "speed": 394.0, "last_seen": "28.09.2026 03:15 UTC"}];
+const aircraft = [{"hex": "4601F7", "flight": "FIN8KH", "lat": 61.640656, "lon": 25.575053, "alt": 16275, "speed": 213.1, "last_seen": "28.09.2026 03:20 UTC"}, {"hex": "4601FA", "flight": "FIN418", "lat": 61.940781, "lon": 25.953925, "alt": 20000, "speed": 274.8, "last_seen": "28.09.2026 03:16 UTC"}, {"hex": "461F65", "flight": "FIN8MC", "lat": 61.657136, "lon": 25.301107, "alt": 26725, "speed": 392.0, "last_seen": "28.09.2026 03:16 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
