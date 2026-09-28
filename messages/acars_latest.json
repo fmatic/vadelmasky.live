@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.09.2026 15:22 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "_d",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
-      "time": "27.09.2026 15:22 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "_d",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "27.09.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -39.8,
-      "label": "5V",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
-      "time": "27.09.2026 15:35 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFE",
-      "freq": 131.725,
-      "level": -30.9,
-      "label": "Q0",
-      "msgno": "S24A",
-      "text": "No text"
-    },
-    {
       "time": "27.09.2026 15:35 UTC",
       "source": "ACARS",
       "flight": "GR0000",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "O75A",
       "text": "SB0122BA_B-2095  LEMDZSPD118\r\n 61865 0275001141 34999-550314027010/9W011015"
+    },
+    {
+      "time": "28.09.2026 15:12 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -30.3,
+      "label": "SA",
+      "msgno": "S54A",
+      "text": "0LH151243VS"
+    },
+    {
+      "time": "28.09.2026 15:13 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -27.7,
+      "label": "H1",
+      "msgno": "C44A",
+      "text": ".1/WRN/WN2609281513  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "28.09.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "H1",
+      "msgno": "C45A",
+      "text": ".1/FLR/FR2609281513  34363106MMR2   1,,,,,,,MMR2(40RT2),HARD"
+    },
+    {
+      "time": "28.09.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "H1",
+      "msgno": "C46A",
+      "text": ".1/WRN/WN2609281515  345800506NAV GPS 1 FAULT"
     }
   ]
 }
