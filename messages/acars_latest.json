@@ -6,17 +6,6 @@
       "flight": "GR0000",
       "tail": "OHTFE",
       "freq": 131.725,
-      "level": -30.4,
-      "label": "SA",
-      "msgno": "S18A",
-      "text": "0EV152527V/"
-    },
-    {
-      "time": "27.09.2026 15:35 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFE",
-      "freq": 131.725,
       "level": -29.4,
       "label": "SA",
       "msgno": "S18A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C46A",
       "text": ".1/WRN/WN2609281515  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "28.09.2026 15:15 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "H1",
+      "msgno": "C47A",
+      "text": ".1/FLR/FR2609281515  34363106MMR1   1,,,,,,,MMR1(40RT1),HARD"
     }
   ]
 }
