@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">6</div>
+        <div class="value">8</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">28.09.2026 02:50 UTC</div>
+        <div class="value">28.09.2026 02:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN418</div>
+                    <div class="meta">ICAO 4601FA · REG OH-ATM · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">20000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>271.6 kt</b></div>
+                    <div><span>Track</span><b>198.9°</b></div>
+                    <div><span>Position</span><b>62.3943, 26.2846</b></div>
+                    <div><span>Last seen</span><b>28.09.2026 02:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATM" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 4601F4 · REG OH-ATG · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>28.09.2026 02:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -421,6 +469,24 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70380</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATG · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">28.09.2026 02:54 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label _d · Msg S08A · Level -34.0 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -620,30 +686,12 @@ footer {
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">GR0000</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OHTFE · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">27.09.2026 15:36 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S26A · Level -29.5 dB
-            </div>
-
-            <div class="acars-text">0EV152923V/</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "4601FA", "flight": "FIN418", "lat": 62.394337, "lon": 26.284579, "alt": 20000, "speed": 271.6, "last_seen": "28.09.2026 02:55 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
