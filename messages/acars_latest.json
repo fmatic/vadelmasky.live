@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.09.2026 15:13 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -27.7,
-      "label": "H1",
-      "msgno": "C44A",
-      "text": ".1/WRN/WN2609281513  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "28.09.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "H1",
-      "msgno": "C45A",
-      "text": ".1/FLR/FR2609281513  34363106MMR2   1,,,,,,,MMR2(40RT2),HARD"
-    },
-    {
       "time": "28.09.2026 15:14 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S23A",
       "text": "No text"
+    },
+    {
+      "time": "29.09.2026 17:43 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "Q0",
+      "msgno": "S26A",
+      "text": "No text"
+    },
+    {
+      "time": "29.09.2026 17:43 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "SA",
+      "msgno": "S27A",
+      "text": "0EV174339V"
     }
   ]
 }
