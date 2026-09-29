@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.09.2026 15:36 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFE",
-      "freq": 131.725,
-      "level": -31.5,
-      "label": "SA",
-      "msgno": "S28A",
-      "text": "0EV153632V/"
-    },
-    {
-      "time": "27.09.2026 15:36 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFE",
-      "freq": 131.725,
-      "level": -32.7,
-      "label": "5V",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "27.09.2026 17:55 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -27.1,
-      "label": "Q0",
-      "msgno": "S63A",
-      "text": "No text"
-    },
-    {
-      "time": "27.09.2026 17:58 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -26.2,
-      "label": "H1",
-      "msgno": "C30A",
-      "text": ".1/WRN/WN2609271759  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "27.09.2026 17:59 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "H1",
-      "msgno": "C31A",
-      "text": ".1/FLR/FR2609271759  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
-      "time": "27.09.2026 20:42 UTC",
-      "source": "ACARS",
-      "flight": "CA3158",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -27.4,
-      "label": "Q0",
-      "msgno": "S24A",
-      "text": "No text"
-    },
-    {
       "time": "27.09.2026 20:43 UTC",
       "source": "ACARS",
       "flight": "CA3158",
@@ -329,6 +263,72 @@
       "label": "5V",
       "msgno": "S07A",
       "text": "No text"
+    },
+    {
+      "time": "29.09.2026 07:06 UTC",
+      "source": "ACARS",
+      "flight": "E40005",
+      "tail": "SP-ESC",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "QP",
+      "msgno": "M00A",
+      "text": "EFJYLDZD0658002400016"
+    },
+    {
+      "time": "29.09.2026 07:06 UTC",
+      "source": "ACARS",
+      "flight": "E40005",
+      "tail": "SP-ESC",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "QQ",
+      "msgno": "M01A",
+      "text": "EFJYLDZD0704"
+    },
+    {
+      "time": "29.09.2026 07:06 UTC",
+      "source": "ACARS",
+      "flight": "E40005",
+      "tail": "SP-ESC",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "H1",
+      "msgno": "D02A",
+      "text": "110000#DFBTKO002400 992 94605E FJY 290907041056  13.5   9.5  10150.267154400\r\n''''1TOFFA75 02891255  0  0 93.2 93.2 96.5 96.4819822 9156 9121  74.1\r\n  74.16159 56 580.180.210.140.243271000.020.110.160.09 36"
+    },
+    {
+      "time": "29.09.2026 07:06 UTC",
+      "source": "ACARS",
+      "flight": "E40005",
+      "tail": "SP-ESC",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "H1",
+      "msgno": "D02B",
+      "text": "110000#DFBTKO002400 992 94605E FJY 290907041056  13.5   9.5  10150.267154400\r\n''''1TOFFA75 02891255  0  0 93.2 93.2 96.5 96.4819822 9156 9121  74.1\r\n  74.16159 56 580.180.210.140.243271000.020.110.160.09 36138  0.0  110000#DFB0.\r\n0   0   0 0.00 0.00110LO LO 0001100 998173"
+    },
+    {
+      "time": "29.09.2026 07:06 UTC",
+      "source": "ACARS",
+      "flight": "E40005",
+      "tail": "SP-ESC",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "H1",
+      "msgno": "D03A",
+      "text": "110000#DFB02400092926070402         001352660101819822\r\n                0932109318          09650964        00              0\r\n0\r\n                                 11  11  00000000000        00000000\r\n0\r\n000"
+    },
+    {
+      "time": "29.09.2026 07:07 UTC",
+      "source": "ACARS",
+      "flight": "E40005",
+      "tail": "SP-ESC",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "H1",
+      "msgno": "D03A",
+      "text": "110000#DFB02400092926070402         001352660101819822\r\n                0932109318          09650964        00              0\r\n0\r\n                                 11  11  00000000000        00000000\r\n0\r\n000"
     }
   ]
 }
