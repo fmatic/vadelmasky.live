@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">29.09.2026 05:55 UTC</div>
+        <div class="value">29.09.2026 06:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,10 +283,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>240.0 kt</b></div>
-                    <div><span>Track</span><b>209.45°</b></div>
+                    <div><span>Speed</span><b>239.0 kt</b></div>
+                    <div><span>Track</span><b>209.03°</b></div>
                     <div><span>Position</span><b>61.9960, 26.5667</b></div>
-                    <div><span>Last seen</span><b>29.09.2026 05:52 UTC</b></div>
+                    <div><span>Last seen</span><b>29.09.2026 06:00 UTC</b></div>
                 </div>
             </div>
 
@@ -753,7 +753,7 @@ C5,</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601FC", "flight": "FIN5ET", "lat": 61.995987, "lon": 26.566707, "alt": 16000, "speed": 240.0, "last_seen": "29.09.2026 05:52 UTC"}, {"hex": "461F31", "flight": "FIN434", "lat": 61.655925, "lon": 25.16805, "alt": 27775, "speed": 384.4, "last_seen": "29.09.2026 05:36 UTC"}, {"hex": "461F6C", "flight": "FIN448", "lat": 61.626389, "lon": 25.206953, "alt": 28225, "speed": 395.4, "last_seen": "29.09.2026 05:29 UTC"}, {"hex": "467894", "flight": "T15", "lat": 62.314732, "lon": 25.867204, "alt": 2250, "speed": 150.9, "last_seen": "29.09.2026 05:07 UTC"}, {"hex": "4601F2", "flight": "FIN4QA", "lat": 62.000039, "lon": 26.579183, "alt": 16000, "speed": "-", "last_seen": "29.09.2026 03:04 UTC"}];
+const aircraft = [{"hex": "4601FC", "flight": "FIN5ET", "lat": 61.995987, "lon": 26.566707, "alt": 16000, "speed": 239.0, "last_seen": "29.09.2026 06:00 UTC"}, {"hex": "461F31", "flight": "FIN434", "lat": 61.655925, "lon": 25.16805, "alt": 27775, "speed": 384.4, "last_seen": "29.09.2026 05:36 UTC"}, {"hex": "461F6C", "flight": "FIN448", "lat": 61.626389, "lon": 25.206953, "alt": 28225, "speed": 395.4, "last_seen": "29.09.2026 05:29 UTC"}, {"hex": "467894", "flight": "T15", "lat": 62.314732, "lon": 25.867204, "alt": 2250, "speed": 150.9, "last_seen": "29.09.2026 05:07 UTC"}, {"hex": "4601F2", "flight": "FIN4QA", "lat": 62.000039, "lon": 26.579183, "alt": 16000, "speed": "-", "last_seen": "29.09.2026 03:04 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
