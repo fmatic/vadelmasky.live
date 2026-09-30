@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">458.0 kt</div>
+        <div class="value">452.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">30.09.2026 02:50 UTC</div>
+        <div class="value">30.09.2026 02:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,16 +277,16 @@ footer {
                     <div class="flight">CES201</div>
                     <div class="meta">ICAO 782272 · REG B-227J · TYPE B789</div>
                 </div>
-                <div class="alt-badge high">38000 ft</div>
+                <div class="alt-badge high">37975 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>458.0 kt</b></div>
-                    <div><span>Track</span><b>245.74°</b></div>
-                    <div><span>Position</span><b>62.1913, 26.1913</b></div>
-                    <div><span>Last seen</span><b>30.09.2026 02:50 UTC</b></div>
+                    <div><span>Speed</span><b>446.0 kt</b></div>
+                    <div><span>Track</span><b>244.86°</b></div>
+                    <div><span>Position</span><b>62.1070, 25.7893</b></div>
+                    <div><span>Last seen</span><b>30.09.2026 02:53 UTC</b></div>
                 </div>
             </div>
 
@@ -373,6 +373,25 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATJ · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">30.09.2026 02:54 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 80 · Msg M01A · Level -27.2 dB
+            </div>
+
+            <div class="acars-text">1101 OFFRP  0290/30 EFJY/EFHK .OH-ATJ
+/OUT 0250/OFF 0253/FOB 0020/ETA 0338</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -572,30 +591,12 @@ footer {
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">XA0001</div>
-                    <div class="acars-meta">
-                        ACARS · Tail N650LC · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">29.09.2026 17:20 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label Q0 · Msg S38A · Level -41.6 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "782272", "flight": "CES201", "lat": 62.191322, "lon": 26.191301, "alt": 38000, "speed": 458.0, "last_seen": "30.09.2026 02:50 UTC"}];
+const aircraft = [{"hex": "782272", "flight": "CES201", "lat": 62.10697, "lon": 25.789286, "alt": 37975, "speed": 446.0, "last_seen": "30.09.2026 02:53 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',

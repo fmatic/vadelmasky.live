@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.09.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -31.2,
-      "label": "H1",
-      "msgno": "C46A",
-      "text": ".1/WRN/WN2609281515  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "28.09.2026 15:15 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S27A",
       "text": "0EV174339V"
+    },
+    {
+      "time": "30.09.2026 02:54 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -27.2,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/30 EFJY/EFHK .OH-ATJ\r\n/OUT 0250/OFF 0253/FOB 0020/ETA 0338"
     }
   ]
 }
