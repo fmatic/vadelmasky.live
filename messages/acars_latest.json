@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.09.2026 07:06 UTC",
-      "source": "ACARS",
-      "flight": "E40005",
-      "tail": "SP-ESC",
-      "freq": 131.825,
-      "level": -27.8,
-      "label": "H1",
-      "msgno": "D03A",
-      "text": "110000#DFB02400092926070402         001352660101819822\r\n                0932109318          09650964        00              0\r\n0\r\n                                 11  11  00000000000        00000000\r\n0\r\n000"
-    },
-    {
-      "time": "29.09.2026 07:07 UTC",
-      "source": "ACARS",
-      "flight": "E40005",
-      "tail": "SP-ESC",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "H1",
-      "msgno": "D03A",
-      "text": "110000#DFB02400092926070402         001352660101819822\r\n                0932109318          09650964        00              0\r\n0\r\n                                 11  11  00000000000        00000000\r\n0\r\n000"
-    },
-    {
-      "time": "29.09.2026 16:11 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -25.9,
-      "label": "10",
-      "msgno": "M12A",
-      "text": "POS291611,N 62.237,E 26.437,2349,499250,,,39006,103000"
-    },
-    {
       "time": "29.09.2026 17:20 UTC",
       "source": "ACARS",
       "flight": "XA0001",
@@ -328,6 +295,39 @@
       "level": -36.6,
       "label": "_d",
       "msgno": "S38A",
+      "text": "No text"
+    },
+    {
+      "time": "30.09.2026 12:39 UTC",
+      "source": "ACARS",
+      "flight": "ZD0001",
+      "tail": "HBVJT",
+      "freq": 131.725,
+      "level": -19.9,
+      "label": "Q0",
+      "msgno": "S08A",
+      "text": "No text"
+    },
+    {
+      "time": "30.09.2026 12:39 UTC",
+      "source": "ACARS",
+      "flight": "ZD0001",
+      "tail": "HBVJT",
+      "freq": 131.725,
+      "level": -19.0,
+      "label": "SA",
+      "msgno": "M06A",
+      "text": "0EV123949V"
+    },
+    {
+      "time": "30.09.2026 12:39 UTC",
+      "source": "ACARS",
+      "flight": "ZD0001",
+      "tail": "HBVJT",
+      "freq": 131.725,
+      "level": -14.9,
+      "label": "5V",
+      "msgno": "S09A",
       "text": "No text"
     }
   ]
