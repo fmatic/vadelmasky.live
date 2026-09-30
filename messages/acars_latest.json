@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.09.2026 12:02 UTC",
-      "source": "ACARS",
-      "flight": "CZ2517",
-      "tail": "B-2081",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "Q0",
-      "msgno": "S33A",
-      "text": "No text"
-    },
-    {
       "time": "30.09.2026 12:04 UTC",
       "source": "ACARS",
       "flight": "CZ2517",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "D12B",
       "text": "L/F2076.6,082.0,094.5/F3076.6,081.9,095.4/G1NH,ITT,FF,IG/G2095.6,0667.4,355,0109/G3095.0,0667.0,361,0083/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I221.72/**.,EOT,...,/"
+    },
+    {
+      "time": "30.09.2026 18:51 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2081",
+      "freq": 131.825,
+      "level": -25.9,
+      "label": "H1",
+      "msgno": "O70A",
+      "text": "SB0122BA_B-2081  EGPKZGGG 57\r\n 61743 0265001851 36996-6203570430107GX012016"
     }
   ]
 }
