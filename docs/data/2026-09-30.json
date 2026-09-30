@@ -431,21 +431,47 @@
     },
     "4601fb": {
       "hex": "4601fb",
-      "flight": "",
+      "flight": "FIN9Y",
       "reg": "OH-ATN",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": null,
+      "lat": 61.846298,
+      "lon": 25.453949,
+      "alt": 18000,
       "speed": 286.6,
       "track": 186.01,
       "seen_first": "2026-09-30T15:05:02.144949",
-      "last_seen": "2026-09-30T15:05:02.144949"
+      "last_seen": "2026-09-30T15:10:01.956017"
+    },
+    "4caa15": {
+      "hex": "4caa15",
+      "flight": "",
+      "reg": "EI-MGL",
+      "type": "B789",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-09-30T15:07:01.906357",
+      "last_seen": "2026-09-30T15:07:01.906357"
+    },
+    "78168c": {
+      "hex": "78168c",
+      "flight": "CES7363",
+      "reg": "B-308E",
+      "type": "A359",
+      "lat": 62.199842,
+      "lon": 26.226267,
+      "alt": 38000,
+      "speed": 478.1,
+      "track": 246.06,
+      "seen_first": "2026-09-30T15:09:01.591720",
+      "last_seen": "2026-09-30T15:10:01.956017"
     }
   },
   "summary": {
-    "total_unique_aircraft": 34,
-    "last_seen_live": 1,
-    "updated": "2026-09-30T15:05:02.144949"
+    "total_unique_aircraft": 36,
+    "last_seen_live": 2,
+    "updated": "2026-09-30T15:10:01.956017"
   }
 }
