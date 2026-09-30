@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.09.2026 15:15 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -30.5,
-      "label": "H1",
-      "msgno": "C47A",
-      "text": ".1/FLR/FR2609281515  34363106MMR1   1,,,,,,,MMR1(40RT1),HARD"
-    },
-    {
-      "time": "28.09.2026 15:44 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -28.6,
-      "label": "H1",
-      "msgno": "D35A",
-      "text": "R02/A33002,1,1\r\nC1,.B-6117,26SEP28,15.10.37,EGPK,ZUUU,CAO1154   ,5000,018\r\nC2,001,06.0,000000,D1033RR04C0CBA0,000,000,000\r\nC3,-27.5,35002,0.796,111,0.98,111,10,0,01,111,0.98,X\r\nC4,-27.5,35001,0.796,111\r\nC5,"
-    },
-    {
       "time": "28.09.2026 15:44 UTC",
       "source": "ACARS",
       "flight": "CA1154",
@@ -329,6 +307,28 @@
       "label": "80",
       "msgno": "M01A",
       "text": "1101 OFFRP  0290/30 EFJY/EFHK .OH-ATJ\r\n/OUT 0250/OFF 0253/FOB 0020/ETA 0338"
+    },
+    {
+      "time": "30.09.2026 02:55 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "H1",
+      "msgno": "D01A",
+      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2SEP29,2123,0289/C1/C221.23.34,MC/C321.23.34,ENG/C4ENG,1,LO,PITCH/C5MFC1B.1UA1.,.,PIN,AC-05A/C6CHK,PEC,FAULT,CODES/C721.23.34,MC/C821.23.34,ENG"
+    },
+    {
+      "time": "30.09.2026 02:56 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -25.3,
+      "label": "5V",
+      "msgno": "S02A",
+      "text": "No text"
     }
   ]
 }
