@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.09.2026 02:57 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "H1",
-      "msgno": "D00B",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20380,290926,0257,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2213,.15990,-001/F1TORQ,NP,NL/F2077.7,082.0,096.2/F3077.7,081.9,095.4/G1NH,ITT,FF,IG/G2096.3,0685.2,378,0092/G3096.4,0662.7,369,0085/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.77/**.,EOT,...,/"
-    },
-    {
-      "time": "29.09.2026 02:58 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -29.2,
-      "label": "5V",
-      "msgno": "S07A",
-      "text": "No text"
-    },
-    {
       "time": "29.09.2026 07:06 UTC",
       "source": "ACARS",
       "flight": "E40005",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S14A",
       "text": "No text"
+    },
+    {
+      "time": "30.09.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2081",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "Q0",
+      "msgno": "S33A",
+      "text": "No text"
+    },
+    {
+      "time": "30.09.2026 12:04 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2081",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "18",
+      "msgno": "M58A",
+      "text": "POX,CSG2517   ,30SEP26,120904,ZGGG,EGPK,N061.26,E0026.31,339, 266,829,-112.3,   2.9,053,-56.6,143104, 25440,"
     }
   ]
 }
