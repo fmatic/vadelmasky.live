@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.09.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "N70037",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -28.2,
-      "label": "H1",
-      "msgno": "D12B",
-      "text": "L/F2076.6,082.0,094.5/F3076.6,081.9,095.4/G1NH,ITT,FF,IG/G2095.6,0667.4,355,0109/G3095.0,0667.0,361,0083/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I221.72/**.,EOT,...,/"
-    },
-    {
-      "time": "30.09.2026 18:51 UTC",
-      "source": "ACARS",
-      "flight": "CZ2518",
-      "tail": "B-2081",
-      "freq": 131.825,
-      "level": -25.9,
-      "label": "H1",
-      "msgno": "O70A",
-      "text": "SB0122BA_B-2081  EGPKZGGG 57\r\n 61743 0265001851 36996-6203570430107GX012016"
-    },
-    {
-      "time": "01.10.2026 02:59 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -30.0,
-      "label": "Q0",
-      "msgno": "S02A",
-      "text": "No text"
-    },
-    {
       "time": "01.10.2026 02:59 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C77A",
       "text": ".1/WRN/WN2610012100  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "01.10.2026 21:00 UTC",
+      "source": "ACARS",
+      "flight": "CA8404",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "10",
+      "msgno": "M29A",
+      "text": "POS282100,N 61.617,E 27.598,0453,430875,,,39002,102360"
+    },
+    {
+      "time": "01.10.2026 21:01 UTC",
+      "source": "ACARS",
+      "flight": "CA1044",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "H1",
+      "msgno": "C41A",
+      "text": "RTE 1 01OCT26 2107 CAB-2093 CAO1044 EHAM/ZBAA 311B-BCG-00W-19 R 1850 01OCT26\r\nFDE 34503141 A 2104 01OCT26\r\nMSG 3453301 A 2105 01OCT26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2105 01OCT26 ER H "
+    },
+    {
+      "time": "01.10.2026 21:01 UTC",
+      "source": "ACARS",
+      "flight": "CA1044",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "H1",
+      "msgno": "C41B",
+      "text": "RTE 1 01OCT26 2107 CAB-2093 CAO1044 EHAM/ZBAA 311B-BCG-00W-19 R 1850 01OCT26\r\nFDE 34503141 A 2104 01OCT26\r\nMSG 3453301 A 2105 01OCT26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2105 01OCT26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
     }
   ]
 }
