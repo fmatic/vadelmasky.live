@@ -5,17 +5,6 @@
       "source": "ACARS",
       "flight": "N70286",
       "tail": "OH-ATI",
-      "freq": 131.725,
-      "level": -36.2,
-      "label": "Q0",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
-      "time": "01.10.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
       "freq": 131.825,
       "level": -28.6,
       "label": "SA",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C27A",
       "text": ".1/WRN/WN2610012210  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "01.10.2026 22:10 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -28.4,
+      "label": "H1",
+      "msgno": "C28A",
+      "text": ".1/FLR/FR2610012210  34363106IR3    1,IR1,IR2,AFS,,,,MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
