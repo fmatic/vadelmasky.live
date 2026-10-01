@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.09.2026 15:12 UTC",
-      "source": "ACARS",
-      "flight": "N70037",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -25.2,
-      "label": "_d",
-      "msgno": "S87A",
-      "text": "No text"
-    },
-    {
-      "time": "30.09.2026 15:12 UTC",
-      "source": "ACARS",
-      "flight": "N70037",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -23.6,
-      "label": "_d",
-      "msgno": "S88A",
-      "text": "No text"
-    },
-    {
       "time": "30.09.2026 15:14 UTC",
       "source": "ACARS",
       "flight": "N70037",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S85A",
       "text": "No text"
+    },
+    {
+      "time": "01.10.2026 20:59 UTC",
+      "source": "ACARS",
+      "flight": "CA1044",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "10",
+      "msgno": "M60A",
+      "text": "POS012104, N 6173,E 2692,836,286,1751 ,  21,34997, 593,-224,-531,7"
+    },
+    {
+      "time": "01.10.2026 20:59 UTC",
+      "source": "ACARS",
+      "flight": "CA8404",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "H1",
+      "msgno": "C77A",
+      "text": ".1/WRN/WN2610012100  345800506NAV GPS 1 FAULT"
     }
   ]
 }
