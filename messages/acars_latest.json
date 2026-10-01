@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.09.2026 14:55 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -26.8,
-      "label": "H1",
-      "msgno": "O06A",
-      "text": "SB0122BA_B-2093  EGPKZSPD502\r\n 62154 0262271454 39000-660011058010NXW014018"
-    },
-    {
       "time": "30.09.2026 14:56 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "D05A",
       "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2OCT01,1047,0285/C1GMT,ACC/C21009,.0.78,FLT/C31009,.1.36,FLT/C41045,.1.29,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
+    },
+    {
+      "time": "01.10.2026 11:28 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -39.1,
+      "label": "5V",
+      "msgno": "S24A",
+      "text": "No text"
     }
   ]
 }
