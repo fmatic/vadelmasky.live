@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.10.2026 05:34 UTC",
-      "source": "ACARS",
-      "flight": "XA0001",
-      "tail": "N650LC",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
-      "time": "01.10.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -18.6,
-      "label": "Q0",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
       "time": "01.10.2026 11:23 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S27A",
       "text": "No text"
+    },
+    {
+      "time": "01.10.2026 22:08 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -25.0,
+      "label": "SA",
+      "msgno": "S91A",
+      "text": "0LS220850V"
+    },
+    {
+      "time": "01.10.2026 22:10 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -32.7,
+      "label": "H1",
+      "msgno": "C27A",
+      "text": ".1/WRN/WN2610012210  345801006NAV GPS 2 FAULT"
     }
   ]
 }
