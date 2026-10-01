@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.09.2026 15:10 UTC",
-      "source": "ACARS",
-      "flight": "N70037",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -27.3,
-      "label": "_d",
-      "msgno": "S77A",
-      "text": "No text"
-    },
-    {
       "time": "30.09.2026 15:11 UTC",
       "source": "ACARS",
       "flight": "N70037",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M28A",
       "text": "POS011137, N 6187,E 2755,828,309,904  ,  26,31002, 771,-122,-438,7"
+    },
+    {
+      "time": "01.10.2026 12:30 UTC",
+      "source": "ACARS",
+      "flight": "JD0669",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -38.2,
+      "label": "Q0",
+      "msgno": "S37A",
+      "text": "No text"
     }
   ]
 }
