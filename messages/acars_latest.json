@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.09.2026 12:04 UTC",
-      "source": "ACARS",
-      "flight": "CZ2517",
-      "tail": "B-2081",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "18",
-      "msgno": "M58A",
-      "text": "POX,CSG2517   ,30SEP26,120904,ZGGG,EGPK,N061.26,E0026.31,339, 266,829,-112.3,   2.9,053,-56.6,143104, 25440,"
-    },
-    {
-      "time": "30.09.2026 12:05 UTC",
-      "source": "ACARS",
-      "flight": "CZ2517",
-      "tail": "B-2081",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "5U",
-      "msgno": "M59A",
-      "text": "FS EGPK,EGSS,EGCC"
-    },
-    {
       "time": "30.09.2026 12:05 UTC",
       "source": "ACARS",
       "flight": "CZ2517",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O70A",
       "text": "SB0122BA_B-2081  EGPKZGGG 57\r\n 61743 0265001851 36996-6203570430107GX012016"
+    },
+    {
+      "time": "01.10.2026 02:59 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -30.0,
+      "label": "Q0",
+      "msgno": "S02A",
+      "text": "No text"
+    },
+    {
+      "time": "01.10.2026 02:59 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "SA",
+      "msgno": "S03A",
+      "text": "0EV025933V"
     }
   ]
 }
