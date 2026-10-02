@@ -6,39 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATI",
       "freq": 131.825,
-      "level": -23.3,
-      "label": "B9",
-      "msgno": "L10A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "01.10.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -21.1,
-      "label": "80",
-      "msgno": "M16A",
-      "text": "1301 INRP   0285/01 EFHK/EFJY .OH-ATI\r\n/ON  1045/IN  1047/FOB 0015"
-    },
-    {
-      "time": "01.10.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -29.6,
-      "label": "80",
-      "msgno": "M17A",
-      "text": "1001 OUTRP  0286/01 EFJY/EFHK .OH-ATI\r\n/OUT 1115/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "01.10.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
       "level": -28.6,
       "label": "80",
       "msgno": "M18A",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S01A",
       "text": "0EV025558V"
+    },
+    {
+      "time": "02.10.2026 09:27 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "H1",
+      "msgno": "O71A",
+      "text": "SB0122BA_B-2097  ZSPDEHAM408\r\n 61791 0277430932 34000-490305008010/9W010014"
+    },
+    {
+      "time": "02.10.2026 09:29 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "H1",
+      "msgno": "E67B",
+      "text": ",14,42,42,,02,OCT,26,09,34,32"
+    },
+    {
+      "time": "02.10.2026 09:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "H1",
+      "msgno": "E68A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,171,167,45,45,42,42,159,158,76,66,84,84,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,0,AUTO,8.5,0.13,0.22,L,,,,02,OCT,26,09,34,47"
     }
   ]
 }

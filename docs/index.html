@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">02.10.2026 09:25 UTC</div>
+        <div class="value">02.10.2026 09:30 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,7 +286,7 @@ footer {
                     <div><span>Speed</span><b>158.6 kt</b></div>
                     <div><span>Track</span><b>312.44°</b></div>
                     <div><span>Position</span><b>62.3207, 25.8552</b></div>
-                    <div><span>Last seen</span><b>02.10.2026 09:25 UTC</b></div>
+                    <div><span>Last seen</span><b>02.10.2026 09:26 UTC</b></div>
                 </div>
             </div>
 
@@ -713,6 +713,43 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CA1039</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-2097 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">02.10.2026 09:29 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg E67B · Level -34.6 dB
+            </div>
+
+            <div class="acars-text">,14,42,42,,02,OCT,26,09,34,32</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA1039</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-2097 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">02.10.2026 09:27 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg O71A · Level -36.9 dB
+            </div>
+
+            <div class="acars-text">SB0122BA_B-2097  ZSPDEHAM408
+ 61791 0277430932 34000-490305008010/9W010014</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">N70290</div>
                     <div class="acars-meta">
                         ACARS · Tail OH-ATE · 131.825 MHz
@@ -901,48 +938,12 @@ DB MULTI-MODE RECEIVER (LEFT)
 MSG 3453011 A 2105 01OCT26 ER H </div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA8404</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6070 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">01.10.2026 21:00 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 10 · Msg M29A · Level -31.0 dB
-            </div>
-
-            <div class="acars-text">POS282100,N 61.617,E 27.598,0453,430875,,,39002,102360</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CA8404</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6070 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">01.10.2026 20:59 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C77A · Level -31.3 dB
-            </div>
-
-            <div class="acars-text">.1/WRN/WN2610012100  345800506NAV GPS 1 FAULT</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "46788B", "flight": "W31", "lat": 62.320724, "lon": 25.855204, "alt": 1975, "speed": 158.6, "last_seen": "02.10.2026 09:25 UTC"}, {"hex": "467890", "flight": "T11", "lat": 62.164834, "lon": 25.645048, "alt": 22000, "speed": 253.1, "last_seen": "02.10.2026 08:52 UTC"}, {"hex": "461F6E", "flight": "FIN7TP", "lat": 61.694183, "lon": 25.299454, "alt": 24725, "speed": 395.0, "last_seen": "02.10.2026 08:16 UTC"}, {"hex": "4601F6", "flight": "FIN9B", "lat": 62.405137, "lon": 26.066542, "alt": 16025, "speed": 265.7, "last_seen": "02.10.2026 08:10 UTC"}, {"hex": "4601F9", "flight": "FIN489", "lat": 62.423584, "lon": 25.704854, "alt": 18000, "speed": 260.2, "last_seen": "02.10.2026 07:11 UTC"}, {"hex": "461F63", "flight": "FIN14J", "lat": 61.689862, "lon": 25.319214, "alt": 25700, "speed": 381.4, "last_seen": "02.10.2026 06:52 UTC"}, {"hex": "781FC3", "flight": "CAO1007", "lat": 61.639073, "lon": 25.352783, "alt": 34000, "speed": 239.7, "last_seen": "02.10.2026 06:26 UTC"}, {"hex": "4601FA", "flight": "FIN5ET", "lat": 61.976028, "lon": 26.530805, "alt": 18000, "speed": 245.1, "last_seen": "02.10.2026 06:02 UTC"}, {"hex": "461F6A", "flight": "FIN448", "lat": 61.652108, "lon": 25.229492, "alt": 26400, "speed": 398.0, "last_seen": "02.10.2026 05:16 UTC"}, {"hex": "467891", "flight": "T22", "lat": 62.310883, "lon": 25.875549, "alt": 2125, "speed": 168.3, "last_seen": "02.10.2026 05:09 UTC"}, {"hex": "4601F2", "flight": "FIN8KH", "lat": 61.467453, "lon": 25.430603, "alt": 18025, "speed": 265.2, "last_seen": "02.10.2026 03:19 UTC"}, {"hex": "781602", "flight": "CES249", "lat": 61.512312, "lon": 25.459798, "alt": 38000, "speed": 494.5, "last_seen": "02.10.2026 01:49 UTC"}];
+const aircraft = [{"hex": "46788B", "flight": "W31", "lat": 62.320724, "lon": 25.855204, "alt": 1975, "speed": 158.6, "last_seen": "02.10.2026 09:26 UTC"}, {"hex": "467890", "flight": "T11", "lat": 62.164834, "lon": 25.645048, "alt": 22000, "speed": 253.1, "last_seen": "02.10.2026 08:52 UTC"}, {"hex": "461F6E", "flight": "FIN7TP", "lat": 61.694183, "lon": 25.299454, "alt": 24725, "speed": 395.0, "last_seen": "02.10.2026 08:16 UTC"}, {"hex": "4601F6", "flight": "FIN9B", "lat": 62.405137, "lon": 26.066542, "alt": 16025, "speed": 265.7, "last_seen": "02.10.2026 08:10 UTC"}, {"hex": "4601F9", "flight": "FIN489", "lat": 62.423584, "lon": 25.704854, "alt": 18000, "speed": 260.2, "last_seen": "02.10.2026 07:11 UTC"}, {"hex": "461F63", "flight": "FIN14J", "lat": 61.689862, "lon": 25.319214, "alt": 25700, "speed": 381.4, "last_seen": "02.10.2026 06:52 UTC"}, {"hex": "781FC3", "flight": "CAO1007", "lat": 61.639073, "lon": 25.352783, "alt": 34000, "speed": 239.7, "last_seen": "02.10.2026 06:26 UTC"}, {"hex": "4601FA", "flight": "FIN5ET", "lat": 61.976028, "lon": 26.530805, "alt": 18000, "speed": 245.1, "last_seen": "02.10.2026 06:02 UTC"}, {"hex": "461F6A", "flight": "FIN448", "lat": 61.652108, "lon": 25.229492, "alt": 26400, "speed": 398.0, "last_seen": "02.10.2026 05:16 UTC"}, {"hex": "467891", "flight": "T22", "lat": 62.310883, "lon": 25.875549, "alt": 2125, "speed": 168.3, "last_seen": "02.10.2026 05:09 UTC"}, {"hex": "4601F2", "flight": "FIN8KH", "lat": 61.467453, "lon": 25.430603, "alt": 18025, "speed": 265.2, "last_seen": "02.10.2026 03:19 UTC"}, {"hex": "781602", "flight": "CES249", "lat": 61.512312, "lon": 25.459798, "alt": 38000, "speed": 494.5, "last_seen": "02.10.2026 01:49 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
