@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.10.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -28.6,
-      "label": "80",
-      "msgno": "M18A",
-      "text": "1101 OFFRP  0286/01 EFJY/EFHK .OH-ATI\r\n/OUT 1115/OFF 1118/FOB 0015/ETA 1158"
-    },
-    {
-      "time": "01.10.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -26.2,
-      "label": "H1",
-      "msgno": "D05A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2OCT01,1047,0285/C1GMT,ACC/C21009,.0.78,FLT/C31009,.1.36,FLT/C41045,.1.29,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "01.10.2026 11:28 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -39.1,
-      "label": "5V",
-      "msgno": "S24A",
-      "text": "No text"
-    },
-    {
       "time": "01.10.2026 11:37 UTC",
       "source": "ACARS",
       "flight": "CA1022",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "E68A",
       "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,171,167,45,45,42,42,159,158,76,66,84,84,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,0,AUTO,8.5,0.13,0.22,L,,,,02,OCT,26,09,34,47"
+    },
+    {
+      "time": "02.10.2026 09:31 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "H1",
+      "msgno": "E69A",
+      "text": "FCL,R,-0.02,-0.02,34000,-0.04,+2.69,289,+0.02,-0.03,-0.04,+0.03,+0.07,-0.12,-0.39,-0.19,+0.18,0.00,,+0.03,,0.00,,0.00,,+0.02,,+0.03,,0.00,,+0.03,,0.00,,0.00,,+0.02,,+0.03,,0.00,,+0.03,,0.00,,+0.02,,-1.79,,+"
+    },
+    {
+      "time": "02.10.2026 09:31 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -35.9,
+      "label": "H1",
+      "msgno": "E69C",
+      "text": "41,,-2.40,,-2.40,,-3.12,,-3.11,,-3.12,,3025,-3.11,,-3.11,,3084,-3.12,,-3.10,,3023,-3.09,,-3.12,,-3.13,,+3.66,,+3.72,,+4.24,,+4.26,,+2180,,+2250,,+1630,,+1460,,-0.15,,-0.15,,-0.19,,-0.19,,+0.26,,+110,,+0.26,"
+    },
+    {
+      "time": "02.10.2026 09:31 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "H1",
+      "msgno": "E69E",
+      "text": ",NO,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,02,OCT,26,09,36,04"
     }
   ]
 }
