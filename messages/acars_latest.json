@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.10.2026 15:56 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -24.6,
-      "label": "_d",
-      "msgno": "S43A",
-      "text": "No text"
-    },
-    {
-      "time": "01.10.2026 15:56 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -24.4,
-      "label": "_d",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
       "time": "01.10.2026 20:55 UTC",
       "source": "ACARS",
       "flight": "CA1044",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O25A",
       "text": "SB0122BA_B-2028  ENGMZSPD531\r\n 62277 0259401521 31000-4402370240107GX010012"
+    },
+    {
+      "time": "02.10.2026 18:17 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -31.5,
+      "label": "11",
+      "msgno": "M08A",
+      "text": "POS\r\nCAS 268,LAT N 61.424,LON E 26.329,ALT 35001,FOB 134080,UTC 181739,PD ----.--,WD 217,WS   30,TAT - 27"
+    },
+    {
+      "time": "02.10.2026 18:17 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -30.0,
+      "label": "_d",
+      "msgno": "S16A",
+      "text": "No text"
     }
   ]
 }
