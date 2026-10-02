@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.10.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "80",
-      "msgno": "M15A",
-      "text": "1201 ONRP   0285/01 EFHK/EFJY .OH-ATI\r\n/ON  1045/FOB 0014"
-    },
-    {
       "time": "01.10.2026 11:24 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S57A",
       "text": "No text"
+    },
+    {
+      "time": "02.10.2026 02:56 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "SA",
+      "msgno": "S01A",
+      "text": "0EV025558V"
     }
   ]
 }
