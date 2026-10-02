@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.10.2026 11:37 UTC",
-      "source": "ACARS",
-      "flight": "CA1022",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "10",
-      "msgno": "M28A",
-      "text": "POS011137, N 6187,E 2755,828,309,904  ,  26,31002, 771,-122,-438,7"
-    },
-    {
-      "time": "01.10.2026 12:30 UTC",
-      "source": "ACARS",
-      "flight": "JD0669",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "Q0",
-      "msgno": "S37A",
-      "text": "No text"
-    },
-    {
-      "time": "01.10.2026 15:55 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -20.3,
-      "label": "Q0",
-      "msgno": "S40A",
-      "text": "No text"
-    },
-    {
-      "time": "01.10.2026 15:56 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -22.4,
-      "label": "12",
-      "msgno": "M66A",
-      "text": "WXR FS ULAA,UNNT,ZMUB"
-    },
-    {
-      "time": "01.10.2026 15:56 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6117",
-      "freq": 131.725,
-      "level": -39.8,
-      "label": "12",
-      "msgno": "M66A",
-      "text": "WXR FS ULAA,UNNT,ZMUB"
-    },
-    {
-      "time": "01.10.2026 15:56 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6117",
-      "freq": 131.725,
-      "level": -40.1,
-      "label": "_d",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
-      "time": "01.10.2026 15:56 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -22.0,
-      "label": "_d",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
       "time": "01.10.2026 15:56 UTC",
       "source": "ACARS",
       "flight": "CA1154",
@@ -329,6 +252,83 @@
       "label": "H1",
       "msgno": "E69E",
       "text": ",NO,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,02,OCT,26,09,36,04"
+    },
+    {
+      "time": "02.10.2026 10:56 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "Q0",
+      "msgno": "S44A",
+      "text": "No text"
+    },
+    {
+      "time": "02.10.2026 10:56 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "Q0",
+      "msgno": "M47A",
+      "text": "No text"
+    },
+    {
+      "time": "02.10.2026 10:56 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -30.2,
+      "label": "SA",
+      "msgno": "M46A",
+      "text": "0EV105629V"
+    },
+    {
+      "time": "02.10.2026 10:56 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "80",
+      "msgno": "M48A",
+      "text": "3701 INRANG 0366/02 EFKU/EFHK .OH-ATO\r\n/ETA 1126/ERT     "
+    },
+    {
+      "time": "02.10.2026 10:57 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "_d",
+      "msgno": "S45A",
+      "text": "No text"
+    },
+    {
+      "time": "02.10.2026 10:57 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "B9",
+      "msgno": "L17A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "02.10.2026 10:57 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "_d",
+      "msgno": "S47A",
+      "text": "No text"
     }
   ]
 }
