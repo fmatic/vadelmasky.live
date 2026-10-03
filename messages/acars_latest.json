@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.10.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "SA",
-      "msgno": "S01A",
-      "text": "0EV025558V"
-    },
-    {
-      "time": "02.10.2026 09:27 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "H1",
-      "msgno": "O71A",
-      "text": "SB0122BA_B-2097  ZSPDEHAM408\r\n 61791 0277430932 34000-490305008010/9W010014"
-    },
-    {
-      "time": "02.10.2026 09:29 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "H1",
-      "msgno": "E67B",
-      "text": ",14,42,42,,02,OCT,26,09,34,32"
-    },
-    {
-      "time": "02.10.2026 09:30 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "H1",
-      "msgno": "E68A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,171,167,45,45,42,42,159,158,76,66,84,84,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,0,AUTO,8.5,0.13,0.22,L,,,,02,OCT,26,09,34,47"
-    },
-    {
       "time": "02.10.2026 09:31 UTC",
       "source": "ACARS",
       "flight": "CA1039",
@@ -329,6 +285,50 @@
       "label": "_d",
       "msgno": "S10A",
       "text": "No text"
+    },
+    {
+      "time": "03.10.2026 03:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -28.1,
+      "label": "B9",
+      "msgno": "M15A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "03.10.2026 03:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "_d",
+      "msgno": "S04A",
+      "text": "No text"
+    },
+    {
+      "time": "03.10.2026 03:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "_d",
+      "msgno": "S04A",
+      "text": "No text"
+    },
+    {
+      "time": "03.10.2026 03:29 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -28.6,
+      "label": "SA",
+      "msgno": "S05A",
+      "text": "0LS032907V"
     }
   ]
 }
