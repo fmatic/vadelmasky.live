@@ -210,16 +210,16 @@
     },
     "4601f5": {
       "hex": "4601f5",
-      "flight": "FIN6YP",
+      "flight": "FIN6MB",
       "reg": "OH-ATH",
       "type": "AT75",
-      "lat": 62.168093,
-      "lon": 27.144365,
-      "alt": 16000,
-      "speed": 265.2,
-      "track": 209.85,
+      "lat": 61.826679,
+      "lon": 25.285543,
+      "alt": 17000,
+      "speed": 266.0,
+      "track": 184.96,
       "seen_first": "2026-10-03T11:30:01.858989",
-      "last_seen": "2026-10-03T14:56:02.059962"
+      "last_seen": "2026-10-03T19:18:01.409653"
     },
     "8682fc": {
       "hex": "8682fc",
@@ -389,11 +389,24 @@
       "track": 313.8,
       "seen_first": "2026-10-03T16:03:02.103673",
       "last_seen": "2026-10-03T16:10:01.368001"
+    },
+    "7821a9": {
+      "hex": "7821a9",
+      "flight": "CES214",
+      "reg": "B-226Q",
+      "type": "B789",
+      "lat": null,
+      "lon": null,
+      "alt": 34975,
+      "speed": 512.0,
+      "track": 67.85,
+      "seen_first": "2026-10-03T19:20:02.105817",
+      "last_seen": "2026-10-03T19:20:02.105817"
     }
   },
   "summary": {
-    "total_unique_aircraft": 30,
-    "last_seen_live": 0,
-    "updated": "2026-10-03T19:15:01.701556"
+    "total_unique_aircraft": 31,
+    "last_seen_live": 1,
+    "updated": "2026-10-03T19:20:02.105817"
   }
 }
