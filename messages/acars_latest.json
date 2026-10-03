@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.10.2026 10:57 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "B9",
-      "msgno": "L17A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "02.10.2026 10:57 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "_d",
-      "msgno": "S47A",
-      "text": "No text"
-    },
-    {
       "time": "02.10.2026 15:22 UTC",
       "source": "ACARS",
       "flight": "CZ5202",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S49A",
       "text": "No text"
+    },
+    {
+      "time": "03.10.2026 11:34 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -38.1,
+      "label": "H1",
+      "msgno": "O71B",
+      "text": ".. 345\r\n  43  53 353  400  460    0    0000000000FA8\r\n  45  56 423  410  470    0    0000000000FA8\r\n 87107 94"
+    },
+    {
+      "time": "03.10.2026 11:34 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -33.6,
+      "label": "H1",
+      "msgno": "O72A",
+      "text": "SB0022BA_152JA741J  JAL4TA 159021026 230243RJTTEFHK316DBSM7996218879120\r\n 239 378577 533\r\n 152 557578 488\r\nTA  170 33 202 201021026 232115OCOCCRR\r\nDC34761284-260-559031026 113323OCOCCRO"
     }
   ]
 }
