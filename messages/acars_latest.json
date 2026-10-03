@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.10.2026 20:59 UTC",
-      "source": "ACARS",
-      "flight": "CA1044",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -29.7,
-      "label": "10",
-      "msgno": "M60A",
-      "text": "POS012104, N 6173,E 2692,836,286,1751 ,  21,34997, 593,-224,-531,7"
-    },
-    {
-      "time": "01.10.2026 20:59 UTC",
-      "source": "ACARS",
-      "flight": "CA8404",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "H1",
-      "msgno": "C77A",
-      "text": ".1/WRN/WN2610012100  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "01.10.2026 21:00 UTC",
-      "source": "ACARS",
-      "flight": "CA8404",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -31.0,
-      "label": "10",
-      "msgno": "M29A",
-      "text": "POS282100,N 61.617,E 27.598,0453,430875,,,39002,102360"
-    },
-    {
-      "time": "01.10.2026 21:01 UTC",
-      "source": "ACARS",
-      "flight": "CA1044",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "H1",
-      "msgno": "C41A",
-      "text": "RTE 1 01OCT26 2107 CAB-2093 CAO1044 EHAM/ZBAA 311B-BCG-00W-19 R 1850 01OCT26\r\nFDE 34503141 A 2104 01OCT26\r\nMSG 3453301 A 2105 01OCT26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2105 01OCT26 ER H "
-    },
-    {
       "time": "01.10.2026 21:01 UTC",
       "source": "ACARS",
       "flight": "CA1044",
@@ -329,6 +285,50 @@
       "label": "SA",
       "msgno": "S17A",
       "text": "0LS182048V"
+    },
+    {
+      "time": "03.10.2026 02:48 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -28.2,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "03.10.2026 02:48 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -28.1,
+      "label": "SA",
+      "msgno": "S01A",
+      "text": "0EV024901V"
+    },
+    {
+      "time": "03.10.2026 02:49 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -27.6,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/03 EFJY/EFHK .OH-ATN\r\n/OUT 0244/OFF 0247/FOB 0015/ETA 0322"
+    },
+    {
+      "time": "03.10.2026 02:49 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -25.1,
+      "label": "5V",
+      "msgno": "S02A",
+      "text": "No text"
     }
   ]
 }
