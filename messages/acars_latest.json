@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.10.2026 09:31 UTC",
-      "source": "ACARS",
-      "flight": "CA1039",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "H1",
-      "msgno": "E69E",
-      "text": ",NO,NO,NO,NO,NO,NO,YES,YES,YES,AUTO,NO,,NO,,NO,,NO,,,02,OCT,26,09,36,04"
-    },
-    {
       "time": "02.10.2026 10:56 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +318,17 @@
       "label": "B9",
       "msgno": "M44A",
       "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "03.10.2026 04:56 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2041",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "18",
+      "msgno": "M96A",
+      "text": "POX,CSG2516   ,03OCT26,045642,EGPK,ZGGG,N061.75,E0027.26,369, 655,838,  76.4, -83.3,020,-57.8,135542, 34920,"
     }
   ]
 }
