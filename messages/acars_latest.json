@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.10.2026 02:52 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -27.9,
-      "label": "SA",
-      "msgno": "S07A",
-      "text": "0EV025252V"
-    },
-    {
       "time": "03.10.2026 02:53 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S31A",
       "text": "No text"
+    },
+    {
+      "time": "03.10.2026 21:35 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -30.5,
+      "label": "11",
+      "msgno": "M34A",
+      "text": "POS\r\nCAS 277,LAT N 61.745,LON E 26.424,ALT 35000,FOB 131360,UTC 213543,PD ----.--,WD 260,WS   28,TAT - 30"
     }
   ]
 }
