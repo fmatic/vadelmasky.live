@@ -1,94 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.10.2026 21:01 UTC",
-      "source": "ACARS",
-      "flight": "CA1044",
-      "tail": "B-2093",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "H1",
-      "msgno": "C41B",
-      "text": "RTE 1 01OCT26 2107 CAB-2093 CAO1044 EHAM/ZBAA 311B-BCG-00W-19 R 1850 01OCT26\r\nFDE 34503141 A 2104 01OCT26\r\nMSG 3453301 A 2105 01OCT26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 2105 01OCT26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
-      "time": "01.10.2026 21:34 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "Q0",
-      "msgno": "S27A",
-      "text": "No text"
-    },
-    {
-      "time": "01.10.2026 22:08 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -25.0,
-      "label": "SA",
-      "msgno": "S91A",
-      "text": "0LS220850V"
-    },
-    {
-      "time": "01.10.2026 22:10 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -32.7,
-      "label": "H1",
-      "msgno": "C27A",
-      "text": ".1/WRN/WN2610012210  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "01.10.2026 22:10 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -28.4,
-      "label": "H1",
-      "msgno": "C28A",
-      "text": ".1/FLR/FR2610012210  34363106IR3    1,IR1,IR2,AFS,,,,MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "02.10.2026 02:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -19.0,
-      "label": "Q0",
-      "msgno": "S55A",
-      "text": "No text"
-    },
-    {
-      "time": "02.10.2026 02:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.725,
-      "level": -34.8,
-      "label": "SA",
-      "msgno": "S56A",
-      "text": "0EV022831VSH/"
-    },
-    {
-      "time": "02.10.2026 02:29 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -23.3,
-      "label": "5V",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
       "time": "02.10.2026 02:56 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -328,6 +240,94 @@
       "level": -25.1,
       "label": "5V",
       "msgno": "S02A",
+      "text": "No text"
+    },
+    {
+      "time": "03.10.2026 02:52 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "Q0",
+      "msgno": "S06A",
+      "text": "No text"
+    },
+    {
+      "time": "03.10.2026 02:52 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -23.1,
+      "label": "Q0",
+      "msgno": "M02A",
+      "text": "No text"
+    },
+    {
+      "time": "03.10.2026 02:52 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -27.9,
+      "label": "SA",
+      "msgno": "S07A",
+      "text": "0EV025252V"
+    },
+    {
+      "time": "03.10.2026 02:53 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -27.0,
+      "label": "B9",
+      "msgno": "L01A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "03.10.2026 02:53 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -25.9,
+      "label": "_d",
+      "msgno": "S08A",
+      "text": "No text"
+    },
+    {
+      "time": "03.10.2026 02:53 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -25.0,
+      "label": "_d",
+      "msgno": "S09A",
+      "text": "No text"
+    },
+    {
+      "time": "03.10.2026 02:53 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "80",
+      "msgno": "M03A",
+      "text": "3701 INRANG 0290/03 EFJY/EFHK .OH-ATN\r\n/ETA 0322/ERT     "
+    },
+    {
+      "time": "03.10.2026 02:54 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "_d",
+      "msgno": "S10A",
       "text": "No text"
     }
   ]
