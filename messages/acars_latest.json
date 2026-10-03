@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.10.2026 15:22 UTC",
-      "source": "ACARS",
-      "flight": "CZ5202",
-      "tail": "B-2028",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "H1",
-      "msgno": "O25A",
-      "text": "SB0122BA_B-2028  ENGMZSPD531\r\n 62277 0259401521 31000-4402370240107GX010012"
-    },
-    {
       "time": "02.10.2026 18:17 UTC",
       "source": "ACARS",
       "flight": "MU0210",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O72A",
       "text": "SB0022BA_152JA741J  JAL4TA 159021026 230243RJTTEFHK316DBSM7996218879120\r\n 239 378577 533\r\n 152 557578 488\r\nTA  170 33 202 201021026 232115OCOCCRR\r\nDC34761284-260-559031026 113323OCOCCRO"
+    },
+    {
+      "time": "03.10.2026 11:36 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -33.3,
+      "label": "H1",
+      "msgno": "D30A",
+      "text": "PNT20G-08   A39\r\n03113623\r\nN62021E024560113628163-42250 33 294 \r\n153439439\r\nW       0 01159"
     }
   ]
 }
