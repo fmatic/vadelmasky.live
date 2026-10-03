@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">03.10.2026 03:00 UTC</div>
+        <div class="value">03.10.2026 03:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4QA</div>
+                    <div class="meta">ICAO 4601F9 · REG OH-ATL · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>227.2 kt</b></div>
+                    <div><span>Track</span><b>206.68°</b></div>
+                    <div><span>Position</span><b>61.9962, 26.6158</b></div>
+                    <div><span>Last seen</span><b>03.10.2026 03:03 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATL" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -291,30 +315,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN4QA</div>
-                    <div class="meta">ICAO 4601F9 · REG OH-ATL · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">18000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>227.2 kt</b></div>
-                    <div><span>Track</span><b>206.68°</b></div>
-                    <div><span>Position</span><b>61.9962, 26.6158</b></div>
-                    <div><span>Last seen</span><b>03.10.2026 02:56 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATL" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -645,7 +645,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601FB", "flight": "FIN8KH", "lat": 61.890735, "lon": 25.583089, "alt": 11800, "speed": 219.6, "last_seen": "03.10.2026 02:57 UTC"}, {"hex": "4601F9", "flight": "FIN4QA", "lat": 61.996175, "lon": 26.615804, "alt": 18000, "speed": 227.2, "last_seen": "03.10.2026 02:56 UTC"}];
+const aircraft = [{"hex": "4601F9", "flight": "FIN4QA", "lat": 61.996175, "lon": 26.615804, "alt": 18000, "speed": 227.2, "last_seen": "03.10.2026 03:03 UTC"}, {"hex": "4601FB", "flight": "FIN8KH", "lat": 61.890735, "lon": 25.583089, "alt": 11800, "speed": 219.6, "last_seen": "03.10.2026 02:57 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
