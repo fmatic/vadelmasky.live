@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.10.2026 05:52 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -29.2,
-      "label": "B9",
-      "msgno": "M91A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
       "time": "03.10.2026 05:53 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -328,6 +317,17 @@
       "level": -34.0,
       "label": "Q0",
       "msgno": "S96A",
+      "text": "No text"
+    },
+    {
+      "time": "04.10.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "Q0",
+      "msgno": "S93A",
       "text": "No text"
     }
   ]
