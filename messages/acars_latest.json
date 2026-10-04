@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.10.2026 04:24 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "10",
-      "msgno": "M43A",
-      "text": "POS030424,N 61.864,E 28.111,0523,431625,,,36001,30600"
-    },
-    {
-      "time": "03.10.2026 04:31 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "B9",
-      "msgno": "M44A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
-      "time": "03.10.2026 04:56 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2041",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "18",
-      "msgno": "M96A",
-      "text": "POX,CSG2516   ,03OCT26,045642,EGPK,ZGGG,N061.75,E0027.26,369, 655,838,  76.4, -83.3,020,-57.8,135542, 34920,"
-    },
-    {
       "time": "03.10.2026 05:52 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S14A",
       "text": "No text"
+    },
+    {
+      "time": "04.10.2026 07:17 UTC",
+      "source": "ACARS",
+      "flight": "E40000",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -24.8,
+      "label": "H1",
+      "msgno": "D00A",
+      "text": "45101??????01091B737-80029SEP26SGXXXX????????0903ROJ88A\r\n072744RO70960025404515007730773N62241E025000XXXXXX\r\n02106021530617061505780564XXXXXXXXXX\r\n011300109900420041XXXXXX087088\r\n002002002005006002001000\r\n3"
+    },
+    {
+      "time": "04.10.2026 07:18 UTC",
+      "source": "ACARS",
+      "flight": "E40000",
+      "tail": "SP-ESI",
+      "freq": 131.725,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "D00D",
+      "text": "XXXXXXXXXXXXXXXXXXXX0036\r\n-6002000588055300761XXX087009010004000319329XXXX0036\r\n-5502000588055300760XXXXXXXXXXXXXXXXXXXXXXXXXXXX0036\r\n-5001990588055300762XXX087003004004000327333XXXX0036\r\n-4501990588055300762XX"
+    },
+    {
+      "time": "04.10.2026 07:18 UTC",
+      "source": "ACARS",
+      "flight": "E40000",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -22.0,
+      "label": "H1",
+      "msgno": "D00D",
+      "text": "XXXXXXXXXXXXXXXXXXXX0036\r\n-6002000588055300761XXX087009010004000319329XXXX0036\r\n-5502000588055300760XXXXXXXXXXXXXXXXXXXXXXXXXXXX0036\r\n-5001990588055300762XXX087003004004000327333XXXX0036\r\n-4501990588055300762XX"
     }
   ]
 }
