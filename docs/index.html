@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">4</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0 kt</div>
+        <div class="value">440.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">04.10.2026 02:35 UTC</div>
+        <div class="value">04.10.2026 02:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES201</div>
+                    <div class="meta">ICAO 782272 · REG B-227J · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">35975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>440.0 kt</b></div>
+                    <div><span>Track</span><b>245.92°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>04.10.2026 02:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-227J" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -349,6 +373,24 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">MU0201</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-227J · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">04.10.2026 02:39 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg S88A · Level -26.7 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -550,28 +592,6 @@ F/AY537/2.8</div>
             </div>
 
             <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">JL0047</div>
-                    <div class="acars-meta">
-                        ACARS · Tail JA741J · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">03.10.2026 11:36 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg D30A · Level -33.3 dB
-            </div>
-
-            <div class="acars-text">PNT20G-08   A39
-03113623
-N62021E024560113628163-42250 33 294 
-153439439
-W       0 01159</div>
         </article>
         
     </div>
