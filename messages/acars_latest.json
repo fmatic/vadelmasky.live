@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.10.2026 22:02 UTC",
-      "source": "ACARS",
-      "flight": "CA1014",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -34.0,
-      "label": "_d",
-      "msgno": "S15A",
-      "text": "No text"
-    },
-    {
-      "time": "04.10.2026 02:39 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -26.7,
-      "label": "Q0",
-      "msgno": "S88A",
-      "text": "No text"
-    },
-    {
-      "time": "04.10.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -23.5,
-      "label": "Q0",
-      "msgno": "S89A",
-      "text": "No text"
-    },
-    {
-      "time": "04.10.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.725,
-      "level": -37.6,
-      "label": "SA",
-      "msgno": "S90A",
-      "text": "0EV024033VSH/"
-    },
-    {
-      "time": "04.10.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -18.8,
-      "label": "11",
-      "msgno": "M55A",
-      "text": "POS\r\nCAS 275,LAT N 62.138,LON E 25.939,ALT 35997,FOB 54895,UTC 024059,PD 245.6,WD 267.1,WS   42.6,TAT -29.8"
-    },
-    {
-      "time": "04.10.2026 02:41 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -19.8,
-      "label": "5V",
-      "msgno": "S91A",
-      "text": "No text"
-    },
-    {
       "time": "04.10.2026 02:42 UTC",
       "source": "ACARS",
       "flight": "MU0201",
@@ -329,6 +263,72 @@
       "label": "_d",
       "msgno": "S29A",
       "text": "No text"
+    },
+    {
+      "time": "04.10.2026 18:25 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5908",
+      "freq": 131.725,
+      "level": -30.0,
+      "label": "11",
+      "msgno": "M58A",
+      "text": "POS\r\nCAS 277,LAT N 61.584,LON E 26.832,ALT 35009,FOB 125320,UTC 182603,PD ----.--,WD 327,WS   60,TAT - 23"
+    },
+    {
+      "time": "04.10.2026 18:27 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5908",
+      "freq": 131.725,
+      "level": -28.0,
+      "label": "H1",
+      "msgno": "C50A",
+      "text": ".1/WRN/WN2610041827  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "04.10.2026 18:27 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5908",
+      "freq": 131.725,
+      "level": -27.7,
+      "label": "H1",
+      "msgno": "C51A",
+      "text": ".1/WRN/WN2610041828  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "04.10.2026 18:28 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5908",
+      "freq": 131.725,
+      "level": -28.7,
+      "label": "H1",
+      "msgno": "C52A",
+      "text": ".1/FLR/FR2610041827  34361606MMR2   1,IR1,IR3,IR2,AFS,MMR1,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "04.10.2026 18:29 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5908",
+      "freq": 131.725,
+      "level": -30.8,
+      "label": "H1",
+      "msgno": "C53A",
+      "text": ".1/FLR/FR2610041828  34123406AFS    1,,,,,,,ADIRU2(1FP2)/           FMGEC2(1CA2),HARD"
+    },
+    {
+      "time": "04.10.2026 18:29 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5908",
+      "freq": 131.725,
+      "level": -29.6,
+      "label": "11",
+      "msgno": "M59A",
+      "text": "POS\r\nCAS 275,LAT N 61.837,LON E 27.802,ALT 35006,FOB 124600,UTC 183004,PD ----.--,WD 327,WS   51,TAT - 20"
     }
   ]
 }
