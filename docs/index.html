@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">04.10.2026 04:40 UTC</div>
+        <div class="value">04.10.2026 04:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,7 +274,7 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">FIN489</div>
                     <div class="meta">ICAO 4601F9 · REG OH-ATL · TYPE AT75</div>
                 </div>
                 <div class="alt-badge mid">18025 ft</div>
@@ -283,10 +283,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>04.10.2026 04:40 UTC</b></div>
+                    <div><span>Speed</span><b>293.5 kt</b></div>
+                    <div><span>Track</span><b>17.45°</b></div>
+                    <div><span>Position</span><b>62.3638, 26.4689</b></div>
+                    <div><span>Last seen</span><b>04.10.2026 04:44 UTC</b></div>
                 </div>
             </div>
 
@@ -693,7 +693,7 @@ CAS 277,LAT N 61.745,LON E 26.424,ALT 35000,FOB 131360,UTC 213543,PD ----.--,WD 
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "4601F9", "flight": "FIN489", "lat": 62.363798, "lon": 26.468917, "alt": 18025, "speed": 293.5, "last_seen": "04.10.2026 04:44 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
