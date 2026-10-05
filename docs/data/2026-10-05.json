@@ -109,18 +109,57 @@
       "flight": "FIN4QA",
       "reg": "OH-ATL",
       "type": "AT75",
+      "lat": 61.340999,
+      "lon": 25.804749,
+      "alt": 18025,
+      "speed": 256.8,
+      "track": 213.57,
+      "seen_first": "2026-10-05T02:49:02.022278",
+      "last_seen": "2026-10-05T03:00:01.688494"
+    },
+    "4601fa": {
+      "hex": "4601fa",
+      "flight": "FIN8KH",
+      "reg": "OH-ATM",
+      "type": "AT75",
+      "lat": 62.066528,
+      "lon": 25.61845,
+      "alt": 10900,
+      "speed": 196.2,
+      "track": 188.5,
+      "seen_first": "2026-10-05T02:56:01.408862",
+      "last_seen": "2026-10-05T03:01:02.787711"
+    },
+    "7815a9": {
+      "hex": "7815a9",
+      "flight": "",
+      "reg": "B-208A",
+      "type": "B789",
       "lat": null,
       "lon": null,
-      "alt": 18025,
+      "alt": null,
       "speed": null,
       "track": null,
-      "seen_first": "2026-10-05T02:49:02.022278",
-      "last_seen": "2026-10-05T02:52:01.301291"
+      "seen_first": "2026-10-05T02:58:02.067845",
+      "last_seen": "2026-10-05T03:00:01.688494"
+    },
+    "4601f5": {
+      "hex": "4601f5",
+      "flight": "FIN418",
+      "reg": "OH-ATH",
+      "type": "AT75",
+      "lat": 62.256915,
+      "lon": 26.128024,
+      "alt": 18000,
+      "speed": 278.0,
+      "track": 197.59,
+      "seen_first": "2026-10-05T02:59:01.361275",
+      "last_seen": "2026-10-05T03:01:02.787711"
     }
   },
   "summary": {
-    "total_unique_aircraft": 9,
-    "last_seen_live": 0,
-    "updated": "2026-10-05T02:55:01.326068"
+    "total_unique_aircraft": 12,
+    "last_seen_live": 2,
+    "updated": "2026-10-05T03:01:02.787711"
   }
 }

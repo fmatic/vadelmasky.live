@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.10.2026 13:15 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227J",
-      "freq": 131.725,
-      "level": -40.9,
-      "label": "Q0",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
-      "time": "04.10.2026 13:15 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -23.8,
-      "label": "Q0",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
-      "time": "04.10.2026 13:15 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -23.7,
-      "label": "_d",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
       "time": "04.10.2026 13:16 UTC",
       "source": "ACARS",
       "flight": "MU0202",
@@ -329,6 +296,39 @@
       "label": "B9",
       "msgno": "L00A",
       "text": "/EFJY.TI2/024EFJYDA5C7"
+    },
+    {
+      "time": "05.10.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -25.0,
+      "label": "_d",
+      "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "05.10.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -28.8,
+      "label": "80",
+      "msgno": "M02A",
+      "text": "3701 INRANG 0290/05 EFJY/EFHK .OH-ATM\r\n/ETA 0335/ERT     \r\nF/AY513/2.6"
+    },
+    {
+      "time": "05.10.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -30.4,
+      "label": "_d",
+      "msgno": "S04A",
+      "text": "No text"
     }
   ]
 }
