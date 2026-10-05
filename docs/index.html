@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">05.10.2026 02:00 UTC</div>
+        <div class="value">05.10.2026 02:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES249</div>
+                    <div class="meta">ICAO 781FF7 · REG B-32FQ · TYPE A359</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>05.10.2026 02:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-32FQ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -285,36 +309,12 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>05.10.2026 02:00 UTC</b></div>
+                    <div><span>Position</span><b>61.3966, 25.3227</b></div>
+                    <div><span>Last seen</span><b>05.10.2026 02:01 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-32CZ" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 781FF7 · REG B-32FQ · TYPE A359</div>
-                </div>
-                <div class="alt-badge high">38000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>05.10.2026 02:00 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-32FQ" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -645,7 +645,7 @@ CAS 275,LAT N 61.837,LON E 27.802,ALT 35006,FOB 124600,UTC 183004,PD ----.--,WD 
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "780561", "flight": "CES553", "lat": 61.078724, "lon": 25.561625, "alt": 32000, "speed": 444.0, "last_seen": "05.10.2026 01:29 UTC"}];
+const aircraft = [{"hex": "781EB7", "flight": "CES709", "lat": 61.396583, "lon": 25.322673, "alt": 38000, "speed": "-", "last_seen": "05.10.2026 02:01 UTC"}, {"hex": "780561", "flight": "CES553", "lat": 61.078724, "lon": 25.561625, "alt": 32000, "speed": 444.0, "last_seen": "05.10.2026 01:29 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
