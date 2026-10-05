@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.10.2026 13:16 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -23.6,
-      "label": "SA",
-      "msgno": "S55A",
-      "text": "0EV131707VSH/"
-    },
-    {
       "time": "04.10.2026 13:17 UTC",
       "source": "ACARS",
       "flight": "MU0202",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S04A",
       "text": "No text"
+    },
+    {
+      "time": "05.10.2026 05:18 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "10",
+      "msgno": "M33A",
+      "text": "POS151806, N 6170,E 2573,828,289,27047,  53,34002, 322,-250,-550,7"
     }
   ]
 }
