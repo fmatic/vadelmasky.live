@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.10.2026 13:17 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "SA",
-      "msgno": "S59A",
-      "text": "0EV131820VSH/"
-    },
-    {
-      "time": "04.10.2026 13:50 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2010",
-      "freq": 131.825,
-      "level": -30.8,
-      "label": "_d",
-      "msgno": "S92A",
-      "text": "No text"
-    },
-    {
-      "time": "04.10.2026 13:50 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2010",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
-      "time": "04.10.2026 14:54 UTC",
-      "source": "ACARS",
-      "flight": "CK0606",
-      "tail": "B-223F",
-      "freq": 131.825,
-      "level": -28.6,
-      "label": "H1",
-      "msgno": "D22A",
-      "text": "ACM01ACM230FSB-223F  CKK606  EGSSZSPD041026  50ER13425215791310ACKKSGY17\r\n2229016840A02\r\n9017810A02\r\n35001-24728082550306 3125\r\nB00161131  96501  02 797\r\nB00162122  96501  01 800\r\n 809 809 809 998 6378 7032"
-    },
-    {
       "time": "04.10.2026 14:55 UTC",
       "source": "ACARS",
       "flight": "CK0606",
@@ -329,6 +285,50 @@
       "label": "10",
       "msgno": "M33A",
       "text": "POS151806, N 6170,E 2573,828,289,27047,  53,34002, 322,-250,-550,7"
+    },
+    {
+      "time": "05.10.2026 05:38 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "H1",
+      "msgno": "C06A",
+      "text": ".1/WRN/WN2610050538  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "05.10.2026 05:38 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "H1",
+      "msgno": "C06A",
+      "text": ".1/WRN/WN2610050538  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "05.10.2026 05:38 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "H1",
+      "msgno": "C07A",
+      "text": ".1/WRN/WN2610050538  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "05.10.2026 05:39 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "H1",
+      "msgno": "C08A",
+      "text": ".1/FLR/FR2610050538  34361606MMR1   1,MMR2,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
