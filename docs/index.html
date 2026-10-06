@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">11</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">06.10.2026 03:15 UTC</div>
+        <div class="value">06.10.2026 03:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,11 +286,35 @@ footer {
                     <div><span>Speed</span><b>236.5 kt</b></div>
                     <div><span>Track</span><b>188.27°</b></div>
                     <div><span>Position</span><b>61.5851, 25.4787</b></div>
-                    <div><span>Last seen</span><b>06.10.2026 03:15 UTC</b></div>
+                    <div><span>Last seen</span><b>06.10.2026 03:20 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 7813A1 · REG B-1098 · TYPE A333</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>06.10.2026 03:19 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-1098" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -614,7 +638,7 @@ CAS 272,LAT N 61.997,LON E 27.684,ALT 35008,FOB 124560,UTC 212733,PD ----.--,WD 
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F4", "flight": "FIN8KH", "lat": 61.585098, "lon": 25.478668, "alt": 18025, "speed": 236.5, "last_seen": "06.10.2026 03:15 UTC"}, {"hex": "4601FA", "flight": "FIN4QA", "lat": 60.939579, "lon": 25.649152, "alt": 15850, "speed": 237.0, "last_seen": "06.10.2026 03:11 UTC"}, {"hex": "461E1C", "flight": "FIN4MP", "lat": 61.244683, "lon": 25.285034, "alt": 24825, "speed": 301.1, "last_seen": "06.10.2026 03:10 UTC"}];
+const aircraft = [{"hex": "4601F4", "flight": "FIN8KH", "lat": 61.585098, "lon": 25.478668, "alt": 18025, "speed": 236.5, "last_seen": "06.10.2026 03:20 UTC"}, {"hex": "4601FA", "flight": "FIN4QA", "lat": 60.939579, "lon": 25.649152, "alt": 15850, "speed": 237.0, "last_seen": "06.10.2026 03:11 UTC"}, {"hex": "461E1C", "flight": "FIN4MP", "lat": 61.244683, "lon": 25.285034, "alt": 24825, "speed": 301.1, "last_seen": "06.10.2026 03:10 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
