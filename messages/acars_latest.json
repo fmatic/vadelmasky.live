@@ -1,94 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 02:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -29.3,
-      "label": "SA",
-      "msgno": "S07A",
-      "text": "0EV023737VSH/"
-    },
-    {
-      "time": "07.10.2026 02:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -37.6,
-      "label": "5V",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 02:35 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -42.1,
-      "label": "5V",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 02:36 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "Q0",
-      "msgno": "S14A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 02:36 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -36.6,
-      "label": "SA",
-      "msgno": "S15A",
-      "text": "0EV024117VSH/"
-    },
-    {
-      "time": "07.10.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -30.5,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -31.0,
-      "label": "SA",
-      "msgno": "S01A",
-      "text": "0EV025440V"
-    },
-    {
-      "time": "07.10.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.725,
-      "level": -34.9,
-      "label": "80",
-      "msgno": "M00A",
-      "text": "1001 OUTRP  0290/07 EFJY/EFHK .OH-ATJ\r\n/OUT 0249/FOB 0014/BRD       /UNT LITERS  /TYP A "
-    },
-    {
       "time": "07.10.2026 02:54 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +241,94 @@
       "label": "_d",
       "msgno": "S19A",
       "text": "No text"
+    },
+    {
+      "time": "07.10.2026 07:21 UTC",
+      "source": "ACARS",
+      "flight": "E40001",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "QQ",
+      "msgno": "M02A",
+      "text": "EFJYLGSA0718"
+    },
+    {
+      "time": "07.10.2026 07:21 UTC",
+      "source": "ACARS",
+      "flight": "E40001",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -28.6,
+      "label": "52",
+      "msgno": "M04A",
+      "text": "No text"
+    },
+    {
+      "time": "07.10.2026 07:21 UTC",
+      "source": "ACARS",
+      "flight": "E40001",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "QR",
+      "msgno": "M05A",
+      "text": "LDZDEFJY1456"
+    },
+    {
+      "time": "07.10.2026 07:21 UTC",
+      "source": "ACARS",
+      "flight": "E40001",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "QS",
+      "msgno": "M06A",
+      "text": "LDZDEFJY15040007  "
+    },
+    {
+      "time": "07.10.2026 07:21 UTC",
+      "source": "ACARS",
+      "flight": "E40001",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "QP",
+      "msgno": "M07A",
+      "text": "EFJYLGSA0707003100024"
+    },
+    {
+      "time": "07.10.2026 07:21 UTC",
+      "source": "ACARS",
+      "flight": "E40001",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "H1",
+      "msgno": "D09A",
+      "text": "43101??????01091B737-80007OCT26RO0001EFJYLGSA0909ROJ88A\r\n071854CL33110108818628700690116N62245E025000160580\r\n097280970909750974088008530006400018\r\n106921028000780078059060054057\r\n032013048020004001007005\r\n2"
+    },
+    {
+      "time": "07.10.2026 07:22 UTC",
+      "source": "ACARS",
+      "flight": "E40001",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -34.1,
+      "label": "H1",
+      "msgno": "D10E",
+      "text": "44XXX0660046\r\n-4502320640058801199XXXXXX004602320640057201186XXXXXX0046\r\n-4002370648059101230XXX062004602380648057601216XXX0660046\r\n-3502450660059701274XXXXXX004602450659058201266XXXXXX0046\r\n-300252066806000130"
+    },
+    {
+      "time": "07.10.2026 07:23 UTC",
+      "source": "ACARS",
+      "flight": "E40001",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "H1",
+      "msgno": "D10I",
+      "text": "02504340793058801700XXXXXX004604490798057201782XXXXXX0046\r\n"
     }
   ]
 }
