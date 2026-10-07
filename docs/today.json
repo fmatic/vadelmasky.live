@@ -613,16 +613,16 @@
     },
     "4601f9": {
       "hex": "4601f9",
-      "flight": "",
+      "flight": "FIN3PT",
       "reg": "OH-ATL",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": null,
+      "lat": 61.207813,
+      "lon": 25.861206,
+      "alt": 18975,
       "speed": null,
       "track": null,
       "seen_first": "2026-10-07T14:28:01.928877",
-      "last_seen": "2026-10-07T14:29:02.174948"
+      "last_seen": "2026-10-07T21:40:01.657454"
     },
     "780f3a": {
       "hex": "780f3a",
@@ -857,11 +857,24 @@
       "track": 69.08,
       "seen_first": "2026-10-07T19:22:01.324769",
       "last_seen": "2026-10-07T19:29:02.025056"
+    },
+    "4601f8": {
+      "hex": "4601f8",
+      "flight": "FIN1T",
+      "reg": "OH-ATK",
+      "type": "AT75",
+      "lat": 61.606254,
+      "lon": 25.496216,
+      "alt": 16000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-07T21:38:02.104436",
+      "last_seen": "2026-10-07T21:40:01.657454"
     }
   },
   "summary": {
-    "total_unique_aircraft": 66,
-    "last_seen_live": 0,
-    "updated": "2026-10-07T21:35:01.465066"
+    "total_unique_aircraft": 67,
+    "last_seen_live": 2,
+    "updated": "2026-10-07T21:40:01.657454"
   }
 }
