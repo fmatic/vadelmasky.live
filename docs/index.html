@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">402.7 kt</div>
+        <div class="value">393.6 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">07.10.2026 02:10 UTC</div>
+        <div class="value">07.10.2026 02:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES709</div>
+                    <div class="meta">ICAO 781B7B · REG B-323H · TYPE A359</div>
+                </div>
+                <div class="alt-badge high">36000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>393.6 kt</b></div>
+                    <div><span>Track</span><b>236.19°</b></div>
+                    <div><span>Position</span><b>61.4395, 25.2427</b></div>
+                    <div><span>Last seen</span><b>07.10.2026 02:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-323H" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -286,35 +310,11 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>07.10.2026 02:10 UTC</b></div>
+                    <div><span>Last seen</span><b>07.10.2026 02:11 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-30FM" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CES709</div>
-                    <div class="meta">ICAO 781B7B · REG B-323H · TYPE A359</div>
-                </div>
-                <div class="alt-badge high">36000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>402.7 kt</b></div>
-                    <div><span>Track</span><b>237.06°</b></div>
-                    <div><span>Position</span><b>61.7625, 26.2716</b></div>
-                    <div><span>Last seen</span><b>07.10.2026 02:10 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-323H" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -654,7 +654,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "781B7B", "flight": "CES709", "lat": 61.762483, "lon": 26.271566, "alt": 36000, "speed": 402.7, "last_seen": "07.10.2026 02:10 UTC"}];
+const aircraft = [{"hex": "781B7B", "flight": "CES709", "lat": 61.439529, "lon": 25.242658, "alt": 36000, "speed": 393.6, "last_seen": "07.10.2026 02:15 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
