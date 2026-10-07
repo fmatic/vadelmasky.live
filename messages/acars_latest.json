@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 10:44 UTC",
-      "source": "ACARS",
-      "flight": "CZ2518",
-      "tail": "B-226D",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "H1",
-      "msgno": "O65A",
-      "text": "SB0122BA_B-226D  EGPKZGGG366\r\n 61701 0270391043 37002-47027509601020;015019"
-    },
-    {
-      "time": "07.10.2026 10:55 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "Q0",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
       "time": "07.10.2026 11:00 UTC",
       "source": "ACARS",
       "flight": "CA3157",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O69B",
       "text": "SS0340F_381\r\nB-220F  CKK205ZSPDEHAM071026120332ER\r\n29133996837-1687120163168BSM79967A21\r\n7516101898 2601071026 120321\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33996\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n071026120332\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "07.10.2026 12:07 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-220F",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "H1",
+      "msgno": "O70A",
+      "text": "SB0122BA_B-220F  ZSPDEHAM623\r\n 61540 0262561206 33998-48027111001005Z008010"
+    },
+    {
+      "time": "07.10.2026 12:07 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-220F",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "16",
+      "msgno": "M93A",
+      "text": "POSA1N61523E 26212,AGIVU  ,114852,339,NISIX  ,124037,-49,111, 246,831"
     }
   ]
 }
