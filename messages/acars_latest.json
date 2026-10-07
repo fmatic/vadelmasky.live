@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 10:15 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "Q0",
-      "msgno": "S11A",
-      "text": "No text"
-    },
-    {
       "time": "07.10.2026 10:31 UTC",
       "source": "ACARS",
       "flight": "N70285",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S19A",
       "text": "No text"
+    },
+    {
+      "time": "07.10.2026 11:29 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA738J",
+      "freq": 131.725,
+      "level": -34.1,
+      "label": "H1",
+      "msgno": "O80A",
+      "text": "SB0022BA_231JA738J  JAL4TA 239061026 230558RJTTEFHK316DBSM7996221963120\r\n 207 546540   0\r\n  90 489550 325\r\nTA   64 35 216 214061026 230605OCOCCRR\r\nDC33075296-175-485071026 112942OCOCRRO"
     }
   ]
 }
