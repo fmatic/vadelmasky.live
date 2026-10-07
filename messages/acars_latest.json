@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 11:29 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA738J",
-      "freq": 131.725,
-      "level": -34.1,
-      "label": "H1",
-      "msgno": "O80A",
-      "text": "SB0022BA_231JA738J  JAL4TA 239061026 230558RJTTEFHK316DBSM7996221963120\r\n 207 546540   0\r\n  90 489550 325\r\nTA   64 35 216 214061026 230605OCOCCRR\r\nDC33075296-175-485071026 112942OCOCRRO"
-    },
-    {
       "time": "07.10.2026 11:55 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C22A",
       "text": ".1/FLR/FR2610071818  34363106IR1    1,IR3,IR2,AFS,,,,MMR1-GPSSU1(40RT1-1SN1),HARD"
+    },
+    {
+      "time": "07.10.2026 18:20 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -40.9,
+      "label": "H1",
+      "msgno": "C23A",
+      "text": ".1/WRN/WN2610071820  345801006NAV GPS 2 FAULT"
     }
   ]
 }
