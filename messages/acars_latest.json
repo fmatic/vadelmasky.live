@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 11:00 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "10",
-      "msgno": "M90A",
-      "text": "POS051100,N 61.351,E 25.747,1153,368125,,,36000,28720"
-    },
-    {
-      "time": "07.10.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -24.6,
-      "label": "Q0",
-      "msgno": "M13A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.725,
-      "level": -39.4,
-      "label": "SA",
-      "msgno": "S12A",
-      "text": "0EV110759V"
-    },
-    {
-      "time": "07.10.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -23.0,
-      "label": "SA",
-      "msgno": "S12A",
-      "text": "0EV110759V"
-    },
-    {
       "time": "07.10.2026 11:08 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +285,50 @@
       "label": "16",
       "msgno": "M93A",
       "text": "POSA1N61523E 26212,AGIVU  ,114852,339,NISIX  ,124037,-49,111, 246,831"
+    },
+    {
+      "time": "07.10.2026 15:24 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -39.1,
+      "label": "Q0",
+      "msgno": "S56A",
+      "text": "No text"
+    },
+    {
+      "time": "07.10.2026 15:24 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "B9",
+      "msgno": "L07A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "07.10.2026 15:24 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "SA",
+      "msgno": "S57A",
+      "text": "0EV152406V"
+    },
+    {
+      "time": "07.10.2026 15:24 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -33.0,
+      "label": "_d",
+      "msgno": "S58A",
+      "text": "No text"
     }
   ]
 }
