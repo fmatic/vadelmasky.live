@@ -379,21 +379,34 @@
     },
     "780450": {
       "hex": "780450",
-      "flight": "CA1159",
+      "flight": "CAO1159",
       "reg": "B-6113",
       "type": "A332",
-      "lat": 61.864,
-      "lon": 28.11,
+      "lat": 61.240353,
+      "lon": 25.322266,
+      "alt": 38000,
+      "speed": 200.8,
+      "track": 244.33,
+      "seen_first": "2026-10-07T10:06:01.582230",
+      "last_seen": "2026-10-07T10:20:02.042572"
+    },
+    "4601fa": {
+      "hex": "4601fa",
+      "flight": "",
+      "reg": "OH-ATM",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
       "alt": null,
       "speed": null,
       "track": null,
-      "seen_first": "2026-10-07T10:06:01.582230",
-      "last_seen": "2026-10-07T10:15:01.889673"
+      "seen_first": "2026-10-07T10:20:02.042572",
+      "last_seen": "2026-10-07T10:20:02.042572"
     }
   },
   "summary": {
-    "total_unique_aircraft": 30,
-    "last_seen_live": 1,
-    "updated": "2026-10-07T10:15:01.889673"
+    "total_unique_aircraft": 31,
+    "last_seen_live": 2,
+    "updated": "2026-10-07T10:20:02.042572"
   }
 }
