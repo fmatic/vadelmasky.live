@@ -5,17 +5,6 @@
       "source": "ACARS",
       "flight": "N70290",
       "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -19.4,
-      "label": "80",
-      "msgno": "M00A",
-      "text": "1001 OUTRP  0290/07 EFJY/EFHK .OH-ATJ\r\n/OUT 0249/FOB 0014/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "07.10.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
       "freq": 131.725,
       "level": -39.5,
       "label": "80",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "D10I",
       "text": "02504340793058801700XXXXXX004604490798057201782XXXXXX0046\r\n"
+    },
+    {
+      "time": "07.10.2026 07:25 UTC",
+      "source": "ACARS",
+      "flight": "E40001",
+      "tail": "SP-ESI",
+      "freq": 131.825,
+      "level": -40.3,
+      "label": "5V",
+      "msgno": "M12A",
+      "text": "No text"
     }
   ]
 }
