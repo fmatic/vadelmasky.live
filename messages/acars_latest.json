@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 02:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20DT",
-      "freq": 131.725,
-      "level": -35.0,
-      "label": "SA",
-      "msgno": "S97A",
-      "text": "0EV023435VS/"
-    },
-    {
-      "time": "07.10.2026 02:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20DT",
-      "freq": 131.725,
-      "level": -36.4,
-      "label": "5V",
-      "msgno": "S98A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 02:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -19.6,
-      "label": "5V",
-      "msgno": "S98A",
-      "text": "No text"
-    },
-    {
       "time": "07.10.2026 02:31 UTC",
       "source": "ACARS",
       "flight": "HO1659",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S13A",
       "text": "0LH055035VS"
+    },
+    {
+      "time": "07.10.2026 05:56 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -30.3,
+      "label": "B9",
+      "msgno": "M15A",
+      "text": "/EHAM.TI2/024EHAMA687E"
+    },
+    {
+      "time": "07.10.2026 05:56 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "_d",
+      "msgno": "S15A",
+      "text": "No text"
+    },
+    {
+      "time": "07.10.2026 05:56 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "_d",
+      "msgno": "S16A",
+      "text": "No text"
     }
   ]
 }
