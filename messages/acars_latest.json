@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 11:14 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "80",
-      "msgno": "M21A",
-      "text": "3701 INRANG 0286/07 EFJY/EFHK .OH-ATM\r\n/ETA 1140/ERT     \r\nF/AY1075/1.7"
-    },
-    {
-      "time": "07.10.2026 11:14 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "_d",
-      "msgno": "S17A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 11:14 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "_d",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 11:19 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -41.3,
-      "label": "5V",
-      "msgno": "S19A",
-      "text": "No text"
-    },
-    {
       "time": "07.10.2026 11:29 UTC",
       "source": "ACARS",
       "flight": "JL0047",
@@ -329,6 +285,50 @@
       "label": "_d",
       "msgno": "S09A",
       "text": "No text"
+    },
+    {
+      "time": "07.10.2026 18:15 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -34.6,
+      "label": "SA",
+      "msgno": "S10A",
+      "text": "0LS181513VH"
+    },
+    {
+      "time": "07.10.2026 18:18 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -31.3,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/WRN/WN2610071818  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "07.10.2026 18:19 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -37.0,
+      "label": "SA",
+      "msgno": "S13A",
+      "text": "0LH181928VS"
+    },
+    {
+      "time": "07.10.2026 18:19 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -37.5,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/FLR/FR2610071818  34363106IR1    1,IR3,IR2,AFS,,,,MMR1-GPSSU1(40RT1-1SN1),HARD"
     }
   ]
 }
