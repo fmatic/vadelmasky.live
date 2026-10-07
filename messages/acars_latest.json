@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 03:23 UTC",
-      "source": "ACARS",
-      "flight": "CZ2517",
-      "tail": "B-226D",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "Q0",
-      "msgno": "S16A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 03:24 UTC",
-      "source": "ACARS",
-      "flight": "CZ2517",
-      "tail": "B-226D",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "H1",
-      "msgno": "O43A",
-      "text": "SB0122BA_B-226D  ZGGGEGPK347\r\n 61322 0269050324 33998-4502811150107GX013018"
-    },
-    {
       "time": "07.10.2026 03:26 UTC",
       "source": "ACARS",
       "flight": "CZ2517",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S11A",
       "text": "No text"
+    },
+    {
+      "time": "07.10.2026 10:41 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-226D",
+      "freq": 131.825,
+      "level": -25.8,
+      "label": "18",
+      "msgno": "M96A",
+      "text": "POX,CSG2518   ,07OCT26,104139,EGPK,ZGGG,N061.66,E0026.32,369, 629,837,  73.1, -89.7,097,-48.9,191739, 39520,"
+    },
+    {
+      "time": "07.10.2026 10:44 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-226D",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "H1",
+      "msgno": "O65A",
+      "text": "SB0122BA_B-226D  EGPKZGGG366\r\n 61701 0270391043 37002-47027509601020;015019"
     }
   ]
 }
