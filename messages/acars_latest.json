@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 11:55 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "10",
-      "msgno": "M59A",
-      "text": "POS071155, N 6201,E 2576,832,284,27442, 108,34993, 666,-208,-515,7"
-    },
-    {
       "time": "07.10.2026 11:59 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C23A",
       "text": ".1/WRN/WN2610071820  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "08.10.2026 03:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3055",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "SA",
+      "msgno": "S36A",
+      "text": "0LH032728VS"
     }
   ]
 }
