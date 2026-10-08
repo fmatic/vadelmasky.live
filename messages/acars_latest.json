@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 15:24 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "_d",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "_d",
-      "msgno": "S60A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "80",
-      "msgno": "M08A",
-      "text": "3701 INRANG 0370/07 EFKU/EFHK .OH-ATH\r\n/ETA 1548/ERT     "
-    },
-    {
-      "time": "07.10.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "_d",
-      "msgno": "S61A",
-      "text": "No text"
-    },
-    {
       "time": "07.10.2026 15:25 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +285,50 @@
       "label": "Q0",
       "msgno": "S97A",
       "text": "No text"
+    },
+    {
+      "time": "08.10.2026 10:59 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -39.9,
+      "label": "H1",
+      "msgno": "D89A",
+      "text": "E2020G-08   A24\r\nJA741J  004707102309  34CL\r\nHND HND  1297\r\n\r\n9066751002\r\n9063741002\r\n 9803 1492496450503084)15251020\r\nB 0 0 160 138   965 0    0     -03  890\r\nB 0 0 163 122   965 0    0     -05  896\r\n 960 "
+    },
+    {
+      "time": "08.10.2026 10:59 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -36.5,
+      "label": "H1",
+      "msgno": "D89D",
+      "text": "0 0 157 138   502 0    0     -03  889\r\nB 0 0 158 120   517 0    0     -05  896\r\n 983 982 9831121  9130 20297  378 26 27\r\n 983 982 9831123  9095 20263  378 26 29\r\n  8969 1  9129\r\n  8934 1  9093\r\n 6750 000)35"
+    },
+    {
+      "time": "08.10.2026 10:59 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -35.9,
+      "label": "H1",
+      "msgno": "D89E",
+      "text": "481  111 859  615800000000\r\n 6749 000)35597  111 852  612200000000\r\n0  034 158 024 000 302 170 036 000  0 158\r\n0  016 059 012 017 167 325 016 067  0 059\r\n   0.)     0.)  897.0  890.0  899.0  902.0\r\n   0.)  "
+    },
+    {
+      "time": "08.10.2026 10:59 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA741J",
+      "freq": 131.725,
+      "level": -41.2,
+      "label": "H1",
+      "msgno": "O62A",
+      "text": "SB016BA_636100-254  3263   30002\r\n100-254  3213   30002\r\nDC105925 -02  23-15-25439000838000M12\r\n 800 600 200  20    5 70\r\n1777  683 593 8331006.... 6562577....... 285\r\n1575  693 573 8331005.... 6512577....."
     }
   ]
 }
