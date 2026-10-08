@@ -1,94 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.10.2026 03:36 UTC",
-      "source": "ACARS",
-      "flight": "CA3055",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "10",
-      "msgno": "M51A",
-      "text": "POS080336,N 61.393,E 25.933,0429,385125,,,38000,31880"
-    },
-    {
-      "time": "08.10.2026 04:05 UTC",
-      "source": "ACARS",
-      "flight": "N70341",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -41.5,
-      "label": "_d",
-      "msgno": "S24A",
-      "text": "No text"
-    },
-    {
-      "time": "08.10.2026 10:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -30.5,
-      "label": "Q0",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
-      "time": "08.10.2026 10:23 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "B9",
-      "msgno": "M56A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
-      "time": "08.10.2026 10:23 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "_d",
-      "msgno": "S24A",
-      "text": "No text"
-    },
-    {
-      "time": "08.10.2026 10:23 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -30.0,
-      "label": "_d",
-      "msgno": "S25A",
-      "text": "No text"
-    },
-    {
-      "time": "08.10.2026 10:35 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "Q0",
-      "msgno": "S97A",
-      "text": "No text"
-    },
-    {
-      "time": "08.10.2026 10:59 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA741J",
-      "freq": 131.725,
-      "level": -39.9,
-      "label": "H1",
-      "msgno": "D89A",
-      "text": "E2020G-08   A24\r\nJA741J  004707102309  34CL\r\nHND HND  1297\r\n\r\n9066751002\r\n9063741002\r\n 9803 1492496450503084)15251020\r\nB 0 0 160 138   965 0    0     -03  890\r\nB 0 0 163 122   965 0    0     -05  896\r\n 960 "
-    },
-    {
       "time": "08.10.2026 10:59 UTC",
       "source": "ACARS",
       "flight": "JL0047",
@@ -329,6 +241,94 @@
       "label": "SA",
       "msgno": "S19A",
       "text": "0EV151642V"
+    },
+    {
+      "time": "08.10.2026 21:30 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -28.3,
+      "label": "Q0",
+      "msgno": "S69A",
+      "text": "No text"
+    },
+    {
+      "time": "08.10.2026 21:30 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -42.7,
+      "label": "B9",
+      "msgno": "J38A",
+      "text": "/ZSPD.TI2/000ZSPDAA4EC"
+    },
+    {
+      "time": "08.10.2026 21:30 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -28.1,
+      "label": "Q0",
+      "msgno": "S69A",
+      "text": "No text"
+    },
+    {
+      "time": "08.10.2026 21:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -38.2,
+      "label": "_d",
+      "msgno": "S68A",
+      "text": "No text"
+    },
+    {
+      "time": "08.10.2026 21:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -36.4,
+      "label": "_d",
+      "msgno": "S69A",
+      "text": "No text"
+    },
+    {
+      "time": "08.10.2026 21:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -36.4,
+      "label": "_d",
+      "msgno": "S69A",
+      "text": "No text"
+    },
+    {
+      "time": "08.10.2026 21:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -36.9,
+      "label": "_d",
+      "msgno": "S72A",
+      "text": "No text"
+    },
+    {
+      "time": "08.10.2026 21:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -31.5,
+      "label": "SA",
+      "msgno": "S73A",
+      "text": "0LS213451V"
     }
   ]
 }
