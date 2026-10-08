@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 11:59 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "H1",
-      "msgno": "O71A",
-      "text": "SB0122BA_B-2094  EGPKZSPD756\r\n 62112 0264611157 35001-490271110098O/X021037"
-    },
-    {
       "time": "07.10.2026 12:03 UTC",
       "source": "ACARS",
       "flight": "CK0205",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S36A",
       "text": "0LH032728VS"
+    },
+    {
+      "time": "08.10.2026 03:30 UTC",
+      "source": "ACARS",
+      "flight": "CA3055",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "SA",
+      "msgno": "S37A",
+      "text": "0LS033004V"
     }
   ]
 }
