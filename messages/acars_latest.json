@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 18:19 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5921",
-      "freq": 131.725,
-      "level": -37.5,
-      "label": "H1",
-      "msgno": "C22A",
-      "text": ".1/FLR/FR2610071818  34363106IR1    1,IR3,IR2,AFS,,,,MMR1-GPSSU1(40RT1-1SN1),HARD"
-    },
-    {
-      "time": "07.10.2026 18:20 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5921",
-      "freq": 131.725,
-      "level": -40.9,
-      "label": "H1",
-      "msgno": "C23A",
-      "text": ".1/WRN/WN2610071820  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "08.10.2026 03:27 UTC",
-      "source": "ACARS",
-      "flight": "CA3055",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "SA",
-      "msgno": "S36A",
-      "text": "0LH032728VS"
-    },
-    {
-      "time": "08.10.2026 03:30 UTC",
-      "source": "ACARS",
-      "flight": "CA3055",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "SA",
-      "msgno": "S37A",
-      "text": "0LS033004V"
-    },
-    {
       "time": "08.10.2026 03:36 UTC",
       "source": "ACARS",
       "flight": "CA3055",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "C15A",
       "text": ".1/WRN/WN2610081514  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "08.10.2026 15:16 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -28.7,
+      "label": "11",
+      "msgno": "M95A",
+      "text": "POS\r\nCAS 258,LAT N 61.798,LON E 26.026,ALT 38001,FOB 53480,UTC 151620,PD ----.--,WD 257,WS   64,TAT - 33"
+    },
+    {
+      "time": "08.10.2026 15:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -34.4,
+      "label": "10",
+      "msgno": "M83A",
+      "text": "POS081516,N 62.010,E 28.216,2250,539125,,,37001,109000"
+    },
+    {
+      "time": "08.10.2026 15:16 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "Q0",
+      "msgno": "M02A",
+      "text": "No text"
+    },
+    {
+      "time": "08.10.2026 15:16 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "SA",
+      "msgno": "S19A",
+      "text": "0EV151642V"
     }
   ]
 }
