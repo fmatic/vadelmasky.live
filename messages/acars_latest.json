@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.10.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "_d",
-      "msgno": "S62A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "_d",
-      "msgno": "S63A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "_d",
-      "msgno": "S64A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -30.7,
-      "label": "_d",
-      "msgno": "S65A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "_d",
-      "msgno": "S66A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 15:26 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "_d",
-      "msgno": "S67A",
-      "text": "No text"
-    },
-    {
-      "time": "07.10.2026 15:26 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.2,
-      "label": "_d",
-      "msgno": "S69A",
-      "text": "No text"
-    },
-    {
       "time": "07.10.2026 15:26 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +252,83 @@
       "label": "H1",
       "msgno": "O62A",
       "text": "SB016BA_636100-254  3263   30002\r\n100-254  3213   30002\r\nDC105925 -02  23-15-25439000838000M12\r\n 800 600 200  20    5 70\r\n1777  683 593 8331006.... 6562577....... 285\r\n1575  693 573 8331005.... 6512577....."
+    },
+    {
+      "time": "08.10.2026 11:10 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -40.2,
+      "label": "Q0",
+      "msgno": "S98A",
+      "text": "No text"
+    },
+    {
+      "time": "08.10.2026 11:11 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -23.9,
+      "label": "80",
+      "msgno": "M21B",
+      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
+    },
+    {
+      "time": "08.10.2026 11:11 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -26.4,
+      "label": "80",
+      "msgno": "M22A",
+      "text": "1201 ONRP   0285/08 EFHK/EFJY .OH-ATO\r\n/ON  1035/FOB 0012"
+    },
+    {
+      "time": "08.10.2026 11:11 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -28.3,
+      "label": "80",
+      "msgno": "M23A",
+      "text": "1301 INRP   0285/08 EFHK/EFJY .OH-ATO\r\n/ON  1035/IN  1037/FOB 0014"
+    },
+    {
+      "time": "08.10.2026 11:11 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -24.0,
+      "label": "80",
+      "msgno": "M24A",
+      "text": "1001 OUTRP  0286/08 EFJY/EFHK .OH-ATO\r\n/OUT 1104/FOB 0014/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "08.10.2026 11:11 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -26.5,
+      "label": "80",
+      "msgno": "M25A",
+      "text": "1101 OFFRP  0286/08 EFJY/EFHK .OH-ATO\r\n/OUT 1104/OFF 1107/FOB 0013/ETA 1147"
+    },
+    {
+      "time": "08.10.2026 11:11 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -24.6,
+      "label": "5V",
+      "msgno": "S99A",
+      "text": "No text"
     }
   ]
 }
