@@ -210,16 +210,16 @@
     },
     "4601f6": {
       "hex": "4601f6",
-      "flight": "",
+      "flight": "FIN5ET",
       "reg": "OH-ATI",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 17000,
-      "speed": null,
-      "track": null,
+      "lat": 61.836129,
+      "lon": 26.489665,
+      "alt": 16025,
+      "speed": 245.1,
+      "track": 211.48,
       "seen_first": "2026-10-08T05:00:01.534875",
-      "last_seen": "2026-10-08T05:01:01.999893"
+      "last_seen": "2026-10-08T06:15:01.426493"
     },
     "461f69": {
       "hex": "461f69",
@@ -246,11 +246,24 @@
       "track": 180.35,
       "seen_first": "2026-10-08T05:18:01.624337",
       "last_seen": "2026-10-08T05:23:01.991816"
+    },
+    "4601fc": {
+      "hex": "4601fc",
+      "flight": "",
+      "reg": "OH-ATO",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 19000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-08T06:15:01.426493",
+      "last_seen": "2026-10-08T06:15:01.426493"
     }
   },
   "summary": {
-    "total_unique_aircraft": 19,
-    "last_seen_live": 0,
-    "updated": "2026-10-08T06:10:02.027957"
+    "total_unique_aircraft": 20,
+    "last_seen_live": 2,
+    "updated": "2026-10-08T06:15:01.426493"
   }
 }
