@@ -6,61 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATO",
       "freq": 131.825,
-      "level": -23.9,
-      "label": "80",
-      "msgno": "M21B",
-      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
-      "time": "08.10.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -26.4,
-      "label": "80",
-      "msgno": "M22A",
-      "text": "1201 ONRP   0285/08 EFHK/EFJY .OH-ATO\r\n/ON  1035/FOB 0012"
-    },
-    {
-      "time": "08.10.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -28.3,
-      "label": "80",
-      "msgno": "M23A",
-      "text": "1301 INRP   0285/08 EFHK/EFJY .OH-ATO\r\n/ON  1035/IN  1037/FOB 0014"
-    },
-    {
-      "time": "08.10.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -24.0,
-      "label": "80",
-      "msgno": "M24A",
-      "text": "1001 OUTRP  0286/08 EFJY/EFHK .OH-ATO\r\n/OUT 1104/FOB 0014/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "08.10.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -26.5,
-      "label": "80",
-      "msgno": "M25A",
-      "text": "1101 OFFRP  0286/08 EFJY/EFHK .OH-ATO\r\n/OUT 1104/OFF 1107/FOB 0013/ETA 1147"
-    },
-    {
-      "time": "08.10.2026 11:11 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
       "level": -24.6,
       "label": "5V",
       "msgno": "S99A",
@@ -329,6 +274,61 @@
       "label": "80",
       "msgno": "M01A",
       "text": "1101 OFFRP  0290/09 EFJY/EFHK .OH-ATN\r\n/OUT 0255/OFF 0258/FOB 0016/ETA 0338"
+    },
+    {
+      "time": "09.10.2026 05:58 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "Q0",
+      "msgno": "S63A",
+      "text": "No text"
+    },
+    {
+      "time": "09.10.2026 05:58 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -36.7,
+      "label": "SA",
+      "msgno": "M23A",
+      "text": "0EV055748V"
+    },
+    {
+      "time": "09.10.2026 05:58 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -39.1,
+      "label": "B9",
+      "msgno": "L09A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "09.10.2026 05:58 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -38.3,
+      "label": "_d",
+      "msgno": "S64A",
+      "text": "No text"
+    },
+    {
+      "time": "09.10.2026 05:58 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -38.4,
+      "label": "_d",
+      "msgno": "S65A",
+      "text": "No text"
     }
   ]
 }
