@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.10.2026 11:57 UTC",
-      "source": "ACARS",
-      "flight": "CA3040",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -27.0,
-      "label": "H1",
-      "msgno": "C39A",
-      "text": ".1/FLR/FR2610081156  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
       "time": "08.10.2026 11:58 UTC",
       "source": "ACARS",
       "flight": "CA3040",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S28A",
       "text": "No text"
+    },
+    {
+      "time": "09.10.2026 06:15 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "10",
+      "msgno": "M52A",
+      "text": "POS090615,N 61.323,E 25.626,0703,424125,,,38006,28160"
     }
   ]
 }
