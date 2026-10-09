@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.10.2026 10:59 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA741J",
-      "freq": 131.725,
-      "level": -35.9,
-      "label": "H1",
-      "msgno": "D89E",
-      "text": "481  111 859  615800000000\r\n 6749 000)35597  111 852  612200000000\r\n0  034 158 024 000 302 170 036 000  0 158\r\n0  016 059 012 017 167 325 016 067  0 059\r\n   0.)     0.)  897.0  890.0  899.0  902.0\r\n   0.)  "
-    },
-    {
-      "time": "08.10.2026 10:59 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA741J",
-      "freq": 131.725,
-      "level": -41.2,
-      "label": "H1",
-      "msgno": "O62A",
-      "text": "SB016BA_636100-254  3263   30002\r\n100-254  3213   30002\r\nDC105925 -02  23-15-25439000838000M12\r\n 800 600 200  20    5 70\r\n1777  683 593 8331006.... 6562577....... 285\r\n1575  693 573 8331005.... 6512577....."
-    },
-    {
-      "time": "08.10.2026 11:10 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -40.2,
-      "label": "Q0",
-      "msgno": "S98A",
-      "text": "No text"
-    },
-    {
       "time": "08.10.2026 11:11 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C22A",
       "text": ".1/WRN/WN2610082138  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "09.10.2026 03:04 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "SA",
+      "msgno": "S01A",
+      "text": "0EV030428V"
+    },
+    {
+      "time": "09.10.2026 03:04 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/09 EFJY/EFHK .OH-ATN\r\n/OUT 0255/FOB 0016/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "09.10.2026 03:04 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -40.2,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/09 EFJY/EFHK .OH-ATN\r\n/OUT 0255/OFF 0258/FOB 0016/ETA 0338"
     }
   ]
 }
