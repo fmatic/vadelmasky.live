@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">11</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">09.10.2026 02:45 UTC</div>
+        <div class="value">09.10.2026 02:50 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,23 +274,23 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">CES201</div>
-                    <div class="meta">ICAO 7823AD · REG B-228L · TYPE B789</div>
+                    <div class="flight">FIN4QA</div>
+                    <div class="meta">ICAO 4601FC · REG OH-ATO · TYPE AT75</div>
                 </div>
-                <div class="alt-badge high">37975 ft</div>
+                <div class="alt-badge mid">16000 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>428.0 kt</b></div>
-                    <div><span>Track</span><b>244.86°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>09.10.2026 02:45 UTC</b></div>
+                    <div><span>Speed</span><b>238.0 kt</b></div>
+                    <div><span>Track</span><b>210.55°</b></div>
+                    <div><span>Position</span><b>62.1243, 26.6864</b></div>
+                    <div><span>Last seen</span><b>09.10.2026 02:50 UTC</b></div>
                 </div>
             </div>
 
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-228L" target="_blank" rel="noopener">
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATO" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -307,14 +307,38 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>432.0 kt</b></div>
-                    <div><span>Track</span><b>244.69°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>09.10.2026 02:45 UTC</b></div>
+                    <div><span>Speed</span><b>434.0 kt</b></div>
+                    <div><span>Track</span><b>243.81°</b></div>
+                    <div><span>Position</span><b>61.2390, 25.2730</b></div>
+                    <div><span>Last seen</span><b>09.10.2026 02:49 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-20EQ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES201</div>
+                    <div class="meta">ICAO 7823AD · REG B-228L · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">37975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>428.0 kt</b></div>
+                    <div><span>Track</span><b>244.86°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>09.10.2026 02:47 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-228L" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -739,7 +763,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "781783", "flight": "DKH1659", "lat": 61.319073, "lon": 25.744425, "alt": 37975, "speed": 434.0, "last_seen": "09.10.2026 02:34 UTC"}];
+const aircraft = [{"hex": "4601FC", "flight": "FIN4QA", "lat": 62.124287, "lon": 26.686401, "alt": 16000, "speed": 238.0, "last_seen": "09.10.2026 02:50 UTC"}, {"hex": "781942", "flight": "DKH1661", "lat": 61.239003, "lon": 25.273031, "alt": 38000, "speed": 434.0, "last_seen": "09.10.2026 02:49 UTC"}, {"hex": "781783", "flight": "DKH1659", "lat": 61.319073, "lon": 25.744425, "alt": 37975, "speed": 434.0, "last_seen": "09.10.2026 02:34 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
