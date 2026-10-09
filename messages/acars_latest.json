@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.10.2026 11:56 UTC",
-      "source": "ACARS",
-      "flight": "CA3040",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "H1",
-      "msgno": "C38A",
-      "text": ".1/WRN/WN2610081156  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "08.10.2026 11:57 UTC",
       "source": "ACARS",
       "flight": "CA3040",
@@ -328,6 +317,17 @@
       "level": -42.6,
       "label": "_d",
       "msgno": "S68A",
+      "text": "No text"
+    },
+    {
+      "time": "09.10.2026 06:11 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "Q0",
+      "msgno": "S28A",
       "text": "No text"
     }
   ]
