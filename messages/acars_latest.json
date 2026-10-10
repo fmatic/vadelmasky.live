@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 03:02 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -39.6,
-      "label": "H1",
-      "msgno": "D01B",
-      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2OCT10,0301,0380/C1/C202.56.13,MC/C302.56.13,FLT,CTL/C4TLU,FAULT/C5MFC1B.1UA1./C6CHK,TLU,ACTR.10CY./C7.,CTL,SW.11CY./C8.,RLY.19CY.,.,ADC1.1FL1./C9.,ADC2.1FL2.,.,RLY.15CY./C0.,RLY.16CY.,.,TLU,MECHA,/"
-    },
-    {
       "time": "10.10.2026 03:07 UTC",
       "source": "ACARS",
       "flight": "N70380",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "E19B",
       "text": "HYD,R,2970,3120,3000,2980,3130,3080,3010,9,12,18,21,ON,ON,ON,ON,YES,YES,OPEN,OPEN,60,30,10,50,-12,-14,-15,-8,AUTO,AUTO,AUTO,AUTO,NO,NO,NO,NO,70,,STOWED,0.92,,1.08,,1.02,,NORM,NORM,NORM,-7,3,2,NORM,NORM,NORM,NORM,NORM,NORM,NORM,NORM,,10,OCT,26,09,33,20"
+    },
+    {
+      "time": "10.10.2026 10:54 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228S",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "Q0",
+      "msgno": "S43A",
+      "text": "No text"
     }
   ]
 }
