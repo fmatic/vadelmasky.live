@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 09:28 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -39.6,
-      "label": "H1",
-      "msgno": "E19A",
-      "text": "HYD,R,2970,3120,3000,2980,3130,3080,3010,9,12,18,21,ON,ON,ON,ON,YES,YES,OPEN,OPEN,60,30,10,50,-12,-14,-15,-8,AUTO,AUTO,AUTO,AUTO,NO,NO,NO,NO,70,,STOWED,0.92,,1.08,,1.02,,NORM,NORM,NORM,-7,3,2,NORM,NORM,NORM"
-    },
-    {
-      "time": "10.10.2026 09:28 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -41.3,
-      "label": "H1",
-      "msgno": "E19B",
-      "text": "HYD,R,2970,3120,3000,2980,3130,3080,3010,9,12,18,21,ON,ON,ON,ON,YES,YES,OPEN,OPEN,60,30,10,50,-12,-14,-15,-8,AUTO,AUTO,AUTO,AUTO,NO,NO,NO,NO,70,,STOWED,0.92,,1.08,,1.02,,NORM,NORM,NORM,-7,3,2,NORM,NORM,NORM,NORM,NORM,NORM,NORM,NORM,,10,OCT,26,09,33,20"
-    },
-    {
-      "time": "10.10.2026 10:54 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "Q0",
-      "msgno": "S43A",
-      "text": "No text"
-    },
-    {
-      "time": "10.10.2026 11:00 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA740J",
-      "freq": 131.725,
-      "level": -42.0,
-      "label": "H1",
-      "msgno": "O06A",
-      "text": "SS0340C_ 90\r\nJA740J  JAL47 RJTTEFHK101026110026ER\r\n25739000828-173752764316DBSM79962A\r\n525620452 240101026 110014\r\n547620432 240\r\n545620432 240\r\n10000000000001000\r\n  39001\r\n  3833215 43N  24216.)\r\n  3834715"
-    },
-    {
       "time": "10.10.2026 11:03 UTC",
       "source": "ACARS",
       "flight": "U60503",
@@ -329,6 +285,50 @@
       "label": "11",
       "msgno": "M33A",
       "text": "POS\r\nCAS 270,LAT N 61.821,LON E 27.614,ALT 35006,FOB 124520,UTC 181419,PD ----.--,WD 255,WS   40,TAT - 21"
+    },
+    {
+      "time": "10.10.2026 19:23 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2073",
+      "freq": 131.825,
+      "level": -28.2,
+      "label": "18",
+      "msgno": "M61A",
+      "text": "POX,CSG2516   ,10OCT26,192327,EGPK,ZGGG,N061.74,E0026.57,369, 649,831,  77.8,-107.5,036,-45.6,041027, 36280,"
+    },
+    {
+      "time": "10.10.2026 19:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2073",
+      "freq": 131.825,
+      "level": -27.4,
+      "label": "_d",
+      "msgno": "S67A",
+      "text": "No text"
+    },
+    {
+      "time": "10.10.2026 19:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2073",
+      "freq": 131.825,
+      "level": -27.0,
+      "label": "_d",
+      "msgno": "S68A",
+      "text": "No text"
+    },
+    {
+      "time": "10.10.2026 19:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2073",
+      "freq": 131.825,
+      "level": -26.4,
+      "label": "_d",
+      "msgno": "S69A",
+      "text": "No text"
     }
   ]
 }
