@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 11:04 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA740J",
-      "freq": 131.725,
-      "level": -36.9,
-      "label": "H1",
-      "msgno": "O08A",
-      "text": "SB0022BA_ 49JA740J  JAL4TA  50091026 231102RJTTEFHK316DBSM7996210213120\r\n 112 425528 428\r\n 1231333518 471\r\nTA  226 34 210 209091026 231111OCOCCRR\r\nDC38850261-164-479101026 110334OCOCRRO"
-    },
-    {
-      "time": "10.10.2026 11:45 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2073",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "Q0",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
-      "time": "10.10.2026 11:47 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2073",
-      "freq": 131.825,
-      "level": -37.7,
-      "label": "18",
-      "msgno": "M21A",
-      "text": "POX,CSG2515   ,10OCT26,115222,ZGGG,EGPK,N061.45,E0027.55,340, 316,837,-116.5, -96.2,040,-50.8,142522, 31520,"
-    },
-    {
       "time": "10.10.2026 11:50 UTC",
       "source": "ACARS",
       "flight": "CZ2515",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C52A",
       "text": ".1/FLR/FR2610102026  34363106IR2    1,IR1,IR3,AFS,,,,MMR1-GPSSU1(40RT1-1SN1),HARD"
+    },
+    {
+      "time": "10.10.2026 20:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -32.0,
+      "label": "H1",
+      "msgno": "C53A",
+      "text": ".1/FLR/FR2610102030  34361606MMR2   1,MMR1,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "10.10.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -36.6,
+      "label": "SA",
+      "msgno": "S99A",
+      "text": "0LS203237V"
+    },
+    {
+      "time": "10.10.2026 20:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -39.2,
+      "label": "11",
+      "msgno": "M51A",
+      "text": "POS\r\nCAS 273,LAT N 61.996,LON E 28.761,ALT 35003,FOB 124160,UTC 203432,PD ----.--,WD 252,WS   41,TAT - 19"
     }
   ]
 }
