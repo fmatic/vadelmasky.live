@@ -6,17 +6,6 @@
       "flight": "CA1033",
       "tail": "B-2095",
       "freq": 131.825,
-      "level": -32.0,
-      "label": "10",
-      "msgno": "M64A",
-      "text": "POS100708, N 6148,E 2635,825,301,28146,  35,32006, 285,-202,-506,7"
-    },
-    {
-      "time": "10.10.2026 07:04 UTC",
-      "source": "ACARS",
-      "flight": "CA1033",
-      "tail": "B-2095",
-      "freq": 131.825,
       "level": -34.1,
       "label": "H1",
       "msgno": "O19A",
@@ -329,6 +318,17 @@
       "label": "11",
       "msgno": "M23A",
       "text": "POS\r\nCAS 267,LAT N 61.845,LON E 26.189,ALT 36021,FOB 47560,UTC 144616,PD ----.--,WD 264,WS   37,TAT - 20"
+    },
+    {
+      "time": "10.10.2026 14:51 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -39.4,
+      "label": "SA",
+      "msgno": "S39A",
+      "text": "0LS145150V"
     }
   ]
 }
