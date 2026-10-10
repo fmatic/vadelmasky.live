@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 11:03 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA740J",
-      "freq": 131.725,
-      "level": -39.2,
-      "label": "H1",
-      "msgno": "D54D",
-      "text": "0 0 157 123   490 0    0     -02  896\r\nA 0 0 156 135   493 0    0     -02  901\r\n 981 981 9811124  9058 19418  379 32 34\r\n 981 981 9821126  9142 19981  378 23 34\r\n  8901 1  9059\r\n  8982 1  9142\r\n 6754 000)35"
-    },
-    {
-      "time": "10.10.2026 11:03 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA740J",
-      "freq": 131.725,
-      "level": -39.0,
-      "label": "H1",
-      "msgno": "D54E",
-      "text": "139  108 863  614100000000\r\n 6754 000)34688  108 861  612400000000\r\n0  012 058 118 000  22 181 118 000  1 118\r\n0  076 155 024 000  45 196 058 000  0 155\r\n   0.)     0.)  879.0  883.5  897.0  901.0\r\n   0.)  "
-    },
-    {
-      "time": "10.10.2026 11:03 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA740J",
-      "freq": 131.725,
-      "level": -42.3,
-      "label": "H1",
-      "msgno": "D54F",
-      "text": "   0.)  915.5  879.0  916.0  916.0"
-    },
-    {
-      "time": "10.10.2026 11:04 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA740J",
-      "freq": 131.725,
-      "level": -41.1,
-      "label": "H1",
-      "msgno": "O07B",
-      "text": ".. 285\r\n  56  64 373  540  580    0    0000000000FA8\r\n  57  65 383  550  590    0    0000000000FA8\r\n 85103 96"
-    },
-    {
       "time": "10.10.2026 11:04 UTC",
       "source": "ACARS",
       "flight": "JL0047",
@@ -329,6 +285,50 @@
       "label": "SA",
       "msgno": "S94A",
       "text": "0LS202456V"
+    },
+    {
+      "time": "10.10.2026 20:25 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -31.5,
+      "label": "_d",
+      "msgno": "S95A",
+      "text": "No text"
+    },
+    {
+      "time": "10.10.2026 20:25 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -31.2,
+      "label": "_d",
+      "msgno": "S96A",
+      "text": "No text"
+    },
+    {
+      "time": "10.10.2026 20:26 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -38.7,
+      "label": "H1",
+      "msgno": "C51A",
+      "text": ".1/WRN/WN2610102026  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "10.10.2026 20:27 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -30.9,
+      "label": "H1",
+      "msgno": "C52A",
+      "text": ".1/FLR/FR2610102026  34363106IR2    1,IR1,IR3,AFS,,,,MMR1-GPSSU1(40RT1-1SN1),HARD"
     }
   ]
 }
