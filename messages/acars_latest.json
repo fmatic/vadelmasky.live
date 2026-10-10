@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 07:04 UTC",
-      "source": "ACARS",
-      "flight": "CA1033",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "H1",
-      "msgno": "O19B",
-      "text": "SS0340C_856\r\nB-2095  CAO103ZSPDEHAM101026070900ER\r\n29631997812-203743148316DBSM79962A\r\n450610269 260101026 070415\r\n28)6))34) 5))\r\n48)4))56)  ))\r\n10000000100001111\r\n  31994\r\n  3200)12 02N3276)16.)\r\n  3200)12 02N3276)16.)\r\n101026070900\r\n111111111111\r\n111111111111"
-    },
-    {
-      "time": "10.10.2026 07:05 UTC",
-      "source": "ACARS",
-      "flight": "CA1033",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "H1",
-      "msgno": "O20A",
-      "text": "SB0122BA_B-2095  ZSPDEHAM951\r\n 61407 0260800709 31998-500290033090W/X017030"
-    },
-    {
-      "time": "10.10.2026 09:19 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -36.6,
-      "label": "H1",
-      "msgno": "O07A",
-      "text": "SB0122BA_B-2092  ZSPDEGPK153\r\n 61950 0274270924 34002-500277031010IH-012015"
-    },
-    {
-      "time": "10.10.2026 09:23 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "5U",
-      "msgno": "M93A",
-      "text": "FS EGPK,EIDW"
-    },
-    {
-      "time": "10.10.2026 09:24 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "10",
-      "msgno": "M94A",
-      "text": "POS100928, N 6180,E 2635,829,288,26597,  37,33996, 296,-205,-509,7"
-    },
-    {
-      "time": "10.10.2026 09:24 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "_d",
-      "msgno": "S86A",
-      "text": "No text"
-    },
-    {
       "time": "10.10.2026 09:28 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +263,72 @@
       "label": "_d",
       "msgno": "S29A",
       "text": "No text"
+    },
+    {
+      "time": "10.10.2026 18:10 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -33.8,
+      "label": "_d",
+      "msgno": "S30A",
+      "text": "No text"
+    },
+    {
+      "time": "10.10.2026 18:10 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "11",
+      "msgno": "M32A",
+      "text": "POS\r\nCAS 272,LAT N 61.558,LON E 26.579,ALT 35008,FOB 124920,UTC 181018,PD ----.--,WD 246,WS   38,TAT - 22"
+    },
+    {
+      "time": "10.10.2026 18:11 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -28.6,
+      "label": "SA",
+      "msgno": "S31A",
+      "text": "0LS181125V"
+    },
+    {
+      "time": "10.10.2026 18:12 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -27.5,
+      "label": "H1",
+      "msgno": "C07A",
+      "text": ".1/WRN/WN2610101812  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "10.10.2026 18:13 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "C08A",
+      "text": ".1/FLR/FR2610101812  34363106IR1    1,IR3,IR2,AFS,,,,MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "10.10.2026 18:14 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -29.1,
+      "label": "11",
+      "msgno": "M33A",
+      "text": "POS\r\nCAS 270,LAT N 61.821,LON E 27.614,ALT 35006,FOB 124520,UTC 181419,PD ----.--,WD 255,WS   40,TAT - 21"
     }
   ]
 }
