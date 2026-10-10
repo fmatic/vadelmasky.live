@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 02:59 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "_d",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
       "time": "10.10.2026 03:00 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O20A",
       "text": "SB0122BA_B-2095  ZSPDEHAM951\r\n 61407 0260800709 31998-500290033090W/X017030"
+    },
+    {
+      "time": "10.10.2026 09:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2092",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "H1",
+      "msgno": "O07A",
+      "text": "SB0122BA_B-2092  ZSPDEGPK153\r\n 61950 0274270924 34002-500277031010IH-012015"
     }
   ]
 }
