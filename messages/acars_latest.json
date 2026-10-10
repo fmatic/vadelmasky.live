@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 06:58 UTC",
-      "source": "ACARS",
-      "flight": "CA1033",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "_d",
-      "msgno": "S99A",
-      "text": "No text"
-    },
-    {
-      "time": "10.10.2026 06:58 UTC",
-      "source": "ACARS",
-      "flight": "CA1033",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "_d",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
-      "time": "10.10.2026 06:58 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-221S",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "16",
-      "msgno": "M79A",
-      "text": "POSA1N61421E 25770,AGIVU  ,063435,339,NISIX  ,072548,-52, 34, 303,828"
-    },
-    {
       "time": "10.10.2026 07:04 UTC",
       "source": "ACARS",
       "flight": "CA1033",
@@ -329,6 +296,39 @@
       "label": "5V",
       "msgno": "S49A",
       "text": "No text"
+    },
+    {
+      "time": "10.10.2026 14:45 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -27.3,
+      "label": "B9",
+      "msgno": "J18A",
+      "text": "/EKCH.TI2/000EKCHA0475"
+    },
+    {
+      "time": "10.10.2026 14:46 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -27.1,
+      "label": "_d",
+      "msgno": "S38A",
+      "text": "No text"
+    },
+    {
+      "time": "10.10.2026 14:46 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5961",
+      "freq": 131.725,
+      "level": -26.2,
+      "label": "11",
+      "msgno": "M23A",
+      "text": "POS\r\nCAS 267,LAT N 61.845,LON E 26.189,ALT 36021,FOB 47560,UTC 144616,PD ----.--,WD 264,WS   37,TAT - 20"
     }
   ]
 }
