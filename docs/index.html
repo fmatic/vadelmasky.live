@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">10.10.2026 03:15 UTC</div>
+        <div class="value">10.10.2026 03:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,19 +274,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">FIN4MP</div>
-                    <div class="meta">ICAO 461E16 · REG OH-LKG · TYPE E190</div>
+                    <div class="flight">RU7B02</div>
+                    <div class="meta">ICAO 4677E7 · REG TWR · TYPE TWR</div>
                 </div>
-                <div class="alt-badge high">29600 ft</div>
+                <div class="alt-badge unknown">-</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>412.0 kt</b></div>
-                    <div><span>Track</span><b>182.11°</b></div>
-                    <div><span>Position</span><b>61.6383, 25.3182</b></div>
-                    <div><span>Last seen</span><b>10.10.2026 03:15 UTC</b></div>
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>10.10.2026 03:20 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4MP</div>
+                    <div class="meta">ICAO 461E16 · REG OH-LKG · TYPE E190</div>
+                </div>
+                <div class="alt-badge mid">20475 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>203.4 kt</b></div>
+                    <div><span>Track</span><b>183.38°</b></div>
+                    <div><span>Position</span><b>61.2311, 25.2871</b></div>
+                    <div><span>Last seen</span><b>10.10.2026 03:20 UTC</b></div>
                 </div>
             </div>
 
@@ -310,35 +334,11 @@ footer {
                     <div><span>Speed</span><b>460.0 kt</b></div>
                     <div><span>Track</span><b>254.0°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>10.10.2026 03:15 UTC</b></div>
+                    <div><span>Last seen</span><b>10.10.2026 03:19 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-1499" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">RU7B02</div>
-                    <div class="meta">ICAO 4677E7 · REG TWR · TYPE TWR</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>10.10.2026 03:14 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -884,7 +884,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461E16", "flight": "FIN4MP", "lat": 61.638282, "lon": 25.318197, "alt": 29600, "speed": 412.0, "last_seen": "10.10.2026 03:15 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.127604, "lon": 25.590617, "alt": 18450, "speed": 251.5, "last_seen": "10.10.2026 03:12 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.319306, "lon": 25.379333, "alt": 18025, "speed": 265.9, "last_seen": "10.10.2026 03:11 UTC"}, {"hex": "461F39", "flight": "FIN8MC", "lat": 61.200318, "lon": 25.240173, "alt": 17925, "speed": 347.1, "last_seen": "10.10.2026 03:07 UTC"}, {"hex": "7822F4", "flight": "CES201", "lat": 61.909914, "lon": 24.905396, "alt": 37975, "speed": 459.0, "last_seen": "10.10.2026 03:00 UTC"}, {"hex": "78131E", "flight": "CBJ621", "lat": 61.470228, "lon": 25.437826, "alt": 38000, "speed": 446.0, "last_seen": "10.10.2026 01:57 UTC"}, {"hex": "780F3C", "flight": "CES219", "lat": 61.119969, "lon": 25.22522, "alt": 34000, "speed": 462.0, "last_seen": "10.10.2026 01:52 UTC"}, {"hex": "780F3D", "flight": "CES553", "lat": 61.655506, "lon": 25.842285, "alt": 34000, "speed": 456.0, "last_seen": "10.10.2026 01:43 UTC"}];
+const aircraft = [{"hex": "461E16", "flight": "FIN4MP", "lat": 61.231089, "lon": 25.287069, "alt": 20475, "speed": 203.4, "last_seen": "10.10.2026 03:20 UTC"}, {"hex": "4601FC", "flight": "FIN4QA", "lat": 61.127604, "lon": 25.590617, "alt": 18450, "speed": 251.5, "last_seen": "10.10.2026 03:12 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.319306, "lon": 25.379333, "alt": 18025, "speed": 265.9, "last_seen": "10.10.2026 03:11 UTC"}, {"hex": "461F39", "flight": "FIN8MC", "lat": 61.200318, "lon": 25.240173, "alt": 17925, "speed": 347.1, "last_seen": "10.10.2026 03:07 UTC"}, {"hex": "7822F4", "flight": "CES201", "lat": 61.909914, "lon": 24.905396, "alt": 37975, "speed": 459.0, "last_seen": "10.10.2026 03:00 UTC"}, {"hex": "78131E", "flight": "CBJ621", "lat": 61.470228, "lon": 25.437826, "alt": 38000, "speed": 446.0, "last_seen": "10.10.2026 01:57 UTC"}, {"hex": "780F3C", "flight": "CES219", "lat": 61.119969, "lon": 25.22522, "alt": 34000, "speed": 462.0, "last_seen": "10.10.2026 01:52 UTC"}, {"hex": "780F3D", "flight": "CES553", "lat": 61.655506, "lon": 25.842285, "alt": 34000, "speed": 456.0, "last_seen": "10.10.2026 01:43 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
