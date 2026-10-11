@@ -6,28 +6,6 @@
       "flight": "CA3045",
       "tail": "B-222S",
       "freq": 131.825,
-      "level": -36.0,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
-      "time": "11.10.2026 06:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3045",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "H1",
-      "msgno": "E34A",
-      "text": "LGB,R,1,R,189,190,1,L,,0.0,0.0,,,0.0,0.0,,,212,217,,,210,207,,,0.0,0.0,,,,0.0,0.0,,,203,213,,,213,204,,,0.0,0.0,,,0.0,0.0,,,199,200,,,200,200,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,32,48,ANTISKID,11,OCT,26,06,1"
-    },
-    {
-      "time": "11.10.2026 06:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3045",
-      "tail": "B-222S",
-      "freq": 131.825,
       "level": -35.5,
       "label": "H1",
       "msgno": "E34B",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "D56F",
       "text": "   0.)  879.5  887.0  885.5  885.5"
+    },
+    {
+      "time": "11.10.2026 11:23 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-222V",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "H1",
+      "msgno": "O99A",
+      "text": "SB0122BA_B-222V  ZSPDEHAM477\r\n 61809 0270891123 33998-480219042010/9W008010"
+    },
+    {
+      "time": "11.10.2026 11:24 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-222V",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "16",
+      "msgno": "M12A",
+      "text": "POSA1N61737E 26833,AGIVU  ,110920,340,NISIX  ,115626,-49, 41, 251,831"
     }
   ]
 }
