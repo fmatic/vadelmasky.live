@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 18:11 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -28.6,
-      "label": "SA",
-      "msgno": "S31A",
-      "text": "0LS181125V"
-    },
-    {
       "time": "10.10.2026 18:12 UTC",
       "source": "ACARS",
       "flight": "MU0210",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S25A",
       "text": "No text"
+    },
+    {
+      "time": "11.10.2026 06:07 UTC",
+      "source": "ACARS",
+      "flight": "CA3045",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "H1",
+      "msgno": "O80A",
+      "text": "SB0122BA_B-222S  ZBAALEMD628\r\n 61878 0281770606 34001-480245034010NXW010013"
     }
   ]
 }
