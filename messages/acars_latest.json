@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 20:32 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -36.6,
-      "label": "SA",
-      "msgno": "S99A",
-      "text": "0LS203237V"
-    },
-    {
       "time": "10.10.2026 20:34 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M34A",
       "text": "3701 INRANG 0490/11 EFKS/EFHK .OH-ATL\r\n/ETA 0725/ERT     "
+    },
+    {
+      "time": "11.10.2026 08:01 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -36.2,
+      "label": "Q0",
+      "msgno": "S10A",
+      "text": "No text"
     }
   ]
 }
