@@ -6,17 +6,6 @@
       "flight": "CA3157",
       "tail": "B-6092",
       "freq": 131.825,
-      "level": -28.3,
-      "label": "H1",
-      "msgno": "D20A",
-      "text": "R02/A33002,1,1\r\nC1,.B-6092,26OCT11,06.53.05,ZUUU,ESSA,CAO3157   ,5000,361\r\nC2,001,06.0,000000,D1033RR04C0CBA0,000,000,000\r\nC3,-37.3,38001,0.810,111,0.83,111,10,0,01,111,0.81,X\r\nC4,-37.0,38000,0.808,111\r\nC5,"
-    },
-    {
-      "time": "11.10.2026 10:32 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6092",
-      "freq": 131.825,
       "level": -26.7,
       "label": "H1",
       "msgno": "D20B",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "M65A",
       "text": "No text"
+    },
+    {
+      "time": "11.10.2026 18:23 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5973",
+      "freq": 131.725,
+      "level": -30.8,
+      "label": "SA",
+      "msgno": "S58A",
+      "text": "0LS182341V"
     }
   ]
 }
