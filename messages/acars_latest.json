@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.10.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -29.5,
-      "label": "H1",
-      "msgno": "D20E",
-      "text": "2.7,-00.1,-00.0,002.8,001481,198819,35.5\r\nX4,-00.1,-00.1,-00.1,-00.1,-00.1,-00.1,000.0,000.0,-051.0\r\nX5,-00.1,-00.1,-00.1,-00.0,-00.1,-00.1,000.0,000.0,-051.0\r\nX6,-00.7,001.0,046,-068,0.821\r\nX7,000.1,000.7,"
-    },
-    {
-      "time": "11.10.2026 10:34 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -29.4,
-      "label": "10",
-      "msgno": "M72A",
-      "text": "POS091034,N 61.314,E 25.587,1120,428125,,,38003,26680"
-    },
-    {
-      "time": "11.10.2026 11:17 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA738J",
-      "freq": 131.725,
-      "level": -36.6,
-      "label": "H1",
-      "msgno": "D56D",
-      "text": "0 0 175 137   535 0    0     -04  895\r\nB 0 0 175 133   507 0    0     -02  915\r\n 984 984 9841122  9066 20600  378 24 24\r\n 984 984 9841130  9007 20607  377 34 36\r\n  8906 1  9065\r\n  8850 1  9006\r\n 6753 000)35"
-    },
-    {
-      "time": "11.10.2026 11:17 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA738J",
-      "freq": 131.725,
-      "level": -36.9,
-      "label": "H1",
-      "msgno": "D56F",
-      "text": "   0.)  879.5  887.0  885.5  885.5"
-    },
-    {
-      "time": "11.10.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "H1",
-      "msgno": "O99A",
-      "text": "SB0122BA_B-222V  ZSPDEHAM477\r\n 61809 0270891123 33998-480219042010/9W008010"
-    },
-    {
       "time": "11.10.2026 11:24 UTC",
       "source": "ACARS",
       "flight": "CK0205",
@@ -329,6 +274,61 @@
       "label": "11",
       "msgno": "M35A",
       "text": "POS\r\nCAS 271,LAT N 62.074,LON E 28.642,ALT 34997,FOB 123200,UTC 183140,PD ----.--,WD 241,WS   46,TAT - 22"
+    },
+    {
+      "time": "11.10.2026 20:28 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5941",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "_d",
+      "msgno": "S26A",
+      "text": "No text"
+    },
+    {
+      "time": "11.10.2026 20:28 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5941",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "SA",
+      "msgno": "S27A",
+      "text": "0LS202827VH"
+    },
+    {
+      "time": "11.10.2026 20:28 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5941",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "SA",
+      "msgno": "S27A",
+      "text": "0LS202827VH"
+    },
+    {
+      "time": "11.10.2026 20:29 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5941",
+      "freq": 131.725,
+      "level": -31.4,
+      "label": "Q0",
+      "msgno": "S29A",
+      "text": "No text"
+    },
+    {
+      "time": "11.10.2026 20:29 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5941",
+      "freq": 131.725,
+      "level": -32.0,
+      "label": "SA",
+      "msgno": "S30A",
+      "text": "0EV202922VH"
     }
   ]
 }
