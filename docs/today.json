@@ -600,21 +600,34 @@
     },
     "04015c": {
       "hex": "04015c",
-      "flight": "",
+      "flight": "ETH3640",
       "reg": "ET-AVT",
       "type": "B77L",
+      "lat": 62.308634,
+      "lon": 26.012245,
+      "alt": 31000,
+      "speed": 502.0,
+      "track": 79.63,
+      "seen_first": "2026-10-11T16:00:01.869928",
+      "last_seen": "2026-10-11T16:05:01.789212"
+    },
+    "461e14": {
+      "hex": "461e14",
+      "flight": "FIN8DP",
+      "reg": "OH-LKE",
+      "type": "E190",
       "lat": null,
       "lon": null,
-      "alt": 31000,
-      "speed": null,
-      "track": null,
-      "seen_first": "2026-10-11T16:00:01.869928",
-      "last_seen": "2026-10-11T16:00:01.869928"
+      "alt": 36300,
+      "speed": 420.0,
+      "track": 189.32,
+      "seen_first": "2026-10-11T16:05:01.789212",
+      "last_seen": "2026-10-11T16:05:01.789212"
     }
   },
   "summary": {
-    "total_unique_aircraft": 47,
+    "total_unique_aircraft": 48,
     "last_seen_live": 2,
-    "updated": "2026-10-11T16:00:01.869928"
+    "updated": "2026-10-11T16:05:01.789212"
   }
 }
