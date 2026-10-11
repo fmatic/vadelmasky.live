@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.10.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -30.5,
-      "label": "16",
-      "msgno": "M12A",
-      "text": "POSA1N61737E 26833,AGIVU  ,110920,340,NISIX  ,115626,-49, 41, 251,831"
-    },
-    {
-      "time": "11.10.2026 11:32 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -27.8,
-      "label": "Q0",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
-      "time": "11.10.2026 15:53 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -29.8,
-      "label": "Q0",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
-      "time": "11.10.2026 15:53 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -26.3,
-      "label": "Q0",
-      "msgno": "M44A",
-      "text": "No text"
-    },
-    {
       "time": "11.10.2026 15:53 UTC",
       "source": "ACARS",
       "flight": "N70415",
@@ -329,6 +285,50 @@
       "label": "SA",
       "msgno": "S30A",
       "text": "0EV202922VH"
+    },
+    {
+      "time": "11.10.2026 20:30 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5941",
+      "freq": 131.725,
+      "level": -33.3,
+      "label": "11",
+      "msgno": "M99A",
+      "text": "POS\r\nCAS 274,LAT N 61.528,LON E 27.126,ALT 34985,FOB 123800,UTC 203001,PD ----.--,WD 232,WS   47,TAT - 21"
+    },
+    {
+      "time": "11.10.2026 20:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5941",
+      "freq": 131.725,
+      "level": -30.2,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/WRN/WN2610112031  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "11.10.2026 20:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5941",
+      "freq": 131.725,
+      "level": -31.2,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/WRN/WN2610112031  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "11.10.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5941",
+      "freq": 131.725,
+      "level": -30.6,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/FLR/FR2610112031  34361606MMR1   1,IR1,IR3,IR2,MMR2,AFS,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
