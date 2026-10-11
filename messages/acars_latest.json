@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 19:24 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2073",
-      "freq": 131.825,
-      "level": -26.4,
-      "label": "_d",
-      "msgno": "S69A",
-      "text": "No text"
-    },
-    {
-      "time": "10.10.2026 19:28 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2073",
-      "freq": 131.825,
-      "level": -30.2,
-      "label": "H1",
-      "msgno": "O09A",
-      "text": "SB0122BA_B-2073  EGPKZGGG388\r\n 61763 0278211927 36998-460252035010/9W011013"
-    },
-    {
-      "time": "10.10.2026 20:24 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -34.5,
-      "label": "SA",
-      "msgno": "S94A",
-      "text": "0LS202456V"
-    },
-    {
       "time": "10.10.2026 20:25 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S10A",
       "text": "No text"
+    },
+    {
+      "time": "11.10.2026 06:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "B9",
+      "msgno": "M46A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "11.10.2026 06:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "_d",
+      "msgno": "S13A",
+      "text": "No text"
+    },
+    {
+      "time": "11.10.2026 06:29 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "10",
+      "msgno": "M47A",
+      "text": "POS110628,N 61.410,E 26.007,0714,438625,,,37996,28240"
     }
   ]
 }
