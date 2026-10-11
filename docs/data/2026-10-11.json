@@ -122,13 +122,13 @@
       "flight": "FIN9PE",
       "reg": "OH-LXA",
       "type": "A320",
-      "lat": 61.700383,
-      "lon": 25.132955,
-      "alt": 29400,
-      "speed": 458.3,
-      "track": 2.13,
+      "lat": 61.725861,
+      "lon": 25.134953,
+      "alt": 29625,
+      "speed": 460.3,
+      "track": 2.12,
       "seen_first": "2026-10-11T03:00:01.511216",
-      "last_seen": "2026-10-11T13:25:01.621506"
+      "last_seen": "2026-10-11T13:26:02.130735"
     },
     "461e18": {
       "hex": "461e18",
@@ -460,18 +460,31 @@
       "flight": "",
       "reg": "OH-ATG",
       "type": "AT75",
+      "lat": 62.042867,
+      "lon": 27.054342,
+      "alt": null,
+      "speed": 147.1,
+      "track": 26.22,
+      "seen_first": "2026-10-11T13:23:01.923952",
+      "last_seen": "2026-10-11T13:28:01.687791"
+    },
+    "461f35": {
+      "hex": "461f35",
+      "flight": "",
+      "reg": "OH-LVH",
+      "type": "A319",
       "lat": null,
       "lon": null,
-      "alt": null,
+      "alt": 29525,
       "speed": null,
       "track": null,
-      "seen_first": "2026-10-11T13:23:01.923952",
-      "last_seen": "2026-10-11T13:23:01.923952"
+      "seen_first": "2026-10-11T13:26:02.130735",
+      "last_seen": "2026-10-11T13:26:02.130735"
     }
   },
   "summary": {
-    "total_unique_aircraft": 36,
-    "last_seen_live": 1,
-    "updated": "2026-10-11T13:25:01.621506"
+    "total_unique_aircraft": 37,
+    "last_seen_live": 0,
+    "updated": "2026-10-11T13:30:02.277796"
   }
 }
