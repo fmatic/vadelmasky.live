@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.10.2026 15:55 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -20.8,
-      "label": "_d",
-      "msgno": "S26A",
-      "text": "No text"
-    },
-    {
-      "time": "11.10.2026 15:56 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATM",
-      "freq": 131.725,
-      "level": -39.8,
-      "label": "_d",
-      "msgno": "S28A",
-      "text": "No text"
-    },
-    {
-      "time": "11.10.2026 15:56 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATM",
-      "freq": 131.725,
-      "level": -39.9,
-      "label": "_d",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "11.10.2026 15:58 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "5V",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
       "time": "11.10.2026 17:03 UTC",
       "source": "ACARS",
       "flight": "E40004",
@@ -329,6 +285,50 @@
       "label": "5V",
       "msgno": "S04A",
       "text": "No text"
+    },
+    {
+      "time": "11.10.2026 22:00 UTC",
+      "source": "ACARS",
+      "flight": "N70417",
+      "tail": "OH-ATI",
+      "freq": 131.725,
+      "level": -36.4,
+      "label": "SA",
+      "msgno": "S24A",
+      "text": "0EV220004V"
+    },
+    {
+      "time": "11.10.2026 22:00 UTC",
+      "source": "ACARS",
+      "flight": "N70417",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -19.0,
+      "label": "SA",
+      "msgno": "S24A",
+      "text": "0EV220004V"
+    },
+    {
+      "time": "11.10.2026 22:01 UTC",
+      "source": "ACARS",
+      "flight": "N70417",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -26.1,
+      "label": "80",
+      "msgno": "M02A",
+      "text": "3801 MTCRP  0417/11 EFHK/EFKI .OH-ATI\r\nOMITUISTA ULINAA ALKOI\r\nKONE PITAMAAN. KUULUU\r\nMYOS CABIINISSA"
+    },
+    {
+      "time": "11.10.2026 22:03 UTC",
+      "source": "ACARS",
+      "flight": "N70417",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "B9",
+      "msgno": "L04A",
+      "text": "/EFKI.TI2/024EFKIAC121"
     }
   ]
 }
