@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 20:25 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -31.5,
-      "label": "_d",
-      "msgno": "S95A",
-      "text": "No text"
-    },
-    {
-      "time": "10.10.2026 20:25 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -31.2,
-      "label": "_d",
-      "msgno": "S96A",
-      "text": "No text"
-    },
-    {
-      "time": "10.10.2026 20:26 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -38.7,
-      "label": "H1",
-      "msgno": "C51A",
-      "text": ".1/WRN/WN2610102026  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "10.10.2026 20:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -30.9,
-      "label": "H1",
-      "msgno": "C52A",
-      "text": ".1/FLR/FR2610102026  34363106IR2    1,IR1,IR3,AFS,,,,MMR1-GPSSU1(40RT1-1SN1),HARD"
-    },
-    {
-      "time": "10.10.2026 20:31 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5961",
-      "freq": 131.725,
-      "level": -32.0,
-      "label": "H1",
-      "msgno": "C53A",
-      "text": ".1/FLR/FR2610102030  34361606MMR2   1,MMR1,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
       "time": "10.10.2026 20:32 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -329,6 +274,61 @@
       "label": "10",
       "msgno": "M47A",
       "text": "POS110628,N 61.410,E 26.007,0714,438625,,,37996,28240"
+    },
+    {
+      "time": "11.10.2026 07:00 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -34.4,
+      "label": "Q0",
+      "msgno": "M31A",
+      "text": "No text"
+    },
+    {
+      "time": "11.10.2026 07:01 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "SA",
+      "msgno": "M32A",
+      "text": "0EV070038V"
+    },
+    {
+      "time": "11.10.2026 07:01 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -34.6,
+      "label": "80",
+      "msgno": "M30A",
+      "text": "3701 INRANG 0490/11 EFKS/EFHK .OH-ATL\r\n/ETA 0725/ERT     "
+    },
+    {
+      "time": "11.10.2026 07:01 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "80",
+      "msgno": "M33A",
+      "text": "3701 INRANG 0490/11 EFKS/EFHK .OH-ATL\r\n/ETA 0725/ERT     "
+    },
+    {
+      "time": "11.10.2026 07:01 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "80",
+      "msgno": "M34A",
+      "text": "3701 INRANG 0490/11 EFKS/EFHK .OH-ATL\r\n/ETA 0725/ERT     "
     }
   ]
 }
