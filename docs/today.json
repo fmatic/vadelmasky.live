@@ -587,16 +587,16 @@
     },
     "780bff": {
       "hex": "780bff",
-      "flight": "CES707",
+      "flight": "CES708",
       "reg": "B-5941",
       "type": "A332",
       "lat": 61.511613,
       "lon": 25.096334,
-      "alt": 38000,
-      "speed": 422.0,
-      "track": 237.83,
+      "alt": 35000,
+      "speed": 512.0,
+      "track": 56.95,
       "seen_first": "2026-10-11T15:18:02.042666",
-      "last_seen": "2026-10-11T15:29:02.176170"
+      "last_seen": "2026-10-11T20:25:02.194026"
     },
     "04015c": {
       "hex": "04015c",
@@ -675,11 +675,24 @@
       "track": 62.23,
       "seen_first": "2026-10-11T18:19:02.201589",
       "last_seen": "2026-10-11T18:28:01.547382"
+    },
+    "461f6a": {
+      "hex": "461f6a",
+      "flight": "FIN4MZ",
+      "reg": "OH-LXI",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": 27825,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-11T20:22:01.257343",
+      "last_seen": "2026-10-11T20:23:01.518681"
     }
   },
   "summary": {
-    "total_unique_aircraft": 52,
-    "last_seen_live": 0,
-    "updated": "2026-10-11T20:20:01.963966"
+    "total_unique_aircraft": 53,
+    "last_seen_live": 1,
+    "updated": "2026-10-11T20:25:02.194026"
   }
 }
