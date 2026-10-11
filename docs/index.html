@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">25</div>
+        <div class="value">26</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -247,7 +247,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">12</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">11.10.2026 11:00 UTC</div>
+        <div class="value">11.10.2026 11:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES213</div>
+                    <div class="meta">ICAO 7821A9 · REG B-226Q · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>244.9 kt</b></div>
+                    <div><span>Track</span><b>239.04°</b></div>
+                    <div><span>Position</span><b>62.0030, 25.4023</b></div>
+                    <div><span>Last seen</span><b>11.10.2026 11:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-226Q" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">AEE4579</div>
+                    <div class="meta">ICAO 4690E2 · REG SX-DGB · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">27575 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>408.0 kt</b></div>
+                    <div><span>Track</span><b>199.69°</b></div>
+                    <div><span>Position</span><b>62.0294, 27.0407</b></div>
+                    <div><span>Last seen</span><b>11.10.2026 11:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/SX-DGB" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -285,36 +333,12 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>11.10.2026 11:00 UTC</b></div>
+                    <div><span>Position</span><b>61.1912, 25.6758</b></div>
+                    <div><span>Last seen</span><b>11.10.2026 11:04 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATO" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CES213</div>
-                    <div class="meta">ICAO 7821A9 · REG B-226Q · TYPE B789</div>
-                </div>
-                <div class="alt-badge high">37975 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>460.0 kt</b></div>
-                    <div><span>Track</span><b>245.57°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>11.10.2026 11:00 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-226Q" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1147,7 +1171,7 @@ C5,</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461F59", "flight": "FIN70", "lat": 61.141616, "lon": 25.258586, "alt": 27925, "speed": 176.0, "last_seen": "11.10.2026 10:50 UTC"}, {"hex": "780019", "flight": "CAO3157", "lat": 61.231648, "lon": 25.282796, "alt": 38000, "speed": 422.0, "last_seen": "11.10.2026 10:36 UTC"}, {"hex": "040060", "flight": "ETH3605", "lat": 61.236629, "lon": 25.311178, "alt": 32000, "speed": 226.3, "last_seen": "11.10.2026 10:17 UTC"}, {"hex": "4601F9", "flight": "FIN286", "lat": 61.31898, "lon": 25.292257, "alt": 18000, "speed": 260.6, "last_seen": "11.10.2026 09:34 UTC"}, {"hex": "461F67", "flight": "FIN7TP", "lat": 61.128488, "lon": 25.26591, "alt": 24000, "speed": 376.0, "last_seen": "11.10.2026 08:46 UTC"}, {"hex": "782293", "flight": "CKK215", "lat": 61.250129, "lon": 25.733032, "alt": 34000, "speed": 450.0, "last_seen": "11.10.2026 08:05 UTC"}, {"hex": "780092", "flight": "CAO3155", "lat": 61.344118, "lon": 25.744934, "alt": 38000, "speed": 442.0, "last_seen": "11.10.2026 06:33 UTC"}, {"hex": "78026E", "flight": "CAO3159", "lat": 61.281552, "lon": 25.441589, "alt": 38000, "speed": 438.0, "last_seen": "11.10.2026 04:33 UTC"}, {"hex": "04008C", "flight": "ETH3739", "lat": 61.077281, "lon": 25.634562, "alt": 34000, "speed": 448.0, "last_seen": "11.10.2026 04:11 UTC"}];
+const aircraft = [{"hex": "7821A9", "flight": "CES213", "lat": 62.002972, "lon": 25.402323, "alt": 38000, "speed": 244.9, "last_seen": "11.10.2026 11:05 UTC"}, {"hex": "4690E2", "flight": "AEE4579", "lat": 62.029414, "lon": 27.04071, "alt": 27575, "speed": 408.0, "last_seen": "11.10.2026 11:05 UTC"}, {"hex": "4601FC", "flight": "FIN26B", "lat": 61.191194, "lon": 25.675761, "alt": 15975, "speed": "-", "last_seen": "11.10.2026 11:04 UTC"}, {"hex": "461F59", "flight": "FIN70", "lat": 61.141616, "lon": 25.258586, "alt": 27925, "speed": 176.0, "last_seen": "11.10.2026 10:50 UTC"}, {"hex": "780019", "flight": "CAO3157", "lat": 61.231648, "lon": 25.282796, "alt": 38000, "speed": 422.0, "last_seen": "11.10.2026 10:36 UTC"}, {"hex": "040060", "flight": "ETH3605", "lat": 61.236629, "lon": 25.311178, "alt": 32000, "speed": 226.3, "last_seen": "11.10.2026 10:17 UTC"}, {"hex": "4601F9", "flight": "FIN286", "lat": 61.31898, "lon": 25.292257, "alt": 18000, "speed": 260.6, "last_seen": "11.10.2026 09:34 UTC"}, {"hex": "461F67", "flight": "FIN7TP", "lat": 61.128488, "lon": 25.26591, "alt": 24000, "speed": 376.0, "last_seen": "11.10.2026 08:46 UTC"}, {"hex": "782293", "flight": "CKK215", "lat": 61.250129, "lon": 25.733032, "alt": 34000, "speed": 450.0, "last_seen": "11.10.2026 08:05 UTC"}, {"hex": "780092", "flight": "CAO3155", "lat": 61.344118, "lon": 25.744934, "alt": 38000, "speed": 442.0, "last_seen": "11.10.2026 06:33 UTC"}, {"hex": "78026E", "flight": "CAO3159", "lat": 61.281552, "lon": 25.441589, "alt": 38000, "speed": 438.0, "last_seen": "11.10.2026 04:33 UTC"}, {"hex": "04008C", "flight": "ETH3739", "lat": 61.077281, "lon": 25.634562, "alt": 34000, "speed": 448.0, "last_seen": "11.10.2026 04:11 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',

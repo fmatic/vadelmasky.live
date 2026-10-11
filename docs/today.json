@@ -252,13 +252,13 @@
       "flight": "FIN26B",
       "reg": "OH-ATO",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
+      "lat": 61.191194,
+      "lon": 25.675761,
       "alt": 15975,
       "speed": null,
       "track": null,
       "seen_first": "2026-10-11T09:30:01.701520",
-      "last_seen": "2026-10-11T11:00:01.788597"
+      "last_seen": "2026-10-11T11:04:01.899804"
     },
     "4601fa": {
       "hex": "4601fa",
@@ -317,18 +317,31 @@
       "flight": "CES213",
       "reg": "B-226Q",
       "type": "B789",
-      "lat": null,
-      "lon": null,
-      "alt": 37975,
-      "speed": 460.0,
-      "track": 245.57,
+      "lat": 62.002972,
+      "lon": 25.402323,
+      "alt": 38000,
+      "speed": 244.9,
+      "track": 239.04,
       "seen_first": "2026-10-11T11:00:01.788597",
-      "last_seen": "2026-10-11T11:00:01.788597"
+      "last_seen": "2026-10-11T11:05:02.205436"
+    },
+    "4690e2": {
+      "hex": "4690e2",
+      "flight": "AEE4579",
+      "reg": "SX-DGB",
+      "type": "A320",
+      "lat": 62.029414,
+      "lon": 27.04071,
+      "alt": 27575,
+      "speed": 408.0,
+      "track": 199.69,
+      "seen_first": "2026-10-11T11:03:01.634294",
+      "last_seen": "2026-10-11T11:05:02.205436"
     }
   },
   "summary": {
-    "total_unique_aircraft": 25,
+    "total_unique_aircraft": 26,
     "last_seen_live": 2,
-    "updated": "2026-10-11T11:00:01.788597"
+    "updated": "2026-10-11T11:05:02.205436"
   }
 }
