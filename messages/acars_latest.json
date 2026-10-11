@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.10.2026 18:12 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -27.5,
-      "label": "H1",
-      "msgno": "C07A",
-      "text": ".1/WRN/WN2610101812  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "10.10.2026 18:13 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "H1",
-      "msgno": "C08A",
-      "text": ".1/FLR/FR2610101812  34363106IR1    1,IR3,IR2,AFS,,,,MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "10.10.2026 18:14 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -29.1,
-      "label": "11",
-      "msgno": "M33A",
-      "text": "POS\r\nCAS 270,LAT N 61.821,LON E 27.614,ALT 35006,FOB 124520,UTC 181419,PD ----.--,WD 255,WS   40,TAT - 21"
-    },
-    {
-      "time": "10.10.2026 19:23 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2073",
-      "freq": 131.825,
-      "level": -28.2,
-      "label": "18",
-      "msgno": "M61A",
-      "text": "POX,CSG2516   ,10OCT26,192327,EGPK,ZGGG,N061.74,E0026.57,369, 649,831,  77.8,-107.5,036,-45.6,041027, 36280,"
-    },
-    {
-      "time": "10.10.2026 19:24 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2073",
-      "freq": 131.825,
-      "level": -27.4,
-      "label": "_d",
-      "msgno": "S67A",
-      "text": "No text"
-    },
-    {
       "time": "10.10.2026 19:24 UTC",
       "source": "ACARS",
       "flight": "CZ2516",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "O80A",
       "text": "SB0122BA_B-222S  ZBAALEMD628\r\n 61878 0281770606 34001-480245034010NXW010013"
+    },
+    {
+      "time": "11.10.2026 06:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3045",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "H1",
+      "msgno": "O81A",
+      "text": "SS0340C_554\r\nB-222S  CAO304ZBAALEMD111026061110ER\r\n28934005829-181233747316DBSM79962A\r\n628610976 260111026 061104\r\n29)6))13) 5))\r\n29)6))24) 5))\r\n10000000000001111\r\n  34004\r\n      ) 0 02N    )16.)\r\n      ) 1"
+    },
+    {
+      "time": "11.10.2026 06:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3045",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "H1",
+      "msgno": "O81B",
+      "text": "SS0340C_554\r\nB-222S  CAO304ZBAALEMD111026061110ER\r\n28934005829-181233747316DBSM79962A\r\n628610976 260111026 061104\r\n29)6))13) 5))\r\n29)6))24) 5))\r\n10000000000001111\r\n  34004\r\n      ) 0 02N    )16.)\r\n      ) 1 12N    )16.)\r\n111026061110\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "11.10.2026 06:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3045",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "_d",
+      "msgno": "S94A",
+      "text": "No text"
+    },
+    {
+      "time": "11.10.2026 06:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3045",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -37.9,
+      "label": "H1",
+      "msgno": "E34A",
+      "text": "LGB,R,1,R,189,190,1,L,,0.0,0.0,,,0.0,0.0,,,212,217,,,210,207,,,0.0,0.0,,,,0.0,0.0,,,203,213,,,213,204,,,0.0,0.0,,,0.0,0.0,,,199,200,,,200,200,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,32,48,ANTISKID,11,OCT,26,06,1"
+    },
+    {
+      "time": "11.10.2026 06:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3045",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "H1",
+      "msgno": "E34B",
+      "text": "LGB,R,1,R,189,190,1,L,,0.0,0.0,,,0.0,0.0,,,212,217,,,210,207,,,0.0,0.0,,,,0.0,0.0,,,203,213,,,213,204,,,0.0,0.0,,,0.0,0.0,,,199,200,,,200,200,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,32,48,ANTISKID,11,OCT,26,06,14,36"
     }
   ]
 }
