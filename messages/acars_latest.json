@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 09:00 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "_d",
-      "msgno": "S62A",
-      "text": "No text"
-    },
-    {
-      "time": "12.10.2026 10:21 UTC",
-      "source": "ACARS",
-      "flight": "E40008",
-      "tail": "SP-ESF",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "QP",
-      "msgno": "M01A",
-      "text": "EFJYEFJO1010002600017"
-    },
-    {
       "time": "12.10.2026 10:21 UTC",
       "source": "ACARS",
       "flight": "E40008",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S63A",
       "text": "No text"
+    },
+    {
+      "time": "12.10.2026 18:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -36.3,
+      "label": "11",
+      "msgno": "M13A",
+      "text": "POS\r\nCAS 267,LAT N 61.396,LON E 25.973,ALT 35006,FOB 122160,UTC 183133,PD ----.--,WD 198,WS   14,TAT - 19"
+    },
+    {
+      "time": "12.10.2026 18:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -37.2,
+      "label": "SA",
+      "msgno": "S82A",
+      "text": "0LS183235VH"
     }
   ]
 }
