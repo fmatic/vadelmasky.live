@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.10.2026 21:30 UTC",
-      "source": "ACARS",
-      "flight": "N70349",
-      "tail": "OH-ATP",
-      "freq": 131.825,
-      "level": -39.9,
-      "label": "SA",
-      "msgno": "M33A",
-      "text": "0EV212928V"
-    },
-    {
       "time": "11.10.2026 21:51 UTC",
       "source": "ACARS",
       "flight": "CZ2520",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S09A",
       "text": "No text"
+    },
+    {
+      "time": "12.10.2026 04:59 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "10",
+      "msgno": "M43A",
+      "text": "POS120503, N 6163,E 2707,832,295,21814,  41,33352, 272,-189,-499,7"
     }
   ]
 }
