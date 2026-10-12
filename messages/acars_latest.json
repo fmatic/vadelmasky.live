@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 08:59 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "Q0",
-      "msgno": "S59A",
-      "text": "No text"
-    },
-    {
       "time": "12.10.2026 09:00 UTC",
       "source": "ACARS",
       "flight": "N70490",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S94A",
       "text": "0LS132610V"
+    },
+    {
+      "time": "12.10.2026 13:31 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-1429",
+      "freq": 131.825,
+      "level": -32.9,
+      "label": "10",
+      "msgno": "M61A",
+      "text": "POS121331, N 6161,E 2667,---,289,20180,  21,33999, 377,-195,-501,7"
     }
   ]
 }
