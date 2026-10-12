@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 10:21 UTC",
-      "source": "ACARS",
-      "flight": "E40008",
-      "tail": "SP-ESF",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "SA",
-      "msgno": "M03A",
-      "text": "0EV102144V/7.00,7.00,7.00,5.20,5.21/"
-    },
-    {
-      "time": "12.10.2026 10:22 UTC",
-      "source": "ACARS",
-      "flight": "E40008",
-      "tail": "SP-ESF",
-      "freq": 131.825,
-      "level": -38.8,
-      "label": "QQ",
-      "msgno": "M07A",
-      "text": "EFJYEFJO1019"
-    },
-    {
-      "time": "12.10.2026 10:51 UTC",
-      "source": "ACARS",
-      "flight": "MU0209",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -32.3,
-      "label": "11",
-      "msgno": "M62A",
-      "text": "POS\r\nCAS 256,LAT N 61.696,LON E 25.802,ALT 38002,FOB 48760,UTC 105103,PD ----.--,WD 236,WS   16,TAT - 19"
-    },
-    {
       "time": "12.10.2026 11:20 UTC",
       "source": "ACARS",
       "flight": "JL0047",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S82A",
       "text": "0LS183235VH"
+    },
+    {
+      "time": "12.10.2026 18:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -29.5,
+      "label": "H1",
+      "msgno": "C23A",
+      "text": ".1/WRN/WN2610121837  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "12.10.2026 18:39 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -30.4,
+      "label": "H1",
+      "msgno": "C25A",
+      "text": ".1/WRN/WN2610121839  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "12.10.2026 18:39 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -31.0,
+      "label": "11",
+      "msgno": "M15A",
+      "text": "POS\r\nCAS 267,LAT N 61.897,LON E 27.926,ALT 35000,FOB 120920,UTC 183934,PD ----.--,WD 215,WS   21,TAT - 21"
     }
   ]
 }
