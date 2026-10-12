@@ -5,28 +5,6 @@
       "source": "ACARS",
       "flight": "N70290",
       "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.2,
-      "label": "H1",
-      "msgno": "D00A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2OCT11,2126,0289/C1GMT,ACC/C22119,.0.81,FLT/C32119,.1.29,FLT/C42124,.1.31,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "12.10.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -26.1,
-      "label": "H1",
-      "msgno": "D00A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2OCT11,2126,0289/C1GMT,ACC/C22119,.0.81,FLT/C32119,.1.29,FLT/C42124,.1.31,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "12.10.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATH",
       "freq": 131.725,
       "level": -35.6,
       "label": "_d",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S24A",
       "text": "No text"
+    },
+    {
+      "time": "12.10.2026 08:59 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "Q0",
+      "msgno": "S59A",
+      "text": "No text"
+    },
+    {
+      "time": "12.10.2026 09:00 UTC",
+      "source": "ACARS",
+      "flight": "N70490",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "SA",
+      "msgno": "S60A",
+      "text": "0EV090000V"
     }
   ]
 }
