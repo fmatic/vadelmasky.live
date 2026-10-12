@@ -639,16 +639,16 @@
     },
     "780bff": {
       "hex": "780bff",
-      "flight": "CES289",
+      "flight": "CES290",
       "reg": "B-5941",
       "type": "A332",
       "lat": 62.026621,
       "lon": 25.343323,
-      "alt": 38000,
-      "speed": 236.7,
-      "track": 245.28,
+      "alt": 35000,
+      "speed": 476.0,
+      "track": 65.92,
       "seen_first": "2026-10-12T16:31:01.378014",
-      "last_seen": "2026-10-12T16:37:02.102946"
+      "last_seen": "2026-10-12T21:25:01.566626"
     },
     "4baaae": {
       "hex": "4baaae",
@@ -675,11 +675,24 @@
       "track": 0.35,
       "seen_first": "2026-10-12T20:10:01.842751",
       "last_seen": "2026-10-12T20:11:01.904321"
+    },
+    "4601fb": {
+      "hex": "4601fb",
+      "flight": "",
+      "reg": "OH-ATN",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 17975,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-12T21:21:01.446245",
+      "last_seen": "2026-10-12T21:25:01.566626"
     }
   },
   "summary": {
-    "total_unique_aircraft": 52,
-    "last_seen_live": 0,
-    "updated": "2026-10-12T21:20:01.798848"
+    "total_unique_aircraft": 53,
+    "last_seen_live": 2,
+    "updated": "2026-10-12T21:25:01.566626"
   }
 }
