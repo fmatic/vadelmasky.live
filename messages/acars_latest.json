@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 08:27 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "Q0",
-      "msgno": "S24A",
-      "text": "No text"
-    },
-    {
       "time": "12.10.2026 08:59 UTC",
       "source": "ACARS",
       "flight": "N70490",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M46A",
       "text": "POS121316,N 61.539,E 26.582,1524,459375,,,36000,40720"
+    },
+    {
+      "time": "12.10.2026 13:26 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-1429",
+      "freq": 131.825,
+      "level": -40.1,
+      "label": "SA",
+      "msgno": "S94A",
+      "text": "0LS132610V"
     }
   ]
 }
