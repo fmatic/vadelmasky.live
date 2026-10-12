@@ -6,39 +6,6 @@
       "flight": "N70490",
       "tail": "OH-ATJ",
       "freq": 131.825,
-      "level": -35.6,
-      "label": "SA",
-      "msgno": "S60A",
-      "text": "0EV090000V"
-    },
-    {
-      "time": "12.10.2026 09:00 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "B9",
-      "msgno": "L11A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "12.10.2026 09:00 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "_d",
-      "msgno": "S61A",
-      "text": "No text"
-    },
-    {
-      "time": "12.10.2026 09:00 UTC",
-      "source": "ACARS",
-      "flight": "N70490",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
       "level": -32.1,
       "label": "_d",
       "msgno": "S62A",
@@ -329,6 +296,39 @@
       "label": "10",
       "msgno": "M61A",
       "text": "POS121331, N 6161,E 2667,---,289,20180,  21,33999, 377,-195,-501,7"
+    },
+    {
+      "time": "12.10.2026 16:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5941",
+      "freq": 131.725,
+      "level": -31.8,
+      "label": "11",
+      "msgno": "M01A",
+      "text": "POS\r\nCAS 253,LAT N 62.268,LON E 26.422,ALT 37997,FOB 37320,UTC 163142,PD ----.--,WD 231,WS   11,TAT - 19"
+    },
+    {
+      "time": "12.10.2026 16:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5941",
+      "freq": 131.725,
+      "level": -23.5,
+      "label": "B9",
+      "msgno": "J30A",
+      "text": "/ESSA.TI2/000ESSAA63EA"
+    },
+    {
+      "time": "12.10.2026 16:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5941",
+      "freq": 131.725,
+      "level": -25.6,
+      "label": "_d",
+      "msgno": "S63A",
+      "text": "No text"
     }
   ]
 }
