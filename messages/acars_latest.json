@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.10.2026 21:51 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "H1",
-      "msgno": "D19B",
-      "text": "6269 161111\r\n  112401613 95 97  11142 86 76  0\r\n  241401526 89 91  16143101 88  5\r\n1100071091212  12 5100 290XX  4\r\n1097071092112  18 5100 290XX  4\r\n 12526 3203722151   722\r\n102323 230261 -1778\r\n120332\r\n21 "
-    },
-    {
-      "time": "11.10.2026 21:51 UTC",
-      "source": "ACARS",
-      "flight": "CZ2520",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "H1",
-      "msgno": "D19C",
-      "text": "6 4 100002\r\n 81515 160112\r\n130011\r\n11 210281\r\n150001\r\n2013 ) 100001\r\n 91414 160092"
-    },
-    {
-      "time": "11.10.2026 21:54 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "Q0",
-      "msgno": "M05A",
-      "text": "No text"
-    },
-    {
       "time": "11.10.2026 21:54 UTC",
       "source": "ACARS",
       "flight": "N70379",
@@ -329,6 +296,39 @@
       "label": "10",
       "msgno": "M43A",
       "text": "POS120503, N 6163,E 2707,832,295,21814,  41,33352, 272,-189,-499,7"
+    },
+    {
+      "time": "12.10.2026 05:03 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "_d",
+      "msgno": "S55A",
+      "text": "No text"
+    },
+    {
+      "time": "12.10.2026 05:03 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "E08A",
+      "text": "HYD,R,3030,3060,3020,3030,3070,3070,3030,9,16,16,12,ON,ON,ON,ON,YES,YES,OPEN,OPEN,60,0,10,60,-10,-11,-13,-13,AUTO,AUTO,AUTO,AUTO,NO,NO,NO,NO,60,,STOWED,1.01,,1.14,,1.01,,NORM,NORM,NORM,-7,4,-2,NORM,NORM,NOR"
+    },
+    {
+      "time": "12.10.2026 05:03 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "H1",
+      "msgno": "E08B",
+      "text": "HYD,R,3030,3060,3020,3030,3070,3070,3030,9,16,16,12,ON,ON,ON,ON,YES,YES,OPEN,OPEN,60,0,10,60,-10,-11,-13,-13,AUTO,AUTO,AUTO,AUTO,NO,NO,NO,NO,60,,STOWED,1.01,,1.14,,1.01,,NORM,NORM,NORM,-7,4,-2,NORM,NORM,NORM,NORM,NORM,NORM,NORM,NORM,,12,OCT,26,05,08,14"
     }
   ]
 }
