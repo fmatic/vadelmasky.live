@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.10.2026 10:21 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -28.5,
-      "label": "H1",
-      "msgno": "C17F",
-      "text": " 13OCT26 ER I 4 PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6080  \r\nMSG 3440122 I 0457 13OCT26 ER I 2 PL\r\nDB RIGHT INR RECEIVER\r\nFRC 2114  \r\nMSG 4258416 A 0439 13OCT26 ER I 6 PL\r\nDB 31 DCA OPS (LEF"
-    },
-    {
-      "time": "13.10.2026 10:21 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "H1",
-      "msgno": "C17G",
-      "text": "T 2)\r\nDB 31 DCA OPS (RIGHT 2)\r\nFRC 20378 20378  \r\nMSG 4258445 A 0436 13OCT26 ER I 11 PL\r\nDB 31 DCA OPS (LEFT 2)\r\nDB 31 DCA OPS (RIGHT 2)\r\nFRC 20379 20379  \r\nMSG 3032418 I 0434 13OCT26 ER M PL\r\nDB 24 PDHM OP"
-    },
-    {
-      "time": "13.10.2026 10:22 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -28.5,
-      "label": "H1",
-      "msgno": "C17H",
-      "text": "S (GPM R6)\r\nFRC 25309 MC 309 \r\nMSG 4201575 I 0208 13OCT26 ER I 1 PL\r\nDB 42 GPM_GENERAL OPS (RIGHT 4)\r\nDB 42 GPM_GENERAL OPS (LEFT 1)\r\nFRC 1575 1575  \r\nMSG 4610442 I 0059 13OCT26 TA I 1 PL\r\nDB CONTROLLER SER"
-    },
-    {
       "time": "13.10.2026 10:22 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -328,6 +295,39 @@
       "level": -42.9,
       "label": "5V",
       "msgno": "S89A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 10:50 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -30.9,
+      "label": "Q0",
+      "msgno": "S19A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 10:50 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -42.6,
+      "label": "Q0",
+      "msgno": "S19A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 10:51 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "Q0",
+      "msgno": "S19A",
       "text": "No text"
     }
   ]
