@@ -1,94 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 11:22 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA741J",
-      "freq": 131.725,
-      "level": -38.2,
-      "label": "H1",
-      "msgno": "O64A",
-      "text": "SB0122BA_JA741J  RJTTEFHK727\r\n 62024 0250581122 34250-490234022010/9W011014"
-    },
-    {
-      "time": "12.10.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA741J",
-      "freq": 131.725,
-      "level": -39.2,
-      "label": "B9",
-      "msgno": "L34A",
-      "text": "/EFHK.TI2/046EFHKAD476"
-    },
-    {
-      "time": "12.10.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA741J",
-      "freq": 131.725,
-      "level": -34.8,
-      "label": "_d",
-      "msgno": "S90A",
-      "text": "No text"
-    },
-    {
-      "time": "12.10.2026 11:51 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -29.4,
-      "label": "10",
-      "msgno": "M80A",
-      "text": "POS121150, N 6171,E 2700,831,310,21274,  25,31002, 761,-194,-501,7"
-    },
-    {
-      "time": "12.10.2026 11:52 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "_d",
-      "msgno": "S87A",
-      "text": "No text"
-    },
-    {
-      "time": "12.10.2026 11:52 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "H1",
-      "msgno": "C28A",
-      "text": "EF 1 12OCT26 1152 CAB-2097 CAO1034 EHAM/ZSPD 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371713 A\r\nDB"
-    },
-    {
-      "time": "12.10.2026 11:52 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "H1",
-      "msgno": "C28B",
-      "text": " DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 324900\r\nMSG 3254365 A\r\nDB TI"
-    },
-    {
-      "time": "12.10.2026 11:53 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "H1",
-      "msgno": "C28C",
-      "text": "EF 1 12OCT26 1152 CAB-2097 CAO1034 EHAM/ZSPD 311B-BCG-00W-19 L\r\nATA 232701\r\nMSG 2371710 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371711 A\r\nDB DCMF IN LEFT AIMS\r\nMSG 2371712 A\r\nDB DCMF IN RIGHT AIMS\r\nMSG 2371713 A\r\nDB DCMF IN LEFT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 324900\r\nMSG 3254365 A\r\nDB TIRE PRESSURE CHANNEL\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 345800\r\nMSG 3459931 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
       "time": "12.10.2026 11:53 UTC",
       "source": "ACARS",
       "flight": "CA1034",
@@ -329,6 +241,94 @@
       "label": "H1",
       "msgno": "D16A",
       "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2OCT12,2139,0289/C1/C221.34.26,MC/C321.34.26,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/"
+    },
+    {
+      "time": "13.10.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "SA",
+      "msgno": "S01A",
+      "text": "0EV030021V"
+    },
+    {
+      "time": "13.10.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "80",
+      "msgno": "M00A",
+      "text": "1001 OUTRP  0290/13 EFJY/EFHK .OH-ATN\r\n/OUT 0250/FOB 0013/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "13.10.2026 03:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1101 OFFRP  0290/13 EFJY/EFHK .OH-ATN\r\n/OUT 0250/OFF 0253/FOB 0013/ETA 0328"
+    },
+    {
+      "time": "13.10.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "B9",
+      "msgno": "L00A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "13.10.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "80",
+      "msgno": "M02A",
+      "text": "3701 INRANG 0290/13 EFJY/EFHK .OH-ATN\r\n/ETA 0333/ERT     "
+    },
+    {
+      "time": "13.10.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "_d",
+      "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 03:01 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -39.9,
+      "label": "_d",
+      "msgno": "S04A",
+      "text": "No text"
     }
   ]
 }
