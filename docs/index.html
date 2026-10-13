@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">11</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">9</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">13.10.2026 03:20 UTC</div>
+        <div class="value">13.10.2026 03:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,30 +270,6 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN4MP</div>
-                    <div class="meta">ICAO 461E1D · REG OH-LKN · TYPE E190</div>
-                </div>
-                <div class="alt-badge high">30475 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>237.2 kt</b></div>
-                    <div><span>Track</span><b>182.17°</b></div>
-                    <div><span>Position</span><b>61.0707, 25.2764</b></div>
-                    <div><span>Last seen</span><b>13.10.2026 03:19 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKN" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -307,14 +283,62 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>62.3091, 25.1141</b></div>
-                    <div><span>Last seen</span><b>13.10.2026 03:18 UTC</b></div>
+                    <div><span>Speed</span><b>295.4 kt</b></div>
+                    <div><span>Track</span><b>176.9°</b></div>
+                    <div><span>Position</span><b>61.7212, 25.1820</b></div>
+                    <div><span>Last seen</span><b>13.10.2026 03:25 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CHH753</div>
+                    <div class="meta">ICAO 78140E · REG B-1133 · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>480.0 kt</b></div>
+                    <div><span>Track</span><b>254.18°</b></div>
+                    <div><span>Position</span><b>62.6159, 26.5453</b></div>
+                    <div><span>Last seen</span><b>13.10.2026 03:25 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-1133" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4MP</div>
+                    <div class="meta">ICAO 461E1D · REG OH-LKN · TYPE E190</div>
+                </div>
+                <div class="alt-badge mid">24925 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>196.1 kt</b></div>
+                    <div><span>Track</span><b>178.25°</b></div>
+                    <div><span>Position</span><b>60.6771, 25.2814</b></div>
+                    <div><span>Last seen</span><b>13.10.2026 03:22 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKN" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -742,7 +766,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461E1D", "flight": "FIN4MP", "lat": 61.07067, "lon": 25.276388, "alt": 30475, "speed": 237.2, "last_seen": "13.10.2026 03:19 UTC"}, {"hex": "4601F4", "flight": "-", "lat": 62.309143, "lon": 25.114136, "alt": 19000, "speed": "-", "last_seen": "13.10.2026 03:18 UTC"}, {"hex": "4601F7", "flight": "FIN4QA", "lat": 60.978916, "lon": 25.502897, "alt": 17500, "speed": 291.7, "last_seen": "13.10.2026 03:17 UTC"}, {"hex": "4601FB", "flight": "FIN8KH", "lat": 61.686905, "lon": 25.476804, "alt": 16025, "speed": 285.9, "last_seen": "13.10.2026 03:07 UTC"}, {"hex": "461FA7", "flight": "FIN6EM", "lat": 62.033185, "lon": 25.096842, "alt": 36275, "speed": 413.3, "last_seen": "13.10.2026 03:04 UTC"}, {"hex": "7811F9", "flight": "CHH491", "lat": 61.337461, "lon": 25.741374, "alt": 36000, "speed": 500.0, "last_seen": "13.10.2026 02:47 UTC"}, {"hex": "781AA6", "flight": "CES249", "lat": 61.465897, "lon": 25.313285, "alt": 38000, "speed": 482.9, "last_seen": "13.10.2026 02:22 UTC"}, {"hex": "781100", "flight": "CES553", "lat": 61.438712, "lon": 25.620117, "alt": 32000, "speed": 490.0, "last_seen": "13.10.2026 01:51 UTC"}];
+const aircraft = [{"hex": "4601F4", "flight": "-", "lat": 61.721191, "lon": 25.181986, "alt": 19000, "speed": 295.4, "last_seen": "13.10.2026 03:25 UTC"}, {"hex": "78140E", "flight": "CHH753", "lat": 62.615925, "lon": 26.545293, "alt": 38000, "speed": 480.0, "last_seen": "13.10.2026 03:25 UTC"}, {"hex": "461E1D", "flight": "FIN4MP", "lat": 60.677118, "lon": 25.281405, "alt": 24925, "speed": 196.1, "last_seen": "13.10.2026 03:22 UTC"}, {"hex": "4601F7", "flight": "FIN4QA", "lat": 60.978916, "lon": 25.502897, "alt": 17500, "speed": 291.7, "last_seen": "13.10.2026 03:17 UTC"}, {"hex": "4601FB", "flight": "FIN8KH", "lat": 61.686905, "lon": 25.476804, "alt": 16025, "speed": 285.9, "last_seen": "13.10.2026 03:07 UTC"}, {"hex": "461FA7", "flight": "FIN6EM", "lat": 62.033185, "lon": 25.096842, "alt": 36275, "speed": 413.3, "last_seen": "13.10.2026 03:04 UTC"}, {"hex": "7811F9", "flight": "CHH491", "lat": 61.337461, "lon": 25.741374, "alt": 36000, "speed": 500.0, "last_seen": "13.10.2026 02:47 UTC"}, {"hex": "781AA6", "flight": "CES249", "lat": 61.465897, "lon": 25.313285, "alt": 38000, "speed": 482.9, "last_seen": "13.10.2026 02:22 UTC"}, {"hex": "781100", "flight": "CES553", "lat": 61.438712, "lon": 25.620117, "alt": 32000, "speed": 490.0, "last_seen": "13.10.2026 01:51 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
