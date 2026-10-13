@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 16:34 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-5941",
-      "freq": 131.725,
-      "level": -25.6,
-      "label": "_d",
-      "msgno": "S63A",
-      "text": "No text"
-    },
-    {
       "time": "12.10.2026 18:31 UTC",
       "source": "ACARS",
       "flight": "MU0210",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M75A",
       "text": "POSA1N61722E 26814,AGIVU  ,071213,339,NISIX  ,075331,-46, 34, 291,828"
+    },
+    {
+      "time": "13.10.2026 07:27 UTC",
+      "source": "ACARS",
+      "flight": "CK0249",
+      "tail": "B-222H",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "H1",
+      "msgno": "O53A",
+      "text": "SB0122BA_B-222H  ZSPDLFPG445\r\n 61499 0262260727 33998-4703480410109B,011016"
     }
   ]
 }
