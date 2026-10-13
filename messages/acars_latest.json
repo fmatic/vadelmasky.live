@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 18:39 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -31.0,
-      "label": "11",
-      "msgno": "M15A",
-      "text": "POS\r\nCAS 267,LAT N 61.897,LON E 27.926,ALT 35000,FOB 120920,UTC 183934,PD ----.--,WD 215,WS   21,TAT - 21"
-    },
-    {
-      "time": "12.10.2026 21:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5941",
-      "freq": 131.725,
-      "level": -25.1,
-      "label": "_d",
-      "msgno": "S98A",
-      "text": "No text"
-    },
-    {
-      "time": "12.10.2026 21:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5941",
-      "freq": 131.725,
-      "level": -24.4,
-      "label": "SA",
-      "msgno": "S99A",
-      "text": "0LS212757VH"
-    },
-    {
-      "time": "12.10.2026 21:29 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5941",
-      "freq": 131.725,
-      "level": -27.7,
-      "label": "H1",
-      "msgno": "C47A",
-      "text": ".1/WRN/WN2610122128  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "12.10.2026 21:29 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5941",
-      "freq": 131.725,
-      "level": -28.0,
-      "label": "H1",
-      "msgno": "C48A",
-      "text": ".1/FLR/FR2610122128  34363106IR3    1,IR2,IR1,AFS,,,,MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
       "time": "12.10.2026 21:34 UTC",
       "source": "ACARS",
       "flight": "N70289",
@@ -328,6 +273,61 @@
       "level": -37.6,
       "label": "Q0",
       "msgno": "S85A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 09:50 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "_d",
+      "msgno": "S90A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 09:50 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "_d",
+      "msgno": "S91A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 09:50 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "_d",
+      "msgno": "S92A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 09:50 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "_d",
+      "msgno": "S94A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 09:50 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "_d",
+      "msgno": "S95A",
       "text": "No text"
     }
   ]
