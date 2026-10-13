@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 11:53 UTC",
-      "source": "ACARS",
-      "flight": "CA1034",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -31.0,
-      "label": "H1",
-      "msgno": "E51B",
-      "text": "NORM,NORM,NORM,NORM,,12,OCT,26,11,53,35"
-    },
-    {
-      "time": "12.10.2026 12:20 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -28.3,
-      "label": "H1",
-      "msgno": "O58A",
-      "text": "SB0122BA_B-228S  ZSPDEHAM954\r\n 61559 0263751219 34002-500202023010GMY008010"
-    },
-    {
-      "time": "12.10.2026 13:12 UTC",
-      "source": "ACARS",
-      "flight": "CA8403",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "Q0",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
       "time": "12.10.2026 13:16 UTC",
       "source": "ACARS",
       "flight": "CA8403",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S25A",
       "text": "No text"
+    },
+    {
+      "time": "13.10.2026 03:51 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "SA",
+      "msgno": "S26A",
+      "text": "0LS035146V"
+    },
+    {
+      "time": "13.10.2026 03:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "SA",
+      "msgno": "S29A",
+      "text": "0LS035255V"
+    },
+    {
+      "time": "13.10.2026 03:53 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "10",
+      "msgno": "M46A",
+      "text": "POS130353,N 61.568,E 26.713,0439,463375,,,37999,28760"
     }
   ]
 }
