@@ -5,17 +5,6 @@
       "source": "ACARS",
       "flight": "HO1607",
       "tail": "B-1115",
-      "freq": 131.725,
-      "level": -44.3,
-      "label": "SA",
-      "msgno": "S67A",
-      "text": "0EV102751VS/"
-    },
-    {
-      "time": "13.10.2026 10:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
       "freq": 131.825,
       "level": -27.0,
       "label": "SA",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S22A",
       "text": "No text"
+    },
+    {
+      "time": "13.10.2026 11:00 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "H1",
+      "msgno": "D14B",
+      "text": "L/F2079.7,082.0,095.4/F3079.7,082.0,094.5/G1NH,ITT,FF,IG/G2095.9,0666.7,391,0092/G3095.9,0662.7,372,0125/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I221.26/**.,EOT,...,/"
     }
   ]
 }
