@@ -6,17 +6,6 @@
       "flight": "CA1153",
       "tail": "B-6092",
       "freq": 131.825,
-      "level": -28.0,
-      "label": "B9",
-      "msgno": "M45A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
-      "time": "13.10.2026 11:55 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6092",
-      "freq": 131.825,
       "level": -27.1,
       "label": "_d",
       "msgno": "S79A",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S71A",
       "text": "No text"
+    },
+    {
+      "time": "13.10.2026 17:04 UTC",
+      "source": "ACARS",
+      "flight": "JD0669",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -40.3,
+      "label": "14",
+      "msgno": "M29A",
+      "text": "POS\r\n13OCT,1704,256,37998,N 62.620,E 25.990,34063,  56,171"
     }
   ]
 }
