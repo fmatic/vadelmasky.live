@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 13:16 UTC",
-      "source": "ACARS",
-      "flight": "CA8403",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "10",
-      "msgno": "M46A",
-      "text": "POS121316,N 61.539,E 26.582,1524,459375,,,36000,40720"
-    },
-    {
-      "time": "12.10.2026 13:26 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1429",
-      "freq": 131.825,
-      "level": -40.1,
-      "label": "SA",
-      "msgno": "S94A",
-      "text": "0LS132610V"
-    },
-    {
-      "time": "12.10.2026 13:31 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1429",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "10",
-      "msgno": "M61A",
-      "text": "POS121331, N 6161,E 2667,---,289,20180,  21,33999, 377,-195,-501,7"
-    },
-    {
       "time": "12.10.2026 16:31 UTC",
       "source": "ACARS",
       "flight": "MU0289",
@@ -329,6 +296,39 @@
       "label": "10",
       "msgno": "M46A",
       "text": "POS130353,N 61.568,E 26.713,0439,463375,,,37999,28760"
+    },
+    {
+      "time": "13.10.2026 06:25 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "16",
+      "msgno": "M79A",
+      "text": "POSA1N62249E 26460,AGAMO  ,060739,339,DETNA  ,073156,-49, 28, 295,834"
+    },
+    {
+      "time": "13.10.2026 06:25 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "16",
+      "msgno": "M79A",
+      "text": "POSA1N62249E 26460,AGAMO  ,060739,339,DETNA  ,073156,-49, 28, 295,834"
+    },
+    {
+      "time": "13.10.2026 06:28 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-227M",
+      "freq": 131.825,
+      "level": -27.9,
+      "label": "H1",
+      "msgno": "O56A",
+      "text": "SB0122BA_B-227M  ZSPDEGSS151\r\n 62064 0256850628 34003-480352038010IH-009015"
     }
   ]
 }
