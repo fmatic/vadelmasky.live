@@ -158,21 +158,34 @@
     },
     "78026e": {
       "hex": "78026e",
-      "flight": "CA3157",
+      "flight": "CAO3157",
       "reg": "B-6070",
       "type": "A332",
-      "lat": 61.568,
-      "lon": 26.713,
+      "lat": 61.269542,
+      "lon": 25.424703,
+      "alt": 38000,
+      "speed": 470.0,
+      "track": 243.81,
+      "seen_first": "2026-10-13T03:54:01.586568",
+      "last_seen": "2026-10-13T04:00:02.097182"
+    },
+    "4677e7": {
+      "hex": "4677e7",
+      "flight": "RU7B02",
+      "reg": "TWR",
+      "type": "TWR",
+      "lat": null,
+      "lon": null,
       "alt": null,
       "speed": null,
       "track": null,
-      "seen_first": "2026-10-13T03:54:01.586568",
-      "last_seen": "2026-10-13T03:55:01.889532"
+      "seen_first": "2026-10-13T03:57:01.221974",
+      "last_seen": "2026-10-13T03:59:01.725662"
     }
   },
   "summary": {
-    "total_unique_aircraft": 13,
+    "total_unique_aircraft": 14,
     "last_seen_live": 1,
-    "updated": "2026-10-13T03:55:01.889532"
+    "updated": "2026-10-13T04:00:02.097182"
   }
 }
