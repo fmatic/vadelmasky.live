@@ -1837,6 +1837,76 @@
           "usec": 351060
         }
       }
+    },
+    {
+      "time": "13.10.2026 17:05 UTC",
+      "source": "VDL2",
+      "freq": 136.975,
+      "station": "VADELMA-EFJY-VDL2",
+      "src_addr": "4601FD",
+      "src_type": "Aircraft",
+      "src_status": "Airborne",
+      "dst_addr": "1092BA",
+      "dst_type": "Ground station",
+      "dst_status": "-",
+      "command": "-",
+      "frame_type": "I",
+      "cr": "Command",
+      "signal": -46.277428,
+      "noise": -52.77874,
+      "raw": {
+        "app": {
+          "name": "dumpvdl2",
+          "ver": "2.7.0-dirty",
+          "proxied": true,
+          "proxied_by": "acars_router",
+          "acars_router_version": "0.2.1",
+          "acars_router_uuid": "582cc133-0d87-4fa8-969b-14e49c22fde8"
+        },
+        "avlc": {
+          "cr": "Command",
+          "dst": {
+            "addr": "1092BA",
+            "type": "Ground station"
+          },
+          "frame_type": "I",
+          "src": {
+            "addr": "4601FD",
+            "status": "Airborne",
+            "type": "Aircraft"
+          },
+          "rseq": 1,
+          "sseq": 1,
+          "poll": false,
+          "acars": {
+            "err": false,
+            "crc_ok": true,
+            "more": false,
+            "reg": ".OH-ATP",
+            "mode": "2",
+            "label": "B9",
+            "blk_id": "5",
+            "ack": "!",
+            "flight": "N70416",
+            "msg_num": "L02",
+            "msg_num_seq": "A",
+            "msg_text": "/EFHK.TI2/024EFHKAFE13"
+          }
+        },
+        "burst_len_octets": 67,
+        "freq": 136975000,
+        "idx": 0,
+        "freq_skew": 1.017896,
+        "hdr_bits_fixed": 0,
+        "noise_level": -52.77874,
+        "octets_corrected_by_fec": 2,
+        "sig_level": -46.277428,
+        "station": "VADELMA-EFJY-VDL2",
+        "t": {
+          "sec": 1791911131,
+          "usec": 642508
+        }
+      }
     }
   ]
 }

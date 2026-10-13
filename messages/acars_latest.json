@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.10.2026 11:55 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -27.1,
-      "label": "_d",
-      "msgno": "S79A",
-      "text": "No text"
-    },
-    {
       "time": "13.10.2026 13:43 UTC",
       "source": "ACARS",
       "flight": "CA0939",
@@ -329,6 +318,17 @@
       "label": "14",
       "msgno": "M29A",
       "text": "POS\r\n13OCT,1704,256,37998,N 62.620,E 25.990,34063,  56,171"
+    },
+    {
+      "time": "13.10.2026 17:07 UTC",
+      "source": "ACARS",
+      "flight": "JD0669",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "_d",
+      "msgno": "S02A",
+      "text": "No text"
     }
   ]
 }
