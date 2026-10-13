@@ -132,16 +132,16 @@
     },
     "78140e": {
       "hex": "78140e",
-      "flight": "CHH753",
+      "flight": "CHH754",
       "reg": "B-1133",
       "type": "B789",
-      "lat": 62.615925,
-      "lon": 26.545293,
-      "alt": 38000,
-      "speed": 480.0,
-      "track": 254.18,
+      "lat": 62.10669,
+      "lon": 26.003215,
+      "alt": 36975,
+      "speed": 492.0,
+      "track": 75.06,
       "seen_first": "2026-10-13T03:23:01.977593",
-      "last_seen": "2026-10-13T03:28:01.265971"
+      "last_seen": "2026-10-13T13:40:01.773222"
     },
     "461fa1": {
       "hex": "461fa1",
@@ -519,11 +519,37 @@
       "track": null,
       "seen_first": "2026-10-13T13:07:01.940786",
       "last_seen": "2026-10-13T13:14:02.073226"
+    },
+    "461f30": {
+      "hex": "461f30",
+      "flight": "FIN440",
+      "reg": "OH-LVC",
+      "type": "A319",
+      "lat": 61.772095,
+      "lon": 25.260609,
+      "alt": 29125,
+      "speed": 468.6,
+      "track": 182.94,
+      "seen_first": "2026-10-13T13:37:01.922747",
+      "last_seen": "2026-10-13T13:40:01.773222"
+    },
+    "781590": {
+      "hex": "781590",
+      "flight": "",
+      "reg": "B-304K",
+      "type": "A333",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-13T13:40:01.773222",
+      "last_seen": "2026-10-13T13:40:01.773222"
     }
   },
   "summary": {
-    "total_unique_aircraft": 40,
-    "last_seen_live": 0,
-    "updated": "2026-10-13T13:35:01.612570"
+    "total_unique_aircraft": 42,
+    "last_seen_live": 3,
+    "updated": "2026-10-13T13:40:01.773222"
   }
 }
