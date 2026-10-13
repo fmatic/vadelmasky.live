@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.10.2026 16:31 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-5941",
-      "freq": 131.725,
-      "level": -31.8,
-      "label": "11",
-      "msgno": "M01A",
-      "text": "POS\r\nCAS 253,LAT N 62.268,LON E 26.422,ALT 37997,FOB 37320,UTC 163142,PD ----.--,WD 231,WS   11,TAT - 19"
-    },
-    {
-      "time": "12.10.2026 16:34 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-5941",
-      "freq": 131.725,
-      "level": -23.5,
-      "label": "B9",
-      "msgno": "J30A",
-      "text": "/ESSA.TI2/000ESSAA63EA"
-    },
-    {
       "time": "12.10.2026 16:34 UTC",
       "source": "ACARS",
       "flight": "MU0289",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O56A",
       "text": "SB0122BA_B-227M  ZSPDEGSS151\r\n 62064 0256850628 34003-480352038010IH-009015"
+    },
+    {
+      "time": "13.10.2026 07:22 UTC",
+      "source": "ACARS",
+      "flight": "CK0249",
+      "tail": "B-222H",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "Q0",
+      "msgno": "S04A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 07:24 UTC",
+      "source": "ACARS",
+      "flight": "CK0249",
+      "tail": "B-222H",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "16",
+      "msgno": "M75A",
+      "text": "POSA1N61722E 26814,AGIVU  ,071213,339,NISIX  ,075331,-46, 34, 291,828"
     }
   ]
 }
