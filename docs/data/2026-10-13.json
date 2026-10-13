@@ -405,16 +405,16 @@
     },
     "781437": {
       "hex": "781437",
-      "flight": "HO1607",
+      "flight": "HO1608",
       "reg": "B-1115",
       "type": "B789",
-      "lat": 61.56,
-      "lon": 26.866667,
-      "alt": 31900,
+      "lat": 61.085,
+      "lon": 26.483333,
+      "alt": 22200,
       "speed": null,
       "track": null,
       "seen_first": "2026-10-13T10:26:02.161519",
-      "last_seen": "2026-10-13T11:02:01.557180"
+      "last_seen": "2026-10-13T14:25:01.473846"
     },
     "461321": {
       "hex": "461321",
@@ -545,11 +545,37 @@
       "track": 83.94,
       "seen_first": "2026-10-13T13:40:01.773222",
       "last_seen": "2026-10-13T13:45:01.445657"
+    },
+    "780f3a": {
+      "hex": "780f3a",
+      "flight": "CES771",
+      "reg": "B-7347",
+      "type": "B77W",
+      "lat": 61.807173,
+      "lon": 26.2087,
+      "alt": 34000,
+      "speed": 492.0,
+      "track": 237.83,
+      "seen_first": "2026-10-13T14:21:01.213123",
+      "last_seen": "2026-10-13T14:25:01.473846"
+    },
+    "781344": {
+      "hex": "781344",
+      "flight": "",
+      "reg": "B-1081",
+      "type": "A359",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-13T14:23:01.735359",
+      "last_seen": "2026-10-13T14:23:01.735359"
     }
   },
   "summary": {
-    "total_unique_aircraft": 42,
-    "last_seen_live": 0,
-    "updated": "2026-10-13T14:20:01.538006"
+    "total_unique_aircraft": 44,
+    "last_seen_live": 2,
+    "updated": "2026-10-13T14:25:01.473846"
   }
 }
