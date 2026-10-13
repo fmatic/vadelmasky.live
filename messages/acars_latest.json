@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.10.2026 11:31 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "5V",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "13.10.2026 11:46 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "B9",
-      "msgno": "L15A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "13.10.2026 11:46 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "_d",
-      "msgno": "S60A",
-      "text": "No text"
-    },
-    {
-      "time": "13.10.2026 11:46 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -39.0,
-      "label": "_d",
-      "msgno": "S61A",
-      "text": "No text"
-    },
-    {
-      "time": "13.10.2026 11:46 UTC",
-      "source": "ACARS",
-      "flight": "N70542",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "5V",
-      "msgno": "S62A",
-      "text": "No text"
-    },
-    {
       "time": "13.10.2026 11:46 UTC",
       "source": "ACARS",
       "flight": "N70542",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "F96A",
       "text": "POSN61376E029088,IDEPI,143148,353,KETOL,143516,ROGID,M46,33125,1083B2A8"
+    },
+    {
+      "time": "13.10.2026 15:15 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -28.7,
+      "label": "80",
+      "msgno": "M10A",
+      "text": "3701 INRANG 0370/13 EFKU/EFHK .OH-ATN\r\n/ETA 1545/ERT     \r\nF/AY1107/2.4"
+    },
+    {
+      "time": "13.10.2026 15:15 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -28.8,
+      "label": "_d",
+      "msgno": "S59A",
+      "text": "No text"
+    },
+    {
+      "time": "13.10.2026 15:15 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "H1",
+      "msgno": "D02A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,131026,1514,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2222,.16026,-008/F1TORQ,NP,N"
+    },
+    {
+      "time": "13.10.2026 15:15 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "H1",
+      "msgno": "D02B",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,131026,1514,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2222,.16026,-008/F1TORQ,NP,NL/F2082.7,082.0,096.2/F3082.7,082.0,095.4/G1NH,ITT,FF,IG/G2096.6,0679.6,404,0091/G3096.6,0675.8,385,0112/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I218.79/**.,EOT,...,/"
+    },
+    {
+      "time": "13.10.2026 15:18 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -41.6,
+      "label": "SA",
+      "msgno": "S10A",
+      "text": "0LS151850V"
     }
   ]
 }
