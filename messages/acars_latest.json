@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.10.2026 14:32 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "H1",
-      "msgno": "F96A",
-      "text": "POSN61376E029088,IDEPI,143148,353,KETOL,143516,ROGID,M46,33125,1083B2A8"
-    },
-    {
       "time": "13.10.2026 15:15 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C12A",
       "text": ".1/FLR/FR2610140456  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "14.10.2026 06:41 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "Q0",
+      "msgno": "S02A",
+      "text": "No text"
     }
   ]
 }
