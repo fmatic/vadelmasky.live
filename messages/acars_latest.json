@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 10:24 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "_d",
-      "msgno": "S72A",
-      "text": "No text"
-    },
-    {
       "time": "14.10.2026 10:55 UTC",
       "source": "ACARS",
       "flight": "QR021X",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S83A",
       "text": "0LS183451VH"
+    },
+    {
+      "time": "14.10.2026 18:36 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -37.2,
+      "label": "H1",
+      "msgno": "C28A",
+      "text": ".1/WRN/WN2610141836  345801006NAV GPS 2 FAULT"
     }
   ]
 }
