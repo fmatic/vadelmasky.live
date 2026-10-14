@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.10.2026 14:22 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -39.0,
-      "label": "SA",
-      "msgno": "S30A",
-      "text": "0EV142235VS/"
-    },
-    {
-      "time": "13.10.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "83",
-      "msgno": "M56A",
-      "text": "EFHK,ZSPD,131423, 61.18,  26.92,24557,322,  53.9, 50700, 50550, 50550"
-    },
-    {
-      "time": "13.10.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "5V",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
-      "time": "13.10.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -41.2,
-      "label": "Q0",
-      "msgno": "S33A",
-      "text": "No text"
-    },
-    {
-      "time": "13.10.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -41.7,
-      "label": "_d",
-      "msgno": "S34A",
-      "text": "No text"
-    },
-    {
-      "time": "13.10.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "SA",
-      "msgno": "S35A",
-      "text": "0EV142432VS/"
-    },
-    {
       "time": "13.10.2026 14:26 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -328,6 +262,72 @@
       "level": -28.4,
       "label": "5V",
       "msgno": "S01A",
+      "text": "No text"
+    },
+    {
+      "time": "14.10.2026 04:36 UTC",
+      "source": "ACARS",
+      "flight": "N70361",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -27.2,
+      "label": "Q0",
+      "msgno": "M08A",
+      "text": "No text"
+    },
+    {
+      "time": "14.10.2026 04:37 UTC",
+      "source": "ACARS",
+      "flight": "N70361",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -27.6,
+      "label": "SA",
+      "msgno": "S47A",
+      "text": "0EV043657V"
+    },
+    {
+      "time": "14.10.2026 04:37 UTC",
+      "source": "ACARS",
+      "flight": "N70361",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -29.2,
+      "label": "HX",
+      "msgno": "S46A",
+      "text": "/HELATXA.A9 CRC /HELATXA.TI2/EFKU ARR ATIS D\r\n0420Z RWY 33 IN USE\r\nRWY 33 COND REP AT\r\n 0414 UTC RWYCC 5 , 5 ,\r\n 5 ALL PARTS 100 PCT WET\r\nTRL 60\r\nBIRD ACTIVITY \r\nAUTO"
+    },
+    {
+      "time": "14.10.2026 04:37 UTC",
+      "source": "ACARS",
+      "flight": "N70361",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "B9",
+      "msgno": "L08A",
+      "text": "/EFKU.TI2/024EFKUA873F"
+    },
+    {
+      "time": "14.10.2026 04:37 UTC",
+      "source": "ACARS",
+      "flight": "N70361",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -29.6,
+      "label": "_d",
+      "msgno": "S48A",
+      "text": "No text"
+    },
+    {
+      "time": "14.10.2026 04:37 UTC",
+      "source": "ACARS",
+      "flight": "N70361",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -30.2,
+      "label": "_d",
+      "msgno": "S49A",
       "text": "No text"
     }
   ]
