@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 11:09 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "80",
-      "msgno": "M17B",
-      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
       "time": "14.10.2026 11:14 UTC",
       "source": "ACARS",
       "flight": "CA3157",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M92A",
       "text": "POS141852, N 6172,E 2687,830,283,20615,  22,34997, 615,-205,-511,7"
+    },
+    {
+      "time": "14.10.2026 20:54 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -22.9,
+      "label": "Q0",
+      "msgno": "S45A",
+      "text": "No text"
     }
   ]
 }
