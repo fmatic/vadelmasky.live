@@ -1907,6 +1907,62 @@
           "usec": 642508
         }
       }
+    },
+    {
+      "time": "14.10.2026 03:07 UTC",
+      "source": "VDL2",
+      "freq": 136.875,
+      "station": "VADELMA-EFJY-VDL2",
+      "src_addr": "45D068",
+      "src_type": "Aircraft",
+      "src_status": "Airborne",
+      "dst_addr": "241581",
+      "dst_type": "Ground station",
+      "dst_status": "-",
+      "command": "-",
+      "frame_type": "I",
+      "cr": "Command",
+      "signal": -41.228355,
+      "noise": -52.477974,
+      "raw": {
+        "app": {
+          "name": "dumpvdl2",
+          "ver": "2.7.0-dirty",
+          "proxied": true,
+          "proxied_by": "acars_router",
+          "acars_router_version": "0.2.1",
+          "acars_router_uuid": "419f115e-2366-402b-b08e-829f5b3b94c3"
+        },
+        "avlc": {
+          "cr": "Command",
+          "dst": {
+            "addr": "241581",
+            "type": "Ground station"
+          },
+          "frame_type": "I",
+          "src": {
+            "addr": "45D068",
+            "status": "Airborne",
+            "type": "Aircraft"
+          },
+          "rseq": 3,
+          "sseq": 7,
+          "poll": false
+        },
+        "burst_len_octets": 62,
+        "freq": 136875000,
+        "idx": 0,
+        "freq_skew": 1.686869,
+        "hdr_bits_fixed": 0,
+        "noise_level": -52.477974,
+        "octets_corrected_by_fec": 0,
+        "sig_level": -41.228355,
+        "station": "VADELMA-EFJY-VDL2",
+        "t": {
+          "sec": 1791947274,
+          "usec": 375873
+        }
+      }
     }
   ]
 }
