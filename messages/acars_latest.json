@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 04:43 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -38.8,
-      "label": "H1",
-      "msgno": "O50A",
-      "text": "SB0122BA_B-2098  ZSPDEGPK780\r\n 61807 0264230447 34002-500311021010PSZ011015"
-    },
-    {
-      "time": "14.10.2026 04:46 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -41.1,
-      "label": "H1",
-      "msgno": "C16C",
-      "text": "3453301 A 0417 14OCT26 ER I 3 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 0417 14OCT26 ER I 3 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
       "time": "14.10.2026 04:52 UTC",
       "source": "ACARS",
       "flight": "CA3155",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O68A",
       "text": "SB0122BA_JA738J  RJTTEFHK691\r\n 61472 0250161151 16221-140219016010/9W013019"
+    },
+    {
+      "time": "14.10.2026 14:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "10",
+      "msgno": "M04A",
+      "text": "POS141419, N 6157,E 2678,834,291,20373,  22,34000, 280,-189,-500,7"
+    },
+    {
+      "time": "14.10.2026 14:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "H1",
+      "msgno": "O14A",
+      "text": "SB0122BA_B-2096  ZSPDEHAM 20\r\n 61562 0267781419 34000-490201021010GMY009011"
     }
   ]
 }
