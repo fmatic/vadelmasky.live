@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 10:23 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -36.3,
-      "label": "_d",
-      "msgno": "S70A",
-      "text": "No text"
-    },
-    {
-      "time": "14.10.2026 10:23 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "_d",
-      "msgno": "S71A",
-      "text": "No text"
-    },
-    {
       "time": "14.10.2026 10:24 UTC",
       "source": "ACARS",
       "flight": "N70285",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S79A",
       "text": "0LS182711VH"
+    },
+    {
+      "time": "14.10.2026 18:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -26.6,
+      "label": "11",
+      "msgno": "M31A",
+      "text": "POS\r\nCAS 271,LAT N 61.690,LON E 27.236,ALT 35004,FOB 121960,UTC 183219,PD ----.--,WD 207,WS   24,TAT - 24"
+    },
+    {
+      "time": "14.10.2026 18:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -30.5,
+      "label": "SA",
+      "msgno": "S83A",
+      "text": "0LS183451VH"
     }
   ]
 }
