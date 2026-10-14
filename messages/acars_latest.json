@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 04:37 UTC",
-      "source": "ACARS",
-      "flight": "N70361",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -30.2,
-      "label": "_d",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
-      "time": "14.10.2026 04:41 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "10",
-      "msgno": "M67A",
-      "text": "POS140445, N 6188,E 2692,823,287,32192,  27,33999, 319,-205,-506,7"
-    },
-    {
       "time": "14.10.2026 04:43 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "D32A",
       "text": "PNT20G-08   A44\r\n14114318\r\nN62221E024502114333653-49205 26 261 \r\n154482462\r\nW       0 01208"
+    },
+    {
+      "time": "14.10.2026 11:51 UTC",
+      "source": "ACARS",
+      "flight": "N70592",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "5V",
+      "msgno": "S99A",
+      "text": "No text"
+    },
+    {
+      "time": "14.10.2026 11:51 UTC",
+      "source": "ACARS",
+      "flight": "JL0047",
+      "tail": "JA738J",
+      "freq": 131.725,
+      "level": -41.5,
+      "label": "H1",
+      "msgno": "O68A",
+      "text": "SB0122BA_JA738J  RJTTEFHK691\r\n 61472 0250161151 16221-140219016010/9W013019"
     }
   ]
 }
