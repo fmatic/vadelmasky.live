@@ -6,17 +6,6 @@
       "flight": "N70290",
       "tail": "OH-ATP",
       "freq": 131.725,
-      "level": -32.6,
-      "label": "H1",
-      "msgno": "D00A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2OCT13,2139,0289/C1GMT,ACC/C22134,.0.89,FLT/C32101,.1.34,FLT/C42136,.1.29,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "14.10.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATP",
-      "freq": 131.725,
       "level": -28.4,
       "label": "5V",
       "msgno": "S01A",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M17B",
       "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
+    },
+    {
+      "time": "14.10.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "Q0",
+      "msgno": "S36A",
+      "text": "No text"
     }
   ]
 }
