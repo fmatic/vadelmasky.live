@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATP",
-      "freq": 131.725,
-      "level": -28.4,
-      "label": "5V",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
       "time": "14.10.2026 04:36 UTC",
       "source": "ACARS",
       "flight": "N70361",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S36A",
       "text": "No text"
+    },
+    {
+      "time": "14.10.2026 11:19 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -28.9,
+      "label": "10",
+      "msgno": "M70A",
+      "text": "POS121119,N 61.362,E 25.798,1206,444750,,,38002,26320"
     }
   ]
 }
