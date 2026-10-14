@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 10:58 UTC",
-      "source": "ACARS",
-      "flight": "QR021X",
-      "tail": "A7-BAE",
-      "freq": 131.725,
-      "level": -41.4,
-      "label": "SA",
-      "msgno": "S71A",
-      "text": "0LS105813V"
-    },
-    {
       "time": "14.10.2026 11:09 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S67A",
       "text": "0LH184834VS"
+    },
+    {
+      "time": "14.10.2026 18:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3046",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -27.9,
+      "label": "10",
+      "msgno": "M92A",
+      "text": "POS141852, N 6172,E 2687,830,283,20615,  22,34997, 615,-205,-511,7"
     }
   ]
 }
