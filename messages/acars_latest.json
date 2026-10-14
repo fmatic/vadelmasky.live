@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.10.2026 15:15 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -28.8,
-      "label": "_d",
-      "msgno": "S59A",
-      "text": "No text"
-    },
-    {
-      "time": "13.10.2026 15:15 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "H1",
-      "msgno": "D02A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,131026,1514,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2222,.16026,-008/F1TORQ,NP,N"
-    },
-    {
-      "time": "13.10.2026 15:15 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "H1",
-      "msgno": "D02B",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20370,131026,1514,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2222,.16026,-008/F1TORQ,NP,NL/F2082.7,082.0,096.2/F3082.7,082.0,095.4/G1NH,ITT,FF,IG/G2096.6,0679.6,404,0091/G3096.6,0675.8,385,0112/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I218.79/**.,EOT,...,/"
-    },
-    {
-      "time": "13.10.2026 15:18 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-5903",
-      "freq": 131.725,
-      "level": -41.6,
-      "label": "SA",
-      "msgno": "S10A",
-      "text": "0LS151850V"
-    },
-    {
       "time": "13.10.2026 15:26 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +285,50 @@
       "label": "Q0",
       "msgno": "S85A",
       "text": "No text"
+    },
+    {
+      "time": "14.10.2026 08:01 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "_d",
+      "msgno": "S90A",
+      "text": "No text"
+    },
+    {
+      "time": "14.10.2026 08:01 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -38.3,
+      "label": "_d",
+      "msgno": "S91A",
+      "text": "No text"
+    },
+    {
+      "time": "14.10.2026 08:01 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -42.5,
+      "label": "_d",
+      "msgno": "S92A",
+      "text": "No text"
+    },
+    {
+      "time": "14.10.2026 08:01 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -42.3,
+      "label": "18",
+      "msgno": "M53A",
+      "text": "POX,CSG2517   ,14OCT26,080156,ZGGG,EGPK,N061.17,E0025.81,339, 309,843,-118.7,-126.4,011,-50.0,102656, 29560,"
     }
   ]
 }
