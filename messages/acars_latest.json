@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 10:55 UTC",
-      "source": "ACARS",
-      "flight": "QR021X",
-      "tail": "A7-BAE",
-      "freq": 131.725,
-      "level": -38.4,
-      "label": "16",
-      "msgno": "M23A",
-      "text": "LOF-16 ,N 62.317,E  24.342,33000,0487,1925,166\\TS105556,141026"
-    },
-    {
       "time": "14.10.2026 10:58 UTC",
       "source": "ACARS",
       "flight": "QR021X",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C28A",
       "text": ".1/WRN/WN2610141836  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "14.10.2026 18:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3046",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "SA",
+      "msgno": "S67A",
+      "text": "0LH184834VS"
     }
   ]
 }
