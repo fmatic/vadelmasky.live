@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.10.2026 14:28 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -38.9,
-      "label": "SA",
-      "msgno": "S43A",
-      "text": "0EV142841VS/"
-    },
-    {
-      "time": "13.10.2026 14:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "5V",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
-      "time": "13.10.2026 14:31 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "Q0",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
       "time": "13.10.2026 14:31 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C16C",
       "text": "3453301 A 0417 14OCT26 ER I 3 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 0417 14OCT26 ER I 3 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "14.10.2026 04:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -40.0,
+      "label": "B9",
+      "msgno": "M19A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "14.10.2026 04:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "B9",
+      "msgno": "M19A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "14.10.2026 04:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "_d",
+      "msgno": "S19A",
+      "text": "No text"
     }
   ]
 }
