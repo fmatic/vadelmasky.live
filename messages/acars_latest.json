@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.10.2026 14:26 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -39.8,
-      "label": "SA",
-      "msgno": "S39A",
-      "text": "0EV142647VS/"
-    },
-    {
-      "time": "13.10.2026 14:27 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -38.6,
-      "label": "5V",
-      "msgno": "S40A",
-      "text": "No text"
-    },
-    {
       "time": "13.10.2026 14:28 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S49A",
       "text": "No text"
+    },
+    {
+      "time": "14.10.2026 04:41 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "10",
+      "msgno": "M67A",
+      "text": "POS140445, N 6188,E 2692,823,287,32192,  27,33999, 319,-205,-506,7"
+    },
+    {
+      "time": "14.10.2026 04:43 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -38.8,
+      "label": "H1",
+      "msgno": "O50A",
+      "text": "SB0122BA_B-2098  ZSPDEGPK780\r\n 61807 0264230447 34002-500311021010PSZ011015"
     }
   ]
 }
