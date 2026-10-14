@@ -6,28 +6,6 @@
       "flight": "N70290",
       "tail": "OH-ATP",
       "freq": 131.725,
-      "level": -33.5,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
-      "time": "14.10.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATP",
-      "freq": 131.725,
-      "level": -27.5,
-      "label": "SA",
-      "msgno": "M00A",
-      "text": "0EV025459V"
-    },
-    {
-      "time": "14.10.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATP",
-      "freq": 131.725,
       "level": -28.8,
       "label": "80",
       "msgno": "M01A",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S72A",
       "text": "No text"
+    },
+    {
+      "time": "14.10.2026 10:55 UTC",
+      "source": "ACARS",
+      "flight": "QR021X",
+      "tail": "A7-BAE",
+      "freq": 131.725,
+      "level": -38.4,
+      "label": "16",
+      "msgno": "M23A",
+      "text": "LOF-16 ,N 62.317,E  24.342,33000,0487,1925,166\\TS105556,141026"
+    },
+    {
+      "time": "14.10.2026 10:58 UTC",
+      "source": "ACARS",
+      "flight": "QR021X",
+      "tail": "A7-BAE",
+      "freq": 131.725,
+      "level": -41.4,
+      "label": "SA",
+      "msgno": "S71A",
+      "text": "0LS105813V"
     }
   ]
 }
