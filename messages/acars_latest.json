@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATP",
-      "freq": 131.725,
-      "level": -28.8,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1001 OUTRP  0290/14 EFJY/EFHK .OH-ATP\r\n/OUT 0250/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
       "time": "14.10.2026 02:56 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S71A",
       "text": "0LS105813V"
+    },
+    {
+      "time": "14.10.2026 11:09 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -38.3,
+      "label": "80",
+      "msgno": "M17B",
+      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
     }
   ]
 }
