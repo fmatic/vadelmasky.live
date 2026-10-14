@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 04:52 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -40.0,
-      "label": "B9",
-      "msgno": "M19A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
-      "time": "14.10.2026 04:52 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "B9",
-      "msgno": "M19A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
-      "time": "14.10.2026 04:52 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "_d",
-      "msgno": "S19A",
-      "text": "No text"
-    },
-    {
-      "time": "14.10.2026 04:56 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "H1",
-      "msgno": "C11A",
-      "text": ".1/WRN/WN2610140456  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "14.10.2026 04:57 UTC",
       "source": "ACARS",
       "flight": "CA3155",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "O14A",
       "text": "SB0122BA_B-2096  ZSPDEHAM 20\r\n 61562 0267781419 34000-490201021010GMY009011"
+    },
+    {
+      "time": "14.10.2026 14:23 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "H1",
+      "msgno": "O15A",
+      "text": "SS0340C_683\r\nB-2096  CAO103ZSPDEHAM141026142313ER\r\n29234001835-181243620316DBSM79962A\r\n362610899 250141026 142303\r\n40)6))58) 5))\r\n11)6))39) 3))\r\n10000000100111111\r\n  34002\r\n  3400)12 02N3276)16.)\r\n  3400( 9"
+    },
+    {
+      "time": "14.10.2026 14:23 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "H1",
+      "msgno": "O15B",
+      "text": "SS0340C_683\r\nB-2096  CAO103ZSPDEHAM141026142313ER\r\n29234001835-181243620316DBSM79962A\r\n362610899 250141026 142303\r\n40)6))58) 5))\r\n11)6))39) 3))\r\n10000000100111111\r\n  34002\r\n  3400)12 02N3276)16.)\r\n  3400( 9 07(3276(16.(\r\n141026142313\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "14.10.2026 14:23 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "H1",
+      "msgno": "C25A",
+      "text": ".1/FLR/FR2610141422  34363106IR3    1,IR2,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "14.10.2026 14:24 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -24.2,
+      "label": "H1",
+      "msgno": "C26A",
+      "text": ".1/WRN/WN2610141424  345801006NAV GPS 2 FAULT"
     }
   ]
 }
