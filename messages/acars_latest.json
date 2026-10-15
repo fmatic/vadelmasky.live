@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 18:20 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-227G",
-      "freq": 131.825,
-      "level": -41.7,
-      "label": "16",
-      "msgno": "M57A",
-      "text": "POSA1N61129E 25942,LUS-11 ,181817,329,ADO-12 ,182446,-46, 26, 717,829"
-    },
-    {
-      "time": "15.10.2026 18:27 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-227G",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "H1",
-      "msgno": "O44A",
-      "text": "SS0340F_107\r\nB-227G  CKK206EHAMZSPD151026182726ER\r\n29633000829-1550168083168BSM79967A21\r\n6116101501 2701151026 182724\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  32999\r\n      ) 2 22N    )16.)\r"
-    },
-    {
-      "time": "15.10.2026 18:27 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-227G",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "H1",
-      "msgno": "O44B",
-      "text": "SS0340F_107\r\nB-227G  CKK206EHAMZSPD151026182726ER\r\n29633000829-1550168083168BSM79967A21\r\n6116101501 2701151026 182724\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  32999\r\n      ) 2 22N    )16.)\r\n      ) 0 02N    )16.)\r\n151026182726\r\n111111111111\r\n111111111111"
-    },
-    {
       "time": "15.10.2026 19:47 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -329,6 +296,39 @@
       "label": "10",
       "msgno": "M72A",
       "text": "POS152023, N 6187,E 2753,837,299,29539,  21,32999, 640,-165,-481,7"
+    },
+    {
+      "time": "15.10.2026 20:23 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -31.7,
+      "label": "H1",
+      "msgno": "C03A",
+      "text": ".1/WRN/WN2610152023  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "15.10.2026 20:24 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -29.7,
+      "label": "H1",
+      "msgno": "C04A",
+      "text": ".1/FLR/FR2610152023  34361606MMR1   1,IR2,IR1,IR3,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "15.10.2026 20:24 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -34.4,
+      "label": "SA",
+      "msgno": "S32A",
+      "text": "0LS202446V"
     }
   ]
 }
