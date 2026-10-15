@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">15.10.2026 02:20 UTC</div>
+        <div class="value">15.10.2026 02:25 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,30 +270,6 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CBJ621</div>
-                    <div class="meta">ICAO 781133 · REG B-8981 · TYPE A332</div>
-                </div>
-                <div class="alt-badge high">40000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>464.0 kt</b></div>
-                    <div><span>Track</span><b>237.13°</b></div>
-                    <div><span>Position</span><b>61.4510, 25.2432</b></div>
-                    <div><span>Last seen</span><b>15.10.2026 02:20 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-8981" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -310,11 +286,35 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>15.10.2026 02:20 UTC</b></div>
+                    <div><span>Last seen</span><b>15.10.2026 02:25 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-30CW" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CBJ621</div>
+                    <div class="meta">ICAO 781133 · REG B-8981 · TYPE A332</div>
+                </div>
+                <div class="alt-badge high">40000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>464.0 kt</b></div>
+                    <div><span>Track</span><b>237.13°</b></div>
+                    <div><span>Position</span><b>61.3877, 24.8336</b></div>
+                    <div><span>Last seen</span><b>15.10.2026 02:22 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-8981" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -668,7 +668,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "781133", "flight": "CBJ621", "lat": 61.450956, "lon": 25.243225, "alt": 40000, "speed": 464.0, "last_seen": "15.10.2026 02:20 UTC"}, {"hex": "781102", "flight": "CES219", "lat": 61.130816, "lon": 25.280151, "alt": 32000, "speed": 460.0, "last_seen": "15.10.2026 02:05 UTC"}];
+const aircraft = [{"hex": "781133", "flight": "CBJ621", "lat": 61.387691, "lon": 24.833577, "alt": 40000, "speed": 464.0, "last_seen": "15.10.2026 02:22 UTC"}, {"hex": "781102", "flight": "CES219", "lat": 61.130816, "lon": 25.280151, "alt": 32000, "speed": 460.0, "last_seen": "15.10.2026 02:05 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
