@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.10.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -24.2,
-      "label": "H1",
-      "msgno": "C26A",
-      "text": ".1/WRN/WN2610141424  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "14.10.2026 15:07 UTC",
-      "source": "ACARS",
-      "flight": "CZ2518",
-      "tail": "B-2075",
-      "freq": 131.825,
-      "level": -31.2,
-      "label": "Q0",
-      "msgno": "S02A",
-      "text": "No text"
-    },
-    {
       "time": "14.10.2026 16:52 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S03A",
       "text": "0EV030459V"
+    },
+    {
+      "time": "15.10.2026 03:05 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -37.8,
+      "label": "B9",
+      "msgno": "L02A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "15.10.2026 03:05 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "_d",
+      "msgno": "S04A",
+      "text": "No text"
     }
   ]
 }
