@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 03:05 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "_d",
-      "msgno": "S04A",
-      "text": "No text"
-    },
-    {
       "time": "15.10.2026 07:10 UTC",
       "source": "ACARS",
       "flight": "E40002",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "D06A",
       "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2OCT15,1058,0285/C1GMT,ACC/C21054,.0.75,FLT/C31052,.1.29,FLT/C41056,.1.26,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
+    },
+    {
+      "time": "15.10.2026 11:50 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -27.5,
+      "label": "SA",
+      "msgno": "S74A",
+      "text": "0LH115036VS"
     }
   ]
 }
