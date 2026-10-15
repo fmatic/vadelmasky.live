@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 07:10 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
-      "freq": 131.825,
-      "level": -24.8,
-      "label": "QS",
-      "msgno": "M06A",
-      "text": "LGSAEFJY05530008  "
-    },
-    {
-      "time": "15.10.2026 07:10 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
-      "freq": 131.725,
-      "level": -36.7,
-      "label": "QQ",
-      "msgno": "M07A",
-      "text": "EFJYLGKO0707"
-    },
-    {
-      "time": "15.10.2026 07:10 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
-      "freq": 131.825,
-      "level": -23.5,
-      "label": "QQ",
-      "msgno": "M07A",
-      "text": "EFJYLGKO0707"
-    },
-    {
       "time": "15.10.2026 07:11 UTC",
       "source": "ACARS",
       "flight": "E40002",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S86A",
       "text": "0LS151120V"
+    },
+    {
+      "time": "15.10.2026 16:51 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -26.0,
+      "label": "B9",
+      "msgno": "J21A",
+      "text": "/ESSA.TI2/000ESSAA63EA"
+    },
+    {
+      "time": "15.10.2026 16:51 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -23.1,
+      "label": "_d",
+      "msgno": "S93A",
+      "text": "No text"
+    },
+    {
+      "time": "15.10.2026 16:51 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -25.8,
+      "label": "11",
+      "msgno": "M74A",
+      "text": "POS\r\nCAS 254,LAT N 62.137,LON E 25.802,ALT 37998,FOB 38840,UTC 165155,PD ----.--,WD 290,WS   36,TAT - 33"
     }
   ]
 }
