@@ -5,17 +5,6 @@
       "source": "ACARS",
       "flight": "E40002",
       "tail": "SP-ESF",
-      "freq": 131.825,
-      "level": -17.6,
-      "label": "QP",
-      "msgno": "M01A",
-      "text": "EFJYLGKO0657002600018"
-    },
-    {
-      "time": "15.10.2026 07:10 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
       "freq": 131.725,
       "level": -27.9,
       "label": "QQ",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S08A",
       "text": "0LH132012VS"
+    },
+    {
+      "time": "15.10.2026 13:26 UTC",
+      "source": "ACARS",
+      "flight": "JD0669",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "H1",
+      "msgno": "D15A",
+      "text": "001016800401010734091\r\nR01/A33001,1,1\r\nC1,.B-32MG,26OCT15,13.26.07,ZUCK,ENGM,CBJ669    ,5000,810\r\nC2,001,06.0,000000,D1533RR07C0HND7,000,052,052\r\nC3,-31.7,37998,0.813,111,0.83,111,10,0,01,111,0.81,X\r\nC4,-32"
     }
   ]
 }
