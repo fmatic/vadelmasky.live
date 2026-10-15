@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 07:11 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
-      "freq": 131.825,
-      "level": -27.6,
-      "label": "5V",
-      "msgno": "M08A",
-      "text": "No text"
-    },
-    {
-      "time": "15.10.2026 11:30 UTC",
-      "source": "ACARS",
-      "flight": "N70612",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "_d",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
       "time": "15.10.2026 11:30 UTC",
       "source": "ACARS",
       "flight": "N70612",
@@ -329,6 +307,28 @@
       "label": "16",
       "msgno": "M57A",
       "text": "POSA1N61129E 25942,LUS-11 ,181817,329,ADO-12 ,182446,-46, 26, 717,829"
+    },
+    {
+      "time": "15.10.2026 18:27 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-227G",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "H1",
+      "msgno": "O44A",
+      "text": "SS0340F_107\r\nB-227G  CKK206EHAMZSPD151026182726ER\r\n29633000829-1550168083168BSM79967A21\r\n6116101501 2701151026 182724\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  32999\r\n      ) 2 22N    )16.)\r"
+    },
+    {
+      "time": "15.10.2026 18:27 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-227G",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "H1",
+      "msgno": "O44B",
+      "text": "SS0340F_107\r\nB-227G  CKK206EHAMZSPD151026182726ER\r\n29633000829-1550168083168BSM79967A21\r\n6116101501 2701151026 182724\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  32999\r\n      ) 2 22N    )16.)\r\n      ) 0 02N    )16.)\r\n151026182726\r\n111111111111\r\n111111111111"
     }
   ]
 }
