@@ -5,17 +5,6 @@
       "source": "ACARS",
       "flight": "E40002",
       "tail": "SP-ESF",
-      "freq": 131.725,
-      "level": -30.8,
-      "label": "QP",
-      "msgno": "M01A",
-      "text": "EFJYLGKO0657002600018"
-    },
-    {
-      "time": "15.10.2026 07:10 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
       "freq": 131.825,
       "level": -17.6,
       "label": "QP",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M97A",
       "text": "POS151315, N 6074,E 2554,---,286,34813,  46,34000, 362,-180,-482,7"
+    },
+    {
+      "time": "15.10.2026 13:20 UTC",
+      "source": "ACARS",
+      "flight": "JD0669",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "SA",
+      "msgno": "S08A",
+      "text": "0LH132012VS"
     }
   ]
 }
