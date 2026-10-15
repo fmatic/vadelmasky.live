@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 19:49 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -28.8,
-      "label": "H1",
-      "msgno": "O03A",
-      "text": "SB0122BA_B-2097  LEMDZSPD139\r\n 61759 0269641948 35002-5202910240H8NXW028042"
-    },
-    {
       "time": "15.10.2026 19:50 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C33A",
       "text": ".1/FLR/FR2610152121  34363106IR3    1,IR2,IR1,AFS,,,,MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "15.10.2026 21:25 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5903",
+      "freq": 131.725,
+      "level": -42.2,
+      "label": "H1",
+      "msgno": "C34A",
+      "text": ".1/WRN/WN2610152125  345800506NAV GPS 1 FAULT"
     }
   ]
 }
