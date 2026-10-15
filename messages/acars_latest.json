@@ -5,17 +5,6 @@
       "source": "ACARS",
       "flight": "E40002",
       "tail": "SP-ESF",
-      "freq": 131.725,
-      "level": -41.6,
-      "label": "5V",
-      "msgno": "M08A",
-      "text": "No text"
-    },
-    {
-      "time": "15.10.2026 07:11 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
       "freq": 131.825,
       "level": -27.6,
       "label": "5V",
@@ -329,6 +318,17 @@
       "label": "11",
       "msgno": "M74A",
       "text": "POS\r\nCAS 254,LAT N 62.137,LON E 25.802,ALT 37998,FOB 38840,UTC 165155,PD ----.--,WD 290,WS   36,TAT - 33"
+    },
+    {
+      "time": "15.10.2026 18:20 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-227G",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "16",
+      "msgno": "M57A",
+      "text": "POSA1N61129E 25942,LUS-11 ,181817,329,ADO-12 ,182446,-46, 26, 717,829"
     }
   ]
 }
