@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 11:30 UTC",
-      "source": "ACARS",
-      "flight": "N70612",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "_d",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
-      "time": "15.10.2026 11:32 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -30.7,
-      "label": "Q0",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
-      "time": "15.10.2026 11:32 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -29.5,
-      "label": "B9",
-      "msgno": "L14A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "15.10.2026 11:32 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "SA",
-      "msgno": "M22A",
-      "text": "0EV113206V"
-    },
-    {
-      "time": "15.10.2026 11:33 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "80",
-      "msgno": "M23B",
-      "text": "    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
-      "time": "15.10.2026 11:33 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -41.8,
-      "label": "80",
-      "msgno": "M25A",
-      "text": "1301 INRP   0285/15 EFHK/EFJY .OH-ATO\r\n/ON  1056/IN  1057/FOB 0013"
-    },
-    {
       "time": "15.10.2026 11:33 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +263,72 @@
       "label": "H1",
       "msgno": "O44B",
       "text": "SS0340F_107\r\nB-227G  CKK206EHAMZSPD151026182726ER\r\n29633000829-1550168083168BSM79967A21\r\n6116101501 2701151026 182724\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  32999\r\n      ) 2 22N    )16.)\r\n      ) 0 02N    )16.)\r\n151026182726\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "15.10.2026 19:47 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "_d",
+      "msgno": "S07A",
+      "text": "No text"
+    },
+    {
+      "time": "15.10.2026 19:47 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "SA",
+      "msgno": "S08A",
+      "text": "0LH194748VS"
+    },
+    {
+      "time": "15.10.2026 19:47 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "81",
+      "msgno": "M22A",
+      "text": "/PEKADCA.FLT1044\r\n"
+    },
+    {
+      "time": "15.10.2026 19:48 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "_d",
+      "msgno": "S09A",
+      "text": "No text"
+    },
+    {
+      "time": "15.10.2026 19:48 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "10",
+      "msgno": "M23A",
+      "text": "POS151946, N 6160,E 2639,828,282,29403,  26,34996, 673,-220,-522,7"
+    },
+    {
+      "time": "15.10.2026 19:49 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -28.8,
+      "label": "H1",
+      "msgno": "O03A",
+      "text": "SB0122BA_B-2097  LEMDZSPD139\r\n 61759 0269641948 35002-5202910240H8NXW028042"
     }
   ]
 }
