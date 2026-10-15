@@ -213,13 +213,13 @@
       "flight": "FIN1T",
       "reg": "OH-ATI",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 16025,
-      "speed": null,
-      "track": null,
+      "lat": 62.012238,
+      "lon": 25.799626,
+      "alt": 10450,
+      "speed": 294.0,
+      "track": 16.4,
       "seen_first": "2026-10-15T04:10:01.914983",
-      "last_seen": "2026-10-15T21:15:01.384524"
+      "last_seen": "2026-10-15T21:20:02.099734"
     },
     "4601f8": {
       "hex": "4601f8",
@@ -678,16 +678,16 @@
     },
     "7808e7": {
       "hex": "7808e7",
-      "flight": "CES289",
+      "flight": "CES290",
       "reg": "B-5903",
       "type": "A332",
       "lat": 62.045847,
       "lon": 25.428772,
-      "alt": 38000,
-      "speed": 426.0,
-      "track": 244.86,
+      "alt": 37000,
+      "speed": 494.0,
+      "track": 65.74,
       "seen_first": "2026-10-15T16:49:01.817470",
-      "last_seen": "2026-10-15T16:54:01.979173"
+      "last_seen": "2026-10-15T21:20:02.099734"
     },
     "782240": {
       "hex": "782240",
@@ -779,11 +779,24 @@
       "track": 63.63,
       "seen_first": "2026-10-15T20:10:01.652048",
       "last_seen": "2026-10-15T20:52:01.718914"
+    },
+    "ebca96": {
+      "hex": "ebca96",
+      "flight": "",
+      "reg": null,
+      "type": null,
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-15T21:19:01.672108",
+      "last_seen": "2026-10-15T21:19:01.672108"
     }
   },
   "summary": {
-    "total_unique_aircraft": 60,
-    "last_seen_live": 1,
-    "updated": "2026-10-15T21:15:01.384524"
+    "total_unique_aircraft": 61,
+    "last_seen_live": 2,
+    "updated": "2026-10-15T21:20:02.099734"
   }
 }
