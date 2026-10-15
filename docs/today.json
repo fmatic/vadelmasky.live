@@ -252,13 +252,13 @@
       "flight": "FIN8DP",
       "reg": "OH-LXI",
       "type": "A320",
-      "lat": 61.639399,
-      "lon": 25.296529,
-      "alt": 28500,
-      "speed": 414.0,
-      "track": 181.05,
+      "lat": 61.118992,
+      "lon": 25.151367,
+      "alt": 22225,
+      "speed": 385.9,
+      "track": 194.25,
       "seen_first": "2026-10-15T05:05:02.147660",
-      "last_seen": "2026-10-15T16:00:01.365014"
+      "last_seen": "2026-10-15T16:05:02.225199"
     },
     "461f31": {
       "hex": "461f31",
@@ -535,16 +535,16 @@
     },
     "461e18": {
       "hex": "461e18",
-      "flight": "",
+      "flight": "FIN9XG",
       "reg": "OH-LKI",
       "type": "E190",
-      "lat": null,
-      "lon": null,
-      "alt": null,
-      "speed": null,
-      "track": null,
+      "lat": 61.699591,
+      "lon": 25.319621,
+      "alt": 26850,
+      "speed": 437.3,
+      "track": 182.1,
       "seen_first": "2026-10-15T13:40:02.017205",
-      "last_seen": "2026-10-15T13:40:02.017205"
+      "last_seen": "2026-10-15T16:05:02.225199"
     },
     "781a4b": {
       "hex": "781a4b",
@@ -662,11 +662,24 @@
       "track": 188.38,
       "seen_first": "2026-10-15T15:18:01.631035",
       "last_seen": "2026-10-15T15:24:01.958727"
+    },
+    "781fc3": {
+      "hex": "781fc3",
+      "flight": "CAO1022",
+      "reg": "B-223T",
+      "type": "B77L",
+      "lat": 61.326847,
+      "lon": 25.606893,
+      "alt": 31000,
+      "speed": 498.0,
+      "track": 61.0,
+      "seen_first": "2026-10-15T16:04:01.914038",
+      "last_seen": "2026-10-15T16:05:02.225199"
     }
   },
   "summary": {
-    "total_unique_aircraft": 51,
-    "last_seen_live": 1,
-    "updated": "2026-10-15T16:00:01.365014"
+    "total_unique_aircraft": 52,
+    "last_seen_live": 3,
+    "updated": "2026-10-15T16:05:02.225199"
   }
 }
