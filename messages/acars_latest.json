@@ -5,28 +5,6 @@
       "source": "ACARS",
       "flight": "E40002",
       "tail": "SP-ESF",
-      "freq": 131.825,
-      "level": -14.5,
-      "label": "SA",
-      "msgno": "M03A",
-      "text": "0EV071015V/7.00,7.00,7.00,5.20,5.21/"
-    },
-    {
-      "time": "15.10.2026 07:10 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
-      "freq": 131.925,
-      "level": -37.5,
-      "label": "SA",
-      "msgno": "M03A",
-      "text": "0EV071015V/7.00,7.00,7.00,5.20,5.21/"
-    },
-    {
-      "time": "15.10.2026 07:10 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
       "freq": 131.725,
       "level": -28.7,
       "label": "52",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C26A",
       "text": ".1/FLR/FR2610151416  34363106IR3    1,IR2,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "15.10.2026 14:20 UTC",
+      "source": "ACARS",
+      "flight": "CA3056",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -29.3,
+      "label": "10",
+      "msgno": "M98A",
+      "text": "POS151420,N 61.916,E 27.677,2205,446750,,,39007,105080"
+    },
+    {
+      "time": "15.10.2026 14:24 UTC",
+      "source": "ACARS",
+      "flight": "CA3056",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "H1",
+      "msgno": "C27A",
+      "text": ".1/FLR/FR2610151422  34363106IR1    1,,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
