@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 11:33 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "80",
-      "msgno": "M26A",
-      "text": "1001 OUTRP  0286/15 EFJY/EFHK .OH-ATO\r\n/OUT 1122/FOB 0013/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "15.10.2026 11:33 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "80",
-      "msgno": "M27A",
-      "text": "1101 OFFRP  0286/15 EFJY/EFHK .OH-ATO\r\n/OUT 1122/OFF 1125/FOB 0013/ETA 1210"
-    },
-    {
-      "time": "15.10.2026 11:33 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "H1",
-      "msgno": "D06A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2OCT15,1058,0285/C1GMT,ACC/C21054,.0.75,FLT/C31052,.1.29,FLT/C41056,.1.26,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
-      "time": "15.10.2026 11:50 UTC",
-      "source": "ACARS",
-      "flight": "CA3040",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -27.5,
-      "label": "SA",
-      "msgno": "S74A",
-      "text": "0LH115036VS"
-    },
-    {
       "time": "15.10.2026 12:24 UTC",
       "source": "ACARS",
       "flight": "JL0047",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "O03A",
       "text": "SB0122BA_B-2097  LEMDZSPD139\r\n 61759 0269641948 35002-5202910240H8NXW028042"
+    },
+    {
+      "time": "15.10.2026 19:50 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "10",
+      "msgno": "M24A",
+      "text": "POS151955, N 6187,E 2753,831,284,30056,  21,35003, 668,-211,-518,7"
+    },
+    {
+      "time": "15.10.2026 19:50 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "_d",
+      "msgno": "S10A",
+      "text": "No text"
+    },
+    {
+      "time": "15.10.2026 19:50 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -31.4,
+      "label": "H1",
+      "msgno": "E57A",
+      "text": "LGB,R,1,L,208,205,1,L,,0.1,0.2,,,0.2,0.2,,,212,224,,,224,221,,,0.3,0.4,,,,0.2,0.2,,,214,222,,,223,220,,,0.2,0.2,,,0.1,0.1,,,209,218,,,211,214,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,32,32,ANTISKID,15,OCT,26,19,5"
+    },
+    {
+      "time": "15.10.2026 19:50 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "H1",
+      "msgno": "E57B",
+      "text": "LGB,R,1,L,208,205,1,L,,0.1,0.2,,,0.2,0.2,,,212,224,,,224,221,,,0.3,0.4,,,,0.2,0.2,,,214,222,,,223,220,,,0.2,0.2,,,0.1,0.1,,,209,218,,,211,214,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,32,32,ANTISKID,15,OCT,26,19,55,20"
     }
   ]
 }
