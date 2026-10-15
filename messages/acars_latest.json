@@ -6,28 +6,6 @@
       "flight": "E40002",
       "tail": "SP-ESF",
       "freq": 131.825,
-      "level": -18.2,
-      "label": "QQ",
-      "msgno": "M02A",
-      "text": "EFJYLGKO0707"
-    },
-    {
-      "time": "15.10.2026 07:10 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
-      "freq": 131.725,
-      "level": -27.3,
-      "label": "SA",
-      "msgno": "M03A",
-      "text": "0EV071015V/7.00,7.00,7.00,5.20,5.21/"
-    },
-    {
-      "time": "15.10.2026 07:10 UTC",
-      "source": "ACARS",
-      "flight": "E40002",
-      "tail": "SP-ESF",
-      "freq": 131.825,
       "level": -14.5,
       "label": "SA",
       "msgno": "M03A",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S51A",
       "text": "No text"
+    },
+    {
+      "time": "15.10.2026 14:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3056",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -27.3,
+      "label": "Q0",
+      "msgno": "S46A",
+      "text": "No text"
+    },
+    {
+      "time": "15.10.2026 14:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3056",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -26.7,
+      "label": "H1",
+      "msgno": "C26A",
+      "text": ".1/FLR/FR2610151416  34363106IR3    1,IR2,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
