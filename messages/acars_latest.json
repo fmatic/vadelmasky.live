@@ -1,94 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 15:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "SA",
-      "msgno": "S87A",
-      "text": "0EV152804VS/"
-    },
-    {
-      "time": "16.10.2026 15:26 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "H1",
-      "msgno": "D94A",
-      "text": "<ENG>   161026 153035 COPY NO: 162\r\n 87.8 102.5  710.6    79.71  97.28 14.71  5472 0.28  0.77   0.00  0.79\r\n 87.9 102.5  727.6    74.76  97.91 14.11  5592 0.18  1.19   0.00  1.22\r\n52989.0  0.00\r\n53991.3  0."
-    },
-    {
-      "time": "16.10.2026 15:26 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "H1",
-      "msgno": "D94B",
-      "text": "<ENG>   161026 153035 COPY NO: 162\r\n 87.8 102.5  710.6    79.71  97.28 14.71  5472 0.28  0.77   0.00  0.79\r\n 87.9 102.5  727.6    74.76  97.91 14.11  5592 0.18  1.19   0.00  1.22\r\n52989.0  0.00\r\n53991.3  0.00"
-    },
-    {
-      "time": "16.10.2026 15:27 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "Q0",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
-      "time": "16.10.2026 15:27 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "SA",
-      "msgno": "S95A",
-      "text": "0EV153159V/"
-    },
-    {
-      "time": "16.10.2026 15:27 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "SA",
-      "msgno": "S95A",
-      "text": "0EV153159V/"
-    },
-    {
-      "time": "16.10.2026 15:27 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "H1",
-      "msgno": "D95A",
-      "text": "<723>EEG\r\n9  B-208ADKH1667   ER 221161026153153ZHCCLIMC29805 10\r\n 380022709850427834-284  -711DKH46ACMF0008\r\n 61458  27479-11609NO GROUND LINK \r\n  8566    47 10154\r\n  6977     1  8844\r\n    60130  10918    6"
-    },
-    {
-      "time": "16.10.2026 15:27 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "H1",
-      "msgno": "D95B",
-      "text": "4447\r\n   0   000010 298050\r\n131026 183651131026 045944\r\n131026 043623131026 034947\r\n131026 031607121026 042536\r\n121026 031828111026 181936\r\n111026 144216111026 045034\r\n000000000001000000000000000000\r\n000000"
-    },
-    {
       "time": "16.10.2026 15:27 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +241,94 @@
       "label": "11",
       "msgno": "M14A",
       "text": "POS\r\nCAS 273,LAT N 61.443,LON E 26.327,ALT 35001,FOB 130960,UTC 180954,PD ----.--,WD 257,WS   82,TAT - 23"
+    },
+    {
+      "time": "16.10.2026 18:10 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5975",
+      "freq": 131.725,
+      "level": -30.7,
+      "label": "SA",
+      "msgno": "S24A",
+      "text": "0LS181042VH"
+    },
+    {
+      "time": "16.10.2026 18:12 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5975",
+      "freq": 131.725,
+      "level": -27.5,
+      "label": "SA",
+      "msgno": "S27A",
+      "text": "0LH181234VS"
+    },
+    {
+      "time": "16.10.2026 18:13 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "H1",
+      "msgno": "O10A",
+      "text": "SB0122BA_B-2095  EHAMZSPD154\r\n 61839 0273681812 30998-430250083010NXW012014"
+    },
+    {
+      "time": "16.10.2026 18:13 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -34.1,
+      "label": "_d",
+      "msgno": "S63A",
+      "text": "No text"
+    },
+    {
+      "time": "16.10.2026 18:13 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5975",
+      "freq": 131.725,
+      "level": -28.2,
+      "label": "11",
+      "msgno": "M15A",
+      "text": "POS\r\nCAS 273,LAT N 61.739,LON E 27.434,ALT 35002,FOB 130320,UTC 181355,PD ----.--,WD 258,WS   82,TAT - 24"
+    },
+    {
+      "time": "16.10.2026 18:14 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5975",
+      "freq": 131.725,
+      "level": -29.0,
+      "label": "H1",
+      "msgno": "C51A",
+      "text": ".1/WRN/WN2610161814  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "16.10.2026 18:14 UTC",
+      "source": "ACARS",
+      "flight": "CA1040",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "E88A",
+      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,196,195,52,52,49,49,160,159,59,73,85,85,OPEN,CLOSED,OPEN,CLOSED,CRUISE,4000,0,0,AUTO,8.5,0.11,0.22,L,,,,16,OCT,26,18,14,07"
+    },
+    {
+      "time": "16.10.2026 18:15 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5975",
+      "freq": 131.725,
+      "level": -27.3,
+      "label": "H1",
+      "msgno": "C52A",
+      "text": ".1/FLR/FR2610161813  34361606MMR2   1,IR1,IR3,IR2,AFS,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
