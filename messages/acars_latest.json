@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 02:30 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "5V",
-      "msgno": "S39A",
-      "text": "No text"
-    },
-    {
-      "time": "16.10.2026 02:31 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "Q0",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
       "time": "16.10.2026 02:33 UTC",
       "source": "ACARS",
       "flight": "MU0201",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S41A",
       "text": "No text"
+    },
+    {
+      "time": "16.10.2026 05:54 UTC",
+      "source": "ACARS",
+      "flight": "CK0235",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -40.5,
+      "label": "H1",
+      "msgno": "D17C",
+      "text": "   0)   0)\r\n00270380440003251300470001044\r\n0019034046000  91670480001046\r\n 67 70158  2 5   ) 63   ) 6601\r\n 68 72156  2 4   ) 64   ) 6611\r\n 6500 6490 6490 6465\r\n 6590 6510 6370 6520\r\n18525044908490021  1776D"
+    },
+    {
+      "time": "16.10.2026 05:54 UTC",
+      "source": "ACARS",
+      "flight": "CK0235",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -41.4,
+      "label": "H1",
+      "msgno": "D17D",
+      "text": "030FA8 -1331 30\r\n18550044908490021  1066D030FA8 -1269 33\r\n11111011111101\r\n11111011111101"
     }
   ]
 }
