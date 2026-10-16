@@ -421,13 +421,13 @@
       "flight": "FIN5NB",
       "reg": "OH-ATM",
       "type": "AT75",
-      "lat": 61.978672,
-      "lon": 26.13383,
+      "lat": 61.672119,
+      "lon": 25.867898,
       "alt": 16000,
-      "speed": 240.3,
-      "track": 202.51,
+      "speed": 239.9,
+      "track": 202.29,
       "seen_first": "2026-10-16T06:59:01.213151",
-      "last_seen": "2026-10-16T09:50:01.486162"
+      "last_seen": "2026-10-16T09:55:01.384941"
     },
     "461b44": {
       "hex": "461b44",
@@ -441,11 +441,24 @@
       "track": 350.26,
       "seen_first": "2026-10-16T09:32:01.470593",
       "last_seen": "2026-10-16T09:45:01.443072"
+    },
+    "4ac96e": {
+      "hex": "4ac96e",
+      "flight": "",
+      "reg": "SE-RKN",
+      "type": "G280",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-16T09:52:01.584509",
+      "last_seen": "2026-10-16T09:52:01.584509"
     }
   },
   "summary": {
-    "total_unique_aircraft": 34,
+    "total_unique_aircraft": 35,
     "last_seen_live": 1,
-    "updated": "2026-10-16T09:50:01.486162"
+    "updated": "2026-10-16T09:55:01.384941"
   }
 }
