@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 21:25 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5903",
-      "freq": 131.725,
-      "level": -42.2,
-      "label": "H1",
-      "msgno": "C34A",
-      "text": ".1/WRN/WN2610152125  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "15.10.2026 21:52 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "Q0",
-      "msgno": "M69A",
-      "text": "No text"
-    },
-    {
-      "time": "15.10.2026 21:52 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "SA",
-      "msgno": "M70A",
-      "text": "0EV215144V"
-    },
-    {
-      "time": "15.10.2026 21:52 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "SA",
-      "msgno": "M70A",
-      "text": "0EV215144V"
-    },
-    {
       "time": "15.10.2026 21:52 UTC",
       "source": "ACARS",
       "flight": "N70379",
@@ -329,6 +285,50 @@
       "label": "18",
       "msgno": "M29A",
       "text": "POX,    CSN451,01JUN46,051633,ZSPD,EHAM,N061.48,E0027.26,339, 278,829,-125.6, -95.9,058,-51.1,073633, 27880,"
+    },
+    {
+      "time": "16.10.2026 05:21 UTC",
+      "source": "ACARS",
+      "flight": "CZ0451",
+      "tail": "B-20EN",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "18",
+      "msgno": "M30A",
+      "text": "POX,    CSN451,01JUN46,052133,ZSPD,EHAM,N061.19,E0026.17,339, 271,832,-125.4, -94.5,060,-51.1,073633, 27760,"
+    },
+    {
+      "time": "16.10.2026 05:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2693",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "B9",
+      "msgno": "L70A",
+      "text": "/EHAM.TI2/046EHAMA421B"
+    },
+    {
+      "time": "16.10.2026 05:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2693",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "_d",
+      "msgno": "S20A",
+      "text": "No text"
+    },
+    {
+      "time": "16.10.2026 05:24 UTC",
+      "source": "ACARS",
+      "flight": "CZ2693",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "_d",
+      "msgno": "S21A",
+      "text": "No text"
     }
   ]
 }

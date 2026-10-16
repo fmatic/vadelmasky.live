@@ -327,21 +327,47 @@
     },
     "781941": {
       "hex": "781941",
-      "flight": "CZ0451",
+      "flight": "CSN451",
       "reg": "B-20EN",
       "type": "B77L",
-      "lat": 61.008,
-      "lon": 2.121,
-      "alt": null,
+      "lat": 61.003167,
+      "lon": 2.102833,
+      "alt": 34000,
       "speed": null,
       "track": null,
       "seen_first": "2026-10-16T05:17:02.151357",
-      "last_seen": "2026-10-16T05:20:01.912742"
+      "last_seen": "2026-10-16T05:25:02.047202"
+    },
+    "461f6d": {
+      "hex": "461f6d",
+      "flight": "FIN434",
+      "reg": "OH-LXL",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": 30550,
+      "speed": 398.0,
+      "track": 187.73,
+      "seen_first": "2026-10-16T05:22:01.252842",
+      "last_seen": "2026-10-16T05:25:02.047202"
+    },
+    "467891": {
+      "hex": "467891",
+      "flight": "",
+      "reg": "PI-02",
+      "type": "PC12",
+      "lat": null,
+      "lon": null,
+      "alt": 3100,
+      "speed": 268.3,
+      "track": 21.88,
+      "seen_first": "2026-10-16T05:23:01.483253",
+      "last_seen": "2026-10-16T05:23:01.483253"
     }
   },
   "summary": {
-    "total_unique_aircraft": 26,
+    "total_unique_aircraft": 28,
     "last_seen_live": 2,
-    "updated": "2026-10-16T05:20:01.912742"
+    "updated": "2026-10-16T05:25:02.047202"
   }
 }
