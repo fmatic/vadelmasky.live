@@ -80,16 +80,16 @@
     },
     "781602": {
       "hex": "781602",
-      "flight": "CES249",
+      "flight": "CES250",
       "reg": "B-305X",
       "type": "A359",
-      "lat": null,
-      "lon": null,
-      "alt": 38000,
-      "speed": null,
-      "track": null,
+      "lat": 61.108978,
+      "lon": 25.261296,
+      "alt": 37000,
+      "speed": 553.1,
+      "track": 58.98,
       "seen_first": "2026-10-16T02:05:01.274713",
-      "last_seen": "2026-10-16T02:15:01.346393"
+      "last_seen": "2026-10-16T12:30:02.148004"
     },
     "461f55": {
       "hex": "461f55",
@@ -119,16 +119,16 @@
     },
     "7817fb": {
       "hex": "7817fb",
-      "flight": "DKH1661",
+      "flight": "DKH1662",
       "reg": "B-20DT",
       "type": "B789",
-      "lat": null,
-      "lon": null,
-      "alt": 37975,
-      "speed": 400.0,
-      "track": 245.21,
+      "lat": 61.505282,
+      "lon": 25.428365,
+      "alt": 35000,
+      "speed": 568.0,
+      "track": 64.86,
       "seen_first": "2026-10-16T02:24:01.696620",
-      "last_seen": "2026-10-16T02:30:01.615713"
+      "last_seen": "2026-10-16T12:30:02.148004"
     },
     "782272": {
       "hex": "782272",
@@ -571,11 +571,24 @@
       "track": 83.54,
       "seen_first": "2026-10-16T12:16:01.221126",
       "last_seen": "2026-10-16T12:20:01.408127"
+    },
+    "461f69": {
+      "hex": "461f69",
+      "flight": "",
+      "reg": "OH-LXH",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": 36775,
+      "speed": 431.2,
+      "track": 181.59,
+      "seen_first": "2026-10-16T12:29:01.835621",
+      "last_seen": "2026-10-16T12:30:02.148004"
     }
   },
   "summary": {
-    "total_unique_aircraft": 44,
-    "last_seen_live": 0,
-    "updated": "2026-10-16T12:25:01.334181"
+    "total_unique_aircraft": 45,
+    "last_seen_live": 3,
+    "updated": "2026-10-16T12:30:02.148004"
   }
 }
