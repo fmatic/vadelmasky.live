@@ -509,21 +509,47 @@
     },
     "4601f8": {
       "hex": "4601f8",
-      "flight": "",
+      "flight": "FIN64A",
       "reg": "OH-ATK",
       "type": "AT75",
+      "lat": 61.857589,
+      "lon": 25.306905,
+      "alt": 16025,
+      "speed": 254.1,
+      "track": 181.13,
+      "seen_first": "2026-10-16T11:29:01.482300",
+      "last_seen": "2026-10-16T11:35:01.368122"
+    },
+    "7819d6": {
+      "hex": "7819d6",
+      "flight": "CES213",
+      "reg": "B-220D",
+      "type": "B789",
+      "lat": 62.118561,
+      "lon": 25.849508,
+      "alt": 38000,
+      "speed": 394.2,
+      "track": 245.26,
+      "seen_first": "2026-10-16T11:31:01.313761",
+      "last_seen": "2026-10-16T11:35:01.368122"
+    },
+    "780aeb": {
+      "hex": "780aeb",
+      "flight": "",
+      "reg": "B-2041",
+      "type": "B77L",
       "lat": null,
       "lon": null,
       "alt": null,
       "speed": null,
       "track": null,
-      "seen_first": "2026-10-16T11:29:01.482300",
-      "last_seen": "2026-10-16T11:30:01.778145"
+      "seen_first": "2026-10-16T11:32:01.548116",
+      "last_seen": "2026-10-16T11:34:02.059346"
     }
   },
   "summary": {
-    "total_unique_aircraft": 40,
-    "last_seen_live": 1,
-    "updated": "2026-10-16T11:30:01.778145"
+    "total_unique_aircraft": 42,
+    "last_seen_live": 2,
+    "updated": "2026-10-16T11:35:01.368122"
   }
 }
