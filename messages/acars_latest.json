@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 22:54 UTC",
-      "source": "ACARS",
-      "flight": "N40884",
-      "tail": "RA73319",
-      "freq": 131.725,
-      "level": -41.5,
-      "label": "_d",
-      "msgno": "S68A",
-      "text": "No text"
-    },
-    {
       "time": "16.10.2026 02:20 UTC",
       "source": "ACARS",
       "flight": "MU0201",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O90A",
       "text": "SB0122BA_B-2042  ZGGGEHAM359\r\n 61291 0264030532 32006-460256055010IH-011015"
+    },
+    {
+      "time": "16.10.2026 05:35 UTC",
+      "source": "ACARS",
+      "flight": "CZ2693",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -38.2,
+      "label": "_d",
+      "msgno": "S25A",
+      "text": "No text"
     }
   ]
 }
