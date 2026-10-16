@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 02:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "Q0",
-      "msgno": "S36A",
-      "text": "No text"
-    },
-    {
-      "time": "16.10.2026 02:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -19.6,
-      "label": "Q0",
-      "msgno": "S37A",
-      "text": "No text"
-    },
-    {
-      "time": "16.10.2026 02:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "SA",
-      "msgno": "S38A",
-      "text": "0EV022844VS/"
-    },
-    {
-      "time": "16.10.2026 02:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -20.2,
-      "label": "11",
-      "msgno": "M59A",
-      "text": "POS\r\nCAS 267,LAT N 62.180,LON E 26.137,ALT 38001,FOB 58863,UTC 022848,PD 245.3,WD 269.0,WS   80.7,TAT -29.7"
-    },
-    {
       "time": "16.10.2026 02:30 UTC",
       "source": "ACARS",
       "flight": "MU0201",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "O06A",
       "text": "SS0340F_490\r\nB-223A  CKK235ZUCKEDDF161026054424ER\r\n31230000820 -975576763168BSM79967A21\r\n4686101769 2701161026 054418\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30001\r\n      ) 0 02N    )16.)\r"
+    },
+    {
+      "time": "16.10.2026 05:48 UTC",
+      "source": "ACARS",
+      "flight": "CK0235",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -39.0,
+      "label": "16",
+      "msgno": "M76A",
+      "text": "POSA1N61074E 26936,KOMEK  ,052913,300,EVONA  ,063154,-41, 46, 287,816"
+    },
+    {
+      "time": "16.10.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "CK0235",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -39.8,
+      "label": "_d",
+      "msgno": "S39A",
+      "text": "No text"
+    },
+    {
+      "time": "16.10.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "CK0235",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -39.4,
+      "label": "_d",
+      "msgno": "S40A",
+      "text": "No text"
+    },
+    {
+      "time": "16.10.2026 05:49 UTC",
+      "source": "ACARS",
+      "flight": "CK0235",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -41.8,
+      "label": "_d",
+      "msgno": "S41A",
+      "text": "No text"
     }
   ]
 }
