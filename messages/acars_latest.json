@@ -6,17 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATH",
       "freq": 131.825,
-      "level": -30.1,
-      "label": "H1",
-      "msgno": "D06A",
-      "text": "A25/ATR7250025,1,1/A1PW127M,ENGINE,CYCLES,REPORT/B1DATE,GMT/B2OCT16,1056/C1TOTAL,LIFE,COUNT/C2ENGINE,1,S.N/C3ESN1,ED1499/C4LP,IMPELLER,08006/C5HP,IMPELLER,08006/C6HP,FRONT,COVER,09144/C7HP,DISK,07960/C8HP,R"
-    },
-    {
-      "time": "16.10.2026 11:07 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.825,
       "level": -21.4,
       "label": "H1",
       "msgno": "D06B",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S54A",
       "text": "No text"
+    },
+    {
+      "time": "16.10.2026 15:09 UTC",
+      "source": "ACARS",
+      "flight": "CZ5202",
+      "tail": "B-20EN",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "H1",
+      "msgno": "O09A",
+      "text": "SS0340C_ 53\r\nB-20EN  CSN520ENGMZSPD161026150932ER\r\n31830999850 -950130653107BCG00A31A\r\n367620615 250161026 150931\r\n360620611 250\r\n360620611 250\r\n10000000000000001\r\n  30999\r\n  3133515 73N  24516.)\r\n  3133415"
     }
   ]
 }
