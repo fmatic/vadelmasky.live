@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 12:57 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227J",
-      "freq": 131.825,
-      "level": -37.7,
-      "label": "5V",
-      "msgno": "S48A",
-      "text": "No text"
-    },
-    {
       "time": "16.10.2026 12:59 UTC",
       "source": "ACARS",
       "flight": "MU0202",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S50A",
       "text": "No text"
+    },
+    {
+      "time": "16.10.2026 17:47 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "10",
+      "msgno": "M04A",
+      "text": "POS141747,N 61.717,E 26.810,0129,544875,,,37003,101680"
     }
   ]
 }
