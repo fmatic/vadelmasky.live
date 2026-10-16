@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 15:32 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "5V",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
-      "time": "16.10.2026 15:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -31.4,
-      "label": "Q0",
-      "msgno": "S10A",
-      "text": "No text"
-    },
-    {
       "time": "16.10.2026 15:33 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O43A",
       "text": "SB0122BA_B-223F  EHAMZSPD475\r\n 61544 0272311900 32998-480246072090W/X013022"
+    },
+    {
+      "time": "16.10.2026 19:30 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "Q0",
+      "msgno": "S41A",
+      "text": "No text"
+    },
+    {
+      "time": "16.10.2026 19:34 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -26.8,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/WRN/WN2610161934  345801006NAV GPS 2 FAULT"
     }
   ]
 }
