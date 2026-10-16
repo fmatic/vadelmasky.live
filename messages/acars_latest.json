@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 15:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "Q0",
-      "msgno": "S05A",
-      "text": "No text"
-    },
-    {
-      "time": "16.10.2026 15:31 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "Q0",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
-      "time": "16.10.2026 15:32 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-208A",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "SA",
-      "msgno": "S07A",
-      "text": "0EV153638VS/"
-    },
-    {
       "time": "16.10.2026 15:32 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O66A",
       "text": "SB0122BA_B-2041  EGPKZGGG204\r\n 61721 0260961850 34998-510254084010YY,009012"
+    },
+    {
+      "time": "16.10.2026 19:00 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-223F",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "H1",
+      "msgno": "O42A",
+      "text": "SS0340F_490\r\nB-223F  CKK206EHAMZSPD161026190026ER\r\n29233000821-1825153653168BSM79967A21\r\n5356101199 2701161026 190024\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33000\r\n      ) 1 12N    )16.)\r"
+    },
+    {
+      "time": "16.10.2026 19:00 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-223F",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "H1",
+      "msgno": "O42B",
+      "text": "SS0340F_490\r\nB-223F  CKK206EHAMZSPD161026190026ER\r\n29233000821-1825153653168BSM79967A21\r\n5356101199 2701161026 190024\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33000\r\n      ) 1 12N    )16.)\r\n      ) 0 02N    )16.)\r\n161026190026\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "16.10.2026 19:01 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-223F",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "H1",
+      "msgno": "O43A",
+      "text": "SB0122BA_B-223F  EHAMZSPD475\r\n 61544 0272311900 32998-480246072090W/X013022"
     }
   ]
 }
