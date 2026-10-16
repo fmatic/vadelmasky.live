@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 10:35 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -25.4,
-      "label": "Q0",
-      "msgno": "S60A",
-      "text": "No text"
-    },
-    {
       "time": "16.10.2026 10:36 UTC",
       "source": "ACARS",
       "flight": "N70285",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S64A",
       "text": "No text"
+    },
+    {
+      "time": "16.10.2026 11:35 UTC",
+      "source": "ACARS",
+      "flight": "CZ2515",
+      "tail": "B-2041",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "H1",
+      "msgno": "O45A",
+      "text": "SB0122BA_B-2041  ZGGGEGPK185\r\n 61264 0262981135 34001-50026207409020;016031"
     }
   ]
 }
