@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.10.2026 20:18 UTC",
-      "source": "ACARS",
-      "flight": "CA1044",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "10",
-      "msgno": "M72A",
-      "text": "POS152023, N 6187,E 2753,837,299,29539,  21,32999, 640,-165,-481,7"
-    },
-    {
-      "time": "15.10.2026 20:23 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -31.7,
-      "label": "H1",
-      "msgno": "C03A",
-      "text": ".1/WRN/WN2610152023  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "15.10.2026 20:24 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -328,6 +306,28 @@
       "level": -43.9,
       "label": "5V",
       "msgno": "S35A",
+      "text": "No text"
+    },
+    {
+      "time": "16.10.2026 02:53 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "Q0",
+      "msgno": "S00A",
+      "text": "No text"
+    },
+    {
+      "time": "16.10.2026 02:53 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATI",
+      "freq": 131.825,
+      "level": -29.2,
+      "label": "Q0",
+      "msgno": "S00A",
       "text": "No text"
     }
   ]
