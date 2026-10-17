@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 18:12 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5975",
-      "freq": 131.725,
-      "level": -27.5,
-      "label": "SA",
-      "msgno": "S27A",
-      "text": "0LH181234VS"
-    },
-    {
-      "time": "16.10.2026 18:13 UTC",
-      "source": "ACARS",
-      "flight": "CA1040",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "H1",
-      "msgno": "O10A",
-      "text": "SB0122BA_B-2095  EHAMZSPD154\r\n 61839 0273681812 30998-430250083010NXW012014"
-    },
-    {
       "time": "16.10.2026 18:13 UTC",
       "source": "ACARS",
       "flight": "CA1040",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M79A",
       "text": "POS171324,N 61.574,E 26.207,2044,569250,,,35005,103400"
+    },
+    {
+      "time": "17.10.2026 14:01 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "16",
+      "msgno": "M43A",
+      "text": "POSA1N62019E 27578,DODAM  ,132620,329,KOKAT  ,141305,-47, 97, 674,829"
+    },
+    {
+      "time": "17.10.2026 14:03 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "10",
+      "msgno": "M92A",
+      "text": "POS171403,N 61.347,E 25.667,2134,546125,,,37003,105080"
     }
   ]
 }
