@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">400.0 kt</div>
+        <div class="value">398.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">17.10.2026 01:50 UTC</div>
+        <div class="value">17.10.2026 01:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,30 +270,6 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CES553</div>
-                    <div class="meta">ICAO 780F3F · REG B-7367 · TYPE B77W</div>
-                </div>
-                <div class="alt-badge high">34000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>394.0 kt</b></div>
-                    <div><span>Track</span><b>236.6°</b></div>
-                    <div><span>Position</span><b>61.5636, 25.4724</b></div>
-                    <div><span>Last seen</span><b>17.10.2026 01:50 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-7367" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -307,10 +283,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>400.0 kt</b></div>
-                    <div><span>Track</span><b>232.91°</b></div>
+                    <div><span>Speed</span><b>398.0 kt</b></div>
+                    <div><span>Track</span><b>232.21°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>17.10.2026 01:50 UTC</b></div>
+                    <div><span>Last seen</span><b>17.10.2026 01:55 UTC</b></div>
                 </div>
             </div>
 
@@ -322,10 +298,10 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">FIN80</div>
                     <div class="meta">ICAO 461F59 · REG OH-LWR · TYPE A359</div>
                 </div>
-                <div class="alt-badge unknown">-</div>
+                <div class="alt-badge mid">23050 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -334,11 +310,35 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>17.10.2026 01:50 UTC</b></div>
+                    <div><span>Last seen</span><b>17.10.2026 01:55 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LWR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES553</div>
+                    <div class="meta">ICAO 780F3F · REG B-7367 · TYPE B77W</div>
+                </div>
+                <div class="alt-badge high">34000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>396.0 kt</b></div>
+                    <div><span>Track</span><b>236.78°</b></div>
+                    <div><span>Position</span><b>61.5636, 25.4724</b></div>
+                    <div><span>Last seen</span><b>17.10.2026 01:51 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-7367" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -665,7 +665,7 @@ B-223F  CKK206EHAMZSPD161026190026ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "780F3F", "flight": "CES553", "lat": 61.563612, "lon": 25.472412, "alt": 34000, "speed": 394.0, "last_seen": "17.10.2026 01:50 UTC"}];
+const aircraft = [{"hex": "780F3F", "flight": "CES553", "lat": 61.563612, "lon": 25.472412, "alt": 34000, "speed": 396.0, "last_seen": "17.10.2026 01:51 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
