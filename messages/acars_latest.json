@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.10.2026 11:13 UTC",
-      "source": "ACARS",
-      "flight": "JL0047",
-      "tail": "JA742J",
-      "freq": 131.725,
-      "level": -36.6,
-      "label": "H1",
-      "msgno": "O11A",
-      "text": "SB0022BA_328JA742J  JAL4TA 343161026 230207RJTTEFHK316DBSM79962 9655120\r\n 170 599497 421\r\n 154 558548 413\r\nTA  318 3) 215 214161026 230913OCOCCRR\r\nDC36902273-212-521171026 111217OCOCCRO"
-    },
-    {
       "time": "17.10.2026 13:24 UTC",
       "source": "ACARS",
       "flight": "CA3120",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M31A",
       "text": "POSA1N61578E 26891,ADO-07 ,183539,330,ASP-08 ,184350,-48, 94, 689,828"
+    },
+    {
+      "time": "17.10.2026 21:20 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-304A",
+      "freq": 131.725,
+      "level": -34.4,
+      "label": "11",
+      "msgno": "M02A",
+      "text": "POS\r\nCAS 273,LAT N 61.643,LON E 25.947,ALT 34998,FOB 130200,UTC 212003,PD ----.--,WD 249,WS   65,TAT - 19"
     }
   ]
 }
