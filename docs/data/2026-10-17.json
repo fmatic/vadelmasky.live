@@ -356,18 +356,44 @@
       "flight": "CAO3120",
       "reg": "B-6113",
       "type": "A332",
-      "lat": 61.601599,
-      "lon": 26.377665,
+      "lat": 60.11586,
+      "lon": 31.386614,
       "alt": 35000,
-      "speed": 293.8,
-      "track": 63.09,
+      "speed": 65.2,
+      "track": 85.6,
       "seen_first": "2026-10-17T13:21:01.474077",
-      "last_seen": "2026-10-17T13:25:01.828197"
+      "last_seen": "2026-10-17T13:28:02.056276"
+    },
+    "461f31": {
+      "hex": "461f31",
+      "flight": "FIN4CL",
+      "reg": "OH-LVD",
+      "type": "A319",
+      "lat": 61.813614,
+      "lon": 25.267574,
+      "alt": 33925,
+      "speed": 472.9,
+      "track": 3.52,
+      "seen_first": "2026-10-17T13:26:01.526169",
+      "last_seen": "2026-10-17T13:28:02.056276"
+    },
+    "7812a4": {
+      "hex": "7812a4",
+      "flight": "",
+      "reg": "B-1020",
+      "type": "A333",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-17T13:30:01.666225",
+      "last_seen": "2026-10-17T13:30:01.666225"
     }
   },
   "summary": {
-    "total_unique_aircraft": 28,
+    "total_unique_aircraft": 30,
     "last_seen_live": 1,
-    "updated": "2026-10-17T13:25:01.828197"
+    "updated": "2026-10-17T13:30:01.666225"
   }
 }
