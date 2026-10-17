@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 18:15 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5975",
-      "freq": 131.725,
-      "level": -27.3,
-      "label": "H1",
-      "msgno": "C52A",
-      "text": ".1/FLR/FR2610161813  34361606MMR2   1,IR1,IR3,IR2,AFS,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
-      "time": "16.10.2026 18:15 UTC",
-      "source": "ACARS",
-      "flight": "CA1040",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -40.2,
-      "label": "H1",
-      "msgno": "E90B",
-      "text": "98,,1376,,42,,1403,,98,,1366,,42,,1404,,82,,1387,,46,,1403,,82,,1381,,47,,1404,,84,,1387,,40,,1404,,84,,1381,,40,,1404,,77,,1384,,42,,1404,,77,,1381,,42,,1404,,72,,1382,,39,,1404,,72,,1374,,39,,1404,,66,,13"
-    },
-    {
-      "time": "16.10.2026 18:16 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5975",
-      "freq": 131.725,
-      "level": -34.0,
-      "label": "H1",
-      "msgno": "C53A",
-      "text": ".1/WRN/WN2610161816  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "16.10.2026 18:18 UTC",
       "source": "ACARS",
       "flight": "MU0210",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S94A",
       "text": "0LH144812VS"
+    },
+    {
+      "time": "17.10.2026 16:21 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "SA",
+      "msgno": "S61A",
+      "text": "0EV162059V"
+    },
+    {
+      "time": "17.10.2026 16:21 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -30.0,
+      "label": "B9",
+      "msgno": "L28A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "17.10.2026 16:21 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "_d",
+      "msgno": "S63A",
+      "text": "No text"
     }
   ]
 }
