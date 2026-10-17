@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.10.2026 11:08 UTC",
-      "source": "ACARS",
-      "flight": "MU0209",
-      "tail": "B-8226",
-      "freq": 131.725,
-      "level": -24.9,
-      "label": "SA",
-      "msgno": "S03A",
-      "text": "0LS110836VH"
-    },
-    {
       "time": "17.10.2026 11:12 UTC",
       "source": "ACARS",
       "flight": "JL0047",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S76A",
       "text": "No text"
+    },
+    {
+      "time": "17.10.2026 16:55 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-304A",
+      "freq": 131.725,
+      "level": -30.1,
+      "label": "11",
+      "msgno": "M80A",
+      "text": "POS\r\nCAS 257,LAT N 61.750,LON E 25.968,ALT 38002,FOB 40520,UTC 165552,PD ----.--,WD 252,WS   74,TAT - 24"
     }
   ]
 }
