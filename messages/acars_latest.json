@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 18:14 UTC",
-      "source": "ACARS",
-      "flight": "CA1040",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "H1",
-      "msgno": "E88A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,196,195,52,52,49,49,160,159,59,73,85,85,OPEN,CLOSED,OPEN,CLOSED,CRUISE,4000,0,0,AUTO,8.5,0.11,0.22,L,,,,16,OCT,26,18,14,07"
-    },
-    {
       "time": "16.10.2026 18:15 UTC",
       "source": "ACARS",
       "flight": "MU0210",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C31A",
       "text": ".1/FLR/FR2610171443  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "17.10.2026 14:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -30.3,
+      "label": "SA",
+      "msgno": "S94A",
+      "text": "0LH144812VS"
     }
   ]
 }
