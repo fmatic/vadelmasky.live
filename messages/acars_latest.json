@@ -3,17 +3,6 @@
     {
       "time": "16.10.2026 18:14 UTC",
       "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5975",
-      "freq": 131.725,
-      "level": -29.0,
-      "label": "H1",
-      "msgno": "C51A",
-      "text": ".1/WRN/WN2610161814  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "16.10.2026 18:14 UTC",
-      "source": "ACARS",
       "flight": "CA1040",
       "tail": "B-2095",
       "freq": 131.825,
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S28A",
       "text": "No text"
+    },
+    {
+      "time": "17.10.2026 14:44 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -28.0,
+      "label": "H1",
+      "msgno": "C31A",
+      "text": ".1/FLR/FR2610171443  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
