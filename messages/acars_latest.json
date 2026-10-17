@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.10.2026 17:37 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "H1",
-      "msgno": "E31C",
-      "text": "0280,6D03,6D03,6D03,6D03,001C,001C,001C,001C,2200,2200,2400,2400,0882,0882,0882,0882,0000,0000,0000,0000,0400,0400,0400,0400,0FA8,0FA8,0FA8,0FA8,,16,OCT,26,17,37,41"
-    },
-    {
       "time": "16.10.2026 17:39 UTC",
       "source": "ACARS",
       "flight": "CK0216",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S02A",
       "text": "No text"
+    },
+    {
+      "time": "17.10.2026 11:08 UTC",
+      "source": "ACARS",
+      "flight": "MU0209",
+      "tail": "B-8226",
+      "freq": 131.725,
+      "level": -24.9,
+      "label": "SA",
+      "msgno": "S03A",
+      "text": "0LS110836VH"
     }
   ]
 }
