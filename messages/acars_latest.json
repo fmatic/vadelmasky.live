@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 15:54 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "H1",
-      "msgno": "C14A",
-      "text": ".1/WRN/WN2610181554  345204506NAV ADS-B RPTG 2 FAULT"
-    },
-    {
-      "time": "18.10.2026 16:01 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -34.0,
-      "label": "10",
-      "msgno": "M62A",
-      "text": "POS181601,N 62.159,E 27.171,2327,438875,,,35005,102120"
-    },
-    {
       "time": "18.10.2026 16:01 UTC",
       "source": "ACARS",
       "flight": "CA3036",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C34A",
       "text": ".1/FLR/FR2610182037  34361606MMR1   1,IR3,MMR2,IR2,IR1,AFS,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "18.10.2026 20:41 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -30.3,
+      "label": "SA",
+      "msgno": "S30A",
+      "text": "0LS204128VH"
+    },
+    {
+      "time": "18.10.2026 20:43 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -30.3,
+      "label": "11",
+      "msgno": "M14A",
+      "text": "POS\r\nCAS 276,LAT N 61.790,LON E 27.986,ALT 35005,FOB 129240,UTC 204318,PD ----.--,WD  40,WS   25,TAT - 25"
     }
   ]
 }
