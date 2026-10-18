@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "17.10.2026 14:03 UTC",
-      "source": "ACARS",
-      "flight": "CA3158",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "10",
-      "msgno": "M92A",
-      "text": "POS171403,N 61.347,E 25.667,2134,546125,,,37003,105080"
-    },
-    {
-      "time": "17.10.2026 14:06 UTC",
-      "source": "ACARS",
-      "flight": "CA3158",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "H1",
-      "msgno": "C22A",
-      "text": ".1/FLR/FR2610171405  34363106IR3    1,IR1,IR2,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
       "time": "17.10.2026 14:16 UTC",
       "source": "ACARS",
       "flight": "CA3158",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C83A",
       "text": ".1/FLR/FR2610172348  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "18.10.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -41.5,
+      "label": "Q0",
+      "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "18.10.2026 02:43 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -40.9,
+      "label": "SA",
+      "msgno": "S04A",
+      "text": "0EV024323VSH/"
     }
   ]
 }
