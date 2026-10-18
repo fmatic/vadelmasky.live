@@ -1568,6 +1568,76 @@
           "usec": 576251
         }
       }
+    },
+    {
+      "time": "18.10.2026 09:25 UTC",
+      "source": "VDL2",
+      "freq": 136.975,
+      "station": "VADELMA-EFJY-VDL2",
+      "src_addr": "4601FD",
+      "src_type": "Aircraft",
+      "src_status": "Airborne",
+      "dst_addr": "25D5F7",
+      "dst_type": "Ground station",
+      "dst_status": "-",
+      "command": "-",
+      "frame_type": "I",
+      "cr": "Command",
+      "signal": -43.9589,
+      "noise": -52.683685,
+      "raw": {
+        "app": {
+          "name": "dumpvdl2",
+          "ver": "2.7.0-dirty",
+          "proxied": true,
+          "proxied_by": "acars_router",
+          "acars_router_version": "0.2.1",
+          "acars_router_uuid": "2698f449-beec-490b-80fd-1f9c872d3bac"
+        },
+        "avlc": {
+          "cr": "Command",
+          "dst": {
+            "addr": "25D5F7",
+            "type": "Ground station"
+          },
+          "frame_type": "I",
+          "src": {
+            "addr": "4601FD",
+            "status": "Airborne",
+            "type": "Aircraft"
+          },
+          "rseq": 5,
+          "sseq": 5,
+          "poll": false,
+          "acars": {
+            "err": false,
+            "crc_ok": true,
+            "more": false,
+            "reg": ".OH-ATP",
+            "mode": "2",
+            "label": "80",
+            "blk_id": "7",
+            "ack": "!",
+            "flight": "N70286",
+            "msg_num": "M08",
+            "msg_num_seq": "A",
+            "msg_text": "1001 OUTRP  0286/18 EFJY/EFHK .OH-ATP\r\n/OUT 0919/FOB 0015/BRD       /UNT LITERS  /TYP A "
+          }
+        },
+        "burst_len_octets": 133,
+        "freq": 136975000,
+        "idx": 0,
+        "freq_skew": 0.938398,
+        "hdr_bits_fixed": 0,
+        "noise_level": -52.683685,
+        "octets_corrected_by_fec": 2,
+        "sig_level": -43.9589,
+        "station": "VADELMA-EFJY-VDL2",
+        "t": {
+          "sec": 1792315547,
+          "usec": 220323
+        }
+      }
     }
   ]
 }
