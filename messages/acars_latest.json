@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 13:18 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "SA",
-      "msgno": "S51A",
-      "text": "0EV131856VSH/"
-    },
-    {
-      "time": "18.10.2026 13:19 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -38.6,
-      "label": "5V",
-      "msgno": "S52A",
-      "text": "No text"
-    },
-    {
       "time": "18.10.2026 13:20 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O03A",
       "text": "SB0122BA_B-1430  ZBAALIRF324\r\n 61592 0292011338 33998-5200370700107GX011013"
+    },
+    {
+      "time": "18.10.2026 13:40 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-227T",
+      "freq": 131.825,
+      "level": -39.9,
+      "label": "H1",
+      "msgno": "D32A",
+      "text": "ES0340E_ 14\r\n B-227TCES202    EGKKZSPD181026134053ER\r\n2866349960839 -24310872BSM5370550008A21\r\n2946201878 2801181026 134053\r\n1786200195 2800)\r\n1786200195 2800)\r\n2826201889 2801\r\n2836201894 2801\r\n2836201898 "
+    },
+    {
+      "time": "18.10.2026 13:40 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-227T",
+      "freq": 131.825,
+      "level": -39.9,
+      "label": "H1",
+      "msgno": "D32A",
+      "text": "ES0340E_ 14\r\n B-227TCES202    EGKKZSPD181026134053ER\r\n2866349960839 -24310872BSM5370550008A21\r\n2946201878 2801181026 134053\r\n1786200195 2800)\r\n1786200195 2800)\r\n2826201889 2801\r\n2836201894 2801\r\n2836201898 "
     }
   ]
 }
