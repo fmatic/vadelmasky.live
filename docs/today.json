@@ -31,13 +31,13 @@
       "flight": "CES220",
       "reg": "B-7868",
       "type": "B77W",
-      "lat": 60.856996,
-      "lon": 25.905173,
+      "lat": 60.994697,
+      "lon": 26.283809,
       "alt": 29000,
-      "speed": 442.0,
-      "track": 52.73,
+      "speed": 221.0,
+      "track": 52.35,
       "seen_first": "2026-10-18T01:49:01.930921",
-      "last_seen": "2026-10-18T14:50:01.812138"
+      "last_seen": "2026-10-18T14:53:02.165810"
     },
     "781d9c": {
       "hex": "781d9c",
@@ -506,11 +506,37 @@
       "track": 236.95,
       "seen_first": "2026-10-18T14:23:01.210501",
       "last_seen": "2026-10-18T14:31:01.659974"
+    },
+    "4601fa": {
+      "hex": "4601fa",
+      "flight": "FIN8TV",
+      "reg": "OH-ATM",
+      "type": "AT75",
+      "lat": 61.646713,
+      "lon": 25.545175,
+      "alt": 16000,
+      "speed": 236.0,
+      "track": 5.35,
+      "seen_first": "2026-10-18T14:52:01.920441",
+      "last_seen": "2026-10-18T14:55:01.781396"
+    },
+    "4caa15": {
+      "hex": "4caa15",
+      "flight": "",
+      "reg": "EI-MGL",
+      "type": "B789",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-18T14:54:01.420618",
+      "last_seen": "2026-10-18T14:55:01.781396"
     }
   },
   "summary": {
-    "total_unique_aircraft": 39,
-    "last_seen_live": 1,
-    "updated": "2026-10-18T14:50:01.812138"
+    "total_unique_aircraft": 41,
+    "last_seen_live": 2,
+    "updated": "2026-10-18T14:55:01.781396"
   }
 }
