@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 14:17 UTC",
-      "source": "ACARS",
-      "flight": "N70518",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "_d",
-      "msgno": "S68A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 14:18 UTC",
-      "source": "ACARS",
-      "flight": "N70518",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "_d",
-      "msgno": "S69A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 14:18 UTC",
-      "source": "ACARS",
-      "flight": "N70518",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "_d",
-      "msgno": "S70A",
-      "text": "No text"
-    },
-    {
       "time": "18.10.2026 15:54 UTC",
       "source": "ACARS",
       "flight": "CA3036",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O95B",
       "text": "SS0340C_ 81\r\nB-223G  CSG252EGPKZGGG181026200533ER\r\n27336998837-2750174803107BCG00A31A\r\n785610490 280181026 200531\r\n62)6))45) 2))\r\n61)6))15) 2))\r\n10000000000001111\r\n  36997\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n181026200533\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "18.10.2026 20:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -34.5,
+      "label": "H1",
+      "msgno": "C32A",
+      "text": ".1/WRN/WN2610182037  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "18.10.2026 20:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -34.9,
+      "label": "H1",
+      "msgno": "C33A",
+      "text": ".1/WRN/WN2610182037  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "18.10.2026 20:38 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "C34A",
+      "text": ".1/FLR/FR2610182037  34361606MMR1   1,IR3,MMR2,IR2,IR1,AFS,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
