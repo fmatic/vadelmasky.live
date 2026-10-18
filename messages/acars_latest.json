@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 13:40 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -39.9,
-      "label": "H1",
-      "msgno": "D32A",
-      "text": "ES0340E_ 14\r\n B-227TCES202    EGKKZSPD181026134053ER\r\n2866349960839 -24310872BSM5370550008A21\r\n2946201878 2801181026 134053\r\n1786200195 2800)\r\n1786200195 2800)\r\n2826201889 2801\r\n2836201894 2801\r\n2836201898 "
-    },
-    {
       "time": "18.10.2026 14:13 UTC",
       "source": "ACARS",
       "flight": "N70518",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C04B",
       "text": "RTE 1 18OCT26 1910 CKB-222H CKK206 EHAM/ZSPD 3111-BCG-00W-20 L 1635 18OCT26\r\nFDE 34503141 I 1907 18OCT26\r\nMSG 3453201 I 1908 18OCT26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 1908 18OCT26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "18.10.2026 20:01 UTC",
+      "source": "ACARS",
+      "flight": "CZ2520",
+      "tail": "B-223G",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "18",
+      "msgno": "M44A",
+      "text": "POX,CSG2520   ,18OCT26,200130,EGPK,ZGGG,N061.77,E0027.41,370, 609,841,  74.8,  35.6,028,-58.2,050330, 30280,"
     }
   ]
 }
