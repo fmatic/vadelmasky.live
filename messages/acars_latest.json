@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 16:01 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -39.2,
-      "label": "H1",
-      "msgno": "C16A",
-      "text": ".1/FLR/FR2610181600  34363106IR3    1,IR2,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),INTERMITTENT"
-    },
-    {
       "time": "18.10.2026 16:02 UTC",
       "source": "ACARS",
       "flight": "CA3036",
@@ -329,6 +318,17 @@
       "label": "11",
       "msgno": "M14A",
       "text": "POS\r\nCAS 276,LAT N 61.790,LON E 27.986,ALT 35005,FOB 129240,UTC 204318,PD ----.--,WD  40,WS   25,TAT - 25"
+    },
+    {
+      "time": "18.10.2026 20:51 UTC",
+      "source": "ACARS",
+      "flight": "N70548",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -45.2,
+      "label": "B9",
+      "msgno": "L03A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
     }
   ]
 }
