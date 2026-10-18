@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 13:39 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1430",
-      "freq": 131.825,
-      "level": -40.1,
-      "label": "H1",
-      "msgno": "O03A",
-      "text": "SB0122BA_B-1430  ZBAALIRF324\r\n 61592 0292011338 33998-5200370700107GX011013"
-    },
-    {
-      "time": "18.10.2026 13:40 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -39.9,
-      "label": "H1",
-      "msgno": "D32A",
-      "text": "ES0340E_ 14\r\n B-227TCES202    EGKKZSPD181026134053ER\r\n2866349960839 -24310872BSM5370550008A21\r\n2946201878 2801181026 134053\r\n1786200195 2800)\r\n1786200195 2800)\r\n2826201889 2801\r\n2836201894 2801\r\n2836201898 "
-    },
-    {
       "time": "18.10.2026 13:40 UTC",
       "source": "ACARS",
       "flight": "MU0202",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O07B",
       "text": "SS0340F_282\r\nB-222H  CKK206EHAMZSPD181026190857ER\r\n29533001826-1687159433168BSM79967A21\r\n5246101243 2701181026 190854\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33001\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n181026190857\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "18.10.2026 19:10 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-222H",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "H1",
+      "msgno": "C04A",
+      "text": "RTE 1 18OCT26 1910 CKB-222H CKK206 EHAM/ZSPD 3111-BCG-00W-20 L 1635 18OCT26\r\nFDE 34503141 I 1907 18OCT26\r\nMSG 3453201 I 1908 18OCT26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 1908 18OCT26 ER I"
+    },
+    {
+      "time": "18.10.2026 19:10 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-222H",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "H1",
+      "msgno": "C04B",
+      "text": "RTE 1 18OCT26 1910 CKB-222H CKK206 EHAM/ZSPD 3111-BCG-00W-20 L 1635 18OCT26\r\nFDE 34503141 I 1907 18OCT26\r\nMSG 3453201 I 1908 18OCT26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 1908 18OCT26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
     }
   ]
 }
