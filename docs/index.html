@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">27</div>
+        <div class="value">28</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">11</div>
+        <div class="value">12</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">18.10.2026 11:45 UTC</div>
+        <div class="value">18.10.2026 11:50 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES213</div>
+                    <div class="meta">ICAO 7823AD · REG B-228L · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>528.0 kt</b></div>
+                    <div><span>Track</span><b>245.04°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>18.10.2026 11:50 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-228L" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">OHHPC</div>
+                    <div class="meta">ICAO 461404 · REG OH-HPC · TYPE R44</div>
+                </div>
+                <div class="alt-badge low">700 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>93.0 kt</b></div>
+                    <div><span>Track</span><b>348.21°</b></div>
+                    <div><span>Position</span><b>62.2958, 25.8329</b></div>
+                    <div><span>Last seen</span><b>18.10.2026 11:47 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-HPC" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -291,30 +339,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/SE-RTB" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 7823AD · REG B-228L · TYPE B789</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>18.10.2026 11:45 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-228L" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1168,7 +1192,7 @@ B-2093  CAO304ZBAALEMD181026063150ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "460561", "flight": "OHCAZ", "lat": 62.350662, "lon": 25.751648, "alt": 1650, "speed": 106.4, "last_seen": "18.10.2026 11:42 UTC"}, {"hex": "4601F5", "flight": "FIN26B", "lat": 61.028595, "lon": 25.354741, "alt": 18000, "speed": 296.3, "last_seen": "18.10.2026 11:18 UTC"}, {"hex": "461F30", "flight": "FIN2MF", "lat": 61.917875, "lon": 25.368856, "alt": 33375, "speed": 395.1, "last_seen": "18.10.2026 10:20 UTC"}, {"hex": "4601F9", "flight": "FIN592", "lat": 61.788345, "lon": 25.303868, "alt": 21025, "speed": 307.1, "last_seen": "18.10.2026 09:56 UTC"}, {"hex": "4601FD", "flight": "FIN286", "lat": 61.713272, "lon": 25.402352, "alt": 16675, "speed": 246.4, "last_seen": "18.10.2026 09:36 UTC"}, {"hex": "4691C5", "flight": "AEE4578", "lat": 61.968151, "lon": 27.227987, "alt": 32150, "speed": 160.7, "last_seen": "18.10.2026 08:56 UTC"}, {"hex": "488182", "flight": "AMQ14C", "lat": 61.716117, "lon": 25.399373, "alt": 36700, "speed": 376.0, "last_seen": "18.10.2026 08:08 UTC"}, {"hex": "780C5D", "flight": "CAO3045", "lat": 61.235977, "lon": 25.299988, "alt": 34000, "speed": 546.0, "last_seen": "18.10.2026 06:40 UTC"}, {"hex": "461FA9", "flight": "FIN8PN", "lat": 61.65113, "lon": 25.290731, "alt": 37975, "speed": 396.0, "last_seen": "18.10.2026 04:54 UTC"}, {"hex": "7BC007", "flight": "GI4389", "lat": 60.421, "lon": 25.543, "alt": "-", "speed": "-", "last_seen": "18.10.2026 04:52 UTC"}, {"hex": "782158", "flight": "HO1659", "lat": 60.936667, "lon": 25.375, "alt": 37975, "speed": "-", "last_seen": "18.10.2026 03:34 UTC"}];
+const aircraft = [{"hex": "461404", "flight": "OHHPC", "lat": 62.295786, "lon": 25.832872, "alt": 700, "speed": 93.0, "last_seen": "18.10.2026 11:47 UTC"}, {"hex": "460561", "flight": "OHCAZ", "lat": 62.350662, "lon": 25.751648, "alt": 1650, "speed": 106.4, "last_seen": "18.10.2026 11:42 UTC"}, {"hex": "4601F5", "flight": "FIN26B", "lat": 61.028595, "lon": 25.354741, "alt": 18000, "speed": 296.3, "last_seen": "18.10.2026 11:18 UTC"}, {"hex": "461F30", "flight": "FIN2MF", "lat": 61.917875, "lon": 25.368856, "alt": 33375, "speed": 395.1, "last_seen": "18.10.2026 10:20 UTC"}, {"hex": "4601F9", "flight": "FIN592", "lat": 61.788345, "lon": 25.303868, "alt": 21025, "speed": 307.1, "last_seen": "18.10.2026 09:56 UTC"}, {"hex": "4601FD", "flight": "FIN286", "lat": 61.713272, "lon": 25.402352, "alt": 16675, "speed": 246.4, "last_seen": "18.10.2026 09:36 UTC"}, {"hex": "4691C5", "flight": "AEE4578", "lat": 61.968151, "lon": 27.227987, "alt": 32150, "speed": 160.7, "last_seen": "18.10.2026 08:56 UTC"}, {"hex": "488182", "flight": "AMQ14C", "lat": 61.716117, "lon": 25.399373, "alt": 36700, "speed": 376.0, "last_seen": "18.10.2026 08:08 UTC"}, {"hex": "780C5D", "flight": "CAO3045", "lat": 61.235977, "lon": 25.299988, "alt": 34000, "speed": 546.0, "last_seen": "18.10.2026 06:40 UTC"}, {"hex": "461FA9", "flight": "FIN8PN", "lat": 61.65113, "lon": 25.290731, "alt": 37975, "speed": 396.0, "last_seen": "18.10.2026 04:54 UTC"}, {"hex": "7BC007", "flight": "GI4389", "lat": 60.421, "lon": 25.543, "alt": "-", "speed": "-", "last_seen": "18.10.2026 04:52 UTC"}, {"hex": "782158", "flight": "HO1659", "lat": 60.936667, "lon": 25.375, "alt": 37975, "speed": "-", "last_seen": "18.10.2026 03:34 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',

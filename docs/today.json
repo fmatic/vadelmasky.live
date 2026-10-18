@@ -340,21 +340,34 @@
     },
     "7823ad": {
       "hex": "7823ad",
-      "flight": "",
+      "flight": "CES213",
       "reg": "B-228L",
       "type": "B789",
       "lat": null,
       "lon": null,
-      "alt": null,
-      "speed": null,
-      "track": null,
+      "alt": 38000,
+      "speed": 528.0,
+      "track": 245.04,
       "seen_first": "2026-10-18T11:45:01.616565",
-      "last_seen": "2026-10-18T11:45:01.616565"
+      "last_seen": "2026-10-18T11:50:02.090873"
+    },
+    "461404": {
+      "hex": "461404",
+      "flight": "OHHPC",
+      "reg": "OH-HPC",
+      "type": "R44",
+      "lat": 62.295786,
+      "lon": 25.832872,
+      "alt": 700,
+      "speed": 93.0,
+      "track": 348.21,
+      "seen_first": "2026-10-18T11:46:01.927437",
+      "last_seen": "2026-10-18T11:47:02.202518"
     }
   },
   "summary": {
-    "total_unique_aircraft": 27,
-    "last_seen_live": 2,
-    "updated": "2026-10-18T11:45:01.616565"
+    "total_unique_aircraft": 28,
+    "last_seen_live": 1,
+    "updated": "2026-10-18T11:50:02.090873"
   }
 }
