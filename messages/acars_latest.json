@@ -5,28 +5,6 @@
       "source": "ACARS",
       "flight": "N70416",
       "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "_d",
-      "msgno": "S34A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 17:55 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -27.0,
-      "label": "_d",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 17:55 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
       "freq": 131.725,
       "level": -41.9,
       "label": "_d",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C07A",
       "text": ".1/WRN/WN2610182104  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "18.10.2026 21:05 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "SA",
+      "msgno": "S72A",
+      "text": "0LS210545VH"
+    },
+    {
+      "time": "18.10.2026 21:06 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "H1",
+      "msgno": "C08A",
+      "text": ".1/FLR/FR2610182105  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
