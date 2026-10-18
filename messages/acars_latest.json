@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 13:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "Q0",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 13:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "SA",
-      "msgno": "S24A",
-      "text": "0EV132854VSH/"
-    },
-    {
-      "time": "18.10.2026 13:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -26.8,
-      "label": "5V",
-      "msgno": "S25A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 13:29 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -24.2,
-      "label": "Q0",
-      "msgno": "S27A",
-      "text": "No text"
-    },
-    {
       "time": "18.10.2026 13:30 UTC",
       "source": "ACARS",
       "flight": "MU0202",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "C14A",
       "text": ".1/WRN/WN2610181554  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "18.10.2026 16:01 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "10",
+      "msgno": "M62A",
+      "text": "POS181601,N 62.159,E 27.171,2327,438875,,,35005,102120"
+    },
+    {
+      "time": "18.10.2026 16:01 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -39.2,
+      "label": "H1",
+      "msgno": "C16A",
+      "text": ".1/FLR/FR2610181600  34363106IR3    1,IR2,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),INTERMITTENT"
+    },
+    {
+      "time": "18.10.2026 16:02 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -42.0,
+      "label": "H1",
+      "msgno": "C17A",
+      "text": ".1/WRN/WN2610181602  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "18.10.2026 16:03 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "H1",
+      "msgno": "C18A",
+      "text": ".1/FLR/FR2610181602  34363106MMR2   1,,,,,,,MMR2(40RT2),HARD"
     }
   ]
 }
