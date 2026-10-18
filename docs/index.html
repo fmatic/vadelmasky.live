@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">18.10.2026 04:15 UTC</div>
+        <div class="value">18.10.2026 04:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -284,9 +284,9 @@ footer {
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>60.5733, 26.4800</b></div>
-                    <div><span>Last seen</span><b>18.10.2026 04:15 UTC</b></div>
+                    <div><span>Track</span><b>252.14°</b></div>
+                    <div><span>Position</span><b>60.4210, 25.5430</b></div>
+                    <div><span>Last seen</span><b>18.10.2026 04:20 UTC</b></div>
                 </div>
             </div>
 
@@ -646,6 +646,24 @@ footer {
                         ACARS · Tail B-2473 · 131.825 MHz
                     </div>
                 </div>
+                <div class="acars-meta">18.10.2026 04:15 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 16 · Msg M70A · Level -36.2 dB
+            </div>
+
+            <div class="acars-text">POSGI4389/180415,ALT 34000,ETA ,FOB 373,N 60.421 E 25.543,WS   22,WD 35155,CAS ,HED ------</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">GI4389</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-2473 · 131.825 MHz
+                    </div>
+                </div>
                 <div class="acars-meta">18.10.2026 04:11 UTC</div>
             </div>
 
@@ -838,30 +856,12 @@ PN60344E 2628804103234074-46312 21 840004873++++</div>
             <div class="acars-text">No text</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">MU0201</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-227T · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.10.2026 02:54 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 5V · Msg S51A · Level -34.9 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "7BC007", "flight": "GI4389", "lat": 60.573333, "lon": 26.48, "alt": "-", "speed": "-", "last_seen": "18.10.2026 04:15 UTC"}, {"hex": "782158", "flight": "HO1659", "lat": 60.936667, "lon": 25.375, "alt": 37975, "speed": "-", "last_seen": "18.10.2026 03:34 UTC"}];
+const aircraft = [{"hex": "7BC007", "flight": "GI4389", "lat": 60.421, "lon": 25.543, "alt": "-", "speed": "-", "last_seen": "18.10.2026 04:20 UTC"}, {"hex": "782158", "flight": "HO1659", "lat": 60.936667, "lon": 25.375, "alt": 37975, "speed": "-", "last_seen": "18.10.2026 03:34 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',

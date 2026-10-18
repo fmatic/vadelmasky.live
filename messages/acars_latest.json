@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 02:48 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "SA",
-      "msgno": "S16A",
-      "text": "0EV024816VSH/"
-    },
-    {
       "time": "18.10.2026 02:49 UTC",
       "source": "ACARS",
       "flight": "HO1659",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "D48A",
       "text": "ADSB-24734389ZHCCEBLG181026041032\r\n30247ER 749LHAA1810\r\nPN60344E 2628804103234074-46312 21 840004873++++"
+    },
+    {
+      "time": "18.10.2026 04:15 UTC",
+      "source": "ACARS",
+      "flight": "GI4389",
+      "tail": "B-2473",
+      "freq": 131.825,
+      "level": -36.2,
+      "label": "16",
+      "msgno": "M70A",
+      "text": "POSGI4389/180415,ALT 34000,ETA ,FOB 373,N 60.421 E 25.543,WS   22,WD 35155,CAS ,HED ------"
     }
   ]
 }
