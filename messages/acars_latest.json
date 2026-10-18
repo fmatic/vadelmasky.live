@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 16:02 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -42.0,
-      "label": "H1",
-      "msgno": "C17A",
-      "text": ".1/WRN/WN2610181602  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "18.10.2026 16:03 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "H1",
-      "msgno": "C18A",
-      "text": ".1/FLR/FR2610181602  34363106MMR2   1,,,,,,,MMR2(40RT2),HARD"
-    },
-    {
       "time": "18.10.2026 17:54 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +307,28 @@
       "label": "B9",
       "msgno": "L03A",
       "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "18.10.2026 20:56 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "Q0",
+      "msgno": "S71A",
+      "text": "No text"
+    },
+    {
+      "time": "18.10.2026 20:56 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -30.8,
+      "label": "10",
+      "msgno": "M23A",
+      "text": "POS182056,N 61.511,E 26.151,0445,438750,,,37001,104400"
     }
   ]
 }

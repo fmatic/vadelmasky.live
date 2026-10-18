@@ -648,7 +648,7 @@
       "speed": null,
       "track": null,
       "seen_first": "2026-10-18T19:15:02.010982",
-      "last_seen": "2026-10-18T19:15:02.010982"
+      "last_seen": "2026-10-18T21:00:02.041038"
     },
     "780560": {
       "hex": "780560",
@@ -681,18 +681,31 @@
       "flight": "CAO3158",
       "reg": "B-6113",
       "type": "A332",
-      "lat": null,
-      "lon": null,
+      "lat": 61.511,
+      "lon": 26.151,
       "alt": 37000,
-      "speed": 434.0,
-      "track": 61.88,
+      "speed": 440.0,
+      "track": 62.05,
       "seen_first": "2026-10-18T20:53:01.683161",
-      "last_seen": "2026-10-18T20:55:01.285497"
+      "last_seen": "2026-10-18T21:00:02.041038"
+    },
+    "461e1a": {
+      "hex": "461e1a",
+      "flight": "FIN4HX",
+      "reg": "OH-LKK",
+      "type": "E190",
+      "lat": 61.067645,
+      "lon": 25.203756,
+      "alt": 26425,
+      "speed": 203.2,
+      "track": 2.82,
+      "seen_first": "2026-10-18T20:59:01.740487",
+      "last_seen": "2026-10-18T21:00:02.041038"
     }
   },
   "summary": {
-    "total_unique_aircraft": 53,
-    "last_seen_live": 1,
-    "updated": "2026-10-18T20:55:01.285497"
+    "total_unique_aircraft": 54,
+    "last_seen_live": 3,
+    "updated": "2026-10-18T21:00:02.041038"
   }
 }
