@@ -3,39 +3,6 @@
     {
       "time": "18.10.2026 02:50 UTC",
       "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -42.2,
-      "label": "Q0",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 02:50 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -29.2,
-      "label": "SA",
-      "msgno": "S20A",
-      "text": "0EV025005VSH/"
-    },
-    {
-      "time": "18.10.2026 02:50 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -42.1,
-      "label": "SA",
-      "msgno": "S42A",
-      "text": "0EV025004VSH/"
-    },
-    {
-      "time": "18.10.2026 02:50 UTC",
-      "source": "ACARS",
       "flight": "HO1659",
       "tail": "B-226M",
       "freq": 131.825,
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S01A",
       "text": "No text"
+    },
+    {
+      "time": "18.10.2026 06:31 UTC",
+      "source": "ACARS",
+      "flight": "CA3045",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "O80A",
+      "text": "SS0340C_386\r\nB-2093  CAO304ZBAALEMD181026063150ER\r\n29133999832-198735286316DBSM79962A\r\n709610393 270181026 063144\r\n31)6))97) 5))\r\n59)6))11) 5))\r\n10000000000001111\r\n  34000\r\n  3400)11 02N3276)16.)\r\n  3400(12"
+    },
+    {
+      "time": "18.10.2026 06:32 UTC",
+      "source": "ACARS",
+      "flight": "CA3045",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "O80B",
+      "text": "SS0340C_386\r\nB-2093  CAO304ZBAALEMD181026063150ER\r\n29133999832-198735286316DBSM79962A\r\n709610393 270181026 063144\r\n31)6))97) 5))\r\n59)6))11) 5))\r\n10000000000001111\r\n  34000\r\n  3400)11 02N3276)16.)\r\n  3400(12 07(3276(16.(\r\n181026063150\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "18.10.2026 06:33 UTC",
+      "source": "ACARS",
+      "flight": "CA3045",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -34.4,
+      "label": "10",
+      "msgno": "M17A",
+      "text": "POS180633, N 6162,E 2701,833,291,2482 ,  71,34000, 383,-200,-509,7"
     }
   ]
 }
