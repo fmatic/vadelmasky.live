@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 13:36 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "SA",
-      "msgno": "S43A",
-      "text": "0EV133617VSH/"
-    },
-    {
       "time": "18.10.2026 13:38 UTC",
       "source": "ACARS",
       "flight": "CA0939",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S42A",
       "text": "No text"
+    },
+    {
+      "time": "18.10.2026 19:04 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-222H",
+      "freq": 131.825,
+      "level": -37.8,
+      "label": "16",
+      "msgno": "M54A",
+      "text": "POSA1N61249E 26357,LUS-14 ,190002,329,ADO-15 ,190712,-48, 38, 723,821"
     }
   ]
 }
