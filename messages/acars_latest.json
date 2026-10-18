@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 13:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -27.6,
-      "label": "5V",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
       "time": "18.10.2026 13:28 UTC",
       "source": "ACARS",
       "flight": "MU0202",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S70A",
       "text": "No text"
+    },
+    {
+      "time": "18.10.2026 15:54 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "C14A",
+      "text": ".1/WRN/WN2610181554  345204506NAV ADS-B RPTG 2 FAULT"
     }
   ]
 }
