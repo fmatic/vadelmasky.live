@@ -1,105 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.10.2026 02:53 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -16.3,
-      "label": "SA",
-      "msgno": "S50A",
-      "text": "0EV025339VSH/"
-    },
-    {
-      "time": "18.10.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -18.0,
-      "label": "5V",
-      "msgno": "S51A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 02:54 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.725,
-      "level": -34.9,
-      "label": "5V",
-      "msgno": "S51A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -38.1,
-      "label": "Q0",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "SA",
-      "msgno": "S32A",
-      "text": "0EV025534VSH/"
-    },
-    {
-      "time": "18.10.2026 02:55 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "5V",
-      "msgno": "S55A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "Q0",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
-      "time": "18.10.2026 02:57 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -39.6,
-      "label": "H1",
-      "msgno": "F03A",
-      "text": "POSN60562E025225,KOMEK,025646,380,NISIX,031851,AMRAK,M48,31130,473ED80"
-    },
-    {
-      "time": "18.10.2026 03:00 UTC",
-      "source": "ACARS",
-      "flight": "MU0201",
-      "tail": "B-227T",
-      "freq": 131.825,
-      "level": -43.1,
-      "label": "5V",
-      "msgno": "S72A",
-      "text": "No text"
-    },
-    {
       "time": "18.10.2026 03:28 UTC",
       "source": "ACARS",
       "flight": "MU5013",
@@ -329,6 +230,105 @@
       "label": "18",
       "msgno": "M06A",
       "text": "POX,CSG2519   ,18OCT26,125017,ZGGG,EGPK,N061.33,E0026.80,340, 286,828,-113.7,  42.6,072,-51.2,150117, 32840,"
+    },
+    {
+      "time": "18.10.2026 13:05 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -43.4,
+      "label": "Q0",
+      "msgno": "S11A",
+      "text": "No text"
+    },
+    {
+      "time": "18.10.2026 13:06 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "5V",
+      "msgno": "S13A",
+      "text": "No text"
+    },
+    {
+      "time": "18.10.2026 13:07 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -42.1,
+      "label": "SA",
+      "msgno": "S16A",
+      "text": "0EV130659VSH/"
+    },
+    {
+      "time": "18.10.2026 13:07 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -40.3,
+      "label": "5V",
+      "msgno": "S17A",
+      "text": "No text"
+    },
+    {
+      "time": "18.10.2026 13:08 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "Q0",
+      "msgno": "S19A",
+      "text": "No text"
+    },
+    {
+      "time": "18.10.2026 13:08 UTC",
+      "source": "ACARS",
+      "flight": "JD0669",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -42.0,
+      "label": "H1",
+      "msgno": "D16C",
+      "text": "414,1.414,075.37,083.7,084.7,0579,06.565,02482,07.52\r\nS1,04.61,-33.7,030.9,159.4,132.0,415.9,09.7,052.7,013.0,26,109\r\nS2,04.61,-33.7,031.0,158.8,129.8,410.5,09.8,051.8,016.7,26,105\r\nT1,088,103,099.5,-11.0,0"
+    },
+    {
+      "time": "18.10.2026 13:09 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -27.5,
+      "label": "Q0",
+      "msgno": "S21A",
+      "text": "No text"
+    },
+    {
+      "time": "18.10.2026 13:09 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -29.5,
+      "label": "SA",
+      "msgno": "S22A",
+      "text": "0EV130920VSH/"
+    },
+    {
+      "time": "18.10.2026 13:09 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-226M",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "5V",
+      "msgno": "S23A",
+      "text": "No text"
     }
   ]
 }
