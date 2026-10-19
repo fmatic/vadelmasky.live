@@ -1,6 +1,184 @@
 {
   "messages": [
     {
+      "time": "13.10.2026 10:49 UTC",
+      "source": "VDL2",
+      "freq": 136.975,
+      "station": "VADELMA-EFJY-VDL2",
+      "src_addr": "38181A",
+      "src_type": "Aircraft",
+      "src_status": "Airborne",
+      "dst_addr": "241597",
+      "dst_type": "Ground station",
+      "dst_status": "-",
+      "command": "XID",
+      "frame_type": "U",
+      "cr": "Command",
+      "signal": -37.406734,
+      "noise": -52.613014,
+      "raw": {
+        "app": {
+          "name": "dumpvdl2",
+          "ver": "2.7.0-dirty",
+          "proxied": true,
+          "proxied_by": "acars_router",
+          "acars_router_version": "0.2.1",
+          "acars_router_uuid": "3498d7a8-fad3-420d-b454-961bda7275ce"
+        },
+        "avlc": {
+          "cmd": "XID",
+          "cr": "Command",
+          "dst": {
+            "addr": "241597",
+            "type": "Ground station"
+          },
+          "frame_type": "U",
+          "pf": true,
+          "src": {
+            "addr": "38181A",
+            "status": "Airborne",
+            "type": "Aircraft"
+          },
+          "xid": {
+            "err": false,
+            "pub_params": [
+              {
+                "name": "param_set_id",
+                "value": "8885:1993"
+              },
+              {
+                "name": "procedure_classes",
+                "value": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "name": "hdlc_options",
+                "value": [
+                  32,
+                  164,
+                  136
+                ]
+              }
+            ],
+            "type": "XID_CMD_HO",
+            "type_descr": "Handoff Initiation",
+            "vdl_params": [
+              {
+                "name": "param_set_id",
+                "value": "V"
+              },
+              {
+                "name": "conn_mgmt",
+                "value": 1
+              },
+              {
+                "name": "xid_sequencing",
+                "value": {
+                  "retry": 3,
+                  "seq": 4
+                }
+              },
+              {
+                "name": "avlc_specific_options",
+                "value": [
+                  39
+                ]
+              },
+              {
+                "name": "dst_airport",
+                "value": "EFJY"
+              }
+            ]
+          }
+        },
+        "burst_len_octets": 59,
+        "freq": 136975000,
+        "idx": 0,
+        "freq_skew": -0.523184,
+        "hdr_bits_fixed": 0,
+        "noise_level": -52.613014,
+        "octets_corrected_by_fec": 0,
+        "sig_level": -37.406734,
+        "station": "VADELMA-EFJY-VDL2",
+        "t": {
+          "sec": 1791888543,
+          "usec": 351060
+        }
+      }
+    },
+    {
+      "time": "13.10.2026 17:05 UTC",
+      "source": "VDL2",
+      "freq": 136.975,
+      "station": "VADELMA-EFJY-VDL2",
+      "src_addr": "4601FD",
+      "src_type": "Aircraft",
+      "src_status": "Airborne",
+      "dst_addr": "1092BA",
+      "dst_type": "Ground station",
+      "dst_status": "-",
+      "command": "-",
+      "frame_type": "I",
+      "cr": "Command",
+      "signal": -46.277428,
+      "noise": -52.77874,
+      "raw": {
+        "app": {
+          "name": "dumpvdl2",
+          "ver": "2.7.0-dirty",
+          "proxied": true,
+          "proxied_by": "acars_router",
+          "acars_router_version": "0.2.1",
+          "acars_router_uuid": "582cc133-0d87-4fa8-969b-14e49c22fde8"
+        },
+        "avlc": {
+          "cr": "Command",
+          "dst": {
+            "addr": "1092BA",
+            "type": "Ground station"
+          },
+          "frame_type": "I",
+          "src": {
+            "addr": "4601FD",
+            "status": "Airborne",
+            "type": "Aircraft"
+          },
+          "rseq": 1,
+          "sseq": 1,
+          "poll": false,
+          "acars": {
+            "err": false,
+            "crc_ok": true,
+            "more": false,
+            "reg": ".OH-ATP",
+            "mode": "2",
+            "label": "B9",
+            "blk_id": "5",
+            "ack": "!",
+            "flight": "N70416",
+            "msg_num": "L02",
+            "msg_num_seq": "A",
+            "msg_text": "/EFHK.TI2/024EFHKAFE13"
+          }
+        },
+        "burst_len_octets": 67,
+        "freq": 136975000,
+        "idx": 0,
+        "freq_skew": 1.017896,
+        "hdr_bits_fixed": 0,
+        "noise_level": -52.77874,
+        "octets_corrected_by_fec": 2,
+        "sig_level": -46.277428,
+        "station": "VADELMA-EFJY-VDL2",
+        "t": {
+          "sec": 1791911131,
+          "usec": 642508
+        }
+      }
+    },
+    {
       "time": "14.10.2026 03:07 UTC",
       "source": "VDL2",
       "freq": 136.875,
@@ -2357,6 +2535,478 @@
         "t": {
           "sec": 1792379142,
           "usec": 292001
+        }
+      }
+    },
+    {
+      "time": "19.10.2026 04:59 UTC",
+      "source": "VDL2",
+      "freq": 136.975,
+      "station": "VADELMA-EFJY-VDL2",
+      "src_addr": "46788B",
+      "src_type": "Aircraft",
+      "src_status": "Airborne",
+      "dst_addr": "241597",
+      "dst_type": "Ground station",
+      "dst_status": "-",
+      "command": "XID",
+      "frame_type": "U",
+      "cr": "Command",
+      "signal": -32.646683,
+      "noise": -52.746933,
+      "raw": {
+        "app": {
+          "name": "dumpvdl2",
+          "ver": "2.7.0-dirty",
+          "proxied": true,
+          "proxied_by": "acars_router",
+          "acars_router_version": "0.2.1",
+          "acars_router_uuid": "7a99d7d2-1405-4661-90db-2a9ded206f82"
+        },
+        "avlc": {
+          "cmd": "XID",
+          "cr": "Command",
+          "dst": {
+            "addr": "241597",
+            "type": "Ground station"
+          },
+          "frame_type": "U",
+          "pf": true,
+          "src": {
+            "addr": "46788B",
+            "status": "Airborne",
+            "type": "Aircraft"
+          },
+          "xid": {
+            "err": false,
+            "pub_params": [
+              {
+                "name": "param_set_id",
+                "value": "8885:1993"
+              },
+              {
+                "name": "hdlc_options",
+                "value": [
+                  32,
+                  132,
+                  128
+                ]
+              },
+              {
+                "name": "procedure_classes",
+                "value": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "type": "XID_CMD_HO",
+            "type_descr": "Handoff Initiation",
+            "vdl_params": [
+              {
+                "name": "param_set_id",
+                "value": "V"
+              },
+              {
+                "name": "conn_mgmt",
+                "value": 1
+              },
+              {
+                "name": "xid_sequencing",
+                "value": {
+                  "retry": 0,
+                  "seq": 3
+                }
+              },
+              {
+                "name": "avlc_specific_options",
+                "value": [
+                  36
+                ]
+              },
+              {
+                "name": "dst_airport",
+                "value": "EFJY"
+              },
+              {
+                "name": "ac_location",
+                "value": {
+                  "alt": 3000,
+                  "loc": {
+                    "lat": 62.200001,
+                    "lon": 25.800001
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "burst_len_octets": 65,
+        "freq": 136975000,
+        "idx": 0,
+        "freq_skew": 0.881626,
+        "hdr_bits_fixed": 0,
+        "noise_level": -52.746933,
+        "octets_corrected_by_fec": 0,
+        "sig_level": -32.646683,
+        "station": "VADELMA-EFJY-VDL2",
+        "t": {
+          "sec": 1792385944,
+          "usec": 232078
+        }
+      }
+    },
+    {
+      "time": "19.10.2026 04:59 UTC",
+      "source": "VDL2",
+      "freq": 136.975,
+      "station": "VADELMA-EFJY-VDL2",
+      "src_addr": "46788B",
+      "src_type": "Aircraft",
+      "src_status": "Airborne",
+      "dst_addr": "241597",
+      "dst_type": "Ground station",
+      "dst_status": "-",
+      "command": "XID",
+      "frame_type": "U",
+      "cr": "Command",
+      "signal": -34.448284,
+      "noise": -52.441441,
+      "raw": {
+        "app": {
+          "name": "dumpvdl2",
+          "ver": "2.7.0-dirty",
+          "proxied": true,
+          "proxied_by": "acars_router",
+          "acars_router_version": "0.2.1",
+          "acars_router_uuid": "784d8e4f-2cad-47df-8d4e-0492a7dc4dd6"
+        },
+        "avlc": {
+          "cmd": "XID",
+          "cr": "Command",
+          "dst": {
+            "addr": "241597",
+            "type": "Ground station"
+          },
+          "frame_type": "U",
+          "pf": true,
+          "src": {
+            "addr": "46788B",
+            "status": "Airborne",
+            "type": "Aircraft"
+          },
+          "xid": {
+            "err": false,
+            "pub_params": [
+              {
+                "name": "param_set_id",
+                "value": "8885:1993"
+              },
+              {
+                "name": "hdlc_options",
+                "value": [
+                  32,
+                  132,
+                  128
+                ]
+              },
+              {
+                "name": "procedure_classes",
+                "value": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "type": "XID_CMD_HO",
+            "type_descr": "Handoff Initiation",
+            "vdl_params": [
+              {
+                "name": "param_set_id",
+                "value": "V"
+              },
+              {
+                "name": "conn_mgmt",
+                "value": 1
+              },
+              {
+                "name": "xid_sequencing",
+                "value": {
+                  "retry": 1,
+                  "seq": 3
+                }
+              },
+              {
+                "name": "avlc_specific_options",
+                "value": [
+                  36
+                ]
+              },
+              {
+                "name": "dst_airport",
+                "value": "EFJY"
+              },
+              {
+                "name": "ac_location",
+                "value": {
+                  "alt": 3000,
+                  "loc": {
+                    "lat": 62.200001,
+                    "lon": 25.800001
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "burst_len_octets": 65,
+        "freq": 136975000,
+        "idx": 0,
+        "freq_skew": 0.961039,
+        "hdr_bits_fixed": 0,
+        "noise_level": -52.441441,
+        "octets_corrected_by_fec": 0,
+        "sig_level": -34.448284,
+        "station": "VADELMA-EFJY-VDL2",
+        "t": {
+          "sec": 1792385951,
+          "usec": 986419
+        }
+      }
+    },
+    {
+      "time": "19.10.2026 04:59 UTC",
+      "source": "VDL2",
+      "freq": 136.975,
+      "station": "VADELMA-EFJY-VDL2",
+      "src_addr": "46788B",
+      "src_type": "Aircraft",
+      "src_status": "Airborne",
+      "dst_addr": "241597",
+      "dst_type": "Ground station",
+      "dst_status": "-",
+      "command": "XID",
+      "frame_type": "U",
+      "cr": "Command",
+      "signal": -35.876022,
+      "noise": -52.72509,
+      "raw": {
+        "app": {
+          "name": "dumpvdl2",
+          "ver": "2.7.0-dirty",
+          "proxied": true,
+          "proxied_by": "acars_router",
+          "acars_router_version": "0.2.1",
+          "acars_router_uuid": "12847689-1848-4080-bd7f-295f89afbe3d"
+        },
+        "avlc": {
+          "cmd": "XID",
+          "cr": "Command",
+          "dst": {
+            "addr": "241597",
+            "type": "Ground station"
+          },
+          "frame_type": "U",
+          "pf": true,
+          "src": {
+            "addr": "46788B",
+            "status": "Airborne",
+            "type": "Aircraft"
+          },
+          "xid": {
+            "err": false,
+            "pub_params": [
+              {
+                "name": "param_set_id",
+                "value": "8885:1993"
+              },
+              {
+                "name": "hdlc_options",
+                "value": [
+                  32,
+                  132,
+                  128
+                ]
+              },
+              {
+                "name": "procedure_classes",
+                "value": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "type": "XID_CMD_HO",
+            "type_descr": "Handoff Initiation",
+            "vdl_params": [
+              {
+                "name": "param_set_id",
+                "value": "V"
+              },
+              {
+                "name": "conn_mgmt",
+                "value": 1
+              },
+              {
+                "name": "xid_sequencing",
+                "value": {
+                  "retry": 2,
+                  "seq": 3
+                }
+              },
+              {
+                "name": "avlc_specific_options",
+                "value": [
+                  36
+                ]
+              },
+              {
+                "name": "dst_airport",
+                "value": "EFJY"
+              },
+              {
+                "name": "ac_location",
+                "value": {
+                  "alt": 3000,
+                  "loc": {
+                    "lat": 62.200001,
+                    "lon": 25.800001
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "burst_len_octets": 65,
+        "freq": 136975000,
+        "idx": 0,
+        "freq_skew": 0.849958,
+        "hdr_bits_fixed": 0,
+        "noise_level": -52.72509,
+        "octets_corrected_by_fec": 0,
+        "sig_level": -35.876022,
+        "station": "VADELMA-EFJY-VDL2",
+        "t": {
+          "sec": 1792385961,
+          "usec": 391808
+        }
+      }
+    },
+    {
+      "time": "19.10.2026 04:59 UTC",
+      "source": "VDL2",
+      "freq": 136.975,
+      "station": "VADELMA-EFJY-VDL2",
+      "src_addr": "46788B",
+      "src_type": "Aircraft",
+      "src_status": "Airborne",
+      "dst_addr": "241597",
+      "dst_type": "Ground station",
+      "dst_status": "-",
+      "command": "XID",
+      "frame_type": "U",
+      "cr": "Command",
+      "signal": -44.956116,
+      "noise": -52.464638,
+      "raw": {
+        "app": {
+          "name": "dumpvdl2",
+          "ver": "2.7.0-dirty",
+          "proxied": true,
+          "proxied_by": "acars_router",
+          "acars_router_version": "0.2.1",
+          "acars_router_uuid": "e11b266c-e06d-428e-8154-195c4f24c14a"
+        },
+        "avlc": {
+          "cmd": "XID",
+          "cr": "Command",
+          "dst": {
+            "addr": "241597",
+            "type": "Ground station"
+          },
+          "frame_type": "U",
+          "pf": true,
+          "src": {
+            "addr": "46788B",
+            "status": "Airborne",
+            "type": "Aircraft"
+          },
+          "xid": {
+            "err": false,
+            "pub_params": [
+              {
+                "name": "param_set_id",
+                "value": "8885:1993"
+              },
+              {
+                "name": "hdlc_options",
+                "value": [
+                  32,
+                  132,
+                  128
+                ]
+              },
+              {
+                "name": "procedure_classes",
+                "value": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "type": "XID_CMD_HO",
+            "type_descr": "Handoff Initiation",
+            "vdl_params": [
+              {
+                "name": "param_set_id",
+                "value": "V"
+              },
+              {
+                "name": "conn_mgmt",
+                "value": 1
+              },
+              {
+                "name": "xid_sequencing",
+                "value": {
+                  "retry": 5,
+                  "seq": 3
+                }
+              },
+              {
+                "name": "avlc_specific_options",
+                "value": [
+                  36
+                ]
+              },
+              {
+                "name": "dst_airport",
+                "value": "EFJY"
+              },
+              {
+                "name": "ac_location",
+                "value": {
+                  "alt": 3000,
+                  "loc": {
+                    "lat": 62.200001,
+                    "lon": 25.800001
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "burst_len_octets": 65,
+        "freq": 136975000,
+        "idx": 0,
+        "freq_skew": 0.702862,
+        "hdr_bits_fixed": 0,
+        "noise_level": -52.464638,
+        "octets_corrected_by_fec": 0,
+        "sig_level": -44.956116,
+        "station": "VADELMA-EFJY-VDL2",
+        "t": {
+          "sec": 1792385992,
+          "usec": 996289
         }
       }
     }
