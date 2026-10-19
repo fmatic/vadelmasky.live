@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.10.2026 14:38 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -43.1,
-      "label": "Q0",
-      "msgno": "S36A",
-      "text": "No text"
-    },
-    {
-      "time": "19.10.2026 14:39 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -38.8,
-      "label": "5V",
-      "msgno": "S38A",
-      "text": "No text"
-    },
-    {
-      "time": "19.10.2026 14:40 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-226M",
-      "freq": 131.825,
-      "level": -40.8,
-      "label": "Q0",
-      "msgno": "S40A",
-      "text": "No text"
-    },
-    {
       "time": "19.10.2026 14:40 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S79A",
       "text": "0EV145355VS/"
+    },
+    {
+      "time": "19.10.2026 15:15 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "H1",
+      "msgno": "D03B",
+      "text": "L/F2073.4,082.0,095.4/F3073.4,081.9,094.5/G1NH,ITT,FF,IG/G2095.8,0676.9,361,0097/G3096.0,0656.5,352,0106/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.26/**.,EOT,...,/"
+    },
+    {
+      "time": "19.10.2026 15:16 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "B9",
+      "msgno": "L06A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "19.10.2026 15:19 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "5V",
+      "msgno": "S69A",
+      "text": "No text"
     }
   ]
 }
