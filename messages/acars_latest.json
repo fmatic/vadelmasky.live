@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.10.2026 15:15 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "H1",
-      "msgno": "D03B",
-      "text": "L/F2073.4,082.0,095.4/F3073.4,081.9,094.5/G1NH,ITT,FF,IG/G2095.8,0676.9,361,0097/G3096.0,0656.5,352,0106/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.26/**.,EOT,...,/"
-    },
-    {
       "time": "19.10.2026 15:16 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S43A",
       "text": "0EV165614VSH/"
+    },
+    {
+      "time": "19.10.2026 17:00 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -39.1,
+      "label": "5V",
+      "msgno": "S52A",
+      "text": "No text"
     }
   ]
 }
