@@ -6,17 +6,6 @@
       "flight": "CK0206",
       "tail": "B-222H",
       "freq": 131.825,
-      "level": -36.1,
-      "label": "H1",
-      "msgno": "C04A",
-      "text": "RTE 1 18OCT26 1910 CKB-222H CKK206 EHAM/ZSPD 3111-BCG-00W-20 L 1635 18OCT26\r\nFDE 34503141 I 1907 18OCT26\r\nMSG 3453201 I 1908 18OCT26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 1908 18OCT26 ER I"
-    },
-    {
-      "time": "18.10.2026 19:10 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-222H",
-      "freq": 131.825,
       "level": -34.8,
       "label": "H1",
       "msgno": "C04B",
@@ -328,6 +317,17 @@
       "level": -27.8,
       "label": "_d",
       "msgno": "S15A",
+      "text": "No text"
+    },
+    {
+      "time": "19.10.2026 03:02 UTC",
+      "source": "ACARS",
+      "flight": "N70380",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -29.2,
+      "label": "5V",
+      "msgno": "S16A",
       "text": "No text"
     }
   ]
