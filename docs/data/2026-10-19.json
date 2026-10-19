@@ -239,13 +239,13 @@
       "flight": "FIN286",
       "reg": "OH-ATH",
       "type": "AT75",
-      "lat": 61.804892,
-      "lon": 25.4894,
-      "alt": 14625,
-      "speed": 212.0,
-      "track": 206.93,
+      "lat": 61.554209,
+      "lon": 25.292358,
+      "alt": 16000,
+      "speed": 258.0,
+      "track": 180.22,
       "seen_first": "2026-10-19T06:07:01.624266",
-      "last_seen": "2026-10-19T11:30:02.020199"
+      "last_seen": "2026-10-19T11:35:02.318553"
     },
     "461fa1": {
       "hex": "461fa1",
@@ -363,11 +363,37 @@
       "track": 244.15,
       "seen_first": "2026-10-19T11:19:02.257952",
       "last_seen": "2026-10-19T11:26:01.681070"
+    },
+    "8682fc": {
+      "hex": "8682fc",
+      "flight": "JL0047",
+      "reg": "JA741J",
+      "type": "B77W",
+      "lat": 62.201667,
+      "lon": 24.941667,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-19T11:32:01.233065",
+      "last_seen": "2026-10-19T11:35:02.318553"
+    },
+    "78244f": {
+      "hex": "78244f",
+      "flight": "",
+      "reg": "B-229D",
+      "type": "B77L",
+      "lat": null,
+      "lon": null,
+      "alt": 31000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-19T11:35:02.318553",
+      "last_seen": "2026-10-19T11:35:02.318553"
     }
   },
   "summary": {
-    "total_unique_aircraft": 28,
-    "last_seen_live": 1,
-    "updated": "2026-10-19T11:30:02.020199"
+    "total_unique_aircraft": 30,
+    "last_seen_live": 3,
+    "updated": "2026-10-19T11:35:02.318553"
   }
 }
