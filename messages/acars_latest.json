@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.10.2026 15:16 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
       "time": "19.10.2026 15:19 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -328,6 +317,17 @@
       "level": -39.1,
       "label": "5V",
       "msgno": "S52A",
+      "text": "No text"
+    },
+    {
+      "time": "19.10.2026 17:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -26.8,
+      "label": "Q0",
+      "msgno": "S17A",
       "text": "No text"
     }
   ]
