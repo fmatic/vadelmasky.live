@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.10.2026 16:45 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "5V",
-      "msgno": "S11A",
-      "text": "No text"
-    },
-    {
       "time": "19.10.2026 16:46 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C05A",
       "text": ".1/WRN/WN2610191959  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "19.10.2026 20:00 UTC",
+      "source": "ACARS",
+      "flight": "CA8404",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "H1",
+      "msgno": "C06A",
+      "text": ".1/FLR/FR2610191959  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
