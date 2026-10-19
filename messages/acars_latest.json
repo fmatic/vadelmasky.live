@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.10.2026 16:44 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "Q0",
-      "msgno": "S09A",
-      "text": "No text"
-    },
-    {
-      "time": "19.10.2026 16:44 UTC",
-      "source": "ACARS",
-      "flight": "HO1667",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "SA",
-      "msgno": "S10A",
-      "text": "0EV164416VSH/"
-    },
-    {
       "time": "19.10.2026 16:45 UTC",
       "source": "ACARS",
       "flight": "HO1667",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S50A",
       "text": "0LH195014VS"
+    },
+    {
+      "time": "19.10.2026 19:56 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-223F",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "O06A",
+      "text": "SS0340F_501\r\nB-223F  CKK206EHAMZSPD191026195639ER\r\n30831001829-1125173863168BSM79967A21\r\n6476101573 2701191026 195636\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30998\r\n      ) 0 02N    )16.)\r"
+    },
+    {
+      "time": "19.10.2026 19:59 UTC",
+      "source": "ACARS",
+      "flight": "CA8404",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "H1",
+      "msgno": "C05A",
+      "text": ".1/WRN/WN2610191959  345800506NAV GPS 1 FAULT"
     }
   ]
 }
