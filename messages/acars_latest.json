@@ -6,17 +6,6 @@
       "flight": "N70380",
       "tail": "OH-ATO",
       "freq": 131.825,
-      "level": -25.5,
-      "label": "Q0",
-      "msgno": "S13A",
-      "text": "No text"
-    },
-    {
-      "time": "19.10.2026 02:58 UTC",
-      "source": "ACARS",
-      "flight": "N70380",
-      "tail": "OH-ATO",
-      "freq": 131.825,
       "level": -26.0,
       "label": "SA",
       "msgno": "M06A",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S21A",
       "text": "0EV062812V"
+    },
+    {
+      "time": "19.10.2026 07:49 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ3",
+      "freq": 131.725,
+      "level": -29.0,
+      "label": "20",
+      "msgno": "M13A",
+      "text": "POSN62218E025455,,074923,013,RW30     ,000108,,P3 ,25019,21,130"
     }
   ]
 }
