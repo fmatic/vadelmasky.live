@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.10.2026 20:59 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "H1",
-      "msgno": "O95B",
-      "text": "SS0340F_428\r\nB-228S  CKK216EDDFZSPD191026205941ER\r\n30731322829-1225188363168BSM79967A21\r\n5206101516 2701191026 205938\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  31319\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n191026205941\r\n111111111111\r\n111111111111"
-    },
-    {
-      "time": "20.10.2026 06:47 UTC",
-      "source": "ACARS",
-      "flight": "GS0001",
-      "tail": "DCSMC",
-      "freq": 131.725,
-      "level": -38.8,
-      "label": "Q0",
-      "msgno": "S04A",
-      "text": "No text"
-    },
-    {
-      "time": "20.10.2026 06:47 UTC",
-      "source": "ACARS",
-      "flight": "GS0001",
-      "tail": "DCSMC",
-      "freq": 131.725,
-      "level": -37.6,
-      "label": "83",
-      "msgno": "M10A",
-      "text": "001PR20064753N6307.5E02516.4410421    "
-    },
-    {
       "time": "20.10.2026 11:25 UTC",
       "source": "ACARS",
       "flight": "JL0047",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O24A",
       "text": "SB0122BA_B-2091  LEMDZSPD887\r\n 61449 0257762233 33001-4901470240107GX010013"
+    },
+    {
+      "time": "20.10.2026 22:35 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "_d",
+      "msgno": "S22A",
+      "text": "No text"
+    },
+    {
+      "time": "20.10.2026 22:35 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "H1",
+      "msgno": "E72B",
+      "text": "33"
+    },
+    {
+      "time": "20.10.2026 22:38 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -28.6,
+      "label": "10",
+      "msgno": "M49A",
+      "text": "POS202242, N 6175,E 2701,828,294,13592,  14,33000, 704,-186,-491,7"
     }
   ]
 }
