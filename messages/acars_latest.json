@@ -6,17 +6,6 @@
       "flight": "GR0000",
       "tail": "OHTFD",
       "freq": 131.725,
-      "level": -28.8,
-      "label": "SA",
-      "msgno": "S49A",
-      "text": "0EV203720V/"
-    },
-    {
-      "time": "19.10.2026 20:37 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFD",
-      "freq": 131.725,
       "level": -29.3,
       "label": "SA",
       "msgno": "S49A",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S82A",
       "text": "No text"
+    },
+    {
+      "time": "20.10.2026 17:40 UTC",
+      "source": "ACARS",
+      "flight": "JD0669",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -42.2,
+      "label": "14",
+      "msgno": "M57A",
+      "text": "POS\r\n20OCT,1739,257,37999,N 62.378,E 23.931,18106,  14,154"
     }
   ]
 }
