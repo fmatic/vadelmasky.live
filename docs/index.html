@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.10.2026 09:00 UTC</div>
+        <div class="value">20.10.2026 09:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,10 +283,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>251.1 kt</b></div>
-                    <div><span>Track</span><b>198.58°</b></div>
-                    <div><span>Position</span><b>62.0759, 26.0414</b></div>
-                    <div><span>Last seen</span><b>20.10.2026 09:00 UTC</b></div>
+                    <div><span>Speed</span><b>252.4 kt</b></div>
+                    <div><span>Track</span><b>198.0°</b></div>
+                    <div><span>Position</span><b>61.7427, 25.8059</b></div>
+                    <div><span>Last seen</span><b>20.10.2026 09:05 UTC</b></div>
                 </div>
             </div>
 
@@ -975,7 +975,7 @@ B-228S  CKK216EDDFZSPD191026205941ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F9", "flight": "FIN5NB", "lat": 62.075873, "lon": 26.041361, "alt": 20025, "speed": 251.1, "last_seen": "20.10.2026 09:00 UTC"}, {"hex": "461E1A", "flight": "FIN7TP", "lat": 61.310554, "lon": 25.29307, "alt": 19525, "speed": 380.3, "last_seen": "20.10.2026 08:33 UTC"}, {"hex": "4607F9", "flight": "OHDAN", "lat": 62.362914, "lon": 25.77551, "alt": 10000, "speed": 182.8, "last_seen": "20.10.2026 07:44 UTC"}, {"hex": "4631CD", "flight": "OHSWJ", "lat": 62.60438, "lon": 26.391907, "alt": 45000, "speed": 396.5, "last_seen": "20.10.2026 07:35 UTC"}, {"hex": "4601F5", "flight": "FIN5ET", "lat": 61.080446, "lon": 25.524394, "alt": 16000, "speed": 260.0, "last_seen": "20.10.2026 06:38 UTC"}, {"hex": "467896", "flight": "N21", "lat": 62.372737, "lon": 25.742129, "alt": 1900, "speed": 155.5, "last_seen": "20.10.2026 06:28 UTC"}, {"hex": "4601FA", "flight": "-", "lat": 60.786422, "lon": 25.568521, "alt": 20000, "speed": 282.5, "last_seen": "20.10.2026 06:17 UTC"}, {"hex": "467890", "flight": "T11", "lat": 62.326045, "lon": 25.84164, "alt": 1675, "speed": 181.0, "last_seen": "20.10.2026 05:56 UTC"}, {"hex": "461F6A", "flight": "FIN448", "lat": 61.194453, "lon": 25.262146, "alt": 20675, "speed": 378.0, "last_seen": "20.10.2026 05:16 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.413481, "lon": 25.417379, "alt": 18000, "speed": 269.1, "last_seen": "20.10.2026 03:19 UTC"}];
+const aircraft = [{"hex": "4601F9", "flight": "FIN5NB", "lat": 61.742706, "lon": 25.805904, "alt": 20025, "speed": 252.4, "last_seen": "20.10.2026 09:05 UTC"}, {"hex": "461E1A", "flight": "FIN7TP", "lat": 61.310554, "lon": 25.29307, "alt": 19525, "speed": 380.3, "last_seen": "20.10.2026 08:33 UTC"}, {"hex": "4607F9", "flight": "OHDAN", "lat": 62.362914, "lon": 25.77551, "alt": 10000, "speed": 182.8, "last_seen": "20.10.2026 07:44 UTC"}, {"hex": "4631CD", "flight": "OHSWJ", "lat": 62.60438, "lon": 26.391907, "alt": 45000, "speed": 396.5, "last_seen": "20.10.2026 07:35 UTC"}, {"hex": "4601F5", "flight": "FIN5ET", "lat": 61.080446, "lon": 25.524394, "alt": 16000, "speed": 260.0, "last_seen": "20.10.2026 06:38 UTC"}, {"hex": "467896", "flight": "N21", "lat": 62.372737, "lon": 25.742129, "alt": 1900, "speed": 155.5, "last_seen": "20.10.2026 06:28 UTC"}, {"hex": "4601FA", "flight": "-", "lat": 60.786422, "lon": 25.568521, "alt": 20000, "speed": 282.5, "last_seen": "20.10.2026 06:17 UTC"}, {"hex": "467890", "flight": "T11", "lat": 62.326045, "lon": 25.84164, "alt": 1675, "speed": 181.0, "last_seen": "20.10.2026 05:56 UTC"}, {"hex": "461F6A", "flight": "FIN448", "lat": 61.194453, "lon": 25.262146, "alt": 20675, "speed": 378.0, "last_seen": "20.10.2026 05:16 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.413481, "lon": 25.417379, "alt": 18000, "speed": 269.1, "last_seen": "20.10.2026 03:19 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
