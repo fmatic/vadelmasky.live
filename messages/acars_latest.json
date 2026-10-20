@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.10.2026 20:37 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFD",
-      "freq": 131.725,
-      "level": -29.3,
-      "label": "SA",
-      "msgno": "S49A",
-      "text": "0EV203720V/"
-    },
-    {
-      "time": "19.10.2026 20:37 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFD",
-      "freq": 131.725,
-      "level": -29.9,
-      "label": "5V",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
-      "time": "19.10.2026 20:59 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "H1",
-      "msgno": "O95A",
-      "text": "SS0340F_428\r\nB-228S  CKK216EDDFZSPD191026205941ER\r\n30731322829-1225188363168BSM79967A21\r\n5206101516 2701191026 205938\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  31319\r\n      ) 0 02N    )16.)\r"
-    },
-    {
       "time": "19.10.2026 20:59 UTC",
       "source": "ACARS",
       "flight": "CK0216",
@@ -329,6 +296,39 @@
       "label": "14",
       "msgno": "M57A",
       "text": "POS\r\n20OCT,1739,257,37999,N 62.378,E 23.931,18106,  14,154"
+    },
+    {
+      "time": "20.10.2026 22:32 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -38.3,
+      "label": "H1",
+      "msgno": "O23A",
+      "text": "SS0340C_208\r\nB-2091  CAO100LEMDZSPD201026223224ER\r\n29533000831-186225932316DBSM79962A\r\n406610600 250201026 223221\r\n68)6))83) 2))\r\n73)6)) 2) 2))\r\n10000000000001111\r\n  32999\r\n  3299)12 06(3276)16.)\r\n  3299)12"
+    },
+    {
+      "time": "20.10.2026 22:32 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -41.5,
+      "label": "_d",
+      "msgno": "S21A",
+      "text": "No text"
+    },
+    {
+      "time": "20.10.2026 22:34 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "H1",
+      "msgno": "O24A",
+      "text": "SB0122BA_B-2091  LEMDZSPD887\r\n 61449 0257762233 33001-4901470240107GX010013"
     }
   ]
 }
