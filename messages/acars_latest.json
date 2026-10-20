@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.10.2026 20:29 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFD",
-      "freq": 131.725,
-      "level": -37.3,
-      "label": "5V",
-      "msgno": "S39A",
-      "text": "No text"
-    },
-    {
-      "time": "19.10.2026 20:35 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFD",
-      "freq": 131.725,
-      "level": -28.5,
-      "label": "Q0",
-      "msgno": "S45A",
-      "text": "No text"
-    },
-    {
-      "time": "19.10.2026 20:35 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFD",
-      "freq": 131.725,
-      "level": -26.6,
-      "label": "SA",
-      "msgno": "S42A",
-      "text": "0EV202931V/"
-    },
-    {
       "time": "19.10.2026 20:36 UTC",
       "source": "ACARS",
       "flight": "GR0000",
@@ -329,6 +296,39 @@
       "label": "5V",
       "msgno": "S99A",
       "text": "No text"
+    },
+    {
+      "time": "20.10.2026 14:30 UTC",
+      "source": "ACARS",
+      "flight": "CK0218",
+      "tail": "B-222N",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "Q0",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "20.10.2026 14:30 UTC",
+      "source": "ACARS",
+      "flight": "CK0218",
+      "tail": "B-222N",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "H1",
+      "msgno": "O95A",
+      "text": "SB0122BA_B-222N  EHAMZSPD156\r\n 61329 0265571429 32999-480179010010NXW007009"
+    },
+    {
+      "time": "20.10.2026 14:31 UTC",
+      "source": "ACARS",
+      "flight": "CK0218",
+      "tail": "B-222N",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "16",
+      "msgno": "M46A",
+      "text": "POSA1N61483E 27067,ALAMI  ,134857,329,KOKAT  ,144850,-49,  5, 706,831"
     }
   ]
 }
