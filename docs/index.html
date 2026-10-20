@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.10.2026 13:40 UTC</div>
+        <div class="value">20.10.2026 13:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T46</div>
+                    <div class="meta">ICAO 467895 · REG PI-06 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge mid">14350 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>286.5 kt</b></div>
+                    <div><span>Track</span><b>17.68°</b></div>
+                    <div><span>Position</span><b>61.6980, 25.5727</b></div>
+                    <div><span>Last seen</span><b>20.10.2026 13:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-06" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -435,30 +459,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATL" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">T46</div>
-                    <div class="meta">ICAO 467895 · REG PI-06 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge mid">18000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>250.0 kt</b></div>
-                    <div><span>Track</span><b>206.87°</b></div>
-                    <div><span>Position</span><b>61.8105, 25.4965</b></div>
-                    <div><span>Last seen</span><b>20.10.2026 11:04 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-06" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -857,6 +857,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CA0939</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-7952 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">20.10.2026 13:41 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S93A · Level -39.3 dB
+            </div>
+
+            <div class="acars-text">0LS134624V</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">N70366</div>
                     <div class="acars-meta">
                         ACARS · Tail OH-ATH · 131.825 MHz
@@ -1068,30 +1086,12 @@ B </div>
             <div class="acars-text">001PR20064753N6307.5E02516.4410421    </div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">GS0001</div>
-                    <div class="acars-meta">
-                        ACARS · Tail DCSMC · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">20.10.2026 06:47 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label Q0 · Msg S04A · Level -38.8 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "43C6F4", "flight": "RRR9920", "lat": 60.898846, "lon": 25.823953, "alt": 25000, "speed": 200.8, "last_seen": "20.10.2026 12:59 UTC"}, {"hex": "461F6C", "flight": "FIN5KR", "lat": 61.552048, "lon": 25.291901, "alt": 26700, "speed": 394.1, "last_seen": "20.10.2026 12:38 UTC"}, {"hex": "486A40", "flight": "AGR625", "lat": 62.469286, "lon": 26.674488, "alt": 15875, "speed": 390.5, "last_seen": "20.10.2026 12:12 UTC"}, {"hex": "4601F7", "flight": "FIN2KK", "lat": 61.784596, "lon": 25.301819, "alt": 19025, "speed": 256.0, "last_seen": "20.10.2026 11:54 UTC"}, {"hex": "461F67", "flight": "FIN2PD", "lat": 61.544805, "lon": 25.291545, "alt": 22725, "speed": 375.1, "last_seen": "20.10.2026 11:54 UTC"}, {"hex": "4601F5", "flight": "FIN26B", "lat": 60.972492, "lon": 25.503682, "alt": 17250, "speed": 299.0, "last_seen": "20.10.2026 11:47 UTC"}, {"hex": "4601F9", "flight": "FIN286", "lat": 61.45873, "lon": 25.412801, "alt": 15825, "speed": 239.4, "last_seen": "20.10.2026 11:43 UTC"}, {"hex": "467895", "flight": "T46", "lat": 61.810501, "lon": 25.496521, "alt": 18000, "speed": 250.0, "last_seen": "20.10.2026 11:04 UTC"}, {"hex": "4607F9", "flight": "OHDAN", "lat": 62.058416, "lon": 25.533854, "alt": 10000, "speed": 172.0, "last_seen": "20.10.2026 10:13 UTC"}, {"hex": "4631CD", "flight": "OHSWJ", "lat": 61.31763, "lon": 25.569458, "alt": 23000, "speed": 396.0, "last_seen": "20.10.2026 09:30 UTC"}, {"hex": "461E1A", "flight": "FIN7TP", "lat": 61.310554, "lon": 25.29307, "alt": 19525, "speed": 380.3, "last_seen": "20.10.2026 08:33 UTC"}, {"hex": "467896", "flight": "N21", "lat": 62.372737, "lon": 25.742129, "alt": 1900, "speed": 155.5, "last_seen": "20.10.2026 06:28 UTC"}, {"hex": "4601FA", "flight": "-", "lat": 60.786422, "lon": 25.568521, "alt": 20000, "speed": 282.5, "last_seen": "20.10.2026 06:17 UTC"}, {"hex": "467890", "flight": "T11", "lat": 62.326045, "lon": 25.84164, "alt": 1675, "speed": 181.0, "last_seen": "20.10.2026 05:56 UTC"}, {"hex": "461F6A", "flight": "FIN448", "lat": 61.194453, "lon": 25.262146, "alt": 20675, "speed": 378.0, "last_seen": "20.10.2026 05:16 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.413481, "lon": 25.417379, "alt": 18000, "speed": 269.1, "last_seen": "20.10.2026 03:19 UTC"}];
+const aircraft = [{"hex": "467895", "flight": "T46", "lat": 61.698029, "lon": 25.572739, "alt": 14350, "speed": 286.5, "last_seen": "20.10.2026 13:45 UTC"}, {"hex": "43C6F4", "flight": "RRR9920", "lat": 60.898846, "lon": 25.823953, "alt": 25000, "speed": 200.8, "last_seen": "20.10.2026 12:59 UTC"}, {"hex": "461F6C", "flight": "FIN5KR", "lat": 61.552048, "lon": 25.291901, "alt": 26700, "speed": 394.1, "last_seen": "20.10.2026 12:38 UTC"}, {"hex": "486A40", "flight": "AGR625", "lat": 62.469286, "lon": 26.674488, "alt": 15875, "speed": 390.5, "last_seen": "20.10.2026 12:12 UTC"}, {"hex": "4601F7", "flight": "FIN2KK", "lat": 61.784596, "lon": 25.301819, "alt": 19025, "speed": 256.0, "last_seen": "20.10.2026 11:54 UTC"}, {"hex": "461F67", "flight": "FIN2PD", "lat": 61.544805, "lon": 25.291545, "alt": 22725, "speed": 375.1, "last_seen": "20.10.2026 11:54 UTC"}, {"hex": "4601F5", "flight": "FIN26B", "lat": 60.972492, "lon": 25.503682, "alt": 17250, "speed": 299.0, "last_seen": "20.10.2026 11:47 UTC"}, {"hex": "4601F9", "flight": "FIN286", "lat": 61.45873, "lon": 25.412801, "alt": 15825, "speed": 239.4, "last_seen": "20.10.2026 11:43 UTC"}, {"hex": "4607F9", "flight": "OHDAN", "lat": 62.058416, "lon": 25.533854, "alt": 10000, "speed": 172.0, "last_seen": "20.10.2026 10:13 UTC"}, {"hex": "4631CD", "flight": "OHSWJ", "lat": 61.31763, "lon": 25.569458, "alt": 23000, "speed": 396.0, "last_seen": "20.10.2026 09:30 UTC"}, {"hex": "461E1A", "flight": "FIN7TP", "lat": 61.310554, "lon": 25.29307, "alt": 19525, "speed": 380.3, "last_seen": "20.10.2026 08:33 UTC"}, {"hex": "467896", "flight": "N21", "lat": 62.372737, "lon": 25.742129, "alt": 1900, "speed": 155.5, "last_seen": "20.10.2026 06:28 UTC"}, {"hex": "4601FA", "flight": "-", "lat": 60.786422, "lon": 25.568521, "alt": 20000, "speed": 282.5, "last_seen": "20.10.2026 06:17 UTC"}, {"hex": "467890", "flight": "T11", "lat": 62.326045, "lon": 25.84164, "alt": 1675, "speed": 181.0, "last_seen": "20.10.2026 05:56 UTC"}, {"hex": "461F6A", "flight": "FIN448", "lat": 61.194453, "lon": 25.262146, "alt": 20675, "speed": 378.0, "last_seen": "20.10.2026 05:16 UTC"}, {"hex": "4601F8", "flight": "FIN8KH", "lat": 61.413481, "lon": 25.417379, "alt": 18000, "speed": 269.1, "last_seen": "20.10.2026 03:19 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
