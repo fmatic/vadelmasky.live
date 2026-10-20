@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.10.2026 17:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -26.8,
-      "label": "Q0",
-      "msgno": "S17A",
-      "text": "No text"
-    },
-    {
-      "time": "19.10.2026 19:50 UTC",
-      "source": "ACARS",
-      "flight": "CA8404",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "SA",
-      "msgno": "S50A",
-      "text": "0LH195014VS"
-    },
-    {
-      "time": "19.10.2026 19:56 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-223F",
-      "freq": 131.825,
-      "level": -34.0,
-      "label": "H1",
-      "msgno": "O06A",
-      "text": "SS0340F_501\r\nB-223F  CKK206EHAMZSPD191026195639ER\r\n30831001829-1125173863168BSM79967A21\r\n6476101573 2701191026 195636\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30998\r\n      ) 0 02N    )16.)\r"
-    },
-    {
-      "time": "19.10.2026 19:59 UTC",
-      "source": "ACARS",
-      "flight": "CA8404",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "H1",
-      "msgno": "C05A",
-      "text": ".1/WRN/WN2610191959  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "19.10.2026 20:00 UTC",
-      "source": "ACARS",
-      "flight": "CA8404",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "H1",
-      "msgno": "C06A",
-      "text": ".1/FLR/FR2610191959  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "19.10.2026 20:28 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFD",
-      "freq": 131.725,
-      "level": -35.4,
-      "label": "Q0",
-      "msgno": "S36A",
-      "text": "No text"
-    },
-    {
-      "time": "19.10.2026 20:28 UTC",
-      "source": "ACARS",
-      "flight": "GR0000",
-      "tail": "OHTFD",
-      "freq": 131.725,
-      "level": -40.1,
-      "label": "SA",
-      "msgno": "S32A",
-      "text": "0EV202426V/"
-    },
-    {
       "time": "19.10.2026 20:29 UTC",
       "source": "ACARS",
       "flight": "GR0000",
@@ -329,6 +252,83 @@
       "label": "H1",
       "msgno": "O73A",
       "text": "SB0022BA_332JA742J  JAL4TA 347191026 225910RJTTEFHK316DBSM7996246836120\r\n 180 683529 456\r\n 130 512529 464\r\nTA   64 3) 261 260191026 225917OCOCCRR\r\nDC36767275-269-572201026 112516OCOCCRO"
+    },
+    {
+      "time": "20.10.2026 11:31 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -25.9,
+      "label": "Q0",
+      "msgno": "S34A",
+      "text": "No text"
+    },
+    {
+      "time": "20.10.2026 11:31 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -26.0,
+      "label": "SA",
+      "msgno": "S35A",
+      "text": "0EV113115V"
+    },
+    {
+      "time": "20.10.2026 11:31 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -24.9,
+      "label": "B9",
+      "msgno": "L25A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "20.10.2026 11:31 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -27.7,
+      "label": "_d",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "20.10.2026 11:31 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "_d",
+      "msgno": "S37A",
+      "text": "No text"
+    },
+    {
+      "time": "20.10.2026 11:34 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "80",
+      "msgno": "M02A",
+      "text": "3701 INRANG 0366/20 EFKU/EFHK .OH-ATH\r\n/ETA 1159/ERT     "
+    },
+    {
+      "time": "20.10.2026 11:34 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -28.5,
+      "label": "_d",
+      "msgno": "S38A",
+      "text": "No text"
     }
   ]
 }
