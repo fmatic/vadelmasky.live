@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 13:49 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -27.4,
-      "label": "Q0",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
       "time": "21.10.2026 13:57 UTC",
       "source": "ACARS",
       "flight": "N70369",
@@ -329,6 +318,17 @@
       "label": "1M",
       "msgno": "M39A",
       "text": "/AY536/ETA01/211026/EFRO/EFHK/EFHK/2JK0\r\n1612/EFHK15/7  "
+    },
+    {
+      "time": "21.10.2026 15:58 UTC",
+      "source": "ACARS",
+      "flight": "N70346",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -43.2,
+      "label": "_d",
+      "msgno": "S63A",
+      "text": "No text"
     }
   ]
 }
