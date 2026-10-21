@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 02:59 UTC",
-      "source": "ACARS",
-      "flight": "HO1659",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "5V",
-      "msgno": "S99A",
-      "text": "No text"
-    },
-    {
       "time": "21.10.2026 03:01 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S38A",
       "text": "0LS100502VH"
+    },
+    {
+      "time": "21.10.2026 10:06 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "SA",
+      "msgno": "S41A",
+      "text": "0LS100611VH"
     }
   ]
 }

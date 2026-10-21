@@ -200,13 +200,13 @@
       "flight": "T06",
       "reg": "PI-06",
       "type": "PC12",
-      "lat": 62.249542,
-      "lon": 25.761312,
-      "alt": 2575,
-      "speed": 190.4,
-      "track": 127.53,
+      "lat": 62.324203,
+      "lon": 25.845133,
+      "alt": 1900,
+      "speed": 197.3,
+      "track": 314.38,
       "seen_first": "2026-10-21T04:42:01.408661",
-      "last_seen": "2026-10-21T10:05:02.127208"
+      "last_seen": "2026-10-21T10:09:01.863389"
     },
     "461f6d": {
       "hex": "461f6d",
@@ -402,11 +402,37 @@
       "track": null,
       "seen_first": "2026-10-21T09:32:01.972365",
       "last_seen": "2026-10-21T09:37:01.895233"
+    },
+    "78026e": {
+      "hex": "78026e",
+      "flight": "CAO3157",
+      "reg": "B-6070",
+      "type": "A332",
+      "lat": 61.243705,
+      "lon": 25.339661,
+      "alt": 38000,
+      "speed": 448.0,
+      "track": 244.51,
+      "seen_first": "2026-10-21T10:06:02.003916",
+      "last_seen": "2026-10-21T10:09:01.863389"
+    },
+    "4601f5": {
+      "hex": "4601f5",
+      "flight": "",
+      "reg": "OH-ATH",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-21T10:10:02.178366",
+      "last_seen": "2026-10-21T10:10:02.178366"
     }
   },
   "summary": {
-    "total_unique_aircraft": 31,
-    "last_seen_live": 2,
-    "updated": "2026-10-21T10:05:02.127208"
+    "total_unique_aircraft": 33,
+    "last_seen_live": 1,
+    "updated": "2026-10-21T10:10:02.178366"
   }
 }
