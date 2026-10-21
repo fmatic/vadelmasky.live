@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">484.0 kt</div>
+        <div class="value">488.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">21.10.2026 02:40 UTC</div>
+        <div class="value">21.10.2026 02:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,19 +274,43 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">DKH1661</div>
-                    <div class="meta">ICAO 78165E · REG B-209R · TYPE B789</div>
+                    <div class="flight">CES201</div>
+                    <div class="meta">ICAO 7822F4 · REG B-227T · TYPE B789</div>
                 </div>
-                <div class="alt-badge high">38000 ft</div>
+                <div class="alt-badge high">36000 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>484.0 kt</b></div>
-                    <div><span>Track</span><b>244.16°</b></div>
-                    <div><span>Position</span><b>61.2805, 25.5001</b></div>
-                    <div><span>Last seen</span><b>21.10.2026 02:40 UTC</b></div>
+                    <div><span>Speed</span><b>488.0 kt</b></div>
+                    <div><span>Track</span><b>245.57°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>21.10.2026 02:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-227T" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">DKH1661</div>
+                    <div class="meta">ICAO 78165E · REG B-209R · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">37975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>249.1 kt</b></div>
+                    <div><span>Track</span><b>244.05°</b></div>
+                    <div><span>Position</span><b>61.1777, 25.0591</b></div>
+                    <div><span>Last seen</span><b>21.10.2026 02:42 UTC</b></div>
                 </div>
             </div>
 
@@ -630,7 +654,7 @@ B-2091  CAO100LEMDZSPD201026223224ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "78165E", "flight": "DKH1661", "lat": 61.280481, "lon": 25.500081, "alt": 38000, "speed": 484.0, "last_seen": "21.10.2026 02:40 UTC"}, {"hex": "7804A7", "flight": "CES219", "lat": 61.216705, "lon": 25.503438, "alt": 32000, "speed": 482.0, "last_seen": "21.10.2026 01:50 UTC"}];
+const aircraft = [{"hex": "78165E", "flight": "DKH1661", "lat": 61.177741, "lon": 25.059102, "alt": 37975, "speed": 249.1, "last_seen": "21.10.2026 02:42 UTC"}, {"hex": "7804A7", "flight": "CES219", "lat": 61.216705, "lon": 25.503438, "alt": 32000, "speed": 482.0, "last_seen": "21.10.2026 01:50 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
