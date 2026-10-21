@@ -6,17 +6,6 @@
       "flight": "HO1608",
       "tail": "B-207N",
       "freq": 131.825,
-      "level": -36.2,
-      "label": "Q0",
-      "msgno": "S04A",
-      "text": "No text"
-    },
-    {
-      "time": "21.10.2026 14:21 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-207N",
-      "freq": 131.825,
       "level": -36.8,
       "label": "SA",
       "msgno": "S05A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C30A",
       "text": ".1/WRN/WN2610212048  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "21.10.2026 21:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "Q0",
+      "msgno": "S85A",
+      "text": "No text"
     }
   ]
 }
