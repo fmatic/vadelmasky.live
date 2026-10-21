@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 14:12 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -40.1,
-      "label": "SA",
-      "msgno": "S81A",
-      "text": "0EV141242VSH/"
-    },
-    {
       "time": "21.10.2026 14:15 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O52B",
       "text": "\n      ) 0 02N    )16.)\r\n211026185539\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "21.10.2026 19:00 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-222N",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "SA",
+      "msgno": "S19A",
+      "text": "0LS190018V"
     }
   ]
 }
