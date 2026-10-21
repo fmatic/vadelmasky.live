@@ -603,13 +603,13 @@
       "flight": "FIN6YP",
       "reg": "OH-ATN",
       "type": "AT75",
-      "lat": 61.744034,
-      "lon": 26.247613,
+      "lat": 61.357132,
+      "lon": 25.807375,
       "alt": 16000,
-      "speed": 247.9,
-      "track": 208.43,
+      "speed": 242.9,
+      "track": 208.25,
       "seen_first": "2026-10-21T13:43:01.788643",
-      "last_seen": "2026-10-21T15:20:01.436977"
+      "last_seen": "2026-10-21T15:25:01.314566"
     },
     "780005": {
       "hex": "780005",
@@ -665,21 +665,47 @@
     },
     "4601f2": {
       "hex": "4601f2",
-      "flight": "",
+      "flight": "FIN5CE",
       "reg": "OH-ATE",
       "type": "AT75",
+      "lat": 61.68219,
+      "lon": 25.721054,
+      "alt": 21000,
+      "speed": 286.3,
+      "track": 21.73,
+      "seen_first": "2026-10-21T15:18:01.885678",
+      "last_seen": "2026-10-21T15:25:01.314566"
+    },
+    "780daa": {
+      "hex": "780daa",
+      "flight": "CSN5202",
+      "reg": "B-2028",
+      "type": "B77L",
+      "lat": 62.366499,
+      "lon": 26.294509,
+      "alt": 31000,
+      "speed": 492.0,
+      "track": 80.51,
+      "seen_first": "2026-10-21T15:22:01.490564",
+      "last_seen": "2026-10-21T15:25:01.314566"
+    },
+    "461fa8": {
+      "hex": "461fa8",
+      "flight": "",
+      "reg": "OH-LZS",
+      "type": "A321",
       "lat": null,
       "lon": null,
       "alt": null,
       "speed": null,
       "track": null,
-      "seen_first": "2026-10-21T15:18:01.885678",
-      "last_seen": "2026-10-21T15:20:01.436977"
+      "seen_first": "2026-10-21T15:25:01.314566",
+      "last_seen": "2026-10-21T15:25:01.314566"
     }
   },
   "summary": {
-    "total_unique_aircraft": 52,
-    "last_seen_live": 2,
-    "updated": "2026-10-21T15:20:01.436977"
+    "total_unique_aircraft": 54,
+    "last_seen_live": 4,
+    "updated": "2026-10-21T15:25:01.314566"
   }
 }
