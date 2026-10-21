@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 10:05 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "SA",
-      "msgno": "S38A",
-      "text": "0LS100502VH"
-    },
-    {
-      "time": "21.10.2026 10:06 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -32.5,
-      "label": "SA",
-      "msgno": "S41A",
-      "text": "0LS100611VH"
-    },
-    {
       "time": "21.10.2026 11:00 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S18A",
       "text": "0EV123005VS/"
+    },
+    {
+      "time": "21.10.2026 12:30 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "5V",
+      "msgno": "S19A",
+      "text": "No text"
+    },
+    {
+      "time": "21.10.2026 12:31 UTC",
+      "source": "ACARS",
+      "flight": "HO1660",
+      "tail": "B-20EQ",
+      "freq": 131.825,
+      "level": -38.8,
+      "label": "Q0",
+      "msgno": "S21A",
+      "text": "No text"
     }
   ]
 }
