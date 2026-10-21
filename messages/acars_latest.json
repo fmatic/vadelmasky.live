@@ -6,17 +6,6 @@
       "flight": "N70369",
       "tail": "OH-ATN",
       "freq": 131.825,
-      "level": -31.5,
-      "label": "H1",
-      "msgno": "D00A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20369,211026,1345,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2196,.18001,-007/F1TORQ,NP,N"
-    },
-    {
-      "time": "21.10.2026 13:57 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATN",
-      "freq": 131.825,
       "level": -30.2,
       "label": "H1",
       "msgno": "D00B",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S63A",
       "text": "No text"
+    },
+    {
+      "time": "21.10.2026 18:30 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-223G",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "18",
+      "msgno": "M27A",
+      "text": "POX,CSG2518   ,21OCT26,183027,EGPK,ZGGG,N061.73,E0025.81,370, 638,836,  79.6, 176.8,024,-56.6,033127, 37840,"
     }
   ]
 }
