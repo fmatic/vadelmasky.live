@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.10.2026 16:16 UTC",
-      "source": "ACARS",
-      "flight": "N70345",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -43.2,
-      "label": "_d",
-      "msgno": "S05A",
-      "text": "No text"
-    },
-    {
-      "time": "20.10.2026 17:30 UTC",
-      "source": "ACARS",
-      "flight": "N78944",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -39.8,
-      "label": "_d",
-      "msgno": "S82A",
-      "text": "No text"
-    },
-    {
       "time": "20.10.2026 17:40 UTC",
       "source": "ACARS",
       "flight": "JD0669",
@@ -329,6 +307,28 @@
       "label": "80",
       "msgno": "M00A",
       "text": "1001 OUTRP  0290/21 EFJY/EFHK .OH-ATJ\r\n/OUT 0258/FOB 0020/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "21.10.2026 05:23 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "10",
+      "msgno": "M35A",
+      "text": "POS210523, N 6187,E 2687,830,290,14947,  22,33999, 287,-218,-522,7"
+    },
+    {
+      "time": "21.10.2026 05:23 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "H1",
+      "msgno": "O35A",
+      "text": "SB0122BA_B-2095  ZSPDEGPK464\r\n 61858 0268710523 34003-520151023010GMY011012"
     }
   ]
 }
