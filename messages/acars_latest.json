@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -36.2,
-      "label": "5V",
-      "msgno": "S10A",
-      "text": "No text"
-    },
-    {
-      "time": "21.10.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -40.2,
-      "label": "Q0",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
       "time": "21.10.2026 15:14 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C20A",
       "text": ".1/FLR/FR2610212247  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "21.10.2026 22:50 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -25.7,
+      "label": "10",
+      "msgno": "M84A",
+      "text": "POS212250,N 61.635,E 27.213,0635,477875,,,37000,103480"
+    },
+    {
+      "time": "21.10.2026 22:54 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -37.8,
+      "label": "SA",
+      "msgno": "S12A",
+      "text": "0LS225450V"
     }
   ]
 }
