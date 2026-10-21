@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -29.0,
-      "label": "83",
-      "msgno": "M28A",
-      "text": "EBBR,ZSPD,211228, 61.89,  27.17,35000,289,  59.7, 55600, 55615, 55615"
-    },
-    {
-      "time": "21.10.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "HO1660",
-      "tail": "B-20EQ",
-      "freq": 131.825,
-      "level": -27.0,
-      "label": "H1",
-      "msgno": "C53B",
-      "text": "6049  \r\nMSG 3462021 A 1228 21OCT26 ER H PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6071 6070 6049  \r\nEOR\r\n"
-    },
-    {
       "time": "21.10.2026 12:29 UTC",
       "source": "ACARS",
       "flight": "HO1660",
@@ -328,6 +306,28 @@
       "level": -40.2,
       "label": "Q0",
       "msgno": "S12A",
+      "text": "No text"
+    },
+    {
+      "time": "21.10.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -29.6,
+      "label": "_d",
+      "msgno": "S79A",
+      "text": "No text"
+    },
+    {
+      "time": "21.10.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "_d",
+      "msgno": "S80A",
       "text": "No text"
     }
   ]
