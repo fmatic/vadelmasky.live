@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.10.2026 17:40 UTC",
-      "source": "ACARS",
-      "flight": "JD0669",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -42.2,
-      "label": "14",
-      "msgno": "M57A",
-      "text": "POS\r\n20OCT,1739,257,37999,N 62.378,E 23.931,18106,  14,154"
-    },
-    {
-      "time": "20.10.2026 22:32 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "H1",
-      "msgno": "O23A",
-      "text": "SS0340C_208\r\nB-2091  CAO100LEMDZSPD201026223224ER\r\n29533000831-186225932316DBSM79962A\r\n406610600 250201026 223221\r\n68)6))83) 2))\r\n73)6)) 2) 2))\r\n10000000000001111\r\n  32999\r\n  3299)12 06(3276)16.)\r\n  3299)12"
-    },
-    {
-      "time": "20.10.2026 22:32 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -41.5,
-      "label": "_d",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "20.10.2026 22:34 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "H1",
-      "msgno": "O24A",
-      "text": "SB0122BA_B-2091  LEMDZSPD887\r\n 61449 0257762233 33001-4901470240107GX010013"
-    },
-    {
-      "time": "20.10.2026 22:35 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2091",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "_d",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
       "time": "20.10.2026 22:35 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "O35A",
       "text": "SB0122BA_B-2095  ZSPDEGPK464\r\n 61858 0268710523 34003-520151023010GMY011012"
+    },
+    {
+      "time": "21.10.2026 05:26 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -29.3,
+      "label": "5U",
+      "msgno": "M36A",
+      "text": "FS EGPK,EIDW"
+    },
+    {
+      "time": "21.10.2026 05:26 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "_d",
+      "msgno": "S49A",
+      "text": "No text"
+    },
+    {
+      "time": "21.10.2026 05:26 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -38.2,
+      "label": "_d",
+      "msgno": "S50A",
+      "text": "No text"
+    },
+    {
+      "time": "21.10.2026 05:26 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "_d",
+      "msgno": "S51A",
+      "text": "No text"
+    },
+    {
+      "time": "21.10.2026 05:26 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "_d",
+      "msgno": "S52A",
+      "text": "No text"
     }
   ]
 }
