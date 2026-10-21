@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 14:22 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -36.3,
-      "label": "5V",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
-      "time": "21.10.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -39.8,
-      "label": "Q0",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
-      "time": "21.10.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "SA",
-      "msgno": "S09A",
-      "text": "0EV142309VSH/"
-    },
-    {
       "time": "21.10.2026 14:23 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S11A",
       "text": "No text"
+    },
+    {
+      "time": "21.10.2026 22:47 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -28.8,
+      "label": "H1",
+      "msgno": "C18A",
+      "text": ".1/FLR/FR2610212246  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "21.10.2026 22:47 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -34.0,
+      "label": "H1",
+      "msgno": "C19A",
+      "text": ".1/WRN/WN2610212247  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "21.10.2026 22:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/FLR/FR2610212247  34361606MMR2   1,,,,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
