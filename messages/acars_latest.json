@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 13:58 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "_d",
-      "msgno": "S47A",
-      "text": "No text"
-    },
-    {
-      "time": "21.10.2026 14:12 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-207N",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "Q0",
-      "msgno": "S80A",
-      "text": "No text"
-    },
-    {
       "time": "21.10.2026 14:12 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S12A",
       "text": "No text"
+    },
+    {
+      "time": "21.10.2026 18:55 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -22.1,
+      "label": "H1",
+      "msgno": "C58A",
+      "text": ".1/FLR/FR2610211854  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "21.10.2026 18:55 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-222N",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "O52B",
+      "text": "\n      ) 0 02N    )16.)\r\n211026185539\r\n111111111111\r\n111111111111"
     }
   ]
 }
