@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 15:58 UTC",
-      "source": "ACARS",
-      "flight": "N70346",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -43.2,
-      "label": "_d",
-      "msgno": "S63A",
-      "text": "No text"
-    },
-    {
       "time": "21.10.2026 18:30 UTC",
       "source": "ACARS",
       "flight": "CZ2518",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C10A",
       "text": ".1/FLR/FR2610221156  34363106MMR2   1,DMC1,DMC2,AFS,FWS,,,MMR2(40RT2),HARD"
+    },
+    {
+      "time": "22.10.2026 12:00 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "10",
+      "msgno": "M17A",
+      "text": "POS221200,N 61.948,E 28.207,1945,464125,,,39004,101880"
     }
   ]
 }
