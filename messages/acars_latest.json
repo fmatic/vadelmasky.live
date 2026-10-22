@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 15:33 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "_d",
-      "msgno": "S69A",
-      "text": "No text"
-    },
-    {
-      "time": "21.10.2026 15:42 UTC",
-      "source": "ACARS",
-      "flight": "AY09XG",
-      "tail": "OH-LZN",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "1M",
-      "msgno": "M39A",
-      "text": "/AY536/ETA01/211026/EFRO/EFHK/EFHK/2JK0\r\n1612/EFHK15/7  "
-    },
-    {
       "time": "21.10.2026 15:58 UTC",
       "source": "ACARS",
       "flight": "N70346",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C07A",
       "text": ".1/FLR/FR2610221150  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
+    },
+    {
+      "time": "22.10.2026 11:55 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -26.6,
+      "label": "H1",
+      "msgno": "C08A",
+      "text": ".1/FLR/FR2610221154  34363106IR2    1,,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "22.10.2026 11:57 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -29.7,
+      "label": "H1",
+      "msgno": "C10A",
+      "text": ".1/FLR/FR2610221156  34363106MMR2   1,DMC1,DMC2,AFS,FWS,,,MMR2(40RT2),HARD"
     }
   ]
 }
