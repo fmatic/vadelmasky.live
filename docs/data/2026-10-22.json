@@ -15,16 +15,16 @@
     },
     "780561": {
       "hex": "780561",
-      "flight": "CES553",
+      "flight": "CES554",
       "reg": "B-2005",
       "type": "B77W",
-      "lat": null,
-      "lon": null,
-      "alt": 34000,
-      "speed": 460.0,
-      "track": 236.43,
+      "lat": 61.365253,
+      "lon": 26.016947,
+      "alt": 31000,
+      "speed": 482.0,
+      "track": 60.47,
       "seen_first": "2026-10-22T01:25:01.341558",
-      "last_seen": "2026-10-22T01:34:01.947862"
+      "last_seen": "2026-10-22T14:10:01.548289"
     },
     "780d9c": {
       "hex": "780d9c",
@@ -141,7 +141,7 @@
       "speed": 458.0,
       "track": 64.16,
       "seen_first": "2026-10-22T03:41:01.962975",
-      "last_seen": "2026-10-22T14:05:01.352206"
+      "last_seen": "2026-10-22T14:10:01.548289"
     },
     "461e14": {
       "hex": "461e14",
@@ -480,11 +480,37 @@
       "track": 83.55,
       "seen_first": "2026-10-22T13:48:02.087955",
       "last_seen": "2026-10-22T13:53:02.100007"
+    },
+    "461404": {
+      "hex": "461404",
+      "flight": "OHHPC",
+      "reg": "OH-HPC",
+      "type": "R44",
+      "lat": 62.276373,
+      "lon": 25.711705,
+      "alt": 850,
+      "speed": 70.5,
+      "track": 173.48,
+      "seen_first": "2026-10-22T14:08:01.988506",
+      "last_seen": "2026-10-22T14:10:01.548289"
+    },
+    "461fa9": {
+      "hex": "461fa9",
+      "flight": "",
+      "reg": "OH-LZT",
+      "type": "A321",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-22T14:10:01.548289",
+      "last_seen": "2026-10-22T14:10:01.548289"
     }
   },
   "summary": {
-    "total_unique_aircraft": 37,
-    "last_seen_live": 1,
-    "updated": "2026-10-22T14:05:01.352206"
+    "total_unique_aircraft": 39,
+    "last_seen_live": 4,
+    "updated": "2026-10-22T14:10:01.548289"
   }
 }
