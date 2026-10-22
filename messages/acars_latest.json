@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.10.2026 18:35 UTC",
-      "source": "ACARS",
-      "flight": "CZ2518",
-      "tail": "B-223G",
-      "freq": 131.825,
-      "level": -30.7,
-      "label": "H1",
-      "msgno": "O66A",
-      "text": "SB0122BA_B-223G  EGPKZGGG393\r\n 61750 0269521834 36998-570180011090/9W015024"
-    },
-    {
       "time": "21.10.2026 18:53 UTC",
       "source": "ACARS",
       "flight": "CA1160",
@@ -329,6 +318,17 @@
       "label": "5U",
       "msgno": "M03A",
       "text": "UMMS UMGG ULLI-FS"
+    },
+    {
+      "time": "22.10.2026 12:32 UTC",
+      "source": "ACARS",
+      "flight": "JD0669",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -34.1,
+      "label": "14",
+      "msgno": "M51A",
+      "text": "POS\r\n21OCT,1232,256,37998,N 62.290,E 25.435,13808,  17,161"
     }
   ]
 }
