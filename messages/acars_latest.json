@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.10.2026 13:59 UTC",
-      "source": "ACARS",
-      "flight": "CA3056",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -34.6,
-      "label": "H1",
-      "msgno": "C16A",
-      "text": ".1/WRN/WN2610221359  345204006NAV ADS-B RPTG 1 FAULT"
-    },
-    {
       "time": "22.10.2026 14:00 UTC",
       "source": "ACARS",
       "flight": "CA3056",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S28A",
       "text": "0EV114507V"
+    },
+    {
+      "time": "23.10.2026 13:04 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-1429",
+      "freq": 131.825,
+      "level": -39.4,
+      "label": "10",
+      "msgno": "M75A",
+      "text": "POS231308, N 6156,E 2875,---,286,16895,  27,34003, 429,-212,-511,7"
     }
   ]
 }
