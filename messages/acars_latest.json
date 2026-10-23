@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.10.2026 14:34 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -36.4,
-      "label": "Q0",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
       "time": "22.10.2026 18:19 UTC",
       "source": "ACARS",
       "flight": "E403YF",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S22A",
       "text": "No text"
+    },
+    {
+      "time": "23.10.2026 17:52 UTC",
+      "source": "ACARS",
+      "flight": "E401NY",
+      "tail": "SP-EXH",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "H1",
+      "msgno": "D80D",
+      "text": "7.1XXX.X 11.9\r\n  90.0  90.0XXXX.X  10.0\r\n0004300043XXXXX00044\r\n1980019800XXXXX19800\r\n2892528925XXXXX28818\r\n2000020000XXXXX20000\r\n0000000000XXXXX00000\r\n0000000000XXXXX00000\r\n0000000000XXXXX00000\r\n0000000000X"
     }
   ]
 }
