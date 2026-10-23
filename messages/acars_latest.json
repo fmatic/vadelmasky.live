@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.10.2026 18:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6545",
-      "freq": 131.725,
-      "level": -26.8,
-      "label": "_d",
-      "msgno": "S19A",
-      "text": "No text"
-    },
-    {
-      "time": "22.10.2026 18:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6545",
-      "freq": 131.725,
-      "level": -27.3,
-      "label": "SA",
-      "msgno": "S20A",
-      "text": "0LS182816V"
-    },
-    {
-      "time": "22.10.2026 18:31 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6545",
-      "freq": 131.725,
-      "level": -27.9,
-      "label": "17",
-      "msgno": "M83A",
-      "text": "ETA\r\nDEP ZSPD,DES ESSA,ETA 1916,FOB 34480,UTC 183120"
-    },
-    {
       "time": "22.10.2026 20:11 UTC",
       "source": "ACARS",
       "flight": "N70594",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C45A",
       "text": ".1/FLR/FR2610231813  34361606MMR2   1,IR1,MMR1,IR3,IR2,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "23.10.2026 18:24 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -30.2,
+      "label": "B9",
+      "msgno": "J63A",
+      "text": "/ZSPD.TI2/000ZSPDAA4EC"
+    },
+    {
+      "time": "23.10.2026 18:24 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -29.4,
+      "label": "_d",
+      "msgno": "S57A",
+      "text": "No text"
+    },
+    {
+      "time": "23.10.2026 18:24 UTC",
+      "source": "ACARS",
+      "flight": "MU0210",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -30.5,
+      "label": "_d",
+      "msgno": "S58A",
+      "text": "No text"
     }
   ]
 }
