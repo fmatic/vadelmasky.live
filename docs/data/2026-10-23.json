@@ -395,13 +395,13 @@
       "flight": "FIN64A",
       "reg": "OH-ATH",
       "type": "AT75",
-      "lat": 61.583862,
-      "lon": 25.293274,
+      "lat": 61.776535,
+      "lon": 25.272086,
       "alt": 15000,
-      "speed": 244.1,
-      "track": 181.17,
+      "speed": 252.7,
+      "track": 175.69,
       "seen_first": "2026-10-23T11:38:01.862721",
-      "last_seen": "2026-10-23T18:43:01.680176"
+      "last_seen": "2026-10-23T18:50:02.119705"
     },
     "868056": {
       "hex": "868056",
@@ -681,18 +681,44 @@
       "flight": "FIH30",
       "reg": "OH-HMX",
       "type": "EC35",
-      "lat": 62.28452,
-      "lon": 25.93196,
-      "alt": 2575,
-      "speed": 115.4,
-      "track": 318.16,
+      "lat": 62.326743,
+      "lon": 25.840372,
+      "alt": 2175,
+      "speed": 116.7,
+      "track": 314.65,
       "seen_first": "2026-10-23T18:39:01.876140",
-      "last_seen": "2026-10-23T18:45:02.217274"
+      "last_seen": "2026-10-23T18:48:01.574966"
+    },
+    "4aca81": {
+      "hex": "4aca81",
+      "flight": "",
+      "reg": "SE-RTA",
+      "type": "B38M",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-23T18:49:01.829306",
+      "last_seen": "2026-10-23T18:50:02.119705"
+    },
+    "4690e2": {
+      "hex": "4690e2",
+      "flight": "",
+      "reg": "SX-DGB",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-10-23T18:50:02.119705",
+      "last_seen": "2026-10-23T18:50:02.119705"
     }
   },
   "summary": {
-    "total_unique_aircraft": 53,
-    "last_seen_live": 1,
-    "updated": "2026-10-23T18:45:02.217274"
+    "total_unique_aircraft": 55,
+    "last_seen_live": 3,
+    "updated": "2026-10-23T18:50:02.119705"
   }
 }
