@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.10.2026 14:23 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-223F",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "H1",
-      "msgno": "O19A",
-      "text": "SB0122BA_B-223F  EDDFZSPD850\r\n 61413 0271041422 30997-48014402801020;007009"
-    },
-    {
-      "time": "22.10.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "B9",
-      "msgno": "M28A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
       "time": "22.10.2026 14:24 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S66A",
       "text": "No text"
+    },
+    {
+      "time": "23.10.2026 15:25 UTC",
+      "source": "ACARS",
+      "flight": "CZ2515",
+      "tail": "B-2041",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "18",
+      "msgno": "M56A",
+      "text": "POX,CSG2515   ,23OCT26,152546,ZGGG,EGPK,N061.36,E0026.97,339, 325,827,-118.7,-131.1,021,-53.1,175046, 35440,"
+    },
+    {
+      "time": "23.10.2026 15:29 UTC",
+      "source": "ACARS",
+      "flight": "CZ2515",
+      "tail": "B-2041",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "81",
+      "msgno": "M57A",
+      "text": "/CANUOCZ.EST EXIT EDTO AT 1541Z\r\nFL 340\r\nEFR 31.0T\r\nETA 1752Z\r\nREQ DEST AND ALTN WX\r\n"
     }
   ]
 }
