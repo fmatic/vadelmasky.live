@@ -392,21 +392,34 @@
     },
     "4601f5": {
       "hex": "4601f5",
-      "flight": "",
+      "flight": "FIN64A",
       "reg": "OH-ATH",
       "type": "AT75",
+      "lat": 61.794837,
+      "lon": 25.303345,
+      "alt": 17000,
+      "speed": 243.1,
+      "track": 181.41,
+      "seen_first": "2026-10-23T11:38:01.862721",
+      "last_seen": "2026-10-23T11:45:01.954635"
+    },
+    "868056": {
+      "hex": "868056",
+      "flight": "",
+      "reg": "JA738J",
+      "type": "B77W",
       "lat": null,
       "lon": null,
       "alt": null,
       "speed": null,
       "track": null,
-      "seen_first": "2026-10-23T11:38:01.862721",
-      "last_seen": "2026-10-23T11:39:02.107263"
+      "seen_first": "2026-10-23T11:41:01.945836",
+      "last_seen": "2026-10-23T11:41:01.945836"
     }
   },
   "summary": {
-    "total_unique_aircraft": 31,
-    "last_seen_live": 0,
-    "updated": "2026-10-23T11:40:01.388545"
+    "total_unique_aircraft": 32,
+    "last_seen_live": 1,
+    "updated": "2026-10-23T11:45:01.954635"
   }
 }
