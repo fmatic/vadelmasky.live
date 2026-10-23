@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.10.2026 18:19 UTC",
-      "source": "ACARS",
-      "flight": "E403YF",
-      "tail": "SP-EXH",
-      "freq": 131.725,
-      "level": -33.4,
-      "label": "SA",
-      "msgno": "M20A",
-      "text": "0EV181956V"
-    },
-    {
-      "time": "22.10.2026 18:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6545",
-      "freq": 131.725,
-      "level": -29.8,
-      "label": "SA",
-      "msgno": "S18A",
-      "text": "0LH182733VS"
-    },
-    {
-      "time": "22.10.2026 18:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6545",
-      "freq": 131.725,
-      "level": -30.3,
-      "label": "B9",
-      "msgno": "J24A",
-      "text": "/ESSA.TI2/000ESSAA63EA"
-    },
-    {
       "time": "22.10.2026 18:28 UTC",
       "source": "ACARS",
       "flight": "MU0289",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "D80D",
       "text": "7.1XXX.X 11.9\r\n  90.0  90.0XXXX.X  10.0\r\n0004300043XXXXX00044\r\n1980019800XXXXX19800\r\n2892528925XXXXX28818\r\n2000020000XXXXX20000\r\n0000000000XXXXX00000\r\n0000000000XXXXX00000\r\n0000000000XXXXX00000\r\n0000000000X"
+    },
+    {
+      "time": "23.10.2026 18:13 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -27.3,
+      "label": "H1",
+      "msgno": "C43A",
+      "text": ".1/WRN/WN2610231813  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "23.10.2026 18:13 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -28.6,
+      "label": "H1",
+      "msgno": "C44A",
+      "text": ".1/WRN/WN2610231813  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "23.10.2026 18:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "H1",
+      "msgno": "C45A",
+      "text": ".1/FLR/FR2610231813  34361606MMR2   1,IR1,MMR1,IR3,IR2,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
