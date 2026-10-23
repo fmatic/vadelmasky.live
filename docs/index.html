@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">6</div>
+        <div class="value">7</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.10.2026 02:30 UTC</div>
+        <div class="value">23.10.2026 02:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES201</div>
+                    <div class="meta">ICAO 7822F4 · REG B-227T · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">35975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>484.0 kt</b></div>
+                    <div><span>Track</span><b>245.74°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>23.10.2026 02:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-227T" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -283,10 +307,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>488.0 kt</b></div>
-                    <div><span>Track</span><b>243.98°</b></div>
-                    <div><span>Position</span><b>61.3072, 25.6128</b></div>
-                    <div><span>Last seen</span><b>23.10.2026 02:30 UTC</b></div>
+                    <div><span>Speed</span><b>482.0 kt</b></div>
+                    <div><span>Track</span><b>244.16°</b></div>
+                    <div><span>Position</span><b>61.2330, 25.3010</b></div>
+                    <div><span>Last seen</span><b>23.10.2026 02:32 UTC</b></div>
                 </div>
             </div>
 
@@ -644,7 +668,7 @@ DEP ZSPD,DES ESSA,ETA 1916,FOB 34480,UTC 183120</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "78165E", "flight": "DKH1661", "lat": 61.307249, "lon": 25.612793, "alt": 37975, "speed": 488.0, "last_seen": "23.10.2026 02:30 UTC"}];
+const aircraft = [{"hex": "78165E", "flight": "DKH1661", "lat": 61.233045, "lon": 25.301005, "alt": 37975, "speed": 482.0, "last_seen": "23.10.2026 02:32 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
