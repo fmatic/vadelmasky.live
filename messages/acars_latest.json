@@ -6,17 +6,6 @@
       "flight": "CA1153",
       "tail": "B-6117",
       "freq": 131.825,
-      "level": -35.5,
-      "label": "_d",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
-      "time": "22.10.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6117",
-      "freq": 131.825,
       "level": -33.7,
       "label": "_d",
       "msgno": "S19A",
@@ -329,6 +318,17 @@
       "label": "81",
       "msgno": "M57A",
       "text": "/CANUOCZ.EST EXIT EDTO AT 1541Z\r\nFL 340\r\nEFR 31.0T\r\nETA 1752Z\r\nREQ DEST AND ALTN WX\r\n"
+    },
+    {
+      "time": "23.10.2026 16:00 UTC",
+      "source": "ACARS",
+      "flight": "N70415",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -24.1,
+      "label": "5V",
+      "msgno": "S75A",
+      "text": "No text"
     }
   ]
 }
