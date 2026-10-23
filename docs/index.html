@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">13</div>
+        <div class="value">14</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -247,7 +247,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.10.2026 04:35 UTC</div>
+        <div class="value">23.10.2026 04:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">BPS650S</div>
+                    <div class="meta">ICAO 472601 · REG HA-FAI · TYPE E120</div>
+                </div>
+                <div class="alt-badge mid">16900 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>61.1032, 25.8174</b></div>
+                    <div><span>Last seen</span><b>23.10.2026 04:39 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/HA-FAI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -812,7 +836,7 @@ DEP ZSPD,DES ESSA,ETA 1916,FOB 34480,UTC 183120</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461F6A", "flight": "FIN8MC", "lat": 61.461151, "lon": 25.231222, "alt": 27125, "speed": 362.0, "last_seen": "23.10.2026 03:28 UTC"}, {"hex": "461E1F", "flight": "FIN4MP", "lat": 61.426283, "lon": 25.220744, "alt": 26750, "speed": 370.0, "last_seen": "23.10.2026 03:20 UTC"}, {"hex": "4601F9", "flight": "FIN8KH", "lat": 61.346741, "lon": 25.304849, "alt": 15975, "speed": 253.0, "last_seen": "23.10.2026 03:16 UTC"}, {"hex": "4601FD", "flight": "FIN4QA", "lat": 61.018206, "lon": 25.434036, "alt": 18050, "speed": 274.6, "last_seen": "23.10.2026 03:04 UTC"}, {"hex": "78165E", "flight": "DKH1661", "lat": 61.233045, "lon": 25.301005, "alt": 37975, "speed": 482.0, "last_seen": "23.10.2026 02:32 UTC"}];
+const aircraft = [{"hex": "472601", "flight": "BPS650S", "lat": 61.103164, "lon": 25.817362, "alt": 16900, "speed": "-", "last_seen": "23.10.2026 04:39 UTC"}, {"hex": "461F6A", "flight": "FIN8MC", "lat": 61.461151, "lon": 25.231222, "alt": 27125, "speed": 362.0, "last_seen": "23.10.2026 03:28 UTC"}, {"hex": "461E1F", "flight": "FIN4MP", "lat": 61.426283, "lon": 25.220744, "alt": 26750, "speed": 370.0, "last_seen": "23.10.2026 03:20 UTC"}, {"hex": "4601F9", "flight": "FIN8KH", "lat": 61.346741, "lon": 25.304849, "alt": 15975, "speed": 253.0, "last_seen": "23.10.2026 03:16 UTC"}, {"hex": "4601FD", "flight": "FIN4QA", "lat": 61.018206, "lon": 25.434036, "alt": 18050, "speed": 274.6, "last_seen": "23.10.2026 03:04 UTC"}, {"hex": "78165E", "flight": "DKH1661", "lat": 61.233045, "lon": 25.301005, "alt": 37975, "speed": 482.0, "last_seen": "23.10.2026 02:32 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
