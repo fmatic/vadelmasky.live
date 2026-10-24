@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.10.2026 13:51 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -28.7,
-      "label": "SA",
-      "msgno": "S63A",
-      "text": "0EV135145V"
-    },
-    {
       "time": "23.10.2026 13:52 UTC",
       "source": "ACARS",
       "flight": "N70369",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S53A",
       "text": "No text"
+    },
+    {
+      "time": "24.10.2026 06:26 UTC",
+      "source": "ACARS",
+      "flight": "CK0203",
+      "tail": "B-222V",
+      "freq": 131.825,
+      "level": -40.7,
+      "label": "H1",
+      "msgno": "O53A",
+      "text": "SB0122BA_B-222V  ZSPDLFPG154\r\n 61322 0256600626 34004-500215032010IH-009011"
     }
   ]
 }
