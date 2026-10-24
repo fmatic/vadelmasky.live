@@ -135,13 +135,13 @@
       "flight": "FIN7BT",
       "reg": "OH-ATN",
       "type": "AT75",
-      "lat": 61.848495,
-      "lon": 25.838569,
+      "lat": 61.537811,
+      "lon": 25.605796,
       "alt": 23975,
-      "speed": 241.4,
-      "track": 199.86,
+      "speed": 235.4,
+      "track": 200.13,
       "seen_first": "2026-10-24T02:54:01.223675",
-      "last_seen": "2026-10-24T16:45:01.447519"
+      "last_seen": "2026-10-24T16:50:01.998666"
     },
     "461f9a": {
       "hex": "461f9a",
@@ -584,11 +584,24 @@
       "track": 245.14,
       "seen_first": "2026-10-24T16:35:01.732321",
       "last_seen": "2026-10-24T16:41:02.204537"
+    },
+    "461fa0": {
+      "hex": "461fa0",
+      "flight": "FIN8DP",
+      "reg": "OH-LZK",
+      "type": "A321",
+      "lat": null,
+      "lon": null,
+      "alt": null,
+      "speed": 432.8,
+      "track": 183.58,
+      "seen_first": "2026-10-24T16:49:01.594356",
+      "last_seen": "2026-10-24T16:49:01.594356"
     }
   },
   "summary": {
-    "total_unique_aircraft": 45,
-    "last_seen_live": 2,
-    "updated": "2026-10-24T16:45:01.447519"
+    "total_unique_aircraft": 46,
+    "last_seen_live": 1,
+    "updated": "2026-10-24T16:50:01.998666"
   }
 }
