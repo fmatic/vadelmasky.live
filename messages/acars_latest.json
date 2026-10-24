@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.10.2026 15:29 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2041",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "81",
-      "msgno": "M57A",
-      "text": "/CANUOCZ.EST EXIT EDTO AT 1541Z\r\nFL 340\r\nEFR 31.0T\r\nETA 1752Z\r\nREQ DEST AND ALTN WX\r\n"
-    },
-    {
-      "time": "23.10.2026 16:00 UTC",
-      "source": "ACARS",
-      "flight": "N70415",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -24.1,
-      "label": "5V",
-      "msgno": "S75A",
-      "text": "No text"
-    },
-    {
       "time": "23.10.2026 17:33 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S77A",
       "text": "0LH083144VS"
+    },
+    {
+      "time": "24.10.2026 08:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -42.0,
+      "label": "_d",
+      "msgno": "S81A",
+      "text": "No text"
+    },
+    {
+      "time": "24.10.2026 08:31 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -40.0,
+      "label": "_d",
+      "msgno": "S82A",
+      "text": "No text"
     }
   ]
 }
