@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.10.2026 13:52 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.8,
-      "label": "B9",
-      "msgno": "L08A",
-      "text": "/EFKU.TI2/024EFKUA873F"
-    },
-    {
-      "time": "23.10.2026 13:52 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "_d",
-      "msgno": "S64A",
-      "text": "No text"
-    },
-    {
-      "time": "23.10.2026 13:52 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "_d",
-      "msgno": "S66A",
-      "text": "No text"
-    },
-    {
-      "time": "23.10.2026 15:25 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2041",
-      "freq": 131.825,
-      "level": -37.6,
-      "label": "18",
-      "msgno": "M56A",
-      "text": "POX,CSG2515   ,23OCT26,152546,ZGGG,EGPK,N061.36,E0026.97,339, 325,827,-118.7,-131.1,021,-53.1,175046, 35440,"
-    },
-    {
       "time": "23.10.2026 15:29 UTC",
       "source": "ACARS",
       "flight": "CZ2515",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "O53A",
       "text": "SB0122BA_B-222V  ZSPDLFPG154\r\n 61322 0256600626 34004-500215032010IH-009011"
+    },
+    {
+      "time": "24.10.2026 08:26 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -41.5,
+      "label": "_d",
+      "msgno": "S76A",
+      "text": "No text"
+    },
+    {
+      "time": "24.10.2026 08:26 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -41.1,
+      "label": "H1",
+      "msgno": "C75B",
+      "text": "DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 270200\r\nMSG 2717018 L\r\nDB PRIMARY FLIGHT COMPUTER (RIGHT)\r\nDB PRIMARY FLIGHT C"
+    },
+    {
+      "time": "24.10.2026 08:27 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -42.6,
+      "label": "H1",
+      "msgno": "O47B",
+      "text": " 02N3276)16.)\r\n241026083130\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "24.10.2026 08:27 UTC",
+      "source": "ACARS",
+      "flight": "CA1033",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -41.0,
+      "label": "SA",
+      "msgno": "S77A",
+      "text": "0LH083144VS"
     }
   ]
 }
