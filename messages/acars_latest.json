@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.10.2026 18:27 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5942",
-      "freq": 131.725,
-      "level": -31.6,
-      "label": "H1",
-      "msgno": "C46A",
-      "text": ".1/WRN/WN2610231827  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "23.10.2026 18:28 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5942",
-      "freq": 131.725,
-      "level": -31.3,
-      "label": "H1",
-      "msgno": "C47A",
-      "text": ".1/FLR/FR2610231827  34361606MMR2   1,IR2,IR1,IR3,AFS,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
       "time": "23.10.2026 18:28 UTC",
       "source": "ACARS",
       "flight": "MU0210",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S87A",
       "text": "0LH135256VS"
+    },
+    {
+      "time": "24.10.2026 14:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -40.4,
+      "label": "12",
+      "msgno": "M12A",
+      "text": "WXR FS EGPK,ESSA,EFHK"
+    },
+    {
+      "time": "24.10.2026 14:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -40.9,
+      "label": "_d",
+      "msgno": "S03A",
+      "text": "No text"
     }
   ]
 }
