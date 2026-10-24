@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.10.2026 22:28 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2041",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "H1",
-      "msgno": "O62A",
-      "text": "SB0122BA_B-2041  EGPKZGGG470\r\n 61734 0271622227 36994-530171036010NXW012014"
-    },
-    {
       "time": "24.10.2026 02:49 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S80A",
       "text": "No text"
+    },
+    {
+      "time": "24.10.2026 19:13 UTC",
+      "source": "ACARS",
+      "flight": "N70538",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -37.2,
+      "label": "80",
+      "msgno": "M46A",
+      "text": "3701 INRANG 0538/24 EFRO/EFHK .OH-ATE\r\n/ETA 1950/ERT     "
     }
   ]
 }
