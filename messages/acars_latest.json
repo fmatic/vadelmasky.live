@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.10.2026 17:52 UTC",
-      "source": "ACARS",
-      "flight": "E401NY",
-      "tail": "SP-EXH",
-      "freq": 131.825,
-      "level": -41.7,
-      "label": "H1",
-      "msgno": "D80D",
-      "text": "7.1XXX.X 11.9\r\n  90.0  90.0XXXX.X  10.0\r\n0004300043XXXXX00044\r\n1980019800XXXXX19800\r\n2892528925XXXXX28818\r\n2000020000XXXXX20000\r\n0000000000XXXXX00000\r\n0000000000XXXXX00000\r\n0000000000XXXXX00000\r\n0000000000X"
-    },
-    {
-      "time": "23.10.2026 18:13 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -27.3,
-      "label": "H1",
-      "msgno": "C43A",
-      "text": ".1/WRN/WN2610231813  345801006NAV GPS 2 FAULT"
-    },
-    {
       "time": "23.10.2026 18:13 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +307,28 @@
       "label": "B9",
       "msgno": "L73A",
       "text": "/EFHK.TI2/046EFHKAD476"
+    },
+    {
+      "time": "24.10.2026 13:46 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -40.6,
+      "label": "H1",
+      "msgno": "C13A",
+      "text": ".1/FLR/FR2610241345  34363106IR2    1,,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "24.10.2026 13:49 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -30.4,
+      "label": "H1",
+      "msgno": "C14A",
+      "text": ".1/FLR/FR2610241348  34363106IR1    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
