@@ -6,17 +6,6 @@
       "flight": "N70379",
       "tail": "OH-ATN",
       "freq": 131.825,
-      "level": -34.7,
-      "label": "H1",
-      "msgno": "D05B",
-      "text": "L/F2079.0,082.0,095.4/F3079.0,082.0,094.5/G1NH,ITT,FF,IG/G2095.9,0663.2,391,0100/G3096.1,0663.9,373,0108/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I222.18/**.,EOT,...,/"
-    },
-    {
-      "time": "23.10.2026 21:59 UTC",
-      "source": "ACARS",
-      "flight": "N70379",
-      "tail": "OH-ATN",
-      "freq": 131.825,
       "level": -35.2,
       "label": "_d",
       "msgno": "S88A",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S12A",
       "text": "No text"
+    },
+    {
+      "time": "24.10.2026 16:38 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5936",
+      "freq": 131.725,
+      "level": -34.2,
+      "label": "11",
+      "msgno": "M86A",
+      "text": "POS\r\nCAS 265,LAT N 62.099,LON E 25.628,ALT 36000,FOB 31920,UTC 163804,PD ----.--,WD 184,WS   44,TAT - 26"
     }
   ]
 }
