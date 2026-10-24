@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.10.2026 18:13 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -28.6,
-      "label": "H1",
-      "msgno": "C44A",
-      "text": ".1/WRN/WN2610231813  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "23.10.2026 18:14 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "H1",
-      "msgno": "C45A",
-      "text": ".1/FLR/FR2610231813  34361606MMR2   1,IR1,MMR1,IR3,IR2,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
-      "time": "23.10.2026 18:24 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5942",
-      "freq": 131.725,
-      "level": -30.2,
-      "label": "B9",
-      "msgno": "J63A",
-      "text": "/ZSPD.TI2/000ZSPDAA4EC"
-    },
-    {
-      "time": "23.10.2026 18:24 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5942",
-      "freq": 131.725,
-      "level": -29.4,
-      "label": "_d",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
-      "time": "23.10.2026 18:24 UTC",
-      "source": "ACARS",
-      "flight": "MU0210",
-      "tail": "B-5942",
-      "freq": 131.725,
-      "level": -30.5,
-      "label": "_d",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
       "time": "23.10.2026 18:27 UTC",
       "source": "ACARS",
       "flight": "MU0210",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "C14A",
       "text": ".1/FLR/FR2610241348  34363106IR1    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "24.10.2026 13:50 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "H1",
+      "msgno": "C35A",
+      "text": ".1/FLR/FR2610241349  34363106IR2    1,IR1,IR3,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "24.10.2026 13:51 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -37.9,
+      "label": "H1",
+      "msgno": "C36A",
+      "text": ".1/WRN/WN2610241351  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "24.10.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "10",
+      "msgno": "M34A",
+      "text": "POS241352,N 61.924,E 27.855,2131,507000,,,34996,102720"
+    },
+    {
+      "time": "24.10.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3120",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -36.0,
+      "label": "H1",
+      "msgno": "C37A",
+      "text": ".1/FLR/FR2610241351  34363106MMR2   1,,,,,,,MMR2(40RT2),HARD"
+    },
+    {
+      "time": "24.10.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "SA",
+      "msgno": "S87A",
+      "text": "0LH135256VS"
     }
   ]
 }
