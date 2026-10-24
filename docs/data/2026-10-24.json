@@ -301,16 +301,16 @@
     },
     "4601fd": {
       "hex": "4601fd",
-      "flight": "FIN489",
+      "flight": "FIN5NB",
       "reg": "OH-ATP",
       "type": "AT75",
-      "lat": 62.527725,
-      "lon": 26.456502,
-      "alt": 20000,
-      "speed": 283.8,
-      "track": 15.11,
+      "lat": 62.221161,
+      "lon": 26.134745,
+      "alt": 18975,
+      "speed": 253.9,
+      "track": 198.36,
       "seen_first": "2026-10-24T08:48:01.926306",
-      "last_seen": "2026-10-24T09:06:01.949892"
+      "last_seen": "2026-10-24T11:40:01.951926"
     },
     "781fc3": {
       "hex": "781fc3",
@@ -350,11 +350,37 @@
       "track": 244.69,
       "seen_first": "2026-10-24T11:04:01.915146",
       "last_seen": "2026-10-24T11:09:01.644763"
+    },
+    "8682fc": {
+      "hex": "8682fc",
+      "flight": "JAL47",
+      "reg": "JA741J",
+      "type": "B77W",
+      "lat": null,
+      "lon": null,
+      "alt": 24375,
+      "speed": 397.9,
+      "track": 176.25,
+      "seen_first": "2026-10-24T11:39:01.664373",
+      "last_seen": "2026-10-24T11:39:01.664373"
+    },
+    "4601f4": {
+      "hex": "4601f4",
+      "flight": "",
+      "reg": "OH-ATG",
+      "type": "AT75",
+      "lat": 61.885521,
+      "lon": 25.339966,
+      "alt": 17000,
+      "speed": 218.2,
+      "track": 182.36,
+      "seen_first": "2026-10-24T11:40:01.951926",
+      "last_seen": "2026-10-24T11:40:01.951926"
     }
   },
   "summary": {
-    "total_unique_aircraft": 27,
-    "last_seen_live": 0,
-    "updated": "2026-10-24T11:35:01.941768"
+    "total_unique_aircraft": 29,
+    "last_seen_live": 2,
+    "updated": "2026-10-24T11:40:01.951926"
   }
 }
