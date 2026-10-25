@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.10.2026 06:48 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "SA",
-      "msgno": "S52A",
-      "text": "0EV064838V"
-    },
-    {
-      "time": "25.10.2026 06:48 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "80",
-      "msgno": "M09A",
-      "text": "3701 INRANG 0362/25 EFKU/EFHK .OH-ATH\r\n/ETA 0720/ERT     "
-    },
-    {
-      "time": "25.10.2026 06:48 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "_d",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
       "time": "25.10.2026 06:53 UTC",
       "source": "ACARS",
       "flight": "N70362",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S19A",
       "text": "No text"
+    },
+    {
+      "time": "25.10.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -30.0,
+      "label": "H1",
+      "msgno": "C13A",
+      "text": ".1/WRN/WN2610251202  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "25.10.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -28.5,
+      "label": "H1",
+      "msgno": "C14A",
+      "text": ".1/WRN/WN2610251202  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "25.10.2026 12:03 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -26.5,
+      "label": "H1",
+      "msgno": "C15A",
+      "text": ".1/FLR/FR2610251202  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
     }
   ]
 }
