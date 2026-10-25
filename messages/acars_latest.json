@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.10.2026 18:03 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -27.0,
-      "label": "Q0",
-      "msgno": "S37A",
-      "text": "No text"
-    },
-    {
-      "time": "25.10.2026 18:04 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.725,
-      "level": -43.0,
-      "label": "SA",
-      "msgno": "S38A",
-      "text": "0EV180358V"
-    },
-    {
-      "time": "25.10.2026 18:04 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -25.4,
-      "label": "SA",
-      "msgno": "S38A",
-      "text": "0EV180358V"
-    },
-    {
-      "time": "25.10.2026 18:05 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.725,
-      "level": -33.0,
-      "label": "_d",
-      "msgno": "S39A",
-      "text": "No text"
-    },
-    {
-      "time": "25.10.2026 18:05 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -15.9,
-      "label": "_d",
-      "msgno": "S39A",
-      "text": "No text"
-    },
-    {
       "time": "25.10.2026 18:05 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +274,61 @@
       "label": "SA",
       "msgno": "S54A",
       "text": "0EV180958V"
+    },
+    {
+      "time": "25.10.2026 18:10 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -25.4,
+      "label": "H1",
+      "msgno": "D05A",
+      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2OCT25,1808,0416/C1/C218.03.52,MC/C318.03.52,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/"
+    },
+    {
+      "time": "25.10.2026 18:10 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -26.4,
+      "label": "80",
+      "msgno": "M11A",
+      "text": "3701 INRANG 0416/25 EFKI/EFHK .OH-ATH\r\n/ETA 1840/ERT     \r\nF/AY213/2.0"
+    },
+    {
+      "time": "25.10.2026 18:10 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -25.1,
+      "label": "_d",
+      "msgno": "S55A",
+      "text": "No text"
+    },
+    {
+      "time": "25.10.2026 18:10 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -28.5,
+      "label": "_d",
+      "msgno": "S56A",
+      "text": "No text"
+    },
+    {
+      "time": "25.10.2026 18:14 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "5V",
+      "msgno": "S57A",
+      "text": "No text"
     }
   ]
 }
