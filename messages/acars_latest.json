@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.10.2026 10:09 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -40.7,
-      "label": "H1",
-      "msgno": "D21F",
-      "text": "19\r\n   -  2   - 16\r\n  24  23  1501  23  23  2001\r\n  23  23  16  1  23  23  20 26\r\n  24  23  1601  23  24  1701\r\n  24  23  16  1  24  24  17 28\r\n  25  24  18  2  24  24  16 23\r\n  18  17\r\n  25  24  17  2  24 "
-    },
-    {
-      "time": "25.10.2026 10:09 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -38.6,
-      "label": "H1",
-      "msgno": "D21G",
-      "text": " 24  16  2\r\n  17  16\r\nTA22 10 102222\r\nER22 10 102222\r\nTA221     0\r\nER221     0"
-    },
-    {
-      "time": "25.10.2026 10:09 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-20DT",
-      "freq": 131.825,
-      "level": -38.4,
-      "label": "5V",
-      "msgno": "S35A",
-      "text": "No text"
-    },
-    {
       "time": "25.10.2026 11:59 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S74A",
       "text": "0EV125923VSH/"
+    },
+    {
+      "time": "25.10.2026 13:01 UTC",
+      "source": "ACARS",
+      "flight": "MU0202",
+      "tail": "B-228L",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "SA",
+      "msgno": "S78A",
+      "text": "0EV130112VSH/"
+    },
+    {
+      "time": "25.10.2026 13:02 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -41.3,
+      "label": "Q0",
+      "msgno": "S17A",
+      "text": "No text"
+    },
+    {
+      "time": "25.10.2026 13:02 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "SA",
+      "msgno": "S18A",
+      "text": "0EV130254V"
     }
   ]
 }
