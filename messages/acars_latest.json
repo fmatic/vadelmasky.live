@@ -6,17 +6,6 @@
       "flight": "CA3160",
       "tail": "B-6113",
       "freq": 131.725,
-      "level": -33.0,
-      "label": "_d",
-      "msgno": "S16A",
-      "text": "No text"
-    },
-    {
-      "time": "25.10.2026 11:59 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
       "level": -38.2,
       "label": "_d",
       "msgno": "S17A",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S18A",
       "text": "0EV130254V"
+    },
+    {
+      "time": "25.10.2026 14:01 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -43.4,
+      "label": "16",
+      "msgno": "M45A",
+      "text": "POSA1N61471E 25000,DODAM  ,133906,349,KOKAT  ,142435,-56, 22, 642,829"
     }
   ]
 }
