@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.10.2026 18:06 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.725,
-      "level": -34.3,
-      "label": "_d",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
-      "time": "25.10.2026 18:06 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -16.9,
-      "label": "_d",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
-      "time": "25.10.2026 18:08 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -24.8,
-      "label": "5V",
-      "msgno": "S51A",
-      "text": "No text"
-    },
-    {
       "time": "25.10.2026 18:09 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S69A",
       "text": "No text"
+    },
+    {
+      "time": "25.10.2026 22:37 UTC",
+      "source": "ACARS",
+      "flight": "N70375",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "Q0",
+      "msgno": "S66A",
+      "text": "No text"
+    },
+    {
+      "time": "25.10.2026 22:37 UTC",
+      "source": "ACARS",
+      "flight": "N70375",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "SA",
+      "msgno": "S67A",
+      "text": "0EV223717V"
+    },
+    {
+      "time": "25.10.2026 22:37 UTC",
+      "source": "ACARS",
+      "flight": "N70375",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "H1",
+      "msgno": "D04B",
+      "text": "L/F2070.1,081.9,094.5/F3070.1,082.0,094.5/G1NH,ITT,FF,IG/G2094.8,0671.7,333,0091/G3094.5,0668.2,329,0081/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I222.01/**.,EOT,...,/"
     }
   ]
 }
