@@ -356,13 +356,13 @@
       "flight": "FIN544",
       "reg": "OH-LXK",
       "type": "A320",
-      "lat": 61.414179,
-      "lon": 25.168762,
-      "alt": 34600,
-      "speed": 384.0,
-      "track": 182.99,
+      "lat": 61.196687,
+      "lon": 25.222677,
+      "alt": 22575,
+      "speed": 174.3,
+      "track": 183.29,
       "seen_first": "2026-10-25T12:30:01.870461",
-      "last_seen": "2026-10-25T21:00:01.756733"
+      "last_seen": "2026-10-25T21:05:01.740388"
     },
     "461f39": {
       "hex": "461f39",
@@ -597,11 +597,24 @@
       "track": 63.11,
       "seen_first": "2026-10-25T20:11:01.798489",
       "last_seen": "2026-10-25T20:19:02.142392"
+    },
+    "461fa9": {
+      "hex": "461fa9",
+      "flight": "FIN446",
+      "reg": "OH-LZT",
+      "type": "A321",
+      "lat": null,
+      "lon": null,
+      "alt": 35425,
+      "speed": 394.0,
+      "track": 182.64,
+      "seen_first": "2026-10-25T21:03:01.195031",
+      "last_seen": "2026-10-25T21:05:01.740388"
     }
   },
   "summary": {
-    "total_unique_aircraft": 46,
-    "last_seen_live": 1,
-    "updated": "2026-10-25T21:00:01.756733"
+    "total_unique_aircraft": 47,
+    "last_seen_live": 2,
+    "updated": "2026-10-25T21:05:01.740388"
   }
 }
