@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "24.10.2026 14:24 UTC",
-      "source": "ACARS",
-      "flight": "CA3158",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "H1",
-      "msgno": "C08A",
-      "text": ".1/WRN/WN2610241424  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "24.10.2026 14:29 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -328,6 +317,17 @@
       "level": -32.1,
       "label": "_d",
       "msgno": "S53A",
+      "text": "No text"
+    },
+    {
+      "time": "25.10.2026 06:53 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -39.3,
+      "label": "5V",
+      "msgno": "S54A",
       "text": "No text"
     }
   ]
