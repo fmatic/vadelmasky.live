@@ -6,17 +6,6 @@
       "flight": "MU0202",
       "tail": "B-228L",
       "freq": 131.825,
-      "level": -24.9,
-      "label": "SA",
-      "msgno": "S60A",
-      "text": "0EV125312VSH/"
-    },
-    {
-      "time": "25.10.2026 12:53 UTC",
-      "source": "ACARS",
-      "flight": "MU0202",
-      "tail": "B-228L",
-      "freq": 131.825,
       "level": -25.8,
       "label": "5V",
       "msgno": "S61A",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S22A",
       "text": "No text"
+    },
+    {
+      "time": "25.10.2026 15:51 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-222N",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "16",
+      "msgno": "M41A",
+      "text": "POSA1N61381E 26972,REKDO  ,152706,310,KOKAT  ,160912,-46, 16, 726,818"
     }
   ]
 }
