@@ -6,28 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATN",
       "freq": 131.825,
-      "level": -30.1,
-      "label": "80",
-      "msgno": "M19A",
-      "text": "1201 ONRP   0285/26 EFHK/EFJY .OH-ATN\r\n/ON  1137/FOB 0013"
-    },
-    {
-      "time": "26.10.2026 12:08 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -25.6,
-      "label": "80",
-      "msgno": "M22A",
-      "text": "1301 INRP   0285/26 EFHK/EFJY .OH-ATN\r\n/ON  1137/IN  1138/FOB 0015"
-    },
-    {
-      "time": "26.10.2026 12:08 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
       "level": -25.3,
       "label": "80",
       "msgno": "M23A",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M97A",
       "text": "POS241600,N 61.786,E 27.109,2343,522000,,,37004,102640"
+    },
+    {
+      "time": "26.10.2026 16:50 UTC",
+      "source": "ACARS",
+      "flight": "N70519",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "SA",
+      "msgno": "S97A",
+      "text": "0EV165010V"
+    },
+    {
+      "time": "26.10.2026 16:50 UTC",
+      "source": "ACARS",
+      "flight": "N70519",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -41.3,
+      "label": "B9",
+      "msgno": "L29A",
+      "text": "/EFKE.TI2/024EFKEA844C"
     }
   ]
 }
