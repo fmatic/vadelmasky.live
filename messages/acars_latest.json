@@ -6,17 +6,6 @@
       "flight": "N70369",
       "tail": "OH-ATK",
       "freq": 131.825,
-      "level": -37.9,
-      "label": "SA",
-      "msgno": "M26A",
-      "text": "0EV151430V"
-    },
-    {
-      "time": "26.10.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATK",
-      "freq": 131.825,
       "level": -37.8,
       "label": "H1",
       "msgno": "D12A",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M13A",
       "text": "TXT\r\nMU290,COPY,,,,,,"
+    },
+    {
+      "time": "26.10.2026 19:48 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5936",
+      "freq": 131.725,
+      "level": -25.0,
+      "label": "SA",
+      "msgno": "S25A",
+      "text": "0LS194812V"
     }
   ]
 }
