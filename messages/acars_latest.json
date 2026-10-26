@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.10.2026 19:24 UTC",
-      "source": "ACARS",
-      "flight": "N70488",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -25.9,
-      "label": "SA",
-      "msgno": "S71A",
-      "text": "0EV192414V"
-    },
-    {
-      "time": "25.10.2026 19:27 UTC",
-      "source": "ACARS",
-      "flight": "N70488",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "B9",
-      "msgno": "L08A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
       "time": "25.10.2026 20:18 UTC",
       "source": "ACARS",
       "flight": "CA3156",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S12A",
       "text": "No text"
+    },
+    {
+      "time": "26.10.2026 11:38 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "H1",
+      "msgno": "O71A",
+      "text": "SS0340C_101\r\nB-2042  CSG251EGPKZGGG261026113830ER\r\n28135004824-2087164983107BCG00A31A\r\n692610 13 260261026 113829\r\n695610984 250\r\n69)6))97) 2))\r\n10000000000000001\r\n  35004\r\n  3458812 53N  248 0.1\r\n  3458)12"
+    },
+    {
+      "time": "26.10.2026 11:38 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -39.3,
+      "label": "H1",
+      "msgno": "O71B",
+      "text": "SS0340C_101\r\nB-2042  CSG251EGPKZGGG261026113830ER\r\n28135004824-2087164983107BCG00A31A\r\n692610 13 260261026 113829\r\n695610984 250\r\n69)6))97) 2))\r\n10000000000000001\r\n  35004\r\n  3458812 53N  248 0.1\r\n  3458)12116N3276)16.)\r\n261026113830\r\n261026113831\r\n261026113831"
     }
   ]
 }
