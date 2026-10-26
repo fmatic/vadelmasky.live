@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.10.2026 15:13 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-5936",
-      "freq": 131.725,
-      "level": -34.2,
-      "label": "11",
-      "msgno": "M69A",
-      "text": "POS\r\nCAS 268,LAT N 62.212,LON E 26.157,ALT 36003,FOB 34680,UTC 151318,PD ----.--,WD 210,WS   80,TAT - 22"
-    },
-    {
-      "time": "26.10.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "Q0",
-      "msgno": "S96A",
-      "text": "No text"
-    },
-    {
       "time": "26.10.2026 15:14 UTC",
       "source": "ACARS",
       "flight": "N70369",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S49A",
       "text": "No text"
+    },
+    {
+      "time": "26.10.2026 19:44 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5936",
+      "freq": 131.725,
+      "level": -31.4,
+      "label": "_d",
+      "msgno": "S24A",
+      "text": "No text"
+    },
+    {
+      "time": "26.10.2026 19:44 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5936",
+      "freq": 131.725,
+      "level": -39.9,
+      "label": "80",
+      "msgno": "M13A",
+      "text": "TXT\r\nMU290,COPY,,,,,,"
     }
   ]
 }
