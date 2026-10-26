@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.10.2026 19:07 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "16",
-      "msgno": "M75A",
-      "text": "POSA1N61462E 26990,ADO-15 ,190723,329,ASP-16 ,191636,-50, 33, 683,835"
-    },
-    {
       "time": "25.10.2026 19:12 UTC",
       "source": "ACARS",
       "flight": "CK0206",
@@ -328,6 +317,17 @@
       "level": -29.2,
       "label": "_d",
       "msgno": "S70A",
+      "text": "No text"
+    },
+    {
+      "time": "26.10.2026 03:46 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "5V",
+      "msgno": "S09A",
       "text": "No text"
     }
   ]
