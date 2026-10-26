@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.10.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "H1",
-      "msgno": "D12A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20369,261026,1510,09/D1ENGINE,S.N/D2ESN1,ED2134/D3ESN2,EB0310/E1IAS,ALT,TAT/E2209,.17021,-009/F1TORQ,NP,N"
-    },
-    {
-      "time": "26.10.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -33.2,
-      "label": "H1",
-      "msgno": "D12B",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20369,261026,1510,09/D1ENGINE,S.N/D2ESN1,ED2134/D3ESN2,EB0310/E1IAS,ALT,TAT/E2209,.17021,-009/F1TORQ,NP,NL/F2076.2,082.0,094.5/F3076.2,081.9,094.5/G1NH,ITT,FF,IG/G2095.9,0669.1,351,0082/G3097.1,0662.8,369,0120/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I221.67/**.,EOT,...,/"
-    },
-    {
-      "time": "26.10.2026 15:16 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8231",
-      "freq": 131.725,
-      "level": -26.7,
-      "label": "B9",
-      "msgno": "J09A",
-      "text": "/EKCH.TI2/000EKCHA0475"
-    },
-    {
-      "time": "26.10.2026 15:16 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8231",
-      "freq": 131.725,
-      "level": -28.3,
-      "label": "_d",
-      "msgno": "S40A",
-      "text": "No text"
-    },
-    {
-      "time": "26.10.2026 15:16 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8231",
-      "freq": 131.725,
-      "level": -28.7,
-      "label": "_d",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
       "time": "26.10.2026 15:22 UTC",
       "source": "ACARS",
       "flight": "MU0707",
@@ -329,6 +274,61 @@
       "label": "SA",
       "msgno": "S25A",
       "text": "0LS194812V"
+    },
+    {
+      "time": "26.10.2026 20:26 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -37.2,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/FLR/FR2610262025  34361606MMR2   1,IR2,IR1,IR3,AFS,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "26.10.2026 20:26 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -31.6,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/WRN/WN2610262026  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "26.10.2026 20:27 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -30.4,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/FLR/FR2610262026  34361606MMR1   1,IR1,IR3,IR2,AFS,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "26.10.2026 20:28 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -34.0,
+      "label": "Q0",
+      "msgno": "S14A",
+      "text": "No text"
+    },
+    {
+      "time": "26.10.2026 20:28 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -32.9,
+      "label": "SA",
+      "msgno": "S15A",
+      "text": "0EV202827VHS"
     }
   ]
 }
