@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.10.2026 12:05 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.725,
-      "level": -37.7,
-      "label": "B9",
-      "msgno": "L11A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "26.10.2026 12:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -25.0,
-      "label": "80",
-      "msgno": "M21A",
-      "text": "3501 SUMMRY 0285/26 EFHK/EFJY .OH-ATN\r\n/OUT 1057/FOB 0018\r\n/OFF 1105/FOB 0018\r\n/ON  1137/FOB 0013\r\n/IN  1138/FOB 0015\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
-    },
-    {
-      "time": "26.10.2026 12:06 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -21.0,
-      "label": "80",
-      "msgno": "M21A",
-      "text": "3501 SUMMRY 0285/26 EFHK/EFJY .OH-ATN\r\n/OUT 1057/FOB 0018\r\n/OFF 1105/FOB 0018\r\n/ON  1137/FOB 0013\r\n/IN  1138/FOB 0015\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
-    },
-    {
       "time": "26.10.2026 12:06 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "D12B",
       "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20369,261026,1510,09/D1ENGINE,S.N/D2ESN1,ED2134/D3ESN2,EB0310/E1IAS,ALT,TAT/E2209,.17021,-009/F1TORQ,NP,NL/F2076.2,082.0,094.5/F3076.2,081.9,094.5/G1NH,ITT,FF,IG/G2095.9,0669.1,351,0082/G3097.1,0662.8,369,0120/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I221.67/**.,EOT,...,/"
+    },
+    {
+      "time": "26.10.2026 15:16 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -26.7,
+      "label": "B9",
+      "msgno": "J09A",
+      "text": "/EKCH.TI2/000EKCHA0475"
+    },
+    {
+      "time": "26.10.2026 15:16 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -28.3,
+      "label": "_d",
+      "msgno": "S40A",
+      "text": "No text"
+    },
+    {
+      "time": "26.10.2026 15:16 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-8231",
+      "freq": 131.725,
+      "level": -28.7,
+      "label": "_d",
+      "msgno": "S41A",
+      "text": "No text"
     }
   ]
 }
