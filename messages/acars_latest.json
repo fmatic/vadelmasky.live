@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.10.2026 03:15 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16716",
-      "freq": 131.725,
-      "level": -29.2,
-      "label": "_d",
-      "msgno": "S70A",
-      "text": "No text"
-    },
-    {
-      "time": "26.10.2026 03:46 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "5V",
-      "msgno": "S09A",
-      "text": "No text"
-    },
-    {
-      "time": "26.10.2026 04:00 UTC",
-      "source": "ACARS",
-      "flight": "CZ2517",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -39.7,
-      "label": "18",
-      "msgno": "M70A",
-      "text": "POX,CSG2517   ,26OCT26,040440,ZUCK,EGPK,N061.66,E0028.99,320, 371,822,-122.5,-157.7,061,-49.9,065940, 37680,"
-    },
-    {
       "time": "26.10.2026 04:13 UTC",
       "source": "ACARS",
       "flight": "CZ2517",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "D06B",
       "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20366,261026,1223,09/D1ENGINE,S.N/D2ESN1,ED1499/D3ESN2,ED2152/E1IAS,ALT,TAT/E2226,.14005,-003/F1TORQ,NP,NL/F2082.9,081.9,095.4/F3082.9,081.9,094.5/G1NH,ITT,FF,IG/G2096.7,0663.1,395,0098/G3095.9,0650.7,377,0078/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.80/**.,EOT,...,/"
+    },
+    {
+      "time": "26.10.2026 12:26 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -28.7,
+      "label": "80",
+      "msgno": "M08A",
+      "text": "3701 INRANG 0366/26 EFKU/EFHK .OH-ATH\r\n/ETA 1301/ERT     "
+    },
+    {
+      "time": "26.10.2026 12:26 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -28.1,
+      "label": "_d",
+      "msgno": "S47A",
+      "text": "No text"
+    },
+    {
+      "time": "26.10.2026 12:28 UTC",
+      "source": "ACARS",
+      "flight": "N70366",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -28.2,
+      "label": "5V",
+      "msgno": "S48A",
+      "text": "No text"
     }
   ]
 }
