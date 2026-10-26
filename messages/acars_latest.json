@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "25.10.2026 18:10 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -25.1,
-      "label": "_d",
-      "msgno": "S55A",
-      "text": "No text"
-    },
-    {
-      "time": "25.10.2026 18:10 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -28.5,
-      "label": "_d",
-      "msgno": "S56A",
-      "text": "No text"
-    },
-    {
-      "time": "25.10.2026 18:14 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "5V",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
       "time": "25.10.2026 19:07 UTC",
       "source": "ACARS",
       "flight": "CK0206",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O45A",
       "text": "SB0122BA_B-16716 RCTPEDDM550\r\n 61715 0267580313 35999-52020106901020;009012"
+    },
+    {
+      "time": "26.10.2026 03:15 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16716",
+      "freq": 131.725,
+      "level": -30.2,
+      "label": "B9",
+      "msgno": "L64A",
+      "text": "/EFHK.TI2/046EFHKAD476"
+    },
+    {
+      "time": "26.10.2026 03:15 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16716",
+      "freq": 131.725,
+      "level": -29.7,
+      "label": "_d",
+      "msgno": "S69A",
+      "text": "No text"
+    },
+    {
+      "time": "26.10.2026 03:15 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16716",
+      "freq": 131.725,
+      "level": -29.2,
+      "label": "_d",
+      "msgno": "S70A",
+      "text": "No text"
     }
   ]
 }
