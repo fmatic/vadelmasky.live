@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.10.2026 13:32 UTC",
-      "source": "ACARS",
-      "flight": "U60628",
-      "tail": "RA73835",
-      "freq": 131.725,
-      "level": -42.2,
-      "label": "5V",
-      "msgno": "S52A",
-      "text": "No text"
-    },
-    {
-      "time": "26.10.2026 14:03 UTC",
-      "source": "ACARS",
-      "flight": "N70440",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -38.6,
-      "label": "_d",
-      "msgno": "S69A",
-      "text": "No text"
-    },
-    {
-      "time": "26.10.2026 15:04 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-5936",
-      "freq": 131.725,
-      "level": -36.8,
-      "label": "SA",
-      "msgno": "S69A",
-      "text": "0LH150444VS"
-    },
-    {
       "time": "26.10.2026 15:13 UTC",
       "source": "ACARS",
       "flight": "MU0289",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S37A",
       "text": "0EV180700V"
+    },
+    {
+      "time": "26.10.2026 19:12 UTC",
+      "source": "ACARS",
+      "flight": "N70520",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "B9",
+      "msgno": "L34A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "26.10.2026 19:12 UTC",
+      "source": "ACARS",
+      "flight": "N70520",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "_d",
+      "msgno": "S48A",
+      "text": "No text"
+    },
+    {
+      "time": "26.10.2026 19:12 UTC",
+      "source": "ACARS",
+      "flight": "N70520",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "_d",
+      "msgno": "S49A",
+      "text": "No text"
     }
   ]
 }
