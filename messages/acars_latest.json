@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.10.2026 12:07 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -29.0,
-      "label": "80",
-      "msgno": "M21A",
-      "text": "3501 SUMMRY 0285/26 EFHK/EFJY .OH-ATN\r\n/OUT 1057/FOB 0018\r\n/OFF 1105/FOB 0018\r\n/ON  1137/FOB 0013\r\n/IN  1138/FOB 0015\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
-    },
-    {
       "time": "26.10.2026 12:08 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "11",
       "msgno": "M66A",
       "text": "POS\r\nCAS 258,LAT N 61.545,LON E 25.170,ALT 38003,FOB 39800,UTC 152356,PD ----.--,WD 204,WS   64,TAT - 19"
+    },
+    {
+      "time": "26.10.2026 16:00 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -24.8,
+      "label": "10",
+      "msgno": "M97A",
+      "text": "POS241600,N 61.786,E 27.109,2343,522000,,,37004,102640"
     }
   ]
 }
