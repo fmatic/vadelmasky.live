@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.10.2026 19:44 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5936",
-      "freq": 131.725,
-      "level": -39.9,
-      "label": "80",
-      "msgno": "M13A",
-      "text": "TXT\r\nMU290,COPY,,,,,,"
-    },
-    {
       "time": "26.10.2026 19:48 UTC",
       "source": "ACARS",
       "flight": "MU0290",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M07A",
       "text": "1101 OFFRP  0286/27 EFJY/EFHK .OH-ATN\r\n/OUT 1211/OFF 1214/FOB 0015/ETA 1259"
+    },
+    {
+      "time": "27.10.2026 12:20 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.2,
+      "label": "_d",
+      "msgno": "S29A",
+      "text": "No text"
     }
   ]
 }
