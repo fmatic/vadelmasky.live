@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.10.2026 15:23 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-8231",
-      "freq": 131.725,
-      "level": -36.7,
-      "label": "11",
-      "msgno": "M66A",
-      "text": "POS\r\nCAS 258,LAT N 61.545,LON E 25.170,ALT 38003,FOB 39800,UTC 152356,PD ----.--,WD 204,WS   64,TAT - 19"
-    },
-    {
       "time": "26.10.2026 16:00 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C42A",
       "text": ".1/FLR/FR2610262300  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "27.10.2026 03:09 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16705",
+      "freq": 131.725,
+      "level": -35.6,
+      "label": "B0",
+      "msgno": "L43A",
+      "text": "/EFIN.AFN/FMHEVA071,B-16705,8990D4,030917/FPON61425E026502,1/FCOADS,01/FCOATC,0175A7"
     }
   ]
 }
