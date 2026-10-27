@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.10.2026 14:16 UTC",
-      "source": "ACARS",
-      "flight": "CA1002",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "H1",
-      "msgno": "E91A",
-      "text": "ICE,R,31000,GE,-13,OFF,OFF,NORMAL,NORMAL,CLOSED,CLOSED,347,348,0,0,0,0,47,47,CLOSED,CLOSED,0,0,0,0,,12,JUN,46,14,16,38"
-    },
-    {
       "time": "27.10.2026 14:18 UTC",
       "source": "ACARS",
       "flight": "CA1002",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C26A",
       "text": ".1/FLR/FR2610271457  34363106IR1    1,IR3,IR2,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),INTERMITTENT"
+    },
+    {
+      "time": "27.10.2026 15:13 UTC",
+      "source": "ACARS",
+      "flight": "CK0250",
+      "tail": "B-222N",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "Q0",
+      "msgno": "S19A",
+      "text": "No text"
     }
   ]
 }
