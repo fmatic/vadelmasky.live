@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">27.10.2026 03:10 UTC</div>
+        <div class="value">27.10.2026 03:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">EVA071</div>
+                    <div class="meta">ICAO 8990D4 · REG B-16705 · TYPE B77W</div>
+                </div>
+                <div class="alt-badge high">34000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>446.0 kt</b></div>
+                    <div><span>Track</span><b>233.09°</b></div>
+                    <div><span>Position</span><b>61.7083, 26.8367</b></div>
+                    <div><span>Last seen</span><b>27.10.2026 03:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-16705" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -291,30 +315,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">EVA071</div>
-                    <div class="meta">ICAO 8990D4 · REG B-16705 · TYPE B77W</div>
-                </div>
-                <div class="alt-badge high">34000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>446.0 kt</b></div>
-                    <div><span>Track</span><b>233.09°</b></div>
-                    <div><span>Position</span><b>61.7083, 26.8367</b></div>
-                    <div><span>Last seen</span><b>27.10.2026 03:10 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-16705" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -445,6 +445,44 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">BR0071</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-16705 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">27.10.2026 03:14 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg O23A · Level -37.0 dB
+            </div>
+
+            <div class="acars-text">SB0122BA_B-16705 RCTPEDDM753
+ 61372 0258290314 34004-460242024010YY,011015</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">BR0071</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-16705 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">27.10.2026 03:14 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg O23A · Level -39.4 dB
+            </div>
+
+            <div class="acars-text">SB0122BA_B-16705 RCTPEDDM753
+ 61372 0258290314 34004-460242024010YY,011015</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -626,49 +664,12 @@ footer {
             <div class="acars-text">0LS194812V</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">MU0290</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-5936 · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">26.10.2026 19:44 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 80 · Msg M13A · Level -39.9 dB
-            </div>
-
-            <div class="acars-text">TXT
-MU290,COPY,,,,,,</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">MU0290</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-5936 · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">26.10.2026 19:44 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S24A · Level -31.4 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "8990D4", "flight": "EVA071", "lat": 61.708333, "lon": 26.836667, "alt": 34000, "speed": 446.0, "last_seen": "27.10.2026 03:10 UTC"}, {"hex": "781EB7", "flight": "CES249", "lat": 61.404403, "lon": 25.430806, "alt": 38000, "speed": "-", "last_seen": "27.10.2026 02:52 UTC"}];
+const aircraft = [{"hex": "8990D4", "flight": "EVA071", "lat": 61.708333, "lon": 26.836667, "alt": 34000, "speed": 446.0, "last_seen": "27.10.2026 03:15 UTC"}, {"hex": "781EB7", "flight": "CES249", "lat": 61.404403, "lon": 25.430806, "alt": 38000, "speed": "-", "last_seen": "27.10.2026 02:52 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',

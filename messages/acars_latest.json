@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.10.2026 16:00 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -24.8,
-      "label": "10",
-      "msgno": "M97A",
-      "text": "POS241600,N 61.786,E 27.109,2343,522000,,,37004,102640"
-    },
-    {
-      "time": "26.10.2026 16:50 UTC",
-      "source": "ACARS",
-      "flight": "N70519",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -41.7,
-      "label": "SA",
-      "msgno": "S97A",
-      "text": "0EV165010V"
-    },
-    {
       "time": "26.10.2026 16:50 UTC",
       "source": "ACARS",
       "flight": "N70519",
@@ -329,6 +307,28 @@
       "label": "B0",
       "msgno": "L43A",
       "text": "/EFIN.AFN/FMHEVA071,B-16705,8990D4,030917/FPON61425E026502,1/FCOADS,01/FCOATC,0175A7"
+    },
+    {
+      "time": "27.10.2026 03:14 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16705",
+      "freq": 131.725,
+      "level": -39.4,
+      "label": "H1",
+      "msgno": "O23A",
+      "text": "SB0122BA_B-16705 RCTPEDDM753\r\n 61372 0258290314 34004-460242024010YY,011015"
+    },
+    {
+      "time": "27.10.2026 03:14 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16705",
+      "freq": 131.725,
+      "level": -37.0,
+      "label": "H1",
+      "msgno": "O23A",
+      "text": "SB0122BA_B-16705 RCTPEDDM753\r\n 61372 0258290314 34004-460242024010YY,011015"
     }
   ]
 }
