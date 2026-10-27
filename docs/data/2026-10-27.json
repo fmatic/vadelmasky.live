@@ -509,21 +509,34 @@
     },
     "461f62": {
       "hex": "461f62",
-      "flight": "",
+      "flight": "FIN5YR",
       "reg": "OH-LXA",
       "type": "A320",
-      "lat": null,
-      "lon": null,
-      "alt": null,
-      "speed": null,
-      "track": null,
+      "lat": 61.630646,
+      "lon": 25.294941,
+      "alt": 26825,
+      "speed": 414.1,
+      "track": 181.25,
       "seen_first": "2026-10-27T15:05:01.906552",
-      "last_seen": "2026-10-27T15:05:01.906552"
+      "last_seen": "2026-10-27T15:10:01.820247"
+    },
+    "781e8a": {
+      "hex": "781e8a",
+      "flight": "CKK250",
+      "reg": "B-222N",
+      "type": "B77L",
+      "lat": 61.275547,
+      "lon": 26.140442,
+      "alt": 33000,
+      "speed": 496.7,
+      "track": 58.17,
+      "seen_first": "2026-10-27T15:06:01.789472",
+      "last_seen": "2026-10-27T15:10:01.820247"
     }
   },
   "summary": {
-    "total_unique_aircraft": 40,
-    "last_seen_live": 1,
-    "updated": "2026-10-27T15:05:01.906552"
+    "total_unique_aircraft": 41,
+    "last_seen_live": 2,
+    "updated": "2026-10-27T15:10:01.820247"
   }
 }
