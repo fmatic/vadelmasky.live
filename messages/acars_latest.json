@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.10.2026 12:19 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "80",
-      "msgno": "M06A",
-      "text": "1001 OUTRP  0286/27 EFJY/EFHK .OH-ATN\r\n/OUT 1211/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "27.10.2026 12:19 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "80",
-      "msgno": "M07A",
-      "text": "1101 OFFRP  0286/27 EFJY/EFHK .OH-ATN\r\n/OUT 1211/OFF 1214/FOB 0015/ETA 1259"
-    },
-    {
-      "time": "27.10.2026 12:20 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "_d",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "27.10.2026 12:31 UTC",
-      "source": "ACARS",
-      "flight": "N70574",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -38.9,
-      "label": "80",
-      "msgno": "M02A",
-      "text": "3701 INRANG 0574/27 EFKT/EFHK .OH-ATJ\r\n/ETA 1259/ERT     "
-    },
-    {
-      "time": "27.10.2026 12:33 UTC",
-      "source": "ACARS",
-      "flight": "N70574",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "80",
-      "msgno": "M03A",
-      "text": "3A01 OPSCTL 0574/27 EFKT/EFHK .OH-ATJ\r\nVIITTITTEKO HUIKATA\r\nCATERINGILLE ETTA MEILLA\r\nHAJOS TARJOILUTROLLI.\r\nJOS TOISIVAT KOKONAAN\r\nUUDEN."
-    },
-    {
-      "time": "27.10.2026 12:34 UTC",
-      "source": "ACARS",
-      "flight": "N70574",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -37.4,
-      "label": "_d",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
       "time": "27.10.2026 12:35 UTC",
       "source": "ACARS",
       "flight": "N70574",
@@ -329,6 +263,72 @@
       "label": "H1",
       "msgno": "E96B",
       "text": "LGB,R,0,,215,217,1,L,,0.0,0.0,,,0.0,0.0,,,217,220,,,223,220,,,0.0,0.0,,,,0.0,0.0,,,213,220,,,219,215,,,0.1,0.0,,,0.0,0.0,,,216,216,,,214,213,,0.0,,0.0,,LOCKED,LOCKED,,,48,0,64,48,48,ANTISKID,12,JUN,46,14,22,37"
+    },
+    {
+      "time": "27.10.2026 14:50 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "Q0",
+      "msgno": "S51A",
+      "text": "No text"
+    },
+    {
+      "time": "27.10.2026 14:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -40.8,
+      "label": "Q0",
+      "msgno": "S35A",
+      "text": "No text"
+    },
+    {
+      "time": "27.10.2026 14:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -23.3,
+      "label": "Q0",
+      "msgno": "S35A",
+      "text": "No text"
+    },
+    {
+      "time": "27.10.2026 14:54 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -26.9,
+      "label": "H1",
+      "msgno": "C23A",
+      "text": ".1/WRN/WN2610271454  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "27.10.2026 14:54 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6090",
+      "freq": 131.725,
+      "level": -41.8,
+      "label": "H1",
+      "msgno": "C23A",
+      "text": ".1/WRN/WN2610271454  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "27.10.2026 14:55 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -27.3,
+      "label": "H1",
+      "msgno": "C24A",
+      "text": ".1/WRN/WN2610271454  345204006NAV ADS-B RPTG 1 FAULT"
     }
   ]
 }
