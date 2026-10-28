@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.10.2026 19:17 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "H1",
-      "msgno": "O07A",
-      "text": "SB0122BA_B-222V  EHAMZSPD341\r\n 61274 0261331916 33001-480301042010YY,008009"
-    },
-    {
-      "time": "27.10.2026 19:20 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "H1",
-      "msgno": "O08A",
-      "text": "SS0340F_150\r\nB-222V  CKK206EHAMZSPD271026191959ER\r\n29433003823-1787179513168BSM79967A21\r\n5426101 54 2701271026 191957\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33004\r\n      ) 0 02N    )16.)\r"
-    },
-    {
-      "time": "27.10.2026 19:20 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "H1",
-      "msgno": "O08B",
-      "text": "SS0340F_150\r\nB-222V  CKK206EHAMZSPD271026191959ER\r\n29433003823-1787179513168BSM79967A21\r\n5426101 54 2701271026 191957\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33004\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n271026191959\r\n111111111111\r\n111111111111"
-    },
-    {
-      "time": "27.10.2026 19:21 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "_d",
-      "msgno": "S02A",
-      "text": "No text"
-    },
-    {
-      "time": "27.10.2026 19:22 UTC",
-      "source": "ACARS",
-      "flight": "CK0206",
-      "tail": "B-222V",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "16",
-      "msgno": "M52A",
-      "text": "POSA1N61694E 27573,ADO-17 ,191851,330,ASP-18 ,192817,-49, 46, 692,830"
-    },
-    {
-      "time": "27.10.2026 21:21 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "_d",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
-      "time": "27.10.2026 21:21 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "H1",
-      "msgno": "E30A",
-      "text": "FUQ,R,65.3,79.5,-14,C,0.794,METRIC UNITS,106,,1421,,55,,1453,,92,,1445,,55,,1459,,110,,1421,,55,,1453,,110,,1419,,55,,1459,,94,,1421,,51,,1453,,94,,1402,,51,,1459,,105,,1421,,47,,1453,,105,,1402,,47,,1459,,"
-    },
-    {
       "time": "27.10.2026 21:21 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -328,6 +251,83 @@
       "level": -22.8,
       "label": "5V",
       "msgno": "S02A",
+      "text": "No text"
+    },
+    {
+      "time": "28.10.2026 12:15 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -25.9,
+      "label": "Q0",
+      "msgno": "M03A",
+      "text": "No text"
+    },
+    {
+      "time": "28.10.2026 12:15 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "SA",
+      "msgno": "S03A",
+      "text": "0EV121533V"
+    },
+    {
+      "time": "28.10.2026 12:15 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -27.6,
+      "label": "B9",
+      "msgno": "L00A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "28.10.2026 12:16 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.725,
+      "level": -34.2,
+      "label": "_d",
+      "msgno": "S04A",
+      "text": "No text"
+    },
+    {
+      "time": "28.10.2026 12:16 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -19.1,
+      "label": "_d",
+      "msgno": "S04A",
+      "text": "No text"
+    },
+    {
+      "time": "28.10.2026 12:16 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -19.0,
+      "label": "_d",
+      "msgno": "S05A",
+      "text": "No text"
+    },
+    {
+      "time": "28.10.2026 12:16 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.725,
+      "level": -33.9,
+      "label": "_d",
+      "msgno": "S05A",
       "text": "No text"
     }
   ]
