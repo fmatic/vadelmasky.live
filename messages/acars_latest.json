@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.10.2026 14:55 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -26.2,
-      "label": "10",
-      "msgno": "M66A",
-      "text": "POS271455,N 61.784,E 27.234,2221,487375,,,35000,105280"
-    },
-    {
       "time": "27.10.2026 14:58 UTC",
       "source": "ACARS",
       "flight": "CA3144",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C05A",
       "text": ".1/FLR/FR2610280039  34363106IR2    1,,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "28.10.2026 04:20 UTC",
+      "source": "ACARS",
+      "flight": "N70512",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -41.9,
+      "label": "_d",
+      "msgno": "S22A",
+      "text": "No text"
     }
   ]
 }
