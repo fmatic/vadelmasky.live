@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.10.2026 15:15 UTC",
-      "source": "ACARS",
-      "flight": "CK0250",
-      "tail": "B-222N",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "16",
-      "msgno": "M43A",
-      "text": "POSA1N61691E 27576,TOMBU  ,144207,330,KOKAT  ,153028,-48, 59, 677,830"
-    },
-    {
       "time": "27.10.2026 15:17 UTC",
       "source": "ACARS",
       "flight": "CK0250",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "M10A",
       "text": "No text"
+    },
+    {
+      "time": "28.10.2026 09:27 UTC",
+      "source": "ACARS",
+      "flight": "ZD0001",
+      "tail": "023",
+      "freq": 131.725,
+      "level": -43.0,
+      "label": "15",
+      "msgno": "M19A",
+      "text": "(2N61384E 27572--- 34390-55(Z"
     }
   ]
 }
