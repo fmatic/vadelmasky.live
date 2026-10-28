@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">5</div>
+        <div class="value">6</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">28.10.2026 05:35 UTC</div>
+        <div class="value">28.10.2026 05:40 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,8 +274,8 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601FD · REG OH-ATP · TYPE AT75</div>
                 </div>
                 <div class="alt-badge mid">16000 ft</div>
             </div>
@@ -283,10 +283,34 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>28.10.2026 05:35 UTC</b></div>
+                    <div><span>Speed</span><b>202.6 kt</b></div>
+                    <div><span>Track</span><b>206.69°</b></div>
+                    <div><span>Position</span><b>61.6631, 25.3388</b></div>
+                    <div><span>Last seen</span><b>28.10.2026 05:40 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATP" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN3PJ</div>
+                    <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>300.1 kt</b></div>
+                    <div><span>Track</span><b>21.09°</b></div>
+                    <div><span>Position</span><b>61.8764, 26.4107</b></div>
+                    <div><span>Last seen</span><b>28.10.2026 05:40 UTC</b></div>
                 </div>
             </div>
 
@@ -411,30 +435,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKR" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN8KH</div>
-                    <div class="meta">ICAO 4601FD · REG OH-ATP · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">16000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>202.6 kt</b></div>
-                    <div><span>Track</span><b>206.69°</b></div>
-                    <div><span>Position</span><b>61.6631, 25.3388</b></div>
-                    <div><span>Last seen</span><b>28.10.2026 04:11 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATP" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1000,7 +1000,7 @@ B-2094  CAO100LEMDZSPD271026212755ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461E21", "flight": "FIN4MP", "lat": 61.206743, "lon": 25.283305, "alt": 26475, "speed": 345.2, "last_seen": "28.10.2026 04:14 UTC"}, {"hex": "4601FD", "flight": "FIN8KH", "lat": 61.663141, "lon": 25.338847, "alt": 16000, "speed": 202.6, "last_seen": "28.10.2026 04:11 UTC"}, {"hex": "781783", "flight": "DKH1661", "lat": 61.095809, "lon": 24.71995, "alt": 38000, "speed": 434.7, "last_seen": "28.10.2026 04:07 UTC"}, {"hex": "467895", "flight": "T36", "lat": 61.141337, "lon": 25.652466, "alt": 20000, "speed": 253.7, "last_seen": "28.10.2026 03:59 UTC"}, {"hex": "78044E", "flight": "CAO1154", "lat": 62.148, "lon": 27.614, "alt": 39000, "speed": 488.0, "last_seen": "28.10.2026 01:16 UTC"}];
+const aircraft = [{"hex": "4601FD", "flight": "FIN8KH", "lat": 61.663141, "lon": 25.338847, "alt": 16000, "speed": 202.6, "last_seen": "28.10.2026 05:40 UTC"}, {"hex": "4601F2", "flight": "FIN3PJ", "lat": 61.876397, "lon": 26.410726, "alt": 16025, "speed": 300.1, "last_seen": "28.10.2026 05:40 UTC"}, {"hex": "461E21", "flight": "FIN4MP", "lat": 61.206743, "lon": 25.283305, "alt": 26475, "speed": 345.2, "last_seen": "28.10.2026 04:14 UTC"}, {"hex": "781783", "flight": "DKH1661", "lat": 61.095809, "lon": 24.71995, "alt": 38000, "speed": 434.7, "last_seen": "28.10.2026 04:07 UTC"}, {"hex": "467895", "flight": "T36", "lat": 61.141337, "lon": 25.652466, "alt": 20000, "speed": 253.7, "last_seen": "28.10.2026 03:59 UTC"}, {"hex": "78044E", "flight": "CAO1154", "lat": 62.148, "lon": 27.614, "alt": 39000, "speed": 488.0, "last_seen": "28.10.2026 01:16 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
