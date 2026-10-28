@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -252,17 +252,17 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0 ft</div>
+        <div class="value">39000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">0 kt</div>
+        <div class="value">486.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">28.10.2026 00:30 UTC</div>
+        <div class="value">28.10.2026 00:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -271,12 +271,54 @@ footer {
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
         
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CAO1154</div>
+                    <div class="meta">ICAO 78044E · REG B-6115 · TYPE A332</div>
+                </div>
+                <div class="alt-badge high">39000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>486.0 kt</b></div>
+                    <div><span>Track</span><b>70.31°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>28.10.2026 00:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6115" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
     </div>
 </section>
 
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA1154</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6115 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">28.10.2026 00:30 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label B9 · Msg M16A · Level -39.0 dB
+            </div>
+
+            <div class="acars-text">/ZUUU.TI2/024ZUUUA3E85</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -507,32 +549,6 @@ B-222V  CKK206EHAMZSPD271026191959ER
 271026191959
 111111111111
 111111111111</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CK0206</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-222V · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">27.10.2026 19:20 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg O08A · Level -35.8 dB
-            </div>
-
-            <div class="acars-text">SS0340F_150
-B-222V  CKK206EHAMZSPD271026191959ER
-29433003823-1787179513168BSM79967A21
-5426101 54 2701271026 191957
-  0 000  0  000)
-  0 000  0  000)
-10110111111111111
-  33004
-      ) 0 02N    )16.)</div>
         </article>
         
     </div>
