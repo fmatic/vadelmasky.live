@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.10.2026 12:16 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -19.0,
-      "label": "_d",
-      "msgno": "S05A",
-      "text": "No text"
-    },
-    {
-      "time": "28.10.2026 12:16 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.725,
-      "level": -33.9,
-      "label": "_d",
-      "msgno": "S05A",
-      "text": "No text"
-    },
-    {
       "time": "28.10.2026 12:43 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -329,6 +307,28 @@
       "label": "11",
       "msgno": "M82A",
       "text": "POS\r\nCAS 256,LAT N 62.284,LON E 26.503,ALT 38003,FOB 32560,UTC 154350,PD ----.--,WD 230,WS   34,TAT - 21"
+    },
+    {
+      "time": "29.10.2026 15:47 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/FLR/FR2610291546  34363106IR3    1,IR2,IR1,,,,,MMR2-GPSSU2(40RT2-1SN2)/ADIRU3 (1FP3),HARD"
+    },
+    {
+      "time": "29.10.2026 15:47 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -40.5,
+      "label": "11",
+      "msgno": "M83A",
+      "text": "POS\r\nCAS 258,LAT N 62.084,LON E 25.556,ALT 37997,FOB 32000,UTC 154750,PD ----.--,WD 239,WS   35,TAT - 19"
     }
   ]
 }
