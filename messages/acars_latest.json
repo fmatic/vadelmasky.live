@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.10.2026 12:13 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "H1",
-      "msgno": "D00A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2OCT28,1135,0285/C1GMT,ACC/C21133,.0.64,FLT/C31129,.1.40,FLT/C41133,.1.31,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
       "time": "28.10.2026 12:14 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "B9",
       "msgno": "L01A",
       "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "29.10.2026 13:16 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-1266",
+      "freq": 131.825,
+      "level": -39.2,
+      "label": "H1",
+      "msgno": "O13A",
+      "text": "SB0122BA_B-1266  ZBAALIRF286\r\n 61531 0286071321 33996-51022505401020;012015"
     }
   ]
 }
