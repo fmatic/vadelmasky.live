@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.10.2026 15:41 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -39.3,
-      "label": "H1",
-      "msgno": "D22D",
-      "text": "030FA8 -1356 24\r\n18325044908490001  1186D030FA8 -1431 34\r\n11111011111101\r\n11111011111101"
-    },
-    {
-      "time": "28.10.2026 16:55 UTC",
-      "source": "ACARS",
-      "flight": "CZ5202",
-      "tail": "B-20EN",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "H1",
-      "msgno": "O63A",
-      "text": "SS0340C_150\r\nB-20EN  CSN520ENGMZSPD281026165520ER\r\n30831002826-1313109623107BCG00A31A\r\n246620219 260281026 165520\r\n244620220 260\r\n244620220 260\r\n10000000000000010\r\n  31001\r\n  3141615 54N   85 0.1\r\n  3140015"
-    },
-    {
       "time": "28.10.2026 16:55 UTC",
       "source": "ACARS",
       "flight": "CZ5202",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C31A",
       "text": ".1/WRN/WN2610292003  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "29.10.2026 20:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5962",
+      "freq": 131.725,
+      "level": -33.5,
+      "label": "SA",
+      "msgno": "S33A",
+      "text": "0LS203126V"
+    },
+    {
+      "time": "29.10.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5962",
+      "freq": 131.725,
+      "level": -36.7,
+      "label": "_d",
+      "msgno": "S34A",
+      "text": "No text"
     }
   ]
 }
