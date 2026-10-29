@@ -258,7 +258,7 @@
       "speed": 294.1,
       "track": 212.5,
       "seen_first": "2026-10-29T11:03:02.039350",
-      "last_seen": "2026-10-29T12:35:02.089468"
+      "last_seen": "2026-10-29T12:40:02.152800"
     },
     "4601fa": {
       "hex": "4601fa",
@@ -301,21 +301,34 @@
     },
     "4601fb": {
       "hex": "4601fb",
-      "flight": "",
+      "flight": "FIN20G",
       "reg": "OH-ATN",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": null,
-      "speed": 207.1,
-      "track": 181.38,
+      "lat": 61.77887,
+      "lon": 25.30171,
+      "alt": 17000,
+      "speed": 201.1,
+      "track": 181.42,
       "seen_first": "2026-10-29T12:32:01.292630",
-      "last_seen": "2026-10-29T12:35:02.089468"
+      "last_seen": "2026-10-29T12:40:02.152800"
+    },
+    "461f36": {
+      "hex": "461f36",
+      "flight": "FIN2PD",
+      "reg": "OH-LVI",
+      "type": "A319",
+      "lat": 62.217997,
+      "lon": 25.835724,
+      "alt": 39000,
+      "speed": 417.6,
+      "track": 171.46,
+      "seen_first": "2026-10-29T12:39:01.881080",
+      "last_seen": "2026-10-29T12:40:02.152800"
     }
   },
   "summary": {
-    "total_unique_aircraft": 24,
-    "last_seen_live": 4,
-    "updated": "2026-10-29T12:35:02.089468"
+    "total_unique_aircraft": 25,
+    "last_seen_live": 3,
+    "updated": "2026-10-29T12:40:02.152800"
   }
 }
