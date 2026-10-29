@@ -6,17 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATJ",
       "freq": 131.825,
-      "level": -19.1,
-      "label": "_d",
-      "msgno": "S04A",
-      "text": "No text"
-    },
-    {
-      "time": "28.10.2026 12:16 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
       "level": -19.0,
       "label": "_d",
       "msgno": "S05A",
@@ -329,6 +318,17 @@
       "label": "11",
       "msgno": "M81A",
       "text": "POS\r\nCAS 258,LAT N 62.476,LON E 27.452,ALT 38000,FOB 33720,UTC 153949,PD ----.--,WD 227,WS   40,TAT - 21"
+    },
+    {
+      "time": "29.10.2026 15:43 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "11",
+      "msgno": "M82A",
+      "text": "POS\r\nCAS 256,LAT N 62.284,LON E 26.503,ALT 38003,FOB 32560,UTC 154350,PD ----.--,WD 230,WS   34,TAT - 21"
     }
   ]
 }
