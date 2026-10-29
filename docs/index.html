@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">29.10.2026 04:10 UTC</div>
+        <div class="value">29.10.2026 04:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,34 +274,10 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">FIN8KH</div>
-                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">16000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>257.0 kt</b></div>
-                    <div><span>Track</span><b>180.0°</b></div>
-                    <div><span>Position</span><b>61.3673, 25.7559</b></div>
-                    <div><span>Last seen</span><b>29.10.2026 04:10 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
                     <div class="flight">FIN8MC</div>
                     <div class="meta">ICAO 461F30 · REG OH-LVC · TYPE A319</div>
                 </div>
-                <div class="alt-badge high">25125 ft</div>
+                <div class="alt-badge mid">19450 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -310,7 +286,7 @@ footer {
                     <div><span>Speed</span><b>360.0 kt</b></div>
                     <div><span>Track</span><b>181.41°</b></div>
                     <div><span>Position</span><b>59.5862, 28.2368</b></div>
-                    <div><span>Last seen</span><b>29.10.2026 04:10 UTC</b></div>
+                    <div><span>Last seen</span><b>29.10.2026 04:15 UTC</b></div>
                 </div>
             </div>
 
@@ -334,7 +310,7 @@ footer {
                     <div><span>Speed</span><b>522.6 kt</b></div>
                     <div><span>Track</span><b>229.27°</b></div>
                     <div><span>Position</span><b>61.4966, 26.5153</b></div>
-                    <div><span>Last seen</span><b>29.10.2026 04:10 UTC</b></div>
+                    <div><span>Last seen</span><b>29.10.2026 04:15 UTC</b></div>
                 </div>
             </div>
 
@@ -349,20 +325,44 @@ footer {
                     <div class="flight">FIN4MP</div>
                     <div class="meta">ICAO 461E18 · REG OH-LKI · TYPE E190</div>
                 </div>
-                <div class="alt-badge high">26275 ft</div>
+                <div class="alt-badge mid">24750 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>374.0 kt</b></div>
-                    <div><span>Track</span><b>182.46°</b></div>
-                    <div><span>Position</span><b>61.6040, 25.3080</b></div>
-                    <div><span>Last seen</span><b>29.10.2026 04:10 UTC</b></div>
+                    <div><span>Speed</span><b>360.0 kt</b></div>
+                    <div><span>Track</span><b>182.29°</b></div>
+                    <div><span>Position</span><b>61.5153, 25.3063</b></div>
+                    <div><span>Last seen</span><b>29.10.2026 04:14 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>257.0 kt</b></div>
+                    <div><span>Track</span><b>180.0°</b></div>
+                    <div><span>Position</span><b>61.3673, 25.7559</b></div>
+                    <div><span>Last seen</span><b>29.10.2026 04:11 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -805,7 +805,7 @@ EOR
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F7", "flight": "FIN8KH", "lat": 61.367255, "lon": 25.75592, "alt": 16000, "speed": 257.0, "last_seen": "29.10.2026 04:10 UTC"}, {"hex": "461F30", "flight": "FIN8MC", "lat": 59.586182, "lon": 28.236786, "alt": 25125, "speed": 360.0, "last_seen": "29.10.2026 04:10 UTC"}, {"hex": "899125", "flight": "CAL061", "lat": 61.496577, "lon": 26.515299, "alt": 40000, "speed": 522.6, "last_seen": "29.10.2026 04:10 UTC"}, {"hex": "461E18", "flight": "FIN4MP", "lat": 61.603973, "lon": 25.308024, "alt": 26275, "speed": 374.0, "last_seen": "29.10.2026 04:10 UTC"}, {"hex": "4601F2", "flight": "FIN9D", "lat": 61.075791, "lon": 25.524597, "alt": 18000, "speed": 239.8, "last_seen": "29.10.2026 04:00 UTC"}];
+const aircraft = [{"hex": "461F30", "flight": "FIN8MC", "lat": 59.586182, "lon": 28.236786, "alt": 19450, "speed": 360.0, "last_seen": "29.10.2026 04:15 UTC"}, {"hex": "899125", "flight": "CAL061", "lat": 61.496577, "lon": 26.515299, "alt": 40000, "speed": 522.6, "last_seen": "29.10.2026 04:15 UTC"}, {"hex": "461E18", "flight": "FIN4MP", "lat": 61.515291, "lon": 25.306295, "alt": 24750, "speed": 360.0, "last_seen": "29.10.2026 04:14 UTC"}, {"hex": "4601F7", "flight": "FIN8KH", "lat": 61.367255, "lon": 25.75592, "alt": 16000, "speed": 257.0, "last_seen": "29.10.2026 04:11 UTC"}, {"hex": "4601F2", "flight": "FIN9D", "lat": 61.075791, "lon": 25.524597, "alt": 18000, "speed": 239.8, "last_seen": "29.10.2026 04:00 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
