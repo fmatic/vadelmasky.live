@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.10.2026 12:12 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "80",
-      "msgno": "M02A",
-      "text": "1101 OFFRP  0286/28 EFJY/EFHK .OH-ATJ\r\n/OUT 1208/OFF 1210/FOB 0015/ETA 1250"
-    },
-    {
       "time": "28.10.2026 12:13 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S68A",
       "text": "No text"
+    },
+    {
+      "time": "29.10.2026 12:31 UTC",
+      "source": "ACARS",
+      "flight": "N70574",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "B9",
+      "msgno": "L01A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
     }
   ]
 }
