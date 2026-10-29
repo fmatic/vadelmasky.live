@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.10.2026 12:46 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "H1",
-      "msgno": "C04C",
-      "text": "GHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nEOR\r\n"
-    },
-    {
-      "time": "28.10.2026 12:47 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -39.2,
-      "label": "_d",
-      "msgno": "S14A",
-      "text": "No text"
-    },
-    {
-      "time": "28.10.2026 15:38 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -41.6,
-      "label": "16",
-      "msgno": "M58A",
-      "text": "POSA1N61326E 25844,TOM-01 ,151229,310,KOKAT  ,155800,-45, 48, 672,826"
-    },
-    {
       "time": "28.10.2026 15:40 UTC",
       "source": "ACARS",
       "flight": "CK0204",
@@ -329,6 +296,39 @@
       "label": "5V",
       "msgno": "S39A",
       "text": "No text"
+    },
+    {
+      "time": "29.10.2026 19:53 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "_d",
+      "msgno": "S07A",
+      "text": "No text"
+    },
+    {
+      "time": "29.10.2026 19:53 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "_d",
+      "msgno": "S08A",
+      "text": "No text"
+    },
+    {
+      "time": "29.10.2026 19:54 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -29.2,
+      "label": "SA",
+      "msgno": "S09A",
+      "text": "0LS195433V"
     }
   ]
 }
