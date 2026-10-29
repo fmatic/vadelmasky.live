@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "28.10.2026 16:55 UTC",
-      "source": "ACARS",
-      "flight": "CZ5202",
-      "tail": "B-20EN",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "H1",
-      "msgno": "O63B",
-      "text": "SS0340C_150\r\nB-20EN  CSN520ENGMZSPD281026165520ER\r\n30831002826-1313109623107BCG00A31A\r\n246620219 260281026 165520\r\n244620220 260\r\n244620220 260\r\n10000000000000010\r\n  31001\r\n  3141615 54N   85 0.1\r\n  3140015 83N  122 0.0\r\n281026165520\r\n281026165520\r\n281026165520"
-    },
-    {
-      "time": "28.10.2026 22:17 UTC",
-      "source": "ACARS",
-      "flight": "N70289",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -45.0,
-      "label": "Q0",
-      "msgno": "S40A",
-      "text": "No text"
-    },
-    {
-      "time": "29.10.2026 11:43 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -32.5,
-      "label": "Q0",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
-      "time": "29.10.2026 11:43 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "Q0",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
       "time": "29.10.2026 12:22 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +285,50 @@
       "label": "_d",
       "msgno": "S34A",
       "text": "No text"
+    },
+    {
+      "time": "29.10.2026 20:35 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5962",
+      "freq": 131.725,
+      "level": -30.1,
+      "label": "H1",
+      "msgno": "C37A",
+      "text": ".1/WRN/WN2610292035  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "29.10.2026 20:35 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5962",
+      "freq": 131.725,
+      "level": -28.7,
+      "label": "H1",
+      "msgno": "C38A",
+      "text": ".1/WRN/WN2610292035  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "29.10.2026 20:36 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5962",
+      "freq": 131.725,
+      "level": -32.9,
+      "label": "H1",
+      "msgno": "C39A",
+      "text": ".1/FLR/FR2610292035  34361606MMR1   1,IR1,IR3,IR2,AFS,MMR2,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "29.10.2026 20:38 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5962",
+      "freq": 131.725,
+      "level": -37.8,
+      "label": "SA",
+      "msgno": "S39A",
+      "text": "0LS203856V"
     }
   ]
 }
