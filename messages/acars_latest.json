@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.10.2026 20:35 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5962",
-      "freq": 131.725,
-      "level": -28.7,
-      "label": "H1",
-      "msgno": "C38A",
-      "text": ".1/WRN/WN2610292035  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "29.10.2026 20:36 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5962",
-      "freq": 131.725,
-      "level": -32.9,
-      "label": "H1",
-      "msgno": "C39A",
-      "text": ".1/FLR/FR2610292035  34361606MMR1   1,IR1,IR3,IR2,AFS,MMR2,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "29.10.2026 20:38 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5962",
-      "freq": 131.725,
-      "level": -37.8,
-      "label": "SA",
-      "msgno": "S39A",
-      "text": "0LS203856V"
-    },
-    {
       "time": "29.10.2026 21:04 UTC",
       "source": "ACARS",
       "flight": "CA1044",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S34A",
       "text": "No text"
+    },
+    {
+      "time": "30.10.2026 15:51 UTC",
+      "source": "ACARS",
+      "flight": "CZ5202",
+      "tail": "B-2028",
+      "freq": 131.825,
+      "level": -26.7,
+      "label": "H1",
+      "msgno": "O93A",
+      "text": "SS0340C_249\r\nB-2028  CSN520ENGMZSPD301026155144ER\r\n29733001831-1325110833107BCG00A31A\r\n260620825 250301026 155143\r\n260620823 250\r\n25)6))81) 2))\r\n10000000000000001\r\n  33001\r\n  3264512 83N  110 0.1\r\n  3262)12"
+    },
+    {
+      "time": "30.10.2026 15:51 UTC",
+      "source": "ACARS",
+      "flight": "CZ5202",
+      "tail": "B-2028",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "H1",
+      "msgno": "O93B",
+      "text": "SS0340C_249\r\nB-2028  CSN520ENGMZSPD301026155144ER\r\n29733001831-1325110833107BCG00A31A\r\n260620825 250301026 155143\r\n260620823 250\r\n25)6))81) 2))\r\n10000000000000001\r\n  33001\r\n  3264512 83N  110 0.1\r\n  3262)12 86N3276)16.)\r\n301026155144\r\n301026155144\r\n301026155144"
+    },
+    {
+      "time": "30.10.2026 15:52 UTC",
+      "source": "ACARS",
+      "flight": "CZ5202",
+      "tail": "B-2028",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "18",
+      "msgno": "M77A",
+      "text": "POX,CSN5202   ,30OCT26,155230,ENGM,ZSPD,N062.28,E0026.03,330, 688,828,  61.9,   7.5,065,-44.6,234830, 29760,"
     }
   ]
 }
