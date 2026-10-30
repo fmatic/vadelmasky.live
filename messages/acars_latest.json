@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.10.2026 15:39 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -40.8,
-      "label": "11",
-      "msgno": "M81A",
-      "text": "POS\r\nCAS 258,LAT N 62.476,LON E 27.452,ALT 38000,FOB 33720,UTC 153949,PD ----.--,WD 227,WS   40,TAT - 21"
-    },
-    {
-      "time": "29.10.2026 15:43 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "11",
-      "msgno": "M82A",
-      "text": "POS\r\nCAS 256,LAT N 62.284,LON E 26.503,ALT 38003,FOB 32560,UTC 154350,PD ----.--,WD 230,WS   34,TAT - 21"
-    },
-    {
-      "time": "29.10.2026 15:47 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "H1",
-      "msgno": "C20A",
-      "text": ".1/FLR/FR2610291546  34363106IR3    1,IR2,IR1,,,,,MMR2-GPSSU2(40RT2-1SN2)/ADIRU3 (1FP3),HARD"
-    },
-    {
       "time": "29.10.2026 15:47 UTC",
       "source": "ACARS",
       "flight": "MU0289",
@@ -329,6 +296,39 @@
       "label": "18",
       "msgno": "M52A",
       "text": "POX,CSG2515   ,30OCT26,115810,ZGGG,EGPK,N061.14,E0025.62,340, 276,843,-115.0,  -2.8,031,-41.9,141810, 28600,"
+    },
+    {
+      "time": "30.10.2026 12:10 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "Q0",
+      "msgno": "S28A",
+      "text": "No text"
+    },
+    {
+      "time": "30.10.2026 12:10 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -30.3,
+      "label": "16",
+      "msgno": "M79A",
+      "text": "POSA1N61727E 26830,AGIVU  ,115802,340,NISIX  ,123905,-42, 14, 224,828"
+    },
+    {
+      "time": "30.10.2026 12:14 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-223A",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "H1",
+      "msgno": "O52A",
+      "text": "SB0122BA_B-223A  ZSPDEHAM769\r\n 61373 0257811214 33997-420002031010NXW009011"
     }
   ]
 }
