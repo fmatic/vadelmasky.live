@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.10.2026 22:48 UTC",
-      "source": "ACARS",
-      "flight": "N70375",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -30.1,
-      "label": "SA",
-      "msgno": "S80A",
-      "text": "0EV224821V"
-    },
-    {
-      "time": "29.10.2026 22:48 UTC",
-      "source": "ACARS",
-      "flight": "N70375",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -29.3,
-      "label": "H1",
-      "msgno": "D07B",
-      "text": "L/F2069.5,082.0,093.6/F3069.5,082.0,094.5/G1NH,ITT,FF,IG/G2094.8,0661.4,321,0110/G3094.4,0663.4,328,0085/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I220.64/**.,EOT,...,/"
-    },
-    {
-      "time": "29.10.2026 22:50 UTC",
-      "source": "ACARS",
-      "flight": "N70375",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -37.6,
-      "label": "_d",
-      "msgno": "S81A",
-      "text": "No text"
-    },
-    {
       "time": "30.10.2026 11:47 UTC",
       "source": "ACARS",
       "flight": "CZ2515",
@@ -329,6 +296,39 @@
       "label": "18",
       "msgno": "M65A",
       "text": "POX,CSG2516   ,30OCT26,190602,EGPK,ZGGG,N061.79,E0028.91,369, 633,828,  74.2,   1.0,031,-45.0,035202, 37600,"
+    },
+    {
+      "time": "30.10.2026 20:34 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -30.3,
+      "label": "_d",
+      "msgno": "S69A",
+      "text": "No text"
+    },
+    {
+      "time": "30.10.2026 20:34 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -26.5,
+      "label": "H1",
+      "msgno": "E27A",
+      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,C"
+    },
+    {
+      "time": "30.10.2026 20:34 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "H1",
+      "msgno": "E27B",
+      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,NO PRESS,ON,PRESS,,30,OCT,26,20,34,03"
     }
   ]
 }
