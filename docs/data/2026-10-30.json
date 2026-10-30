@@ -642,13 +642,13 @@
       "flight": "FIN488",
       "reg": "OH-ATP",
       "type": "AT75",
-      "lat": 61.636642,
-      "lon": 25.559202,
+      "lat": 61.570222,
+      "lon": 25.508016,
       "alt": 19975,
-      "speed": 313.2,
-      "track": 200.17,
+      "speed": 315.1,
+      "track": 200.05,
       "seen_first": "2026-10-30T18:35:01.305915",
-      "last_seen": "2026-10-30T21:25:01.911481"
+      "last_seen": "2026-10-30T21:30:02.226563"
     },
     "461e21": {
       "hex": "461e21",
@@ -662,11 +662,24 @@
       "track": 359.3,
       "seen_first": "2026-10-30T18:53:01.289560",
       "last_seen": "2026-10-30T18:54:01.538464"
+    },
+    "780da0": {
+      "hex": "780da0",
+      "flight": "CES772",
+      "reg": "B-2025",
+      "type": "B77W",
+      "lat": null,
+      "lon": null,
+      "alt": 31000,
+      "speed": 418.0,
+      "track": 59.41,
+      "seen_first": "2026-10-30T21:27:01.343300",
+      "last_seen": "2026-10-30T21:30:02.226563"
     }
   },
   "summary": {
-    "total_unique_aircraft": 51,
-    "last_seen_live": 1,
-    "updated": "2026-10-30T21:25:01.911481"
+    "total_unique_aircraft": 52,
+    "last_seen_live": 2,
+    "updated": "2026-10-30T21:30:02.226563"
   }
 }
