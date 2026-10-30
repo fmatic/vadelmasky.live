@@ -1,105 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.10.2026 19:53 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "_d",
-      "msgno": "S07A",
-      "text": "No text"
-    },
-    {
-      "time": "29.10.2026 19:53 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "_d",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
-      "time": "29.10.2026 19:54 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -29.2,
-      "label": "SA",
-      "msgno": "S09A",
-      "text": "0LS195433V"
-    },
-    {
-      "time": "29.10.2026 19:55 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -27.4,
-      "label": "H1",
-      "msgno": "C28A",
-      "text": ".1/FLR/FR2610291954  38314106VSC    1,,,,,,,LAV 11,HARD"
-    },
-    {
-      "time": "29.10.2026 20:00 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "11",
-      "msgno": "M13A",
-      "text": "POS\r\nCAS 274,LAT N 62.052,LON E 27.917,ALT 35003,FOB 114440,UTC 200007,PD ----.--,WD 242,WS   47,TAT - 20"
-    },
-    {
-      "time": "29.10.2026 20:03 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -43.2,
-      "label": "H1",
-      "msgno": "C31A",
-      "text": ".1/WRN/WN2610292003  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "29.10.2026 20:31 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5962",
-      "freq": 131.725,
-      "level": -33.5,
-      "label": "SA",
-      "msgno": "S33A",
-      "text": "0LS203126V"
-    },
-    {
-      "time": "29.10.2026 20:32 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5962",
-      "freq": 131.725,
-      "level": -36.7,
-      "label": "_d",
-      "msgno": "S34A",
-      "text": "No text"
-    },
-    {
-      "time": "29.10.2026 20:35 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5962",
-      "freq": 131.725,
-      "level": -30.1,
-      "label": "H1",
-      "msgno": "C37A",
-      "text": ".1/WRN/WN2610292035  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "29.10.2026 20:35 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -328,6 +229,105 @@
       "level": -41.7,
       "label": "_d",
       "msgno": "S23A",
+      "text": "No text"
+    },
+    {
+      "time": "30.10.2026 15:42 UTC",
+      "source": "ACARS",
+      "flight": "N70345",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "Q0",
+      "msgno": "M03A",
+      "text": "No text"
+    },
+    {
+      "time": "30.10.2026 15:42 UTC",
+      "source": "ACARS",
+      "flight": "N70345",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "B9",
+      "msgno": "L05A",
+      "text": "/EFJO.TI2/024EFJOA5CB7"
+    },
+    {
+      "time": "30.10.2026 15:42 UTC",
+      "source": "ACARS",
+      "flight": "N70345",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "SA",
+      "msgno": "S30A",
+      "text": "0EV154233V"
+    },
+    {
+      "time": "30.10.2026 15:42 UTC",
+      "source": "ACARS",
+      "flight": "N70345",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "_d",
+      "msgno": "S31A",
+      "text": "No text"
+    },
+    {
+      "time": "30.10.2026 15:42 UTC",
+      "source": "ACARS",
+      "flight": "N70345",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "B9",
+      "msgno": "L06A",
+      "text": "/EFJO.TI2/024EFJOA5CB7"
+    },
+    {
+      "time": "30.10.2026 15:42 UTC",
+      "source": "ACARS",
+      "flight": "N70345",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "B9",
+      "msgno": "L06A",
+      "text": "/EFJO.TI2/024EFJOA5CB7"
+    },
+    {
+      "time": "30.10.2026 15:43 UTC",
+      "source": "ACARS",
+      "flight": "N70345",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "_d",
+      "msgno": "S32A",
+      "text": "No text"
+    },
+    {
+      "time": "30.10.2026 15:43 UTC",
+      "source": "ACARS",
+      "flight": "N70345",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -36.9,
+      "label": "_d",
+      "msgno": "S33A",
+      "text": "No text"
+    },
+    {
+      "time": "30.10.2026 15:43 UTC",
+      "source": "ACARS",
+      "flight": "N70345",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -36.7,
+      "label": "_d",
+      "msgno": "S34A",
       "text": "No text"
     }
   ]
