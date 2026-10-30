@@ -6,39 +6,6 @@
       "flight": "CA1044",
       "tail": "B-2097",
       "freq": 131.825,
-      "level": -34.8,
-      "label": "SA",
-      "msgno": "S11A",
-      "text": "0LH210354VS"
-    },
-    {
-      "time": "29.10.2026 21:04 UTC",
-      "source": "ACARS",
-      "flight": "CA1044",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "H1",
-      "msgno": "O03A",
-      "text": "SB0122BA_B-2097  EHAMZBAA109\r\n 61605 0261312058 32998-460233044010GMY013015"
-    },
-    {
-      "time": "29.10.2026 21:04 UTC",
-      "source": "ACARS",
-      "flight": "CA1044",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "H1",
-      "msgno": "O04A",
-      "text": "SS0340C_520\r\nB-2097  CAO104EHAMZBAA291026210159ER\r\n29533002826-165016230316DBSM79962A\r\n815610 71 270291026 210157\r\n80)6))93) 2))\r\n81)6))94) 2))\r\n10000000000011111\r\n  32999\r\n  3300)12 06N3276)16.)\r\n  3300)12"
-    },
-    {
-      "time": "29.10.2026 21:04 UTC",
-      "source": "ACARS",
-      "flight": "CA1044",
-      "tail": "B-2097",
-      "freq": 131.825,
       "level": -35.8,
       "label": "H1",
       "msgno": "O04B",
@@ -329,6 +296,39 @@
       "label": "18",
       "msgno": "M77A",
       "text": "POX,CSN5202   ,30OCT26,155230,ENGM,ZSPD,N062.28,E0026.03,330, 688,828,  61.9,   7.5,065,-44.6,234830, 29760,"
+    },
+    {
+      "time": "30.10.2026 16:07 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -28.2,
+      "label": "80",
+      "msgno": "M10A",
+      "text": "3701 INRANG 0370/30 EFKU/EFHK .OH-ATE\r\n/ETA 1639/ERT     "
+    },
+    {
+      "time": "30.10.2026 16:07 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -28.7,
+      "label": "_d",
+      "msgno": "S47A",
+      "text": "No text"
+    },
+    {
+      "time": "30.10.2026 16:08 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "5V",
+      "msgno": "S48A",
+      "text": "No text"
     }
   ]
 }
