@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.10.2026 11:47 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -38.8,
-      "label": "H1",
-      "msgno": "O43A",
-      "text": "SB0122BA_B-2042  ZGGGEGPK254\r\n 61414 0273981151 33999-410335011010PSZ013015"
-    },
-    {
       "time": "30.10.2026 11:50 UTC",
       "source": "ACARS",
       "flight": "CZ2515",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "E27B",
       "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,NO PRESS,ON,PRESS,,30,OCT,26,20,34,03"
+    },
+    {
+      "time": "30.10.2026 20:39 UTC",
+      "source": "ACARS",
+      "flight": "CA1008",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -39.6,
+      "label": "10",
+      "msgno": "M66A",
+      "text": "POS302039, N 6225,E 2717,829,281,1374 ,  76,34999, 609,-148,-458,7"
     }
   ]
 }
