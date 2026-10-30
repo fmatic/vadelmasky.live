@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "29.10.2026 15:47 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -40.5,
-      "label": "11",
-      "msgno": "M83A",
-      "text": "POS\r\nCAS 258,LAT N 62.084,LON E 25.556,ALT 37997,FOB 32000,UTC 154750,PD ----.--,WD 239,WS   35,TAT - 19"
-    },
-    {
-      "time": "29.10.2026 16:49 UTC",
-      "source": "ACARS",
-      "flight": "N70346",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -37.6,
-      "label": "H1",
-      "msgno": "D02B",
-      "text": "L/F2070.0,081.9,095.4/F3070.0,081.9,094.5/G1NH,ITT,FF,IG/G2095.5,0677.7,339,0084/G3095.5,0652.8,331,0061/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I216.76/**.,EOT,...,/"
-    },
-    {
       "time": "29.10.2026 16:51 UTC",
       "source": "ACARS",
       "flight": "N70346",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O52A",
       "text": "SB0122BA_B-223A  ZSPDEHAM769\r\n 61373 0257811214 33997-420002031010NXW009011"
+    },
+    {
+      "time": "30.10.2026 13:16 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "H1",
+      "msgno": "C29B",
+      "text": "DCMF IN RIGHT AIMS\r\nATA 255200\r\nMSG 2558890 A\r\nDB ARINC SIGNAL GATEWAY (LEFT), RSCF\r\nDB ARINC SIGNAL GATEWAY (RIGHT), RSCF\r\nATA 313500\r\nMSG 3140202 A\r\nDB ACMF IN RIGHT AIMS\r\nATA 342100\r\nMSG 4517100 A\r\nDB CE"
+    },
+    {
+      "time": "30.10.2026 13:16 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2091",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "H1",
+      "msgno": "C29C",
+      "text": "NTRAL MAINTENANCE COMPUTING FUNCTION\r\nEOR\r\n"
     }
   ]
 }
