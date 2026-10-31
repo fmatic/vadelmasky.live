@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.10.2026 11:32 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -37.6,
-      "label": "_d",
-      "msgno": "S99A",
-      "text": "No text"
-    },
-    {
-      "time": "31.10.2026 11:32 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -42.2,
-      "label": "_d",
-      "msgno": "S01A",
-      "text": "No text"
-    },
-    {
       "time": "31.10.2026 12:07 UTC",
       "source": "ACARS",
       "flight": "CK0205",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C29A",
       "text": ".1/WRN/WN2610312004  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "31.10.2026 20:05 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "C30A",
+      "text": ".1/WRN/WN2610312005  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "31.10.2026 20:05 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -34.4,
+      "label": "H1",
+      "msgno": "C31A",
+      "text": ".1/FLR/FR2610312004  34361606MMR1   1,IR2,IR1,IR3,AFS,MMR2,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
