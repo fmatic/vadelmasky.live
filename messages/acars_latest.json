@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.10.2026 05:12 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -29.8,
-      "label": "_d",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
       "time": "31.10.2026 05:15 UTC",
       "source": "ACARS",
       "flight": "CA3157",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O54A",
       "text": "SB0122BA_B-221S  ZSPDEHAM572\r\n 61826 0270971207 33997-490006057098PSZ030034"
+    },
+    {
+      "time": "31.10.2026 12:15 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -41.6,
+      "label": "16",
+      "msgno": "M59A",
+      "text": "POSA1N61165E 25170,AGIVU  ,115632,339,NISIX  ,123527,-50, 76, 217,819"
     }
   ]
 }
