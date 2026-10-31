@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.10.2026 07:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EDDF.TI2/046EDDFA3A23"
-    },
-    {
-      "time": "31.10.2026 07:29 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-228S",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "_d",
-      "msgno": "S28A",
-      "text": "No text"
-    },
-    {
-      "time": "31.10.2026 07:37 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-222K",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "16",
-      "msgno": "M77A",
-      "text": "POSA1N61698E 26740,AGIVU  ,072536,339,NISIX  ,080300,-48, 92, 281,829"
-    },
-    {
-      "time": "31.10.2026 07:38 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-222K",
-      "freq": 131.825,
-      "level": -29.4,
-      "label": "SA",
-      "msgno": "S22A",
-      "text": "0LS073839V"
-    },
-    {
       "time": "31.10.2026 07:39 UTC",
       "source": "ACARS",
       "flight": "CK0203",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "D23D",
       "text": ",0.23,-19.5\r\nT2,083,099,098.9,-12.4,047.2,0.09,0.16,0.08,164,0.23,-19.5\r\nV1,0410,0364\r\nV2,0403,0334\r\n                            :\r\n"
+    },
+    {
+      "time": "31.10.2026 16:14 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "H1",
+      "msgno": "C40A",
+      "text": ".1/WRN/WN2610311614  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "31.10.2026 16:14 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6090",
+      "freq": 131.725,
+      "level": -38.0,
+      "label": "H1",
+      "msgno": "C41A",
+      "text": ".1/WRN/WN2610311614  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "31.10.2026 16:14 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -23.3,
+      "label": "H1",
+      "msgno": "C41A",
+      "text": ".1/WRN/WN2610311614  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "31.10.2026 16:14 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -23.3,
+      "label": "10",
+      "msgno": "M90A",
+      "text": "POS291614,N 62.207,E 26.355,0001,455500,,,37002,103760"
     }
   ]
 }
