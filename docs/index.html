@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">31.10.2026 08:00 UTC</div>
+        <div class="value">31.10.2026 08:05 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CKK203</div>
+                    <div class="meta">ICAO 781E34 · REG B-222K · TYPE B77L</div>
+                </div>
+                <div class="alt-badge high">34000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>546.0 kt</b></div>
+                    <div><span>Track</span><b>235.72°</b></div>
+                    <div><span>Position</span><b>62.1633, 3.1233</b></div>
+                    <div><span>Last seen</span><b>31.10.2026 08:05 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-222K" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CKK215</div>
+                    <div class="meta">ICAO 782409 · REG B-228S · TYPE B77L</div>
+                </div>
+                <div class="alt-badge high">34000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>62.5217, 3.2533</b></div>
+                    <div><span>Last seen</span><b>31.10.2026 08:01 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-228S" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -291,54 +339,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXA" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CKK215</div>
-                    <div class="meta">ICAO 782409 · REG B-228S · TYPE B77L</div>
-                </div>
-                <div class="alt-badge high">34000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>62.5217, 3.2533</b></div>
-                    <div><span>Last seen</span><b>31.10.2026 08:00 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-228S" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">CKK203</div>
-                    <div class="meta">ICAO 781E34 · REG B-222K · TYPE B77L</div>
-                </div>
-                <div class="alt-badge high">34000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>546.0 kt</b></div>
-                    <div><span>Track</span><b>235.72°</b></div>
-                    <div><span>Position</span><b>62.1633, 3.1233</b></div>
-                    <div><span>Last seen</span><b>31.10.2026 08:00 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-222K" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -981,7 +981,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461F62", "flight": "FIN14J", "lat": 61.378055, "lon": 25.182902, "alt": 24425, "speed": 487.1, "last_seen": "31.10.2026 08:00 UTC"}, {"hex": "782409", "flight": "CKK215", "lat": 62.521667, "lon": 3.253333, "alt": 34000, "speed": "-", "last_seen": "31.10.2026 08:00 UTC"}, {"hex": "781E34", "flight": "CKK203", "lat": 62.163333, "lon": 3.123333, "alt": 34000, "speed": 546.0, "last_seen": "31.10.2026 08:00 UTC"}, {"hex": "461E1F", "flight": "FIN434", "lat": 61.142687, "lon": 25.27415, "alt": 19500, "speed": 434.1, "last_seen": "31.10.2026 07:24 UTC"}, {"hex": "4601F9", "flight": "FIN5ET", "lat": 61.251386, "lon": 25.646057, "alt": 20000, "speed": 337.1, "last_seen": "31.10.2026 07:13 UTC"}, {"hex": "780092", "flight": "CAO1153", "lat": 61.673, "lon": 27.199, "alt": 36000, "speed": "-", "last_seen": "31.10.2026 07:05 UTC"}, {"hex": "4601FC", "flight": "FIN481", "lat": 62.530223, "lon": 26.35937, "alt": 16000, "speed": 228.0, "last_seen": "31.10.2026 06:04 UTC"}, {"hex": "4601F2", "flight": "FIN8KH", "lat": 61.485809, "lon": 25.45336, "alt": 18000, "speed": 302.6, "last_seen": "31.10.2026 04:16 UTC"}, {"hex": "4601FD", "flight": "FIN9D", "lat": 60.983292, "lon": 25.347421, "alt": 20050, "speed": 327.7, "last_seen": "31.10.2026 03:51 UTC"}];
+const aircraft = [{"hex": "781E34", "flight": "CKK203", "lat": 62.163333, "lon": 3.123333, "alt": 34000, "speed": 546.0, "last_seen": "31.10.2026 08:05 UTC"}, {"hex": "782409", "flight": "CKK215", "lat": 62.521667, "lon": 3.253333, "alt": 34000, "speed": "-", "last_seen": "31.10.2026 08:01 UTC"}, {"hex": "461F62", "flight": "FIN14J", "lat": 61.378055, "lon": 25.182902, "alt": 24425, "speed": 487.1, "last_seen": "31.10.2026 08:00 UTC"}, {"hex": "461E1F", "flight": "FIN434", "lat": 61.142687, "lon": 25.27415, "alt": 19500, "speed": 434.1, "last_seen": "31.10.2026 07:24 UTC"}, {"hex": "4601F9", "flight": "FIN5ET", "lat": 61.251386, "lon": 25.646057, "alt": 20000, "speed": 337.1, "last_seen": "31.10.2026 07:13 UTC"}, {"hex": "780092", "flight": "CAO1153", "lat": 61.673, "lon": 27.199, "alt": 36000, "speed": "-", "last_seen": "31.10.2026 07:05 UTC"}, {"hex": "4601FC", "flight": "FIN481", "lat": 62.530223, "lon": 26.35937, "alt": 16000, "speed": 228.0, "last_seen": "31.10.2026 06:04 UTC"}, {"hex": "4601F2", "flight": "FIN8KH", "lat": 61.485809, "lon": 25.45336, "alt": 18000, "speed": 302.6, "last_seen": "31.10.2026 04:16 UTC"}, {"hex": "4601FD", "flight": "FIN9D", "lat": 60.983292, "lon": 25.347421, "alt": 20050, "speed": 327.7, "last_seen": "31.10.2026 03:51 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
