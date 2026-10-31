@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.10.2026 06:28 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "10",
-      "msgno": "M49A",
-      "text": "POS290628,N 61.673,E 27.199,0713,521875,,,35998,28880"
-    },
-    {
-      "time": "31.10.2026 06:30 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -31.2,
-      "label": "B9",
-      "msgno": "M50A",
-      "text": "/ESSA.TI2/040ESSAAA22C"
-    },
-    {
       "time": "31.10.2026 06:30 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M63A",
       "text": "POS311358, N 6095,E 2642,---,287,1346 ,  59,33998, 328,-200,-502,7"
+    },
+    {
+      "time": "31.10.2026 15:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -31.4,
+      "label": "Q0",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "31.10.2026 15:35 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -32.4,
+      "label": "SA",
+      "msgno": "S37A",
+      "text": "0EV153500VS"
     }
   ]
 }
