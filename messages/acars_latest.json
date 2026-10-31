@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.10.2026 05:15 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -26.9,
-      "label": "Q0",
-      "msgno": "S19A",
-      "text": "No text"
-    },
-    {
       "time": "31.10.2026 06:28 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M59A",
       "text": "POSA1N61165E 25170,AGIVU  ,115632,339,NISIX  ,123527,-50, 76, 217,819"
+    },
+    {
+      "time": "31.10.2026 13:58 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-7952",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "10",
+      "msgno": "M63A",
+      "text": "POS311358, N 6095,E 2642,---,287,1346 ,  59,33998, 328,-200,-502,7"
     }
   ]
 }
