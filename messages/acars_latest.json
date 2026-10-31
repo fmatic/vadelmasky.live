@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.10.2026 15:51 UTC",
-      "source": "ACARS",
-      "flight": "CZ5202",
-      "tail": "B-2028",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "H1",
-      "msgno": "O93B",
-      "text": "SS0340C_249\r\nB-2028  CSN520ENGMZSPD301026155144ER\r\n29733001831-1325110833107BCG00A31A\r\n260620825 250301026 155143\r\n260620823 250\r\n25)6))81) 2))\r\n10000000000000001\r\n  33001\r\n  3264512 83N  110 0.1\r\n  3262)12 86N3276)16.)\r\n301026155144\r\n301026155144\r\n301026155144"
-    },
-    {
-      "time": "30.10.2026 15:52 UTC",
-      "source": "ACARS",
-      "flight": "CZ5202",
-      "tail": "B-2028",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "18",
-      "msgno": "M77A",
-      "text": "POX,CSN5202   ,30OCT26,155230,ENGM,ZSPD,N062.28,E0026.03,330, 688,828,  61.9,   7.5,065,-44.6,234830, 29760,"
-    },
-    {
-      "time": "30.10.2026 16:07 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -28.2,
-      "label": "80",
-      "msgno": "M10A",
-      "text": "3701 INRANG 0370/30 EFKU/EFHK .OH-ATE\r\n/ETA 1639/ERT     "
-    },
-    {
       "time": "30.10.2026 16:07 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +296,39 @@
       "label": "16",
       "msgno": "M81A",
       "text": "POSA1N61913E 27520,AGAMO  ,071006,339,SALLO  ,083037,-49, 92, 243,830"
+    },
+    {
+      "time": "31.10.2026 07:28 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228S",
+      "freq": 131.825,
+      "level": -30.9,
+      "label": "H1",
+      "msgno": "O53A",
+      "text": "SB0122BA_B-228S  ZSPDEDDF763\r\n 61504 0264460728 34003-490011095090NXW013023"
+    },
+    {
+      "time": "31.10.2026 07:29 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228S",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "B9",
+      "msgno": "L06A",
+      "text": "/EDDF.TI2/046EDDFA3A23"
+    },
+    {
+      "time": "31.10.2026 07:29 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-228S",
+      "freq": 131.825,
+      "level": -33.9,
+      "label": "_d",
+      "msgno": "S28A",
+      "text": "No text"
     }
   ]
 }
