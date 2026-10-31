@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.10.2026 12:07 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-221S",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "H1",
-      "msgno": "O54A",
-      "text": "SB0122BA_B-221S  ZSPDEHAM572\r\n 61826 0270971207 33997-490006057098PSZ030034"
-    },
-    {
-      "time": "31.10.2026 12:15 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-221S",
-      "freq": 131.825,
-      "level": -41.6,
-      "label": "16",
-      "msgno": "M59A",
-      "text": "POSA1N61165E 25170,AGIVU  ,115632,339,NISIX  ,123527,-50, 76, 217,819"
-    },
-    {
-      "time": "31.10.2026 13:58 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-7952",
-      "freq": 131.825,
-      "level": -38.9,
-      "label": "10",
-      "msgno": "M63A",
-      "text": "POS311358, N 6095,E 2642,---,287,1346 ,  59,33998, 328,-200,-502,7"
-    },
-    {
       "time": "31.10.2026 15:34 UTC",
       "source": "ACARS",
       "flight": "MU0289",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C31A",
       "text": ".1/FLR/FR2610312004  34361606MMR1   1,IR2,IR1,IR3,AFS,MMR2,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "31.10.2026 22:27 UTC",
+      "source": "ACARS",
+      "flight": "N70375",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "Q0",
+      "msgno": "M08A",
+      "text": "No text"
+    },
+    {
+      "time": "31.10.2026 22:27 UTC",
+      "source": "ACARS",
+      "flight": "N70375",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "SA",
+      "msgno": "M09A",
+      "text": "0EV222648V"
+    },
+    {
+      "time": "31.10.2026 22:27 UTC",
+      "source": "ACARS",
+      "flight": "N70375",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "B9",
+      "msgno": "L05A",
+      "text": "/EFKU.TI2/024EFKUA873F"
     }
   ]
 }
