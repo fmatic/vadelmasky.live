@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.10.2026 07:39 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-222K",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "SA",
-      "msgno": "S25A",
-      "text": "0LS073934V"
-    },
-    {
       "time": "31.10.2026 11:30 UTC",
       "source": "ACARS",
       "flight": "N70365",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M90A",
       "text": "POS291614,N 62.207,E 26.355,0001,455500,,,37002,103760"
+    },
+    {
+      "time": "31.10.2026 16:49 UTC",
+      "source": "ACARS",
+      "flight": "S71212",
+      "tail": "RA73423",
+      "freq": 131.725,
+      "level": -43.5,
+      "label": "SA",
+      "msgno": "S61A",
+      "text": "0EV164730V"
     }
   ]
 }
