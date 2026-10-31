@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.10.2026 15:43 UTC",
-      "source": "ACARS",
-      "flight": "N70345",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "_d",
-      "msgno": "S32A",
-      "text": "No text"
-    },
-    {
-      "time": "30.10.2026 15:43 UTC",
-      "source": "ACARS",
-      "flight": "N70345",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "_d",
-      "msgno": "S33A",
-      "text": "No text"
-    },
-    {
-      "time": "30.10.2026 15:43 UTC",
-      "source": "ACARS",
-      "flight": "N70345",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "_d",
-      "msgno": "S34A",
-      "text": "No text"
-    },
-    {
       "time": "30.10.2026 15:51 UTC",
       "source": "ACARS",
       "flight": "CZ5202",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C28A",
       "text": ".1/WRN/WN2610310631  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "31.10.2026 06:41 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -32.2,
+      "label": "H1",
+      "msgno": "O52A",
+      "text": "SB0122BA_B-2077  ZSPDEGSS358\r\n 62246 0264890641 33998-490005087090NXW016026"
+    },
+    {
+      "time": "31.10.2026 06:42 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "_d",
+      "msgno": "S31A",
+      "text": "No text"
+    },
+    {
+      "time": "31.10.2026 06:42 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -27.8,
+      "label": "_d",
+      "msgno": "S33A",
+      "text": "No text"
     }
   ]
 }
