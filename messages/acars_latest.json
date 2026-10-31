@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "31.10.2026 11:31 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "_d",
-      "msgno": "S97A",
-      "text": "No text"
-    },
-    {
-      "time": "31.10.2026 11:31 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "_d",
-      "msgno": "S98A",
-      "text": "No text"
-    },
-    {
-      "time": "31.10.2026 11:32 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "B9",
-      "msgno": "L17A",
-      "text": "/EFKU.TI2/024EFKUA873F"
-    },
-    {
       "time": "31.10.2026 11:32 UTC",
       "source": "ACARS",
       "flight": "N70365",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C16A",
       "text": ".1/FLR/FR2610311817  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "31.10.2026 20:00 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -30.1,
+      "label": "11",
+      "msgno": "M06A",
+      "text": "POS\r\nCAS 264,LAT N 61.779,LON E 26.580,ALT 37005,FOB 122400,UTC 200022,PD ----.--,WD 351,WS   44,TAT - 30"
+    },
+    {
+      "time": "31.10.2026 20:01 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -27.6,
+      "label": "SA",
+      "msgno": "S80A",
+      "text": "0LS200116V"
+    },
+    {
+      "time": "31.10.2026 20:04 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "C29A",
+      "text": ".1/WRN/WN2610312004  345800506NAV GPS 1 FAULT"
     }
   ]
 }
