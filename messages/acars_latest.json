@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.10.2026 15:42 UTC",
-      "source": "ACARS",
-      "flight": "N70345",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "SA",
-      "msgno": "S30A",
-      "text": "0EV154233V"
-    },
-    {
-      "time": "30.10.2026 15:42 UTC",
-      "source": "ACARS",
-      "flight": "N70345",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -35.1,
-      "label": "_d",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
-      "time": "30.10.2026 15:42 UTC",
-      "source": "ACARS",
-      "flight": "N70345",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFJO.TI2/024EFJOA5CB7"
-    },
-    {
-      "time": "30.10.2026 15:42 UTC",
-      "source": "ACARS",
-      "flight": "N70345",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFJO.TI2/024EFJOA5CB7"
-    },
-    {
       "time": "30.10.2026 15:43 UTC",
       "source": "ACARS",
       "flight": "N70345",
@@ -329,6 +285,50 @@
       "label": "10",
       "msgno": "M49A",
       "text": "POS290628,N 61.673,E 27.199,0713,521875,,,35998,28880"
+    },
+    {
+      "time": "31.10.2026 06:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "B9",
+      "msgno": "M50A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "31.10.2026 06:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "_d",
+      "msgno": "S87A",
+      "text": "No text"
+    },
+    {
+      "time": "31.10.2026 06:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "C27A",
+      "text": ".1/FLR/FR2610310629  34363106MMR2   1,,,,,,,MMR2(40RT2),HARD"
+    },
+    {
+      "time": "31.10.2026 06:31 UTC",
+      "source": "ACARS",
+      "flight": "CA1153",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "H1",
+      "msgno": "C28A",
+      "text": ".1/WRN/WN2610310631  345800506NAV GPS 1 FAULT"
     }
   ]
 }
