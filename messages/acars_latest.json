@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "30.10.2026 16:07 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -28.7,
-      "label": "_d",
-      "msgno": "S47A",
-      "text": "No text"
-    },
-    {
-      "time": "30.10.2026 16:08 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "5V",
-      "msgno": "S48A",
-      "text": "No text"
-    },
-    {
-      "time": "30.10.2026 19:00 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -28.1,
-      "label": "18",
-      "msgno": "M63A",
-      "text": "POX,CSG2516   ,30OCT26,190002,EGPK,ZGGG,N061.76,E0027.23,370, 643,832,  71.7,   8.2,046,-46.0,035202, 37600,"
-    },
-    {
       "time": "30.10.2026 19:05 UTC",
       "source": "ACARS",
       "flight": "CZ2516",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S28A",
       "text": "No text"
+    },
+    {
+      "time": "31.10.2026 07:37 UTC",
+      "source": "ACARS",
+      "flight": "CK0203",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "16",
+      "msgno": "M77A",
+      "text": "POSA1N61698E 26740,AGIVU  ,072536,339,NISIX  ,080300,-48, 92, 281,829"
+    },
+    {
+      "time": "31.10.2026 07:38 UTC",
+      "source": "ACARS",
+      "flight": "CK0203",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "SA",
+      "msgno": "S22A",
+      "text": "0LS073839V"
+    },
+    {
+      "time": "31.10.2026 07:39 UTC",
+      "source": "ACARS",
+      "flight": "CK0203",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "SA",
+      "msgno": "S25A",
+      "text": "0LS073934V"
     }
   ]
 }
