@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">01.11.2026 11:15 UTC</div>
+        <div class="value">01.11.2026 11:20 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,14 +283,38 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>297.2 kt</b></div>
-                    <div><span>Track</span><b>35.83°</b></div>
-                    <div><span>Position</span><b>61.8720, 26.3976</b></div>
-                    <div><span>Last seen</span><b>01.11.2026 11:15 UTC</b></div>
+                    <div><span>Speed</span><b>298.4 kt</b></div>
+                    <div><span>Track</span><b>36.14°</b></div>
+                    <div><span>Position</span><b>62.1248, 26.7899</b></div>
+                    <div><span>Last seen</span><b>01.11.2026 11:19 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">RU7B02</div>
+                    <div class="meta">ICAO 4677E7 · REG TWR · TYPE TWR</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>01.11.2026 11:17 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -603,30 +627,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-20D1" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">RU7B02</div>
-                    <div class="meta">ICAO 4677E7 · REG TWR · TYPE TWR</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>01.11.2026 05:48 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1208,7 +1208,7 @@ X3,-00.2,000.6,-0</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F4", "flight": "FIN3KC", "lat": 61.871979, "lon": 26.397596, "alt": 15000, "speed": 297.2, "last_seen": "01.11.2026 11:15 UTC"}, {"hex": "78026E", "flight": "CAO3155", "lat": 61.868, "lon": 28.133, "alt": 38000, "speed": "-", "last_seen": "01.11.2026 11:05 UTC"}, {"hex": "4601F5", "flight": "FIN286", "lat": 61.479958, "lon": 25.410055, "alt": 17775, "speed": 233.2, "last_seen": "01.11.2026 11:01 UTC"}, {"hex": "7821A9", "flight": "CES213", "lat": 61.91969, "lon": 24.943339, "alt": 37975, "speed": 440.6, "last_seen": "01.11.2026 11:01 UTC"}, {"hex": "780AEB", "flight": "CSG2517", "lat": 61.003167, "lon": 2.098833, "alt": 34000, "speed": "-", "last_seen": "01.11.2026 09:30 UTC"}, {"hex": "461F65", "flight": "-", "lat": 62.346528, "lon": 25.196932, "alt": 38000, "speed": "-", "last_seen": "01.11.2026 09:22 UTC"}, {"hex": "4601FD", "flight": "FIN482", "lat": 61.283181, "lon": 25.420532, "alt": 18050, "speed": 263.8, "last_seen": "01.11.2026 08:39 UTC"}, {"hex": "461F64", "flight": "FIN14J", "lat": 61.280594, "lon": 25.280522, "alt": 20950, "speed": 382.1, "last_seen": "01.11.2026 08:11 UTC"}, {"hex": "461E16", "flight": "FIN434", "lat": 61.381872, "lon": 25.160319, "alt": 20950, "speed": 399.7, "last_seen": "01.11.2026 07:29 UTC"}, {"hex": "4601FA", "flight": "FIN5ET", "lat": 60.914841, "lon": 25.323486, "alt": 18875, "speed": 258.2, "last_seen": "01.11.2026 07:14 UTC"}, {"hex": "782240", "flight": "CKK215", "lat": 61.214703, "lon": 25.648905, "alt": 32000, "speed": 457.6, "last_seen": "01.11.2026 06:59 UTC"}, {"hex": "781783", "flight": "DKH1659", "lat": 61.803915, "lon": 25.475566, "alt": 38000, "speed": 460.0, "last_seen": "01.11.2026 05:49 UTC"}];
+const aircraft = [{"hex": "4601F4", "flight": "FIN3KC", "lat": 62.124799, "lon": 26.789856, "alt": 15000, "speed": 298.4, "last_seen": "01.11.2026 11:19 UTC"}, {"hex": "78026E", "flight": "CAO3155", "lat": 61.868, "lon": 28.133, "alt": 38000, "speed": "-", "last_seen": "01.11.2026 11:05 UTC"}, {"hex": "4601F5", "flight": "FIN286", "lat": 61.479958, "lon": 25.410055, "alt": 17775, "speed": 233.2, "last_seen": "01.11.2026 11:01 UTC"}, {"hex": "7821A9", "flight": "CES213", "lat": 61.91969, "lon": 24.943339, "alt": 37975, "speed": 440.6, "last_seen": "01.11.2026 11:01 UTC"}, {"hex": "780AEB", "flight": "CSG2517", "lat": 61.003167, "lon": 2.098833, "alt": 34000, "speed": "-", "last_seen": "01.11.2026 09:30 UTC"}, {"hex": "461F65", "flight": "-", "lat": 62.346528, "lon": 25.196932, "alt": 38000, "speed": "-", "last_seen": "01.11.2026 09:22 UTC"}, {"hex": "4601FD", "flight": "FIN482", "lat": 61.283181, "lon": 25.420532, "alt": 18050, "speed": 263.8, "last_seen": "01.11.2026 08:39 UTC"}, {"hex": "461F64", "flight": "FIN14J", "lat": 61.280594, "lon": 25.280522, "alt": 20950, "speed": 382.1, "last_seen": "01.11.2026 08:11 UTC"}, {"hex": "461E16", "flight": "FIN434", "lat": 61.381872, "lon": 25.160319, "alt": 20950, "speed": 399.7, "last_seen": "01.11.2026 07:29 UTC"}, {"hex": "4601FA", "flight": "FIN5ET", "lat": 60.914841, "lon": 25.323486, "alt": 18875, "speed": 258.2, "last_seen": "01.11.2026 07:14 UTC"}, {"hex": "782240", "flight": "CKK215", "lat": 61.214703, "lon": 25.648905, "alt": 32000, "speed": 457.6, "last_seen": "01.11.2026 06:59 UTC"}, {"hex": "781783", "flight": "DKH1659", "lat": 61.803915, "lon": 25.475566, "alt": 38000, "speed": 460.0, "last_seen": "01.11.2026 05:49 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
