@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.11.2026 10:45 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -19.5,
-      "label": "80",
-      "msgno": "M03A",
-      "text": "1201 ONRP   0285/01 EFHK/EFJY .OH-ATH\r\n/ON  1015/FOB 0014"
-    },
-    {
-      "time": "01.11.2026 10:45 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.725,
-      "level": -36.7,
-      "label": "80",
-      "msgno": "M05A",
-      "text": "1001 OUTRP  0286/01 EFJY/EFHK .OH-ATH\r\n/OUT 1039/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "01.11.2026 10:45 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -18.8,
-      "label": "80",
-      "msgno": "M05A",
-      "text": "1001 OUTRP  0286/01 EFJY/EFHK .OH-ATH\r\n/OUT 1039/FOB 0015/BRD       /UNT LITERS  /TYP A "
-    },
-    {
       "time": "01.11.2026 10:46 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -328,6 +295,39 @@
       "level": -41.6,
       "label": "_d",
       "msgno": "S74A",
+      "text": "No text"
+    },
+    {
+      "time": "01.11.2026 16:05 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "_d",
+      "msgno": "S32A",
+      "text": "No text"
+    },
+    {
+      "time": "01.11.2026 16:05 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -40.3,
+      "label": "_d",
+      "msgno": "S33A",
+      "text": "No text"
+    },
+    {
+      "time": "01.11.2026 16:06 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "_d",
+      "msgno": "S36A",
       "text": "No text"
     }
   ]
