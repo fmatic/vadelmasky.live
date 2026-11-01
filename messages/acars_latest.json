@@ -5,17 +5,6 @@
       "source": "ACARS",
       "flight": "N70286",
       "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "SA",
-      "msgno": "S28A",
-      "text": "0EV104458V"
-    },
-    {
-      "time": "01.11.2026 10:45 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
       "freq": 131.725,
       "level": -39.9,
       "label": "80",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C07A",
       "text": ".1/WRN/WN2611011238  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "01.11.2026 14:45 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-227G",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "H1",
+      "msgno": "O18A",
+      "text": "SB0122BA_B-227G  EDDFZSPD204\r\n 61289 0268731444 30999-460262026010IH-008010"
     }
   ]
 }
