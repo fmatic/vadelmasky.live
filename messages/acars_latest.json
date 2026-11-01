@@ -6,17 +6,6 @@
       "flight": "CA3144",
       "tail": "B-6117",
       "freq": 131.825,
-      "level": -31.3,
-      "label": "SA",
-      "msgno": "S80A",
-      "text": "0LH181813VS"
-    },
-    {
-      "time": "31.10.2026 18:18 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6117",
-      "freq": 131.825,
       "level": -29.6,
       "label": "H1",
       "msgno": "C16A",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S26A",
       "text": "No text"
+    },
+    {
+      "time": "01.11.2026 10:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -36.7,
+      "label": "10",
+      "msgno": "M84A",
+      "text": "POS301028,N 61.868,E 28.133,1127,442625,,,38003,29360"
     }
   ]
 }

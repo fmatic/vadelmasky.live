@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">25</div>
+        <div class="value">26</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">9</div>
+        <div class="value">10</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">01.11.2026 10:25 UTC</div>
+        <div class="value">01.11.2026 10:30 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CA3155</div>
+                    <div class="meta">ICAO 78026E · REG B-6070 · TYPE A332</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>61.8680, 28.1330</b></div>
+                    <div><span>Last seen</span><b>01.11.2026 10:30 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6070" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -881,6 +905,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CA3155</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6070 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">01.11.2026 10:28 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 10 · Msg M84A · Level -36.7 dB
+            </div>
+
+            <div class="acars-text">POS301028,N 61.868,E 28.133,1127,442625,,,38003,29360</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">N70285</div>
                     <div class="acars-meta">
                         ACARS · Tail OH-ATH · 131.825 MHz
@@ -1089,34 +1131,12 @@ ER221     0</div>
   24  22  14  1  23 </div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">HO1607</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-208A · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">01.11.2026 10:06 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg D18E · Level -35.3 dB
-            </div>
-
-            <div class="acars-text"> 2 981028716716   0  0 568  0 92 98 90
-ER 70 90  0 637510182   0 23 562212 60 52 57
-TA  2  2 50    0    0   0  2 568  0 93 98 90
-ER 68 88  0    0    0   0 23 563210 82 58 56
-  24  23   ) 22  24  24   ) </div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F5", "flight": "FIN6LE", "lat": 62.333038, "lon": 25.830485, "alt": 1775, "speed": 158.6, "last_seen": "01.11.2026 10:14 UTC"}, {"hex": "780AEB", "flight": "CSG2517", "lat": 61.003167, "lon": 2.098833, "alt": 34000, "speed": "-", "last_seen": "01.11.2026 09:30 UTC"}, {"hex": "461F65", "flight": "-", "lat": 62.346528, "lon": 25.196932, "alt": 38000, "speed": "-", "last_seen": "01.11.2026 09:22 UTC"}, {"hex": "4601FD", "flight": "FIN482", "lat": 61.283181, "lon": 25.420532, "alt": 18050, "speed": 263.8, "last_seen": "01.11.2026 08:39 UTC"}, {"hex": "461F64", "flight": "FIN14J", "lat": 61.280594, "lon": 25.280522, "alt": 20950, "speed": 382.1, "last_seen": "01.11.2026 08:11 UTC"}, {"hex": "461E16", "flight": "FIN434", "lat": 61.381872, "lon": 25.160319, "alt": 20950, "speed": 399.7, "last_seen": "01.11.2026 07:29 UTC"}, {"hex": "4601FA", "flight": "FIN5ET", "lat": 60.914841, "lon": 25.323486, "alt": 18875, "speed": 258.2, "last_seen": "01.11.2026 07:14 UTC"}, {"hex": "782240", "flight": "CKK215", "lat": 61.214703, "lon": 25.648905, "alt": 32000, "speed": 457.6, "last_seen": "01.11.2026 06:59 UTC"}, {"hex": "781783", "flight": "DKH1659", "lat": 61.803915, "lon": 25.475566, "alt": 38000, "speed": 460.0, "last_seen": "01.11.2026 05:49 UTC"}];
+const aircraft = [{"hex": "78026E", "flight": "CA3155", "lat": 61.868, "lon": 28.133, "alt": "-", "speed": "-", "last_seen": "01.11.2026 10:30 UTC"}, {"hex": "4601F5", "flight": "FIN6LE", "lat": 62.333038, "lon": 25.830485, "alt": 1775, "speed": 158.6, "last_seen": "01.11.2026 10:14 UTC"}, {"hex": "780AEB", "flight": "CSG2517", "lat": 61.003167, "lon": 2.098833, "alt": 34000, "speed": "-", "last_seen": "01.11.2026 09:30 UTC"}, {"hex": "461F65", "flight": "-", "lat": 62.346528, "lon": 25.196932, "alt": 38000, "speed": "-", "last_seen": "01.11.2026 09:22 UTC"}, {"hex": "4601FD", "flight": "FIN482", "lat": 61.283181, "lon": 25.420532, "alt": 18050, "speed": 263.8, "last_seen": "01.11.2026 08:39 UTC"}, {"hex": "461F64", "flight": "FIN14J", "lat": 61.280594, "lon": 25.280522, "alt": 20950, "speed": 382.1, "last_seen": "01.11.2026 08:11 UTC"}, {"hex": "461E16", "flight": "FIN434", "lat": 61.381872, "lon": 25.160319, "alt": 20950, "speed": 399.7, "last_seen": "01.11.2026 07:29 UTC"}, {"hex": "4601FA", "flight": "FIN5ET", "lat": 60.914841, "lon": 25.323486, "alt": 18875, "speed": 258.2, "last_seen": "01.11.2026 07:14 UTC"}, {"hex": "782240", "flight": "CKK215", "lat": 61.214703, "lon": 25.648905, "alt": 32000, "speed": 457.6, "last_seen": "01.11.2026 06:59 UTC"}, {"hex": "781783", "flight": "DKH1659", "lat": 61.803915, "lon": 25.475566, "alt": 38000, "speed": 460.0, "last_seen": "01.11.2026 05:49 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
