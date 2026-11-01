@@ -6,28 +6,6 @@
       "flight": "CA3045",
       "tail": "B-2092",
       "freq": 131.825,
-      "level": -36.9,
-      "label": "H1",
-      "msgno": "E29A",
-      "text": "PER,R,269.9,-53.6,290,-23.3,454.1,0.835,34000,99.7,99.7,84.5,84.5,--,0.44,--,0.10,84.5,84.5,0.11,--,0.66,--,689,687,1.07,--,0.32,--,101.4,101.3,1.08,--,0.51,--,3.900,3.879,175,175,0.00,0.00,67,62,62,60,16,1"
-    },
-    {
-      "time": "01.11.2026 12:01 UTC",
-      "source": "ACARS",
-      "flight": "CA3045",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -36.0,
-      "label": "H1",
-      "msgno": "E30A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,174,174,46,46,46,43,160,161,52,79,84,84,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,1900,AUTO,8.5,0.09,0.21,L,,,,01,NOV,26,12,05,50"
-    },
-    {
-      "time": "01.11.2026 12:01 UTC",
-      "source": "ACARS",
-      "flight": "CA3045",
-      "tail": "B-2092",
-      "freq": 131.825,
       "level": -34.5,
       "label": "H1",
       "msgno": "E31A",
@@ -329,6 +307,28 @@
       "label": "16",
       "msgno": "M68A",
       "text": "POSA1N61319E 26116,ALAMI  ,181212,309,KOKAT  ,192828,-47, 34, 723,828"
+    },
+    {
+      "time": "01.11.2026 19:17 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "H1",
+      "msgno": "C16A",
+      "text": "RTE 1 01NOV26 1917 CKB-2077 CKK206 EHAM/ZSPD 3111-BCG-00W-20 L 1656 01NOV26\r\nFDE 34503141 A 1915 01NOV26\r\nMSG 3453301 A 1915 01NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1915 01NOV26 ER H P"
+    },
+    {
+      "time": "01.11.2026 19:17 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "H1",
+      "msgno": "C16B",
+      "text": "L\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34403600 A 1910 01NOV26\r\nMSG 3453301 A 1915 01NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1915 01NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 34530"
     }
   ]
 }
