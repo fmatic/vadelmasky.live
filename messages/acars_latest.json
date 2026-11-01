@@ -6,17 +6,6 @@
       "flight": "HO1607",
       "tail": "B-208A",
       "freq": 131.825,
-      "level": -34.0,
-      "label": "H1",
-      "msgno": "D18G",
-      "text": " 23  12  2\r\n  15  12\r\nTA22  9 102222\r\nER22 10 102222\r\nTA221     0\r\nER221     0"
-    },
-    {
-      "time": "01.11.2026 10:07 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-208A",
-      "freq": 131.825,
       "level": -32.4,
       "label": "5V",
       "msgno": "S44A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C32A",
       "text": ".1/FLR/FR2611011138  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "01.11.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "10",
+      "msgno": "M83A",
+      "text": "POS301148,N 61.354,E 25.759,1237,431750,,,36001,25680"
     }
   ]
 }
