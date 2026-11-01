@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.11.2026 11:48 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -29.4,
-      "label": "10",
-      "msgno": "M83A",
-      "text": "POS301148,N 61.354,E 25.759,1237,431750,,,36001,25680"
-    },
-    {
       "time": "01.11.2026 12:01 UTC",
       "source": "ACARS",
       "flight": "CA3045",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M36A",
       "text": "POSA1N62121E 27816,LARGA  ,171815,349,KOKAT  ,191033,-55, 42, 601,829"
+    },
+    {
+      "time": "01.11.2026 19:08 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -35.1,
+      "label": "16",
+      "msgno": "M68A",
+      "text": "POSA1N61319E 26116,ALAMI  ,181212,309,KOKAT  ,192828,-47, 34, 723,828"
     }
   ]
 }
