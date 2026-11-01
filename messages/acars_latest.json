@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.11.2026 12:06 UTC",
-      "source": "ACARS",
-      "flight": "CA3045",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "10",
-      "msgno": "M79A",
-      "text": "POS011211, N 6155,E 2669,836,290,26457,  28,34001, 405,-230,-535,7"
-    },
-    {
-      "time": "01.11.2026 12:15 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -42.7,
-      "label": "SA",
-      "msgno": "S63A",
-      "text": "0LH121515VS"
-    },
-    {
       "time": "01.11.2026 12:22 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M12A",
       "text": "POS012024,N 61.909,E 28.044,0407,496125,,,37000,97680"
+    },
+    {
+      "time": "01.11.2026 22:05 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "Q0",
+      "msgno": "S39A",
+      "text": "No text"
+    },
+    {
+      "time": "01.11.2026 22:09 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -28.1,
+      "label": "H1",
+      "msgno": "C05A",
+      "text": ".1/WRN/WN2611012209  345801006NAV GPS 2 FAULT"
     }
   ]
 }
