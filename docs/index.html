@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">01.11.2026 06:55 UTC</div>
+        <div class="value">01.11.2026 07:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,16 +277,16 @@ footer {
                     <div class="flight">FIN5ET</div>
                     <div class="meta">ICAO 4601FA · REG OH-ATM · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">20025 ft</div>
+                <div class="alt-badge mid">20000 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>232.7 kt</b></div>
-                    <div><span>Track</span><b>208.77°</b></div>
-                    <div><span>Position</span><b>62.0535, 26.6102</b></div>
-                    <div><span>Last seen</span><b>01.11.2026 06:55 UTC</b></div>
+                    <div><span>Speed</span><b>255.1 kt</b></div>
+                    <div><span>Track</span><b>208.57°</b></div>
+                    <div><span>Position</span><b>61.7537, 26.2576</b></div>
+                    <div><span>Last seen</span><b>01.11.2026 07:00 UTC</b></div>
                 </div>
             </div>
 
@@ -307,10 +307,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>62.5083, 3.2483</b></div>
-                    <div><span>Last seen</span><b>01.11.2026 06:55 UTC</b></div>
+                    <div><span>Speed</span><b>457.6 kt</b></div>
+                    <div><span>Track</span><b>231.48°</b></div>
+                    <div><span>Position</span><b>61.2147, 25.6489</b></div>
+                    <div><span>Last seen</span><b>01.11.2026 06:59 UTC</b></div>
                 </div>
             </div>
 
@@ -933,7 +933,7 @@ CAS 264,LAT N 61.779,LON E 26.580,ALT 37005,FOB 122400,UTC 200022,PD ----.--,WD 
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601FA", "flight": "FIN5ET", "lat": 62.053528, "lon": 26.610209, "alt": 20025, "speed": 232.7, "last_seen": "01.11.2026 06:55 UTC"}, {"hex": "782240", "flight": "CKK215", "lat": 62.508333, "lon": 3.248333, "alt": 32000, "speed": "-", "last_seen": "01.11.2026 06:55 UTC"}, {"hex": "4601FD", "flight": "FIN481", "lat": 62.567001, "lon": 26.528422, "alt": 20025, "speed": 282.4, "last_seen": "01.11.2026 06:06 UTC"}, {"hex": "781783", "flight": "DKH1659", "lat": 61.803915, "lon": 25.475566, "alt": 38000, "speed": 460.0, "last_seen": "01.11.2026 05:49 UTC"}];
+const aircraft = [{"hex": "4601FA", "flight": "FIN5ET", "lat": 61.753738, "lon": 26.257618, "alt": 20000, "speed": 255.1, "last_seen": "01.11.2026 07:00 UTC"}, {"hex": "782240", "flight": "CKK215", "lat": 61.214703, "lon": 25.648905, "alt": 32000, "speed": 457.6, "last_seen": "01.11.2026 06:59 UTC"}, {"hex": "4601FD", "flight": "FIN481", "lat": 62.567001, "lon": 26.528422, "alt": 20025, "speed": 282.4, "last_seen": "01.11.2026 06:06 UTC"}, {"hex": "781783", "flight": "DKH1659", "lat": 61.803915, "lon": 25.475566, "alt": 38000, "speed": 460.0, "last_seen": "01.11.2026 05:49 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
