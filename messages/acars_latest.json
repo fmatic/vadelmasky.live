@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.11.2026 10:47 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -23.1,
-      "label": "5V",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "01.11.2026 11:39 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -30.2,
-      "label": "H1",
-      "msgno": "C32A",
-      "text": ".1/FLR/FR2611011138  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
       "time": "01.11.2026 11:48 UTC",
       "source": "ACARS",
       "flight": "CA3157",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S38A",
       "text": "No text"
+    },
+    {
+      "time": "01.11.2026 18:56 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-220F",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "Q0",
+      "msgno": "S54A",
+      "text": "No text"
+    },
+    {
+      "time": "01.11.2026 18:58 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-220F",
+      "freq": 131.825,
+      "level": -40.2,
+      "label": "16",
+      "msgno": "M36A",
+      "text": "POSA1N62121E 27816,LARGA  ,171815,349,KOKAT  ,191033,-55, 42, 601,829"
     }
   ]
 }
