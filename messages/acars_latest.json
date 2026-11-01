@@ -6,28 +6,6 @@
       "flight": "CA3036",
       "tail": "B-6093",
       "freq": 131.825,
-      "level": -21.7,
-      "label": "H1",
-      "msgno": "C06A",
-      "text": ".1/WRN/WN2611011238  345204006NAV ADS-B RPTG 1 FAULT"
-    },
-    {
-      "time": "01.11.2026 12:38 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -39.4,
-      "label": "H1",
-      "msgno": "C06A",
-      "text": ".1/WRN/WN2611011238  345204006NAV ADS-B RPTG 1 FAULT"
-    },
-    {
-      "time": "01.11.2026 12:38 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6093",
-      "freq": 131.825,
       "level": -15.6,
       "label": "H1",
       "msgno": "C07A",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C08A",
       "text": ".1/FLR/FR2611012210  34361606MMR1   1,IR3,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "01.11.2026 22:32 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "Q0",
+      "msgno": "S08A",
+      "text": "No text"
+    },
+    {
+      "time": "01.11.2026 22:32 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATP",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "Q0",
+      "msgno": "S08A",
+      "text": "No text"
     }
   ]
 }
