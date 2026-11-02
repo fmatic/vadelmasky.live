@@ -6,17 +6,6 @@
       "flight": "HO1607",
       "tail": "B-1115",
       "freq": 131.825,
-      "level": -30.8,
-      "label": "H1",
-      "msgno": "C15G",
-      "text": " SYSTEM PROC UNIT\r\nFRC 6080  \r\nMSG 3462011 A 1004 02NOV26 ER I 2 PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6080  \r\nMSG 3440121 I 0934 02NOV26 ER I 1 PL\r\nDB LEFT INR RECEIVER\r\nFRC 2114  \r\nMSG 4622"
-    },
-    {
-      "time": "02.11.2026 10:34 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
       "level": -31.7,
       "label": "H1",
       "msgno": "C15H",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O28C",
       "text": "ACM01ACM301ESB-2095  CAO1184 EGPKZSPD021126 254ER130420 9534316DBSM79962\r\n299A1C0A1C0 34999-255829 -555  5554    40  -7851\r\n0110221010\r\n153 40 38160121 8130110\r\n153 40 38159158 8130110\r\n 35000831 238 -531  5554  21111\r\n  -31392660161161  -7150 65 56  6\r\n   11392668161161  -6155 95 93  6\r\n1069044080212  -2 5098 460XX  4\r\n1068039078212   5 5068 460XX  4\r\n 12424 2903911454  1611\r\n102424 300341 -1778\r\n120361\r\n211515 280561\r\n 8 4 4  20162\r\n130451\r\n11 220341\r\n150561\r\n201414 230421\r\n 9 4 4  60342"
+    },
+    {
+      "time": "02.11.2026 14:55 UTC",
+      "source": "ACARS",
+      "flight": "CA1184",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -41.0,
+      "label": "10",
+      "msgno": "M62A",
+      "text": "POS021455, N 6209,E 2731,832,284,25522,  55,35001, 603,-225,-530,7"
     }
   ]
 }
