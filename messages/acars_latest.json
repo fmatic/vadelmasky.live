@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "H1",
-      "msgno": "C15B",
-      "text": "26 ER I 3 PL\r\nDB RIGHT AHRU SENSOR\r\nFRC 35323  \r\nMSG 3420122 I 1003 02NOV26 ER I 3 PL\r\nDB RIGHT IRU SENSOR\r\nFRC 35323  \r\nMSG 3420111 I 1003 02NOV26 ER I 3 PL\r\nDB LEFT IRU SENSOR\r\nFRC 35322  \r\nMMO 46146700 I"
-    },
-    {
-      "time": "02.11.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -29.5,
-      "label": "H1",
-      "msgno": "C15C",
-      "text": " 0311 02NOV26\r\nMSG 4610404 I 0312 02NOV26 ER I 1\r\nDB CONTROLLER SERVER MODULE\r\nFRC 404  \r\nMMO 46146400 I 0311 02NOV26\r\nMSG 4610404 I 0312 02NOV26 ER I 1\r\nDB CONTROLLER SERVER MODULE\r\nFRC 404  \r\nMMO 46146800"
-    },
-    {
-      "time": "02.11.2026 10:34 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -30.5,
-      "label": "H1",
-      "msgno": "C15D",
-      "text": " A 0046 02NOV26\r\nMSG 4610404 I 0312 02NOV26 ER I 1\r\nDB CONTROLLER SERVER MODULE\r\nFRC 404  \r\nMMO 46146500 A 0046 02NOV26\r\nMSG 4610404 I 0312 02NOV26 ER I 1\r\nDB CONTROLLER SERVER MODULE\r\nFRC 404  \r\nMSG 461550"
-    },
-    {
-      "time": "02.11.2026 10:34 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -30.1,
-      "label": "H1",
-      "msgno": "C15E",
-      "text": "9 A 0046 02NOV26 ES H PL\r\nDB CONTROLLER SERVER MODULE\r\nFRC 5509  \r\nNCMM\r\nMSG 3440122 I 1029 02NOV26 ER I 1 PL\r\nDB RIGHT INR RECEIVER\r\nFRC 2114  \r\nMSG 3462022 A 1007 02NOV26 ER I 3 PL\r\nDB RIGHT INTEG SURVEIL"
-    },
-    {
-      "time": "02.11.2026 10:34 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -29.8,
-      "label": "H1",
-      "msgno": "C15F",
-      "text": "LANCE SYSTEM PROC UNIT\r\nFRC 6071 6070  \r\nMSG 3462021 A 1007 02NOV26 ER I 3 PL\r\nDB LEFT INTEG SURVEILLANCE SYSTEM PROC UNIT\r\nFRC 6071 6070  \r\nMSG 3462012 A 1004 02NOV26 ER I 2 PL\r\nDB RIGHT INTEG SURVEILLANCE"
-    },
-    {
       "time": "02.11.2026 10:34 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +274,61 @@
       "label": "16",
       "msgno": "M46A",
       "text": "POSA1N61912E 28772,ADO-10 ,141514,310,ASP-11 ,142408,-49, 58, 697,829"
+    },
+    {
+      "time": "02.11.2026 14:50 UTC",
+      "source": "ACARS",
+      "flight": "CA1184",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "_d",
+      "msgno": "S08A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 14:50 UTC",
+      "source": "ACARS",
+      "flight": "CA1184",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "H1",
+      "msgno": "E01B",
+      "text": "LOSED,CLOSED,NO PRESS,ON,PRESS,,02,NOV,26,14,50,43"
+    },
+    {
+      "time": "02.11.2026 14:54 UTC",
+      "source": "ACARS",
+      "flight": "CA1184",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -27.1,
+      "label": "H1",
+      "msgno": "O28A",
+      "text": "ACM01ACM301ESB-2095  CAO1184 EGPKZSPD021126 254ER130420 9534316DBSM79962\r\n299A1C0A1C0 34999-255829 -555  5554    40  -7851\r\n0110221010\r\n153 40 38160121 8130110\r\n153 40 38159158 8130110\r\n 35000831 238 -531  "
+    },
+    {
+      "time": "02.11.2026 14:54 UTC",
+      "source": "ACARS",
+      "flight": "CA1184",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -26.0,
+      "label": "H1",
+      "msgno": "O28B",
+      "text": "5554  21111\r\n  -31392660161161  -7150 65 56  6\r\n   11392668161161  -6155 95 93  6\r\n1069044080212  -2 5098 460XX  4\r\n1068039078212   5 5068 460XX  4\r\n 12424 2903911454  1611\r\n102424 300341 -1778\r\n120361\r\n211"
+    },
+    {
+      "time": "02.11.2026 14:54 UTC",
+      "source": "ACARS",
+      "flight": "CA1184",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "H1",
+      "msgno": "O28C",
+      "text": "ACM01ACM301ESB-2095  CAO1184 EGPKZSPD021126 254ER130420 9534316DBSM79962\r\n299A1C0A1C0 34999-255829 -555  5554    40  -7851\r\n0110221010\r\n153 40 38160121 8130110\r\n153 40 38159158 8130110\r\n 35000831 238 -531  5554  21111\r\n  -31392660161161  -7150 65 56  6\r\n   11392668161161  -6155 95 93  6\r\n1069044080212  -2 5098 460XX  4\r\n1068039078212   5 5068 460XX  4\r\n 12424 2903911454  1611\r\n102424 300341 -1778\r\n120361\r\n211515 280561\r\n 8 4 4  20162\r\n130451\r\n11 220341\r\n150561\r\n201414 230421\r\n 9 4 4  60342"
     }
   ]
 }
