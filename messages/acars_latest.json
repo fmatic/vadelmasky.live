@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 10:34 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "5V",
-      "msgno": "S75A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 10:36 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "Q0",
-      "msgno": "S78A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 10:36 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "SA",
-      "msgno": "S79A",
-      "text": "0EV104107VS/"
-    },
-    {
-      "time": "02.11.2026 10:36 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "H1",
-      "msgno": "D28A",
-      "text": "<301>JEG9   2\r\n B-1115DKH1607   TA 252021126005051ZSPDEFHK  252\r\n 31134 1218123363361DKH46ACMF0008\r\nTA0048 1 1 020 0 7 0216717\r\nER 1 1 0 0 0 8 02\r\nTA0048 1.. 0 0 0 0 0216717\r\nER 1.. 0 0 0 0 02\r\nTA  -288  20"
-    },
-    {
-      "time": "02.11.2026 10:36 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -35.7,
-      "label": "H1",
-      "msgno": "D28B",
-      "text": "010) 3)1024  200  -20400\r\nER 34101 -227846295 249 -541  512500\r\nTA 35 3620825    010107 91 33 33\r\nER 70 68336873359922107107 33 33\r\nTA  0  0    0    000107107 84 84\r\nER  0  0    0    000107107 84 84\r\nTA 98 "
-    },
-    {
-      "time": "02.11.2026 10:36 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "H1",
-      "msgno": "D28C",
-      "text": " 1  1 98  0  0 98  0\r\nER 34 34 26 26  3  3 30 29\r\nTA  2  2  2 98  0  0  0  0\r\nER 83 83 37 38  0  0  0  0\r\nTA  40   0  72  39147149218150\r\nER  26  26 121 122 56 57170171\r\nTA   0   0   0   0 00 00 00 00\r\nER  "
-    },
-    {
-      "time": "02.11.2026 10:37 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "H1",
-      "msgno": "D28D",
-      "text": " 0   0   0   0 00 00 00 00\r\nTA 51   42  63  22   4  13 48 20 28 21  2\r\nER 53   54  35 -15   8  11 45 98 99 58 98\r\nTA  0    0   0   0   0   0 00 23 16 18  2\r\nER  0    0   0   0   0   0 00 98 98 93 98\r\nTA  0 "
-    },
-    {
       "time": "02.11.2026 10:37 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +252,83 @@
       "label": "_d",
       "msgno": "S01A",
       "text": "No text"
+    },
+    {
+      "time": "02.11.2026 15:06 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -39.6,
+      "label": "5V",
+      "msgno": "S06A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 15:07 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -40.4,
+      "label": "SA",
+      "msgno": "S09A",
+      "text": "0EV150729VSH/"
+    },
+    {
+      "time": "02.11.2026 15:07 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -40.6,
+      "label": "SA",
+      "msgno": "S09A",
+      "text": "0EV150729VSH/"
+    },
+    {
+      "time": "02.11.2026 15:07 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -40.9,
+      "label": "H1",
+      "msgno": "E22A",
+      "text": "RPT19;PG1;REAL;SW030M2G\r\n1  0;0;0;0;0;0;0;0\r\n2  RELEASE;185;186\r\n3  NOT SET\r\n4  ;0.0;0.0;;;0.0;0.0;\r\n5  ;;228;230;;;;;231;229;;\r\n6  ;;;;;;;;;;;\r\n7  ;;;\r\n8  ;0.0;0.0;;;0.0;0.0;\r\n9  ;;228;232;;;;;234;228;;\r\n1"
+    },
+    {
+      "time": "02.11.2026 15:08 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "5V",
+      "msgno": "S10A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 15:09 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "Q0",
+      "msgno": "S12A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 15:09 UTC",
+      "source": "ACARS",
+      "flight": "HO1608",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "SA",
+      "msgno": "S13A",
+      "text": "0EV150925VSH/"
     }
   ]
 }
