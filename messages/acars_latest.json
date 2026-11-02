@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 10:32 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "SA",
-      "msgno": "S74A",
-      "text": "0EV103730VS/"
-    },
-    {
-      "time": "02.11.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "49",
-      "msgno": "M29A",
-      "text": "01ERDC   DKH1607/021038ZSPDEFHK\r\n+37992272.2- 23.9"
-    },
-    {
       "time": "02.11.2026 10:33 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C22A",
       "text": ".1/WRN/WN2611021414  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "02.11.2026 14:16 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -42.4,
+      "label": "10",
+      "msgno": "M14A",
+      "text": "POS011416,N 62.116,E 28.687,2143,502000,,,39002,95720"
+    },
+    {
+      "time": "02.11.2026 14:17 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-220E",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "H1",
+      "msgno": "O97A",
+      "text": "SB0122BA_B-220E  EDDFZSPD240\r\n 61434 0272471416 31000-4902490540107GX008011"
     }
   ]
 }
