@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "01.11.2026 23:04 UTC",
-      "source": "ACARS",
-      "flight": "CA3046",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "10",
-      "msgno": "M40A",
-      "text": "POS012309, N 6177,E 2749,824,280,25194,  41,35001, 653,-271,-564,7"
-    },
-    {
-      "time": "01.11.2026 23:05 UTC",
-      "source": "ACARS",
-      "flight": "CA3046",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "_d",
-      "msgno": "S33A",
-      "text": "No text"
-    },
-    {
-      "time": "01.11.2026 23:05 UTC",
-      "source": "ACARS",
-      "flight": "CA3046",
-      "tail": "B-2092",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "H1",
-      "msgno": "E09A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,161,161,43,43,42,40,159,159,55,76,83,83,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5600,0,0,AUTO,8.5,0.10,0.20,L,,,,01,NOV,26,23,10,05"
-    },
-    {
       "time": "01.11.2026 23:05 UTC",
       "source": "ACARS",
       "flight": "CA3046",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "E45B",
       "text": "ELC,R,115,115,0,0,0,114,,398,401,0,0,0,400,,0.24,0.32,0.00,0.00,0.00,0.00,28,28,28,28,28,28,0,,41,31,13,46,1,DIS,57,59,51,54,22,11,12,1,1,--,--,--,--,NORMAL,NORMAL,NORMAL,NORMAL,29,29,29,7,10,7,,02,NOV,26,07,53,01,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,0FF,ON,0FF,ON,0FF,ON,,02,NOV,26,07,53,02"
+    },
+    {
+      "time": "02.11.2026 07:51 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "_d",
+      "msgno": "S76A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 07:51 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "H1",
+      "msgno": "E46A",
+      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,C"
+    },
+    {
+      "time": "02.11.2026 07:51 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "H1",
+      "msgno": "E46B",
+      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,NO PRESS,ON,PRESS,,02,NOV,26,07,56,16"
     }
   ]
 }
