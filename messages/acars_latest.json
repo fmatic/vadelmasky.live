@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 10:30 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -41.9,
-      "label": "SA",
-      "msgno": "S70A",
-      "text": "0EV103526VS/"
-    },
-    {
-      "time": "02.11.2026 10:31 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "5V",
-      "msgno": "S71A",
-      "text": "No text"
-    },
-    {
       "time": "02.11.2026 10:32 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S59A",
       "text": "0LH140635VS"
+    },
+    {
+      "time": "02.11.2026 14:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/WRN/WN2611021414  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "02.11.2026 14:14 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/WRN/WN2611021414  345801006NAV GPS 2 FAULT"
     }
   ]
 }
