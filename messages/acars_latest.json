@@ -6,17 +6,6 @@
       "flight": "HO1607",
       "tail": "B-1115",
       "freq": 131.825,
-      "level": -32.6,
-      "label": "H1",
-      "msgno": "C15A",
-      "text": "PLF 1 02NOV26 1038 HO B-1115 DKH1607 ZSPD/EFHK BCG4F-45LD-0077 C L 0046 02NOV26\r\nFDE 34211500 I 1009 02NOV26\r\nMSG 3420113 I 1005 02NOV26 ER I 3 PL\r\nDB LEFT AHRU SENSOR\r\nFRC 35322  \r\nMSG 3420124 I 1003 02NOV"
-    },
-    {
-      "time": "02.11.2026 10:33 UTC",
-      "source": "ACARS",
-      "flight": "HO1607",
-      "tail": "B-1115",
-      "freq": 131.825,
       "level": -31.7,
       "label": "H1",
       "msgno": "C15B",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O97A",
       "text": "SB0122BA_B-220E  EDDFZSPD240\r\n 61434 0272471416 31000-4902490540107GX008011"
+    },
+    {
+      "time": "02.11.2026 14:22 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-220E",
+      "freq": 131.825,
+      "level": -39.6,
+      "label": "16",
+      "msgno": "M46A",
+      "text": "POSA1N61912E 28772,ADO-10 ,141514,310,ASP-11 ,142408,-49, 58, 697,829"
     }
   ]
 }
