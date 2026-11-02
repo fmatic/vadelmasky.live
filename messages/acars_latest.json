@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 07:48 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -29.6,
-      "label": "H1",
-      "msgno": "E45A",
-      "text": "ELC,R,115,115,0,0,0,114,,398,401,0,0,0,400,,0.24,0.32,0.00,0.00,0.00,0.00,28,28,28,28,28,28,0,,41,31,13,46,1,DIS,57,59,51,54,22,11,12,1,1,--,--,--,--,NORMAL,NORMAL,NORMAL,NORMAL,29,29,29,7,10,7,,02,NOV,26,0"
-    },
-    {
-      "time": "02.11.2026 07:48 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -29.3,
-      "label": "H1",
-      "msgno": "E45B",
-      "text": "ELC,R,115,115,0,0,0,114,,398,401,0,0,0,400,,0.24,0.32,0.00,0.00,0.00,0.00,28,28,28,28,28,28,0,,41,31,13,46,1,DIS,57,59,51,54,22,11,12,1,1,--,--,--,--,NORMAL,NORMAL,NORMAL,NORMAL,29,29,29,7,10,7,,02,NOV,26,07,53,01,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,0FF,ON,0FF,ON,0FF,ON,,02,NOV,26,07,53,02"
-    },
-    {
-      "time": "02.11.2026 07:51 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -31.6,
-      "label": "_d",
-      "msgno": "S76A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 07:51 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "H1",
-      "msgno": "E46A",
-      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,C"
-    },
-    {
       "time": "02.11.2026 07:51 UTC",
       "source": "ACARS",
       "flight": "CA3153",
@@ -328,6 +284,50 @@
       "level": -38.7,
       "label": "5V",
       "msgno": "S84A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 10:40 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "Q0",
+      "msgno": "S86A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 10:40 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -40.3,
+      "label": "SA",
+      "msgno": "S87A",
+      "text": "0EV104454VS/"
+    },
+    {
+      "time": "02.11.2026 10:41 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -37.9,
+      "label": "5V",
+      "msgno": "S88A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 10:42 UTC",
+      "source": "ACARS",
+      "flight": "HO1607",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -41.6,
+      "label": "Q0",
+      "msgno": "S90A",
       "text": "No text"
     }
   ]
