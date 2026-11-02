@@ -6,28 +6,6 @@
       "flight": "CA3160",
       "tail": "B-6113",
       "freq": 131.725,
-      "level": -33.0,
-      "label": "_d",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 15:48 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -30.4,
-      "label": "_d",
-      "msgno": "S47A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 15:48 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
       "level": -29.4,
       "label": "_d",
       "msgno": "S49A",
@@ -329,6 +307,28 @@
       "label": "11",
       "msgno": "M02A",
       "text": "POS\r\nCAS 273,LAT N 61.770,LON E 26.436,ALT 34999,FOB 115960,UTC 195429,PD ----.--,WD 268,WS   48,TAT - 21"
+    },
+    {
+      "time": "02.11.2026 19:55 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -25.1,
+      "label": "80",
+      "msgno": "M03A",
+      "text": "TXT\r\nMU290,FL350,EEP/2013,ETP1/2114,EXP/2230,,,"
+    },
+    {
+      "time": "02.11.2026 19:58 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -32.5,
+      "label": "SA",
+      "msgno": "S12A",
+      "text": "0LS195851V"
     }
   ]
 }
