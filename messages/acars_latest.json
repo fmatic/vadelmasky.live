@@ -6,17 +6,6 @@
       "flight": "CA3156",
       "tail": "B-6070",
       "freq": 131.825,
-      "level": -36.1,
-      "label": "H1",
-      "msgno": "C05A",
-      "text": ".1/FLR/FR2611012021  23113306ATIMS  1,,,,,,,HFDR1(1RE1)/ATSU1(1TX1),INTERMITTENT"
-    },
-    {
-      "time": "01.11.2026 20:22 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6070",
-      "freq": 131.825,
       "level": -32.1,
       "label": "H1",
       "msgno": "C06A",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S01A",
       "text": "No text"
+    },
+    {
+      "time": "02.11.2026 07:44 UTC",
+      "source": "ACARS",
+      "flight": "CA3153",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "H1",
+      "msgno": "E41B",
+      "text": "86,116,0.60,0.48,76,128,0.88,0.82,8,30,OPEN,CLSD,27,1,OPEN,OPEN,16,14,CLSD,CLSD,4.8,5.3,CARGO A/C LWR AFT,02,NOV,26,07,49,24"
     }
   ]
 }
