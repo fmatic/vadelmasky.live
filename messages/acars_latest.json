@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 15:47 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -35.5,
-      "label": "H1",
-      "msgno": "F05C",
-      "text": "P.PIMEL/DQ370/WRZUUU.ZUCK4406"
-    },
-    {
-      "time": "02.11.2026 15:48 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -31.8,
-      "label": "_d",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 15:48 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -37.4,
-      "label": "_d",
-      "msgno": "S42A",
-      "text": "No text"
-    },
-    {
       "time": "02.11.2026 15:48 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S22A",
       "text": "No text"
+    },
+    {
+      "time": "02.11.2026 19:52 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-222Z",
+      "freq": 131.825,
+      "level": -33.3,
+      "label": "H1",
+      "msgno": "O97A",
+      "text": "SS0340F_387\r\nB-222Z  CKK206EHAMZSPD021126195251ER\r\n30931001828-1875176203168BSM79967A21\r\n7216101832 2701021126 195249\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30999\r\n      ) 0 02N    )16.)\r"
+    },
+    {
+      "time": "02.11.2026 19:53 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-222Z",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "H1",
+      "msgno": "O97B",
+      "text": "SS0340F_387\r\nB-222Z  CKK206EHAMZSPD021126195251ER\r\n30931001828-1875176203168BSM79967A21\r\n7216101832 2701021126 195249\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30999\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n021126195251\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "02.11.2026 19:54 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5942",
+      "freq": 131.725,
+      "level": -30.1,
+      "label": "11",
+      "msgno": "M02A",
+      "text": "POS\r\nCAS 273,LAT N 61.770,LON E 26.436,ALT 34999,FOB 115960,UTC 195429,PD ----.--,WD 268,WS   48,TAT - 21"
     }
   ]
 }
