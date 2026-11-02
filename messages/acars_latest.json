@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 15:08 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -37.7,
-      "label": "5V",
-      "msgno": "S10A",
-      "text": "No text"
-    },
-    {
       "time": "02.11.2026 15:09 UTC",
       "source": "ACARS",
       "flight": "HO1608",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "F09A",
       "text": "RESPWI/AK,71605F"
+    },
+    {
+      "time": "02.11.2026 17:04 UTC",
+      "source": "ACARS",
+      "flight": "N70519",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -41.9,
+      "label": "SA",
+      "msgno": "S16A",
+      "text": "0EV170345V"
     }
   ]
 }
