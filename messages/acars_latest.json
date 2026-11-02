@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 15:51 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -30.5,
-      "label": "10",
-      "msgno": "M12A",
-      "text": "POS021551,N 61.655,E 26.548,2319,510500,,,37001,102000"
-    },
-    {
-      "time": "02.11.2026 15:51 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "_d",
-      "msgno": "S63A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 15:51 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -29.7,
-      "label": "H1",
-      "msgno": "F09A",
-      "text": "RESPWI/AK,71605F"
-    },
-    {
-      "time": "02.11.2026 17:04 UTC",
-      "source": "ACARS",
-      "flight": "N70519",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -41.9,
-      "label": "SA",
-      "msgno": "S16A",
-      "text": "0EV170345V"
-    },
-    {
-      "time": "02.11.2026 18:00 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.4,
-      "label": "H1",
-      "msgno": "D07A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20416,021126,1747,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2202,.22023,-026/F1TORQ,NP,N"
-    },
-    {
       "time": "02.11.2026 18:00 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "D02D",
       "text": "NT,08606/H711240,HP,DISK,09439/H811240,HP,REAR,09439/H910299,AIR,SEAL,08048/I011244,LP,DISK,09443/I126241,1ST,PT,24440/I226241,2ND,PT,24440/**.,EOT,...,/"
+    },
+    {
+      "time": "02.11.2026 23:05 UTC",
+      "source": "ACARS",
+      "flight": "N78942",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -25.6,
+      "label": "5V",
+      "msgno": "S01A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 23:07 UTC",
+      "source": "ACARS",
+      "flight": "N78942",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "SA",
+      "msgno": "M04A",
+      "text": "0EV230619V"
+    },
+    {
+      "time": "02.11.2026 23:07 UTC",
+      "source": "ACARS",
+      "flight": "N78942",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "B9",
+      "msgno": "L01A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "02.11.2026 23:07 UTC",
+      "source": "ACARS",
+      "flight": "N78942",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "80",
+      "msgno": "M05A",
+      "text": "3701 INRANG 8942/03 EFJY/EFHK .OH-ATO\r\n/ETA 2340/ERT     "
+    },
+    {
+      "time": "02.11.2026 23:07 UTC",
+      "source": "ACARS",
+      "flight": "N78942",
+      "tail": "OH-ATO",
+      "freq": 131.825,
+      "level": -39.3,
+      "label": "80",
+      "msgno": "M06A",
+      "text": "3A01 OPSCTL 8942/03 EFJY/EFHK .OH-ATO\r\nMIHI STANDILLE\r\nTAA TUODAA"
     }
   ]
 }
