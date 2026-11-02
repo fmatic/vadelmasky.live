@@ -237,32 +237,32 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">36000 ft</div>
+        <div class="value">38000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">432.0 kt</div>
+        <div class="value">432.7 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">02.11.2026 02:30 UTC</div>
+        <div class="value">02.11.2026 02:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,11 +286,35 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>02.11.2026 02:30 UTC</b></div>
+                    <div><span>Last seen</span><b>02.11.2026 02:35 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-304D" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES709</div>
+                    <div class="meta">ICAO 781634 · REG B-306Y · TYPE A359</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>432.7 kt</b></div>
+                    <div><span>Track</span><b>237.26°</b></div>
+                    <div><span>Position</span><b>61.8211, 26.4612</b></div>
+                    <div><span>Last seen</span><b>02.11.2026 02:35 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-306Y" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -568,7 +592,7 @@ B-2092  CAO304LEMDZSPD011126230730ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "781634", "flight": "CES709", "lat": 61.821093, "lon": 26.461182, "alt": 38000, "speed": 432.7, "last_seen": "02.11.2026 02:35 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
