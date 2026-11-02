@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 07:51 UTC",
-      "source": "ACARS",
-      "flight": "CA3153",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "H1",
-      "msgno": "E46B",
-      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,NO PRESS,ON,PRESS,,02,NOV,26,07,56,16"
-    },
-    {
       "time": "02.11.2026 10:30 UTC",
       "source": "ACARS",
       "flight": "HO1607",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S90A",
       "text": "No text"
+    },
+    {
+      "time": "02.11.2026 13:52 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-7952",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "10",
+      "msgno": "M62A",
+      "text": "POS021356, N 6074,E 2570,---,290,25182,  46,33999, 366,-229,-532,7"
     }
   ]
 }
