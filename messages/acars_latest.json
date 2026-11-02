@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 15:09 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "Q0",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 15:09 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -38.9,
-      "label": "SA",
-      "msgno": "S13A",
-      "text": "0EV150925VSH/"
-    },
-    {
-      "time": "02.11.2026 15:11 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "5V",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 15:14 UTC",
-      "source": "ACARS",
-      "flight": "HO1608",
-      "tail": "B-1115",
-      "freq": 131.825,
-      "level": -40.9,
-      "label": "5V",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 15:47 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -36.3,
-      "label": "H1",
-      "msgno": "F05C",
-      "text": "P.PIMEL/DQ370/WRZUUU.ZUCK4406"
-    },
-    {
       "time": "02.11.2026 15:47 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +274,61 @@
       "label": "SA",
       "msgno": "S16A",
       "text": "0EV170345V"
+    },
+    {
+      "time": "02.11.2026 18:00 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -31.4,
+      "label": "H1",
+      "msgno": "D07A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20416,021126,1747,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2202,.22023,-026/F1TORQ,NP,N"
+    },
+    {
+      "time": "02.11.2026 18:00 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "H1",
+      "msgno": "D07B",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20416,021126,1747,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2202,.22023,-026/F1TORQ,NP,NL/F2070.1,082.0,096.2/F3070.1,081.9,094.5/G1NH,ITT,FF,IG/G2096.1,0691.7,339,0083/G3095.8,0662.5,330,0087/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I217.75/**.,EOT,...,/"
+    },
+    {
+      "time": "02.11.2026 18:02 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "B9",
+      "msgno": "L11A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "02.11.2026 18:02 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -30.0,
+      "label": "_d",
+      "msgno": "S21A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 18:02 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -29.2,
+      "label": "_d",
+      "msgno": "S22A",
+      "text": "No text"
     }
   ]
 }
