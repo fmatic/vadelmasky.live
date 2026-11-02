@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 15:48 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -29.4,
-      "label": "_d",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 15:48 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -30.2,
-      "label": "_d",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
-      "time": "02.11.2026 15:49 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -33.3,
-      "label": "_d",
-      "msgno": "S51A",
-      "text": "No text"
-    },
-    {
       "time": "02.11.2026 15:49 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S12A",
       "text": "0LS195851V"
+    },
+    {
+      "time": "02.11.2026 22:42 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -29.6,
+      "label": "Q0",
+      "msgno": "S20A",
+      "text": "No text"
+    },
+    {
+      "time": "02.11.2026 22:43 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -17.5,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/FLR/FR2611022242  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "02.11.2026 22:43 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -35.5,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/FLR/FR2611022242  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
