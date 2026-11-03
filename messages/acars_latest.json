@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 18:00 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "H1",
-      "msgno": "D07B",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20416,021126,1747,09/D1ENGINE,S.N/D2ESN1,ED1996/D3ESN2,ED2146/E1IAS,ALT,TAT/E2202,.22023,-026/F1TORQ,NP,NL/F2070.1,082.0,096.2/F3070.1,081.9,094.5/G1NH,ITT,FF,IG/G2096.1,0691.7,339,0083/G3095.8,0662.5,330,0087/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I217.75/**.,EOT,...,/"
-    },
-    {
       "time": "02.11.2026 18:02 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M06A",
       "text": "3A01 OPSCTL 8942/03 EFJY/EFHK .OH-ATO\r\nMIHI STANDILLE\r\nTAA TUODAA"
+    },
+    {
+      "time": "03.11.2026 02:31 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16716",
+      "freq": 131.725,
+      "level": -38.4,
+      "label": "H1",
+      "msgno": "O64A",
+      "text": "SB0122BA_B-16716 RCTPEDDM 34\r\n 61895 0284240231 36002-480299039010W/X010013"
     }
   ]
 }
