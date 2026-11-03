@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">8</div>
+        <div class="value">9</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">03.11.2026 03:55 UTC</div>
+        <div class="value">03.11.2026 04:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601F7 · REG OH-ATJ · TYPE AT75</div>
+                </div>
+                <div class="alt-badge low">7100 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>199.6 kt</b></div>
+                    <div><span>Track</span><b>187.2°</b></div>
+                    <div><span>Position</span><b>62.2279, 25.6875</b></div>
+                    <div><span>Last seen</span><b>03.11.2026 04:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATJ" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -695,7 +719,7 @@ TAA TUODAA</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "8990DE", "flight": "BR0071", "lat": 61.04, "lon": 26.731667, "alt": 36000, "speed": "-", "last_seen": "03.11.2026 03:17 UTC"}];
+const aircraft = [{"hex": "4601F7", "flight": "FIN8KH", "lat": 62.227866, "lon": 25.687514, "alt": 7100, "speed": 199.6, "last_seen": "03.11.2026 04:00 UTC"}, {"hex": "8990DE", "flight": "BR0071", "lat": 61.04, "lon": 26.731667, "alt": 36000, "speed": "-", "last_seen": "03.11.2026 03:17 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
