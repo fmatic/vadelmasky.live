@@ -6,17 +6,6 @@
       "flight": "N78942",
       "tail": "OH-ATO",
       "freq": 131.825,
-      "level": -33.4,
-      "label": "SA",
-      "msgno": "M00A",
-      "text": "0EV230127V"
-    },
-    {
-      "time": "02.11.2026 23:02 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
       "level": -35.8,
       "label": "80",
       "msgno": "M01A",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M87A",
       "text": "POSA1N61762E 26936,AGIVU  ,120239,339,NISIX  ,124325,-50, 74, 236,836"
+    },
+    {
+      "time": "03.11.2026 12:19 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -31.1,
+      "label": "H1",
+      "msgno": "O55A",
+      "text": "SB0122BA_B-222K  ZSPDEHAM891\r\n 61352 0257411219 33994-5203440820109B,009010"
     }
   ]
 }
