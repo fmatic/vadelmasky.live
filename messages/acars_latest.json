@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 22:42 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -29.6,
-      "label": "Q0",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
       "time": "02.11.2026 22:43 UTC",
       "source": "ACARS",
       "flight": "CA1154",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S39A",
       "text": "0LS072407V"
+    },
+    {
+      "time": "03.11.2026 07:28 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-229Z",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "H1",
+      "msgno": "O57A",
+      "text": "SB0122BA_B-229Z  ZSPDEDDF435\r\n 61193 0255780727 34004-5503420790907GX011021"
     }
   ]
 }
