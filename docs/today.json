@@ -163,11 +163,11 @@
       "type": "A320",
       "lat": null,
       "lon": null,
-      "alt": null,
-      "speed": null,
-      "track": null,
+      "alt": 33025,
+      "speed": 495.3,
+      "track": 181.85,
       "seen_first": "2026-11-03T04:17:01.294929",
-      "last_seen": "2026-11-03T04:17:01.294929"
+      "last_seen": "2026-11-03T06:05:02.114327"
     },
     "4601fd": {
       "hex": "4601fd",
@@ -233,11 +233,24 @@
       "track": null,
       "seen_first": "2026-11-03T05:55:01.568552",
       "last_seen": "2026-11-03T05:56:01.443173"
+    },
+    "467890": {
+      "hex": "467890",
+      "flight": "T11",
+      "reg": "PI-01",
+      "type": "PC12",
+      "lat": 62.33866,
+      "lon": 25.813012,
+      "alt": 2450,
+      "speed": 142.2,
+      "track": 313.58,
+      "seen_first": "2026-11-03T06:01:02.059245",
+      "last_seen": "2026-11-03T06:05:02.114327"
     }
   },
   "summary": {
-    "total_unique_aircraft": 18,
-    "last_seen_live": 0,
-    "updated": "2026-11-03T06:00:01.452687"
+    "total_unique_aircraft": 19,
+    "last_seen_live": 2,
+    "updated": "2026-11-03T06:05:02.114327"
   }
 }
