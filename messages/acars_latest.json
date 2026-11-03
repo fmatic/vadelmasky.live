@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 23:03 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -36.2,
-      "label": "H1",
-      "msgno": "D01C",
-      "text": "0HR.,.,P.B.12HR./D900.00.01,MC/D000.00.01,AIR/E1CABIN,CARGO/E2RECIRCULATION,FAN,FLT/E3MFC1B.1UA1.,.,PIN,AC-01E/E4CHK,REC,FAN.30HB./E5.,CONTACTOR.28HB./E6.,P.B,SW.26HB./E700.00.01,MC/E800.00.01,AIR/E9CABIN,P"
-    },
-    {
-      "time": "02.11.2026 23:03 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -27.0,
-      "label": "H1",
-      "msgno": "D01D",
-      "text": "RESS,FLT/E0MFC1B.1UA1.,.,PIN,AC-01F/F1CHK,DIGITAL,CTLR.8HM./F2.,P.B,SW.3HM./F300.00.01,MC/F400.00.01,AIR/F5FLIGHT,COMPT/F6RECIRCULATION,FAN,FLT/F7MFC1B.1UA1.,.,PIN,AC-02C/F8CHK,REC,FAN.31HB./F9.,CONTACTOR.2"
-    },
-    {
-      "time": "02.11.2026 23:03 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -27.0,
-      "label": "H1",
-      "msgno": "D01H",
-      "text": "5XB.,.,RLY.9XB./"
-    },
-    {
-      "time": "02.11.2026 23:03 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -25.5,
-      "label": "80",
-      "msgno": "M03A",
-      "text": "3701 INRANG 8942/03 EFJY/EFHK .OH-ATO\r\n/ETA 2340/ERT     "
-    },
-    {
-      "time": "02.11.2026 23:04 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -29.3,
-      "label": "H1",
-      "msgno": "D02A",
-      "text": "A25/ATR7250025,1,1/A1PW127M,ENGINE,CYCLES,REPORT/B1DATE,GMT/B2NOV02,2256/C1TOTAL,LIFE,COUNT/C2ENGINE,1,S.N/C3ESN1,ED2142/C4LP,IMPELLER,03763/C5HP,IMPELLER,03763/C6HP,FRONT,COVER,04323/C7HP,DISK,03760/C8HP,R"
-    },
-    {
       "time": "02.11.2026 23:04 UTC",
       "source": "ACARS",
       "flight": "N78942",
@@ -329,6 +274,61 @@
       "label": "_d",
       "msgno": "S38A",
       "text": "No text"
+    },
+    {
+      "time": "03.11.2026 17:27 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "80",
+      "msgno": "M10A",
+      "text": "3701 INRANG 0488/03 EFKS/EFHK .OH-ATG\r\n/ETA 1758/ERT     "
+    },
+    {
+      "time": "03.11.2026 17:28 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "_d",
+      "msgno": "S72A",
+      "text": "No text"
+    },
+    {
+      "time": "03.11.2026 17:28 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "5V",
+      "msgno": "S73A",
+      "text": "No text"
+    },
+    {
+      "time": "03.11.2026 17:29 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "Q0",
+      "msgno": "S76A",
+      "text": "No text"
+    },
+    {
+      "time": "03.11.2026 17:29 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "SA",
+      "msgno": "S77A",
+      "text": "0EV172931V"
     }
   ]
 }
