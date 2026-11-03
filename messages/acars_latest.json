@@ -17,17 +17,6 @@
       "flight": "N78942",
       "tail": "OH-ATO",
       "freq": 131.825,
-      "level": -35.8,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1001 OUTRP  8942/       /     .OH-ATO\r\n/OUT 2257/FOB 0020/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "02.11.2026 23:02 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
       "level": -38.8,
       "label": "H1",
       "msgno": "D01A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O55A",
       "text": "SB0122BA_B-222K  ZSPDEHAM891\r\n 61352 0257411219 33994-5203440820109B,009010"
+    },
+    {
+      "time": "03.11.2026 15:54 UTC",
+      "source": "ACARS",
+      "flight": "JD0669",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -30.0,
+      "label": "SA",
+      "msgno": "S32A",
+      "text": "0LS155410V"
     }
   ]
 }
