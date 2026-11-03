@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 23:04 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -28.1,
-      "label": "H1",
-      "msgno": "D02C",
-      "text": "ISK,05561/E8HP,REAR,COVER,05561/E9AIR,SEAL,06952/F0LP,DISK,05557/F11ST,PT,DISK,05560/F22ND,PT,DISK,05560/H1REMAINING,LIFE/H2ESN1,ESN2/H3ED2142,ED2133/H411237,LP,IMP,09436/H511237,HP,IMP,09436/H610677,HP,FRO"
-    },
-    {
-      "time": "02.11.2026 23:04 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "H1",
-      "msgno": "D02D",
-      "text": "NT,08606/H711240,HP,DISK,09439/H811240,HP,REAR,09439/H910299,AIR,SEAL,08048/I011244,LP,DISK,09443/I126241,1ST,PT,24440/I226241,2ND,PT,24440/**.,EOT,...,/"
-    },
-    {
       "time": "02.11.2026 23:05 UTC",
       "source": "ACARS",
       "flight": "N78942",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S77A",
       "text": "0EV172931V"
+    },
+    {
+      "time": "03.11.2026 17:31 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -35.9,
+      "label": "B9",
+      "msgno": "L14A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "03.11.2026 17:31 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "_d",
+      "msgno": "S78A",
+      "text": "No text"
     }
   ]
 }
