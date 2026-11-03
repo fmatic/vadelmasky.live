@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 22:43 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -17.5,
-      "label": "H1",
-      "msgno": "C21A",
-      "text": ".1/FLR/FR2611022242  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "02.11.2026 22:43 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6093",
-      "freq": 131.725,
-      "level": -35.5,
-      "label": "H1",
-      "msgno": "C21A",
-      "text": ".1/FLR/FR2611022242  34363106IR2    1,IR3,IR1,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "02.11.2026 23:02 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "Q0",
-      "msgno": "S00A",
-      "text": "No text"
-    },
-    {
       "time": "02.11.2026 23:02 UTC",
       "source": "ACARS",
       "flight": "N78942",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O57A",
       "text": "SB0122BA_B-229Z  ZSPDEDDF435\r\n 61193 0255780727 34004-5503420790907GX011021"
+    },
+    {
+      "time": "03.11.2026 12:12 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -25.4,
+      "label": "Q0",
+      "msgno": "S60A",
+      "text": "No text"
+    },
+    {
+      "time": "03.11.2026 12:13 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -26.3,
+      "label": "Q0",
+      "msgno": "S60A",
+      "text": "No text"
+    },
+    {
+      "time": "03.11.2026 12:14 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "16",
+      "msgno": "M87A",
+      "text": "POSA1N61762E 26936,AGIVU  ,120239,339,NISIX  ,124325,-50, 74, 236,836"
     }
   ]
 }
