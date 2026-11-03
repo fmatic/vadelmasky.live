@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 19:55 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5942",
-      "freq": 131.725,
-      "level": -25.1,
-      "label": "80",
-      "msgno": "M03A",
-      "text": "TXT\r\nMU290,FL350,EEP/2013,ETP1/2114,EXP/2230,,,"
-    },
-    {
       "time": "02.11.2026 19:58 UTC",
       "source": "ACARS",
       "flight": "MU0290",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "F25A",
       "text": "RESPWI/AC,085/TS024440,0311262FE6"
+    },
+    {
+      "time": "03.11.2026 07:19 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-229Z",
+      "freq": 131.825,
+      "level": -31.5,
+      "label": "16",
+      "msgno": "M82A",
+      "text": "POSA1N61882E 27431,AGAMO  ,070342,340,SALLO  ,083413,-49, 65, 240,824"
     }
   ]
 }
