@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.11.2026 15:54 UTC",
-      "source": "ACARS",
-      "flight": "JD0669",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -30.0,
-      "label": "SA",
-      "msgno": "S32A",
-      "text": "0LS155410V"
-    },
-    {
       "time": "03.11.2026 15:55 UTC",
       "source": "ACARS",
       "flight": "JD0669",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S59A",
       "text": "No text"
+    },
+    {
+      "time": "04.11.2026 07:09 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2073",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "H1",
+      "msgno": "O40A",
+      "text": "SB0122BA_B-2073  ZUCKEGPK776\r\n 61610 0286970709 34000-520002098010NXW009011"
     }
   ]
 }
