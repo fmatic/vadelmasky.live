@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.11.2026 02:31 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16716",
-      "freq": 131.725,
-      "level": -38.4,
-      "label": "H1",
-      "msgno": "O64A",
-      "text": "SB0122BA_B-16716 RCTPEDDM 34\r\n 61895 0284240231 36002-480299039010W/X010013"
-    },
-    {
-      "time": "03.11.2026 02:38 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16716",
-      "freq": 131.725,
-      "level": -35.0,
-      "label": "H1",
-      "msgno": "F22A",
-      "text": "REQPWI/TS023843,031126/WQ380.360.340.320:AGAMO.DOBAN.KEDUX.BALIT.OLMOR.KUNER.BEZMI.GOVEN.KOBUS.PIKIB.MAREM.BALTU.VESUB.BAGMI.ODUDA.NETES.KUFAZ.TUSTO.LANDU.DM428.DM427.DM426.DM425.DM424.DM423.DM422.DM421.DM4"
-    },
-    {
-      "time": "03.11.2026 02:38 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16716",
-      "freq": 131.725,
-      "level": -35.6,
-      "label": "H1",
-      "msgno": "F22B",
-      "text": "REQPWI/TS023843,031126/WQ380.360.340.320:AGAMO.DOBAN.KEDUX.BALIT.OLMOR.KUNER.BEZMI.GOVEN.KOBUS.PIKIB.MAREM.BALTU.VESUB.BAGMI.ODUDA.NETES.KUFAZ.TUSTO.LANDU.DM428.DM427.DM426.DM425.DM424.DM423.DM422.DM421.DM420.DM440.DM441.BEGEN.FI08R.RW08R.D080B.OTT/DQ3608208"
-    },
-    {
-      "time": "03.11.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16716",
-      "freq": 131.725,
-      "level": -35.3,
-      "label": "_d",
-      "msgno": "S80A",
-      "text": "No text"
-    },
-    {
-      "time": "03.11.2026 02:40 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16716",
-      "freq": 131.725,
-      "level": -36.7,
-      "label": "H1",
-      "msgno": "F23A",
-      "text": "POSN61024E026439,AGAMO,024021,360,DOBAN,025254,KEDUX,M51,31649,464/TS024021,0311260FA3"
-    },
-    {
-      "time": "03.11.2026 02:41 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16716",
-      "freq": 131.725,
-      "level": -37.2,
-      "label": "SA",
-      "msgno": "S81A",
-      "text": "0LS024058V"
-    },
-    {
       "time": "03.11.2026 02:44 UTC",
       "source": "ACARS",
       "flight": "BR0071",
@@ -328,6 +262,72 @@
       "level": -36.1,
       "label": "5V",
       "msgno": "S88A",
+      "text": "No text"
+    },
+    {
+      "time": "04.11.2026 03:10 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -32.2,
+      "label": "Q0",
+      "msgno": "S90A",
+      "text": "No text"
+    },
+    {
+      "time": "04.11.2026 03:12 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -33.0,
+      "label": "5V",
+      "msgno": "S93A",
+      "text": "No text"
+    },
+    {
+      "time": "04.11.2026 03:13 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -31.8,
+      "label": "Q0",
+      "msgno": "S95A",
+      "text": "No text"
+    },
+    {
+      "time": "04.11.2026 03:13 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "SA",
+      "msgno": "S96A",
+      "text": "0EV031743VS/"
+    },
+    {
+      "time": "04.11.2026 03:14 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -29.3,
+      "label": "5V",
+      "msgno": "S98A",
+      "text": "No text"
+    },
+    {
+      "time": "04.11.2026 03:14 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -30.2,
+      "label": "Q0",
+      "msgno": "S01A",
       "text": "No text"
     }
   ]
