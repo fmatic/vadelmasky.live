@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 12:41 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -21.5,
-      "label": "Q0",
-      "msgno": "S17A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 12:41 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -40.9,
-      "label": "SA",
-      "msgno": "M26A",
-      "text": "0EV124125V"
-    },
-    {
-      "time": "04.11.2026 12:41 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "80",
-      "msgno": "M27A",
-      "text": "3501 SUMMRY 0285/04 EFHK/EFJY .OH-ATK\r\n/OUT 1105/FOB 0019\r\n/OFF 1111/FOB 0019\r\n/ON  1150/FOB 0015\r\n/IN  1152/FOB 0014\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
-    },
-    {
-      "time": "04.11.2026 12:42 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -26.8,
-      "label": "80",
-      "msgno": "M27B",
-      "text": "3501 SUMMRY 0285/04 EFHK/EFJY .OH-ATK\r\n/OUT 1105/FOB 0019\r\n/OFF 1111/FOB 0019\r\n/ON  1150/FOB 0015\r\n/IN  1152/FOB 0014\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
-      "time": "04.11.2026 12:42 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -21.0,
-      "label": "80",
-      "msgno": "M25A",
-      "text": "1201 ONRP   0285/04 EFHK/EFJY .OH-ATK\r\n/ON  1150/FOB 0015"
-    },
-    {
       "time": "04.11.2026 12:42 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +274,61 @@
       "label": "H1",
       "msgno": "O95B",
       "text": "\n  3100(12 07(3276(16.(\r\n041126145246\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "04.11.2026 15:10 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -30.1,
+      "label": "H1",
+      "msgno": "C29A",
+      "text": ".1/WRN/WN2611041510  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "04.11.2026 15:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -30.7,
+      "label": "H1",
+      "msgno": "C30A",
+      "text": ".1/FLR/FR2611041510  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "04.11.2026 15:12 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -29.1,
+      "label": "10",
+      "msgno": "M89A",
+      "text": "POS041512,N 61.817,E 27.772,2303,450750,,,37003,102680"
+    },
+    {
+      "time": "04.11.2026 15:13 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -33.5,
+      "label": "H1",
+      "msgno": "C31A",
+      "text": ".1/WRN/WN2611041513  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "04.11.2026 15:15 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -36.5,
+      "label": "H1",
+      "msgno": "C32A",
+      "text": ".1/FLR/FR2611041513  34361606MMR2   1,IR1,IR3,IR2,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
