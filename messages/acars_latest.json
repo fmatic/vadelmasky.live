@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "02.11.2026 23:07 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "80",
-      "msgno": "M05A",
-      "text": "3701 INRANG 8942/03 EFJY/EFHK .OH-ATO\r\n/ETA 2340/ERT     "
-    },
-    {
-      "time": "02.11.2026 23:07 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -39.3,
-      "label": "80",
-      "msgno": "M06A",
-      "text": "3A01 OPSCTL 8942/03 EFJY/EFHK .OH-ATO\r\nMIHI STANDILLE\r\nTAA TUODAA"
-    },
-    {
       "time": "03.11.2026 02:31 UTC",
       "source": "ACARS",
       "flight": "BR0071",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M87A",
       "text": "POS040114,N 62.185,E 25.924,0835,417625,,,36998,96040"
+    },
+    {
+      "time": "04.11.2026 03:08 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -39.0,
+      "label": "SA",
+      "msgno": "S87A",
+      "text": "0EV031302VS/"
+    },
+    {
+      "time": "04.11.2026 03:09 UTC",
+      "source": "ACARS",
+      "flight": "HO1659",
+      "tail": "B-1115",
+      "freq": 131.825,
+      "level": -36.1,
+      "label": "5V",
+      "msgno": "S88A",
+      "text": "No text"
     }
   ]
 }
