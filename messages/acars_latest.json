@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 11:48 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "_d",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 11:49 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "80",
-      "msgno": "M09A",
-      "text": "3701 INRANG 0414/04 EFKI/EFHK .OH-ATI\r\n/ETA 1213/ERT     "
-    },
-    {
-      "time": "04.11.2026 11:49 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "_d",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 11:52 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "5U",
-      "msgno": "M10A",
-      "text": "  01 WXRQ   0414/04 EFKI/EFHK .OH-ATI\r\n/TYP 1/STA EFVA/STA     /STA     "
-    },
-    {
-      "time": "04.11.2026 11:53 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "5V",
-      "msgno": "S56A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 12:32 UTC",
-      "source": "ACARS",
-      "flight": "N70574",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -39.3,
-      "label": "SA",
-      "msgno": "S71A",
-      "text": "0EV123247V"
-    },
-    {
       "time": "04.11.2026 12:41 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +263,72 @@
       "label": "16",
       "msgno": "M46A",
       "text": "POSA1N61727E 28162,ALAMI  ,141424,310,KOKAT  ,150323,-46, 87, 681,827"
+    },
+    {
+      "time": "04.11.2026 14:51 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "H1",
+      "msgno": "C05A",
+      "text": "RTE 1 04NOV26 1451 CKB-2077 CKK216 EDDF/ZSPD 3111-BCG-00W-20 L 1224 04NOV26\r\nFDE 34503141 A 1449 04NOV26\r\nMSG 3453301 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1449 04NOV26 ER H P"
+    },
+    {
+      "time": "04.11.2026 14:51 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "H1",
+      "msgno": "C05B",
+      "text": "L\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 1449 04NOV26\r\nMSG 3453301 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 34533"
+    },
+    {
+      "time": "04.11.2026 14:51 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "H1",
+      "msgno": "C05C",
+      "text": "02 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 1449 04NOV26\r\nMSG 3453302 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE "
+    },
+    {
+      "time": "04.11.2026 14:51 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "H1",
+      "msgno": "C05D",
+      "text": "RTE 1 04NOV26 1451 CKB-2077 CKK216 EDDF/ZSPD 3111-BCG-00W-20 L 1224 04NOV26\r\nFDE 34503141 A 1449 04NOV26\r\nMSG 3453301 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nFDE 34503100 A 1449 04NOV26\r\nMSG 3453301 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453302 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nFDE 34503142 A 1449 04NOV26\r\nMSG 3453302 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nMSG 3453013 A 1449 04NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nEOR\r\n"
+    },
+    {
+      "time": "04.11.2026 14:52 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "H1",
+      "msgno": "O94A",
+      "text": "SB0122BA_B-2077  EDDFZSPD641\r\n 61890 0285681451 31002-460335077090W/X014022"
+    },
+    {
+      "time": "04.11.2026 14:52 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "H1",
+      "msgno": "O95B",
+      "text": "\n  3100(12 07(3276(16.(\r\n041126145246\r\n111111111111\r\n111111111111"
     }
   ]
 }
