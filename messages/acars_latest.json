@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 07:38 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -40.3,
-      "label": "H1",
-      "msgno": "O53A",
-      "text": "SB0122BA_B-2077  ZSPDEDDF625\r\n 60642 0268470528 31999-480007083010W/X008010"
-    },
-    {
-      "time": "04.11.2026 11:38 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -41.9,
-      "label": "5V",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
       "time": "04.11.2026 11:43 UTC",
       "source": "ACARS",
       "flight": "N70414",
@@ -329,6 +307,28 @@
       "label": "18",
       "msgno": "M19A",
       "text": "POX,CSG2517   ,04NOV26,135417,ZUCK,EGPK,N061.74,E0026.36,370, 650,839,  67.2, -20.0,085,-55.2,225117, 35000,"
+    },
+    {
+      "time": "04.11.2026 14:37 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "Q0",
+      "msgno": "S96A",
+      "text": "No text"
+    },
+    {
+      "time": "04.11.2026 14:37 UTC",
+      "source": "ACARS",
+      "flight": "CK0216",
+      "tail": "B-2077",
+      "freq": 131.825,
+      "level": -39.3,
+      "label": "16",
+      "msgno": "M45A",
+      "text": "POSA1N60855E 25537,ALAMI  ,141424,310,KOKAT  ,150340,-46, 80, 697,830"
     }
   ]
 }
