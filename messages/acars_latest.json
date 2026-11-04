@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 07:36 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -38.6,
-      "label": "16",
-      "msgno": "M82A",
-      "text": "POSA1N60892E 27160,AGAMO  ,050636,320,MOHNI  ,053504,-49, 81, 240,818"
-    },
-    {
       "time": "04.11.2026 07:38 UTC",
       "source": "ACARS",
       "flight": "CK0215",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S33A",
       "text": "0LS133502V"
+    },
+    {
+      "time": "04.11.2026 13:54 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2073",
+      "freq": 131.825,
+      "level": -24.4,
+      "label": "18",
+      "msgno": "M19A",
+      "text": "POX,CSG2517   ,04NOV26,135417,ZUCK,EGPK,N061.74,E0026.36,370, 650,839,  67.2, -20.0,085,-55.2,225117, 35000,"
     }
   ]
 }
