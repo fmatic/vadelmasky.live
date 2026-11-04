@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "03.11.2026 17:31 UTC",
-      "source": "ACARS",
-      "flight": "N70488",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "B9",
-      "msgno": "L14A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "03.11.2026 17:31 UTC",
-      "source": "ACARS",
-      "flight": "N70488",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -36.6,
-      "label": "_d",
-      "msgno": "S78A",
-      "text": "No text"
-    },
-    {
       "time": "03.11.2026 22:14 UTC",
       "source": "ACARS",
       "flight": "N70349",
@@ -329,6 +307,28 @@
       "label": "18",
       "msgno": "M80A",
       "text": "POX,CSG2517   ,04NOV26,071244,ZUCK,EGPK,N061.50,E0027.90,340, 264,826,-106.8,   1.0,093,-52.4,093044, 25520,"
+    },
+    {
+      "time": "04.11.2026 07:17 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-2073",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "81",
+      "msgno": "M81A",
+      "text": "/CANUOCZ.EXIT EDTO 0730Z\r\n"
+    },
+    {
+      "time": "04.11.2026 07:17 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "5V",
+      "msgno": "S86A",
+      "text": "No text"
     }
   ]
 }
