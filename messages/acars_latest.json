@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 12:42 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "H1",
-      "msgno": "D09A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2NOV04,1152,0285/C1GMT,ACC/C21112,.0.77,FLT/C31112,.1.36,FLT/C41151,.1.18,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
       "time": "04.11.2026 12:45 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -328,6 +317,17 @@
       "level": -34.6,
       "label": "_d",
       "msgno": "S30A",
+      "text": "No text"
+    },
+    {
+      "time": "04.11.2026 22:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "Q0",
+      "msgno": "S25A",
       "text": "No text"
     }
   ]
