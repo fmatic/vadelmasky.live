@@ -237,32 +237,32 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
     <div class="card">
-        <div class="value">0 ft</div>
+        <div class="value">37000 ft</div>
         <div class="label">Highest altitude</div>
     </div>
 
     <div class="card">
-        <div class="value">0 kt</div>
+        <div class="value">418.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">04.11.2026 01:10 UTC</div>
+        <div class="value">04.11.2026 01:15 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -271,12 +271,54 @@ footer {
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
         
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CAO1154</div>
+                    <div class="meta">ICAO 780450 · REG B-6113 · TYPE A332</div>
+                </div>
+                <div class="alt-badge high">37000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>418.0 kt</b></div>
+                    <div><span>Track</span><b>75.76°</b></div>
+                    <div><span>Position</span><b>62.1850, 25.9240</b></div>
+                    <div><span>Last seen</span><b>04.11.2026 01:15 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6113" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
     </div>
 </section>
 
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA1154</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6113 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">04.11.2026 01:14 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 10 · Msg M87A · Level -21.4 dB
+            </div>
+
+            <div class="acars-text">POS040114,N 62.185,E 25.924,0835,417625,,,36998,96040</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -477,30 +519,12 @@ footer {
             <div class="acars-text">/ENGM.TI2/024ENGMAFD47</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">JD0669</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-32MG · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">03.11.2026 15:55 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S35A · Level -22.5 dB
-            </div>
-
-            <div class="acars-text">0LS155517V</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "780450", "flight": "CAO1154", "lat": 62.185, "lon": 25.924, "alt": 37000, "speed": 418.0, "last_seen": "04.11.2026 01:15 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',

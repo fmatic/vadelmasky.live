@@ -6,17 +6,6 @@
       "flight": "N78942",
       "tail": "OH-ATO",
       "freq": 131.825,
-      "level": -36.4,
-      "label": "B9",
-      "msgno": "L01A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "02.11.2026 23:07 UTC",
-      "source": "ACARS",
-      "flight": "N78942",
-      "tail": "OH-ATO",
-      "freq": 131.825,
       "level": -37.3,
       "label": "80",
       "msgno": "M05A",
@@ -329,6 +318,17 @@
       "label": "B9",
       "msgno": "L05A",
       "text": "/EFKK.TI2/024EFKKAA743"
+    },
+    {
+      "time": "04.11.2026 01:14 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -21.4,
+      "label": "10",
+      "msgno": "M87A",
+      "text": "POS040114,N 62.185,E 25.924,0835,417625,,,36998,96040"
     }
   ]
 }
