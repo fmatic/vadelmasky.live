@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 11:43 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -28.1,
-      "label": "5V",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 11:48 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "Q0",
-      "msgno": "M08A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 11:48 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -31.5,
-      "label": "SA",
-      "msgno": "S51A",
-      "text": "0EV114759V"
-    },
-    {
       "time": "04.11.2026 11:48 UTC",
       "source": "ACARS",
       "flight": "N70414",
@@ -329,6 +296,39 @@
       "label": "16",
       "msgno": "M45A",
       "text": "POSA1N60855E 25537,ALAMI  ,141424,310,KOKAT  ,150340,-46, 80, 697,830"
+    },
+    {
+      "time": "04.11.2026 14:43 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/WRN/WN2611041443  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "04.11.2026 14:44 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -30.6,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/WRN/WN2611041443  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "04.11.2026 14:45 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -37.7,
+      "label": "H1",
+      "msgno": "C23A",
+      "text": ".1/FLR/FR2611041443  34361606MMR1   1,IR2,MMR2,IR1,IR3,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
