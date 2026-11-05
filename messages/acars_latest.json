@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 15:15 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "H1",
-      "msgno": "C32A",
-      "text": ".1/FLR/FR2611041513  34361606MMR2   1,IR1,IR3,IR2,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
-      "time": "04.11.2026 18:32 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "Q0",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 18:32 UTC",
-      "source": "ACARS",
-      "flight": "N70416",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -33.1,
-      "label": "SA",
-      "msgno": "M15A",
-      "text": "0EV183151V"
-    },
-    {
       "time": "04.11.2026 18:33 UTC",
       "source": "ACARS",
       "flight": "N70416",
@@ -329,6 +296,39 @@
       "label": "81",
       "msgno": "M10A",
       "text": "FLT1043"
+    },
+    {
+      "time": "05.11.2026 11:54 UTC",
+      "source": "ACARS",
+      "flight": "CA1043",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -40.3,
+      "label": "_d",
+      "msgno": "S80A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 11:54 UTC",
+      "source": "ACARS",
+      "flight": "CA1043",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -39.9,
+      "label": "H1",
+      "msgno": "E05A",
+      "text": "LGB,R,0,,188,191,1,L,,0.0,0.0,,,0.0,0.0,,,200,209,,,203,202,,,0.0,0.0,,,,0.0,0.0,,,194,209,,,200,192,,,0.0,0.0,,,0.0,0.0,,,196,207,,,197,199,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,48,0,0,ANTISKID,05,NOV,26,11,59,2"
+    },
+    {
+      "time": "05.11.2026 11:54 UTC",
+      "source": "ACARS",
+      "flight": "CA1043",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "H1",
+      "msgno": "E05B",
+      "text": "LGB,R,0,,188,191,1,L,,0.0,0.0,,,0.0,0.0,,,200,209,,,203,202,,,0.0,0.0,,,,0.0,0.0,,,194,209,,,200,192,,,0.0,0.0,,,0.0,0.0,,,196,207,,,197,199,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,48,0,0,ANTISKID,05,NOV,26,11,59,24"
     }
   ]
 }
