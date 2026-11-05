@@ -1,94 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 12:45 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -40.5,
-      "label": "_d",
-      "msgno": "S23A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 13:30 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1266",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "SA",
-      "msgno": "S33A",
-      "text": "0LS133502V"
-    },
-    {
-      "time": "04.11.2026 13:30 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1266",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "SA",
-      "msgno": "S33A",
-      "text": "0LS133502V"
-    },
-    {
-      "time": "04.11.2026 13:54 UTC",
-      "source": "ACARS",
-      "flight": "CZ2518",
-      "tail": "B-2073",
-      "freq": 131.825,
-      "level": -24.4,
-      "label": "18",
-      "msgno": "M19A",
-      "text": "POX,CSG2517   ,04NOV26,135417,ZUCK,EGPK,N061.74,E0026.36,370, 650,839,  67.2, -20.0,085,-55.2,225117, 35000,"
-    },
-    {
-      "time": "04.11.2026 14:37 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "Q0",
-      "msgno": "S96A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 14:37 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -39.3,
-      "label": "16",
-      "msgno": "M45A",
-      "text": "POSA1N60855E 25537,ALAMI  ,141424,310,KOKAT  ,150340,-46, 80, 697,830"
-    },
-    {
-      "time": "04.11.2026 14:43 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "H1",
-      "msgno": "C21A",
-      "text": ".1/WRN/WN2611041443  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "04.11.2026 14:44 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "H1",
-      "msgno": "C22A",
-      "text": ".1/WRN/WN2611041443  345801006NAV GPS 2 FAULT"
-    },
-    {
       "time": "04.11.2026 14:45 UTC",
       "source": "ACARS",
       "flight": "CA3160",
@@ -329,6 +241,94 @@
       "label": "H1",
       "msgno": "C60A",
       "text": ".1/FLR/FR2611042228  34363106IR1    1,,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "05.11.2026 03:36 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -27.3,
+      "label": "Q0",
+      "msgno": "M03A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 03:36 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -23.5,
+      "label": "SA",
+      "msgno": "M04A",
+      "text": "0EV033533V"
+    },
+    {
+      "time": "05.11.2026 03:36 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -23.5,
+      "label": "80",
+      "msgno": "M05A",
+      "text": "3701 INRANG 0376/05 EFKU/EFHK .OH-ATL\r\n/ETA 0402/ERT     "
+    },
+    {
+      "time": "05.11.2026 03:36 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -21.9,
+      "label": "_d",
+      "msgno": "S12A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 03:38 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -22.2,
+      "label": "80",
+      "msgno": "M06A",
+      "text": "3701 INRANG 0376/05 EFKU/EFHK .OH-ATL\r\n/ETA 0402/ERT     \r\nF/AY1011/N"
+    },
+    {
+      "time": "05.11.2026 03:38 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -22.8,
+      "label": "_d",
+      "msgno": "S13A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 03:38 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -24.9,
+      "label": "_d",
+      "msgno": "S14A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 03:39 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -28.2,
+      "label": "H1",
+      "msgno": "D00A",
+      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2NOV05,0338,0376/"
     }
   ]
 }
