@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 14:52 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "H1",
-      "msgno": "O95B",
-      "text": "\n  3100(12 07(3276(16.(\r\n041126145246\r\n111111111111\r\n111111111111"
-    },
-    {
-      "time": "04.11.2026 15:10 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -30.1,
-      "label": "H1",
-      "msgno": "C29A",
-      "text": ".1/WRN/WN2611041510  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "04.11.2026 15:11 UTC",
       "source": "ACARS",
       "flight": "CA3156",
@@ -328,6 +306,28 @@
       "level": -28.3,
       "label": "_d",
       "msgno": "S07A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 07:09 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -41.3,
+      "label": "_d",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 07:10 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -41.6,
+      "label": "_d",
+      "msgno": "S37A",
       "text": "No text"
     }
   ]
