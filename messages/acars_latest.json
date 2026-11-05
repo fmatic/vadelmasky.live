@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 14:45 UTC",
-      "source": "ACARS",
-      "flight": "CA3160",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -37.7,
-      "label": "H1",
-      "msgno": "C23A",
-      "text": ".1/FLR/FR2611041443  34361606MMR1   1,IR2,MMR2,IR1,IR3,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "04.11.2026 14:47 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "Q0",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
-      "time": "04.11.2026 14:49 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2077",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "16",
-      "msgno": "M46A",
-      "text": "POSA1N61727E 28162,ALAMI  ,141424,310,KOKAT  ,150323,-46, 87, 681,827"
-    },
-    {
       "time": "04.11.2026 14:51 UTC",
       "source": "ACARS",
       "flight": "CK0216",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "D00A",
       "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2NOV05,0338,0376/"
+    },
+    {
+      "time": "05.11.2026 03:40 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -30.2,
+      "label": "H1",
+      "msgno": "D01A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20376,051126,0339,09/D1ENGINE,S.N/D2ESN1,ED1962/D3ESN2,ED2130/E1IAS,ALT,TAT/E2210,.18010,-012/F1TORQ,NP,N"
+    },
+    {
+      "time": "05.11.2026 03:40 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -29.4,
+      "label": "H1",
+      "msgno": "D01B",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20376,051126,0339,09/D1ENGINE,S.N/D2ESN1,ED1962/D3ESN2,ED2130/E1IAS,ALT,TAT/E2210,.18010,-012/F1TORQ,NP,NL/F2074.7,082.0,095.4/F3074.7,082.0,095.4/G1NH,ITT,FF,IG/G2096.3,0665.8,351,0076/G3095.8,0668.0,355,0090/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I220.74/**.,EOT,...,/"
+    },
+    {
+      "time": "05.11.2026 03:41 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "5V",
+      "msgno": "S15A",
+      "text": "No text"
     }
   ]
 }
