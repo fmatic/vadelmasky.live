@@ -1,94 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.11.2026 11:43 UTC",
-      "source": "ACARS",
-      "flight": "CA3040",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "81",
-      "msgno": "M10A",
-      "text": "FLT1043"
-    },
-    {
-      "time": "05.11.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "CA1043",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -40.3,
-      "label": "_d",
-      "msgno": "S80A",
-      "text": "No text"
-    },
-    {
-      "time": "05.11.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "CA1043",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -39.9,
-      "label": "H1",
-      "msgno": "E05A",
-      "text": "LGB,R,0,,188,191,1,L,,0.0,0.0,,,0.0,0.0,,,200,209,,,203,202,,,0.0,0.0,,,,0.0,0.0,,,194,209,,,200,192,,,0.0,0.0,,,0.0,0.0,,,196,207,,,197,199,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,48,0,0,ANTISKID,05,NOV,26,11,59,2"
-    },
-    {
-      "time": "05.11.2026 11:54 UTC",
-      "source": "ACARS",
-      "flight": "CA1043",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "H1",
-      "msgno": "E05B",
-      "text": "LGB,R,0,,188,191,1,L,,0.0,0.0,,,0.0,0.0,,,200,209,,,203,202,,,0.0,0.0,,,,0.0,0.0,,,194,209,,,200,192,,,0.0,0.0,,,0.0,0.0,,,196,207,,,197,199,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,48,0,0,ANTISKID,05,NOV,26,11,59,24"
-    },
-    {
-      "time": "05.11.2026 11:56 UTC",
-      "source": "ACARS",
-      "flight": "CA1043",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "10",
-      "msgno": "M68A",
-      "text": "POS051201, N 6174,E 2757,835,292,32420,  81,33993, 252,-165,-480,7"
-    },
-    {
-      "time": "05.11.2026 12:01 UTC",
-      "source": "ACARS",
-      "flight": "CA1043",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "_d",
-      "msgno": "S81A",
-      "text": "No text"
-    },
-    {
-      "time": "05.11.2026 12:02 UTC",
-      "source": "ACARS",
-      "flight": "CA1043",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -38.8,
-      "label": "H1",
-      "msgno": "C19C",
-      "text": "RE PRESSURE CHANNEL\r\nATA 342100\r\nMSG 4517100 A\r\nDB CENTRAL MAINTENANCE COMPUTING FUNCTION\r\nATA 343200\r\nMSG 3453011 A\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453013 A\r\nDB MULTI-MODE RECEIVER (RIGHT)\r\nATA 345800"
-    },
-    {
-      "time": "05.11.2026 12:04 UTC",
-      "source": "ACARS",
-      "flight": "CA1043",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "H1",
-      "msgno": "O59A",
-      "text": "SB0122BA_B-2097  ZSPDEHAM533\r\n 61318 0257011204 34009-480329099098V9W020034"
-    },
-    {
       "time": "05.11.2026 12:30 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +241,94 @@
       "label": "_d",
       "msgno": "S20A",
       "text": "No text"
+    },
+    {
+      "time": "05.11.2026 16:07 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -34.9,
+      "label": "Q0",
+      "msgno": "S89A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 16:07 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -17.3,
+      "label": "Q0",
+      "msgno": "S89A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 16:08 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -18.4,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/WRN/WN2611051608  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "05.11.2026 16:08 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -36.1,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/WRN/WN2611051608  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "05.11.2026 16:09 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -36.4,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/WRN/WN2611051608  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "05.11.2026 16:09 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -18.5,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/WRN/WN2611051608  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "05.11.2026 16:09 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.725,
+      "level": -38.2,
+      "label": "H1",
+      "msgno": "C23A",
+      "text": ".1/FLR/FR2611051608  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
+    },
+    {
+      "time": "05.11.2026 16:09 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -20.2,
+      "label": "H1",
+      "msgno": "C23A",
+      "text": ".1/FLR/FR2611051608  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
     }
   ]
 }
