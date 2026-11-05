@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "04.11.2026 15:11 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -30.7,
-      "label": "H1",
-      "msgno": "C30A",
-      "text": ".1/FLR/FR2611041510  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "04.11.2026 15:12 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -29.1,
-      "label": "10",
-      "msgno": "M89A",
-      "text": "POS041512,N 61.817,E 27.772,2303,450750,,,37003,102680"
-    },
-    {
-      "time": "04.11.2026 15:13 UTC",
-      "source": "ACARS",
-      "flight": "CA3156",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "H1",
-      "msgno": "C31A",
-      "text": ".1/WRN/WN2611041513  345801006NAV GPS 2 FAULT"
-    },
-    {
       "time": "04.11.2026 15:15 UTC",
       "source": "ACARS",
       "flight": "CA3156",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S37A",
       "text": "No text"
+    },
+    {
+      "time": "05.11.2026 11:40 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "Q0",
+      "msgno": "S90A",
+      "text": "No text"
+    },
+    {
+      "time": "05.11.2026 11:42 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -35.3,
+      "label": "H1",
+      "msgno": "C52A",
+      "text": ".1/WRN/WN2611051142  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "05.11.2026 11:43 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -36.7,
+      "label": "81",
+      "msgno": "M10A",
+      "text": "FLT1043"
     }
   ]
 }
