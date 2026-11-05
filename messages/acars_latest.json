@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.11.2026 11:40 UTC",
-      "source": "ACARS",
-      "flight": "CA3040",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -31.0,
-      "label": "Q0",
-      "msgno": "S90A",
-      "text": "No text"
-    },
-    {
-      "time": "05.11.2026 11:42 UTC",
-      "source": "ACARS",
-      "flight": "CA3040",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -35.3,
-      "label": "H1",
-      "msgno": "C52A",
-      "text": ".1/WRN/WN2611051142  345204006NAV ADS-B RPTG 1 FAULT"
-    },
-    {
       "time": "05.11.2026 11:43 UTC",
       "source": "ACARS",
       "flight": "CA3040",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O49A",
       "text": "SB0122BA_B-7952  ZBAALIRF876\r\n 61051 0269071404 34005-450336090010/9W012016"
+    },
+    {
+      "time": "05.11.2026 15:55 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5975",
+      "freq": 131.725,
+      "level": -31.0,
+      "label": "B9",
+      "msgno": "J33A",
+      "text": "/ESSA.TI2/000ESSAA63EA"
+    },
+    {
+      "time": "05.11.2026 15:56 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-5975",
+      "freq": 131.725,
+      "level": -26.8,
+      "label": "_d",
+      "msgno": "S20A",
+      "text": "No text"
     }
   ]
 }
