@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.11.2026 12:30 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATK",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "SA",
-      "msgno": "M34A",
-      "text": "0EV123020V"
-    },
-    {
       "time": "05.11.2026 12:31 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C23A",
       "text": ".1/FLR/FR2611051608  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
+    },
+    {
+      "time": "05.11.2026 16:50 UTC",
+      "source": "ACARS",
+      "flight": "CA3067",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "10",
+      "msgno": "M46A",
+      "text": "POS051649,N 61.858,E 28.082,1914,463875,,,38005,46880"
     }
   ]
 }
