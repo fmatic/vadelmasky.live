@@ -236,16 +236,16 @@
     },
     "780bb7": {
       "hex": "780bb7",
-      "flight": "CAO1007",
+      "flight": "CAO1008",
       "reg": "B-2096",
       "type": "B77L",
-      "lat": null,
-      "lon": null,
-      "alt": 34000,
-      "speed": 488.0,
-      "track": 251.54,
+      "lat": 62.226654,
+      "lon": 26.792501,
+      "alt": 35000,
+      "speed": 441.9,
+      "track": 76.12,
       "seen_first": "2026-11-06T06:14:01.602082",
-      "last_seen": "2026-11-06T06:21:02.022004"
+      "last_seen": "2026-11-06T14:00:01.814137"
     },
     "4aca85": {
       "hex": "4aca85",
@@ -382,18 +382,44 @@
       "flight": "FIN7SM",
       "reg": "OH-LVL",
       "type": "A319",
-      "lat": 61.665887,
-      "lon": 25.298767,
-      "alt": 24200,
-      "speed": 451.1,
-      "track": 181.27,
+      "lat": 61.526688,
+      "lon": 25.292195,
+      "alt": 21850,
+      "speed": 440.1,
+      "track": 181.17,
       "seen_first": "2026-11-06T13:50:01.287287",
-      "last_seen": "2026-11-06T13:55:02.139672"
+      "last_seen": "2026-11-06T13:56:01.769113"
+    },
+    "8990ed": {
+      "hex": "8990ed",
+      "flight": "CAL081",
+      "reg": "B-18918",
+      "type": "A359",
+      "lat": 61.865177,
+      "lon": 26.151937,
+      "alt": 40000,
+      "speed": 508.8,
+      "track": 238.75,
+      "seen_first": "2026-11-06T13:57:02.033227",
+      "last_seen": "2026-11-06T14:00:01.814137"
+    },
+    "780d9f": {
+      "hex": "780d9f",
+      "flight": "CES569",
+      "reg": "B-2023",
+      "type": "B77W",
+      "lat": null,
+      "lon": null,
+      "alt": 34000,
+      "speed": 526.0,
+      "track": 238.36,
+      "seen_first": "2026-11-06T14:00:01.814137",
+      "last_seen": "2026-11-06T14:00:01.814137"
     }
   },
   "summary": {
-    "total_unique_aircraft": 30,
-    "last_seen_live": 2,
-    "updated": "2026-11-06T13:55:02.139672"
+    "total_unique_aircraft": 32,
+    "last_seen_live": 3,
+    "updated": "2026-11-06T14:00:01.814137"
   }
 }
