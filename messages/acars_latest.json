@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.11.2026 16:50 UTC",
-      "source": "ACARS",
-      "flight": "CA3067",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -36.6,
-      "label": "10",
-      "msgno": "M46A",
-      "text": "POS051649,N 61.858,E 28.082,1914,463875,,,38005,46880"
-    },
-    {
-      "time": "05.11.2026 19:56 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5975",
-      "freq": 131.725,
-      "level": -29.1,
-      "label": "SA",
-      "msgno": "S37A",
-      "text": "0LS195638V"
-    },
-    {
-      "time": "05.11.2026 21:06 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -37.5,
-      "label": "10",
-      "msgno": "M52A",
-      "text": "POS052111, N 6144,E 2589,837,286,34457,  75,35000, 654,-165,-480,7"
-    },
-    {
-      "time": "05.11.2026 21:09 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2094",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "H1",
-      "msgno": "O40A",
-      "text": "SB0122BA_B-2094  LEMDZSPD716\r\n 61542 0263352113 34992-470350070010YY,011014"
-    },
-    {
       "time": "05.11.2026 21:10 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -328,6 +284,50 @@
       "level": -32.2,
       "label": "Q0",
       "msgno": "S57A",
+      "text": "No text"
+    },
+    {
+      "time": "06.11.2026 16:28 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -27.1,
+      "label": "Q0",
+      "msgno": "M14A",
+      "text": "No text"
+    },
+    {
+      "time": "06.11.2026 16:29 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "80",
+      "msgno": "M15A",
+      "text": "3701 INRANG 0370/06 EFKU/EFHK .OH-ATL\r\n/ETA 1651/ERT     \r\nF/AY1107/2.9"
+    },
+    {
+      "time": "06.11.2026 16:29 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -31.0,
+      "label": "_d",
+      "msgno": "S61A",
+      "text": "No text"
+    },
+    {
+      "time": "06.11.2026 16:29 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATL",
+      "freq": 131.825,
+      "level": -31.3,
+      "label": "_d",
+      "msgno": "S62A",
       "text": "No text"
     }
   ]
