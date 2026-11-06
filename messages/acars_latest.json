@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.11.2026 13:08 UTC",
-      "source": "ACARS",
-      "flight": "N706MR",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -39.3,
-      "label": "B9",
-      "msgno": "L19A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "05.11.2026 13:08 UTC",
-      "source": "ACARS",
-      "flight": "N706MR",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "_d",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
-      "time": "05.11.2026 13:08 UTC",
-      "source": "ACARS",
-      "flight": "N706MR",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -39.3,
-      "label": "_d",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
-      "time": "05.11.2026 13:59 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-7952",
-      "freq": 131.825,
-      "level": -42.5,
-      "label": "H1",
-      "msgno": "O49A",
-      "text": "SB0122BA_B-7952  ZBAALIRF876\r\n 61051 0269071404 34005-450336090010/9W012016"
-    },
-    {
       "time": "05.11.2026 15:55 UTC",
       "source": "ACARS",
       "flight": "MU0289",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "E79B",
       "text": "HYD,R,2990,3160,3040,3000,3160,3080,3040,6,10,12,9,ON,ON,ON,ON,YES,YES,OPEN,OPEN,60,20,10,50,-15,-13,-15,-15,AUTO,AUTO,AUTO,AUTO,NO,NO,NO,NO,70,,STOWED,0.91,,1.06,,0.99,,NORM,NORM,NORM,-8,2,-5,NORM,NORM,NORM,NORM,NORM,NORM,NORM,NORM,,06,NOV,26,06,12,37"
+    },
+    {
+      "time": "06.11.2026 06:15 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "B9",
+      "msgno": "L36A",
+      "text": "/EGPK.TI2/046EGPKA4800"
+    },
+    {
+      "time": "06.11.2026 06:16 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "_d",
+      "msgno": "S51A",
+      "text": "No text"
+    },
+    {
+      "time": "06.11.2026 06:17 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "26",
+      "msgno": "M98A",
+      "text": "ETA01CAO1007   /--060617ZSPDEGPK\r\n0838 303"
+    },
+    {
+      "time": "06.11.2026 06:19 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2096",
+      "freq": 131.825,
+      "level": -36.6,
+      "label": "H1",
+      "msgno": "O07A",
+      "text": "SB0122BA_B-2096  ZSPDEGPK 38\r\n 61688 0256970618 33998-570357099010PSZ013016"
     }
   ]
 }
