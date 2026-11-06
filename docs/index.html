@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">10</div>
+        <div class="value">12</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">520.0 kt</div>
+        <div class="value">534.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">06.11.2026 03:55 UTC</div>
+        <div class="value">06.11.2026 04:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,10 +283,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>06.11.2026 03:55 UTC</b></div>
+                    <div><span>Speed</span><b>418.2 kt</b></div>
+                    <div><span>Track</span><b>207.79°</b></div>
+                    <div><span>Position</span><b>61.1610, 25.8463</b></div>
+                    <div><span>Last seen</span><b>06.11.2026 04:00 UTC</b></div>
                 </div>
             </div>
 
@@ -298,19 +298,67 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">FIN4MP</div>
-                    <div class="meta">ICAO 461E15 · REG OH-LKF · TYPE E190</div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601FB · REG OH-ATN · TYPE AT75</div>
                 </div>
-                <div class="alt-badge high">35975 ft</div>
+                <div class="alt-badge low">8350 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>518.0 kt</b></div>
+                    <div><span>Speed</span><b>230.5 kt</b></div>
+                    <div><span>Track</span><b>189.99°</b></div>
+                    <div><span>Position</span><b>62.1362, 25.6399</b></div>
+                    <div><span>Last seen</span><b>06.11.2026 04:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8MC</div>
+                    <div class="meta">ICAO 461F36 · REG OH-LVI · TYPE A319</div>
+                </div>
+                <div class="alt-badge high">28150 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>494.0 kt</b></div>
+                    <div><span>Track</span><b>181.23°</b></div>
+                    <div><span>Position</span><b>61.6246, 25.3025</b></div>
+                    <div><span>Last seen</span><b>06.11.2026 04:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVI" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4MP</div>
+                    <div class="meta">ICAO 461E15 · REG OH-LKF · TYPE E190</div>
+                </div>
+                <div class="alt-badge high">33225 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>534.0 kt</b></div>
                     <div><span>Track</span><b>186.5°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>06.11.2026 03:55 UTC</b></div>
+                    <div><span>Last seen</span><b>06.11.2026 03:59 UTC</b></div>
                 </div>
             </div>
 
@@ -761,7 +809,7 @@ B-2094  CAO100LEMDZSPD051126211512ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "4601FA", "flight": "FIN9D", "lat": 61.161028, "lon": 25.846252, "alt": 20000, "speed": 418.2, "last_seen": "06.11.2026 04:00 UTC"}, {"hex": "4601FB", "flight": "FIN8KH", "lat": 62.1362, "lon": 25.639852, "alt": 8350, "speed": 230.5, "last_seen": "06.11.2026 04:00 UTC"}, {"hex": "461F36", "flight": "FIN8MC", "lat": 61.624596, "lon": 25.302531, "alt": 28150, "speed": 494.0, "last_seen": "06.11.2026 04:00 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
