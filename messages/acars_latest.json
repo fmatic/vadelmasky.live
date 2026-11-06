@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "05.11.2026 16:09 UTC",
-      "source": "ACARS",
-      "flight": "CA1154",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -20.2,
-      "label": "H1",
-      "msgno": "C23A",
-      "text": ".1/FLR/FR2611051608  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
-    },
-    {
       "time": "05.11.2026 16:50 UTC",
       "source": "ACARS",
       "flight": "CA3067",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "E29A",
       "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CL"
+    },
+    {
+      "time": "06.11.2026 14:52 UTC",
+      "source": "ACARS",
+      "flight": "CZ0446",
+      "tail": "B-2026",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "18",
+      "msgno": "M99A",
+      "text": "POX,CSN446    ,06NOV26,145210,ENGM,ZSPD,N062.31,E0026.89,309, 780,830,  56.7,   1.3,100,-51.1,231510, 33760,"
     }
   ]
 }
