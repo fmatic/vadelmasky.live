@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.11.2026 13:11 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1429",
-      "freq": 131.825,
-      "level": -42.9,
-      "label": "SA",
-      "msgno": "S27A",
-      "text": "0LS131107V"
-    },
-    {
       "time": "06.11.2026 13:56 UTC",
       "source": "ACARS",
       "flight": "CA1008",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "M10A",
       "text": "0EV174336V"
+    },
+    {
+      "time": "06.11.2026 18:44 UTC",
+      "source": "ACARS",
+      "flight": "CZ2515",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "H1",
+      "msgno": "O58B",
+      "text": " 02(3276)16.)\r\n061126184413\r\n111111111111\r\n111111111111"
     }
   ]
 }
