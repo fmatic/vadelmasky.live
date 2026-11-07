@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.11.2026 14:52 UTC",
-      "source": "ACARS",
-      "flight": "CZ0446",
-      "tail": "B-2026",
-      "freq": 131.825,
-      "level": -37.6,
-      "label": "18",
-      "msgno": "M99A",
-      "text": "POX,CSN446    ,06NOV26,145210,ENGM,ZSPD,N062.31,E0026.89,309, 780,830,  56.7,   1.3,100,-51.1,231510, 33760,"
-    },
-    {
-      "time": "06.11.2026 16:01 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -32.2,
-      "label": "Q0",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
       "time": "06.11.2026 16:28 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O81A",
       "text": "SB0122BA_B-2042  EGPKZGGG716\r\n 61754 0283660146 37000-600343098010/9W010014"
+    },
+    {
+      "time": "07.11.2026 04:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "SA",
+      "msgno": "S82A",
+      "text": "0LS042733VH"
+    },
+    {
+      "time": "07.11.2026 04:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "SA",
+      "msgno": "S85A",
+      "text": "0LS042844VH"
     }
   ]
 }
