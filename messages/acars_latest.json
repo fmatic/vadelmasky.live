@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.11.2026 17:20 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "Q0",
-      "msgno": "S71A",
-      "text": "No text"
-    },
-    {
-      "time": "06.11.2026 17:29 UTC",
-      "source": "ACARS",
-      "flight": "CA3155",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -41.5,
-      "label": "B9",
-      "msgno": "M50A",
-      "text": "/ESSA.TI2/024ESSAA05A8"
-    },
-    {
-      "time": "06.11.2026 17:43 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "Q0",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "06.11.2026 17:43 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "SA",
-      "msgno": "M10A",
-      "text": "0EV174336V"
-    },
-    {
-      "time": "06.11.2026 18:44 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -39.5,
-      "label": "H1",
-      "msgno": "O58B",
-      "text": " 02(3276)16.)\r\n061126184413\r\n111111111111\r\n111111111111"
-    },
-    {
-      "time": "06.11.2026 18:47 UTC",
-      "source": "ACARS",
-      "flight": "CZ2515",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -35.0,
-      "label": "H1",
-      "msgno": "O59A",
-      "text": "SB0122BA_B-2042  ZGGGEGPK698\r\n 61198 0258501847 33999-550358093010YY,012016"
-    },
-    {
-      "time": "06.11.2026 20:11 UTC",
-      "source": "ACARS",
-      "flight": "N70488",
-      "tail": "OH-ATN",
-      "freq": 131.725,
-      "level": -37.6,
-      "label": "5V",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
       "time": "06.11.2026 20:11 UTC",
       "source": "ACARS",
       "flight": "N70488",
@@ -329,6 +252,83 @@
       "label": "11",
       "msgno": "M12A",
       "text": "POS\r\nCAS 269,LAT N 61.363,LON E 26.591,ALT 34996,FOB 125040,UTC 203431,PD ----.--,WD 340,WS   38,TAT - 34"
+    },
+    {
+      "time": "07.11.2026 20:35 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6543",
+      "freq": 131.825,
+      "level": -34.3,
+      "label": "SA",
+      "msgno": "S39A",
+      "text": "0LS203514VH"
+    },
+    {
+      "time": "07.11.2026 20:36 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6543",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "H1",
+      "msgno": "C34A",
+      "text": ".1/WRN/WN2611072036  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "07.11.2026 20:36 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6543",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "H1",
+      "msgno": "C35A",
+      "text": ".1/WRN/WN2611072036  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "07.11.2026 20:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6543",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "H1",
+      "msgno": "C36A",
+      "text": ".1/FLR/FR2611072036  34361606MMR1   1,IR3,IR2,IR1,AFS,MMR2,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "07.11.2026 20:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6543",
+      "freq": 131.725,
+      "level": -31.4,
+      "label": "Q0",
+      "msgno": "S43A",
+      "text": "No text"
+    },
+    {
+      "time": "07.11.2026 20:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6543",
+      "freq": 131.725,
+      "level": -31.0,
+      "label": "SA",
+      "msgno": "S44A",
+      "text": "0EV203749VHS"
+    },
+    {
+      "time": "07.11.2026 20:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6543",
+      "freq": 131.725,
+      "level": -30.2,
+      "label": "SA",
+      "msgno": "S44A",
+      "text": "0EV203749VHS"
     }
   ]
 }
