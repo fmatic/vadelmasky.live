@@ -6,17 +6,6 @@
       "flight": "N70370",
       "tail": "OH-ATL",
       "freq": 131.825,
-      "level": -33.3,
-      "label": "B9",
-      "msgno": "L07A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "06.11.2026 16:32 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATL",
-      "freq": 131.825,
       "level": -40.2,
       "label": "_d",
       "msgno": "S75A",
@@ -329,6 +318,17 @@
       "label": "11",
       "msgno": "M09A",
       "text": "POS\r\nCAS 269,LAT N 61.881,LON E 27.071,ALT 35003,FOB 121520,UTC 195551,PD ----.--,WD 344,WS   42,TAT - 35"
+    },
+    {
+      "time": "07.11.2026 20:00 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -39.6,
+      "label": "H1",
+      "msgno": "C49A",
+      "text": ".1/WRN/WN2611072000  345801006NAV GPS 2 FAULT"
     }
   ]
 }
