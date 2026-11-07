@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.11.2026 13:59 UTC",
-      "source": "ACARS",
-      "flight": "CA1008",
-      "tail": "B-2096",
-      "freq": 131.825,
-      "level": -39.1,
-      "label": "H1",
-      "msgno": "E29A",
-      "text": "FUM,R,OPEN,OPEN,OPEN,OPEN,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,ON,PRESS,OFF,NO PRESS,OFF,NO PRESS,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CLOSED,CL"
-    },
-    {
       "time": "06.11.2026 14:52 UTC",
       "source": "ACARS",
       "flight": "CZ0446",
@@ -329,6 +318,17 @@
       "label": "18",
       "msgno": "M13A",
       "text": "POX,CSG2516   ,07NOV26,014244,EGPK,ZGGG,N061.72,E0027.18,369, 714,830,  63.9, -20.3,097,-60.1,104744, 48440,"
+    },
+    {
+      "time": "07.11.2026 01:47 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2042",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "H1",
+      "msgno": "O81A",
+      "text": "SB0122BA_B-2042  EGPKZGGG716\r\n 61754 0283660146 37000-600343098010/9W010014"
     }
   ]
 }
