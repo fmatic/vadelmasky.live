@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.11.2026 16:30 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "_d",
-      "msgno": "S66A",
-      "text": "No text"
-    },
-    {
-      "time": "06.11.2026 16:30 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "_d",
-      "msgno": "S67A",
-      "text": "No text"
-    },
-    {
-      "time": "06.11.2026 16:30 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "_d",
-      "msgno": "S68A",
-      "text": "No text"
-    },
-    {
-      "time": "06.11.2026 16:30 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -29.2,
-      "label": "_d",
-      "msgno": "S69A",
-      "text": "No text"
-    },
-    {
       "time": "06.11.2026 16:31 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +285,50 @@
       "label": "SA",
       "msgno": "S08A",
       "text": "0LH150411VS"
+    },
+    {
+      "time": "07.11.2026 15:11 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -39.9,
+      "label": "_d",
+      "msgno": "S09A",
+      "text": "No text"
+    },
+    {
+      "time": "07.11.2026 15:11 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -39.6,
+      "label": "_d",
+      "msgno": "S10A",
+      "text": "No text"
+    },
+    {
+      "time": "07.11.2026 15:11 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -39.7,
+      "label": "11",
+      "msgno": "M82A",
+      "text": "POS\r\nCAS 266,LAT N 61.854,LON E 24.519,ALT 35998,FOB 31840,UTC 151133,PD ----.--,WD 323,WS   56,TAT - 30"
+    },
+    {
+      "time": "07.11.2026 15:14 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -42.4,
+      "label": "B0",
+      "msgno": "J09A",
+      "text": "/ESOS.AFN/FMHCES289,.B-6538,7807D6,151425/FPON61412E023507,1/FCOADS,01/FCOATC,014638"
     }
   ]
 }
