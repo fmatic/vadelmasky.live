@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "06.11.2026 16:31 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -33.3,
-      "label": "_d",
-      "msgno": "S73A",
-      "text": "No text"
-    },
-    {
-      "time": "06.11.2026 16:31 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "_d",
-      "msgno": "S74A",
-      "text": "No text"
-    },
-    {
       "time": "06.11.2026 16:32 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S93A",
       "text": "No text"
+    },
+    {
+      "time": "07.11.2026 19:55 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -25.0,
+      "label": "SA",
+      "msgno": "S43A",
+      "text": "0LS195540VH"
+    },
+    {
+      "time": "07.11.2026 19:55 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -28.3,
+      "label": "11",
+      "msgno": "M09A",
+      "text": "POS\r\nCAS 269,LAT N 61.881,LON E 27.071,ALT 35003,FOB 121520,UTC 195551,PD ----.--,WD 344,WS   42,TAT - 35"
     }
   ]
 }
