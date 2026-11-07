@@ -60,10 +60,10 @@
       "lat": null,
       "lon": null,
       "alt": 33000,
-      "speed": 478.0,
-      "track": 59.77,
+      "speed": 480.0,
+      "track": 60.12,
       "seen_first": "2026-11-07T01:36:01.691697",
-      "last_seen": "2026-11-07T14:45:02.159583"
+      "last_seen": "2026-11-07T14:50:01.371477"
     },
     "461f59": {
       "hex": "461f59",
@@ -80,16 +80,16 @@
     },
     "781581": {
       "hex": "781581",
-      "flight": "CES219",
+      "flight": "CES220",
       "reg": "B-304D",
       "type": "A359",
       "lat": null,
       "lon": null,
-      "alt": 36000,
+      "alt": 37000,
       "speed": null,
       "track": null,
       "seen_first": "2026-11-07T02:38:01.536928",
-      "last_seen": "2026-11-07T02:48:02.078961"
+      "last_seen": "2026-11-07T14:50:01.371477"
     },
     "781c0d": {
       "hex": "781c0d",
@@ -480,11 +480,37 @@
       "track": 244.86,
       "seen_first": "2026-11-07T14:26:01.320535",
       "last_seen": "2026-11-07T14:31:01.875047"
+    },
+    "4601f4": {
+      "hex": "4601f4",
+      "flight": "FIN42T",
+      "reg": "OH-ATG",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 17000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-11-07T14:46:01.363916",
+      "last_seen": "2026-11-07T14:50:01.371477"
+    },
+    "780850": {
+      "hex": "780850",
+      "flight": "CES707",
+      "reg": "B-6543",
+      "type": "A332",
+      "lat": null,
+      "lon": null,
+      "alt": 36000,
+      "speed": 456.0,
+      "track": 238.36,
+      "seen_first": "2026-11-07T14:49:02.096629",
+      "last_seen": "2026-11-07T14:50:01.371477"
     }
   },
   "summary": {
-    "total_unique_aircraft": 37,
-    "last_seen_live": 1,
-    "updated": "2026-11-07T14:45:02.159583"
+    "total_unique_aircraft": 39,
+    "last_seen_live": 4,
+    "updated": "2026-11-07T14:50:01.371477"
   }
 }
