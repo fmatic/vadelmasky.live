@@ -6,28 +6,6 @@
       "flight": "N70370",
       "tail": "OH-ATL",
       "freq": 131.825,
-      "level": -31.8,
-      "label": "_d",
-      "msgno": "S64A",
-      "text": "No text"
-    },
-    {
-      "time": "06.11.2026 16:30 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATL",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "_d",
-      "msgno": "S65A",
-      "text": "No text"
-    },
-    {
-      "time": "06.11.2026 16:30 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATL",
-      "freq": 131.825,
       "level": -31.9,
       "label": "_d",
       "msgno": "S66A",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S07A",
       "text": "0LS131316V"
+    },
+    {
+      "time": "07.11.2026 15:03 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -32.9,
+      "label": "11",
+      "msgno": "M79A",
+      "text": "POS\r\nCAS 265,LAT N 62.270,LON E 26.434,ALT 36002,FOB 33320,UTC 150332,PD ----.--,WD 329,WS   57,TAT - 30"
+    },
+    {
+      "time": "07.11.2026 15:04 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -24.9,
+      "label": "SA",
+      "msgno": "S08A",
+      "text": "0LH150411VS"
     }
   ]
 }
