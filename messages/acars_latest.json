@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.11.2026 12:29 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6117",
-      "freq": 131.725,
-      "level": -37.1,
-      "label": "H1",
-      "msgno": "C41A",
-      "text": ".1/FLR/FR2611081228  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
-    },
-    {
-      "time": "08.11.2026 12:38 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "Q0",
-      "msgno": "M23A",
-      "text": "No text"
-    },
-    {
-      "time": "08.11.2026 12:38 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.5,
-      "label": "B9",
-      "msgno": "L17A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "08.11.2026 12:39 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "B9",
-      "msgno": "L17A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "08.11.2026 12:39 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "B9",
-      "msgno": "L18A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "08.11.2026 12:39 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "SA",
-      "msgno": "S20A",
-      "text": "0EV123845V"
-    },
-    {
       "time": "08.11.2026 12:39 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +263,72 @@
       "label": "Q0",
       "msgno": "S38A",
       "text": "No text"
+    },
+    {
+      "time": "08.11.2026 18:01 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "14",
+      "msgno": "M63A",
+      "text": "POS\r\n08NOV,1801,258,37998,N 61.838,E 26.675,32372,  43,177"
+    },
+    {
+      "time": "08.11.2026 18:03 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -26.2,
+      "label": "SA",
+      "msgno": "S39A",
+      "text": "0LS180335V"
+    },
+    {
+      "time": "08.11.2026 18:03 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -26.3,
+      "label": "B9",
+      "msgno": "M64A",
+      "text": "/ENGM.TI2/024ENGMAFD47"
+    },
+    {
+      "time": "08.11.2026 18:03 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -24.7,
+      "label": "_d",
+      "msgno": "S40A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 18:03 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -25.4,
+      "label": "_d",
+      "msgno": "S42A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 18:04 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -31.9,
+      "label": "SA",
+      "msgno": "S44A",
+      "text": "0LS180451V"
     }
   ]
 }
