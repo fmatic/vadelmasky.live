@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">17</div>
+        <div class="value">18</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">08.11.2026 06:50 UTC</div>
+        <div class="value">08.11.2026 06:55 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,20 +277,44 @@ footer {
                     <div class="flight">FIN5ET</div>
                     <div class="meta">ICAO 4601F4 · REG OH-ATG · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">20925 ft</div>
+                <div class="alt-badge mid">23600 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>259.4 kt</b></div>
-                    <div><span>Track</span><b>206.57°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>08.11.2026 06:50 UTC</b></div>
+                    <div><span>Speed</span><b>243.7 kt</b></div>
+                    <div><span>Track</span><b>206.04°</b></div>
+                    <div><span>Position</span><b>61.7823, 26.5379</b></div>
+                    <div><span>Last seen</span><b>08.11.2026 06:55 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATG" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CKK215</div>
+                    <div class="meta">ICAO 7805DC · REG B-2076 · TYPE B77L</div>
+                </div>
+                <div class="alt-badge high">34000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>466.0 kt</b></div>
+                    <div><span>Track</span><b>232.21°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>08.11.2026 06:55 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2076" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -689,6 +713,25 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CK0215</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-2076 · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">08.11.2026 06:54 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg O09A · Level -32.7 dB
+            </div>
+
+            <div class="acars-text">SB0122BA_B-2076  ZSPDEDDF963
+ 61672 0269050658 34001-590323053010PSZ009011</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">CA3159</div>
                     <div class="acars-meta">
                         ACARS · Tail B-6113 · 131.725 MHz
@@ -885,30 +928,12 @@ footer {
 CAS 269,LAT N 61.363,LON E 26.591,ALT 34996,FOB 125040,UTC 203431,PD ----.--,WD 340,WS   38,TAT - 34</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">MU0290</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6538 · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.11.2026 20:00 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg C49A · Level -39.6 dB
-            </div>
-
-            <div class="acars-text">.1/WRN/WN2611072000  345801006NAV GPS 2 FAULT</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F2", "flight": "FIN481", "lat": 62.518661, "lon": 26.350301, "alt": 20025, "speed": 233.1, "last_seen": "08.11.2026 06:02 UTC"}, {"hex": "780450", "flight": "CAO3159", "lat": 61.484, "lon": 26.336, "alt": 38000, "speed": "-", "last_seen": "08.11.2026 04:46 UTC"}];
+const aircraft = [{"hex": "4601F4", "flight": "FIN5ET", "lat": 61.782268, "lon": 26.537882, "alt": 23600, "speed": 243.7, "last_seen": "08.11.2026 06:55 UTC"}, {"hex": "4601F2", "flight": "FIN481", "lat": 62.518661, "lon": 26.350301, "alt": 20025, "speed": 233.1, "last_seen": "08.11.2026 06:02 UTC"}, {"hex": "780450", "flight": "CAO3159", "lat": 61.484, "lon": 26.336, "alt": 38000, "speed": "-", "last_seen": "08.11.2026 04:46 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
