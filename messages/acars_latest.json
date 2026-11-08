@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.11.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6117",
-      "freq": 131.725,
-      "level": -38.0,
-      "label": "H1",
-      "msgno": "C39A",
-      "text": ".1/WRN/WN2611081228  345204506NAV ADS-B RPTG 2 FAULT"
-    },
-    {
-      "time": "08.11.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -20.3,
-      "label": "H1",
-      "msgno": "C39A",
-      "text": ".1/WRN/WN2611081228  345204506NAV ADS-B RPTG 2 FAULT"
-    },
-    {
-      "time": "08.11.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3036",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -22.5,
-      "label": "H1",
-      "msgno": "C40A",
-      "text": ".1/WRN/WN2611081228  345204006NAV ADS-B RPTG 1 FAULT"
-    },
-    {
       "time": "08.11.2026 12:29 UTC",
       "source": "ACARS",
       "flight": "CA3036",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "D07B",
       "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20487,081126,1649,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2191,.20002,-018/F1TORQ,NP,NL/F2068.8,082.0,095.4/F3068.9,082.0,093.6/G1NH,ITT,FF,IG/G2095.6,0661.2,342,0079/G3095.2,0652.6,323,0088/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I222.15/**.,EOT,...,/"
+    },
+    {
+      "time": "08.11.2026 16:57 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-226C",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "Q0",
+      "msgno": "S45A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 16:59 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-226C",
+      "freq": 131.825,
+      "level": -36.7,
+      "label": "H1",
+      "msgno": "O08A",
+      "text": "SB0122BA_B-226C  EGPKZGGG342\r\n 61784 0280331658 36995-560322043010GMY012014"
+    },
+    {
+      "time": "08.11.2026 16:59 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-226C",
+      "freq": 131.825,
+      "level": -39.0,
+      "label": "18",
+      "msgno": "M63A",
+      "text": "POX,CSG2518   ,24JUN46,165956,EGPK,ZGGG,N061.78,E0028.56,370, 618,833,  72.8, -27.9,045,-57.9,015256, 31640,"
     }
   ]
 }
