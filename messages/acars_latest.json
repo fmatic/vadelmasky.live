@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.11.2026 01:42 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -28.3,
-      "label": "18",
-      "msgno": "M13A",
-      "text": "POX,CSG2516   ,07NOV26,014244,EGPK,ZGGG,N061.72,E0027.18,369, 714,830,  63.9, -20.3,097,-60.1,104744, 48440,"
-    },
-    {
-      "time": "07.11.2026 01:47 UTC",
-      "source": "ACARS",
-      "flight": "CZ2516",
-      "tail": "B-2042",
-      "freq": 131.825,
-      "level": -41.7,
-      "label": "H1",
-      "msgno": "O81A",
-      "text": "SB0122BA_B-2042  EGPKZGGG716\r\n 61754 0283660146 37000-600343098010/9W010014"
-    },
-    {
       "time": "07.11.2026 04:27 UTC",
       "source": "ACARS",
       "flight": "CA3157",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S45A",
       "text": "0LS204244VH"
+    },
+    {
+      "time": "08.11.2026 04:05 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -28.1,
+      "label": "SA",
+      "msgno": "S11A",
+      "text": "0LH040531VS"
+    },
+    {
+      "time": "08.11.2026 04:09 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -32.2,
+      "label": "10",
+      "msgno": "M45A",
+      "text": "POS080409,N 61.484,E 26.336,0624,456875,,,37995,43120"
     }
   ]
 }

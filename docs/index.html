@@ -247,7 +247,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">08.11.2026 04:05 UTC</div>
+        <div class="value">08.11.2026 04:10 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,19 +274,19 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
+                    <div class="flight">FIN8MC</div>
                     <div class="meta">ICAO 461F35 · REG OH-LVH · TYPE A319</div>
                 </div>
-                <div class="alt-badge high">37025 ft</div>
+                <div class="alt-badge mid">22325 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Speed</span><b>426.0 kt</b></div>
+                    <div><span>Track</span><b>179.65°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>08.11.2026 04:05 UTC</b></div>
+                    <div><span>Last seen</span><b>08.11.2026 04:10 UTC</b></div>
                 </div>
             </div>
 
@@ -309,8 +309,8 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>08.11.2026 04:05 UTC</b></div>
+                    <div><span>Position</span><b>61.4840, 26.3360</b></div>
+                    <div><span>Last seen</span><b>08.11.2026 04:10 UTC</b></div>
                 </div>
             </div>
 
@@ -593,6 +593,42 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">CA3159</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6113 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">08.11.2026 04:09 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 10 · Msg M45A · Level -32.2 dB
+            </div>
+
+            <div class="acars-text">POS080409,N 61.484,E 26.336,0624,456875,,,37995,43120</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CA3159</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-6113 · 131.725 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">08.11.2026 04:05 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label SA · Msg S11A · Level -28.1 dB
+            </div>
+
+            <div class="acars-text">0LH040531VS</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">MU0708</div>
                     <div class="acars-meta">
                         ACARS · Tail B-6543 · 131.725 MHz
@@ -771,49 +807,12 @@ CAS 269,LAT N 61.363,LON E 26.591,ALT 34996,FOB 125040,UTC 203431,PD ----.--,WD 
             <div class="acars-text">.1/WRN/WN2611072000  345801006NAV GPS 2 FAULT</div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">MU0290</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6538 · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.11.2026 19:55 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 11 · Msg M09A · Level -28.3 dB
-            </div>
-
-            <div class="acars-text">POS
-CAS 269,LAT N 61.881,LON E 27.071,ALT 35003,FOB 121520,UTC 195551,PD ----.--,WD 344,WS   42,TAT - 35</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">MU0290</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-6538 · 131.725 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">07.11.2026 19:55 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label SA · Msg S43A · Level -25.0 dB
-            </div>
-
-            <div class="acars-text">0LS195540VH</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "780450", "flight": "CAO3159", "lat": 61.484, "lon": 26.336, "alt": 38000, "speed": "-", "last_seen": "08.11.2026 04:10 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
