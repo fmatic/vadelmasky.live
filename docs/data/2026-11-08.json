@@ -304,13 +304,13 @@
       "flight": "FIN1T",
       "reg": "OH-ATI",
       "type": "AT75",
-      "lat": 62.205872,
-      "lon": 25.914612,
-      "alt": 4975,
-      "speed": 199.9,
-      "track": 12.72,
+      "lat": 62.324927,
+      "lon": 25.845126,
+      "alt": 2325,
+      "speed": 142.1,
+      "track": 314.14,
       "seen_first": "2026-11-08T09:52:01.407364",
-      "last_seen": "2026-11-08T22:35:02.178170"
+      "last_seen": "2026-11-08T22:39:01.408177"
     },
     "7821a9": {
       "hex": "7821a9",
@@ -675,11 +675,24 @@
       "track": 179.12,
       "seen_first": "2026-11-08T21:06:01.730995",
       "last_seen": "2026-11-08T21:24:02.121785"
+    },
+    "4601fa": {
+      "hex": "4601fa",
+      "flight": "",
+      "reg": "OH-ATM",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 17000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-11-08T22:39:01.408177",
+      "last_seen": "2026-11-08T22:39:01.408177"
     }
   },
   "summary": {
-    "total_unique_aircraft": 52,
-    "last_seen_live": 1,
-    "updated": "2026-11-08T22:35:02.178170"
+    "total_unique_aircraft": 53,
+    "last_seen_live": 0,
+    "updated": "2026-11-08T22:40:01.749226"
   }
 }
