@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.11.2026 20:34 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6543",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "11",
-      "msgno": "M12A",
-      "text": "POS\r\nCAS 269,LAT N 61.363,LON E 26.591,ALT 34996,FOB 125040,UTC 203431,PD ----.--,WD 340,WS   38,TAT - 34"
-    },
-    {
-      "time": "07.11.2026 20:35 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6543",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "SA",
-      "msgno": "S39A",
-      "text": "0LS203514VH"
-    },
-    {
-      "time": "07.11.2026 20:36 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6543",
-      "freq": 131.825,
-      "level": -32.8,
-      "label": "H1",
-      "msgno": "C34A",
-      "text": ".1/WRN/WN2611072036  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "07.11.2026 20:36 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6543",
-      "freq": 131.825,
-      "level": -38.6,
-      "label": "H1",
-      "msgno": "C35A",
-      "text": ".1/WRN/WN2611072036  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "07.11.2026 20:37 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6543",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "H1",
-      "msgno": "C36A",
-      "text": ".1/FLR/FR2611072036  34361606MMR1   1,IR3,IR2,IR1,AFS,MMR2,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "07.11.2026 20:37 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6543",
-      "freq": 131.725,
-      "level": -31.4,
-      "label": "Q0",
-      "msgno": "S43A",
-      "text": "No text"
-    },
-    {
-      "time": "07.11.2026 20:37 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6543",
-      "freq": 131.725,
-      "level": -31.0,
-      "label": "SA",
-      "msgno": "S44A",
-      "text": "0EV203749VHS"
-    },
-    {
       "time": "07.11.2026 20:37 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -328,6 +251,83 @@
       "level": -28.6,
       "label": "_d",
       "msgno": "S40A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 11:50 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "Q0",
+      "msgno": "S41A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 11:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "B9",
+      "msgno": "M27A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "08.11.2026 11:53 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -32.5,
+      "label": "_d",
+      "msgno": "S42A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 11:53 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "_d",
+      "msgno": "S43A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 11:54 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "B9",
+      "msgno": "M28A",
+      "text": "/LFPG.TI2/040LFPGA5E44"
+    },
+    {
+      "time": "08.11.2026 11:54 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "_d",
+      "msgno": "S44A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 11:54 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "_d",
+      "msgno": "S45A",
       "text": "No text"
     }
   ]
