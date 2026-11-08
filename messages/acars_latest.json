@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.11.2026 20:37 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6543",
-      "freq": 131.725,
-      "level": -30.2,
-      "label": "SA",
-      "msgno": "S44A",
-      "text": "0EV203749VHS"
-    },
-    {
-      "time": "07.11.2026 20:42 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6543",
-      "freq": 131.725,
-      "level": -34.6,
-      "label": "SA",
-      "msgno": "S45A",
-      "text": "0LS204244VH"
-    },
-    {
-      "time": "08.11.2026 04:05 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -28.1,
-      "label": "SA",
-      "msgno": "S11A",
-      "text": "0LH040531VS"
-    },
-    {
-      "time": "08.11.2026 04:09 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6113",
-      "freq": 131.725,
-      "level": -32.2,
-      "label": "10",
-      "msgno": "M45A",
-      "text": "POS080409,N 61.484,E 26.336,0624,456875,,,37995,43120"
-    },
-    {
-      "time": "08.11.2026 06:54 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -32.7,
-      "label": "H1",
-      "msgno": "O09A",
-      "text": "SB0122BA_B-2076  ZSPDEDDF963\r\n 61672 0269050658 34001-590323053010PSZ009011"
-    },
-    {
-      "time": "08.11.2026 06:56 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -29.2,
-      "label": "H1",
-      "msgno": "O10A",
-      "text": "SS0340F_ 84\r\nB-2076  CKK215ZSPDEDDF151126070118ER\r\n29133999833-2987541643168BSM79967A21\r\n4856101414 2601081126 065642\r\n5056100465 2600)\r\n5246100514 2600)\r\n11111111111110111\r\n  33998\r\n  3400)11 72N3276)16.)\r"
-    },
-    {
-      "time": "08.11.2026 06:57 UTC",
-      "source": "ACARS",
-      "flight": "CK0215",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "H1",
-      "msgno": "O10B",
-      "text": "SS0340F_ 84\r\nB-2076  CKK215ZSPDEDDF151126070118ER\r\n29133999833-2987541643168BSM79967A21\r\n4856101414 2601081126 065642\r\n5056100465 2600)\r\n5246100514 2600)\r\n11111111111110111\r\n  33998\r\n  3400)11 72N3276)16.)\r\n  3400)11 22N3276)16.)\r\n151126070118\r\n111111111111\r\n111111111111"
-    },
-    {
       "time": "08.11.2026 06:58 UTC",
       "source": "ACARS",
       "flight": "CK0215",
@@ -329,6 +252,83 @@
       "label": "_d",
       "msgno": "S45A",
       "text": "No text"
+    },
+    {
+      "time": "08.11.2026 12:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "Q0",
+      "msgno": "S71A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 12:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -32.4,
+      "label": "Q0",
+      "msgno": "S71A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 12:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6117",
+      "freq": 131.725,
+      "level": -38.0,
+      "label": "H1",
+      "msgno": "C39A",
+      "text": ".1/WRN/WN2611081228  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "08.11.2026 12:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -20.3,
+      "label": "H1",
+      "msgno": "C39A",
+      "text": ".1/WRN/WN2611081228  345204506NAV ADS-B RPTG 2 FAULT"
+    },
+    {
+      "time": "08.11.2026 12:28 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -22.5,
+      "label": "H1",
+      "msgno": "C40A",
+      "text": ".1/WRN/WN2611081228  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "08.11.2026 12:29 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -19.5,
+      "label": "H1",
+      "msgno": "C41A",
+      "text": ".1/FLR/FR2611081228  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
+    },
+    {
+      "time": "08.11.2026 12:29 UTC",
+      "source": "ACARS",
+      "flight": "CA3036",
+      "tail": "B-6117",
+      "freq": 131.725,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "C41A",
+      "text": ".1/FLR/FR2611081228  34363106ATC2   1,ATC1,,,,,,MMR1X2(40RT1X2)/ATC2(1SH2),HARD"
     }
   ]
 }
