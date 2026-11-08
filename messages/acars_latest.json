@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.11.2026 19:55 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -28.3,
-      "label": "11",
-      "msgno": "M09A",
-      "text": "POS\r\nCAS 269,LAT N 61.881,LON E 27.071,ALT 35003,FOB 121520,UTC 195551,PD ----.--,WD 344,WS   42,TAT - 35"
-    },
-    {
-      "time": "07.11.2026 20:00 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -39.6,
-      "label": "H1",
-      "msgno": "C49A",
-      "text": ".1/WRN/WN2611072000  345801006NAV GPS 2 FAULT"
-    },
-    {
       "time": "07.11.2026 20:34 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -329,6 +307,28 @@
       "label": "B9",
       "msgno": "M11A",
       "text": "/ZUUU.TI2/024ZUUUA3E85"
+    },
+    {
+      "time": "08.11.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -29.0,
+      "label": "_d",
+      "msgno": "S39A",
+      "text": "No text"
+    },
+    {
+      "time": "08.11.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3157",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -28.6,
+      "label": "_d",
+      "msgno": "S40A",
+      "text": "No text"
     }
   ]
 }
