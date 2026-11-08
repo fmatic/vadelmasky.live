@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "07.11.2026 04:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "SA",
-      "msgno": "S85A",
-      "text": "0LS042844VH"
-    },
-    {
-      "time": "07.11.2026 04:31 UTC",
-      "source": "ACARS",
-      "flight": "CA3157",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -38.5,
-      "label": "B9",
-      "msgno": "M54A",
-      "text": "/LFPG.TI2/040LFPGA5E44"
-    },
-    {
-      "time": "07.11.2026 05:44 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6092",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "Q0",
-      "msgno": "S38A",
-      "text": "No text"
-    },
-    {
       "time": "07.11.2026 06:22 UTC",
       "source": "ACARS",
       "flight": "N70361",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O09A",
       "text": "SB0122BA_B-2076  ZSPDEDDF963\r\n 61672 0269050658 34001-590323053010PSZ009011"
+    },
+    {
+      "time": "08.11.2026 06:56 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -29.2,
+      "label": "H1",
+      "msgno": "O10A",
+      "text": "SS0340F_ 84\r\nB-2076  CKK215ZSPDEDDF151126070118ER\r\n29133999833-2987541643168BSM79967A21\r\n4856101414 2601081126 065642\r\n5056100465 2600)\r\n5246100514 2600)\r\n11111111111110111\r\n  33998\r\n  3400)11 72N3276)16.)\r"
+    },
+    {
+      "time": "08.11.2026 06:57 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "H1",
+      "msgno": "O10B",
+      "text": "SS0340F_ 84\r\nB-2076  CKK215ZSPDEDDF151126070118ER\r\n29133999833-2987541643168BSM79967A21\r\n4856101414 2601081126 065642\r\n5056100465 2600)\r\n5246100514 2600)\r\n11111111111110111\r\n  33998\r\n  3400)11 72N3276)16.)\r\n  3400)11 22N3276)16.)\r\n151126070118\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "08.11.2026 06:58 UTC",
+      "source": "ACARS",
+      "flight": "CK0215",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -39.4,
+      "label": "_d",
+      "msgno": "S97A",
+      "text": "No text"
     }
   ]
 }
