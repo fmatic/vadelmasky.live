@@ -6,61 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATG",
       "freq": 131.825,
-      "level": -30.4,
-      "label": "SA",
-      "msgno": "S29A",
-      "text": "0EV122225V"
-    },
-    {
-      "time": "09.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -38.6,
-      "label": "80",
-      "msgno": "M03A",
-      "text": "3501 SUMMRY 0285/09 EFHK/EFJY .OH-ATG\r\n/OUT 1103/FOB 0022\r\n/OFF 1108/FOB 0022\r\n/ON  1145/FOB 0017\r\n/IN  1147/FOB 0018\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR"
-    },
-    {
-      "time": "09.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "80",
-      "msgno": "M03B",
-      "text": "3501 SUMMRY 0285/09 EFHK/EFJY .OH-ATG\r\n/OUT 1103/FOB 0022\r\n/OFF 1108/FOB 0022\r\n/ON  1145/FOB 0017\r\n/IN  1147/FOB 0018\r\n/TKO CAPT /CRW          \r\n/LND CAPT /CRW          \r\n/APP N  /RWY    /RVR     /ALT    \r\n/ERR    /ERR    /ERR    \r\n/CPT          /FO           \r\n/SO1          /SO2          \r\n/CHK          "
-    },
-    {
-      "time": "09.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "80",
-      "msgno": "M04A",
-      "text": "1201 ONRP   0285/09 EFHK/EFJY .OH-ATG\r\n/ON  1145/FOB 0017"
-    },
-    {
-      "time": "09.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -34.3,
-      "label": "80",
-      "msgno": "M05A",
-      "text": "1301 INRP   0285/09 EFHK/EFJY .OH-ATG\r\n/ON  1145/IN  1147/FOB 0018"
-    },
-    {
-      "time": "09.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
       "level": -33.8,
       "label": "80",
       "msgno": "M06A",
@@ -328,6 +273,61 @@
       "level": -39.5,
       "label": "5V",
       "msgno": "S33A",
+      "text": "No text"
+    },
+    {
+      "time": "09.11.2026 18:00 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -40.3,
+      "label": "_d",
+      "msgno": "S18A",
+      "text": "No text"
+    },
+    {
+      "time": "09.11.2026 18:00 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -39.9,
+      "label": "80",
+      "msgno": "M21A",
+      "text": "3701 INRANG 0416/09 EFKI/EFHK .OH-ATE\r\n/ETA 1835/ERT     "
+    },
+    {
+      "time": "09.11.2026 18:00 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -41.1,
+      "label": "80",
+      "msgno": "M22A",
+      "text": "3801 MTCRP  0416/09 EFKI/EFHK .OH-ATE\r\nMOI ENG2 START B NO\r\nSTART"
+    },
+    {
+      "time": "09.11.2026 18:02 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -40.5,
+      "label": "_d",
+      "msgno": "S21A",
+      "text": "No text"
+    },
+    {
+      "time": "09.11.2026 18:02 UTC",
+      "source": "ACARS",
+      "flight": "N70416",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "5V",
+      "msgno": "S22A",
       "text": "No text"
     }
   ]
