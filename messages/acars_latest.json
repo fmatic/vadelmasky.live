@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.11.2026 14:53 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "H1",
-      "msgno": "D05B",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20487,091126,1450,09/D1ENGINE,S.N/D2ESN1,ED2071/D3ESN2,ED2069/E1IAS,ALT,TAT/E2185,.23006,-024/F1TORQ,NP,NL/F2062.1,082.0,093.6/F3062.1,082.0,093.6/G1NH,ITT,FF,IG/G2094.2,0671.2,294,0097/G3093.9,0665.4,291,0083/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.15/**.,EOT,...,/"
-    },
-    {
-      "time": "09.11.2026 15:42 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-5921",
-      "freq": 131.725,
-      "level": -36.6,
-      "label": "11",
-      "msgno": "M67A",
-      "text": "POS\r\nCAS 252,LAT N 61.636,LON E 25.474,ALT 38001,FOB 40640,UTC 154252,PD ----.--,WD 305,WS   69,TAT - 36"
-    },
-    {
       "time": "09.11.2026 15:43 UTC",
       "source": "ACARS",
       "flight": "MU0707",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C26A",
       "text": ".1/FLR/FR2611092036  34361606MMR2   1,IR3,IR2,IR1,AFS,MMR1,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "09.11.2026 20:43 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -40.6,
+      "label": "11",
+      "msgno": "M93A",
+      "text": "POS\r\nCAS 275,LAT N 62.043,LON E 28.902,ALT 35007,FOB 120280,UTC 204308,PD ----.--,WD 303,WS   65,TAT - 31"
+    },
+    {
+      "time": "09.11.2026 20:43 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -41.6,
+      "label": "_d",
+      "msgno": "S60A",
+      "text": "No text"
     }
   ]
 }
