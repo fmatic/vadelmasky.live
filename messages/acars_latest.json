@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.11.2026 08:26 UTC",
-      "source": "ACARS",
-      "flight": "N70482",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -27.6,
-      "label": "_d",
-      "msgno": "S84A",
-      "text": "No text"
-    },
-    {
-      "time": "09.11.2026 08:29 UTC",
-      "source": "ACARS",
-      "flight": "N70482",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -31.9,
-      "label": "5V",
-      "msgno": "S85A",
-      "text": "No text"
-    },
-    {
-      "time": "09.11.2026 08:31 UTC",
-      "source": "ACARS",
-      "flight": "CA3040",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "H1",
-      "msgno": "C24A",
-      "text": ".1/WRN/WN2611090831  345801006NAV GPS 2 FAULT"
-    },
-    {
       "time": "09.11.2026 11:43 UTC",
       "source": "ACARS",
       "flight": "N70285",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "D05B",
       "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20487,091126,1450,09/D1ENGINE,S.N/D2ESN1,ED2071/D3ESN2,ED2069/E1IAS,ALT,TAT/E2185,.23006,-024/F1TORQ,NP,NL/F2062.1,082.0,093.6/F3062.1,082.0,093.6/G1NH,ITT,FF,IG/G2094.2,0671.2,294,0097/G3093.9,0665.4,291,0083/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.15/**.,EOT,...,/"
+    },
+    {
+      "time": "09.11.2026 15:42 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -36.6,
+      "label": "11",
+      "msgno": "M67A",
+      "text": "POS\r\nCAS 252,LAT N 61.636,LON E 25.474,ALT 38001,FOB 40640,UTC 154252,PD ----.--,WD 305,WS   69,TAT - 36"
+    },
+    {
+      "time": "09.11.2026 15:43 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -35.8,
+      "label": "SA",
+      "msgno": "S12A",
+      "text": "0LS154322VH"
+    },
+    {
+      "time": "09.11.2026 15:43 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -35.8,
+      "label": "SA",
+      "msgno": "S12A",
+      "text": "0LS154322VH"
     }
   ]
 }
