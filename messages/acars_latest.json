@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.11.2026 18:01 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -29.8,
-      "label": "14",
-      "msgno": "M63A",
-      "text": "POS\r\n08NOV,1801,258,37998,N 61.838,E 26.675,32372,  43,177"
-    },
-    {
-      "time": "08.11.2026 18:03 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -26.2,
-      "label": "SA",
-      "msgno": "S39A",
-      "text": "0LS180335V"
-    },
-    {
-      "time": "08.11.2026 18:03 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -26.3,
-      "label": "B9",
-      "msgno": "M64A",
-      "text": "/ENGM.TI2/024ENGMAFD47"
-    },
-    {
       "time": "08.11.2026 18:03 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O76B",
       "text": "SS0340C_ 94\r\nB-2096  CAO315ZBAAEGPK161126060335ER\r\n28634000819-268734603316DBSM79962A\r\n925610218 270091126 055851\r\n29)6))23) 5))\r\n30)6)) 4) 5))\r\n11011000000001111\r\n  34001\r\n  3399(10 07(3276(16.(\r\n  3400)12 02N3276)16.)\r\n161126060335\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "09.11.2026 08:24 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATH",
+      "freq": 131.725,
+      "level": -44.1,
+      "label": "Q0",
+      "msgno": "S82A",
+      "text": "No text"
+    },
+    {
+      "time": "09.11.2026 08:24 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -25.8,
+      "label": "Q0",
+      "msgno": "S82A",
+      "text": "No text"
+    },
+    {
+      "time": "09.11.2026 08:24 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -26.1,
+      "label": "SA",
+      "msgno": "S83A",
+      "text": "0EV082451V"
     }
   ]
 }
