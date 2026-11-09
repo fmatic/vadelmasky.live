@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -33.8,
-      "label": "80",
-      "msgno": "M06A",
-      "text": "1001 OUTRP  0286/09 EFJY/EFHK .OH-ATG\r\n/OUT 1214/FOB 0018/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "09.11.2026 12:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -40.1,
-      "label": "80",
-      "msgno": "M06A",
-      "text": "1001 OUTRP  0286/09 EFJY/EFHK .OH-ATG\r\n/OUT 1214/FOB 0018/BRD       /UNT LITERS  /TYP A "
-    },
-    {
       "time": "09.11.2026 12:23 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S22A",
       "text": "No text"
+    },
+    {
+      "time": "09.11.2026 19:46 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -25.9,
+      "label": "SA",
+      "msgno": "S95A",
+      "text": "0LS194633V"
+    },
+    {
+      "time": "09.11.2026 19:47 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -30.0,
+      "label": "80",
+      "msgno": "M09A",
+      "text": "TXT\r\nD3-79803,MU290 FL350,EST EEP2041,ETP2053,EXP2122,,,"
     }
   ]
 }
