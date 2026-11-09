@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "08.11.2026 19:28 UTC",
-      "source": "ACARS",
-      "flight": "N70488",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -28.7,
-      "label": "Q0",
-      "msgno": "S46A",
-      "text": "No text"
-    },
-    {
       "time": "08.11.2026 22:20 UTC",
       "source": "ACARS",
       "flight": "N70349",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S85A",
       "text": "No text"
+    },
+    {
+      "time": "09.11.2026 08:31 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "C24A",
+      "text": ".1/WRN/WN2611090831  345801006NAV GPS 2 FAULT"
     }
   ]
 }
