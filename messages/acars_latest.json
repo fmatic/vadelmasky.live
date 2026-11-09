@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.11.2026 11:44 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -34.1,
-      "label": "Q0",
-      "msgno": "S28A",
-      "text": "No text"
-    },
-    {
       "time": "09.11.2026 12:22 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M89A",
       "text": "POS071552,N 61.851,E 27.390,2340,486500,,,36996,109120"
+    },
+    {
+      "time": "09.11.2026 16:10 UTC",
+      "source": "ACARS",
+      "flight": "CA1154",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -40.5,
+      "label": "H1",
+      "msgno": "C11A",
+      "text": ".1/WRN/WN2611091610  345204006NAV ADS-B RPTG 1 FAULT"
     }
   ]
 }
