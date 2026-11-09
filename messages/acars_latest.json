@@ -6,28 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATG",
       "freq": 131.825,
-      "level": -29.3,
-      "label": "80",
-      "msgno": "M07A",
-      "text": "1101 OFFRP  0286/09 EFJY/EFHK .OH-ATG\r\n/OUT 1214/OFF 1217/FOB 0018/ETA 1257"
-    },
-    {
-      "time": "09.11.2026 12:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -30.6,
-      "label": "80",
-      "msgno": "M08A",
-      "text": "3701 INRANG 0286/09 EFJY/EFHK .OH-ATG\r\n/ETA 1258/ERT     "
-    },
-    {
-      "time": "09.11.2026 12:23 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
       "level": -34.8,
       "label": "H1",
       "msgno": "D02A",
@@ -329,6 +307,28 @@
       "label": "80",
       "msgno": "M09A",
       "text": "TXT\r\nD3-79803,MU290 FL350,EST EEP2041,ETP2053,EXP2122,,,"
+    },
+    {
+      "time": "09.11.2026 19:50 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -38.8,
+      "label": "_d",
+      "msgno": "S99A",
+      "text": "No text"
+    },
+    {
+      "time": "09.11.2026 19:50 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -37.9,
+      "label": "_d",
+      "msgno": "S01A",
+      "text": "No text"
     }
   ]
 }
