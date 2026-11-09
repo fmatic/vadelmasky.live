@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.11.2026 04:04 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -40.7,
-      "label": "Q0",
-      "msgno": "S04A",
-      "text": "No text"
-    },
-    {
-      "time": "09.11.2026 04:09 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -41.4,
-      "label": "5V",
-      "msgno": "S07A",
-      "text": "No text"
-    },
-    {
       "time": "09.11.2026 05:58 UTC",
       "source": "ACARS",
       "flight": "CA1153",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S30A",
       "text": "No text"
+    },
+    {
+      "time": "09.11.2026 13:21 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-7869",
+      "freq": 131.825,
+      "level": -37.4,
+      "label": "H1",
+      "msgno": "O16A",
+      "text": "SB0122BA_B-7869  ZBAALIRF793\r\n 61110 0267811320 33999-560314060010GMY013020"
+    },
+    {
+      "time": "09.11.2026 13:24 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-7869",
+      "freq": 131.825,
+      "level": -41.9,
+      "label": "10",
+      "msgno": "M36A",
+      "text": "POS091324, N 6086,E 2591,---,289,31519,  64,34001, 364,-265,-564,7"
     }
   ]
 }
