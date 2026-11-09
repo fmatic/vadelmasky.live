@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "09.11.2026 11:43 UTC",
-      "source": "ACARS",
-      "flight": "N70285",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "Q0",
-      "msgno": "S28A",
-      "text": "No text"
-    },
-    {
       "time": "09.11.2026 11:44 UTC",
       "source": "ACARS",
       "flight": "N70285",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C41A",
       "text": ".1/FLR/FR2611091547  34363106MMR1   1,IR2,IR3,,,,,MMR1(40RT1),HARD"
+    },
+    {
+      "time": "09.11.2026 15:52 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -28.3,
+      "label": "10",
+      "msgno": "M89A",
+      "text": "POS071552,N 61.851,E 27.390,2340,486500,,,36996,109120"
     }
   ]
 }
