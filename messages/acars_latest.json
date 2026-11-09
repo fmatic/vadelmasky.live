@@ -6,17 +6,6 @@
       "flight": "N70286",
       "tail": "OH-ATG",
       "freq": 131.825,
-      "level": -23.9,
-      "label": "Q0",
-      "msgno": "M02A",
-      "text": "No text"
-    },
-    {
-      "time": "09.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATG",
-      "freq": 131.825,
       "level": -30.4,
       "label": "SA",
       "msgno": "S29A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C11A",
       "text": ".1/WRN/WN2611091610  345204006NAV ADS-B RPTG 1 FAULT"
+    },
+    {
+      "time": "09.11.2026 17:13 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -39.5,
+      "label": "5V",
+      "msgno": "S33A",
+      "text": "No text"
     }
   ]
 }
