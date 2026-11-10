@@ -1,61 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.11.2026 13:18 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1429",
-      "freq": 131.825,
-      "level": -41.9,
-      "label": "SA",
-      "msgno": "S32A",
-      "text": "0LS132310VH"
-    },
-    {
-      "time": "10.11.2026 14:47 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -22.5,
-      "label": "SA",
-      "msgno": "S88A",
-      "text": "0EV144717V"
-    },
-    {
-      "time": "10.11.2026 14:47 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATE",
-      "freq": 131.725,
-      "level": -40.8,
-      "label": "SA",
-      "msgno": "S88A",
-      "text": "0EV144717V"
-    },
-    {
-      "time": "10.11.2026 14:47 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -30.4,
-      "label": "HX",
-      "msgno": "S86A",
-      "text": "/HELATXA.A9 CRC /HELATXA.TI2/EFKS ARR ATIS Z\r\n1420Z TRL 65\r\nTWR IS CLOSED AND WILL\r\n BE OPEN AT 1525 UTC.\r\nAUTOMATIC REPORT\r\nWIND RWY 12 TDZ 320\r\n DEG 6 KT\r\nRWY 30 TD"
-    },
-    {
-      "time": "10.11.2026 14:47 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -39.5,
-      "label": "B9",
-      "msgno": "L25A",
-      "text": "/EFKS.TI2/024EFKSA2D99"
-    },
-    {
       "time": "10.11.2026 14:47 UTC",
       "source": "ACARS",
       "flight": "N70487",
@@ -329,6 +274,61 @@
       "label": "5V",
       "msgno": "S41A",
       "text": "No text"
+    },
+    {
+      "time": "10.11.2026 21:25 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "_d",
+      "msgno": "S76A",
+      "text": "No text"
+    },
+    {
+      "time": "10.11.2026 21:25 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.4,
+      "label": "H1",
+      "msgno": "E62A",
+      "text": "LGB,R,0,,204,206,1,L,,0.0,0.0,,,0.0,0.0,,,225,218,,,219,215,,,0.0,0.1,,,,0.0,0.0,,,208,216,,,222,218,,,0.0,0.0,,,0.0,0.0,,,215,213,,,217,213,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,48,48,ANTISKID,10,NOV,26,21,25"
+    },
+    {
+      "time": "10.11.2026 21:25 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "H1",
+      "msgno": "E62B",
+      "text": "LGB,R,0,,204,206,1,L,,0.0,0.0,,,0.0,0.0,,,225,218,,,219,215,,,0.0,0.1,,,,0.0,0.0,,,208,216,,,222,218,,,0.0,0.0,,,0.0,0.0,,,215,213,,,217,213,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,48,48,ANTISKID,10,NOV,26,21,25,30"
+    },
+    {
+      "time": "10.11.2026 21:28 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -32.0,
+      "label": "H1",
+      "msgno": "C87A",
+      "text": "RTE 1 10NOV26 2128 CAB-222S CAO1006 LEMD/ZSPD 311B-BCG-00W-19 R 1730 10NOV26\r\nFDE 34503141 I 2126 10NOV26\r\nMSG 3453201 I 2126 10NOV26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 2126 10NOV26 ER "
+    },
+    {
+      "time": "10.11.2026 21:28 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "H1",
+      "msgno": "C87B",
+      "text": "RTE 1 10NOV26 2128 CAB-222S CAO1006 LEMD/ZSPD 311B-BCG-00W-19 R 1730 10NOV26\r\nFDE 34503141 I 2126 10NOV26\r\nMSG 3453201 I 2126 10NOV26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 2126 10NOV26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
     }
   ]
 }
