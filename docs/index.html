@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">6</div>
+        <div class="value">8</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">3</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">3</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">10.11.2026 03:55 UTC</div>
+        <div class="value">10.11.2026 04:00 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,7 +277,7 @@ footer {
                     <div class="flight">FIN9D</div>
                     <div class="meta">ICAO 4601FA · REG OH-ATM · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">21500 ft</div>
+                <div class="alt-badge mid">17700 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -285,12 +285,60 @@ footer {
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>10.11.2026 03:55 UTC</b></div>
+                    <div><span>Position</span><b>60.9606, 25.3784</b></div>
+                    <div><span>Last seen</span><b>10.11.2026 04:00 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATM" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8MC</div>
+                    <div class="meta">ICAO 461F39 · REG OH-LVL · TYPE A319</div>
+                </div>
+                <div class="alt-badge high">35100 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>410.0 kt</b></div>
+                    <div><span>Track</span><b>180.18°</b></div>
+                    <div><span>Position</span><b>61.7994, 25.2634</b></div>
+                    <div><span>Last seen</span><b>10.11.2026 04:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVL" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601F6 · REG OH-ATI · TYPE AT75</div>
+                </div>
+                <div class="alt-badge low">7925 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>179.5 kt</b></div>
+                    <div><span>Track</span><b>189.62°</b></div>
+                    <div><span>Position</span><b>62.2321, 25.6815</b></div>
+                    <div><span>Last seen</span><b>10.11.2026 04:00 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATI" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -647,7 +695,7 @@ CES708 FL350,EEP/2051 ETP/2208,EXP/2343,,,,,</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "4601FA", "flight": "FIN9D", "lat": 60.960574, "lon": 25.378418, "alt": 17700, "speed": "-", "last_seen": "10.11.2026 04:00 UTC"}, {"hex": "461F39", "flight": "FIN8MC", "lat": 61.799446, "lon": 25.263367, "alt": 35100, "speed": 410.0, "last_seen": "10.11.2026 04:00 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 62.232056, "lon": 25.681493, "alt": 7925, "speed": 179.5, "last_seen": "10.11.2026 04:00 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',

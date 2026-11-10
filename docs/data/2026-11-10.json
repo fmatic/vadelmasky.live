@@ -57,13 +57,13 @@
       "flight": "FIN9D",
       "reg": "OH-ATM",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 21500,
+      "lat": 60.960574,
+      "lon": 25.378418,
+      "alt": 17700,
       "speed": null,
       "track": null,
       "seen_first": "2026-11-10T03:41:01.217147",
-      "last_seen": "2026-11-10T03:55:01.316033"
+      "last_seen": "2026-11-10T04:00:01.975022"
     },
     "7822f4": {
       "hex": "7822f4",
@@ -77,11 +77,37 @@
       "track": 244.86,
       "seen_first": "2026-11-10T03:42:01.474143",
       "last_seen": "2026-11-10T03:47:01.945546"
+    },
+    "461f39": {
+      "hex": "461f39",
+      "flight": "FIN8MC",
+      "reg": "OH-LVL",
+      "type": "A319",
+      "lat": 61.799446,
+      "lon": 25.263367,
+      "alt": 35100,
+      "speed": 410.0,
+      "track": 180.18,
+      "seen_first": "2026-11-10T03:57:02.143225",
+      "last_seen": "2026-11-10T04:00:01.975022"
+    },
+    "4601f6": {
+      "hex": "4601f6",
+      "flight": "FIN8KH",
+      "reg": "OH-ATI",
+      "type": "AT75",
+      "lat": 62.232056,
+      "lon": 25.681493,
+      "alt": 7925,
+      "speed": 179.5,
+      "track": 189.62,
+      "seen_first": "2026-11-10T03:58:01.376148",
+      "last_seen": "2026-11-10T04:00:01.975022"
     }
   },
   "summary": {
-    "total_unique_aircraft": 6,
-    "last_seen_live": 1,
-    "updated": "2026-11-10T03:55:01.316033"
+    "total_unique_aircraft": 8,
+    "last_seen_live": 3,
+    "updated": "2026-11-10T04:00:01.975022"
   }
 }
