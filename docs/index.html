@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">10.11.2026 06:30 UTC</div>
+        <div class="value">10.11.2026 06:35 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,10 +283,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>237.3 kt</b></div>
-                    <div><span>Track</span><b>209.27°</b></div>
-                    <div><span>Position</span><b>61.7445, 26.2776</b></div>
-                    <div><span>Last seen</span><b>10.11.2026 06:29 UTC</b></div>
+                    <div><span>Speed</span><b>238.1 kt</b></div>
+                    <div><span>Track</span><b>208.61°</b></div>
+                    <div><span>Position</span><b>61.3353, 25.8044</b></div>
+                    <div><span>Last seen</span><b>10.11.2026 06:35 UTC</b></div>
                 </div>
             </div>
 
@@ -911,7 +911,7 @@ CES708 FL350,EEP/2051 ETP/2208,EXP/2343,,,,,</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "467893", "flight": "T24", "lat": 61.744492, "lon": 26.277629, "alt": 16000, "speed": 237.3, "last_seen": "10.11.2026 06:29 UTC"}, {"hex": "4601F4", "flight": "FIN481", "lat": 62.561188, "lon": 26.456401, "alt": 21025, "speed": 288.8, "last_seen": "10.11.2026 06:06 UTC"}, {"hex": "467895", "flight": "T46", "lat": 61.894552, "lon": 25.582581, "alt": 18000, "speed": 254.0, "last_seen": "10.11.2026 05:14 UTC"}, {"hex": "467892", "flight": "FNF507", "lat": 62.505112, "lon": 25.630086, "alt": 8525, "speed": 147.1, "last_seen": "10.11.2026 05:03 UTC"}, {"hex": "4601F2", "flight": "FIN7DC", "lat": 61.580887, "lon": 25.294647, "alt": 21000, "speed": 255.1, "last_seen": "10.11.2026 04:31 UTC"}, {"hex": "461E18", "flight": "FIN4MP", "lat": 61.445788, "lon": 25.301717, "alt": 28150, "speed": 391.3, "last_seen": "10.11.2026 04:25 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.381348, "lon": 25.401273, "alt": 16000, "speed": 273.2, "last_seen": "10.11.2026 04:20 UTC"}, {"hex": "461F39", "flight": "FIN8MC", "lat": 61.145294, "lon": 25.267741, "alt": 27050, "speed": 378.0, "last_seen": "10.11.2026 04:07 UTC"}, {"hex": "4601FA", "flight": "FIN9D", "lat": 60.934598, "lon": 25.364587, "alt": 17700, "speed": 337.9, "last_seen": "10.11.2026 04:01 UTC"}];
+const aircraft = [{"hex": "467893", "flight": "T24", "lat": 61.33532, "lon": 25.804443, "alt": 16000, "speed": 238.1, "last_seen": "10.11.2026 06:35 UTC"}, {"hex": "4601F4", "flight": "FIN481", "lat": 62.561188, "lon": 26.456401, "alt": 21025, "speed": 288.8, "last_seen": "10.11.2026 06:06 UTC"}, {"hex": "467895", "flight": "T46", "lat": 61.894552, "lon": 25.582581, "alt": 18000, "speed": 254.0, "last_seen": "10.11.2026 05:14 UTC"}, {"hex": "467892", "flight": "FNF507", "lat": 62.505112, "lon": 25.630086, "alt": 8525, "speed": 147.1, "last_seen": "10.11.2026 05:03 UTC"}, {"hex": "4601F2", "flight": "FIN7DC", "lat": 61.580887, "lon": 25.294647, "alt": 21000, "speed": 255.1, "last_seen": "10.11.2026 04:31 UTC"}, {"hex": "461E18", "flight": "FIN4MP", "lat": 61.445788, "lon": 25.301717, "alt": 28150, "speed": 391.3, "last_seen": "10.11.2026 04:25 UTC"}, {"hex": "4601F6", "flight": "FIN8KH", "lat": 61.381348, "lon": 25.401273, "alt": 16000, "speed": 273.2, "last_seen": "10.11.2026 04:20 UTC"}, {"hex": "461F39", "flight": "FIN8MC", "lat": 61.145294, "lon": 25.267741, "alt": 27050, "speed": 378.0, "last_seen": "10.11.2026 04:07 UTC"}, {"hex": "4601FA", "flight": "FIN9D", "lat": 60.934598, "lon": 25.364587, "alt": 17700, "speed": 337.9, "last_seen": "10.11.2026 04:01 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
