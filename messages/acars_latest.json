@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.11.2026 11:24 UTC",
-      "source": "ACARS",
-      "flight": "N70365",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -39.2,
-      "label": "5V",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
-      "time": "10.11.2026 12:21 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -36.7,
-      "label": "Q0",
-      "msgno": "S27A",
-      "text": "No text"
-    },
-    {
-      "time": "10.11.2026 12:21 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "SA",
-      "msgno": "S28A",
-      "text": "0EV122121V"
-    },
-    {
-      "time": "10.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -24.4,
-      "label": "B9",
-      "msgno": "L19A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "10.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.725,
-      "level": -39.9,
-      "label": "B9",
-      "msgno": "L19A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "10.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "_d",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
-      "time": "10.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATJ",
-      "freq": 131.725,
-      "level": -38.1,
-      "label": "_d",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
       "time": "10.11.2026 12:22 UTC",
       "source": "ACARS",
       "flight": "N70286",
@@ -307,6 +230,105 @@
       "label": "16",
       "msgno": "M55A",
       "text": "POSA1N61943E 28325,TOMBU  ,160441,329,KOKAT  ,165116,-54, 56, 648,826"
+    },
+    {
+      "time": "10.11.2026 17:33 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -28.5,
+      "label": "Q0",
+      "msgno": "S36A",
+      "text": "No text"
+    },
+    {
+      "time": "10.11.2026 17:33 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -28.4,
+      "label": "SA",
+      "msgno": "S37A",
+      "text": "0EV173334V"
+    },
+    {
+      "time": "10.11.2026 17:34 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -23.1,
+      "label": "Q0",
+      "msgno": "M35A",
+      "text": "No text"
+    },
+    {
+      "time": "10.11.2026 17:34 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATE",
+      "freq": 131.725,
+      "level": -36.4,
+      "label": "B9",
+      "msgno": "L38A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "10.11.2026 17:34 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -18.8,
+      "label": "B9",
+      "msgno": "L38A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "10.11.2026 17:34 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -17.4,
+      "label": "_d",
+      "msgno": "S38A",
+      "text": "No text"
+    },
+    {
+      "time": "10.11.2026 17:34 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATE",
+      "freq": 131.725,
+      "level": -35.3,
+      "label": "_d",
+      "msgno": "S38A",
+      "text": "No text"
+    },
+    {
+      "time": "10.11.2026 17:34 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATE",
+      "freq": 131.725,
+      "level": -36.7,
+      "label": "_d",
+      "msgno": "S39A",
+      "text": "No text"
+    },
+    {
+      "time": "10.11.2026 17:34 UTC",
+      "source": "ACARS",
+      "flight": "N70488",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -18.8,
+      "label": "_d",
+      "msgno": "S39A",
+      "text": "No text"
     }
   ]
 }
