@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.11.2026 14:47 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "_d",
-      "msgno": "S89A",
-      "text": "No text"
-    },
-    {
-      "time": "10.11.2026 14:48 UTC",
-      "source": "ACARS",
-      "flight": "N70487",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "_d",
-      "msgno": "S90A",
-      "text": "No text"
-    },
-    {
       "time": "10.11.2026 14:48 UTC",
       "source": "ACARS",
       "flight": "N70487",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C87B",
       "text": "RTE 1 10NOV26 2128 CAB-222S CAO1006 LEMD/ZSPD 311B-BCG-00W-19 R 1730 10NOV26\r\nFDE 34503141 I 2126 10NOV26\r\nMSG 3453201 I 2126 10NOV26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 2126 10NOV26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "10.11.2026 21:30 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -27.9,
+      "label": "10",
+      "msgno": "M53A",
+      "text": "POS102130, N 6175,E 2701,834,285,23017,  39,35000, 632,-245,-549,7"
+    },
+    {
+      "time": "10.11.2026 21:33 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "H1",
+      "msgno": "O40B",
+      "text": " 02N    )16.)\r\n101126213314\r\n111111111111\r\n111111111111"
     }
   ]
 }
