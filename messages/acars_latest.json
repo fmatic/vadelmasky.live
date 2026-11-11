@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.11.2026 21:33 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -35.7,
-      "label": "H1",
-      "msgno": "O40B",
-      "text": " 02N    )16.)\r\n101126213314\r\n111111111111\r\n111111111111"
-    },
-    {
       "time": "10.11.2026 22:27 UTC",
       "source": "ACARS",
       "flight": "N70289",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S28A",
       "text": "No text"
+    },
+    {
+      "time": "11.11.2026 18:15 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -39.7,
+      "label": "10",
+      "msgno": "M09A",
+      "text": "POS081815,N 62.009,E 28.094,0144,495250,,,37003,105040"
     }
   ]
 }
