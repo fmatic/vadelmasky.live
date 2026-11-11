@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.11.2026 16:03 UTC",
-      "source": "ACARS",
-      "flight": "JD0669",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -34.4,
-      "label": "_d",
-      "msgno": "S94A",
-      "text": "No text"
-    },
-    {
-      "time": "10.11.2026 16:30 UTC",
-      "source": "ACARS",
-      "flight": "CK0250",
-      "tail": "B-226V",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "H1",
-      "msgno": "O02A",
-      "text": "SB0122BA_B-226V  LFPGZSPD926\r\n 61181 0254681629 33001-540208048010YY,007010"
-    },
-    {
       "time": "10.11.2026 16:40 UTC",
       "source": "ACARS",
       "flight": "CK0250",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S08A",
       "text": "No text"
+    },
+    {
+      "time": "11.11.2026 03:51 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -29.8,
+      "label": "H1",
+      "msgno": "D02A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20376,101126,0350,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2214,.18017,-019/F1TORQ,NP,N"
+    },
+    {
+      "time": "11.11.2026 03:51 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -29.2,
+      "label": "H1",
+      "msgno": "D02B",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20376,101126,0350,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2214,.18017,-019/F1TORQ,NP,NL/F2077.9,082.0,096.2/F3077.9,082.0,094.5/G1NH,ITT,FF,IG/G2096.0,0670.8,383,0072/G3095.6,0659.6,361,0079/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.75/**.,EOT,...,/"
     }
   ]
 }
