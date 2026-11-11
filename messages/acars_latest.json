@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.11.2026 21:25 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "H1",
-      "msgno": "E62B",
-      "text": "LGB,R,0,,204,206,1,L,,0.0,0.0,,,0.0,0.0,,,225,218,,,219,215,,,0.0,0.1,,,,0.0,0.0,,,208,216,,,222,218,,,0.0,0.0,,,0.0,0.0,,,215,213,,,217,213,,0.0,,0.0,,LOCKED,LOCKED,,,32,0,32,48,48,ANTISKID,10,NOV,26,21,25,30"
-    },
-    {
-      "time": "10.11.2026 21:28 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -32.0,
-      "label": "H1",
-      "msgno": "C87A",
-      "text": "RTE 1 10NOV26 2128 CAB-222S CAO1006 LEMD/ZSPD 311B-BCG-00W-19 R 1730 10NOV26\r\nFDE 34503141 I 2126 10NOV26\r\nMSG 3453201 I 2126 10NOV26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 2126 10NOV26 ER "
-    },
-    {
-      "time": "10.11.2026 21:28 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -29.8,
-      "label": "H1",
-      "msgno": "C87B",
-      "text": "RTE 1 10NOV26 2128 CAB-222S CAO1006 LEMD/ZSPD 311B-BCG-00W-19 R 1730 10NOV26\r\nFDE 34503141 I 2126 10NOV26\r\nMSG 3453201 I 2126 10NOV26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nMSG 3453011 I 2126 10NOV26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
       "time": "10.11.2026 21:30 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -329,6 +296,39 @@
       "label": "Q0",
       "msgno": "S20A",
       "text": "No text"
+    },
+    {
+      "time": "11.11.2026 14:37 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "H1",
+      "msgno": "C20A",
+      "text": ".1/WRN/WN2611111437  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "11.11.2026 14:37 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "H1",
+      "msgno": "C21A",
+      "text": ".1/WRN/WN2611111437  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "11.11.2026 14:38 UTC",
+      "source": "ACARS",
+      "flight": "CA3156",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -31.2,
+      "label": "H1",
+      "msgno": "C22A",
+      "text": ".1/FLR/FR2611111437  34361606MMR2   1,IR2,MMR1,IR1,IR3,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
     }
   ]
 }
