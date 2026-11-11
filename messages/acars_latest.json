@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.11.2026 03:46 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "SA",
-      "msgno": "M06A",
-      "text": "0EV034559V"
-    },
-    {
-      "time": "11.11.2026 03:47 UTC",
-      "source": "ACARS",
-      "flight": "I99899",
-      "tail": "B-2082",
-      "freq": 131.825,
-      "level": -42.5,
-      "label": "_d",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
       "time": "11.11.2026 03:47 UTC",
       "source": "ACARS",
       "flight": "I99899",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S65A",
       "text": "No text"
+    },
+    {
+      "time": "11.11.2026 23:46 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -41.5,
+      "label": "H1",
+      "msgno": "C83A",
+      "text": ".1/WRN/WN2611112346  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "11.11.2026 23:47 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6091",
+      "freq": 131.825,
+      "level": -41.6,
+      "label": "H1",
+      "msgno": "C84A",
+      "text": ".1/WRN/WN2611112347  345801006NAV GPS 2 FAULT"
     }
   ]
 }
