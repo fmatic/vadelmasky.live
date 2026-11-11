@@ -392,16 +392,16 @@
     },
     "4601f5": {
       "hex": "4601f5",
-      "flight": "FIN9B",
+      "flight": "FIN9LG",
       "reg": "OH-ATH",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 24000,
-      "speed": null,
-      "track": null,
+      "lat": 62.189786,
+      "lon": 26.165208,
+      "alt": 23000,
+      "speed": 258.1,
+      "track": 199.0,
       "seen_first": "2026-11-11T09:39:01.320084",
-      "last_seen": "2026-11-11T09:54:01.469057"
+      "last_seen": "2026-11-11T11:30:01.311736"
     },
     "040168": {
       "hex": "040168",
@@ -434,18 +434,44 @@
       "flight": "T24",
       "reg": "PI-04",
       "type": "PC12",
-      "lat": 62.282798,
-      "lon": 26.118516,
-      "alt": 19000,
-      "speed": 279.9,
-      "track": 55.63,
+      "lat": 62.440842,
+      "lon": 26.622197,
+      "alt": 17475,
+      "speed": 272.9,
+      "track": 55.9,
       "seen_first": "2026-11-11T11:21:01.222283",
-      "last_seen": "2026-11-11T11:25:01.277360"
+      "last_seen": "2026-11-11T11:29:02.027956"
+    },
+    "4ab4eb": {
+      "hex": "4ab4eb",
+      "flight": "SEMGK",
+      "reg": "SE-MGK",
+      "type": "BE20",
+      "lat": 62.273347,
+      "lon": 25.935129,
+      "alt": 3775,
+      "speed": 203.3,
+      "track": 353.5,
+      "seen_first": "2026-11-11T11:27:01.506006",
+      "last_seen": "2026-11-11T11:30:01.311736"
+    },
+    "4601fd": {
+      "hex": "4601fd",
+      "flight": "FIN6LE",
+      "reg": "OH-ATP",
+      "type": "AT75",
+      "lat": 61.873901,
+      "lon": 25.583333,
+      "alt": 17425,
+      "speed": 296.6,
+      "track": 24.92,
+      "seen_first": "2026-11-11T11:28:01.780874",
+      "last_seen": "2026-11-11T11:30:01.311736"
     }
   },
   "summary": {
-    "total_unique_aircraft": 34,
-    "last_seen_live": 1,
-    "updated": "2026-11-11T11:25:01.277360"
+    "total_unique_aircraft": 36,
+    "last_seen_live": 3,
+    "updated": "2026-11-11T11:30:01.311736"
   }
 }
