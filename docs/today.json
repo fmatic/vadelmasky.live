@@ -434,13 +434,13 @@
       "flight": "T24",
       "reg": "PI-04",
       "type": "PC12",
-      "lat": 61.948288,
-      "lon": 25.71252,
-      "alt": 10650,
-      "speed": 257.8,
-      "track": 20.19,
+      "lat": 62.248444,
+      "lon": 25.948283,
+      "alt": 4525,
+      "speed": 215.5,
+      "track": 20.37,
       "seen_first": "2026-11-11T11:21:01.222283",
-      "last_seen": "2026-11-11T14:40:01.511163"
+      "last_seen": "2026-11-11T14:45:01.696000"
     },
     "4ab4eb": {
       "hex": "4ab4eb",
@@ -642,18 +642,31 @@
       "flight": "FIN8PK",
       "reg": "OH-ATL",
       "type": "AT75",
-      "lat": 61.731537,
-      "lon": 26.038284,
+      "lat": 62.122009,
+      "lon": 26.252322,
       "alt": 17000,
-      "speed": 292.0,
-      "track": 14.27,
+      "speed": 290.3,
+      "track": 14.56,
       "seen_first": "2026-11-11T14:32:01.532657",
-      "last_seen": "2026-11-11T14:40:01.511163"
+      "last_seen": "2026-11-11T14:45:01.696000"
+    },
+    "4cae72": {
+      "hex": "4cae72",
+      "flight": "",
+      "reg": "EI-UBN",
+      "type": "B789",
+      "lat": 61.060615,
+      "lon": 26.598714,
+      "alt": null,
+      "speed": 510.6,
+      "track": 53.6,
+      "seen_first": "2026-11-11T14:42:01.748887",
+      "last_seen": "2026-11-11T14:45:01.696000"
     }
   },
   "summary": {
-    "total_unique_aircraft": 50,
-    "last_seen_live": 2,
-    "updated": "2026-11-11T14:40:01.511163"
+    "total_unique_aircraft": 51,
+    "last_seen_live": 3,
+    "updated": "2026-11-11T14:45:01.696000"
   }
 }
