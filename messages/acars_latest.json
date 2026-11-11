@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.11.2026 17:38 UTC",
-      "source": "ACARS",
-      "flight": "N70488",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -29.7,
-      "label": "5V",
-      "msgno": "S41A",
-      "text": "No text"
-    },
-    {
-      "time": "10.11.2026 21:25 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "_d",
-      "msgno": "S76A",
-      "text": "No text"
-    },
-    {
       "time": "10.11.2026 21:25 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -329,6 +307,28 @@
       "label": "18",
       "msgno": "M13A",
       "text": "POX,CSG2518   ,11NOV26,141748,EGPK,ZGGG,N061.65,E0026.57,370, 631,841,  71.8,-102.3,026,-53.1,231548, 33120,"
+    },
+    {
+      "time": "11.11.2026 14:26 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2041",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "H1",
+      "msgno": "D21A",
+      "text": "ACM01ACM301ESB-2041  CSG2518 EGPKZGGG111126  69ER122739 8775311DCSN11F16\r\n 70A1C0A1C0 36999-285839 -587  6260    40 198851\r\n0040161010\r\n149 40 38160 86 8300110\r\n148 40 39160 81 8300110\r\n 36997841 217 -542  "
+    },
+    {
+      "time": "11.11.2026 14:26 UTC",
+      "source": "ACARS",
+      "flight": "CZ2518",
+      "tail": "B-2041",
+      "freq": 131.825,
+      "level": -42.0,
+      "label": "H1",
+      "msgno": "D21C",
+      "text": "7 7 100001\r\n 81515 170182\r\n130001\r\n11 220201\r\n150001\r\n20101)  70001\r\n 91515 190272"
     }
   ]
 }
