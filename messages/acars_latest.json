@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "10.11.2026 21:30 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-222S",
-      "freq": 131.825,
-      "level": -27.9,
-      "label": "10",
-      "msgno": "M53A",
-      "text": "POS102130, N 6175,E 2701,834,285,23017,  39,35000, 632,-245,-549,7"
-    },
-    {
       "time": "10.11.2026 21:33 UTC",
       "source": "ACARS",
       "flight": "CA1006",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C22A",
       "text": ".1/FLR/FR2611111437  34361606MMR2   1,IR2,MMR1,IR1,IR3,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "11.11.2026 18:10 UTC",
+      "source": "ACARS",
+      "flight": "CA3160",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "Q0",
+      "msgno": "S28A",
+      "text": "No text"
     }
   ]
 }
