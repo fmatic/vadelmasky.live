@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.11.2026 03:01 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16706",
-      "freq": 131.725,
-      "level": -34.7,
-      "label": "SA",
-      "msgno": "S65A",
-      "text": "0EV030102VS"
-    },
-    {
-      "time": "12.11.2026 03:01 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16706",
-      "freq": 131.725,
-      "level": -35.1,
-      "label": "H1",
-      "msgno": "O94A",
-      "text": "SB0122BA_B-16706 RCTPEDDM698\r\n 61415 0276500301 35998-530253031010GMY009011"
-    },
-    {
-      "time": "12.11.2026 03:05 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16706",
-      "freq": 131.725,
-      "level": -38.6,
-      "label": "SA",
-      "msgno": "S66A",
-      "text": "0LS030517V"
-    },
-    {
-      "time": "12.11.2026 03:42 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "Q0",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
-      "time": "12.11.2026 03:43 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -29.6,
-      "label": "SA",
-      "msgno": "M07A",
-      "text": "0EV034238V"
-    },
-    {
-      "time": "12.11.2026 03:47 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "5V",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
       "time": "12.11.2026 03:51 UTC",
       "source": "ACARS",
       "flight": "CA1160",
@@ -329,6 +263,72 @@
       "label": "11",
       "msgno": "M39A",
       "text": "POS\r\nCAS 270,LAT N 62.017,LON E 26.788,ALT 36004,FOB 50680,UTC 153342,PD ----.--,WD 251,WS   52,TAT - 29"
+    },
+    {
+      "time": "12.11.2026 15:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -32.2,
+      "label": "B9",
+      "msgno": "J60A",
+      "text": "/EKCH.TI2/000EKCHA0475"
+    },
+    {
+      "time": "12.11.2026 15:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -35.4,
+      "label": "B9",
+      "msgno": "J61A",
+      "text": "/EDDF.TI2/000EDDFA7604"
+    },
+    {
+      "time": "12.11.2026 15:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -35.5,
+      "label": "B9",
+      "msgno": "J61A",
+      "text": "/EDDF.TI2/000EDDFA7604"
+    },
+    {
+      "time": "12.11.2026 15:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -36.0,
+      "label": "_d",
+      "msgno": "S78A",
+      "text": "No text"
+    },
+    {
+      "time": "12.11.2026 15:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -39.5,
+      "label": "_d",
+      "msgno": "S79A",
+      "text": "No text"
+    },
+    {
+      "time": "12.11.2026 15:37 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -39.9,
+      "label": "11",
+      "msgno": "M40A",
+      "text": "POS\r\nCAS 267,LAT N 61.781,LON E 25.965,ALT 36002,FOB 49880,UTC 153743,PD ----.--,WD 246,WS   50,TAT - 30"
     }
   ]
 }
