@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.11.2026 08:38 UTC",
-      "source": "ACARS",
-      "flight": "N70482",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "5V",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
-      "time": "11.11.2026 14:17 UTC",
-      "source": "ACARS",
-      "flight": "CZ2518",
-      "tail": "B-2041",
-      "freq": 131.825,
-      "level": -32.4,
-      "label": "18",
-      "msgno": "M13A",
-      "text": "POX,CSG2518   ,11NOV26,141748,EGPK,ZGGG,N061.65,E0026.57,370, 631,841,  71.8,-102.3,026,-53.1,231548, 33120,"
-    },
-    {
       "time": "11.11.2026 14:26 UTC",
       "source": "ACARS",
       "flight": "CZ2518",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M69A",
       "text": "POS091123,N 61.537,E 26.748,1913,499500,,,37001,106640"
+    },
+    {
+      "time": "12.11.2026 11:38 UTC",
+      "source": "ACARS",
+      "flight": "N70414",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -33.7,
+      "label": "Q0",
+      "msgno": "M26A",
+      "text": "No text"
+    },
+    {
+      "time": "12.11.2026 11:39 UTC",
+      "source": "ACARS",
+      "flight": "N70414",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -32.8,
+      "label": "SA",
+      "msgno": "M27A",
+      "text": "0EV113841V"
     }
   ]
 }
