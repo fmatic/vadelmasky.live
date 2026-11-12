@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.11.2026 02:56 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16706",
-      "freq": 131.725,
-      "level": -37.7,
-      "label": "Q0",
-      "msgno": "S61A",
-      "text": "No text"
-    },
-    {
-      "time": "12.11.2026 02:57 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16706",
-      "freq": 131.725,
-      "level": -36.4,
-      "label": "B9",
-      "msgno": "L82A",
-      "text": "/EDDM.TI2/046EDDMAE6D9"
-    },
-    {
       "time": "12.11.2026 03:01 UTC",
       "source": "ACARS",
       "flight": "BR0071",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M01A",
       "text": "POS121528,N 61.475,E 25.802,2327,510125,,,39000,106560"
+    },
+    {
+      "time": "12.11.2026 15:31 UTC",
+      "source": "ACARS",
+      "flight": "CA3056",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -42.8,
+      "label": "H1",
+      "msgno": "C15A",
+      "text": ".1/FLR/FR2611121530  34363106MMR1   1,,,,,,,MMR1(40RT1),HARD"
+    },
+    {
+      "time": "12.11.2026 15:33 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -43.8,
+      "label": "11",
+      "msgno": "M39A",
+      "text": "POS\r\nCAS 270,LAT N 62.017,LON E 26.788,ALT 36004,FOB 50680,UTC 153342,PD ----.--,WD 251,WS   52,TAT - 29"
     }
   ]
 }
