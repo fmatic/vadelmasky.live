@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.11.2026 03:56 UTC",
-      "source": "ACARS",
-      "flight": "N70350",
-      "tail": "OH-ATP",
-      "freq": 131.825,
-      "level": -42.9,
-      "label": "SA",
-      "msgno": "M10A",
-      "text": "0EV035448V"
-    },
-    {
       "time": "11.11.2026 03:57 UTC",
       "source": "ACARS",
       "flight": "N70350",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O94A",
       "text": "SB0122BA_B-16706 RCTPEDDM698\r\n 61415 0276500301 35998-530253031010GMY009011"
+    },
+    {
+      "time": "12.11.2026 03:05 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16706",
+      "freq": 131.725,
+      "level": -38.6,
+      "label": "SA",
+      "msgno": "S66A",
+      "text": "0LS030517V"
     }
   ]
 }
