@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.11.2026 08:33 UTC",
-      "source": "ACARS",
-      "flight": "N70482",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -41.7,
-      "label": "SA",
-      "msgno": "S51A",
-      "text": "0EV083334V"
-    },
-    {
       "time": "11.11.2026 08:34 UTC",
       "source": "ACARS",
       "flight": "N70482",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M01A",
       "text": "1101 OFFRP  0290/12 EFJY/EFJY .OH-ATI\r\n/OUT 0351/OFF 0353/FOB 0018/ETA 0433"
+    },
+    {
+      "time": "12.11.2026 09:45 UTC",
+      "source": "ACARS",
+      "flight": "N70413",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -42.9,
+      "label": "5V",
+      "msgno": "S25A",
+      "text": "No text"
     }
   ]
 }
