@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.11.2026 03:59 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -40.1,
-      "label": "SA",
-      "msgno": "M07A",
-      "text": "0EV035935V"
-    },
-    {
       "time": "11.11.2026 04:00 UTC",
       "source": "ACARS",
       "flight": "N70376",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S21A",
       "text": "No text"
+    },
+    {
+      "time": "12.11.2026 03:51 UTC",
+      "source": "ACARS",
+      "flight": "CA1160",
+      "tail": "B-6093",
+      "freq": 131.825,
+      "level": -26.0,
+      "label": "H1",
+      "msgno": "C03A",
+      "text": ".1/FLR/FR2611120350  34363106IR1    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
