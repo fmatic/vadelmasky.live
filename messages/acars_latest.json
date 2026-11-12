@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.11.2026 11:23 UTC",
-      "source": "ACARS",
-      "flight": "CA3040",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -40.9,
-      "label": "10",
-      "msgno": "M69A",
-      "text": "POS091123,N 61.537,E 26.748,1913,499500,,,37001,106640"
-    },
-    {
       "time": "12.11.2026 11:38 UTC",
       "source": "ACARS",
       "flight": "N70414",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S32A",
       "text": "No text"
+    },
+    {
+      "time": "12.11.2026 21:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -39.4,
+      "label": "H1",
+      "msgno": "C15A",
+      "text": ".1/WRN/WN2611122127  345801006NAV GPS 2 FAULT"
     }
   ]
 }
