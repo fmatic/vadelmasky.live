@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.11.2026 03:51 UTC",
-      "source": "ACARS",
-      "flight": "CA1160",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -26.0,
-      "label": "H1",
-      "msgno": "C03A",
-      "text": ".1/FLR/FR2611120350  34363106IR1    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
       "time": "12.11.2026 03:57 UTC",
       "source": "ACARS",
       "flight": "N70350",
@@ -329,6 +318,17 @@
       "label": "11",
       "msgno": "M40A",
       "text": "POS\r\nCAS 267,LAT N 61.781,LON E 25.965,ALT 36002,FOB 49880,UTC 153743,PD ----.--,WD 246,WS   50,TAT - 30"
+    },
+    {
+      "time": "12.11.2026 15:40 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-5921",
+      "freq": 131.725,
+      "level": -43.5,
+      "label": "SA",
+      "msgno": "S80A",
+      "text": "0LS154014VH"
     }
   ]
 }
