@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.11.2026 03:57 UTC",
-      "source": "ACARS",
-      "flight": "N70350",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -44.4,
-      "label": "Q0",
-      "msgno": "S06A",
-      "text": "No text"
-    },
-    {
-      "time": "12.11.2026 03:58 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.825,
-      "level": -22.1,
-      "label": "80",
-      "msgno": "M00A",
-      "text": "1001 OUTRP  0290/12 EFJY/EFJY .OH-ATI\r\n/OUT 0351/FOB 0018/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "12.11.2026 03:58 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATI",
-      "freq": 131.725,
-      "level": -37.8,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1101 OFFRP  0290/12 EFJY/EFJY .OH-ATI\r\n/OUT 0351/OFF 0353/FOB 0018/ETA 0433"
-    },
-    {
       "time": "12.11.2026 03:58 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S80A",
       "text": "0LS154014VH"
+    },
+    {
+      "time": "12.11.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -45.3,
+      "label": "_d",
+      "msgno": "S28A",
+      "text": "No text"
+    },
+    {
+      "time": "12.11.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -43.4,
+      "label": "H1",
+      "msgno": "E13A",
+      "text": "LGB,R,1,L,212,207,1,L,,0.0,0.0,,,0.0,0.0,,,224,231,,,227,223,,,0.1,0.0,,,,0.0,0.0,,,222,227,,,225,214,,,0.0,0.0,,,0.0,0.0,,,215,218,,,218,214,,0.0,,0.0,,LOCKED,LOCKED,,,48,0,48,48,48,ANTISKID,12,NOV,26,20,3"
+    },
+    {
+      "time": "12.11.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "CA1006",
+      "tail": "B-2097",
+      "freq": 131.825,
+      "level": -42.9,
+      "label": "H1",
+      "msgno": "E13B",
+      "text": "LGB,R,1,L,212,207,1,L,,0.0,0.0,,,0.0,0.0,,,224,231,,,227,223,,,0.1,0.0,,,,0.0,0.0,,,222,227,,,225,214,,,0.0,0.0,,,0.0,0.0,,,215,218,,,218,214,,0.0,,0.0,,LOCKED,LOCKED,,,48,0,48,48,48,ANTISKID,12,NOV,26,20,32,25"
     }
   ]
 }
