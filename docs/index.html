@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">12.11.2026 06:25 UTC</div>
+        <div class="value">12.11.2026 06:30 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">T46</div>
+                    <div class="meta">ICAO 467895 · REG PI-06 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge mid">14375 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>263.8 kt</b></div>
+                    <div><span>Track</span><b>19.95°</b></div>
+                    <div><span>Position</span><b>61.7389, 25.5508</b></div>
+                    <div><span>Last seen</span><b>12.11.2026 06:30 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-06" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -363,30 +387,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LKG" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">T46</div>
-                    <div class="meta">ICAO 467895 · REG PI-06 · TYPE PC12</div>
-                </div>
-                <div class="alt-badge mid">17000 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>254.0 kt</b></div>
-                    <div><span>Track</span><b>188.83°</b></div>
-                    <div><span>Position</span><b>61.7497, 25.5197</b></div>
-                    <div><span>Last seen</span><b>12.11.2026 05:04 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-06" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -911,7 +911,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F6", "flight": "FIN481", "lat": 62.455078, "lon": 26.173096, "alt": 21975, "speed": 284.3, "last_seen": "12.11.2026 06:04 UTC"}, {"hex": "467895", "flight": "T46", "lat": 61.749728, "lon": 25.519714, "alt": 17000, "speed": 254.0, "last_seen": "12.11.2026 05:04 UTC"}, {"hex": "4601FB", "flight": "FIN9D", "lat": 60.939998, "lon": 25.463072, "alt": 18000, "speed": 261.2, "last_seen": "12.11.2026 04:01 UTC"}];
+const aircraft = [{"hex": "467895", "flight": "T46", "lat": 61.738907, "lon": 25.550766, "alt": 14375, "speed": 263.8, "last_seen": "12.11.2026 06:30 UTC"}, {"hex": "4601F6", "flight": "FIN481", "lat": 62.455078, "lon": 26.173096, "alt": 21975, "speed": 284.3, "last_seen": "12.11.2026 06:04 UTC"}, {"hex": "4601FB", "flight": "FIN9D", "lat": 60.939998, "lon": 25.463072, "alt": 18000, "speed": 261.2, "last_seen": "12.11.2026 04:01 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
