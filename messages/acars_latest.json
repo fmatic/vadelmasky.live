@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.11.2026 08:34 UTC",
-      "source": "ACARS",
-      "flight": "N70482",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -38.1,
-      "label": "_d",
-      "msgno": "S52A",
-      "text": "No text"
-    },
-    {
       "time": "11.11.2026 08:38 UTC",
       "source": "ACARS",
       "flight": "N70482",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S25A",
       "text": "No text"
+    },
+    {
+      "time": "12.11.2026 11:23 UTC",
+      "source": "ACARS",
+      "flight": "CA3040",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -40.9,
+      "label": "10",
+      "msgno": "M69A",
+      "text": "POS091123,N 61.537,E 26.748,1913,499500,,,37001,106640"
     }
   ]
 }
