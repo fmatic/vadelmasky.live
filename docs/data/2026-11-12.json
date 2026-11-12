@@ -535,21 +535,34 @@
     },
     "4601fd": {
       "hex": "4601fd",
-      "flight": "",
+      "flight": "FIN5CE",
       "reg": "OH-ATP",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": null,
-      "speed": 257.7,
-      "track": 15.76,
+      "lat": 61.751083,
+      "lon": 25.614232,
+      "alt": 21000,
+      "speed": 282.3,
+      "track": 16.25,
       "seen_first": "2026-11-12T17:04:02.009906",
-      "last_seen": "2026-11-12T17:04:02.009906"
+      "last_seen": "2026-11-12T17:10:02.124750"
+    },
+    "780450": {
+      "hex": "780450",
+      "flight": "CAO1154",
+      "reg": "B-6113",
+      "type": "A332",
+      "lat": 62.306865,
+      "lon": 26.424126,
+      "alt": 37000,
+      "speed": 506.4,
+      "track": 78.96,
+      "seen_first": "2026-11-12T17:07:01.293805",
+      "last_seen": "2026-11-12T17:09:01.797840"
     }
   },
   "summary": {
-    "total_unique_aircraft": 42,
-    "last_seen_live": 0,
-    "updated": "2026-11-12T17:05:01.306132"
+    "total_unique_aircraft": 43,
+    "last_seen_live": 1,
+    "updated": "2026-11-12T17:10:02.124750"
   }
 }
