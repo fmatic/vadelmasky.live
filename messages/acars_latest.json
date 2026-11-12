@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "11.11.2026 03:47 UTC",
-      "source": "ACARS",
-      "flight": "I99899",
-      "tail": "B-2082",
-      "freq": 131.825,
-      "level": -39.1,
-      "label": "_d",
-      "msgno": "S08A",
-      "text": "No text"
-    },
-    {
-      "time": "11.11.2026 03:51 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -29.8,
-      "label": "H1",
-      "msgno": "D02A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20376,101126,0350,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2214,.18017,-019/F1TORQ,NP,N"
-    },
-    {
       "time": "11.11.2026 03:51 UTC",
       "source": "ACARS",
       "flight": "N70376",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C84A",
       "text": ".1/WRN/WN2611112347  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "12.11.2026 02:56 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16706",
+      "freq": 131.725,
+      "level": -37.7,
+      "label": "Q0",
+      "msgno": "S61A",
+      "text": "No text"
+    },
+    {
+      "time": "12.11.2026 02:57 UTC",
+      "source": "ACARS",
+      "flight": "BR0071",
+      "tail": "B-16706",
+      "freq": 131.725,
+      "level": -36.4,
+      "label": "B9",
+      "msgno": "L82A",
+      "text": "/EDDM.TI2/046EDDMAE6D9"
     }
   ]
 }
