@@ -6,28 +6,6 @@
       "flight": "CK0204",
       "tail": "B-227G",
       "freq": 131.825,
-      "level": -40.8,
-      "label": "_d",
-      "msgno": "S81A",
-      "text": "No text"
-    },
-    {
-      "time": "12.11.2026 15:21 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-227G",
-      "freq": 131.825,
-      "level": -44.3,
-      "label": "_d",
-      "msgno": "S82A",
-      "text": "No text"
-    },
-    {
-      "time": "12.11.2026 15:21 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-227G",
-      "freq": 131.825,
       "level": -43.2,
       "label": "_d",
       "msgno": "S83A",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S31A",
       "text": "No text"
+    },
+    {
+      "time": "13.11.2026 06:00 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -39.2,
+      "label": "H1",
+      "msgno": "O73A",
+      "text": "SB0122BA_B-2095  ZSPDEGPK 21\r\n 62087 0269250605 33997-56020506501020;010014"
+    },
+    {
+      "time": "13.11.2026 06:04 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2095",
+      "freq": 131.825,
+      "level": -31.7,
+      "label": "10",
+      "msgno": "M24A",
+      "text": "POS130609, N 6200,E 2580,832,291,19453,  58,33996, 292,-234,-538,7"
     }
   ]
 }
