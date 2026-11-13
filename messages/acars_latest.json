@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.11.2026 15:24 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-227G",
-      "freq": 131.825,
-      "level": -41.0,
-      "label": "16",
-      "msgno": "M54A",
-      "text": "POSA1N61720E 27462,TOMBU  ,145302,350,KOKAT  ,153807,-57, 55, 597,827"
-    },
-    {
       "time": "12.11.2026 15:28 UTC",
       "source": "ACARS",
       "flight": "CA3056",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M44A",
       "text": "POS131013,N 61.348,E 25.737,1228,436500,,,35999,45400"
+    },
+    {
+      "time": "13.11.2026 11:00 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-222S",
+      "freq": 131.825,
+      "level": -41.9,
+      "label": "H1",
+      "msgno": "O97A",
+      "text": "SB0122BA_B-222S  ZSPDEHAM868\r\n 61738 0276621100 30003-490188082010IH-010012"
     }
   ]
 }
