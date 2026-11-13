@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.11.2026 20:37 UTC",
-      "source": "ACARS",
-      "flight": "CA1006",
-      "tail": "B-2097",
-      "freq": 131.825,
-      "level": -42.2,
-      "label": "10",
-      "msgno": "M92A",
-      "text": "POS122037, N 6191,E 2771,819,279,24489,  61,35000, 636,-299,-588,7"
-    },
-    {
-      "time": "12.11.2026 21:24 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -37.4,
-      "label": "Q0",
-      "msgno": "S32A",
-      "text": "No text"
-    },
-    {
-      "time": "12.11.2026 21:27 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6117",
-      "freq": 131.825,
-      "level": -39.4,
-      "label": "H1",
-      "msgno": "C15A",
-      "text": ".1/WRN/WN2611122127  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "12.11.2026 22:00 UTC",
-      "source": "ACARS",
-      "flight": "CA3068",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -39.7,
-      "label": "H1",
-      "msgno": "C05A",
-      "text": ".1/FLR/FR2611122159  34363106IR3    1,IR1,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
-    },
-    {
-      "time": "12.11.2026 22:00 UTC",
-      "source": "ACARS",
-      "flight": "CA3068",
-      "tail": "B-6090",
-      "freq": 131.825,
-      "level": -41.4,
-      "label": "H1",
-      "msgno": "C06A",
-      "text": ".1/WRN/WN2611122200  345800506NAV GPS 1 FAULT"
-    },
-    {
-      "time": "13.11.2026 03:50 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -42.0,
-      "label": "Q0",
-      "msgno": "M03A",
-      "text": "No text"
-    },
-    {
       "time": "13.11.2026 03:50 UTC",
       "source": "ACARS",
       "flight": "N70376",
@@ -328,6 +262,72 @@
       "level": -43.1,
       "label": "Q0",
       "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "13.11.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "B9",
+      "msgno": "L60A",
+      "text": "/EHAM.TI2/046EHAMA421B"
+    },
+    {
+      "time": "13.11.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -43.9,
+      "label": "B9",
+      "msgno": "L60A",
+      "text": "/EHAM.TI2/046EHAMA421B"
+    },
+    {
+      "time": "13.11.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -43.8,
+      "label": "_d",
+      "msgno": "S66A",
+      "text": "No text"
+    },
+    {
+      "time": "13.11.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -39.7,
+      "label": "_d",
+      "msgno": "S67A",
+      "text": "No text"
+    },
+    {
+      "time": "13.11.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -40.8,
+      "label": "_d",
+      "msgno": "S68A",
+      "text": "No text"
+    },
+    {
+      "time": "13.11.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -40.8,
+      "label": "_d",
+      "msgno": "S69A",
       "text": "No text"
     }
   ]
