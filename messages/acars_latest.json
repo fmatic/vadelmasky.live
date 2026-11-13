@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -37.2,
-      "label": "_d",
-      "msgno": "S14A",
-      "text": "No text"
-    },
-    {
-      "time": "13.11.2026 12:22 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "_d",
-      "msgno": "S15A",
-      "text": "No text"
-    },
-    {
       "time": "13.11.2026 12:31 UTC",
       "source": "ACARS",
       "flight": "CA3155",
@@ -329,6 +307,28 @@
       "label": "16",
       "msgno": "M35A",
       "text": "//143712,36017,1715,  13.0,N 59.750 E 42.523,"
+    },
+    {
+      "time": "13.11.2026 16:10 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -43.7,
+      "label": "80",
+      "msgno": "M36A",
+      "text": "3701 INRANG 0370/13 EFKU/EFHK .OH-ATH\r\n/ETA 1648/ERT     "
+    },
+    {
+      "time": "13.11.2026 16:10 UTC",
+      "source": "ACARS",
+      "flight": "N70370",
+      "tail": "OH-ATH",
+      "freq": 131.825,
+      "level": -43.4,
+      "label": "_d",
+      "msgno": "S93A",
+      "text": "No text"
     }
   ]
 }
