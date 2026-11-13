@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.11.2026 03:50 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -41.1,
-      "label": "SA",
-      "msgno": "S20A",
-      "text": "0EV035001V"
-    },
-    {
-      "time": "13.11.2026 03:50 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -42.0,
-      "label": "80",
-      "msgno": "M04A",
-      "text": "3A01 OPSCTL 0376/13 EFKU/EFHK .OH-ATE\r\nATE JAANPOISTOVIKA. EMME\r\nTALLA KONEELLA VOI JATKA\r\nA EFMA."
-    },
-    {
-      "time": "13.11.2026 03:55 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -47.2,
-      "label": "5V",
-      "msgno": "S25A",
-      "text": "No text"
-    },
-    {
       "time": "13.11.2026 04:00 UTC",
       "source": "ACARS",
       "flight": "N70376",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S69A",
       "text": "No text"
+    },
+    {
+      "time": "13.11.2026 12:05 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -33.6,
+      "label": "16",
+      "msgno": "M81A",
+      "text": "POSA1N61667E 26646,AGIVU  ,115455,340,NISIX  ,124138,-47, 60, 254,835"
+    },
+    {
+      "time": "13.11.2026 12:07 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "H1",
+      "msgno": "O33A",
+      "text": "SB0122BA_B-221S  ZSPDEHAM213\r\n 61472 0262371212 33999-460211051010/9W009010"
+    },
+    {
+      "time": "13.11.2026 12:09 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-221S",
+      "freq": 131.825,
+      "level": -36.8,
+      "label": "SA",
+      "msgno": "S70A",
+      "text": "0LS121337VH"
     }
   ]
 }
