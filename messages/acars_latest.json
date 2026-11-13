@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.11.2026 14:55 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -44.4,
-      "label": "_d",
-      "msgno": "S75A",
-      "text": "No text"
-    },
-    {
       "time": "13.11.2026 14:56 UTC",
       "source": "ACARS",
       "flight": "N70369",
@@ -329,6 +318,17 @@
       "label": "81",
       "msgno": "M17A",
       "text": "/CANUOCZ.EST EXIT EDTO 1839Z\r\nFL 320\r\nEFR 28T\r\nETA 2100Z\r\nREQ DEST AND ALTN WX\r\n"
+    },
+    {
+      "time": "13.11.2026 22:47 UTC",
+      "source": "ACARS",
+      "flight": "N70289",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "Q0",
+      "msgno": "S27A",
+      "text": "No text"
     }
   ]
 }
