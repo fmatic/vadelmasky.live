@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">30</div>
+        <div class="value">31</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">13.11.2026 10:40 UTC</div>
+        <div class="value">13.11.2026 10:45 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -286,11 +286,35 @@ footer {
                     <div><span>Speed</span><b>434.0 kt</b></div>
                     <div><span>Track</span><b>244.86°</b></div>
                     <div><span>Position</span><b>61.3480, 25.7370</b></div>
-                    <div><span>Last seen</span><b>13.11.2026 10:40 UTC</b></div>
+                    <div><span>Last seen</span><b>13.11.2026 10:45 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6070" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CES213</div>
+                    <div class="meta">ICAO 7821A9 · REG B-226Q · TYPE B789</div>
+                </div>
+                <div class="alt-badge high">38000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>464.0 kt</b></div>
+                    <div><span>Track</span><b>244.86°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>13.11.2026 10:45 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-226Q" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1223,7 +1247,7 @@ A EFMA.</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "78026E", "flight": "CAO3159", "lat": 61.348, "lon": 25.737, "alt": 36000, "speed": 434.0, "last_seen": "13.11.2026 10:40 UTC"}, {"hex": "4601F2", "flight": "FIN9B", "lat": 62.161148, "lon": 26.41866, "alt": 25000, "speed": 320.7, "last_seen": "13.11.2026 10:21 UTC"}, {"hex": "4ACA86", "flight": "NSZ3DZ", "lat": 61.693353, "lon": 25.350749, "alt": 27425, "speed": 358.0, "last_seen": "13.11.2026 09:06 UTC"}, {"hex": "4601F7", "flight": "FIN482", "lat": 61.54454, "lon": 25.663572, "alt": 17975, "speed": 259.5, "last_seen": "13.11.2026 08:40 UTC"}, {"hex": "467895", "flight": "T06", "lat": 62.452108, "lon": 26.459726, "alt": 21000, "speed": 261.6, "last_seen": "13.11.2026 08:25 UTC"}, {"hex": "461F69", "flight": "FIN5ZR", "lat": 61.551369, "lon": 25.323079, "alt": 30375, "speed": 377.3, "last_seen": "13.11.2026 08:23 UTC"}, {"hex": "461F9B", "flight": "FIN14J", "lat": 61.185883, "lon": 25.288664, "alt": 27325, "speed": 368.5, "last_seen": "13.11.2026 08:04 UTC"}, {"hex": "461F9A", "flight": "FIN434", "lat": 61.644846, "lon": 25.078837, "alt": 27850, "speed": 364.9, "last_seen": "13.11.2026 07:30 UTC"}, {"hex": "4601F9", "flight": "FIN5ET", "lat": 61.288925, "lon": 25.738711, "alt": 19000, "speed": 230.5, "last_seen": "13.11.2026 07:14 UTC"}, {"hex": "780BB6", "flight": "CAO1007", "lat": 62.0, "lon": 25.8, "alt": 34000, "speed": 454.0, "last_seen": "13.11.2026 06:41 UTC"}, {"hex": "4601FD", "flight": "FIN8KH", "lat": 61.698241, "lon": 25.451965, "alt": 20000, "speed": 193.8, "last_seen": "13.11.2026 04:12 UTC"}];
+const aircraft = [{"hex": "78026E", "flight": "CAO3159", "lat": 61.348, "lon": 25.737, "alt": 36000, "speed": 434.0, "last_seen": "13.11.2026 10:45 UTC"}, {"hex": "4601F2", "flight": "FIN9B", "lat": 62.161148, "lon": 26.41866, "alt": 25000, "speed": 320.7, "last_seen": "13.11.2026 10:21 UTC"}, {"hex": "4ACA86", "flight": "NSZ3DZ", "lat": 61.693353, "lon": 25.350749, "alt": 27425, "speed": 358.0, "last_seen": "13.11.2026 09:06 UTC"}, {"hex": "4601F7", "flight": "FIN482", "lat": 61.54454, "lon": 25.663572, "alt": 17975, "speed": 259.5, "last_seen": "13.11.2026 08:40 UTC"}, {"hex": "467895", "flight": "T06", "lat": 62.452108, "lon": 26.459726, "alt": 21000, "speed": 261.6, "last_seen": "13.11.2026 08:25 UTC"}, {"hex": "461F69", "flight": "FIN5ZR", "lat": 61.551369, "lon": 25.323079, "alt": 30375, "speed": 377.3, "last_seen": "13.11.2026 08:23 UTC"}, {"hex": "461F9B", "flight": "FIN14J", "lat": 61.185883, "lon": 25.288664, "alt": 27325, "speed": 368.5, "last_seen": "13.11.2026 08:04 UTC"}, {"hex": "461F9A", "flight": "FIN434", "lat": 61.644846, "lon": 25.078837, "alt": 27850, "speed": 364.9, "last_seen": "13.11.2026 07:30 UTC"}, {"hex": "4601F9", "flight": "FIN5ET", "lat": 61.288925, "lon": 25.738711, "alt": 19000, "speed": 230.5, "last_seen": "13.11.2026 07:14 UTC"}, {"hex": "780BB6", "flight": "CAO1007", "lat": 62.0, "lon": 25.8, "alt": 34000, "speed": 454.0, "last_seen": "13.11.2026 06:41 UTC"}, {"hex": "4601FD", "flight": "FIN8KH", "lat": 61.698241, "lon": 25.451965, "alt": 20000, "speed": 193.8, "last_seen": "13.11.2026 04:12 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
