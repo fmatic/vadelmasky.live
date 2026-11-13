@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.11.2026 04:00 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -40.9,
-      "label": "B9",
-      "msgno": "L03A",
-      "text": "/EFHK.TI2/024EFHKCDE51"
-    },
-    {
-      "time": "13.11.2026 04:00 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -40.8,
-      "label": "_d",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
-      "time": "13.11.2026 06:00 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2095",
-      "freq": 131.825,
-      "level": -39.2,
-      "label": "H1",
-      "msgno": "O73A",
-      "text": "SB0122BA_B-2095  ZSPDEGPK 21\r\n 62087 0269250605 33997-56020506501020;010014"
-    },
-    {
       "time": "13.11.2026 06:04 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S70A",
       "text": "0LS121337VH"
+    },
+    {
+      "time": "13.11.2026 12:17 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "H1",
+      "msgno": "D16A",
+      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2NOV13,1134,0285/C1/C211.31.55,MC/C311.31.55,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/"
+    },
+    {
+      "time": "13.11.2026 12:18 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -35.0,
+      "label": "_d",
+      "msgno": "S09A",
+      "text": "No text"
+    },
+    {
+      "time": "13.11.2026 12:19 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -40.2,
+      "label": "_d",
+      "msgno": "S10A",
+      "text": "No text"
     }
   ]
 }
