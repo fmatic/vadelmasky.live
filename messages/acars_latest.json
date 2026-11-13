@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.11.2026 11:43 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -40.7,
-      "label": "5V",
-      "msgno": "S55A",
-      "text": "No text"
-    },
-    {
-      "time": "12.11.2026 11:49 UTC",
-      "source": "ACARS",
-      "flight": "N70414",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -42.7,
-      "label": "_d",
-      "msgno": "S57A",
-      "text": "No text"
-    },
-    {
-      "time": "12.11.2026 15:18 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-227G",
-      "freq": 131.825,
-      "level": -45.2,
-      "label": "SA",
-      "msgno": "S74A",
-      "text": "0LS151855V"
-    },
-    {
       "time": "12.11.2026 15:21 UTC",
       "source": "ACARS",
       "flight": "CK0204",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C06A",
       "text": ".1/WRN/WN2611122200  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "13.11.2026 03:50 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -42.0,
+      "label": "Q0",
+      "msgno": "M03A",
+      "text": "No text"
+    },
+    {
+      "time": "13.11.2026 03:50 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -41.1,
+      "label": "SA",
+      "msgno": "S20A",
+      "text": "0EV035001V"
+    },
+    {
+      "time": "13.11.2026 03:50 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -42.0,
+      "label": "80",
+      "msgno": "M04A",
+      "text": "3A01 OPSCTL 0376/13 EFKU/EFHK .OH-ATE\r\nATE JAANPOISTOVIKA. EMME\r\nTALLA KONEELLA VOI JATKA\r\nA EFMA."
     }
   ]
 }
