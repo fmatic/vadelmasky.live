@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "12.11.2026 15:22 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-227G",
-      "freq": 131.825,
-      "level": -44.7,
-      "label": "_d",
-      "msgno": "S85A",
-      "text": "No text"
-    },
-    {
       "time": "12.11.2026 15:24 UTC",
       "source": "ACARS",
       "flight": "CK0204",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S23A",
       "text": "No text"
+    },
+    {
+      "time": "13.11.2026 10:13 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -35.8,
+      "label": "10",
+      "msgno": "M44A",
+      "text": "POS131013,N 61.348,E 25.737,1228,436500,,,35999,45400"
     }
   ]
 }
