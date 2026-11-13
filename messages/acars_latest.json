@@ -6,17 +6,6 @@
       "flight": "CK0204",
       "tail": "B-227G",
       "freq": 131.825,
-      "level": -41.4,
-      "label": "5U",
-      "msgno": "M53A",
-      "text": "FS ULLI,UUEE,UUDD,ZSPD"
-    },
-    {
-      "time": "12.11.2026 15:21 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-227G",
-      "freq": 131.825,
       "level": -42.6,
       "label": "_d",
       "msgno": "S78A",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M04A",
       "text": "3A01 OPSCTL 0376/13 EFKU/EFHK .OH-ATE\r\nATE JAANPOISTOVIKA. EMME\r\nTALLA KONEELLA VOI JATKA\r\nA EFMA."
+    },
+    {
+      "time": "13.11.2026 03:55 UTC",
+      "source": "ACARS",
+      "flight": "N70376",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -47.2,
+      "label": "5V",
+      "msgno": "S25A",
+      "text": "No text"
     }
   ]
 }
