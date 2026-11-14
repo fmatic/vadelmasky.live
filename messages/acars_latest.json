@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.11.2026 05:54 UTC",
-      "source": "ACARS",
-      "flight": "N70361",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -42.8,
-      "label": "_d",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "14.11.2026 05:57 UTC",
-      "source": "ACARS",
-      "flight": "N70361",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "5V",
-      "msgno": "S26A",
-      "text": "No text"
-    },
-    {
-      "time": "14.11.2026 07:00 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -36.2,
-      "label": "Q0",
-      "msgno": "M34A",
-      "text": "No text"
-    },
-    {
       "time": "14.11.2026 07:00 UTC",
       "source": "ACARS",
       "flight": "N70362",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "O01A",
       "text": "SS0340F_ 14\r\nB-226V  CKK606EGSSZSPD141126150046ER\r\n28134998825-1837184353168BSM79967A21\r\n1536201329 2801141126 150043\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  35001\r\n      ) 0 02N    )16.)\r"
+    },
+    {
+      "time": "14.11.2026 15:32 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -33.4,
+      "label": "H1",
+      "msgno": "D10B",
+      "text": "588  2  2\r\n 830 829 8291010 6612 9113588  1  1\r\n 4164 000) 000)19322  00)-216  3354487\r\n 4164 000) 000)19238  00)-216  3344508\r\n  6508   0)00000000200A    0    0   0)   0)\r\n  6499   0)00000000200A    0    0"
+    },
+    {
+      "time": "14.11.2026 15:32 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -39.4,
+      "label": "H1",
+      "msgno": "D10D",
+      "text": "000FA8 -2206 30\r\n19025044908490001  3536C800FA8 -2225 30\r\n11111011111101\r\n11111011111101"
+    },
+    {
+      "time": "14.11.2026 15:32 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -34.9,
+      "label": "SA",
+      "msgno": "S51A",
+      "text": "0LS152334V"
     }
   ]
 }
