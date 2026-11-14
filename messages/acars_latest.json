@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.11.2026 14:50 UTC",
-      "source": "ACARS",
-      "flight": "CK0606",
-      "tail": "B-226V",
-      "freq": 131.825,
-      "level": -43.6,
-      "label": "SA",
-      "msgno": "S32A",
-      "text": "0LS145018V"
-    },
-    {
-      "time": "14.11.2026 14:53 UTC",
-      "source": "ACARS",
-      "flight": "CK0606",
-      "tail": "B-226V",
-      "freq": 131.825,
-      "level": -29.9,
-      "label": "16",
-      "msgno": "M43A",
-      "text": "POSA1N61770E 26348,DODAM  ,141730,342,KOKAT  ,151153,-52, 52, 656,820"
-    },
-    {
-      "time": "14.11.2026 14:55 UTC",
-      "source": "ACARS",
-      "flight": "CK0606",
-      "tail": "B-226V",
-      "freq": 131.825,
-      "level": -27.3,
-      "label": "H1",
-      "msgno": "O99A",
-      "text": "SB0122BA_B-226V  EGSSZSPD156\r\n 61827 0266381454 34941-510305053010/9W010012"
-    },
-    {
       "time": "14.11.2026 15:00 UTC",
       "source": "ACARS",
       "flight": "N40285",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C32A",
       "text": ".1/FLR/FR2611141952  34361606MMR1   1,IR3,MMR2,IR1,IR2,AFS,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "14.11.2026 20:26 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -41.3,
+      "label": "SA",
+      "msgno": "S14A",
+      "text": "0LS202641V"
+    },
+    {
+      "time": "14.11.2026 20:28 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -34.1,
+      "label": "H1",
+      "msgno": "C58A",
+      "text": ".1/FLR/FR2611142027  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "14.11.2026 20:29 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -34.2,
+      "label": "11",
+      "msgno": "M52A",
+      "text": "POS\r\nCAS 262,LAT N 61.370,LON E 26.434,ALT 37009,FOB 122320,UTC 202932,PD ----.--,WD 302,WS   72,TAT - 27"
     }
   ]
 }
