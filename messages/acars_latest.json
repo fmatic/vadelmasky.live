@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.11.2026 16:10 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -43.4,
-      "label": "_d",
-      "msgno": "S93A",
-      "text": "No text"
-    },
-    {
-      "time": "13.11.2026 16:20 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -45.2,
-      "label": "H1",
-      "msgno": "D36D",
-      "text": ",126,0.14,-25.9\r\nT2,078,093,089.5,-22.3,046.7,0.06,0.30,0.06,222,0.37,-26.5\r\nV1,0373,0317\r\nV2,0369,0311\r\nX1,-00.0,002.2,004.0,-001,-0.0005,N59.83\r\nX2,-00.3,002.6,003.8,-001,-0.0003,N59.80\r\nX3,-00.4,000.9,-0"
-    },
-    {
       "time": "13.11.2026 16:20 UTC",
       "source": "ACARS",
       "flight": "CA1159",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S11A",
       "text": "No text"
+    },
+    {
+      "time": "14.11.2026 11:28 UTC",
+      "source": "ACARS",
+      "flight": "N70365",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -42.7,
+      "label": "_d",
+      "msgno": "S83A",
+      "text": "No text"
+    },
+    {
+      "time": "14.11.2026 11:28 UTC",
+      "source": "ACARS",
+      "flight": "CA1007",
+      "tail": "B-2098",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "H1",
+      "msgno": "O88A",
+      "text": "SB0122BA_B-2098  ZSPDEGPK860\r\n 61833 0265831115 34002-490320031010IH-013016"
     }
   ]
 }
