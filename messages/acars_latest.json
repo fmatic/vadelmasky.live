@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "13.11.2026 14:56 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -47.2,
-      "label": "_d",
-      "msgno": "S77A",
-      "text": "No text"
-    },
-    {
       "time": "13.11.2026 15:58 UTC",
       "source": "ACARS",
       "flight": "U60403",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S27A",
       "text": "No text"
+    },
+    {
+      "time": "14.11.2026 01:49 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2041",
+      "freq": 131.825,
+      "level": -39.8,
+      "label": "18",
+      "msgno": "M54A",
+      "text": "POX,CSG2516   ,14NOV26,014954,EGPK,ZGGG,N061.66,E0026.28,369, 636,826,  74.3,-141.3,024,-47.8,104754, 33000,"
     }
   ]
 }
