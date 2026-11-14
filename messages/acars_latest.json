@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.11.2026 15:00 UTC",
-      "source": "ACARS",
-      "flight": "N40285",
-      "tail": "RA73316",
-      "freq": 131.725,
-      "level": -41.7,
-      "label": "Q0",
-      "msgno": "S03A",
-      "text": "No text"
-    },
-    {
-      "time": "14.11.2026 15:00 UTC",
-      "source": "ACARS",
-      "flight": "CK0606",
-      "tail": "B-226V",
-      "freq": 131.825,
-      "level": -43.4,
-      "label": "H1",
-      "msgno": "O01A",
-      "text": "SS0340F_ 14\r\nB-226V  CKK606EGSSZSPD141126150046ER\r\n28134998825-1837184353168BSM79967A21\r\n1536201329 2801141126 150043\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  35001\r\n      ) 0 02N    )16.)\r"
-    },
-    {
-      "time": "14.11.2026 15:32 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -33.4,
-      "label": "H1",
-      "msgno": "D10B",
-      "text": "588  2  2\r\n 830 829 8291010 6612 9113588  1  1\r\n 4164 000) 000)19322  00)-216  3354487\r\n 4164 000) 000)19238  00)-216  3344508\r\n  6508   0)00000000200A    0    0   0)   0)\r\n  6499   0)00000000200A    0    0"
-    },
-    {
-      "time": "14.11.2026 15:32 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -39.4,
-      "label": "H1",
-      "msgno": "D10D",
-      "text": "000FA8 -2206 30\r\n19025044908490001  3536C800FA8 -2225 30\r\n11111011111101\r\n11111011111101"
-    },
-    {
-      "time": "14.11.2026 15:32 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -34.9,
-      "label": "SA",
-      "msgno": "S51A",
-      "text": "0LS152334V"
-    },
-    {
-      "time": "14.11.2026 15:35 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -32.1,
-      "label": "16",
-      "msgno": "M88A",
-      "text": "POSA1N61555E 26846,TOMBU  ,150235,329,KOKAT  ,154410,-53, 58, 680,818"
-    },
-    {
-      "time": "14.11.2026 15:38 UTC",
-      "source": "ACARS",
-      "flight": "CK0204",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -28.5,
-      "label": "H1",
-      "msgno": "O79A",
-      "text": "SS0340F_115\r\nB-2076  CKK204LFPGZSPD141126152924ER\r\n29132996817-2175189793168BSM79967A21\r\n7766101645 2701141126 153815\r\n7666100627 2700)\r\n7666100627 2700)\r\n10001111111111111\r\n  32994\r\n  3300)12 06N3276)16.)\r"
-    },
-    {
       "time": "14.11.2026 15:38 UTC",
       "source": "ACARS",
       "flight": "CK0204",
@@ -329,6 +252,83 @@
       "label": "11",
       "msgno": "M52A",
       "text": "POS\r\nCAS 262,LAT N 61.370,LON E 26.434,ALT 37009,FOB 122320,UTC 202932,PD ----.--,WD 302,WS   72,TAT - 27"
+    },
+    {
+      "time": "14.11.2026 20:30 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -32.6,
+      "label": "_d",
+      "msgno": "S17A",
+      "text": "No text"
+    },
+    {
+      "time": "14.11.2026 20:31 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -31.8,
+      "label": "H1",
+      "msgno": "C59A",
+      "text": ".1/WRN/WN2611142031  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "14.11.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -32.2,
+      "label": "H1",
+      "msgno": "C60A",
+      "text": ".1/WRN/WN2611142032  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "14.11.2026 20:32 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -30.0,
+      "label": "H1",
+      "msgno": "C61A",
+      "text": ".1/FLR/FR2611142031  34361606MMR2   1,IR1,IR3,IR2,AFS,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
+    },
+    {
+      "time": "14.11.2026 20:33 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -28.4,
+      "label": "H1",
+      "msgno": "C62A",
+      "text": ".1/FLR/FR2611142032  34123406AFS    1,,,,,,,ADIRU1(1FP1)/           FMGEC1(1CA1),HARD"
+    },
+    {
+      "time": "14.11.2026 20:33 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -28.3,
+      "label": "SA",
+      "msgno": "S18A",
+      "text": "0LS203348V"
+    },
+    {
+      "time": "14.11.2026 20:34 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-5902",
+      "freq": 131.725,
+      "level": -27.4,
+      "label": "SA",
+      "msgno": "S18A",
+      "text": "0LS203348V"
     }
   ]
 }
