@@ -6,61 +6,6 @@
       "flight": "CA1007",
       "tail": "B-2098",
       "freq": 131.825,
-      "level": -39.6,
-      "label": "_d",
-      "msgno": "S74A",
-      "text": "No text"
-    },
-    {
-      "time": "14.11.2026 11:31 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -36.1,
-      "label": "H1",
-      "msgno": "E09A",
-      "text": "AIS,R,CLOSED,CLOSED,OPEN,OPEN,OPEN,OPEN,CLOSED,CLOSED,165,165,44,43,42,42,160,159,56,63,83,83,OPEN,CLOSED,OPEN,CLOSED,CRUISE,5200,0,100,AUTO,8.5,0.10,0.22,L,,,,14,NOV,26,11,18,10"
-    },
-    {
-      "time": "14.11.2026 11:31 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -36.6,
-      "label": "_d",
-      "msgno": "S75A",
-      "text": "No text"
-    },
-    {
-      "time": "14.11.2026 11:31 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -37.1,
-      "label": "H1",
-      "msgno": "E10A",
-      "text": "EPC,R,A CTRL,B,A,B CTRL,83.2,83.2,83.2,83.2,83.2,83.3,101.4,101.4,101.5,101.6,101.5,101.6,57.8,57.7,57.8,57.7,-0.1,0.3,0.3,0.6,0.5,0.2,0.4,-0.2,3.0,3.0,3.0,3.0,166,165,166,166,-20,-20,-21,-21,39,39,39,39,45"
-    },
-    {
-      "time": "14.11.2026 11:31 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2098",
-      "freq": 131.825,
-      "level": -37.9,
-      "label": "H1",
-      "msgno": "E10B",
-      "text": "8,458,463,461,12,11,11,12,79,79,80,80,62,62,62,62,,,,,,14,NOV,26,11,18,17,100,100,100,100,,,,,96,97,96,97,OPEN,OPEN,OPEN,OPEN,OPEN,OPEN,OPEN,OPEN,68,67,67,67,73,72,71,71,2,2,3,2,6,6,7,7,0260,0240,02A0,0280,"
-    },
-    {
-      "time": "14.11.2026 11:31 UTC",
-      "source": "ACARS",
-      "flight": "CA1007",
-      "tail": "B-2098",
-      "freq": 131.825,
       "level": -35.5,
       "label": "H1",
       "msgno": "E10C",
@@ -328,6 +273,61 @@
       "level": -38.1,
       "label": "_d",
       "msgno": "S42A",
+      "text": "No text"
+    },
+    {
+      "time": "14.11.2026 16:11 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -39.0,
+      "label": "B9",
+      "msgno": "J21A",
+      "text": "/ESSA.TI2/000ESSAA63EA"
+    },
+    {
+      "time": "14.11.2026 16:11 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -43.4,
+      "label": "_d",
+      "msgno": "S54A",
+      "text": "No text"
+    },
+    {
+      "time": "14.11.2026 16:12 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -42.0,
+      "label": "11",
+      "msgno": "M61A",
+      "text": "POS\r\nCAS 266,LAT N 62.014,LON E 25.232,ALT 35997,FOB 39120,UTC 161203,PD ----.--,WD 315,WS   56,TAT - 25"
+    },
+    {
+      "time": "14.11.2026 16:12 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -41.6,
+      "label": "17",
+      "msgno": "M62A",
+      "text": "ETA\r\nDEP ZSPD,DES ESSA,ETA 1657,FOB 38960,UTC 161233"
+    },
+    {
+      "time": "14.11.2026 16:14 UTC",
+      "source": "ACARS",
+      "flight": "MU0289",
+      "tail": "B-6538",
+      "freq": 131.725,
+      "level": -38.5,
+      "label": "_d",
+      "msgno": "S63A",
       "text": "No text"
     }
   ]
