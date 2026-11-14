@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.11.2026 07:00 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -37.7,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "14.11.2026 07:00 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFHK.TI2/024EFHKAFE13"
-    },
-    {
-      "time": "14.11.2026 07:01 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -40.1,
-      "label": "_d",
-      "msgno": "S45A",
-      "text": "No text"
-    },
-    {
       "time": "14.11.2026 07:14 UTC",
       "source": "ACARS",
       "flight": "CK0605",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "S51A",
       "text": "0LS152334V"
+    },
+    {
+      "time": "14.11.2026 15:35 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -32.1,
+      "label": "16",
+      "msgno": "M88A",
+      "text": "POSA1N61555E 26846,TOMBU  ,150235,329,KOKAT  ,154410,-53, 58, 680,818"
+    },
+    {
+      "time": "14.11.2026 15:38 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -28.5,
+      "label": "H1",
+      "msgno": "O79A",
+      "text": "SS0340F_115\r\nB-2076  CKK204LFPGZSPD141126152924ER\r\n29132996817-2175189793168BSM79967A21\r\n7766101645 2701141126 153815\r\n7666100627 2700)\r\n7666100627 2700)\r\n10001111111111111\r\n  32994\r\n  3300)12 06N3276)16.)\r"
+    },
+    {
+      "time": "14.11.2026 15:38 UTC",
+      "source": "ACARS",
+      "flight": "CK0204",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -29.3,
+      "label": "H1",
+      "msgno": "O79B",
+      "text": "SS0340F_115\r\nB-2076  CKK204LFPGZSPD141126152924ER\r\n29132996817-2175189793168BSM79967A21\r\n7766101645 2701141126 153815\r\n7666100627 2700)\r\n7666100627 2700)\r\n10001111111111111\r\n  32994\r\n  3300)12 06N3276)16.)\r\n  3299)12 06N3276)16.)\r\n141126152924\r\n141126152924\r\n141126152924"
     }
   ]
 }
