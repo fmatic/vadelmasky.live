@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.11.2026 05:52 UTC",
-      "source": "ACARS",
-      "flight": "N70361",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -36.2,
-      "label": "HX",
-      "msgno": "S18A",
-      "text": "/HELATXA.A9 CRC /HELATXA.TI2/EFKU ARR ATIS Q\r\n0550Z RWY 15 IN USE\r\nRWY 15 COND REP AT\r\n 0524 UTC RWYCC 4\r\n DOWNGRADED , 4\r\n DOWNGRADED , 4\r\n DOWNGRADED ALL PARTS\r\n 10"
-    },
-    {
-      "time": "14.11.2026 05:54 UTC",
-      "source": "ACARS",
-      "flight": "N70361",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -42.7,
-      "label": "_d",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
       "time": "14.11.2026 05:54 UTC",
       "source": "ACARS",
       "flight": "N70361",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "O99A",
       "text": "SB0122BA_B-226V  EGSSZSPD156\r\n 61827 0266381454 34941-510305053010/9W010012"
+    },
+    {
+      "time": "14.11.2026 15:00 UTC",
+      "source": "ACARS",
+      "flight": "N40285",
+      "tail": "RA73316",
+      "freq": 131.725,
+      "level": -41.7,
+      "label": "Q0",
+      "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "14.11.2026 15:00 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -43.4,
+      "label": "H1",
+      "msgno": "O01A",
+      "text": "SS0340F_ 14\r\nB-226V  CKK606EGSSZSPD141126150046ER\r\n28134998825-1837184353168BSM79967A21\r\n1536201329 2801141126 150043\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  35001\r\n      ) 0 02N    )16.)\r"
     }
   ]
 }
