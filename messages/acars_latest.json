@@ -6,28 +6,6 @@
       "flight": "N70361",
       "tail": "OH-ATH",
       "freq": 131.825,
-      "level": -32.5,
-      "label": "Q0",
-      "msgno": "S16A",
-      "text": "No text"
-    },
-    {
-      "time": "14.11.2026 05:52 UTC",
-      "source": "ACARS",
-      "flight": "N70361",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -31.7,
-      "label": "B9",
-      "msgno": "L02A",
-      "text": "/EFKU.TI2/024EFKUA873F"
-    },
-    {
-      "time": "14.11.2026 05:52 UTC",
-      "source": "ACARS",
-      "flight": "N70361",
-      "tail": "OH-ATH",
-      "freq": 131.825,
       "level": -33.1,
       "label": "SA",
       "msgno": "S17A",
@@ -329,6 +307,28 @@
       "label": "5V",
       "msgno": "S21A",
       "text": "No text"
+    },
+    {
+      "time": "14.11.2026 14:50 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -43.6,
+      "label": "SA",
+      "msgno": "S32A",
+      "text": "0LS145018V"
+    },
+    {
+      "time": "14.11.2026 14:53 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -29.9,
+      "label": "16",
+      "msgno": "M43A",
+      "text": "POSA1N61770E 26348,DODAM  ,141730,342,KOKAT  ,151153,-52, 52, 656,820"
     }
   ]
 }
