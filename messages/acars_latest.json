@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.11.2026 04:16 UTC",
-      "source": "ACARS",
-      "flight": "JD0671",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -33.0,
-      "label": "SA",
-      "msgno": "S50A",
-      "text": "0LS041609VH"
-    },
-    {
       "time": "14.11.2026 04:17 UTC",
       "source": "ACARS",
       "flight": "JD0671",
@@ -329,6 +318,17 @@
       "label": "16",
       "msgno": "M89A",
       "text": "POSA1N61812E 27091,AGIVU  ,120706,319,NISIX  ,125028,-49, 44, 241,829"
+    },
+    {
+      "time": "14.11.2026 12:22 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-220F",
+      "freq": 131.825,
+      "level": -40.3,
+      "label": "SA",
+      "msgno": "S34A",
+      "text": "0LS122253V"
     }
   ]
 }
