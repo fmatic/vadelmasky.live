@@ -6,17 +6,6 @@
       "flight": "MU0708",
       "tail": "B-5902",
       "freq": 131.725,
-      "level": -32.2,
-      "label": "H1",
-      "msgno": "C60A",
-      "text": ".1/WRN/WN2611142032  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "14.11.2026 20:32 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5902",
-      "freq": 131.725,
       "level": -30.0,
       "label": "H1",
       "msgno": "C61A",
@@ -328,6 +317,17 @@
       "level": -31.9,
       "label": "5V",
       "msgno": "S91A",
+      "text": "No text"
+    },
+    {
+      "time": "15.11.2026 09:11 UTC",
+      "source": "ACARS",
+      "flight": "B2BRU9",
+      "tail": "EW456PA",
+      "freq": 131.725,
+      "level": -43.0,
+      "label": "Q0",
+      "msgno": "S93A",
       "text": "No text"
     }
   ]
