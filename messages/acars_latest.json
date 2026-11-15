@@ -6,17 +6,6 @@
       "flight": "N70369",
       "tail": "OH-ATG",
       "freq": 131.825,
-      "level": -35.4,
-      "label": "Q0",
-      "msgno": "S25A",
-      "text": "No text"
-    },
-    {
-      "time": "15.11.2026 15:09 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATG",
-      "freq": 131.825,
       "level": -36.9,
       "label": "SA",
       "msgno": "S26A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C52A",
       "text": ".1/FLR/FR2611152021  34361606MMR1   1,IR2,MMR2,IR3,IR1,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "15.11.2026 22:10 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -29.7,
+      "label": "10",
+      "msgno": "M03A",
+      "text": "POS152210,N 61.498,E 26.432,0549,522250,,,34999,106560"
     }
   ]
 }
