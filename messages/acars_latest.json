@@ -1,83 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.11.2026 16:11 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -43.4,
-      "label": "_d",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
-      "time": "14.11.2026 16:12 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -42.0,
-      "label": "11",
-      "msgno": "M61A",
-      "text": "POS\r\nCAS 266,LAT N 62.014,LON E 25.232,ALT 35997,FOB 39120,UTC 161203,PD ----.--,WD 315,WS   56,TAT - 25"
-    },
-    {
-      "time": "14.11.2026 16:12 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -41.6,
-      "label": "17",
-      "msgno": "M62A",
-      "text": "ETA\r\nDEP ZSPD,DES ESSA,ETA 1657,FOB 38960,UTC 161233"
-    },
-    {
-      "time": "14.11.2026 16:14 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -38.5,
-      "label": "_d",
-      "msgno": "S63A",
-      "text": "No text"
-    },
-    {
-      "time": "14.11.2026 19:48 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -32.3,
-      "label": "11",
-      "msgno": "M89A",
-      "text": "POS\r\nCAS 271,LAT N 61.654,LON E 26.001,ALT 35005,FOB 125400,UTC 194817,PD ----.--,WD 313,WS   70,TAT - 31"
-    },
-    {
-      "time": "14.11.2026 19:49 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -25.5,
-      "label": "_d",
-      "msgno": "S09A",
-      "text": "No text"
-    },
-    {
-      "time": "14.11.2026 19:49 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-6538",
-      "freq": 131.725,
-      "level": -28.9,
-      "label": "H1",
-      "msgno": "C29A",
-      "text": ".1/WRN/WN2611141949  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "14.11.2026 19:50 UTC",
       "source": "ACARS",
       "flight": "MU0290",
@@ -329,6 +252,83 @@
       "label": "SA",
       "msgno": "S74A",
       "text": "0LS072238V"
+    },
+    {
+      "time": "15.11.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -30.0,
+      "label": "Q0",
+      "msgno": "S74A",
+      "text": "No text"
+    },
+    {
+      "time": "15.11.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -30.5,
+      "label": "SA",
+      "msgno": "S75A",
+      "text": "0EV085123V"
+    },
+    {
+      "time": "15.11.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "B9",
+      "msgno": "L07A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "15.11.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -31.6,
+      "label": "_d",
+      "msgno": "S76A",
+      "text": "No text"
+    },
+    {
+      "time": "15.11.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -33.2,
+      "label": "80",
+      "msgno": "M08A",
+      "text": "3701 INRANG 0482/15 EFKS/EFHK .OH-ATE\r\n/ETA 0922/ERT     "
+    },
+    {
+      "time": "15.11.2026 08:51 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -32.6,
+      "label": "_d",
+      "msgno": "S77A",
+      "text": "No text"
+    },
+    {
+      "time": "15.11.2026 08:52 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -30.0,
+      "label": "_d",
+      "msgno": "S78A",
+      "text": "No text"
     }
   ]
 }
