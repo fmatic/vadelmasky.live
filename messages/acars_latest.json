@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.11.2026 16:31 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -35.4,
-      "label": "Q0",
-      "msgno": "S58A",
-      "text": "No text"
-    },
-    {
-      "time": "15.11.2026 16:31 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "SA",
-      "msgno": "S59A",
-      "text": "0EV163155V"
-    },
-    {
       "time": "15.11.2026 16:32 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S13A",
       "text": "0LS221906VH"
+    },
+    {
+      "time": "15.11.2026 22:21 UTC",
+      "source": "ACARS",
+      "flight": "N70419",
+      "tail": "OH-ATE",
+      "freq": 131.825,
+      "level": -39.6,
+      "label": "SA",
+      "msgno": "S11A",
+      "text": "0EV222134V"
+    },
+    {
+      "time": "15.11.2026 22:25 UTC",
+      "source": "ACARS",
+      "flight": "N70375",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -34.8,
+      "label": "H1",
+      "msgno": "D09A",
+      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20375,151126,2224,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2206,.18020,-014/F1TORQ,NP,N"
     }
   ]
 }
