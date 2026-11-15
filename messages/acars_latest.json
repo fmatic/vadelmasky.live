@@ -6,17 +6,6 @@
       "flight": "JD0677",
       "tail": "B-32MG",
       "freq": 131.825,
-      "level": -26.3,
-      "label": "H1",
-      "msgno": "D06A",
-      "text": "001022900201010734145\r\nR01/A33001,1,1\r\nC1,.B-32MG,26NOV15,14.21.22,UAKK,ENGM,CBJ677    ,5000,190\r\nC2,001,06.0,000000,D1533RR07C0HND7,000,052,052\r\nC3,-38.8,38002,0.817,111,1.03,111,10,0,01,111,1.03,X\r\nC4,-39"
-    },
-    {
-      "time": "15.11.2026 14:21 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
       "level": -33.1,
       "label": "H1",
       "msgno": "D06B",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S58A",
       "text": "No text"
+    },
+    {
+      "time": "15.11.2026 19:40 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -45.3,
+      "label": "SA",
+      "msgno": "S59A",
+      "text": "0LS194023V"
     }
   ]
 }
