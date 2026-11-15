@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.11.2026 12:51 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1266",
-      "freq": 131.825,
-      "level": -40.7,
-      "label": "81",
-      "msgno": "M51A",
-      "text": "/PEKADCA.PESEL ETA 1426Z\r\nFOB 24.3T\r\nFL340\r\nGW 257.8T\r\nOIL L16 R15\r\n"
-    },
-    {
       "time": "15.11.2026 12:52 UTC",
       "source": "ACARS",
       "flight": "CA0939",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C06B",
       "text": "RTE 1 15NOV26 1359 CKB-222Z CKK606 EGSS/ZSPD 3111-BCG-00W-20 R 1141 15NOV26\r\nFDE 34503141 I 1357 15NOV26\r\nMSG 3169862 I 1357 15NOV26 ER I 1 PL\r\nDB RIGHT AIMS\r\nMSG 3169861 I 1357 15NOV26 ER I 1 PL\r\nDB LEFT AIMS\r\nEOR\r\n"
+    },
+    {
+      "time": "15.11.2026 14:12 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "Q0",
+      "msgno": "S18A",
+      "text": "No text"
     }
   ]
 }
