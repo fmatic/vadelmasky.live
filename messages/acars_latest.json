@@ -6,28 +6,6 @@
       "flight": "N70482",
       "tail": "OH-ATE",
       "freq": 131.825,
-      "level": -31.6,
-      "label": "_d",
-      "msgno": "S76A",
-      "text": "No text"
-    },
-    {
-      "time": "15.11.2026 08:51 UTC",
-      "source": "ACARS",
-      "flight": "N70482",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -33.2,
-      "label": "80",
-      "msgno": "M08A",
-      "text": "3701 INRANG 0482/15 EFKS/EFHK .OH-ATE\r\n/ETA 0922/ERT     "
-    },
-    {
-      "time": "15.11.2026 08:51 UTC",
-      "source": "ACARS",
-      "flight": "N70482",
-      "tail": "OH-ATE",
-      "freq": 131.825,
       "level": -32.6,
       "label": "_d",
       "msgno": "S77A",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S70A",
       "text": "No text"
+    },
+    {
+      "time": "15.11.2026 12:51 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-1266",
+      "freq": 131.825,
+      "level": -40.7,
+      "label": "81",
+      "msgno": "M51A",
+      "text": "/PEKADCA.PESEL ETA 1426Z\r\nFOB 24.3T\r\nFL340\r\nGW 257.8T\r\nOIL L16 R15\r\n"
+    },
+    {
+      "time": "15.11.2026 12:52 UTC",
+      "source": "ACARS",
+      "flight": "CA0939",
+      "tail": "B-1266",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "H1",
+      "msgno": "O36A",
+      "text": "SB0122BA_B-1266  ZBAALIRF136\r\n 61566 0283931210 33999-6002810710107GX011012"
     }
   ]
 }
