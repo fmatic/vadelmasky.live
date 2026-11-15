@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.11.2026 12:52 UTC",
-      "source": "ACARS",
-      "flight": "CA0939",
-      "tail": "B-1266",
-      "freq": 131.825,
-      "level": -38.9,
-      "label": "H1",
-      "msgno": "O36A",
-      "text": "SB0122BA_B-1266  ZBAALIRF136\r\n 61566 0283931210 33999-6002810710107GX011012"
-    },
-    {
       "time": "15.11.2026 12:57 UTC",
       "source": "ACARS",
       "flight": "CA0939",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "S18A",
       "text": "No text"
+    },
+    {
+      "time": "15.11.2026 14:16 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -28.3,
+      "label": "14",
+      "msgno": "M20A",
+      "text": "POS\r\n15NOV,1416,262,37994,N 61.836,E 27.073,27300,  74,165"
     }
   ]
 }
