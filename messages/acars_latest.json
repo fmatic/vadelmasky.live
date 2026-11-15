@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.11.2026 15:11 UTC",
-      "source": "ACARS",
-      "flight": "N70369",
-      "tail": "OH-ATG",
-      "freq": 131.825,
-      "level": -44.2,
-      "label": "_d",
-      "msgno": "S29A",
-      "text": "No text"
-    },
-    {
       "time": "15.11.2026 16:31 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C19A",
       "text": ".1/FLR/FR2611152213  34361606MMR1   1,,,,,,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "15.11.2026 22:19 UTC",
+      "source": "ACARS",
+      "flight": "CA3158",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -41.4,
+      "label": "SA",
+      "msgno": "S13A",
+      "text": "0LS221906VH"
     }
   ]
 }
