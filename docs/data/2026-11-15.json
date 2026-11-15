@@ -102,7 +102,7 @@
       "speed": null,
       "track": null,
       "seen_first": "2026-11-15T02:39:01.245422",
-      "last_seen": "2026-11-15T12:55:02.187295"
+      "last_seen": "2026-11-15T12:57:02.138104"
     },
     "461f4e": {
       "hex": "461f4e",
@@ -379,21 +379,47 @@
     },
     "461f30": {
       "hex": "461f30",
-      "flight": "",
+      "flight": "FIN2PD",
       "reg": "OH-LVC",
       "type": "A319",
       "lat": null,
       "lon": null,
-      "alt": null,
+      "alt": 23050,
+      "speed": 390.0,
+      "track": 181.58,
+      "seen_first": "2026-11-15T12:54:01.904420",
+      "last_seen": "2026-11-15T12:58:01.387888"
+    },
+    "4632b0": {
+      "hex": "4632b0",
+      "flight": "ABF9",
+      "reg": "OH-TFC",
+      "type": "E550",
+      "lat": 61.861908,
+      "lon": 25.622177,
+      "alt": 12800,
+      "speed": 385.7,
+      "track": 21.44,
+      "seen_first": "2026-11-15T12:58:01.387888",
+      "last_seen": "2026-11-15T13:00:01.996748"
+    },
+    "7813c1": {
+      "hex": "7813c1",
+      "flight": "CA0939",
+      "reg": "B-1266",
+      "type": "B77W",
+      "lat": 61.25,
+      "lon": 27.19,
+      "alt": 33996,
       "speed": null,
       "track": null,
-      "seen_first": "2026-11-15T12:54:01.904420",
-      "last_seen": "2026-11-15T12:55:02.187295"
+      "seen_first": "2026-11-15T12:59:01.686064",
+      "last_seen": "2026-11-15T13:00:01.996748"
     }
   },
   "summary": {
-    "total_unique_aircraft": 30,
+    "total_unique_aircraft": 32,
     "last_seen_live": 2,
-    "updated": "2026-11-15T12:55:02.187295"
+    "updated": "2026-11-15T13:00:01.996748"
   }
 }
