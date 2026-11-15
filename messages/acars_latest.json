@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "14.11.2026 20:32 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-5902",
-      "freq": 131.725,
-      "level": -30.0,
-      "label": "H1",
-      "msgno": "C61A",
-      "text": ".1/FLR/FR2611142031  34361606MMR2   1,IR1,IR3,IR2,AFS,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
       "time": "14.11.2026 20:33 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -328,6 +317,17 @@
       "level": -43.0,
       "label": "Q0",
       "msgno": "S93A",
+      "text": "No text"
+    },
+    {
+      "time": "15.11.2026 09:53 UTC",
+      "source": "ACARS",
+      "flight": "N70285",
+      "tail": "OH-ATG",
+      "freq": 131.825,
+      "level": -37.6,
+      "label": "Q0",
+      "msgno": "S31A",
       "text": "No text"
     }
   ]
