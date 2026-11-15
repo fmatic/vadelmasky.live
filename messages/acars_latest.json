@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.11.2026 14:00 UTC",
-      "source": "ACARS",
-      "flight": "CK0606",
-      "tail": "B-222Z",
-      "freq": 131.825,
-      "level": -29.7,
-      "label": "H1",
-      "msgno": "C06B",
-      "text": "RTE 1 15NOV26 1359 CKB-222Z CKK606 EGSS/ZSPD 3111-BCG-00W-20 R 1141 15NOV26\r\nFDE 34503141 I 1357 15NOV26\r\nMSG 3169862 I 1357 15NOV26 ER I 1 PL\r\nDB RIGHT AIMS\r\nMSG 3169861 I 1357 15NOV26 ER I 1 PL\r\nDB LEFT AIMS\r\nEOR\r\n"
-    },
-    {
-      "time": "15.11.2026 14:12 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -35.6,
-      "label": "Q0",
-      "msgno": "S18A",
-      "text": "No text"
-    },
-    {
-      "time": "15.11.2026 14:16 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -28.3,
-      "label": "14",
-      "msgno": "M20A",
-      "text": "POS\r\n15NOV,1416,262,37994,N 61.836,E 27.073,27300,  74,165"
-    },
-    {
       "time": "15.11.2026 14:21 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +296,39 @@
       "label": "16",
       "msgno": "M48A",
       "text": "POSA1N61441E 26920,ALAMI  ,185647,309,KOKAT  ,195050,-55, 61, 758,830"
+    },
+    {
+      "time": "15.11.2026 19:37 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "H1",
+      "msgno": "O47A",
+      "text": "SS0340F_ 27\r\nB-226V  CKK206EHAMZSPD151126193700ER\r\n30931001829-2537182183168BSM79967A21\r\n6536101588 2701151126 193657\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30999\r\n      ) 0 02N    )16.)\r"
+    },
+    {
+      "time": "15.11.2026 19:37 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -39.7,
+      "label": "H1",
+      "msgno": "O47B",
+      "text": "SS0340F_ 27\r\nB-226V  CKK206EHAMZSPD151126193700ER\r\n30931001829-2537182183168BSM79967A21\r\n6536101588 2701151126 193657\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30999\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n151126193700\r\n111111111111\r\n111111111111"
+    },
+    {
+      "time": "15.11.2026 19:38 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -37.9,
+      "label": "_d",
+      "msgno": "S58A",
+      "text": "No text"
     }
   ]
 }
