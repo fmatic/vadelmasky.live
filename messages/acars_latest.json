@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.11.2026 13:59 UTC",
-      "source": "ACARS",
-      "flight": "CK0606",
-      "tail": "B-222Z",
-      "freq": 131.825,
-      "level": -29.2,
-      "label": "H1",
-      "msgno": "C06A",
-      "text": "RTE 1 15NOV26 1359 CKB-222Z CKK606 EGSS/ZSPD 3111-BCG-00W-20 R 1141 15NOV26\r\nFDE 34503141 I 1357 15NOV26\r\nMSG 3169862 I 1357 15NOV26 ER I 1 PL\r\nDB RIGHT AIMS\r\nMSG 3169861 I 1357 15NOV26 ER I 1 PL\r\nDB LEFT A"
-    },
-    {
       "time": "15.11.2026 14:00 UTC",
       "source": "ACARS",
       "flight": "CK0606",
@@ -329,6 +318,17 @@
       "label": "80",
       "msgno": "M27A",
       "text": "3701 INRANG 0416/15 EFKI/EFHK .OH-ATO\r\n/ETA 1844/ERT     "
+    },
+    {
+      "time": "15.11.2026 19:34 UTC",
+      "source": "ACARS",
+      "flight": "CK0206",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "16",
+      "msgno": "M48A",
+      "text": "POSA1N61441E 26920,ALAMI  ,185647,309,KOKAT  ,195050,-55, 61, 758,830"
     }
   ]
 }
