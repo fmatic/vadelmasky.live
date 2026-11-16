@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "16.11.2026 03:34 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -42.3,
-      "label": "_d",
-      "msgno": "S12A",
-      "text": "No text"
-    },
-    {
       "time": "16.11.2026 03:40 UTC",
       "source": "ACARS",
       "flight": "N70376",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S55A",
       "text": "No text"
+    },
+    {
+      "time": "16.11.2026 06:58 UTC",
+      "source": "ACARS",
+      "flight": "N70362",
+      "tail": "OH-ATN",
+      "freq": 131.825,
+      "level": -27.6,
+      "label": "H1",
+      "msgno": "D05B",
+      "text": "L/F2080.4,082.0,095.4/F3080.4,082.0,094.5/G1NH,ITT,FF,IG/G2095.9,0667.7,395,0081/G3096.0,0662.7,375,0083/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.75/**.,EOT,...,/"
     }
   ]
 }
