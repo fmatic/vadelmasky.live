@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "15.11.2026 22:21 UTC",
-      "source": "ACARS",
-      "flight": "N70419",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -39.6,
-      "label": "SA",
-      "msgno": "S11A",
-      "text": "0EV222134V"
-    },
-    {
-      "time": "15.11.2026 22:25 UTC",
-      "source": "ACARS",
-      "flight": "N70375",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "H1",
-      "msgno": "D09A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20375,151126,2224,09/D1ENGINE,S.N/D2ESN1,EB0264/D3ESN2,ED1449/E1IAS,ALT,TAT/E2206,.18020,-014/F1TORQ,NP,N"
-    },
-    {
       "time": "15.11.2026 22:25 UTC",
       "source": "ACARS",
       "flight": "N70375",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "D00A",
       "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2NOV15,2247,0289/C1GMT,ACC/C22211,.0.79,FLT/C32213,.1.41,FLT/C42244,.1.28,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
+    },
+    {
+      "time": "16.11.2026 04:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATM",
+      "freq": 131.725,
+      "level": -33.1,
+      "label": "5V",
+      "msgno": "S03A",
+      "text": "No text"
+    },
+    {
+      "time": "16.11.2026 04:00 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -17.0,
+      "label": "5V",
+      "msgno": "S03A",
+      "text": "No text"
     }
   ]
 }
