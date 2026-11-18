@@ -19,7 +19,16 @@ echo "UTC day: $TODAY"
 # 1. Update repository first
 # ------------------------------------------------------------
 
-git pull --rebase --autostash origin main
+# Safety guard: do not run Git operations if disk space is critically low
+FREE_KB=$(df --output=avail / | tail -1)
+
+if [ "$FREE_KB" -lt 1048576 ]; then
+  echo "ERROR: Less than 1 GiB free disk space, skipping publish"
+  exit 1
+fi
+
+# This repository is the publishing source.
+# Do not automatically pull/rebase on every scheduled run.
 
 
 # ------------------------------------------------------------
