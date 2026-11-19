@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.11.2026 03:39 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -40.8,
-      "label": "80",
-      "msgno": "M19A",
-      "text": "3701 INRANG 0376/19 EFKU/EFHK .OH-ATH\r\n/ETA 0416/ERT     \r\nF/AY1071/2.0"
-    },
-    {
-      "time": "19.11.2026 03:40 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -40.9,
-      "label": "_d",
-      "msgno": "S13A",
-      "text": "No text"
-    },
-    {
-      "time": "19.11.2026 03:43 UTC",
-      "source": "ACARS",
-      "flight": "N70376",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -30.3,
-      "label": "H1",
-      "msgno": "D01A",
-      "text": "A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20376,191126,0342,09/D1ENGINE,S.N/D2ESN1,ED1499/D3ESN2,ED2152/E1IAS,ALT,TAT/E2213,.18009,-015/F1TORQ,NP,N"
-    },
-    {
       "time": "19.11.2026 03:43 UTC",
       "source": "ACARS",
       "flight": "N70376",
@@ -329,6 +296,39 @@
       "label": "_d",
       "msgno": "S65A",
       "text": "No text"
+    },
+    {
+      "time": "19.11.2026 21:01 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -39.3,
+      "label": "H1",
+      "msgno": "C68A",
+      "text": ".1/WRN/WN2611192101  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "19.11.2026 21:01 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -45.1,
+      "label": "SA",
+      "msgno": "S66A",
+      "text": "0LS210123V"
+    },
+    {
+      "time": "19.11.2026 21:02 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -38.4,
+      "label": "H1",
+      "msgno": "C69A",
+      "text": ".1/FLR/FR2611192100  34361606MMR1   1,IR3,IR2,IR1,MMR2,AFS,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
     }
   ]
 }
