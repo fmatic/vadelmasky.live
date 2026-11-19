@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.11.2026 22:24 UTC",
-      "source": "ACARS",
-      "flight": "N70375",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -38.3,
-      "label": "_d",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "19.11.2026 02:33 UTC",
-      "source": "ACARS",
-      "flight": "BR0071",
-      "tail": "B-16713",
-      "freq": 131.725,
-      "level": -43.3,
-      "label": "H1",
-      "msgno": "O59A",
-      "text": "SB0122BA_B-16713 RCTPEDDM331\r\n 61375 0276040233 35996-600175041010W/X009012"
-    },
-    {
       "time": "19.11.2026 03:39 UTC",
       "source": "ACARS",
       "flight": "N70376",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C51A",
       "text": ".1/FLR/FR2611192015  34123406AFS    1,,,,,,,ADIRU2(1FP2)/           FMGEC2(1CA2),HARD"
+    },
+    {
+      "time": "19.11.2026 20:59 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -37.3,
+      "label": "_d",
+      "msgno": "S64A",
+      "text": "No text"
+    },
+    {
+      "time": "19.11.2026 20:59 UTC",
+      "source": "ACARS",
+      "flight": "MU0708",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -40.0,
+      "label": "_d",
+      "msgno": "S65A",
+      "text": "No text"
     }
   ]
 }
