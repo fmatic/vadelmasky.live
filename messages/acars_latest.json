@@ -6,28 +6,6 @@
       "flight": "N70375",
       "tail": "OH-ATH",
       "freq": 131.825,
-      "level": -40.7,
-      "label": "B9",
-      "msgno": "L06A",
-      "text": "/EFKU.TI2/024EFKUA873F"
-    },
-    {
-      "time": "18.11.2026 22:24 UTC",
-      "source": "ACARS",
-      "flight": "N70375",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -39.7,
-      "label": "_d",
-      "msgno": "S20A",
-      "text": "No text"
-    },
-    {
-      "time": "18.11.2026 22:24 UTC",
-      "source": "ACARS",
-      "flight": "N70375",
-      "tail": "OH-ATH",
-      "freq": 131.825,
       "level": -38.3,
       "label": "_d",
       "msgno": "S21A",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S53A",
       "text": "0LS181608V"
+    },
+    {
+      "time": "19.11.2026 20:15 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5921",
+      "freq": 131.825,
+      "level": -42.3,
+      "label": "H1",
+      "msgno": "C50A",
+      "text": ".1/FLR/FR2611192014  34361606MMR1   1,IR3,IR2,IR1,AFS,MMR2,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
+    },
+    {
+      "time": "19.11.2026 20:16 UTC",
+      "source": "ACARS",
+      "flight": "MU0290",
+      "tail": "B-5921",
+      "freq": 131.825,
+      "level": -43.3,
+      "label": "H1",
+      "msgno": "C51A",
+      "text": ".1/FLR/FR2611192015  34123406AFS    1,,,,,,,ADIRU2(1FP2)/           FMGEC2(1CA2),HARD"
     }
   ]
 }
