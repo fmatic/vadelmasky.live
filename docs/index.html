@@ -237,17 +237,17 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">15</div>
+        <div class="value">16</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">With position</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">458.0 kt</div>
+        <div class="value">466.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">19.11.2026 04:04 UTC</div>
+        <div class="value">19.11.2026 04:09 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,20 +277,44 @@ footer {
                     <div class="flight">FIN8KH</div>
                     <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">15175 ft</div>
+                <div class="alt-badge mid">18000 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>198.3 kt</b></div>
-                    <div><span>Track</span><b>190.46°</b></div>
-                    <div><span>Position</span><b>61.9868, 25.6161</b></div>
-                    <div><span>Last seen</span><b>19.11.2026 04:04 UTC</b></div>
+                    <div><span>Speed</span><b>260.9 kt</b></div>
+                    <div><span>Track</span><b>188.6°</b></div>
+                    <div><span>Position</span><b>61.6878, 25.5110</b></div>
+                    <div><span>Last seen</span><b>19.11.2026 04:09 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATE" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">CAO1160</div>
+                    <div class="meta">ICAO 78044E · REG B-6115 · TYPE A332</div>
+                </div>
+                <div class="alt-badge high">37000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>466.0 kt</b></div>
+                    <div><span>Track</span><b>76.99°</b></div>
+                    <div><span>Position</span><b>62.2177, 26.3560</b></div>
+                    <div><span>Last seen</span><b>19.11.2026 04:09 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6115" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -866,7 +890,7 @@ EOR
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F2", "flight": "FIN8KH", "lat": 61.986786, "lon": 25.616095, "alt": 15175, "speed": 198.3, "last_seen": "19.11.2026 04:04 UTC"}];
+const aircraft = [{"hex": "4601F2", "flight": "FIN8KH", "lat": 61.687813, "lon": 25.510966, "alt": 18000, "speed": 260.9, "last_seen": "19.11.2026 04:09 UTC"}, {"hex": "78044E", "flight": "CAO1160", "lat": 62.217671, "lon": 26.35599, "alt": 37000, "speed": 466.0, "last_seen": "19.11.2026 04:09 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
