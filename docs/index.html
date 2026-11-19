@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">12</div>
+        <div class="value">13</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">19.11.2026 03:39 UTC</div>
+        <div class="value">19.11.2026 03:44 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN9D</div>
+                    <div class="meta">ICAO 4601F5 · REG OH-ATH · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18000 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>19.11.2026 03:44 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -569,6 +593,80 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">N70376</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATH · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">19.11.2026 03:43 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg D01B · Level -30.0 dB
+            </div>
+
+            <div class="acars-text">A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20376,191126,0342,09/D1ENGINE,S.N/D2ESN1,ED1499/D3ESN2,ED2152/E1IAS,ALT,TAT/E2213,.18009,-015/F1TORQ,NP,NL/F2076.4,082.0,095.4/F3076.4,082.0,094.5/G1NH,ITT,FF,IG/G2097.0,0671.6,365,0094/G3095.6,0654.0,345,0065/H1HPL,HPR,N.H,ACL,ACR/H21,1,1,0,0/I1WGT/I219.78/**.,EOT,...,/</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70376</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATH · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">19.11.2026 03:43 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label H1 · Msg D01A · Level -30.3 dB
+            </div>
+
+            <div class="acars-text">A02/ATR7250002,1,1/A1ATR72,PW127F,REPORT02/B1RT,RC,RV,MODE,AC/B2.ENG,SCR,A,2,009/C1FLT,DATE,GMT,TYP/C20376,191126,0342,09/D1ENGINE,S.N/D2ESN1,ED1499/D3ESN2,ED2152/E1IAS,ALT,TAT/E2213,.18009,-015/F1TORQ,NP,N</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70376</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATH · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">19.11.2026 03:40 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label _d · Msg S13A · Level -40.9 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">N70376</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATH · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">19.11.2026 03:39 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 80 · Msg M19A · Level -40.8 dB
+            </div>
+
+            <div class="acars-text">3701 INRANG 0376/19 EFKU/EFHK .OH-ATH
+/ETA 0416/ERT     
+F/AY1071/2.0</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">BR0071</div>
                     <div class="acars-meta">
                         ACARS · Tail B-16713 · 131.725 MHz
@@ -714,78 +812,6 @@ EOR
 
             <div class="acars-text">SB0122BA_B-2071  EGPKZGGG951
  61788 0276811648 36999-610227023010PSZ010012</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CZ2518</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2071 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.11.2026 16:44 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 18 · Msg M10A · Level -34.0 dB
-            </div>
-
-            <div class="acars-text">POX,CSG2518   ,18NOV26,164433,EGPK,ZGGG,N061.75,E0026.52,370, 664,831,  77.3,-137.7,030,-61.8,012733, 35360,</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70370</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATN · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.11.2026 16:06 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label 5V · Msg S34A · Level -38.6 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70370</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATN · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.11.2026 16:06 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S32A · Level -37.5 dB
-            </div>
-
-            <div class="acars-text">No text</div>
-        </article>
-        
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">N70370</div>
-                    <div class="acars-meta">
-                        ACARS · Tail OH-ATN · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.11.2026 16:05 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label _d · Msg S26A · Level -37.4 dB
-            </div>
-
-            <div class="acars-text">No text</div>
         </article>
         
     </div>
