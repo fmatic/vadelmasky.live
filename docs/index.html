@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">19.11.2026 03:59 UTC</div>
+        <div class="value">19.11.2026 04:04 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,16 +277,16 @@ footer {
                     <div class="flight">FIN8KH</div>
                     <div class="meta">ICAO 4601F2 · REG OH-ATE · TYPE AT75</div>
                 </div>
-                <div class="alt-badge low">7925 ft</div>
+                <div class="alt-badge mid">15175 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>170.1 kt</b></div>
-                    <div><span>Track</span><b>181.68°</b></div>
-                    <div><span>Position</span><b>62.2400, 25.6766</b></div>
-                    <div><span>Last seen</span><b>19.11.2026 03:59 UTC</b></div>
+                    <div><span>Speed</span><b>198.3 kt</b></div>
+                    <div><span>Track</span><b>190.46°</b></div>
+                    <div><span>Position</span><b>61.9868, 25.6161</b></div>
+                    <div><span>Last seen</span><b>19.11.2026 04:04 UTC</b></div>
                 </div>
             </div>
 
@@ -641,6 +641,24 @@ footer {
         <article class="acars-card">
             <div class="acars-head">
                 <div>
+                    <div class="acars-flight">N70290</div>
+                    <div class="acars-meta">
+                        ACARS · Tail OH-ATE · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">19.11.2026 04:02 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg S02A · Level -35.8 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
                     <div class="acars-flight">N70376</div>
                     <div class="acars-meta">
                         ACARS · Tail OH-ATH · 131.825 MHz
@@ -843,31 +861,12 @@ EOR
 </div>
         </article>
         
-        <article class="acars-card">
-            <div class="acars-head">
-                <div>
-                    <div class="acars-flight">CZ2518</div>
-                    <div class="acars-meta">
-                        ACARS · Tail B-2071 · 131.825 MHz
-                    </div>
-                </div>
-                <div class="acars-meta">18.11.2026 16:49 UTC</div>
-            </div>
-
-            <div class="acars-meta">
-                Label H1 · Msg O96A · Level -37.3 dB
-            </div>
-
-            <div class="acars-text">SB0122BA_B-2071  EGPKZGGG951
- 61788 0276811648 36999-610227023010PSZ010012</div>
-        </article>
-        
     </div>
 </section>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F2", "flight": "FIN8KH", "lat": 62.23997, "lon": 25.676633, "alt": 7925, "speed": 170.1, "last_seen": "19.11.2026 03:59 UTC"}];
+const aircraft = [{"hex": "4601F2", "flight": "FIN8KH", "lat": 61.986786, "lon": 25.616095, "alt": 15175, "speed": 198.3, "last_seen": "19.11.2026 04:04 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
