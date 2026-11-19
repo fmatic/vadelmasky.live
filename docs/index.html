@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">3</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">2</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">19.11.2026 05:59 UTC</div>
+        <div class="value">19.11.2026 06:04 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,30 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7AZ</div>
+                    <div class="meta">ICAO 461F63 · REG OH-LXB · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">33250 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>390.0 kt</b></div>
+                    <div><span>Track</span><b>189.32°</b></div>
+                    <div><span>Position</span><b>61.6074, 24.9991</b></div>
+                    <div><span>Last seen</span><b>19.11.2026 06:04 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXB" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -283,10 +307,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>238.8 kt</b></div>
-                    <div><span>Track</span><b>18.06°</b></div>
-                    <div><span>Position</span><b>61.4472, 25.4299</b></div>
-                    <div><span>Last seen</span><b>19.11.2026 05:59 UTC</b></div>
+                    <div><span>Speed</span><b>277.0 kt</b></div>
+                    <div><span>Track</span><b>18.3°</b></div>
+                    <div><span>Position</span><b>61.9801, 25.9427</b></div>
+                    <div><span>Last seen</span><b>19.11.2026 06:04 UTC</b></div>
                 </div>
             </div>
 
@@ -307,10 +331,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>446.0 kt</b></div>
-                    <div><span>Track</span><b>245.39°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>19.11.2026 05:59 UTC</b></div>
+                    <div><span>Speed</span><b>442.0 kt</b></div>
+                    <div><span>Track</span><b>244.34°</b></div>
+                    <div><span>Position</span><b>61.2380, 25.3118</b></div>
+                    <div><span>Last seen</span><b>19.11.2026 06:04 UTC</b></div>
                 </div>
             </div>
 
@@ -531,30 +555,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATH" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 461F63 · REG OH-LXB · TYPE A320</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>19.11.2026 03:56 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXB" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1078,7 +1078,7 @@ F/AY1071/2.0</div>
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F2", "flight": "FIN481", "lat": 61.447185, "lon": 25.429891, "alt": 19000, "speed": 238.8, "last_seen": "19.11.2026 05:59 UTC"}, {"hex": "78044E", "flight": "CAO1160", "lat": 62.311288, "lon": 27.191902, "alt": 37000, "speed": 441.4, "last_seen": "19.11.2026 04:13 UTC"}];
+const aircraft = [{"hex": "461F63", "flight": "FIN7AZ", "lat": 61.607371, "lon": 24.999084, "alt": 33250, "speed": 390.0, "last_seen": "19.11.2026 06:04 UTC"}, {"hex": "4601F2", "flight": "FIN481", "lat": 61.980148, "lon": 25.942742, "alt": 19000, "speed": 277.0, "last_seen": "19.11.2026 06:04 UTC"}, {"hex": "78037B", "flight": "CAO1153", "lat": 61.237979, "lon": 25.311788, "alt": 36000, "speed": 442.0, "last_seen": "19.11.2026 06:04 UTC"}, {"hex": "78044E", "flight": "CAO1160", "lat": 62.311288, "lon": 27.191902, "alt": 37000, "speed": 441.4, "last_seen": "19.11.2026 04:13 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
