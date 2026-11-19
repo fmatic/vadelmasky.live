@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.11.2026 14:13 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -43.9,
-      "label": "H1",
-      "msgno": "O07A",
-      "text": "SB0122BA_B-2076  EDDFZSPD561\r\n 61657 0279741411 31005-500265043010IH-008009"
-    },
-    {
-      "time": "18.11.2026 16:05 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATN",
-      "freq": 131.825,
-      "level": -37.4,
-      "label": "_d",
-      "msgno": "S26A",
-      "text": "No text"
-    },
-    {
       "time": "18.11.2026 16:06 UTC",
       "source": "ACARS",
       "flight": "N70370",
@@ -329,6 +307,28 @@
       "label": "16",
       "msgno": "M97A",
       "text": "POSA1N61510E 26174,AGIVU  ,114825,340,NISIX  ,123248,-57, 29, 259,831"
+    },
+    {
+      "time": "19.11.2026 12:00 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "SA",
+      "msgno": "S65A",
+      "text": "0LS120516VH"
+    },
+    {
+      "time": "19.11.2026 12:02 UTC",
+      "source": "ACARS",
+      "flight": "CK0205",
+      "tail": "B-2076",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "H1",
+      "msgno": "O27A",
+      "text": "SB0122BA_B-2076  ZSPDEHAM631\r\n 61328 0256761207 33999-560181021010/9W009011"
     }
   ]
 }
