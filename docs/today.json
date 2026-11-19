@@ -262,16 +262,16 @@
     },
     "4601f8": {
       "hex": "4601f8",
-      "flight": "FIN3PJ",
+      "flight": "FIN5ET",
       "reg": "OH-ATK",
       "type": "AT75",
       "lat": null,
       "lon": null,
-      "alt": 21000,
+      "alt": 22000,
       "speed": null,
       "track": null,
       "seen_first": "2026-11-19T05:34:01.221658",
-      "last_seen": "2026-11-19T05:51:01.798628"
+      "last_seen": "2026-11-19T07:04:02.186993"
     },
     "461f6d": {
       "hex": "461f6d",
@@ -327,21 +327,34 @@
     },
     "781fc3": {
       "hex": "781fc3",
-      "flight": "",
+      "flight": "CAO1005",
       "reg": "B-223T",
       "type": "B77L",
       "lat": null,
       "lon": null,
-      "alt": null,
-      "speed": null,
-      "track": null,
+      "alt": 34000,
+      "speed": 462.0,
+      "track": 244.34,
       "seen_first": "2026-11-19T06:57:01.936954",
-      "last_seen": "2026-11-19T06:59:01.458878"
+      "last_seen": "2026-11-19T07:03:01.928991"
+    },
+    "467893": {
+      "hex": "467893",
+      "flight": "",
+      "reg": "PI-04",
+      "type": "PC12",
+      "lat": null,
+      "lon": null,
+      "alt": 9950,
+      "speed": 190.1,
+      "track": 218.38,
+      "seen_first": "2026-11-19T07:03:01.928991",
+      "last_seen": "2026-11-19T07:04:02.186993"
     }
   },
   "summary": {
-    "total_unique_aircraft": 26,
-    "last_seen_live": 1,
-    "updated": "2026-11-19T06:59:01.458878"
+    "total_unique_aircraft": 27,
+    "last_seen_live": 2,
+    "updated": "2026-11-19T07:04:02.186993"
   }
 }
