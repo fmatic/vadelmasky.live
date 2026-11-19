@@ -54,16 +54,16 @@
     },
     "781c0d": {
       "hex": "781c0d",
-      "flight": "CES709",
+      "flight": "CES710",
       "reg": "B-324X",
       "type": "A359",
-      "lat": null,
-      "lon": null,
-      "alt": 38000,
-      "speed": null,
-      "track": null,
+      "lat": 61.088453,
+      "lon": 26.074626,
+      "alt": 37000,
+      "speed": 506.2,
+      "track": 55.46,
       "seen_first": "2026-11-19T02:08:01.864701",
-      "last_seen": "2026-11-19T02:15:01.964635"
+      "last_seen": "2026-11-19T13:24:01.692176"
     },
     "89913e": {
       "hex": "89913e",
@@ -519,11 +519,24 @@
       "track": 235.02,
       "seen_first": "2026-11-19T13:08:01.512198",
       "last_seen": "2026-11-19T13:16:01.736145"
+    },
+    "461f36": {
+      "hex": "461f36",
+      "flight": "FIN4CL",
+      "reg": "OH-LVI",
+      "type": "A319",
+      "lat": null,
+      "lon": null,
+      "alt": 32250,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-11-19T13:21:01.909232",
+      "last_seen": "2026-11-19T13:21:01.909232"
     }
   },
   "summary": {
-    "total_unique_aircraft": 40,
-    "last_seen_live": 0,
-    "updated": "2026-11-19T13:19:01.546424"
+    "total_unique_aircraft": 41,
+    "last_seen_live": 1,
+    "updated": "2026-11-19T13:24:01.692176"
   }
 }
