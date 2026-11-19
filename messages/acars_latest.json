@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "18.11.2026 16:52 UTC",
-      "source": "ACARS",
-      "flight": "CZ2518",
-      "tail": "B-2071",
-      "freq": 131.825,
-      "level": -41.9,
-      "label": "H1",
-      "msgno": "C13D",
-      "text": "TI-MODE RECEIVER (RIGHT)\r\nMSG 3453011 I 1650 18NOV26 ER I 1 PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
-    },
-    {
       "time": "18.11.2026 22:24 UTC",
       "source": "ACARS",
       "flight": "N70375",
@@ -329,6 +318,17 @@
       "label": "Q0",
       "msgno": "M72A",
       "text": "No text"
+    },
+    {
+      "time": "19.11.2026 18:13 UTC",
+      "source": "ACARS",
+      "flight": "CA3067",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -43.7,
+      "label": "10",
+      "msgno": "M90A",
+      "text": "POS181813,N 61.616,E 26.936,2042,455750,,,35998,43120"
     }
   ]
 }
