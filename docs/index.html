@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.11.2026 04:09 UTC</div>
+        <div class="value">20.11.2026 04:14 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8KH</div>
+                    <div class="meta">ICAO 4601FD · REG OH-ATP · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">18025 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>253.2 kt</b></div>
+                    <div><span>Track</span><b>189.09°</b></div>
+                    <div><span>Position</span><b>61.6143, 25.4831</b></div>
+                    <div><span>Last seen</span><b>20.11.2026 04:14 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATP" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8MC</div>
+                    <div class="meta">ICAO 461F31 · REG OH-LVD · TYPE A319</div>
+                </div>
+                <div class="alt-badge mid">20725 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>362.0 kt</b></div>
+                    <div><span>Track</span><b>181.58°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>20.11.2026 04:14 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVD" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -286,59 +334,11 @@ footer {
                     <div><span>Speed</span><b>172.0 kt</b></div>
                     <div><span>Track</span><b>184.57°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>20.11.2026 04:09 UTC</b></div>
+                    <div><span>Last seen</span><b>20.11.2026 04:12 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATL" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN8KH</div>
-                    <div class="meta">ICAO 4601FD · REG OH-ATP · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">17225 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>190.7 kt</b></div>
-                    <div><span>Track</span><b>189.66°</b></div>
-                    <div><span>Position</span><b>61.9291, 25.5904</b></div>
-                    <div><span>Last seen</span><b>20.11.2026 04:09 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATP" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN8MC</div>
-                    <div class="meta">ICAO 461F31 · REG OH-LVD · TYPE A319</div>
-                </div>
-                <div class="alt-badge high">28875 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>372.0 kt</b></div>
-                    <div><span>Track</span><b>181.23°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>20.11.2026 04:09 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVD" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -764,7 +764,7 @@ CAS 272,LAT N 61.865,LON E 28.250,ALT 34992,FOB 122440,UTC 210618,PD ----.--,WD 
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601FD", "flight": "FIN8KH", "lat": 61.929094, "lon": 25.590413, "alt": 17225, "speed": 190.7, "last_seen": "20.11.2026 04:09 UTC"}];
+const aircraft = [{"hex": "4601FD", "flight": "FIN8KH", "lat": 61.614258, "lon": 25.483082, "alt": 18025, "speed": 253.2, "last_seen": "20.11.2026 04:14 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
