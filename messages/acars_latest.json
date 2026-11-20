@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.11.2026 06:08 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -40.8,
-      "label": "_d",
-      "msgno": "S44A",
-      "text": "No text"
-    },
-    {
       "time": "20.11.2026 06:12 UTC",
       "source": "ACARS",
       "flight": "CA3159",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O55A",
       "text": "SB0122BA_B-2094  ZSPDEDDF742\r\n 61403 0260931702 34001-55017402801020;011015"
+    },
+    {
+      "time": "20.11.2026 17:53 UTC",
+      "source": "ACARS",
+      "flight": "CZ2515",
+      "tail": "B-226D",
+      "freq": 131.825,
+      "level": -42.7,
+      "label": "H1",
+      "msgno": "O45A",
+      "text": "SB0122BA_B-226D  ZGGGEGPK186\r\n 61571 0285521753 34001-560187041010IH-010014"
     }
   ]
 }
