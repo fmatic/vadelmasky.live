@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.11.2026 06:00 UTC",
-      "source": "ACARS",
-      "flight": "N70481",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -35.9,
-      "label": "_d",
-      "msgno": "S53A",
-      "text": "No text"
-    },
-    {
       "time": "20.11.2026 06:02 UTC",
       "source": "ACARS",
       "flight": "N70481",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S90A",
       "text": "No text"
+    },
+    {
+      "time": "20.11.2026 16:54 UTC",
+      "source": "ACARS",
+      "flight": "CA1047",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -44.7,
+      "label": "10",
+      "msgno": "M70A",
+      "text": "POS201654, N 6181,E 2792,817,285,19274,  31,34000, 281,-282,-571,7"
     }
   ]
 }
