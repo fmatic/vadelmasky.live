@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">20.11.2026 04:19 UTC</div>
+        <div class="value">20.11.2026 04:24 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,34 +274,10 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">FIN4MP</div>
-                    <div class="meta">ICAO 461F67 · REG OH-LXF · TYPE A320</div>
-                </div>
-                <div class="alt-badge high">32175 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>402.0 kt</b></div>
-                    <div><span>Track</span><b>181.93°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>20.11.2026 04:19 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXF" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
                     <div class="flight">FIN8KH</div>
                     <div class="meta">ICAO 4601FD · REG OH-ATP · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">18025 ft</div>
+                <div class="alt-badge mid">17825 ft</div>
             </div>
 
             <div class="aircraft-body">
@@ -310,11 +286,35 @@ footer {
                     <div><span>Speed</span><b>253.3 kt</b></div>
                     <div><span>Track</span><b>189.31°</b></div>
                     <div><span>Position</span><b>61.4203, 25.4183</b></div>
-                    <div><span>Last seen</span><b>20.11.2026 04:18 UTC</b></div>
+                    <div><span>Last seen</span><b>20.11.2026 04:24 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATP" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN4MP</div>
+                    <div class="meta">ICAO 461F67 · REG OH-LXF · TYPE A320</div>
+                </div>
+                <div class="alt-badge mid">19700 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>304.0 kt</b></div>
+                    <div><span>Track</span><b>181.76°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>20.11.2026 04:24 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXF" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -788,7 +788,7 @@ CAS 272,LAT N 61.865,LON E 28.250,ALT 34992,FOB 122440,UTC 210618,PD ----.--,WD 
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601FD", "flight": "FIN8KH", "lat": 61.420258, "lon": 25.418342, "alt": 18025, "speed": 253.3, "last_seen": "20.11.2026 04:18 UTC"}];
+const aircraft = [{"hex": "4601FD", "flight": "FIN8KH", "lat": 61.420258, "lon": 25.418342, "alt": 17825, "speed": 253.3, "last_seen": "20.11.2026 04:24 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
