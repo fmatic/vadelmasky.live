@@ -6,17 +6,6 @@
       "flight": "JD0677",
       "tail": "B-32MG",
       "freq": 131.825,
-      "level": -41.7,
-      "label": "B9",
-      "msgno": "M61A",
-      "text": "/ENGM.TI2/024ENGMAFD47"
-    },
-    {
-      "time": "20.11.2026 06:08 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
       "level": -40.8,
       "label": "_d",
       "msgno": "S44A",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C19C",
       "text": "MSG 3610390 L\r\nDB AIR SUPPLY & CABIN PRESSURE CONTROLLER (R)\r\nMSG 3610370 L\r\nDB AIR SUPPLY & CABIN PRESSURE CONTROLLER (R)\r\nEOR\r\n"
+    },
+    {
+      "time": "20.11.2026 17:02 UTC",
+      "source": "ACARS",
+      "flight": "CA1047",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -38.5,
+      "label": "H1",
+      "msgno": "O55A",
+      "text": "SB0122BA_B-2094  ZSPDEDDF742\r\n 61403 0260931702 34001-55017402801020;011015"
     }
   ]
 }
