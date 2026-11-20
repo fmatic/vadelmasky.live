@@ -6,17 +6,6 @@
       "flight": "MU0708",
       "tail": "B-6537",
       "freq": 131.825,
-      "level": -39.3,
-      "label": "H1",
-      "msgno": "C68A",
-      "text": ".1/WRN/WN2611192101  345801006NAV GPS 2 FAULT"
-    },
-    {
-      "time": "19.11.2026 21:01 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6537",
-      "freq": 131.825,
       "level": -45.1,
       "label": "SA",
       "msgno": "S66A",
@@ -329,6 +318,17 @@
       "label": "5V",
       "msgno": "S86A",
       "text": "No text"
+    },
+    {
+      "time": "20.11.2026 11:14 UTC",
+      "source": "ACARS",
+      "flight": "GS0000",
+      "tail": "LJ3",
+      "freq": 131.725,
+      "level": -42.2,
+      "label": "SA",
+      "msgno": "M13A",
+      "text": "0EV111439V//312R15PMSMMHO."
     }
   ]
 }
