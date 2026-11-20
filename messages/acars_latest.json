@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "20.11.2026 06:02 UTC",
-      "source": "ACARS",
-      "flight": "N70481",
-      "tail": "OH-ATM",
-      "freq": 131.725,
-      "level": -38.9,
-      "label": "5V",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
-      "time": "20.11.2026 06:02 UTC",
-      "source": "ACARS",
-      "flight": "N70481",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -21.9,
-      "label": "5V",
-      "msgno": "S54A",
-      "text": "No text"
-    },
-    {
       "time": "20.11.2026 06:08 UTC",
       "source": "ACARS",
       "flight": "JD0677",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M70A",
       "text": "POS201654, N 6181,E 2792,817,285,19274,  31,34000, 281,-282,-571,7"
+    },
+    {
+      "time": "20.11.2026 16:59 UTC",
+      "source": "ACARS",
+      "flight": "CA1047",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "_d",
+      "msgno": "S90A",
+      "text": "No text"
+    },
+    {
+      "time": "20.11.2026 16:59 UTC",
+      "source": "ACARS",
+      "flight": "CA1047",
+      "tail": "B-2094",
+      "freq": 131.825,
+      "level": -39.9,
+      "label": "H1",
+      "msgno": "C19C",
+      "text": "MSG 3610390 L\r\nDB AIR SUPPLY & CABIN PRESSURE CONTROLLER (R)\r\nMSG 3610370 L\r\nDB AIR SUPPLY & CABIN PRESSURE CONTROLLER (R)\r\nEOR\r\n"
     }
   ]
 }
