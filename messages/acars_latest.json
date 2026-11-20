@@ -1,72 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.11.2026 04:02 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "Q0",
-      "msgno": "S02A",
-      "text": "No text"
-    },
-    {
-      "time": "19.11.2026 04:16 UTC",
-      "source": "ACARS",
-      "flight": "CA3055",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "SA",
-      "msgno": "S67A",
-      "text": "0LS041620V"
-    },
-    {
-      "time": "19.11.2026 04:20 UTC",
-      "source": "ACARS",
-      "flight": "CA3055",
-      "tail": "B-6091",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "_d",
-      "msgno": "S70A",
-      "text": "No text"
-    },
-    {
-      "time": "19.11.2026 05:53 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "B9",
-      "msgno": "M46A",
-      "text": "/ESSA.TI2/024ESSAA05A8"
-    },
-    {
-      "time": "19.11.2026 05:53 UTC",
-      "source": "ACARS",
-      "flight": "CA1153",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "_d",
-      "msgno": "S86A",
-      "text": "No text"
-    },
-    {
-      "time": "19.11.2026 06:32 UTC",
-      "source": "ACARS",
-      "flight": "CK0609",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -30.9,
-      "label": "Q0",
-      "msgno": "S33A",
-      "text": "No text"
-    },
-    {
       "time": "19.11.2026 06:32 UTC",
       "source": "ACARS",
       "flight": "CK0609",
@@ -329,6 +263,72 @@
       "label": "11",
       "msgno": "M07A",
       "text": "POS\r\nCAS 272,LAT N 61.865,LON E 28.250,ALT 34992,FOB 122440,UTC 210618,PD ----.--,WD 226,WS   24,TAT - 30"
+    },
+    {
+      "time": "20.11.2026 05:56 UTC",
+      "source": "ACARS",
+      "flight": "N70481",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -38.7,
+      "label": "Q0",
+      "msgno": "S50A",
+      "text": "No text"
+    },
+    {
+      "time": "20.11.2026 05:57 UTC",
+      "source": "ACARS",
+      "flight": "N70481",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -40.8,
+      "label": "Q0",
+      "msgno": "M11A",
+      "text": "No text"
+    },
+    {
+      "time": "20.11.2026 05:57 UTC",
+      "source": "ACARS",
+      "flight": "N70481",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -39.9,
+      "label": "SA",
+      "msgno": "S51A",
+      "text": "0EV055639V"
+    },
+    {
+      "time": "20.11.2026 05:57 UTC",
+      "source": "ACARS",
+      "flight": "N70481",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "80",
+      "msgno": "M12A",
+      "text": "3701 INRANG 0481/20 EFHK/EFKS .OH-ATM\r\n/ETA 0700/ERT     "
+    },
+    {
+      "time": "20.11.2026 05:59 UTC",
+      "source": "ACARS",
+      "flight": "N70481",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.7,
+      "label": "B9",
+      "msgno": "L07A",
+      "text": "/EFKS.TI2/024EFKSA2D99"
+    },
+    {
+      "time": "20.11.2026 05:59 UTC",
+      "source": "ACARS",
+      "flight": "N70481",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "_d",
+      "msgno": "S52A",
+      "text": "No text"
     }
   ]
 }
