@@ -197,16 +197,16 @@
     },
     "4601fa": {
       "hex": "4601fa",
-      "flight": "FIN481",
+      "flight": "FIN482",
       "reg": "OH-ATM",
       "type": "AT75",
-      "lat": 62.475105,
-      "lon": 26.266832,
-      "alt": 19000,
-      "speed": 292.2,
-      "track": 18.56,
+      "lat": 62.271286,
+      "lon": 26.272176,
+      "alt": 21000,
+      "speed": 249.7,
+      "track": 196.04,
       "seen_first": "2026-11-20T05:52:01.605698",
-      "last_seen": "2026-11-20T06:06:01.184651"
+      "last_seen": "2026-11-20T08:29:02.142820"
     },
     "461f6c": {
       "hex": "461f6c",
@@ -324,11 +324,37 @@
       "track": 181.05,
       "seen_first": "2026-11-20T07:43:01.424581",
       "last_seen": "2026-11-20T07:53:01.911464"
+    },
+    "461f6e": {
+      "hex": "461f6e",
+      "flight": "FIN5ZR",
+      "reg": "OH-LXM",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": 35600,
+      "speed": 420.0,
+      "track": 185.45,
+      "seen_first": "2026-11-20T08:25:02.210097",
+      "last_seen": "2026-11-20T08:29:02.142820"
+    },
+    "461f9a": {
+      "hex": "461f9a",
+      "flight": "",
+      "reg": "OH-LZE",
+      "type": "A321",
+      "lat": null,
+      "lon": null,
+      "alt": 34375,
+      "speed": 388.0,
+      "track": 181.58,
+      "seen_first": "2026-11-20T08:26:01.404297",
+      "last_seen": "2026-11-20T08:29:02.142820"
     }
   },
   "summary": {
-    "total_unique_aircraft": 25,
-    "last_seen_live": 0,
-    "updated": "2026-11-20T08:24:01.911331"
+    "total_unique_aircraft": 27,
+    "last_seen_live": 3,
+    "updated": "2026-11-20T08:29:02.142820"
   }
 }

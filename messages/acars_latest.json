@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.11.2026 18:16 UTC",
-      "source": "ACARS",
-      "flight": "CA3067",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "SA",
-      "msgno": "S53A",
-      "text": "0LS181608V"
-    },
-    {
-      "time": "19.11.2026 20:15 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5921",
-      "freq": 131.825,
-      "level": -42.3,
-      "label": "H1",
-      "msgno": "C50A",
-      "text": ".1/FLR/FR2611192014  34361606MMR1   1,IR3,IR2,IR1,AFS,MMR2,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "19.11.2026 20:16 UTC",
-      "source": "ACARS",
-      "flight": "MU0290",
-      "tail": "B-5921",
-      "freq": 131.825,
-      "level": -43.3,
-      "label": "H1",
-      "msgno": "C51A",
-      "text": ".1/FLR/FR2611192015  34123406AFS    1,,,,,,,ADIRU2(1FP2)/           FMGEC2(1CA2),HARD"
-    },
-    {
-      "time": "19.11.2026 20:59 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -37.3,
-      "label": "_d",
-      "msgno": "S64A",
-      "text": "No text"
-    },
-    {
       "time": "19.11.2026 20:59 UTC",
       "source": "ACARS",
       "flight": "MU0708",
@@ -329,6 +285,50 @@
       "label": "10",
       "msgno": "M47A",
       "text": "POS200627,N 61.250,E 25.309,0835,449000,,,38001,40240"
+    },
+    {
+      "time": "20.11.2026 08:28 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -41.6,
+      "label": "Q0",
+      "msgno": "M21A",
+      "text": "No text"
+    },
+    {
+      "time": "20.11.2026 08:29 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -41.7,
+      "label": "SA",
+      "msgno": "S83A",
+      "text": "0EV082844V"
+    },
+    {
+      "time": "20.11.2026 08:29 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -40.8,
+      "label": "B9",
+      "msgno": "L13A",
+      "text": "/EFHK.TI2/024EFHKAFE13"
+    },
+    {
+      "time": "20.11.2026 08:29 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "_d",
+      "msgno": "S85A",
+      "text": "No text"
     }
   ]
 }
