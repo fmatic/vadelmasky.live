@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.11.2026 18:15 UTC",
-      "source": "ACARS",
-      "flight": "CA3067",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -39.0,
-      "label": "SA",
-      "msgno": "S50A",
-      "text": "0LS181500V"
-    },
-    {
       "time": "19.11.2026 18:16 UTC",
       "source": "ACARS",
       "flight": "CA3067",
@@ -329,6 +318,17 @@
       "label": "_d",
       "msgno": "S37A",
       "text": "No text"
+    },
+    {
+      "time": "20.11.2026 06:27 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -40.7,
+      "label": "10",
+      "msgno": "M47A",
+      "text": "POS200627,N 61.250,E 25.309,0835,449000,,,38001,40240"
     }
   ]
 }
