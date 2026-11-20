@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.11.2026 21:02 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -38.4,
-      "label": "H1",
-      "msgno": "C69A",
-      "text": ".1/FLR/FR2611192100  34361606MMR1   1,IR3,IR2,IR1,MMR2,AFS,,GPS ANTENNA1(43RT1)/    COAX CABLE/MMR1(40RT1),HARD"
-    },
-    {
-      "time": "19.11.2026 21:06 UTC",
-      "source": "ACARS",
-      "flight": "MU0708",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -41.1,
-      "label": "11",
-      "msgno": "M07A",
-      "text": "POS\r\nCAS 272,LAT N 61.865,LON E 28.250,ALT 34992,FOB 122440,UTC 210618,PD ----.--,WD 226,WS   24,TAT - 30"
-    },
-    {
-      "time": "20.11.2026 05:56 UTC",
-      "source": "ACARS",
-      "flight": "N70481",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -38.7,
-      "label": "Q0",
-      "msgno": "S50A",
-      "text": "No text"
-    },
-    {
       "time": "20.11.2026 05:57 UTC",
       "source": "ACARS",
       "flight": "N70481",
@@ -329,6 +296,39 @@
       "label": "SA",
       "msgno": "M13A",
       "text": "0EV111439V//312R15PMSMMHO."
+    },
+    {
+      "time": "20.11.2026 12:27 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "SA",
+      "msgno": "S99A",
+      "text": "0EV122756V"
+    },
+    {
+      "time": "20.11.2026 12:28 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -43.5,
+      "label": "_d",
+      "msgno": "S01A",
+      "text": "No text"
+    },
+    {
+      "time": "20.11.2026 12:28 UTC",
+      "source": "ACARS",
+      "flight": "N70286",
+      "tail": "OH-ATJ",
+      "freq": 131.825,
+      "level": -42.3,
+      "label": "_d",
+      "msgno": "S03A",
+      "text": "No text"
     }
   ]
 }
