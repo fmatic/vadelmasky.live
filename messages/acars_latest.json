@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.11.2026 11:58 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "Q0",
-      "msgno": "S64A",
-      "text": "No text"
-    },
-    {
-      "time": "19.11.2026 11:59 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -36.8,
-      "label": "16",
-      "msgno": "M97A",
-      "text": "POSA1N61510E 26174,AGIVU  ,114825,340,NISIX  ,123248,-57, 29, 259,831"
-    },
-    {
       "time": "19.11.2026 12:00 UTC",
       "source": "ACARS",
       "flight": "CK0205",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S44A",
       "text": "No text"
+    },
+    {
+      "time": "20.11.2026 06:12 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -45.0,
+      "label": "10",
+      "msgno": "M45A",
+      "text": "POS200611,N 62.036,E 28.966,0835,442625,,,37999,43600"
+    },
+    {
+      "time": "20.11.2026 06:13 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6113",
+      "freq": 131.725,
+      "level": -46.5,
+      "label": "SA",
+      "msgno": "S33A",
+      "text": "0LS061249VH"
     }
   ]
 }
