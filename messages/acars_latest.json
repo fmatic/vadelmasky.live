@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.11.2026 06:32 UTC",
-      "source": "ACARS",
-      "flight": "CK0609",
-      "tail": "B-228C",
-      "freq": 131.825,
-      "level": -34.8,
-      "label": "H1",
-      "msgno": "O49A",
-      "text": "SB0122BA_B-228C  ZSPDEGSS198\r\n 62106 0259530632 34001-580174033010W/X009011"
-    },
-    {
-      "time": "19.11.2026 07:28 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-222K",
-      "freq": 131.825,
-      "level": -41.9,
-      "label": "H1",
-      "msgno": "O57A",
-      "text": "SS0340F_518\r\nB-222K  CKK203ZSPDLFPG191126072813ER\r\n28933998828-2687756633168BSM79967A21\r\n4476101 27 2601191126 072802\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33999\r\n      ) 0 02N    )16.)\r"
-    },
-    {
-      "time": "19.11.2026 07:28 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-222K",
-      "freq": 131.825,
-      "level": -45.0,
-      "label": "H1",
-      "msgno": "O57B",
-      "text": "SS0340F_518\r\nB-222K  CKK203ZSPDLFPG191126072813ER\r\n28933998828-2687756633168BSM79967A21\r\n4476101 27 2601191126 072802\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  33999\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n191126072813\r\n111111111111\r\n111111111111"
-    },
-    {
       "time": "19.11.2026 07:29 UTC",
       "source": "ACARS",
       "flight": "CK0203",
@@ -328,6 +295,39 @@
       "level": -35.2,
       "label": "_d",
       "msgno": "S52A",
+      "text": "No text"
+    },
+    {
+      "time": "20.11.2026 06:00 UTC",
+      "source": "ACARS",
+      "flight": "N70481",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -35.9,
+      "label": "_d",
+      "msgno": "S53A",
+      "text": "No text"
+    },
+    {
+      "time": "20.11.2026 06:02 UTC",
+      "source": "ACARS",
+      "flight": "N70481",
+      "tail": "OH-ATM",
+      "freq": 131.725,
+      "level": -38.9,
+      "label": "5V",
+      "msgno": "S54A",
+      "text": "No text"
+    },
+    {
+      "time": "20.11.2026 06:02 UTC",
+      "source": "ACARS",
+      "flight": "N70481",
+      "tail": "OH-ATM",
+      "freq": 131.825,
+      "level": -21.9,
+      "label": "5V",
+      "msgno": "S54A",
       "text": "No text"
     }
   ]
