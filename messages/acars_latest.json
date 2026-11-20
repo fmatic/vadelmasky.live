@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "19.11.2026 12:00 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -35.7,
-      "label": "SA",
-      "msgno": "S65A",
-      "text": "0LS120516VH"
-    },
-    {
-      "time": "19.11.2026 12:02 UTC",
-      "source": "ACARS",
-      "flight": "CK0205",
-      "tail": "B-2076",
-      "freq": 131.825,
-      "level": -38.1,
-      "label": "H1",
-      "msgno": "O27A",
-      "text": "SB0122BA_B-2076  ZSPDEHAM631\r\n 61328 0256761207 33999-560181021010/9W009011"
-    },
-    {
       "time": "19.11.2026 13:33 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "S33A",
       "text": "0LS061249VH"
+    },
+    {
+      "time": "20.11.2026 06:16 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.725,
+      "level": -45.9,
+      "label": "14",
+      "msgno": "M62A",
+      "text": "POS\r\n20NOV,0616,257,38002,N 61.887,E 26.035,21312,  16,152"
+    },
+    {
+      "time": "20.11.2026 06:17 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -27.5,
+      "label": "14",
+      "msgno": "M62A",
+      "text": "POS\r\n20NOV,0616,257,38002,N 61.887,E 26.035,21312,  16,152"
     }
   ]
 }
