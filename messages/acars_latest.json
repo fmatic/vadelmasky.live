@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.11.2026 07:16 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -39.0,
-      "label": "_d",
-      "msgno": "S73A",
-      "text": "No text"
-    },
-    {
       "time": "21.11.2026 07:17 UTC",
       "source": "ACARS",
       "flight": "N70362",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "C22A",
       "text": ".1/WRN/WN2611211509  345801006NAV GPS 2 FAULT"
+    },
+    {
+      "time": "21.11.2026 15:11 UTC",
+      "source": "ACARS",
+      "flight": "CA3144",
+      "tail": "B-6070",
+      "freq": 131.825,
+      "level": -38.2,
+      "label": "H1",
+      "msgno": "C24A",
+      "text": ".1/FLR/FR2611211510  34363106IR1    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
     }
   ]
 }
