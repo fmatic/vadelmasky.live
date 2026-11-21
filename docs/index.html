@@ -247,7 +247,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">1</div>
         <div class="label">With position</div>
     </div>
 
@@ -257,12 +257,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">488.0 kt</div>
+        <div class="value">484.0 kt</div>
         <div class="label">Max speed</div>
     </div>
 
     <div class="card">
-        <div class="value">21.11.2026 01:24 UTC</div>
+        <div class="value">21.11.2026 01:29 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,10 +283,10 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>488.0 kt</b></div>
-                    <div><span>Track</span><b>84.73°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>21.11.2026 01:24 UTC</b></div>
+                    <div><span>Speed</span><b>484.0 kt</b></div>
+                    <div><span>Track</span><b>85.78°</b></div>
+                    <div><span>Position</span><b>61.0122, 2.1152</b></div>
+                    <div><span>Last seen</span><b>21.11.2026 01:29 UTC</b></div>
                 </div>
             </div>
 
@@ -301,6 +301,42 @@ footer {
 <section>
     <h2>Latest ACARS messages</h2>
     <div class="acars-grid">
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CZ2516</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-226D · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">21.11.2026 01:29 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label 18 · Msg M53A · Level -38.6 dB
+            </div>
+
+            <div class="acars-text">POX,CSG2516   ,07JUL46,012858,EGPK,ZGGG,N061.73,E0026.91,370, 605,832,  76.1,-176.1,019,-51.4,102258, 34280,</div>
+        </article>
+        
+        <article class="acars-card">
+            <div class="acars-head">
+                <div>
+                    <div class="acars-flight">CZ2516</div>
+                    <div class="acars-meta">
+                        ACARS · Tail B-226D · 131.825 MHz
+                    </div>
+                </div>
+                <div class="acars-meta">21.11.2026 01:26 UTC</div>
+            </div>
+
+            <div class="acars-meta">
+                Label Q0 · Msg S42A · Level -37.6 dB
+            </div>
+
+            <div class="acars-text">No text</div>
+        </article>
         
         <article class="acars-card">
             <div class="acars-head">
@@ -343,7 +379,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [];
+const aircraft = [{"hex": "78216A", "flight": "CSG2516", "lat": 61.012167, "lon": 2.115167, "alt": 37000, "speed": 484.0, "last_seen": "21.11.2026 01:29 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
