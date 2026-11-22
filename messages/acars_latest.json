@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.11.2026 07:17 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -40.0,
-      "label": "_d",
-      "msgno": "S74A",
-      "text": "No text"
-    },
-    {
-      "time": "21.11.2026 07:17 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -41.5,
-      "label": "_d",
-      "msgno": "S75A",
-      "text": "No text"
-    },
-    {
       "time": "21.11.2026 07:19 UTC",
       "source": "ACARS",
       "flight": "N70362",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C24A",
       "text": ".1/FLR/FR2611211510  34363106IR1    1,IR3,,,,,,MMR1-GPSSU1(40RT1-1SN1) MMR2-GPSSU2(40RT2-1SN2),HARD"
+    },
+    {
+      "time": "22.11.2026 05:59 UTC",
+      "source": "ACARS",
+      "flight": "CK0609",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -43.8,
+      "label": "Q0",
+      "msgno": "S14A",
+      "text": "No text"
+    },
+    {
+      "time": "22.11.2026 05:59 UTC",
+      "source": "ACARS",
+      "flight": "CK0609",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -40.5,
+      "label": "H1",
+      "msgno": "O53A",
+      "text": "SB0122BA_B-222K  ZSPDEGSS872\r\n 62222 0263250603 34010-530116025010W/X008011"
     }
   ]
 }
