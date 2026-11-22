@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.11.2026 07:26 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -39.7,
-      "label": "5V",
-      "msgno": "S80A",
-      "text": "No text"
-    },
-    {
       "time": "21.11.2026 07:27 UTC",
       "source": "ACARS",
       "flight": "CK0203",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S78A",
       "text": "0EV160701VS"
+    },
+    {
+      "time": "22.11.2026 16:14 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6113",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "10",
+      "msgno": "M86A",
+      "text": "POS191614,N 61.352,E 25.753,1659,486250,,,38001,30200"
     }
   ]
 }
