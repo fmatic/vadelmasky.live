@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.11.2026 07:19 UTC",
-      "source": "ACARS",
-      "flight": "N70362",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -40.6,
-      "label": "5V",
-      "msgno": "S76A",
-      "text": "No text"
-    },
-    {
       "time": "21.11.2026 07:20 UTC",
       "source": "ACARS",
       "flight": "N70362",
@@ -329,6 +318,17 @@
       "label": "H1",
       "msgno": "O53A",
       "text": "SB0122BA_B-222K  ZSPDEGSS872\r\n 62222 0263250603 34010-530116025010W/X008011"
+    },
+    {
+      "time": "22.11.2026 06:01 UTC",
+      "source": "ACARS",
+      "flight": "CK0609",
+      "tail": "B-222K",
+      "freq": 131.825,
+      "level": -32.7,
+      "label": "16",
+      "msgno": "M74A",
+      "text": "POSA1N62110E 25811,AGAMO  ,054540,340,DETNA  ,070904,-53, 19, 262,830"
     }
   ]
 }
