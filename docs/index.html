@@ -242,12 +242,12 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
     <div class="card">
-        <div class="value">4</div>
+        <div class="value">5</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">22.11.2026 07:44 UTC</div>
+        <div class="value">22.11.2026 07:49 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,8 +274,8 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">Unknown</div>
-                    <div class="meta">ICAO 46788F · REG CC-2 · TYPE C295</div>
+                    <div class="flight">RU7B02</div>
+                    <div class="meta">ICAO 4677E7 · REG TWR · TYPE TWR</div>
                 </div>
                 <div class="alt-badge unknown">-</div>
             </div>
@@ -283,10 +283,34 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>253.9 kt</b></div>
-                    <div><span>Track</span><b>234.62°</b></div>
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>22.11.2026 07:44 UTC</b></div>
+                    <div><span>Last seen</span><b>22.11.2026 07:49 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">N21</div>
+                    <div class="meta">ICAO 46788F · REG CC-2 · TYPE C295</div>
+                </div>
+                <div class="alt-badge low">8400 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>182.3 kt</b></div>
+                    <div><span>Track</span><b>113.61°</b></div>
+                    <div><span>Position</span><b>62.2098, 26.0211</b></div>
+                    <div><span>Last seen</span><b>22.11.2026 07:49 UTC</b></div>
                 </div>
             </div>
 
@@ -315,30 +339,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXA" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">RU7B02</div>
-                    <div class="meta">ICAO 4677E7 · REG TWR · TYPE TWR</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>22.11.2026 07:33 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1072,7 +1072,7 @@ B-223A  CKK216EDDFZSPD211126144423ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601FB", "flight": "FIN5ET", "lat": 61.059498, "lon": 25.437826, "alt": 22000, "speed": 303.0, "last_seen": "22.11.2026 07:25 UTC"}, {"hex": "467890", "flight": "RULER41", "lat": 62.323577, "lon": 25.846393, "alt": 2850, "speed": 179.6, "last_seen": "22.11.2026 07:20 UTC"}, {"hex": "782495", "flight": "CKK215", "lat": 61.257438, "lon": 25.75826, "alt": 34000, "speed": 494.0, "last_seen": "22.11.2026 07:18 UTC"}, {"hex": "781E34", "flight": "CKK609", "lat": 62.183333, "lon": 2.968333, "alt": 34000, "speed": 492.0, "last_seen": "22.11.2026 06:38 UTC"}];
+const aircraft = [{"hex": "46788F", "flight": "N21", "lat": 62.209757, "lon": 26.021118, "alt": 8400, "speed": 182.3, "last_seen": "22.11.2026 07:49 UTC"}, {"hex": "4601FB", "flight": "FIN5ET", "lat": 61.059498, "lon": 25.437826, "alt": 22000, "speed": 303.0, "last_seen": "22.11.2026 07:25 UTC"}, {"hex": "467890", "flight": "RULER41", "lat": 62.323577, "lon": 25.846393, "alt": 2850, "speed": 179.6, "last_seen": "22.11.2026 07:20 UTC"}, {"hex": "782495", "flight": "CKK215", "lat": 61.257438, "lon": 25.75826, "alt": 34000, "speed": 494.0, "last_seen": "22.11.2026 07:18 UTC"}, {"hex": "781E34", "flight": "CKK609", "lat": 62.183333, "lon": 2.968333, "alt": 34000, "speed": 492.0, "last_seen": "22.11.2026 06:38 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
