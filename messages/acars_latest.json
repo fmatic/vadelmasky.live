@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.11.2026 07:28 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-220F",
-      "freq": 131.825,
-      "level": -42.2,
-      "label": "16",
-      "msgno": "M86A",
-      "text": "POSA1N61518E 26055,AGIVU  ,070618,339,NISIX  ,075522,-54, 26, 289,830"
-    },
-    {
       "time": "21.11.2026 08:44 UTC",
       "source": "ACARS",
       "flight": "CA1007",
@@ -329,6 +318,17 @@
       "label": "81",
       "msgno": "M22A",
       "text": "/PIKOWXH.ETA 2025Z\r\nPOB 4\r\n"
+    },
+    {
+      "time": "22.11.2026 19:05 UTC",
+      "source": "ACARS",
+      "flight": "JD0677",
+      "tail": "B-32MG",
+      "freq": 131.825,
+      "level": -35.5,
+      "label": "H1",
+      "msgno": "F21A",
+      "text": "RESPWI/AC,3018259"
     }
   ]
 }
