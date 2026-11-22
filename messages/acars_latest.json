@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.11.2026 07:27 UTC",
-      "source": "ACARS",
-      "flight": "CK0203",
-      "tail": "B-220F",
-      "freq": 131.825,
-      "level": -40.6,
-      "label": "SA",
-      "msgno": "S43A",
-      "text": "0LS072734V"
-    },
-    {
       "time": "21.11.2026 07:28 UTC",
       "source": "ACARS",
       "flight": "CK0203",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M86A",
       "text": "POS191614,N 61.352,E 25.753,1659,486250,,,38001,30200"
+    },
+    {
+      "time": "22.11.2026 18:02 UTC",
+      "source": "ACARS",
+      "flight": "CZ2517",
+      "tail": "B-222W",
+      "freq": 131.825,
+      "level": -38.0,
+      "label": "81",
+      "msgno": "M22A",
+      "text": "/PIKOWXH.ETA 2025Z\r\nPOB 4\r\n"
     }
   ]
 }
