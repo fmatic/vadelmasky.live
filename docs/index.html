@@ -237,7 +237,7 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">21</div>
+        <div class="value">22</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
@@ -247,7 +247,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">4</div>
         <div class="label">With position</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">22.11.2026 07:14 UTC</div>
+        <div class="value">22.11.2026 07:19 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -283,14 +283,38 @@ footer {
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>22.11.2026 07:14 UTC</b></div>
+                    <div><span>Speed</span><b>296.1 kt</b></div>
+                    <div><span>Track</span><b>207.78°</b></div>
+                    <div><span>Position</span><b>61.1876, 25.5860</b></div>
+                    <div><span>Last seen</span><b>22.11.2026 07:19 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">RULER41</div>
+                    <div class="meta">ICAO 467890 · REG PI-01 · TYPE PC12</div>
+                </div>
+                <div class="alt-badge low">3200 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>187.4 kt</b></div>
+                    <div><span>Track</span><b>315.22°</b></div>
+                    <div><span>Position</span><b>62.3125, 25.8701</b></div>
+                    <div><span>Last seen</span><b>22.11.2026 07:19 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/PI-01" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -308,9 +332,9 @@ footer {
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
                     <div><span>Speed</span><b>494.0 kt</b></div>
-                    <div><span>Track</span><b>232.21°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>22.11.2026 07:14 UTC</b></div>
+                    <div><span>Track</span><b>231.5°</b></div>
+                    <div><span>Position</span><b>61.2574, 25.7583</b></div>
+                    <div><span>Last seen</span><b>22.11.2026 07:18 UTC</b></div>
                 </div>
             </div>
 
@@ -1024,7 +1048,7 @@ B-223A  CKK216EDDFZSPD211126144423ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "781E34", "flight": "CKK609", "lat": 62.183333, "lon": 2.968333, "alt": 34000, "speed": 492.0, "last_seen": "22.11.2026 06:38 UTC"}];
+const aircraft = [{"hex": "4601FB", "flight": "FIN5ET", "lat": 61.18761, "lon": 25.586039, "alt": 22000, "speed": 296.1, "last_seen": "22.11.2026 07:19 UTC"}, {"hex": "467890", "flight": "RULER41", "lat": 62.312531, "lon": 25.870056, "alt": 3200, "speed": 187.4, "last_seen": "22.11.2026 07:19 UTC"}, {"hex": "782495", "flight": "CKK215", "lat": 61.257438, "lon": 25.75826, "alt": 34000, "speed": 494.0, "last_seen": "22.11.2026 07:18 UTC"}, {"hex": "781E34", "flight": "CKK609", "lat": 62.183333, "lon": 2.968333, "alt": 34000, "speed": 492.0, "last_seen": "22.11.2026 06:38 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
