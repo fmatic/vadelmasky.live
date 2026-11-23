@@ -1,39 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.11.2026 14:44 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-223A",
-      "freq": 131.825,
-      "level": -39.8,
-      "label": "H1",
-      "msgno": "O38A",
-      "text": "SS0340F_659\r\nB-223A  CKK216EDDFZSPD211126144423ER\r\n31030998830-2450190663168BSM79967A21\r\n7336101  4 2801211126 144420\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30998\r\n      ) 0 02N    )16.)\r"
-    },
-    {
-      "time": "21.11.2026 14:44 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-223A",
-      "freq": 131.825,
-      "level": -39.6,
-      "label": "H1",
-      "msgno": "O38B",
-      "text": "SS0340F_659\r\nB-223A  CKK216EDDFZSPD211126144423ER\r\n31030998830-2450190663168BSM79967A21\r\n7336101  4 2801211126 144420\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30998\r\n      ) 0 02N    )16.)\r\n      ) 0 02N    )16.)\r\n211126144423\r\n111111111111\r\n111111111111"
-    },
-    {
-      "time": "21.11.2026 15:08 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -43.0,
-      "label": "H1",
-      "msgno": "C21A",
-      "text": ".1/WRN/WN2611211508  345800506NAV GPS 1 FAULT"
-    },
-    {
       "time": "21.11.2026 15:09 UTC",
       "source": "ACARS",
       "flight": "CA3144",
@@ -329,6 +296,39 @@
       "label": "H1",
       "msgno": "C34A",
       "text": ".1/WRN/WN2611230818  345800506NAV GPS 1 FAULT"
+    },
+    {
+      "time": "23.11.2026 09:49 UTC",
+      "source": "ACARS",
+      "flight": "XA0000",
+      "tail": "70105",
+      "freq": 131.825,
+      "level": -38.4,
+      "label": "Q0",
+      "msgno": "M72A",
+      "text": "No text"
+    },
+    {
+      "time": "23.11.2026 09:49 UTC",
+      "source": "ACARS",
+      "flight": "XA0000",
+      "tail": "70105",
+      "freq": 131.825,
+      "level": -31.4,
+      "label": "SA",
+      "msgno": "M73A",
+      "text": "0EV094907VS/T/312R15PMSMMKO."
+    },
+    {
+      "time": "23.11.2026 09:49 UTC",
+      "source": "ACARS",
+      "flight": "XA0000",
+      "tail": "70105",
+      "freq": 131.825,
+      "level": -36.2,
+      "label": "SA",
+      "msgno": "M73A",
+      "text": "0EV094907VS/T/312R15PMSMMKO."
     }
   ]
 }
