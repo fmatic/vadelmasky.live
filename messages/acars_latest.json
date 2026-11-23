@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.11.2026 15:09 UTC",
-      "source": "ACARS",
-      "flight": "CA3144",
-      "tail": "B-6070",
-      "freq": 131.825,
-      "level": -41.5,
-      "label": "H1",
-      "msgno": "C22A",
-      "text": ".1/WRN/WN2611211509  345801006NAV GPS 2 FAULT"
-    },
-    {
       "time": "21.11.2026 15:11 UTC",
       "source": "ACARS",
       "flight": "CA3144",
@@ -326,6 +315,17 @@
       "tail": "70105",
       "freq": 131.825,
       "level": -36.2,
+      "label": "SA",
+      "msgno": "M73A",
+      "text": "0EV094907VS/T/312R15PMSMMKO."
+    },
+    {
+      "time": "23.11.2026 09:50 UTC",
+      "source": "ACARS",
+      "flight": "XA0000",
+      "tail": "70105",
+      "freq": 131.825,
+      "level": -43.0,
       "label": "SA",
       "msgno": "M73A",
       "text": "0EV094907VS/T/312R15PMSMMKO."
