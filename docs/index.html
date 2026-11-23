@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">42</div>
+        <div class="value">43</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.11.2026 14:44 UTC</div>
+        <div class="value">23.11.2026 14:49 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -274,19 +274,67 @@ footer {
         <article class="aircraft-card">
             <div class="aircraft-top">
                 <div>
-                    <div class="flight">FIN7SM</div>
-                    <div class="meta">ICAO 461FAA · REG OH-LZU · TYPE A321</div>
+                    <div class="flight">RU7B02</div>
+                    <div class="meta">ICAO 4677E7 · REG TWR · TYPE TWR</div>
                 </div>
-                <div class="alt-badge mid">24150 ft</div>
+                <div class="alt-badge unknown">-</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>440.0 kt</b></div>
-                    <div><span>Track</span><b>216.74°</b></div>
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>23.11.2026 14:48 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 461F63 · REG OH-LXB · TYPE A320</div>
+                </div>
+                <div class="alt-badge high">25150 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>- kt</b></div>
+                    <div><span>Track</span><b>-°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>23.11.2026 14:48 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LXB" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN7SM</div>
+                    <div class="meta">ICAO 461FAA · REG OH-LZU · TYPE A321</div>
+                </div>
+                <div class="alt-badge mid">19925 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>424.0 kt</b></div>
+                    <div><span>Track</span><b>216.39°</b></div>
                     <div><span>Position</span><b>61.8311, 27.1885</b></div>
-                    <div><span>Last seen</span><b>23.11.2026 14:44 UTC</b></div>
+                    <div><span>Last seen</span><b>23.11.2026 14:47 UTC</b></div>
                 </div>
             </div>
 
@@ -315,30 +363,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-2020" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">RU7B02</div>
-                    <div class="meta">ICAO 4677E7 · REG TWR · TYPE TWR</div>
-                </div>
-                <div class="alt-badge unknown">-</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>- kt</b></div>
-                    <div><span>Track</span><b>-°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>23.11.2026 14:40 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1528,7 +1552,7 @@ B-222W  CSG251EGPKZGGG231126012323ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "461FAA", "flight": "FIN7SM", "lat": 61.831148, "lon": 27.188517, "alt": 24150, "speed": 440.0, "last_seen": "23.11.2026 14:44 UTC"}, {"hex": "780D9C", "flight": "CES554", "lat": 61.313859, "lon": 25.987142, "alt": 33000, "speed": 440.0, "last_seen": "23.11.2026 14:43 UTC"}, {"hex": "467890", "flight": "RULER44", "lat": 62.324648, "lon": 25.846816, "alt": 4050, "speed": 155.8, "last_seen": "23.11.2026 14:40 UTC"}, {"hex": "4601FB", "flight": "FIN6MR", "lat": 61.296821, "lon": 25.834961, "alt": 15000, "speed": 307.5, "last_seen": "23.11.2026 13:15 UTC"}, {"hex": "4601FD", "flight": "FIN286", "lat": 61.477432, "lon": 25.747735, "alt": 16025, "speed": 294.8, "last_seen": "23.11.2026 12:45 UTC"}, {"hex": "461FA8", "flight": "FIN20G", "lat": 61.003915, "lon": 25.586766, "alt": 20650, "speed": 407.1, "last_seen": "23.11.2026 12:43 UTC"}, {"hex": "4601F8", "flight": "FIN5ET", "lat": 60.971002, "lon": 25.498189, "alt": 19000, "speed": 311.6, "last_seen": "23.11.2026 12:23 UTC"}, {"hex": "AE0136", "flight": "DUKE58", "lat": 62.328931, "lon": 25.835724, "alt": 2375, "speed": 165.5, "last_seen": "23.11.2026 09:50 UTC"}, {"hex": "781EBC", "flight": "CZ2518", "lat": 61.008333, "lon": 2.126333, "alt": 37000, "speed": 458.0, "last_seen": "23.11.2026 02:00 UTC"}];
+const aircraft = [{"hex": "461FAA", "flight": "FIN7SM", "lat": 61.831148, "lon": 27.188517, "alt": 19925, "speed": 424.0, "last_seen": "23.11.2026 14:47 UTC"}, {"hex": "780D9C", "flight": "CES554", "lat": 61.313859, "lon": 25.987142, "alt": 33000, "speed": 440.0, "last_seen": "23.11.2026 14:43 UTC"}, {"hex": "467890", "flight": "RULER44", "lat": 62.324648, "lon": 25.846816, "alt": 4050, "speed": 155.8, "last_seen": "23.11.2026 14:40 UTC"}, {"hex": "4601FB", "flight": "FIN6MR", "lat": 61.296821, "lon": 25.834961, "alt": 15000, "speed": 307.5, "last_seen": "23.11.2026 13:15 UTC"}, {"hex": "4601FD", "flight": "FIN286", "lat": 61.477432, "lon": 25.747735, "alt": 16025, "speed": 294.8, "last_seen": "23.11.2026 12:45 UTC"}, {"hex": "461FA8", "flight": "FIN20G", "lat": 61.003915, "lon": 25.586766, "alt": 20650, "speed": 407.1, "last_seen": "23.11.2026 12:43 UTC"}, {"hex": "4601F8", "flight": "FIN5ET", "lat": 60.971002, "lon": 25.498189, "alt": 19000, "speed": 311.6, "last_seen": "23.11.2026 12:23 UTC"}, {"hex": "AE0136", "flight": "DUKE58", "lat": 62.328931, "lon": 25.835724, "alt": 2375, "speed": 165.5, "last_seen": "23.11.2026 09:50 UTC"}, {"hex": "781EBC", "flight": "CZ2518", "lat": 61.008333, "lon": 2.126333, "alt": 37000, "speed": 458.0, "last_seen": "23.11.2026 02:00 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
