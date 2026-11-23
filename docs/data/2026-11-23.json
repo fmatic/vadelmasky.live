@@ -11,7 +11,7 @@
       "speed": null,
       "track": null,
       "seen_first": "2026-11-23T00:00:02.057299",
-      "last_seen": "2026-11-23T08:14:01.520593"
+      "last_seen": "2026-11-23T08:19:01.597698"
     },
     "461f4f": {
       "hex": "461f4f",
@@ -262,16 +262,16 @@
     },
     "461f6e": {
       "hex": "461f6e",
-      "flight": "",
+      "flight": "FIN434",
       "reg": "OH-LXM",
       "type": "A320",
       "lat": null,
       "lon": null,
-      "alt": null,
-      "speed": null,
-      "track": null,
+      "alt": 32000,
+      "speed": 424.0,
+      "track": 217.27,
       "seen_first": "2026-11-23T05:49:02.107505",
-      "last_seen": "2026-11-23T05:49:02.107505"
+      "last_seen": "2026-11-23T08:19:01.597698"
     },
     "78044f": {
       "hex": "78044f",
@@ -311,11 +311,24 @@
       "track": 240.64,
       "seen_first": "2026-11-23T07:18:01.810159",
       "last_seen": "2026-11-23T07:25:01.960809"
+    },
+    "780019": {
+      "hex": "780019",
+      "flight": "",
+      "reg": "B-6092",
+      "type": "A332",
+      "lat": null,
+      "lon": null,
+      "alt": 36000,
+      "speed": null,
+      "track": null,
+      "seen_first": "2026-11-23T08:18:01.342551",
+      "last_seen": "2026-11-23T08:19:01.597698"
     }
   },
   "summary": {
-    "total_unique_aircraft": 24,
-    "last_seen_live": 1,
-    "updated": "2026-11-23T08:14:01.520593"
+    "total_unique_aircraft": 25,
+    "last_seen_live": 3,
+    "updated": "2026-11-23T08:19:01.597698"
   }
 }

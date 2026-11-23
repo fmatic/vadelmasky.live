@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "21.11.2026 14:31 UTC",
-      "source": "ACARS",
-      "flight": "CA3120",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -39.0,
-      "label": "H1",
-      "msgno": "C01A",
-      "text": ".1/FLR/FR2611211430  34361606MMR2   1,IR3,IR2,IR1,,,,GPS ANTENNA2(43RT2)/    COAX CABLE/MMR2(40RT2),HARD"
-    },
-    {
-      "time": "21.11.2026 14:31 UTC",
-      "source": "ACARS",
-      "flight": "CA3120",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "SA",
-      "msgno": "S84A",
-      "text": "0LH143149VS"
-    },
-    {
       "time": "21.11.2026 14:44 UTC",
       "source": "ACARS",
       "flight": "CK0216",
@@ -329,6 +307,28 @@
       "label": "Q0",
       "msgno": "S15A",
       "text": "No text"
+    },
+    {
+      "time": "23.11.2026 08:15 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "SA",
+      "msgno": "S36A",
+      "text": "0LH081537VS"
+    },
+    {
+      "time": "23.11.2026 08:18 UTC",
+      "source": "ACARS",
+      "flight": "CA3159",
+      "tail": "B-6092",
+      "freq": 131.825,
+      "level": -38.9,
+      "label": "H1",
+      "msgno": "C34A",
+      "text": ".1/WRN/WN2611230818  345800506NAV GPS 1 FAULT"
     }
   ]
 }
