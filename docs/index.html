@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">1</div>
+        <div class="value">0</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">23.11.2026 16:59 UTC</div>
+        <div class="value">23.11.2026 17:04 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,30 +270,6 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">COBRA31</div>
-                    <div class="meta">ICAO 467896 · REG CC-3 · TYPE C295</div>
-                </div>
-                <div class="alt-badge mid">13325 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>286.4 kt</b></div>
-                    <div><span>Track</span><b>233.09°</b></div>
-                    <div><span>Position</span><b>62.0077, 25.8259</b></div>
-                    <div><span>Last seen</span><b>23.11.2026 16:59 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CC-3" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -310,11 +286,35 @@ footer {
                     <div><span>Speed</span><b>- kt</b></div>
                     <div><span>Track</span><b>-°</b></div>
                     <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>23.11.2026 16:53 UTC</b></div>
+                    <div><span>Last seen</span><b>23.11.2026 17:03 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/TWR" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">COBRA31</div>
+                    <div class="meta">ICAO 467896 · REG CC-3 · TYPE C295</div>
+                </div>
+                <div class="alt-badge mid">13325 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>289.2 kt</b></div>
+                    <div><span>Track</span><b>225.42°</b></div>
+                    <div><span>Position</span><b>61.9324, 25.6151</b></div>
+                    <div><span>Last seen</span><b>23.11.2026 17:01 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/CC-3" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1700,7 +1700,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "467896", "flight": "COBRA31", "lat": 62.00772, "lon": 25.825907, "alt": 13325, "speed": 286.4, "last_seen": "23.11.2026 16:59 UTC"}, {"hex": "4601F5", "flight": "FIN6YP", "lat": 61.071881, "lon": 25.560608, "alt": 16000, "speed": 305.3, "last_seen": "23.11.2026 16:46 UTC"}, {"hex": "AE04AB", "flight": "DUKE58", "lat": 61.551086, "lon": 25.691332, "alt": 16300, "speed": 347.7, "last_seen": "23.11.2026 16:46 UTC"}, {"hex": "461E1E", "flight": "FIN5YR", "lat": 61.323123, "lon": 26.216431, "alt": 35125, "speed": 453.3, "last_seen": "23.11.2026 15:30 UTC"}, {"hex": "4CAE72", "flight": "MGL138", "lat": 61.628413, "lon": 27.836609, "alt": 37000, "speed": 447.9, "last_seen": "23.11.2026 15:30 UTC"}, {"hex": "467890", "flight": "RULER44", "lat": 61.987747, "lon": 25.490537, "alt": 11550, "speed": 252.1, "last_seen": "23.11.2026 15:23 UTC"}, {"hex": "461FA8", "flight": "FIN9PE", "lat": 61.003915, "lon": 25.586766, "alt": 26750, "speed": 407.1, "last_seen": "23.11.2026 15:19 UTC"}, {"hex": "461FAA", "flight": "FIN7SM", "lat": 61.831148, "lon": 27.188517, "alt": 19925, "speed": 424.0, "last_seen": "23.11.2026 14:47 UTC"}, {"hex": "780D9C", "flight": "CES554", "lat": 61.313859, "lon": 25.987142, "alt": 33000, "speed": 440.0, "last_seen": "23.11.2026 14:43 UTC"}, {"hex": "4601FB", "flight": "FIN6MR", "lat": 61.296821, "lon": 25.834961, "alt": 15000, "speed": 307.5, "last_seen": "23.11.2026 13:15 UTC"}, {"hex": "4601FD", "flight": "FIN286", "lat": 61.477432, "lon": 25.747735, "alt": 16025, "speed": 294.8, "last_seen": "23.11.2026 12:45 UTC"}, {"hex": "4601F8", "flight": "FIN5ET", "lat": 60.971002, "lon": 25.498189, "alt": 19000, "speed": 311.6, "last_seen": "23.11.2026 12:23 UTC"}, {"hex": "AE0136", "flight": "DUKE58", "lat": 62.328931, "lon": 25.835724, "alt": 2375, "speed": 165.5, "last_seen": "23.11.2026 09:50 UTC"}, {"hex": "781EBC", "flight": "CZ2518", "lat": 61.008333, "lon": 2.126333, "alt": 37000, "speed": 458.0, "last_seen": "23.11.2026 02:00 UTC"}];
+const aircraft = [{"hex": "467896", "flight": "COBRA31", "lat": 61.932404, "lon": 25.615114, "alt": 13325, "speed": 289.2, "last_seen": "23.11.2026 17:01 UTC"}, {"hex": "4601F5", "flight": "FIN6YP", "lat": 61.071881, "lon": 25.560608, "alt": 16000, "speed": 305.3, "last_seen": "23.11.2026 16:46 UTC"}, {"hex": "AE04AB", "flight": "DUKE58", "lat": 61.551086, "lon": 25.691332, "alt": 16300, "speed": 347.7, "last_seen": "23.11.2026 16:46 UTC"}, {"hex": "461E1E", "flight": "FIN5YR", "lat": 61.323123, "lon": 26.216431, "alt": 35125, "speed": 453.3, "last_seen": "23.11.2026 15:30 UTC"}, {"hex": "4CAE72", "flight": "MGL138", "lat": 61.628413, "lon": 27.836609, "alt": 37000, "speed": 447.9, "last_seen": "23.11.2026 15:30 UTC"}, {"hex": "467890", "flight": "RULER44", "lat": 61.987747, "lon": 25.490537, "alt": 11550, "speed": 252.1, "last_seen": "23.11.2026 15:23 UTC"}, {"hex": "461FA8", "flight": "FIN9PE", "lat": 61.003915, "lon": 25.586766, "alt": 26750, "speed": 407.1, "last_seen": "23.11.2026 15:19 UTC"}, {"hex": "461FAA", "flight": "FIN7SM", "lat": 61.831148, "lon": 27.188517, "alt": 19925, "speed": 424.0, "last_seen": "23.11.2026 14:47 UTC"}, {"hex": "780D9C", "flight": "CES554", "lat": 61.313859, "lon": 25.987142, "alt": 33000, "speed": 440.0, "last_seen": "23.11.2026 14:43 UTC"}, {"hex": "4601FB", "flight": "FIN6MR", "lat": 61.296821, "lon": 25.834961, "alt": 15000, "speed": 307.5, "last_seen": "23.11.2026 13:15 UTC"}, {"hex": "4601FD", "flight": "FIN286", "lat": 61.477432, "lon": 25.747735, "alt": 16025, "speed": 294.8, "last_seen": "23.11.2026 12:45 UTC"}, {"hex": "4601F8", "flight": "FIN5ET", "lat": 60.971002, "lon": 25.498189, "alt": 19000, "speed": 311.6, "last_seen": "23.11.2026 12:23 UTC"}, {"hex": "AE0136", "flight": "DUKE58", "lat": 62.328931, "lon": 25.835724, "alt": 2375, "speed": 165.5, "last_seen": "23.11.2026 09:50 UTC"}, {"hex": "781EBC", "flight": "CZ2518", "lat": 61.008333, "lon": 2.126333, "alt": 37000, "speed": 458.0, "last_seen": "23.11.2026 02:00 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
