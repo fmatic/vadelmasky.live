@@ -242,7 +242,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">3</div>
+        <div class="value">1</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">24.11.2026 04:24 UTC</div>
+        <div class="value">24.11.2026 04:29 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -277,20 +277,44 @@ footer {
                     <div class="flight">FIN8KH</div>
                     <div class="meta">ICAO 4601F8 · REG OH-ATK · TYPE AT75</div>
                 </div>
-                <div class="alt-badge mid">16000 ft</div>
+                <div class="alt-badge mid">16025 ft</div>
             </div>
 
             <div class="aircraft-body">
                 <div class="aircraft-silhouette">✈</div>
                 <div class="aircraft-data">
-                    <div><span>Speed</span><b>302.4 kt</b></div>
-                    <div><span>Track</span><b>208.01°</b></div>
-                    <div><span>Position</span><b>61.1569, 25.4930</b></div>
-                    <div><span>Last seen</span><b>24.11.2026 04:24 UTC</b></div>
+                    <div><span>Speed</span><b>301.9 kt</b></div>
+                    <div><span>Track</span><b>207.41°</b></div>
+                    <div><span>Position</span><b>61.0476, 25.3743</b></div>
+                    <div><span>Last seen</span><b>24.11.2026 04:29 UTC</b></div>
                 </div>
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATK" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN8MC</div>
+                    <div class="meta">ICAO 461F39 · REG OH-LVL · TYPE A319</div>
+                </div>
+                <div class="alt-badge high">29100 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>382.0 kt</b></div>
+                    <div><span>Track</span><b>223.77°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>24.11.2026 04:28 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVL" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -315,30 +339,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/B-6070" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN8MC</div>
-                    <div class="meta">ICAO 461F39 · REG OH-LVL · TYPE A319</div>
-                </div>
-                <div class="alt-badge high">33050 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>382.0 kt</b></div>
-                    <div><span>Track</span><b>223.77°</b></div>
-                    <div><span>Position</span><b>No position</b></div>
-                    <div><span>Last seen</span><b>24.11.2026 04:24 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVL" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -718,7 +718,7 @@ footer {
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F8", "flight": "FIN8KH", "lat": 61.156932, "lon": 25.492961, "alt": 16000, "speed": 302.4, "last_seen": "24.11.2026 04:24 UTC"}];
+const aircraft = [{"hex": "4601F8", "flight": "FIN8KH", "lat": 61.047638, "lon": 25.374345, "alt": 16025, "speed": 301.9, "last_seen": "24.11.2026 04:29 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
