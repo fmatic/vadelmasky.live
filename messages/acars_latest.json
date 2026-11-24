@@ -1,105 +1,6 @@
 {
   "messages": [
     {
-      "time": "22.11.2026 16:06 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -28.4,
-      "label": "Q0",
-      "msgno": "S77A",
-      "text": "No text"
-    },
-    {
-      "time": "22.11.2026 16:06 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -31.3,
-      "label": "Q0",
-      "msgno": "S77A",
-      "text": "No text"
-    },
-    {
-      "time": "22.11.2026 16:07 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -31.1,
-      "label": "SA",
-      "msgno": "S78A",
-      "text": "0EV160701VS"
-    },
-    {
-      "time": "22.11.2026 16:14 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6113",
-      "freq": 131.825,
-      "level": -32.3,
-      "label": "10",
-      "msgno": "M86A",
-      "text": "POS191614,N 61.352,E 25.753,1659,486250,,,38001,30200"
-    },
-    {
-      "time": "22.11.2026 18:02 UTC",
-      "source": "ACARS",
-      "flight": "CZ2517",
-      "tail": "B-222W",
-      "freq": 131.825,
-      "level": -38.0,
-      "label": "81",
-      "msgno": "M22A",
-      "text": "/PIKOWXH.ETA 2025Z\r\nPOB 4\r\n"
-    },
-    {
-      "time": "22.11.2026 19:05 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -35.5,
-      "label": "H1",
-      "msgno": "F21A",
-      "text": "RESPWI/AC,3018259"
-    },
-    {
-      "time": "22.11.2026 19:12 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -36.9,
-      "label": "SA",
-      "msgno": "S06A",
-      "text": "0LS191210V"
-    },
-    {
-      "time": "22.11.2026 23:22 UTC",
-      "source": "ACARS",
-      "flight": "N70375",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -26.0,
-      "label": "Q0",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
-      "time": "22.11.2026 23:22 UTC",
-      "source": "ACARS",
-      "flight": "N70375",
-      "tail": "OH-ATO",
-      "freq": 131.825,
-      "level": -26.7,
-      "label": "Q0",
-      "msgno": "M94A",
-      "text": "No text"
-    },
-    {
       "time": "22.11.2026 23:22 UTC",
       "source": "ACARS",
       "flight": "N70375",
@@ -328,6 +229,105 @@
       "level": -42.9,
       "label": "_d",
       "msgno": "S61A",
+      "text": "No text"
+    },
+    {
+      "time": "24.11.2026 04:05 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -29.3,
+      "label": "SA",
+      "msgno": "M00A",
+      "text": "0EV040511V"
+    },
+    {
+      "time": "24.11.2026 04:06 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -32.3,
+      "label": "80",
+      "msgno": "M01A",
+      "text": "1001 OUTRP  0290/24 EFJY/EFHK .OH-ATK\r\n/OUT 0358/FOB 0020/BRD       /UNT LITERS  /TYP A "
+    },
+    {
+      "time": "24.11.2026 04:06 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -27.0,
+      "label": "80",
+      "msgno": "M02A",
+      "text": "1101 OFFRP  0290/24 EFJY/EFHK .OH-ATK\r\n/OUT 0358/OFF 0402/FOB 0019/ETA 0447"
+    },
+    {
+      "time": "24.11.2026 04:06 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -11.2,
+      "label": "H1",
+      "msgno": "D00A",
+      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2NOV23,2308,0289/C1GMT,ACC/C22227,.0.78,FLT/C32226,.1.30,FLT/C42305,.1.19,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
+    },
+    {
+      "time": "24.11.2026 04:06 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.725,
+      "level": -28.3,
+      "label": "H1",
+      "msgno": "D00A",
+      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2NOV23,2308,0289/C1GMT,ACC/C22227,.0.78,FLT/C32226,.1.30,FLT/C42305,.1.19,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
+    },
+    {
+      "time": "24.11.2026 04:06 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.725,
+      "level": -29.3,
+      "label": "H1",
+      "msgno": "D01A",
+      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2NOV23,2306,0289/C1/C223.02.02,MC/C323.02.02,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/"
+    },
+    {
+      "time": "24.11.2026 04:06 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -11.9,
+      "label": "H1",
+      "msgno": "D01A",
+      "text": "A24/ATR7250024,1,1/A1INSTANT,FLIGHT,CMC,REPORT/B1DATE,GMT,FLT/B2NOV23,2306,0289/C1/C223.02.02,MC/C323.02.02,ANTI,ICING/C4ICE,DETECTED/C5MFC1B.2B.1UA1.2./C6ICE,DETECTED,WHILE/C7D.ICE,SYSTEM,IS,OFF/"
+    },
+    {
+      "time": "24.11.2026 04:08 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.725,
+      "level": -35.1,
+      "label": "5V",
+      "msgno": "S01A",
+      "text": "No text"
+    },
+    {
+      "time": "24.11.2026 04:08 UTC",
+      "source": "ACARS",
+      "flight": "N70290",
+      "tail": "OH-ATK",
+      "freq": 131.825,
+      "level": -17.3,
+      "label": "5V",
+      "msgno": "S01A",
       "text": "No text"
     }
   ]
