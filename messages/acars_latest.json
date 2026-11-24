@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "23.11.2026 16:29 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -43.0,
-      "label": "80",
-      "msgno": "M30A",
-      "text": "3701 INRANG 0370/23 EFKU/EFHK .OH-ATH\r\n/ETA 1700/ERT     "
-    },
-    {
-      "time": "23.11.2026 16:29 UTC",
-      "source": "ACARS",
-      "flight": "N70370",
-      "tail": "OH-ATH",
-      "freq": 131.825,
-      "level": -42.9,
-      "label": "_d",
-      "msgno": "S61A",
-      "text": "No text"
-    },
-    {
       "time": "24.11.2026 04:05 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +307,28 @@
       "label": "_d",
       "msgno": "S97A",
       "text": "No text"
+    },
+    {
+      "time": "24.11.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "H1",
+      "msgno": "O65A",
+      "text": "SS0340C_175\r\nB-2075  CSG251EGPKZGGG241126111722ER\r\n28635000842-3025173783107BCG00A31A\r\n585610201 280241126 111720\r\n80)6))19) 2))\r\n81)6))20) 2))\r\n10000000000011111\r\n  35003\r\n  3499(12 07(3276(16.(\r\n  3499(12"
+    },
+    {
+      "time": "24.11.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2075",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "H1",
+      "msgno": "O65B",
+      "text": "SS0340C_175\r\nB-2075  CSG251EGPKZGGG241126111722ER\r\n28635000842-3025173783107BCG00A31A\r\n585610201 280241126 111720\r\n80)6))19) 2))\r\n81)6))20) 2))\r\n10000000000011111\r\n  35003\r\n  3499(12 07(3276(16.(\r\n  3499(12 07(3276(16.(\r\n241126111722\r\n111111111111\r\n111111111111"
     }
   ]
 }
