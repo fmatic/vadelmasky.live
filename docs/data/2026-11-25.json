@@ -11,7 +11,7 @@
       "speed": null,
       "track": null,
       "seen_first": "2026-11-25T00:02:02.004496",
-      "last_seen": "2026-11-25T22:16:01.188052"
+      "last_seen": "2026-11-25T22:22:01.730331"
     },
     "780f3a": {
       "hex": "780f3a",
@@ -505,7 +505,7 @@
       "speed": 460.0,
       "track": 80.33,
       "seen_first": "2026-11-25T14:08:01.897476",
-      "last_seen": "2026-11-25T22:19:02.088824"
+      "last_seen": "2026-11-25T22:24:01.317708"
     },
     "781941": {
       "hex": "781941",
@@ -665,21 +665,34 @@
     },
     "461e1f": {
       "hex": "461e1f",
-      "flight": "",
+      "flight": "FIN375",
       "reg": "OH-LKP",
       "type": "E190",
       "lat": null,
       "lon": null,
-      "alt": 28700,
-      "speed": null,
-      "track": null,
+      "alt": 29000,
+      "speed": 412.0,
+      "track": 29.88,
       "seen_first": "2026-11-25T22:19:02.088824",
-      "last_seen": "2026-11-25T22:19:02.088824"
+      "last_seen": "2026-11-25T22:23:01.992892"
+    },
+    "461f64": {
+      "hex": "461f64",
+      "flight": "FIN4HX",
+      "reg": "OH-LXC",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": 32650,
+      "speed": 398.0,
+      "track": 1.23,
+      "seen_first": "2026-11-25T22:22:01.730331",
+      "last_seen": "2026-11-25T22:24:01.317708"
     }
   },
   "summary": {
-    "total_unique_aircraft": 52,
+    "total_unique_aircraft": 53,
     "last_seen_live": 2,
-    "updated": "2026-11-25T22:19:02.088824"
+    "updated": "2026-11-25T22:24:01.317708"
   }
 }
