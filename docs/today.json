@@ -11,7 +11,7 @@
       "speed": null,
       "track": null,
       "seen_first": "2026-11-26T00:11:01.356044",
-      "last_seen": "2026-11-26T11:35:02.014461"
+      "last_seen": "2026-11-26T11:42:01.306359"
     },
     "781eb7": {
       "hex": "781eb7",
@@ -343,13 +343,13 @@
       "flight": "FIN7WD",
       "reg": "OH-LKL",
       "type": "E190",
-      "lat": null,
-      "lon": null,
-      "alt": 39000,
-      "speed": null,
-      "track": null,
+      "lat": 61.075419,
+      "lon": 25.882365,
+      "alt": 25450,
+      "speed": 446.0,
+      "track": 219.2,
       "seen_first": "2026-11-26T09:09:01.817237",
-      "last_seen": "2026-11-26T11:39:01.832128"
+      "last_seen": "2026-11-26T11:44:01.814840"
     },
     "461f6a": {
       "hex": "461f6a",
@@ -428,11 +428,37 @@
       "track": null,
       "seen_first": "2026-11-26T11:04:02.134366",
       "last_seen": "2026-11-26T11:06:01.208145"
+    },
+    "4601f9": {
+      "hex": "4601f9",
+      "flight": "FIN6LE",
+      "reg": "OH-ATL",
+      "type": "AT75",
+      "lat": 62.013245,
+      "lon": 26.280474,
+      "alt": 11025,
+      "speed": 229.2,
+      "track": 2.25,
+      "seen_first": "2026-11-26T11:42:01.306359",
+      "last_seen": "2026-11-26T11:44:01.814840"
+    },
+    "461fa0": {
+      "hex": "461fa0",
+      "flight": "",
+      "reg": "OH-LZK",
+      "type": "A321",
+      "lat": 61.191008,
+      "lon": 26.485392,
+      "alt": 23325,
+      "speed": 408.4,
+      "track": 35.13,
+      "seen_first": "2026-11-26T11:43:01.556110",
+      "last_seen": "2026-11-26T11:44:01.814840"
     }
   },
   "summary": {
-    "total_unique_aircraft": 33,
-    "last_seen_live": 1,
-    "updated": "2026-11-26T11:39:01.832128"
+    "total_unique_aircraft": 35,
+    "last_seen_live": 3,
+    "updated": "2026-11-26T11:44:01.814840"
   }
 }
