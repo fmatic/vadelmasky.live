@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.11.2026 03:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -33.6,
-      "label": "SA",
-      "msgno": "S00A",
-      "text": "0EV035534V"
-    },
-    {
-      "time": "26.11.2026 03:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -25.9,
-      "label": "80",
-      "msgno": "M01A",
-      "text": "1001 OUTRP  0290/26 EFJY/EFHK .OH-ATM\r\n/OUT 0349/FOB 0016/BRD       /UNT LITERS  /TYP A "
-    },
-    {
-      "time": "26.11.2026 03:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -23.2,
-      "label": "80",
-      "msgno": "M02A",
-      "text": "1101 OFFRP  0290/26 EFJY/EFHK .OH-ATM\r\n/OUT 0349/OFF 0352/FOB 0016/ETA 0432"
-    },
-    {
-      "time": "26.11.2026 03:55 UTC",
-      "source": "ACARS",
-      "flight": "N70290",
-      "tail": "OH-ATM",
-      "freq": 131.825,
-      "level": -33.9,
-      "label": "H1",
-      "msgno": "D00A",
-      "text": "A15/ATR7250015,1,1/A1G-METER,REPORT/B1DATE,GMT,FLT/B2NOV25,2358,0289/C1GMT,ACC/C22314,.0.79,FLT/C32350,.1.33,FLT/C42355,.1.22,GND/D1VERT,ACC,.,VALID/E1LONG,ACC,.,VALID/F1LAT,ACC,.,VALID/"
-    },
-    {
       "time": "26.11.2026 03:56 UTC",
       "source": "ACARS",
       "flight": "N70290",
@@ -329,6 +285,50 @@
       "label": "5V",
       "msgno": "S49A",
       "text": "No text"
+    },
+    {
+      "time": "26.11.2026 14:55 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -35.2,
+      "label": "B9",
+      "msgno": "J08A",
+      "text": "/EKCH.TI2/000EKCHA0475"
+    },
+    {
+      "time": "26.11.2026 14:55 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -34.7,
+      "label": "_d",
+      "msgno": "S21A",
+      "text": "No text"
+    },
+    {
+      "time": "26.11.2026 14:55 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -34.5,
+      "label": "_d",
+      "msgno": "S22A",
+      "text": "No text"
+    },
+    {
+      "time": "26.11.2026 14:57 UTC",
+      "source": "ACARS",
+      "flight": "MU0707",
+      "tail": "B-6537",
+      "freq": 131.825,
+      "level": -32.9,
+      "label": "11",
+      "msgno": "M57A",
+      "text": "POS\r\nCAS 272,LAT N 61.879,LON E 26.319,ALT 34006,FOB 42840,UTC 145712,PD ----.--,WD 352,WS   82,TAT - 35"
     }
   ]
 }
