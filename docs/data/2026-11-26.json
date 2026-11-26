@@ -11,7 +11,7 @@
       "speed": null,
       "track": null,
       "seen_first": "2026-11-26T00:11:01.356044",
-      "last_seen": "2026-11-26T16:18:01.420657"
+      "last_seen": "2026-11-26T16:24:01.508370"
     },
     "781eb7": {
       "hex": "781eb7",
@@ -278,13 +278,13 @@
       "flight": "T24",
       "reg": "PI-04",
       "type": "PC12",
-      "lat": null,
-      "lon": null,
-      "alt": 17150,
-      "speed": 218.0,
-      "track": 10.37,
+      "lat": 61.88031,
+      "lon": 25.634046,
+      "alt": 11950,
+      "speed": 223.4,
+      "track": 3.34,
       "seen_first": "2026-11-26T06:46:02.076169",
-      "last_seen": "2026-11-26T16:19:01.668745"
+      "last_seen": "2026-11-26T16:24:01.508370"
     },
     "4601f2": {
       "hex": "4601f2",
@@ -522,16 +522,16 @@
     },
     "4601fd": {
       "hex": "4601fd",
-      "flight": "FIN42T",
+      "flight": "FIN6YP",
       "reg": "OH-ATP",
       "type": "AT75",
-      "lat": null,
-      "lon": null,
-      "alt": 17000,
-      "speed": null,
-      "track": null,
+      "lat": 61.814063,
+      "lon": 26.293742,
+      "alt": 22000,
+      "speed": 322.7,
+      "track": 201.64,
       "seen_first": "2026-11-26T14:44:01.873970",
-      "last_seen": "2026-11-26T15:01:01.997638"
+      "last_seen": "2026-11-26T16:24:01.508370"
     },
     "461f9d": {
       "hex": "461f9d",
@@ -597,11 +597,24 @@
       "track": 5.8,
       "seen_first": "2026-11-26T15:13:01.214516",
       "last_seen": "2026-11-26T15:27:01.947509"
+    },
+    "4601f4": {
+      "hex": "4601f4",
+      "flight": "",
+      "reg": "OH-ATG",
+      "type": "AT75",
+      "lat": null,
+      "lon": null,
+      "alt": 14000,
+      "speed": 227.0,
+      "track": 14.28,
+      "seen_first": "2026-11-26T16:20:01.980589",
+      "last_seen": "2026-11-26T16:24:01.508370"
     }
   },
   "summary": {
-    "total_unique_aircraft": 46,
-    "last_seen_live": 1,
-    "updated": "2026-11-26T16:19:01.668745"
+    "total_unique_aircraft": 47,
+    "last_seen_live": 4,
+    "updated": "2026-11-26T16:24:01.508370"
   }
 }
