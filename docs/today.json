@@ -11,7 +11,7 @@
       "speed": null,
       "track": null,
       "seen_first": "2026-11-26T00:11:01.356044",
-      "last_seen": "2026-11-26T03:39:01.667272"
+      "last_seen": "2026-11-26T03:56:01.265157"
     },
     "781eb7": {
       "hex": "781eb7",
@@ -135,18 +135,31 @@
       "flight": "FIN9D",
       "reg": "OH-LKP",
       "type": "E190",
-      "lat": null,
-      "lon": null,
-      "alt": 36025,
+      "lat": 61.083193,
+      "lon": 25.424296,
+      "alt": 25425,
       "speed": 466.0,
-      "track": 211.11,
+      "track": 209.0,
       "seen_first": "2026-11-26T03:50:01.622766",
-      "last_seen": "2026-11-26T03:54:02.184151"
+      "last_seen": "2026-11-26T03:59:02.157131"
+    },
+    "4601fa": {
+      "hex": "4601fa",
+      "flight": "FIN8KH",
+      "reg": "OH-ATM",
+      "type": "AT75",
+      "lat": 62.036769,
+      "lon": 25.605672,
+      "alt": 11725,
+      "speed": 246.0,
+      "track": 188.89,
+      "seen_first": "2026-11-26T03:55:01.479008",
+      "last_seen": "2026-11-26T03:59:02.157131"
     }
   },
   "summary": {
-    "total_unique_aircraft": 11,
-    "last_seen_live": 1,
-    "updated": "2026-11-26T03:54:02.184151"
+    "total_unique_aircraft": 12,
+    "last_seen_live": 2,
+    "updated": "2026-11-26T03:59:02.157131"
   }
 }
