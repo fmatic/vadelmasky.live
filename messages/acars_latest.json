@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.11.2026 07:27 UTC",
-      "source": "ACARS",
-      "flight": "N70485",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -32.5,
-      "label": "B9",
-      "msgno": "L07A",
-      "text": "/EFKS.TI2/024EFKSA2D99"
-    },
-    {
       "time": "27.11.2026 07:28 UTC",
       "source": "ACARS",
       "flight": "N70485",
@@ -329,6 +318,17 @@
       "label": "SA",
       "msgno": "S20A",
       "text": "0LH151314VS"
+    },
+    {
+      "time": "27.11.2026 16:20 UTC",
+      "source": "ACARS",
+      "flight": "CA1159",
+      "tail": "B-6115",
+      "freq": 131.825,
+      "level": -34.2,
+      "label": "10",
+      "msgno": "M56A",
+      "text": "POS271620,N 61.834,E 27.964,1715,466000,,,38000,30600"
     }
   ]
 }
