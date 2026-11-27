@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.11.2026 15:05 UTC",
-      "source": "ACARS",
-      "flight": "MU0289",
-      "tail": "B-5926",
-      "freq": 131.725,
-      "level": -31.1,
-      "label": "11",
-      "msgno": "M02A",
-      "text": "POS\r\nCAS 264,LAT N 62.116,LON E 25.707,ALT 36003,FOB 26880,UTC 150541,PD ----.--,WD 352,WS   61,TAT - 35"
-    },
-    {
-      "time": "26.11.2026 15:09 UTC",
-      "source": "ACARS",
-      "flight": "CK0216",
-      "tail": "B-220E",
-      "freq": 131.825,
-      "level": -37.0,
-      "label": "H1",
-      "msgno": "O97A",
-      "text": "SS0340F_598\r\nB-220E  CKK216EDDFZSPD261126150907ER\r\n30830997828-2750206763168BSM79967A21\r\n6796101936 2701261126 150904\r\n  0 000  0  000)\r\n  0 000  0  000)\r\n10110111111111111\r\n  30999\r\n      ) 0 02N    )16.)\r"
-    },
-    {
       "time": "26.11.2026 15:09 UTC",
       "source": "ACARS",
       "flight": "CK0216",
@@ -329,6 +307,28 @@
       "label": "10",
       "msgno": "M76A",
       "text": "POS251118,N 61.693,E 27.295,1213,481250,,,35998,29400"
+    },
+    {
+      "time": "27.11.2026 11:48 UTC",
+      "source": "ACARS",
+      "flight": "CA3035",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "B9",
+      "msgno": "M74A",
+      "text": "/ESSA.TI2/040ESSAAA22C"
+    },
+    {
+      "time": "27.11.2026 11:49 UTC",
+      "source": "ACARS",
+      "flight": "CA3035",
+      "tail": "B-6117",
+      "freq": 131.825,
+      "level": -36.4,
+      "label": "_d",
+      "msgno": "S41A",
+      "text": "No text"
     }
   ]
 }
