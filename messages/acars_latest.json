@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.11.2026 06:25 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -35.8,
-      "label": "_d",
-      "msgno": "S30A",
-      "text": "No text"
-    },
-    {
       "time": "27.11.2026 06:26 UTC",
       "source": "ACARS",
       "flight": "CA3159",
@@ -329,6 +318,17 @@
       "label": "B9",
       "msgno": "L05A",
       "text": "/EFJO.TI2/024EFJOA5CB7"
+    },
+    {
+      "time": "27.11.2026 14:21 UTC",
+      "source": "ACARS",
+      "flight": "CK0605",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -37.0,
+      "label": "16",
+      "msgno": "M73A",
+      "text": "POSA1N62223E 26338,AGAMO  ,140305,320,DETNA  ,152745,-60, 44, 274,821"
     }
   ]
 }
