@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.11.2026 12:28 UTC",
-      "source": "ACARS",
-      "flight": "N70286",
-      "tail": "OH-ATL",
-      "freq": 131.525,
-      "level": -40.6,
-      "label": "5V",
-      "msgno": "S49A",
-      "text": "No text"
-    },
-    {
       "time": "26.11.2026 14:55 UTC",
       "source": "ACARS",
       "flight": "MU0707",
@@ -329,6 +318,17 @@
       "label": "10",
       "msgno": "M39A",
       "text": "POS271056, N 6173,E 2754,826,288,35774,  54,34003, 242,-310,-601,7"
+    },
+    {
+      "time": "27.11.2026 11:00 UTC",
+      "source": "ACARS",
+      "flight": "CA1039",
+      "tail": "B-2093",
+      "freq": 131.825,
+      "level": -39.8,
+      "label": "H1",
+      "msgno": "O06A",
+      "text": "SB0122BA_B-2093  ZSPDEHAM234\r\n 61561 0267711059 34006-6000010510107GX011014"
     }
   ]
 }
