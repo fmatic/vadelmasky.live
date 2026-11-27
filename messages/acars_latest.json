@@ -1,17 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.11.2026 13:23 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -36.5,
-      "label": "_d",
-      "msgno": "S89A",
-      "text": "No text"
-    },
-    {
       "time": "27.11.2026 13:24 UTC",
       "source": "ACARS",
       "flight": "N70366",
@@ -329,6 +318,17 @@
       "label": "18",
       "msgno": "M84A",
       "text": "POX,CSG2516   ,27NOV26,204203,EGPK,ZGGG,N061.75,E0026.67,390, 620,830,  69.7,   4.5,044,-57.0,053703, 36360,"
+    },
+    {
+      "time": "27.11.2026 20:47 UTC",
+      "source": "ACARS",
+      "flight": "CZ2516",
+      "tail": "B-2010",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "H1",
+      "msgno": "C10D",
+      "text": "DE RECEIVER (LEFT)\r\nMSG 3453011 A 2049 27NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
     }
   ]
 }
