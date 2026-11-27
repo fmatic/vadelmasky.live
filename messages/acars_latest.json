@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.11.2026 13:24 UTC",
-      "source": "ACARS",
-      "flight": "N70366",
-      "tail": "OH-ATE",
-      "freq": 131.825,
-      "level": -40.4,
-      "label": "80",
-      "msgno": "M29A",
-      "text": "3701 INRANG 0366/27 EFKU/EFHK .OH-ATE\r\n/ETA 1355/ERT     "
-    },
-    {
-      "time": "27.11.2026 13:45 UTC",
-      "source": "ACARS",
-      "flight": "ZD0001",
-      "tail": "DBEAM",
-      "freq": 131.825,
-      "level": -38.2,
-      "label": "B9",
-      "msgno": "L05A",
-      "text": "/EFJO.TI2/024EFJOA5CB7"
-    },
-    {
       "time": "27.11.2026 14:21 UTC",
       "source": "ACARS",
       "flight": "CK0605",
@@ -329,6 +307,28 @@
       "label": "H1",
       "msgno": "C10D",
       "text": "DE RECEIVER (LEFT)\r\nMSG 3453011 A 2049 27NOV26 ER H PL\r\nDB MULTI-MODE RECEIVER (LEFT)\r\nEOR\r\n"
+    },
+    {
+      "time": "27.11.2026 23:09 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "H1",
+      "msgno": "D08B",
+      "text": "573  3  4\r\n 811 811 811 995 6382 7917573  3  4\r\n 3797 000) 000)17247  00)-265  2564323\r\n 3797 000) 000)17082  00)-265  2614315\r\n  6290   0)00000000200A    0    0   0)   0)\r\n  6274   0)00000000200A    0    0"
+    },
+    {
+      "time": "27.11.2026 23:09 UTC",
+      "source": "ACARS",
+      "flight": "CK0606",
+      "tail": "B-226V",
+      "freq": 131.825,
+      "level": -38.1,
+      "label": "H1",
+      "msgno": "D08C",
+      "text": "   0)   0)\r\n00120340180003501330200000034\r\n0022040020000 272030240000040\r\n 72 68185  2 5   ) 62   ) 6398\r\n 72 68174  2 5   ) 62   ) 6382\r\n 6290 6305 6280 6280\r\n 6300 6295 6230 6270\r\n16850044908490041  1436D"
     }
   ]
 }
