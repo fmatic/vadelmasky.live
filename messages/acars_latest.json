@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.11.2026 06:26 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "_d",
-      "msgno": "S31A",
-      "text": "No text"
-    },
-    {
-      "time": "27.11.2026 06:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -33.7,
-      "label": "_d",
-      "msgno": "S32A",
-      "text": "No text"
-    },
-    {
-      "time": "27.11.2026 06:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -32.6,
-      "label": "_d",
-      "msgno": "S33A",
-      "text": "No text"
-    },
-    {
-      "time": "27.11.2026 06:28 UTC",
-      "source": "ACARS",
-      "flight": "CA3159",
-      "tail": "B-6093",
-      "freq": 131.825,
-      "level": -37.8,
-      "label": "_d",
-      "msgno": "S34A",
-      "text": "No text"
-    },
-    {
       "time": "27.11.2026 06:32 UTC",
       "source": "ACARS",
       "flight": "CA3159",
@@ -329,6 +285,50 @@
       "label": "16",
       "msgno": "M73A",
       "text": "POSA1N62223E 26338,AGAMO  ,140305,320,DETNA  ,152745,-60, 44, 274,821"
+    },
+    {
+      "time": "27.11.2026 15:01 UTC",
+      "source": "ACARS",
+      "flight": "ZD0001",
+      "tail": "DBEAM",
+      "freq": 131.825,
+      "level": -39.8,
+      "label": "83",
+      "msgno": "M54A",
+      "text": "001PR27150135N6144.3E02742.33304920130"
+    },
+    {
+      "time": "27.11.2026 15:03 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20D1",
+      "freq": 131.825,
+      "level": -38.6,
+      "label": "5V",
+      "msgno": "S31A",
+      "text": "No text"
+    },
+    {
+      "time": "27.11.2026 15:04 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20D1",
+      "freq": 131.825,
+      "level": -39.0,
+      "label": "Q0",
+      "msgno": "S33A",
+      "text": "No text"
+    },
+    {
+      "time": "27.11.2026 15:04 UTC",
+      "source": "ACARS",
+      "flight": "HO1667",
+      "tail": "B-20D1",
+      "freq": 131.825,
+      "level": -39.0,
+      "label": "5V",
+      "msgno": "S35A",
+      "text": "No text"
     }
   ]
 }
