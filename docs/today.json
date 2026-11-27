@@ -616,13 +616,13 @@
       "flight": "CSG2516",
       "reg": "B-2010",
       "type": "B77L",
-      "lat": null,
-      "lon": null,
+      "lat": 61.0125,
+      "lon": 2.111167,
       "alt": 39000,
-      "speed": 474.0,
-      "track": 85.78,
+      "speed": 470.0,
+      "track": 86.66,
       "seen_first": "2026-11-27T13:59:01.368659",
-      "last_seen": "2026-11-27T20:39:01.740926"
+      "last_seen": "2026-11-27T20:44:01.877909"
     },
     "780504": {
       "hex": "780504",
@@ -805,11 +805,24 @@
       "track": null,
       "seen_first": "2026-11-27T19:23:01.986791",
       "last_seen": "2026-11-27T19:24:01.242396"
+    },
+    "461f6d": {
+      "hex": "461f6d",
+      "flight": "FIN6DF",
+      "reg": "OH-LXL",
+      "type": "A320",
+      "lat": null,
+      "lon": null,
+      "alt": 37000,
+      "speed": 466.0,
+      "track": 181.58,
+      "seen_first": "2026-11-27T20:41:02.025402",
+      "last_seen": "2026-11-27T20:44:01.877909"
     }
   },
   "summary": {
-    "total_unique_aircraft": 62,
-    "last_seen_live": 1,
-    "updated": "2026-11-27T20:39:01.740926"
+    "total_unique_aircraft": 63,
+    "last_seen_live": 2,
+    "updated": "2026-11-27T20:44:01.877909"
   }
 }
