@@ -1,50 +1,6 @@
 {
   "messages": [
     {
-      "time": "26.11.2026 14:55 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -35.2,
-      "label": "B9",
-      "msgno": "J08A",
-      "text": "/EKCH.TI2/000EKCHA0475"
-    },
-    {
-      "time": "26.11.2026 14:55 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -34.7,
-      "label": "_d",
-      "msgno": "S21A",
-      "text": "No text"
-    },
-    {
-      "time": "26.11.2026 14:55 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -34.5,
-      "label": "_d",
-      "msgno": "S22A",
-      "text": "No text"
-    },
-    {
-      "time": "26.11.2026 14:57 UTC",
-      "source": "ACARS",
-      "flight": "MU0707",
-      "tail": "B-6537",
-      "freq": 131.825,
-      "level": -32.9,
-      "label": "11",
-      "msgno": "M57A",
-      "text": "POS\r\nCAS 272,LAT N 61.879,LON E 26.319,ALT 34006,FOB 42840,UTC 145712,PD ----.--,WD 352,WS   82,TAT - 35"
-    },
-    {
       "time": "26.11.2026 15:05 UTC",
       "source": "ACARS",
       "flight": "MU0289",
@@ -329,6 +285,50 @@
       "label": "H1",
       "msgno": "O06A",
       "text": "SB0122BA_B-2093  ZSPDEHAM234\r\n 61561 0267711059 34006-6000010510107GX011014"
+    },
+    {
+      "time": "27.11.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -37.5,
+      "label": "B9",
+      "msgno": "M75A",
+      "text": "/ESSA.TI2/024ESSAA05A8"
+    },
+    {
+      "time": "27.11.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -36.3,
+      "label": "_d",
+      "msgno": "S32A",
+      "text": "No text"
+    },
+    {
+      "time": "27.11.2026 11:17 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -35.6,
+      "label": "_d",
+      "msgno": "S33A",
+      "text": "No text"
+    },
+    {
+      "time": "27.11.2026 11:18 UTC",
+      "source": "ACARS",
+      "flight": "CA3155",
+      "tail": "B-6090",
+      "freq": 131.825,
+      "level": -37.1,
+      "label": "10",
+      "msgno": "M76A",
+      "text": "POS251118,N 61.693,E 27.295,1213,481250,,,35998,29400"
     }
   ]
 }
