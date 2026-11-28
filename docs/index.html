@@ -237,12 +237,12 @@ footer {
 
 <div class="cards">
     <div class="card">
-        <div class="value">24</div>
+        <div class="value">25</div>
         <div class="label">Unique aircraft today</div>
     </div>
 
     <div class="card">
-        <div class="value">0</div>
+        <div class="value">2</div>
         <div class="label">Aircraft currently visible</div>
     </div>
 
@@ -262,7 +262,7 @@ footer {
     </div>
 
     <div class="card">
-        <div class="value">28.11.2026 11:29 UTC</div>
+        <div class="value">28.11.2026 11:34 UTC</div>
         <div class="label">Last update</div>
     </div>
 </div>
@@ -270,6 +270,54 @@ footer {
 <section>
     <h2>Latest aircraft</h2>
     <div class="aircraft-grid">
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">FIN3KC</div>
+                    <div class="meta">ICAO 4601FB · REG OH-ATN · TYPE AT75</div>
+                </div>
+                <div class="alt-badge mid">16975 ft</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>300.6 kt</b></div>
+                    <div><span>Track</span><b>205.63°</b></div>
+                    <div><span>Position</span><b>60.7436, 25.1157</b></div>
+                    <div><span>Last seen</span><b>28.11.2026 11:34 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
+                Search aircraft photo
+            </a>
+        </article>
+        
+        <article class="aircraft-card">
+            <div class="aircraft-top">
+                <div>
+                    <div class="flight">Unknown</div>
+                    <div class="meta">ICAO 464AE4 · REG - · TYPE -</div>
+                </div>
+                <div class="alt-badge unknown">-</div>
+            </div>
+
+            <div class="aircraft-body">
+                <div class="aircraft-silhouette">✈</div>
+                <div class="aircraft-data">
+                    <div><span>Speed</span><b>92.5 kt</b></div>
+                    <div><span>Track</span><b>141.15°</b></div>
+                    <div><span>Position</span><b>No position</b></div>
+                    <div><span>Last seen</span><b>28.11.2026 11:34 UTC</b></div>
+                </div>
+            </div>
+
+            <a class="photo-link" href="https://globe.adsbexchange.com/?icao=464ae4" target="_blank" rel="noopener">
+                View aircraft info
+            </a>
+        </article>
         
         <article class="aircraft-card">
             <div class="aircraft-top">
@@ -579,30 +627,6 @@ footer {
             </div>
 
             <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-LVI" target="_blank" rel="noopener">
-                Search aircraft photo
-            </a>
-        </article>
-        
-        <article class="aircraft-card">
-            <div class="aircraft-top">
-                <div>
-                    <div class="flight">FIN9D</div>
-                    <div class="meta">ICAO 4601FB · REG OH-ATN · TYPE AT75</div>
-                </div>
-                <div class="alt-badge mid">17725 ft</div>
-            </div>
-
-            <div class="aircraft-body">
-                <div class="aircraft-silhouette">✈</div>
-                <div class="aircraft-data">
-                    <div><span>Speed</span><b>300.6 kt</b></div>
-                    <div><span>Track</span><b>205.63°</b></div>
-                    <div><span>Position</span><b>60.7436, 25.1157</b></div>
-                    <div><span>Last seen</span><b>28.11.2026 04:07 UTC</b></div>
-                </div>
-            </div>
-
-            <a class="photo-link" href="https://www.jetphotos.com/photo/keyword/OH-ATN" target="_blank" rel="noopener">
                 Search aircraft photo
             </a>
         </article>
@@ -1096,7 +1120,7 @@ B-226V  CKK606EGSSZSPD271126231310ER
 
 <script type="module">
 import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.6.0/dist/maplibre-gl.mjs';
-const aircraft = [{"hex": "4601F9", "flight": "FIN7DP", "lat": 62.409513, "lon": 26.579836, "alt": 16025, "speed": 251.8, "last_seen": "28.11.2026 09:28 UTC"}, {"hex": "78037B", "flight": "CAO3119", "lat": 61.137706, "lon": 24.888713, "alt": 36000, "speed": 471.8, "last_seen": "28.11.2026 09:26 UTC"}, {"hex": "4601FF", "flight": "FIN482", "lat": 62.493353, "lon": 26.291234, "alt": 19450, "speed": 308.0, "last_seen": "28.11.2026 08:48 UTC"}, {"hex": "780019", "flight": "CAO3157", "lat": 61.785, "lon": 27.729, "alt": 36000, "speed": "-", "last_seen": "28.11.2026 05:08 UTC"}, {"hex": "4601FB", "flight": "FIN9D", "lat": 60.743594, "lon": 25.115727, "alt": 17725, "speed": 300.6, "last_seen": "28.11.2026 04:07 UTC"}];
+const aircraft = [{"hex": "4601FB", "flight": "FIN3KC", "lat": 60.743594, "lon": 25.115727, "alt": 16975, "speed": 300.6, "last_seen": "28.11.2026 11:34 UTC"}, {"hex": "4601F9", "flight": "FIN7DP", "lat": 62.409513, "lon": 26.579836, "alt": 16025, "speed": 251.8, "last_seen": "28.11.2026 09:28 UTC"}, {"hex": "78037B", "flight": "CAO3119", "lat": 61.137706, "lon": 24.888713, "alt": 36000, "speed": 471.8, "last_seen": "28.11.2026 09:26 UTC"}, {"hex": "4601FF", "flight": "FIN482", "lat": 62.493353, "lon": 26.291234, "alt": 19450, "speed": 308.0, "last_seen": "28.11.2026 08:48 UTC"}, {"hex": "780019", "flight": "CAO3157", "lat": 61.785, "lon": 27.729, "alt": 36000, "speed": "-", "last_seen": "28.11.2026 05:08 UTC"}];
 
 const map = new maplibregl.Map({
     container: 'map',
