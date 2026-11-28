@@ -1,28 +1,6 @@
 {
   "messages": [
     {
-      "time": "27.11.2026 15:13 UTC",
-      "source": "ACARS",
-      "flight": "JD0677",
-      "tail": "B-32MG",
-      "freq": 131.825,
-      "level": -37.6,
-      "label": "SA",
-      "msgno": "S20A",
-      "text": "0LH151314VS"
-    },
-    {
-      "time": "27.11.2026 16:20 UTC",
-      "source": "ACARS",
-      "flight": "CA1159",
-      "tail": "B-6115",
-      "freq": 131.825,
-      "level": -34.2,
-      "label": "10",
-      "msgno": "M56A",
-      "text": "POS271620,N 61.834,E 27.964,1715,466000,,,38000,30600"
-    },
-    {
       "time": "27.11.2026 18:42 UTC",
       "source": "ACARS",
       "flight": "MU0230",
@@ -329,6 +307,28 @@
       "label": "SA",
       "msgno": "M17A",
       "text": "0EV083457V"
+    },
+    {
+      "time": "28.11.2026 08:35 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATR",
+      "freq": 131.825,
+      "level": -25.2,
+      "label": "80",
+      "msgno": "M18A",
+      "text": "3701 INRANG 0482/28 EFKS/EFHK .OH-ATR\r\n/ETA 0900/ERT     "
+    },
+    {
+      "time": "28.11.2026 08:39 UTC",
+      "source": "ACARS",
+      "flight": "N70482",
+      "tail": "OH-ATR",
+      "freq": 131.825,
+      "level": -33.1,
+      "label": "5V",
+      "msgno": "S83A",
+      "text": "No text"
     }
   ]
 }
